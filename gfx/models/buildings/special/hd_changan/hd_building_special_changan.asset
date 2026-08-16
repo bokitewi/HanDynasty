@@ -1,0 +1,380 @@
+pdxmesh = {
+	name = "hd_building_special_changan_mesh"
+	file = "hd_building_special_changan.mesh"
+
+	cull_distance = 300.0
+
+	lod_percentages = {
+		lod = { index = 1 percent = 25.0 }
+	}
+
+	meshsettings = {
+		name = "HD_Changan_LOD0"
+		index = 0
+		texture_diffuse = "hd_changan_chengmeng02_diffuse.dds"
+		texture_normal = "hd_changan_normal.dds"
+		texture_specular = "hd_changan_properties.dds"
+		shader = "snap_to_terrain_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "HD_Changan_LOD0"
+		index = 1
+		texture_diffuse = "hd_changan_cheng_zhuan_diffuse.dds"
+		texture_normal = "hd_changan_normal.dds"
+		texture_specular = "hd_changan_properties.dds"
+		shader = "snap_to_terrain_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "HD_Changan_LOD0"
+		index = 2
+		texture_diffuse = "hd_changan_cheng_mu11_diffuse.dds"
+		texture_normal = "hd_changan_normal.dds"
+		texture_specular = "hd_changan_properties.dds"
+		shader = "snap_to_terrain_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "HD_Changan_LOD0"
+		index = 3
+		texture_diffuse = "hd_changan_changjin_wa02_diffuse.dds"
+		texture_normal = "hd_changan_normal.dds"
+		texture_specular = "hd_changan_properties.dds"
+		shader = "snap_to_terrain_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "HD_Changan_LOD0"
+		index = 4
+		texture_diffuse = "hd_changan_changjin_diban05_diffuse.dds"
+		texture_normal = "hd_changan_normal.dds"
+		texture_specular = "hd_changan_properties.dds"
+		shader = "snap_to_terrain_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "HD_Changan_LOD0"
+		index = 5
+		texture_diffuse = "hd_changan_cheng_taisoufu_diffuse.dds"
+		texture_normal = "hd_changan_normal.dds"
+		texture_specular = "hd_changan_properties.dds"
+		shader = "snap_to_terrain_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "HD_Changan_LOD0"
+		index = 6
+		texture_diffuse = "hd_changan_cheng_qiang12_diffuse.dds"
+		texture_normal = "hd_changan_normal.dds"
+		texture_specular = "hd_changan_properties.dds"
+		shader = "snap_to_terrain_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "HD_Changan_LOD0"
+		index = 7
+		texture_diffuse = "hd_changan_cheng_di06_diffuse.dds"
+		texture_normal = "hd_changan_normal.dds"
+		texture_specular = "hd_changan_properties.dds"
+		shader = "snap_to_terrain_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "HD_Changan_LOD0"
+		index = 8
+		texture_diffuse = "hd_changan_cheng_deng_diffuse.dds"
+		texture_normal = "hd_changan_normal.dds"
+		texture_specular = "hd_changan_properties.dds"
+		shader = "snap_to_terrain_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "HD_Changan_LOD0"
+		index = 9
+		texture_diffuse = "hd_changan_cheng_wa02_diffuse.dds"
+		texture_normal = "hd_changan_normal.dds"
+		texture_specular = "hd_changan_properties.dds"
+		shader = "snap_to_terrain_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "HD_Changan_LOD0"
+		index = 10
+		texture_diffuse = "hd_changan_cheng_fanyan01_diffuse.dds"
+		texture_normal = "hd_changan_normal.dds"
+		texture_specular = "hd_changan_properties.dds"
+		shader = "snap_to_terrain_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "HD_Changan_LOD0"
+		index = 11
+		texture_diffuse = "hd_changan_cheng_chuang01_diffuse.dds"
+		texture_normal = "hd_changan_normal.dds"
+		texture_specular = "hd_changan_properties.dds"
+		shader = "snap_to_terrain_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "HD_Changan_LOD0"
+		index = 12
+		texture_diffuse = "hd_changan_cheng_zi04_diffuse.dds"
+		texture_normal = "hd_changan_normal.dds"
+		texture_specular = "hd_changan_properties.dds"
+		shader = "snap_to_terrain_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "HD_Changan_LOD0"
+		index = 13
+		texture_diffuse = "hd_changan_fanzi016_diffuse.dds"
+		texture_normal = "hd_changan_normal.dds"
+		texture_specular = "hd_changan_properties.dds"
+		shader = "snap_to_terrain_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "HD_Changan_LOD0"
+		index = 14
+		texture_diffuse = "hd_changan_fanzi015_diffuse.dds"
+		texture_normal = "hd_changan_normal.dds"
+		texture_specular = "hd_changan_properties.dds"
+		shader = "snap_to_terrain_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "HD_Changan_LOD0"
+		index = 15
+		texture_diffuse = "hd_changan_fanzi011_diffuse.dds"
+		texture_normal = "hd_changan_normal.dds"
+		texture_specular = "hd_changan_properties.dds"
+		shader = "snap_to_terrain_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "HD_Changan_LOD0"
+		index = 16
+		texture_diffuse = "hd_changan_fanzi017_diffuse.dds"
+		texture_normal = "hd_changan_normal.dds"
+		texture_specular = "hd_changan_properties.dds"
+		shader = "snap_to_terrain_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "HD_Changan_LOD0"
+		index = 17
+		texture_diffuse = "hd_changan_changjin_diban06_diffuse.dds"
+		texture_normal = "hd_changan_normal.dds"
+		texture_specular = "hd_changan_properties.dds"
+		shader = "snap_to_terrain_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "HD_Changan_LOD0"
+		index = 18
+		texture_diffuse = "hd_changan_changjin_qiang10_diffuse.dds"
+		texture_normal = "hd_changan_normal.dds"
+		texture_specular = "hd_changan_properties.dds"
+		shader = "snap_to_terrain_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "HD_Changan_LOD1"
+		index = 0
+		texture_diffuse = "hd_changan_chengmeng02_diffuse.dds"
+		texture_normal = "hd_changan_normal.dds"
+		texture_specular = "hd_changan_properties.dds"
+		shader = "snap_to_terrain_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "HD_Changan_LOD1"
+		index = 1
+		texture_diffuse = "hd_changan_cheng_zhuan_diffuse.dds"
+		texture_normal = "hd_changan_normal.dds"
+		texture_specular = "hd_changan_properties.dds"
+		shader = "snap_to_terrain_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "HD_Changan_LOD1"
+		index = 2
+		texture_diffuse = "hd_changan_cheng_mu11_diffuse.dds"
+		texture_normal = "hd_changan_normal.dds"
+		texture_specular = "hd_changan_properties.dds"
+		shader = "snap_to_terrain_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "HD_Changan_LOD1"
+		index = 3
+		texture_diffuse = "hd_changan_changjin_wa02_diffuse.dds"
+		texture_normal = "hd_changan_normal.dds"
+		texture_specular = "hd_changan_properties.dds"
+		shader = "snap_to_terrain_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "HD_Changan_LOD1"
+		index = 4
+		texture_diffuse = "hd_changan_changjin_diban05_diffuse.dds"
+		texture_normal = "hd_changan_normal.dds"
+		texture_specular = "hd_changan_properties.dds"
+		shader = "snap_to_terrain_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "HD_Changan_LOD1"
+		index = 5
+		texture_diffuse = "hd_changan_cheng_taisoufu_diffuse.dds"
+		texture_normal = "hd_changan_normal.dds"
+		texture_specular = "hd_changan_properties.dds"
+		shader = "snap_to_terrain_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "HD_Changan_LOD1"
+		index = 6
+		texture_diffuse = "hd_changan_cheng_qiang12_diffuse.dds"
+		texture_normal = "hd_changan_normal.dds"
+		texture_specular = "hd_changan_properties.dds"
+		shader = "snap_to_terrain_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "HD_Changan_LOD1"
+		index = 7
+		texture_diffuse = "hd_changan_cheng_di06_diffuse.dds"
+		texture_normal = "hd_changan_normal.dds"
+		texture_specular = "hd_changan_properties.dds"
+		shader = "snap_to_terrain_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "HD_Changan_LOD1"
+		index = 8
+		texture_diffuse = "hd_changan_cheng_deng_diffuse.dds"
+		texture_normal = "hd_changan_normal.dds"
+		texture_specular = "hd_changan_properties.dds"
+		shader = "snap_to_terrain_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "HD_Changan_LOD1"
+		index = 9
+		texture_diffuse = "hd_changan_cheng_wa02_diffuse.dds"
+		texture_normal = "hd_changan_normal.dds"
+		texture_specular = "hd_changan_properties.dds"
+		shader = "snap_to_terrain_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "HD_Changan_LOD1"
+		index = 10
+		texture_diffuse = "hd_changan_cheng_fanyan01_diffuse.dds"
+		texture_normal = "hd_changan_normal.dds"
+		texture_specular = "hd_changan_properties.dds"
+		shader = "snap_to_terrain_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "HD_Changan_LOD1"
+		index = 11
+		texture_diffuse = "hd_changan_cheng_chuang01_diffuse.dds"
+		texture_normal = "hd_changan_normal.dds"
+		texture_specular = "hd_changan_properties.dds"
+		shader = "snap_to_terrain_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "HD_Changan_LOD1"
+		index = 12
+		texture_diffuse = "hd_changan_cheng_zi04_diffuse.dds"
+		texture_normal = "hd_changan_normal.dds"
+		texture_specular = "hd_changan_properties.dds"
+		shader = "snap_to_terrain_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "HD_Changan_LOD1"
+		index = 13
+		texture_diffuse = "hd_changan_fanzi016_diffuse.dds"
+		texture_normal = "hd_changan_normal.dds"
+		texture_specular = "hd_changan_properties.dds"
+		shader = "snap_to_terrain_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "HD_Changan_LOD1"
+		index = 14
+		texture_diffuse = "hd_changan_fanzi015_diffuse.dds"
+		texture_normal = "hd_changan_normal.dds"
+		texture_specular = "hd_changan_properties.dds"
+		shader = "snap_to_terrain_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "HD_Changan_LOD1"
+		index = 15
+		texture_diffuse = "hd_changan_fanzi011_diffuse.dds"
+		texture_normal = "hd_changan_normal.dds"
+		texture_specular = "hd_changan_properties.dds"
+		shader = "snap_to_terrain_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "HD_Changan_LOD1"
+		index = 16
+		texture_diffuse = "hd_changan_fanzi017_diffuse.dds"
+		texture_normal = "hd_changan_normal.dds"
+		texture_specular = "hd_changan_properties.dds"
+		shader = "snap_to_terrain_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "HD_Changan_LOD1"
+		index = 17
+		texture_diffuse = "hd_changan_changjin_diban06_diffuse.dds"
+		texture_normal = "hd_changan_normal.dds"
+		texture_specular = "hd_changan_properties.dds"
+		shader = "snap_to_terrain_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "HD_Changan_LOD1"
+		index = 18
+		texture_diffuse = "hd_changan_changjin_qiang10_diffuse.dds"
+		texture_normal = "hd_changan_normal.dds"
+		texture_specular = "hd_changan_properties.dds"
+		shader = "snap_to_terrain_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "HD_Changan_Ground_LOD0"
+		index = 0
+		texture_diffuse = "hd_changan_ground_diffuse.dds"
+		texture_normal = "hd_changan_ground_normal.dds"
+		texture_specular = "hd_changan_ground_properties.dds"
+		shader = "decal_local"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "LocalDecals"
+	}
+	meshsettings = {
+		name = "HD_Changan_Ground_LOD1"
+		index = 0
+		texture_diffuse = "hd_changan_ground_diffuse.dds"
+		texture_normal = "hd_changan_ground_normal.dds"
+		texture_specular = "hd_changan_ground_properties.dds"
+		shader = "decal_local"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "LocalDecals"
+	}
+}
+
+entity = {
+	name = "hd_building_special_changan_entity"
+	pdxmesh = "hd_building_special_changan_mesh"
+}
