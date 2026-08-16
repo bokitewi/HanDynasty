@@ -53,5 +53,29 @@ hd_legendary_weapons_after_lobby = {
 			}
 			set_global_variable = hd_wushuang_fangtian_huaji_initialized
 		}
+
+		if = {
+			limit = {
+				NOT = { exists = global_var:hd_qixing_baodao_initialized }
+				exists = character:wang_yun
+				character:wang_yun = { is_alive = yes }
+			}
+			character:wang_yun = {
+				hd_create_qixing_baodao_effect = { OWNER = this }
+			}
+			set_global_variable = hd_qixing_baodao_initialized
+		}
+
+		if = {
+			limit = {
+				NOT = { exists = global_var:hd_qixing_baodao_initialized }
+				exists = character:cao_cao
+				character:cao_cao = { is_alive = yes }
+			}
+			character:cao_cao = {
+				hd_create_qixing_baodao_effect = { OWNER = this }
+			}
+			set_global_variable = hd_qixing_baodao_initialized
+		}
 	}
 }

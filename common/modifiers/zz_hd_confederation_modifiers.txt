@@ -1,0 +1,21 @@
+hd_league_member_modifier = {
+	diplomacy = 1
+	monthly_prestige = 0.05
+}
+
+hd_league_leader_modifier = {
+	diplomacy = 2
+	martial = 2
+	monthly_prestige = 0.2
+}
+
+hd_league_disorganized_modifier = {
+	diplomacy = -2
+	martial = -1
+	monthly_prestige = -0.1
+}
+
+hd_anti_regent_league_modifier = {
+	martial = 1
+	monthly_prestige = 0.1
+}

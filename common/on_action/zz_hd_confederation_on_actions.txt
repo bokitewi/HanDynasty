@@ -1,0 +1,25 @@
+### Global maintenance for repaired defensive leagues ###
+
+yearly_global_pulse = {
+	on_actions = { hd_confederation_yearly_pulse }
+}
+
+hd_confederation_yearly_pulse = {
+	effect = {
+		every_ruler = {
+			if = {
+				limit = {
+					hd_is_hd_defensive_league = yes
+					confederation = {
+						NOT = {
+							has_variable = hd_last_election_year
+							var:hd_last_election_year = current_year
+						}
+					}
+				}
+				confederation = { set_variable = { name = hd_last_election_year value = current_year } }
+				trigger_event = { id = hd_confederation.0400 days = 1 }
+			}
+		}
+	}
+}

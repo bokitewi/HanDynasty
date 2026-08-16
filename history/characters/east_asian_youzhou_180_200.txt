@@ -117,6 +117,11 @@ han_zong={
 ##### 【张飞】
 zhang_fei={
 	name="uuii_book_zhang_fei_name" #飞
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_beards=m_beard_tgp_japanese_02
+		}
+	}
 	dynasty_house="house_111010024031013"
 	culture="youzhou"
 	faith="jingxue"

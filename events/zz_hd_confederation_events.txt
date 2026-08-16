@@ -1,0 +1,86 @@
+namespace = hd_confederation
+
+# Five-year election pulse.  It is invoked by the global yearly pulse and is
+# hidden so that only the resulting leader change appears in the interface.
+hd_confederation.0400 = {
+	type = character_event
+	hidden = yes
+
+	immediate = {
+		if = {
+			limit = {
+				hd_is_hd_defensive_league = yes
+				confederation = {
+					has_variable = hd_league_creation_year
+					current_year >= var:hd_league_creation_year + 5
+				}
+			}
+			confederation = {
+				set_variable = { name = hd_league_creation_year value = current_year }
+			}
+			hd_update_league_votes_effect = yes
+			hd_finalize_league_election_effect = yes
+		}
+	}
+}
+
+hd_confederation.0500 = {
+	type = character_event
+	title = hd_confederation.0500.t
+	desc = hd_confederation.0500.desc
+	theme = crown
+
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+
+	trigger = {
+		is_alive = yes
+		hd_is_hd_defensive_league = yes
+		has_variable = hd_league_leader
+		var:hd_league_leader = root
+	}
+
+	immediate = {
+		capital_county = {
+			de_jure_liege.de_jure_liege = { save_scope_as = hd_target_kingdom }
+		}
+		confederation = { save_scope_as = hd_unifying_league }
+		if = {
+			limit = {
+				exists = scope:hd_target_kingdom
+				scope:hd_target_kingdom = { exists = holder holder != root }
+			}
+			create_title_and_vassal_change = { type = usurped save_scope_as = hd_unification_change }
+			scope:hd_target_kingdom = {
+				change_title_holder = { holder = root change = scope:hd_unification_change }
+			}
+		}
+		else_if = {
+			limit = { exists = scope:hd_target_kingdom }
+			create_title_and_vassal_change = { type = created save_scope_as = hd_unification_change }
+			scope:hd_target_kingdom = {
+				change_title_holder = { holder = root change = scope:hd_unification_change }
+			}
+		}
+		if = {
+			limit = { exists = scope:hd_unification_change }
+			resolve_title_and_vassal_change = scope:hd_unification_change
+		}
+		scope:hd_unifying_league = {
+			every_confederation_member = {
+				limit = { this != root is_independent_ruler = yes }
+				create_title_and_vassal_change = { type = swear_fealty save_scope_as = hd_fealty_change }
+				change_liege = { liege = root change = scope:hd_fealty_change }
+				resolve_title_and_vassal_change = scope:hd_fealty_change
+			}
+		}
+		add_character_modifier = { modifier = hd_league_leader_modifier years = 20 }
+		add_prestige = 1000
+		add_dread = 25
+		hd_disband_league_effect = yes
+	}
+
+	option = { name = hd_confederation.0500.a }
+}

@@ -1,0 +1,290 @@
+namespace = hd_anti_regent
+
+# Yuan Shao creates the event-only anti-regent league.
+hd_anti_regent.0001 = {
+	type = character_event
+	title = hd_anti_regent.0001.t
+	desc = hd_anti_regent.0001.desc
+	theme = war
+	left_portrait = { character = root animation = personality_bold }
+
+	trigger = {
+		is_alive = yes
+		is_landed = yes
+		OR = { this = character:yuan_shao has_character_flag = hd_anti_regent_league_founder }
+	}
+
+	immediate = {
+		title:e_han.holder = {
+			if = {
+				limit = { exists = diarch }
+				diarch = { save_scope_as = hd_anti_regent_target }
+			}
+		}
+		if = {
+			limit = { exists = scope:hd_anti_regent_target }
+			scope:hd_anti_regent_target = {
+				add_character_flag = hd_current_han_regent
+			}
+			create_confederation = {
+				name = HD_ANTI_REGENT_LEAGUE_NAME
+				type = confederation_type:hd_anti_regent_league_type
+			}
+			confederation = {
+				set_variable = { name = hd_anti_regent_target value = scope:hd_anti_regent_target }
+				set_variable = { name = hd_anti_regent_leader value = root }
+				set_variable = { name = hd_anti_regent_invites_open value = yes }
+			}
+			add_character_flag = hd_anti_regent_league_leader
+			add_character_modifier = { modifier = hd_anti_regent_league_modifier years = 5 }
+		}
+	}
+
+	option = {
+		name = hd_anti_regent.0001.a
+		trigger_event = { id = hd_anti_regent.0002 months = 1 }
+		ai_chance = { base = 100 }
+	}
+}
+
+# Build the invitation list one month after the alliance is announced.
+hd_anti_regent.0002 = {
+	type = character_event
+	hidden = yes
+	trigger = { is_alive = yes has_character_flag = hd_anti_regent_league_leader }
+
+	immediate = {
+		save_scope_as = hd_inviting_leader
+		confederation = { save_scope_as = hd_inviting_league }
+		title:e_han.holder = {
+			every_vassal_or_below = {
+				limit = {
+					is_alive = yes
+					highest_held_title_tier >= tier_duchy
+					NOT = { this = scope:hd_inviting_leader }
+					NOT = { this = scope:hd_inviting_league.var:hd_anti_regent_target }
+				}
+				set_variable = { name = hd_anti_regent_inviter value = scope:hd_inviting_leader }
+				trigger_event = { id = hd_anti_regent.0003 days = 1 }
+			}
+		}
+		every_ruler = {
+			limit = {
+				is_alive = yes
+				highest_held_title_tier >= tier_duchy
+				is_independent_ruler = yes
+				NOT = { this = scope:hd_inviting_leader }
+				NOT = { this = scope:hd_inviting_league.var:hd_anti_regent_target }
+				OR = {
+					top_liege = { this = title:e_han.holder }
+					any_held_title = { hegemony = title:h_china }
+				}
+			}
+			set_variable = { name = hd_anti_regent_inviter value = scope:hd_inviting_leader }
+			trigger_event = { id = hd_anti_regent.0003 days = 1 }
+		}
+	}
+}
+
+hd_anti_regent.0003 = {
+	type = character_event
+	title = hd_anti_regent.0003.t
+	desc = hd_anti_regent.0003.desc
+	theme = war
+	left_portrait = { character = root animation = personality_bold }
+
+	trigger = {
+		is_alive = yes
+		has_variable = hd_anti_regent_inviter
+		var:hd_anti_regent_inviter = { is_alive = yes has_character_flag = hd_anti_regent_league_leader }
+	}
+
+	option = {
+		name = hd_anti_regent.0003.a
+		var:hd_anti_regent_inviter = {
+			confederation = { add_confederation_member = root }
+		}
+		add_character_flag = hd_anti_regent_league_member
+		remove_variable = hd_anti_regent_inviter
+		ai_chance = {
+			base = 40
+			modifier = { add = 45 opinion = { target = var:hd_anti_regent_inviter value >= 50 } }
+			modifier = { add = 30 has_trait = brave }
+			modifier = { add = 25 has_trait = ambitious }
+			modifier = { add = -50 has_trait = craven }
+			modifier = { add = -40 opinion = { target = var:hd_anti_regent_inviter value <= -30 } }
+		}
+	}
+
+	option = {
+		name = hd_anti_regent.0003.b
+		remove_variable = hd_anti_regent_inviter
+		ai_chance = { base = 60 }
+	}
+}
+
+# The first war ended in victory or white peace.  The player-controlled Yuan
+# receives the decision; AI Yuan follows the historical choice to continue.
+hd_anti_regent.0100 = {
+	type = character_event
+	title = hd_anti_regent.0100.t
+	desc = hd_anti_regent.0100.desc
+	theme = war
+	left_portrait = { character = root animation = personality_bold }
+
+	trigger = {
+		is_alive = yes
+		has_character_flag = hd_anti_regent_league_leader
+		has_variable = hd_anti_regent_target
+		var:hd_anti_regent_target = { is_alive = yes }
+	}
+
+	option = {
+		name = hd_anti_regent.0100.a
+		start_war = { cb = hd_enter_the_passes_cb target = var:hd_anti_regent_target }
+		ai_chance = { base = 35 }
+	}
+	option = {
+		name = hd_anti_regent.0100.b
+		hd_disband_league_effect = yes
+		remove_character_flag = hd_anti_regent_league_leader
+		hd_enter_dynastic_chaos_effect = yes
+		ai_chance = { base = 65 }
+	}
+}
+
+hd_anti_regent.0101 = {
+	type = character_event
+	hidden = yes
+	trigger = { is_alive = yes has_character_flag = hd_anti_regent_league_leader }
+	immediate = {
+		hd_disband_league_effect = yes
+		remove_character_flag = hd_anti_regent_league_leader
+	}
+}
+
+# Second-war victory.  Personal landed titles are collected as top-level
+# de-jure packages and allocated by contribution-adjusted remaining quota.
+hd_anti_regent.0200 = {
+	type = character_event
+	title = hd_anti_regent.0200.t
+	desc = hd_anti_regent.0200.desc
+	theme = crown
+	left_portrait = { character = root animation = personality_bold }
+
+	trigger = {
+		is_alive = yes
+		has_character_flag = hd_anti_regent_league_leader
+		has_variable = hd_anti_regent_target
+	}
+
+	immediate = {
+		var:hd_anti_regent_target = {
+			every_held_title = {
+				limit = {
+					is_landless_type_title = no
+					tier >= tier_county
+					NOT = { this = title:e_han }
+					NOT = { this = title:h_china }
+					NOT = { is_noble_family_title = yes }
+					NOT = { de_jure_liege = { holder = root.var:hd_anti_regent_target } }
+				}
+				add_to_list = hd_anti_regent_spoils
+				if = {
+					limit = { tier >= tier_kingdom }
+					root = { change_variable = { name = hd_spoils_weight add = 9 } }
+				}
+				else_if = {
+					limit = { tier = tier_duchy }
+					root = { change_variable = { name = hd_spoils_weight add = 3 } }
+				}
+				else = { root = { change_variable = { name = hd_spoils_weight add = 1 } } }
+			}
+		}
+		if = { limit = { NOT = { has_variable = hd_spoils_weight } } set_variable = { name = hd_spoils_weight value = 0 } }
+
+		# Prepare contribution shares.  A zero-contribution member remains in the
+		# alliance UI but cannot receive a package.
+		confederation = {
+			set_variable = { name = hd_total_enter_contribution value = 0 }
+			every_confederation_member = {
+				if = { limit = { NOT = { has_variable = hd_enter_contribution } } set_variable = { name = hd_enter_contribution value = 0 } }
+				change_variable = { name = hd_total_enter_contribution add = var:hd_enter_contribution }
+				set_variable = { name = hd_received_spoils_weight value = 0 }
+			}
+		}
+
+		ordered_in_list = {
+			list = hd_anti_regent_spoils
+			order_by = tier
+			save_temporary_scope_as = hd_spoils_title
+			# The highest remaining contribution quota receives this package.
+			confederation = {
+				ordered_confederation_member = {
+					order_by = var:hd_enter_contribution
+					limit = { var:hd_enter_contribution > 0 }
+					save_temporary_scope_as = hd_spoils_recipient
+				}
+			}
+			if = {
+				limit = { exists = scope:hd_spoils_recipient }
+				create_title_and_vassal_change = { type = conquest save_scope_as = hd_spoils_change }
+				scope:hd_spoils_title = {
+					change_title_holder_include_vassals = {
+						holder = scope:hd_spoils_recipient
+						change = scope:hd_spoils_change
+						take_baronies = no
+					}
+				}
+				resolve_title_and_vassal_change = scope:hd_spoils_change
+			}
+		}
+
+		if = {
+			limit = { character:yuan_shao ?= { is_alive = yes } }
+			character:yuan_shao = {
+				set_variable = { name = hd_current_han_regent value = yes }
+				add_character_flag = hd_current_han_regent
+				try_start_diarchy = regency
+				set_diarch = this
+				set_diarchy_swing = 95
+			}
+		}
+		hd_disband_league_effect = yes
+		remove_character_flag = hd_anti_regent_league_leader
+		remove_variable = hd_anti_regent_target
+		remove_variable = hd_spoils_weight
+		hd_disband_league_effect = yes
+	}
+
+	option = { name = hd_anti_regent.0200.a }
+}
+
+# Defeat or white peace in the second war: dissolve the coalition and enter
+# the existing dynastic-cycle chaos phase.
+hd_anti_regent.0201 = {
+	type = character_event
+	hidden = yes
+	trigger = { is_alive = yes has_character_flag = hd_anti_regent_league_leader }
+	immediate = {
+		hd_disband_league_effect = yes
+		remove_character_flag = hd_anti_regent_league_leader
+		hd_enter_dynastic_chaos_effect = yes
+	}
+}
+
+hd_confederation.0600 = {
+	type = character_event
+	hidden = yes
+	trigger = { is_alive = yes has_variable = hd_subjugated_league_target }
+	immediate = {
+		var:hd_subjugated_league_target = {
+			if = {
+				limit = { is_alive = yes }
+				set_variable = { name = hd_league_leader value = root }
+			}
+		}
+		confederation = { add_confederation_member = var:hd_subjugated_league_target }
+		remove_variable = hd_subjugated_league_target
+	}
+}

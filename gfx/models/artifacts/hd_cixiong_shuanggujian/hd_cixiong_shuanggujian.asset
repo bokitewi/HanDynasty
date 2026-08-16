@@ -9,6 +9,10 @@ pdxmesh = {
 		texture_specular = "hd_cixiong_shuanggujian_main_properties.dds"
 		shader = "portrait_attachment"
 		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = {
+			"DOUBLE_SIDED_ENABLED"
+		}
 	}
 }
 
@@ -28,6 +32,10 @@ pdxmesh = {
 		texture_specular = "hd_cixiong_shuanggujian_main_properties.dds"
 		shader = "court"
 		shader_file = "gfx/FX/court_scene.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = {
+			"DOUBLE_SIDED_ENABLED"
+		}
 	}
 }
 

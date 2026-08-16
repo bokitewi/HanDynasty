@@ -1,0 +1,32 @@
+hd_qixing_baodao_to_court = {
+	in_type = sword
+	in_visuals = hd_qixing_baodao
+	out_type = pedestal
+	out_visuals = hd_qixing_baodao_court
+	template = hd_legendary_weapon_template
+	disallowed_modifiers = {
+		prowess
+		intrigue
+		owned_scheme_secrecy_add
+		monthly_prestige
+	}
+	replacement_modifiers = {
+		illustrious = { hd_qixing_baodao_court_modifier }
+	}
+}
+
+hd_qixing_baodao_to_weapon = {
+	in_type = pedestal
+	in_visuals = hd_qixing_baodao_court
+	out_type = sword
+	out_visuals = hd_qixing_baodao
+	template = hd_legendary_weapon_template
+	disallowed_modifiers = {
+		court_grandeur_baseline_add
+		intrigue
+		monthly_prestige
+	}
+	replacement_modifiers = {
+		illustrious = { hd_qixing_baodao_weapon_modifier }
+	}
+}

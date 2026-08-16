@@ -1,0 +1,202 @@
+### Han Dynasty defensive league effects ###
+
+hd_mark_league_leader_effect = {
+	$LEADER$ = {
+		set_variable = { name = hd_league_leader value = $LEADER$ }
+		if = {
+			limit = { NOT = { has_character_modifier = hd_league_leader_modifier } }
+			add_character_modifier = { modifier = hd_league_leader_modifier }
+		}
+	}
+	if = {
+		limit = { exists = confederation }
+		confederation = {
+			every_confederation_member = {
+				set_variable = { name = hd_league_leader value = $LEADER$ }
+				if = {
+					limit = {
+						this != $LEADER$
+						has_character_modifier = hd_league_leader_modifier
+					}
+					remove_character_modifier = hd_league_leader_modifier
+				}
+			}
+		}
+	}
+}
+
+hd_update_league_votes_effect = {
+	if = {
+		limit = {
+			exists = confederation
+			confederation = {
+				OR = {
+					confederation_type = confederation_type:hd_defensive_league_type
+					confederation_type = confederation_type:hd_anti_regent_league_type
+				}
+			}
+		}
+		confederation = {
+			save_scope_as = hd_current_league
+			if = {
+				limit = { NOT = { has_variable = hd_league_creation_year } }
+				set_variable = { name = hd_league_creation_year value = current_year }
+			}
+			# The event alliance is intentionally excluded from the election loop.
+			if = {
+				limit = { confederation_type = confederation_type:hd_defensive_league_type }
+				every_confederation_member = {
+					if = {
+						limit = { is_ai = yes }
+						set_variable = { name = hd_best_league_candidate value = this }
+						set_variable = { name = hd_best_league_score value = 0 }
+						scope:hd_current_league = {
+							every_confederation_member = {
+								limit = { this != prev }
+								if = {
+									limit = { opinion = { target = prev value >= 80 } }
+									prev = { change_variable = { name = hd_best_league_score add = 80 } }
+								}
+								if = {
+									limit = { opinion = { target = prev value >= 30 } }
+									prev = { change_variable = { name = hd_best_league_score add = 30 } }
+								}
+							}
+						}
+						# AI votes for the highest visible candidate; the initial default
+						# remains self if no relationship provides a stronger preference.
+						set_variable = { name = hd_league_vote value = var:hd_best_league_candidate }
+						remove_variable = hd_best_league_candidate
+						remove_variable = hd_best_league_score
+					}
+					if = {
+						limit = { NOT = { has_variable = hd_league_vote } }
+						set_variable = { name = hd_league_vote value = this }
+					}
+				}
+			}
+			every_confederation_member = {
+				if = {
+					limit = {
+						has_variable = hd_league_leader
+						var:hd_league_leader = { is_alive = no }
+					}
+					remove_variable = hd_league_leader
+				}
+			}
+		}
+	}
+}
+
+hd_finalize_league_election_effect = {
+	if = {
+		limit = {
+			exists = confederation
+			confederation = { confederation_type = confederation_type:hd_defensive_league_type }
+		}
+		confederation = {
+			save_scope_as = hd_election_league
+			set_variable = { name = hd_total_voters value = 0 }
+			every_confederation_member = {
+				change_variable = { name = hd_total_voters add = 1 }
+			}
+			# One pass per candidate; a candidate must receive 60% of votes.
+			every_confederation_member = {
+				save_temporary_scope_as = hd_candidate
+				set_variable = { name = hd_candidate_votes value = 0 }
+				scope:hd_election_league = {
+					every_confederation_member = {
+						limit = {
+							has_variable = hd_league_vote
+							var:hd_league_vote = scope:hd_candidate
+						}
+						scope:hd_candidate = { change_variable = { name = hd_candidate_votes add = 1 } }
+					}
+				}
+				if = {
+					limit = {
+						var:hd_candidate_votes >= 1
+						var:hd_candidate_votes * 100 >= scope:hd_election_league.var:hd_total_voters * 60
+					}
+					scope:hd_election_league = { set_variable = { name = hd_winning_candidate value = scope:hd_candidate } }
+				}
+				scope:hd_candidate = { remove_variable = hd_candidate_votes }
+			}
+			if = {
+				limit = { has_variable = hd_winning_candidate }
+				hd_mark_league_leader_effect = { LEADER = var:hd_winning_candidate }
+				every_confederation_member = {
+					if = {
+						limit = { has_character_modifier = hd_league_disorganized_modifier }
+						remove_character_modifier = hd_league_disorganized_modifier
+					}
+					remove_variable = hd_league_vote
+				}
+			}
+			else = {
+				every_confederation_member = {
+					if = { limit = { NOT = { has_character_modifier = hd_league_disorganized_modifier } } add_character_modifier = { modifier = hd_league_disorganized_modifier } }
+				}
+			}
+			remove_variable = hd_winning_candidate
+			remove_variable = hd_total_voters
+		}
+	}
+}
+
+hd_disband_league_effect = {
+	if = {
+		limit = { exists = confederation }
+		confederation = {
+			save_scope_as = hd_disbanding_league
+			every_confederation_member = {
+				save_temporary_scope_as = hd_leaving_member
+				remove_variable = hd_league_leader
+				remove_variable = hd_anti_regent_league_target
+				remove_variable = hd_league_vote
+				if = { limit = { has_character_modifier = hd_league_leader_modifier } remove_character_modifier = hd_league_leader_modifier }
+			if = { limit = { has_character_modifier = hd_league_disorganized_modifier } remove_character_modifier = hd_league_disorganized_modifier }
+			confederation = { remove_confederation_member = scope:hd_leaving_member }
+			}
+		}
+	}
+}
+
+hd_call_league_members_to_all_offensive_wars_effect = {
+	if = {
+		limit = { exists = confederation }
+		confederation = {
+			save_scope_as = hd_calling_league
+			every_confederation_member = {
+				limit = {
+					this != root
+					is_alive = yes
+					is_imprisoned = no
+				}
+				root = {
+					every_character_war = {
+						limit = {
+							primary_attacker = root
+							NOT = { is_attacker_in_war = prev }
+						}
+						add_attacker = prev
+					}
+				}
+			}
+		}
+	}
+}
+
+hd_enter_dynastic_chaos_effect = {
+	if = {
+		limit = {
+			exists = situation:dynastic_cycle
+			situation:dynastic_cycle = {
+				NOT = { situation_current_phase = situation_dynastic_cycle_phase_chaos }
+			}
+		}
+		situation:dynastic_cycle = {
+			change_phase = { phase = situation_dynastic_cycle_phase_chaos }
+		}
+	}
+}

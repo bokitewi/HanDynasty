@@ -20297,6 +20297,11 @@ guan_jing={
 ##### 【关羽】
 guan_yu={
 	name="uuii_book_guan_yu_name" #羽
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_beards=male_beard_rtt_01
+		}
+	}
 	dynasty_house="house_111010392002013"
 	culture="han"
 	faith="jingxue"
