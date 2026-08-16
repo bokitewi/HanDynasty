@@ -1,0 +1,294 @@
+﻿namespace = rp_retainer
+
+rp_retainer.0001 = {
+	type = character_event
+	title = rp_retainer.0001.t
+	theme = stewardship
+	override_background = { reference = tgp_chinese_corridor_day }
+	override_icon = { reference = "gfx/interface/icons/event_types/type_stewardship.dds" }
+	desc = rp_retainer.0001.desc
+
+	option = {
+		name = rp_retainer.0001.a
+		add_prestige = 25
+	}
+}
+
+rp_retainer.0002 = {
+	type = character_event
+	title = rp_retainer.0002.t
+	theme = diplomacy
+	override_background = { reference = tgp_chinese_corridor_day }
+	override_icon = { reference = "gfx/interface/icons/event_types/type_diplomacy.dds" }
+	desc = rp_retainer.0002.desc
+	right_portrait = scope:rp_retainer
+
+	immediate = {
+		rp_create_general_retainer_effect = yes
+	}
+
+	option = {
+		name = rp_retainer.0002.a
+		add_prestige = 25
+	}
+
+	option = {
+		name = rp_retainer.0002.b
+		trigger = { gold >= 20 }
+		remove_short_term_gold = 20
+		rp_dismiss_candidate_retainer_effect = yes
+	}
+
+	option = {
+		name = rp_retainer.0002.c
+		trigger = {
+			gold >= 10
+			rp_has_gentle_disposition_trigger = yes
+		}
+		remove_short_term_gold = 10
+		add_prestige = 35
+		scope:rp_retainer = {
+			add_opinion = { target = root modifier = rp_retainer_recruited_high_opinion }
+		}
+	}
+
+	option = {
+		name = rp_retainer.0002.d
+		trigger = {
+			rp_has_forceful_disposition_trigger = yes
+		}
+		add_prestige = 20
+		add_dread = 5
+		scope:rp_retainer = {
+			add_opinion = { target = root modifier = rp_retainer_recruited_opinion }
+		}
+	}
+
+	option = {
+		name = rp_retainer.0002.e
+		trigger = {
+			rp_has_cunning_disposition_trigger = yes
+		}
+		add_prestige = 10
+		scope:rp_retainer = {
+			add_opinion = { target = root modifier = rp_retainer_cautious_review_opinion }
+			add_character_flag = {
+				flag = rp_retainer_under_review
+				years = 5
+			}
+		}
+	}
+}
+
+rp_retainer.0003 = {
+	type = character_event
+	title = rp_retainer.0003.t
+	theme = diplomacy
+	override_background = { reference = tgp_chinese_corridor_day }
+	override_icon = { reference = "gfx/interface/icons/event_types/type_diplomacy.dds" }
+	desc = rp_retainer.0003.desc
+	right_portrait = scope:rp_retainer
+
+	immediate = {
+		rp_create_good_retainer_effect = yes
+	}
+
+	option = {
+		name = rp_retainer.0003.a
+		add_prestige = 50
+	}
+
+	option = {
+		name = rp_retainer.0003.b
+		trigger = { gold >= 30 }
+		remove_short_term_gold = 30
+		rp_dismiss_candidate_retainer_effect = yes
+	}
+}
+
+rp_retainer.0004 = {
+	type = character_event
+	title = rp_retainer.0004.t
+	theme = diplomacy
+	override_background = { reference = tgp_chinese_corridor_day }
+	override_icon = { reference = "gfx/interface/icons/event_types/type_diplomacy.dds" }
+	desc = rp_retainer.0004.desc
+	right_portrait = scope:rp_retainer
+
+	immediate = {
+		rp_create_excellent_retainer_effect = yes
+	}
+
+	option = {
+		name = rp_retainer.0004.a
+		add_prestige = 75
+	}
+
+	option = {
+		name = rp_retainer.0004.b
+		trigger = { gold >= 40 }
+		remove_short_term_gold = 40
+		rp_dismiss_candidate_retainer_effect = yes
+	}
+}
+
+rp_retainer.0005 = {
+	type = character_event
+	title = rp_retainer.0005.t
+	theme = learning
+	override_background = { reference = tgp_chinese_corridor_day }
+	override_icon = { reference = "gfx/interface/icons/event_types/type_learning.dds" }
+	desc = rp_retainer.0005.desc
+	right_portrait = scope:rp_retainer
+
+	immediate = {
+		rp_create_prodigy_retainer_effect = yes
+	}
+
+	option = {
+		name = rp_retainer.0005.a
+		add_prestige = 100
+		if = {
+			limit = { gold >= 50 }
+			remove_short_term_gold = 50
+		}
+		add_character_flag = {
+			flag = rp_has_prodigy_retainer
+			years = 20
+		}
+	}
+
+	option = {
+		name = rp_retainer.0005.b
+		scope:rp_retainer = {
+			add_opinion = { target = root modifier = rp_retainer_cautious_review_opinion }
+		}
+		add_character_flag = {
+			flag = rp_prodigy_under_review
+			years = 5
+		}
+	}
+
+	option = {
+		name = rp_retainer.0005.c
+		trigger = {
+			gold >= 50
+			rp_has_gentle_disposition_trigger = yes
+		}
+		remove_short_term_gold = 50
+		add_prestige = 120
+		scope:rp_retainer = {
+			add_opinion = { target = root modifier = rp_retainer_recruited_high_opinion }
+		}
+		add_character_flag = {
+			flag = rp_has_prodigy_retainer
+			years = 20
+		}
+	}
+
+	option = {
+		name = rp_retainer.0005.d
+		trigger = {
+			rp_has_forceful_disposition_trigger = yes
+		}
+		add_prestige = 60
+		add_dread = 10
+		scope:rp_retainer = {
+			add_opinion = { target = root modifier = rp_retainer_cautious_review_opinion }
+			add_character_flag = {
+				flag = rp_prodigy_under_review
+				years = 5
+			}
+		}
+	}
+
+	option = {
+		name = rp_retainer.0005.e
+		trigger = {
+			rp_has_cunning_disposition_trigger = yes
+		}
+		add_prestige = 40
+		scope:rp_retainer = {
+			add_opinion = { target = root modifier = rp_retainer_cautious_review_opinion }
+			add_character_flag = {
+				flag = rp_prodigy_under_review
+				years = 5
+			}
+		}
+	}
+}
+
+rp_retainer.0100 = {
+	type = character_event
+	title = rp_retainer.0100.t
+	theme = travel
+	override_background = { reference = tgp_chinese_corridor_day }
+	override_icon = { reference = "gfx/interface/icons/event_types/type_journey.dds" }
+	desc = rp_retainer.0100.desc
+	right_portrait = scope:rp_retainer
+
+	immediate = {
+		add_character_flag = {
+			flag = rp_travel_retainer_recently_checked
+			days = 180
+		}
+		rp_create_travel_retainer_effect = yes
+	}
+
+	option = {
+		name = rp_retainer.0100.a
+		trigger = {
+			OR = {
+				prestige >= 100
+				gold >= 20
+			}
+		}
+		if = {
+			limit = { gold >= 20 }
+			remove_short_term_gold = 20
+		}
+		add_prestige = 50
+	}
+
+	option = {
+		name = rp_retainer.0100.b
+		trigger = { gold >= 20 }
+		remove_short_term_gold = 20
+		scope:rp_retainer = {
+			add_opinion = { target = root modifier = rp_retainer_generous_stranger_opinion }
+		}
+		add_prestige = 15
+		rp_dismiss_candidate_retainer_effect = yes
+	}
+
+	option = {
+		name = rp_retainer.0100.c
+		add_prestige = -5
+		rp_dismiss_candidate_retainer_effect = yes
+	}
+
+	option = {
+		name = rp_retainer.0100.d
+		trigger = {
+			gold >= 10
+			rp_has_gentle_disposition_trigger = yes
+		}
+		remove_short_term_gold = 10
+		add_prestige = 25
+		scope:rp_retainer = {
+			add_opinion = { target = root modifier = rp_retainer_recruited_high_opinion }
+		}
+	}
+
+	option = {
+		name = rp_retainer.0100.e
+		trigger = {
+			rp_has_forceful_disposition_trigger = yes
+		}
+		add_prestige = 20
+		add_dread = 5
+		scope:rp_retainer = {
+			add_opinion = { target = root modifier = rp_retainer_recruited_opinion }
+		}
+	}
+}

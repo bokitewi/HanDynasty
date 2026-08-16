@@ -1,0 +1,7 @@
+# Unsupported vanilla regional story cycle retained only as an inert public shell.
+
+restoring_roman_provinces_story = {
+	visible = no
+	on_setup = { end_story = yes }
+	on_owner_death = { end_story = yes }
+}

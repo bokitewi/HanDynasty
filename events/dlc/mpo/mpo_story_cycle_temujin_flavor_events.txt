@@ -1,0 +1,9 @@
+# Unsupported vanilla regional event chain retained only as inert public shells.
+namespace = mpo_temujin_flavor
+
+mpo_temujin_flavor.0001 = { type = character_event hidden = yes trigger = { always = no } }
+mpo_temujin_flavor.0010 = { type = character_event hidden = yes trigger = { always = no } }
+mpo_temujin_flavor.0020 = { type = character_event hidden = yes trigger = { always = no } }
+mpo_temujin_flavor.0030 = { type = character_event hidden = yes trigger = { always = no } }
+
+scripted_effect mpo_temujin_flavor_0010_jamukha_leaving_effect = { }

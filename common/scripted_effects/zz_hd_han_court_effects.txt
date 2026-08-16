@@ -1,0 +1,102 @@
+﻿# Deterministic Eastern Han court setup for the 184.1.1 bookmark.
+# The vanilla TGP startup fills every vacant ministry by randomly selecting
+# vassals.  This effect runs after that fill and replaces it with the attested
+# Eastern Han appointments, leaving undocumented offices vacant.
+hd_han_setup_184_court_effect = {
+	save_scope_as = councillor_liege
+
+	# 184.1.1: Yuan Kui, Zhang Ji, Yang Ci, Zhang Wen and Deng Sheng are
+	# directly supported by the Later Han annals.  The other four offices are
+	# intentionally not filled when the surviving record does not identify an
+	# opening-day holder.  These five assignments happen before clearing the
+	# four undocumented slots, so a historical title holder remains a valid
+	# vassal scope while a random holder is replaced.
+	character:yuan_kui = {
+		if = {
+			limit = { is_alive = yes }
+			got_minister_position_effect = {
+				MINISTER_TITLE = e_minister_chancellor
+				MINISTER_POSITION = councillor_chancellor
+			}
+		}
+	}
+	character:zhang_ji = {
+		if = {
+			limit = { is_alive = yes }
+			got_minister_position_effect = {
+				MINISTER_TITLE = e_minister_censor
+				MINISTER_POSITION = councillor_spymaster
+			}
+		}
+	}
+	character:yang_ci = {
+		if = {
+			limit = { is_alive = yes }
+			got_minister_position_effect = {
+				MINISTER_TITLE = e_minister_grand_marshal
+				MINISTER_POSITION = minister_grand_marshal
+			}
+		}
+	}
+	character:zhang_wen_2 = {
+		if = {
+			limit = { is_alive = yes }
+			got_minister_position_effect = {
+				MINISTER_TITLE = e_minister_of_revenue
+				MINISTER_POSITION = councillor_steward
+			}
+		}
+	}
+	character:deng_sheng_2 = {
+		if = {
+			limit = { is_alive = yes }
+			got_minister_position_effect = {
+				MINISTER_TITLE = e_minister_of_works
+				MINISTER_POSITION = minister_works
+			}
+		}
+	}
+
+	# Clear only the four undocumented opening-day offices.  This also removes
+	# any random councillor that vanilla assigned to them and leaves the slots
+	# vacant instead of allowing a second random replacement.
+	title:e_minister_of_personnel = {
+		if = {
+			limit = { exists = holder }
+			holder = {
+				destroy_and_fire_minister_effect = { MINISTER = e_minister_of_personnel }
+			}
+		}
+	}
+	title:e_minister_of_rites = {
+		if = {
+			limit = { exists = holder }
+			holder = {
+				destroy_and_fire_minister_effect = { MINISTER = e_minister_of_rites }
+			}
+		}
+	}
+	title:e_minister_of_war = {
+		if = {
+			limit = { exists = holder }
+			holder = {
+				destroy_and_fire_minister_effect = { MINISTER = e_minister_of_war }
+			}
+		}
+	}
+	title:e_minister_of_justice = {
+		if = {
+			limit = { exists = holder }
+			holder = {
+				destroy_and_fire_minister_effect = { MINISTER = e_minister_of_justice }
+			}
+		}
+	}
+
+	# Keep the title names correct for the five recreated ministry titles.
+	title:e_minister_chancellor = { set_title_name = hd_han_situ_title }
+	title:e_minister_censor = { set_title_name = hd_han_sikong_title }
+	title:e_minister_grand_marshal = { set_title_name = hd_han_taiwei_title }
+	title:e_minister_of_revenue = { set_title_name = hd_han_dasinong_title }
+	title:e_minister_of_works = { set_title_name = hd_han_taipu_title }
+}

@@ -1,0 +1,36 @@
+# Unsupported vanilla regional event chain retained only as inert public shells.
+namespace = fp3_yearly
+
+fp3_yearly.8019 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_yearly.8020 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_yearly.8021 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_yearly.8022 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_yearly.8023 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_yearly.8024 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_yearly.8025 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_yearly.8026 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_yearly.8027 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_yearly.8028 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_yearly.8029 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_yearly.8030 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_yearly.8031 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_yearly.8032 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_yearly.8033 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_yearly.8034 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_yearly.8035 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_yearly.8036 = { type = character_event hidden = yes trigger = { always = no } }
+
+scripted_trigger dakhma_nostalgic_trigger = { always = no }
+scripted_trigger fp3_assertive_female_believer_trigger = { always = no }
+scripted_trigger fp3_bibi_shahrbanu_devotee_trigger = { always = no }
+scripted_trigger fp3_hateful_ruler_trigger = { always = no }
+scripted_trigger fp3_loves_faloodeh_trigger = { always = no }
+scripted_trigger fp3_not_super_relevant_yet_suitable_person_trigger = { always = no }
+scripted_trigger fp3_rich_foreign_ruler_trigger = { always = no }
+scripted_trigger fp3_zealous_caliph_trigger = { always = no }
+scripted_trigger fp3_zoroastrian_holy_sites_province_trigger = { always = no }
+scripted_trigger hephthalite_hoard_province_trigger = { always = no }
+scripted_trigger hypothetical_hephthalite_heritage_trigger = { always = no }
+scripted_trigger loyal_discreet_courtier_trigger = { always = no }
+scripted_trigger non_zoroastrian_faith_trigger = { always = no }
+scripted_trigger superstitious_coward_trigger = { always = no }

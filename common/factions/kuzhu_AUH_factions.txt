@@ -1,0 +1,1039 @@
+﻿#苦竹：新增军阀派系
+kuzhu_install_warlord_faction = {
+	casus_belli = kuzhu_install_warlord_faction_war
+	
+	short_effect_desc = kuzhu_install_warlord_faction_short_effect_desc
+
+	sort_order = 10
+
+	is_shown = {
+		NAND = {
+			tgp_is_ceremonial_liege_trigger = yes
+			tgp_is_ceremonial_regent_trigger = no
+		}
+	}
+
+	discontent_progress = {
+		base = 0
+
+		common_discontent_progress_modifier = yes
+	}
+
+	power_threshold = {
+		base = 80
+
+		modifier = {
+			add = 20
+			faction_target = {
+				has_perk = hard_rule_perk
+			}
+			desc = "FACTION_POWER_HARD_RULE"
+		}
+
+		dynamic_power_threshold_scripted_modifier = {
+			FACTION_TYPE1 = claimant_faction
+			FACTION_TYPE2 = liberty_faction
+			FACTION_TYPE3 = populist_faction
+		}
+	}	
+	
+	demand = {
+		save_scope_as = faction
+
+		faction_leader = {
+			save_scope_as = faction_leader
+		}
+
+		faction_target = {
+			save_scope_as = faction_target
+		}
+
+		# Let the human players in the faction know that the demand will be sent
+		every_faction_member = {
+			limit = {
+				is_ai = no
+				this != scope:faction.faction_leader
+			}
+			trigger_event = kuzhu_admin_faction_demand.0005
+		}
+
+		# Send the actual demand in 5 days
+		faction_target = {
+			trigger_event = {
+				id = kuzhu_admin_faction_demand.0001
+				days = 5
+			}
+		}
+	}
+
+	ai_demand_chance = {
+		base = 0
+
+		# 40% base chance at minimum power (80%), increasing linearly
+		compare_modifier = {
+			value = faction_power
+			multiplier = 0.5
+		}
+
+		# Once the faction has a good chance to win (10% stronger than liege) demand chance increases much more rapidly.
+		compare_modifier = {
+			trigger = {	faction_power > 110 }
+			value = faction_power
+			multiplier = 1
+		}
+
+		modifier = {
+			add = 100
+			faction_target = {
+				is_at_war = yes # Independence Factions are opportunistic bastards!
+			}
+		}
+
+		modifier = {
+			add = -1000
+			faction_target = {
+				involved_activity ?= {
+					has_activity_type = activity_coronation
+					activity_host = prev
+				}
+			}
+		}
+	}
+
+	ai_create_score = {
+		base = 0
+
+		############
+		# BLOCKERS #
+
+		common_create_faction_blockers = {
+			FACTION_TARGET = scope:target
+			FLAG = kuzhu_recent_install_warlord_faction_war
+		}
+
+		#######################
+		# Standard AI Weights #
+
+		common_faction_modifiers = {
+			FACTION_TARGET = scope:target
+			OPINION_MULTIPLIER = -0.4
+			MAX_OPINION = 100
+			POWER = 0
+			THRESHOLD = 80
+		}
+		#该script_modifier适用于派系和决议
+		kuzhu_ai_want_be_warlord_modifier = yes
+
+		# Legacy
+		modifier = {
+			desc = "FACTION_REASON_GLORY_LEGACY_4"
+			add = -20
+			top_liege.dynasty ?= { has_dynasty_perk = glory_legacy_4 }
+		}
+
+		#House Hostility from Armenian tradition
+	    modifier = {
+			desc = "FACTION_REASON_HOUSE_HOSTILITY"
+			top_liege.house ?= {
+				this != root.house
+			}
+			culture = { has_cultural_parameter = house_hostility_more_common }
+			factor = 1.25
+	    }
+
+	    # EP3 - Grand Ambitions Story Cycle
+	    modifier = {
+	    	desc = "EP3_GRAND_AMBITIONS_STORY"
+	    	any_owned_story = {
+	    		type = grand_ambitions_story_cycle
+	    		var:target_char ?= root.top_liege
+	    	}
+	    	factor = 1.5
+	    }
+		# TGP Dynastic Cycle in Instability phase
+		modifier = {
+			desc = "FACTION_REASON_DYNASTIC_CYCLE_INSTABILITY"
+			add = 25
+			top_liege = {
+				top_participant_group:dynastic_cycle ?= {
+					has_participant_group_parameter = dynastic_cycle_external_tributaries_vassals_increased_independence_desire
+				}
+			}
+		}
+
+		modifier = {
+			desc = "KUZHU_DISBELIEVED_MANDALA"
+			top_liege = { has_character_modifier = disbelieved_mandala_modifier }
+			add = 15
+			desc = is_disbelieved_mandala
+		}
+	}
+
+	ai_join_score = {
+		base = 0
+		
+		############
+		# BLOCKERS #
+
+		common_join_faction_blockers = {
+			FACTION_TARGET = scope:faction.faction_target
+		}
+
+		#######################
+		# Standard AI Weights #
+
+		common_faction_modifiers = {
+			FACTION_TARGET = scope:faction.faction_target
+			OPINION_MULTIPLIER = -0.4
+			MAX_OPINION = 100
+			POWER = scope:faction.faction_power
+			THRESHOLD = scope:faction.faction_power_threshold
+		}
+		#该script_modifier适用于派系和决议
+		kuzhu_ai_want_be_warlord_modifier = yes
+
+		# Legacy
+		modifier = {
+			desc = "FACTION_REASON_GLORY_LEGACY_4"
+			add = -20
+			top_liege.dynasty ?= { has_dynasty_perk = glory_legacy_4 }
+		}
+		
+		# Small multiplier for my neighbors already in the Faction
+		modifier = {
+			desc = "FACTION_REASON_NEIGHBORS"
+
+			scope:faction = {
+				any_faction_member = { #suppress the description printout if factor is 1
+					any_neighboring_realm_same_rank_owner = {
+						this = root
+					}
+				}
+			}
+
+			factor = {
+				value = 1
+				scope:faction = {
+			    	every_faction_member = {
+			    		if = {
+			    			limit = {
+				    			any_neighboring_realm_same_rank_owner = {
+				    				this = root
+				    			}
+							}
+			    			add = 0.25
+			    		}		
+			    	}
+		    	}
+	    	}
+	    }
+
+	    modifier = {
+			desc = "FACTION_REASON_POWERFUL_VASSAL"
+	    	factor = 2
+			is_powerful_vassal_of = scope:faction.faction_target
+	    }
+
+	    struggle_faction_modifiers = yes
+
+	    #House Hostility from Armenian tradition
+	    modifier = {
+			desc = "FACTION_REASON_HOUSE_HOSTILITY"
+
+			scope:faction.faction_target.house ?= {
+				this != root.house
+			}
+			culture = { has_cultural_parameter = house_hostility_more_common }
+
+			factor = 1.25
+	    }
+		#EP3 admin legitimacy event
+		modifier = {
+			desc = "FACTION_REASON_LOW_LEGITIMACY_CHALLENGER"
+			add = 25
+			scope:faction = {
+				any_faction_member = {
+					has_character_flag = low_legitimacy_admin_factions_flag
+				}
+			}
+		}
+		# TGP Dynastic Cycle in Instability phase
+		modifier = {
+			desc = "FACTION_REASON_DYNASTIC_CYCLE_INSTABILITY"
+			add = 25
+			scope:faction.faction_target = {
+				top_participant_group:dynastic_cycle ?= {
+					has_participant_group_parameter = dynastic_cycle_external_tributaries_vassals_increased_independence_desire
+				}
+			}
+		}
+		modifier = {
+			desc = "KUZHU_DISBELIEVED_MANDALA"
+			top_liege = { has_character_modifier = disbelieved_mandala_modifier }
+			add = 15
+			desc = is_disbelieved_mandala
+		}		
+	}
+
+	is_character_valid = {
+		common_character_validity_trigger = {
+			FACTION_TARGET = scope:faction.faction_target
+		}
+		has_valid_faction_members_trigger = yes
+	}
+
+	can_character_create_ui = {
+		base_faction_trigger = { FACTION_TYPE = kuzhu_install_warlord_faction }
+
+		common_can_character_create_trigger = {
+			FACTION_TARGET = scope:target
+		}
+
+		#辖区掌控力
+		trigger_if = {
+			limit = { 
+				top_liege = { 
+					OR = {
+						has_realm_law = kuzhu_medium_government_size
+						has_realm_law = kuzhu_admin_recruit_balanced
+					}
+				}
+			}
+			custom_tooltip = {
+				text = kuzhu_political_power_higher_than_tiny
+				kuzhu_governor_political_power >= -25	
+			}
+		}
+		trigger_else_if = {
+			limit = { 
+				top_liege = { 
+					OR = {
+						has_realm_law = kuzhu_large_government_size
+						has_realm_law = kuzhu_admin_recruit_theme
+						has_realm_law = kuzhu_admin_recruit_legion
+					}
+				}
+			} 
+			custom_tooltip = {
+				text = kuzhu_political_power_higher_than_low
+				kuzhu_governor_political_power >= 0	
+			}
+		}		
+		trigger_else = {
+			always = yes			
+		}		
+		
+		#苦竹：转为军阀的条件
+		NOT = { has_character_flag = flag_kuzhu_new_governor }		
+		OR = {
+			government_allows = administrative
+			government_has_flag = government_is_celestial
+			government_has_flag = government_is_meritocratic
+			government_has_flag = government_is_steppe_admin
+		}
+		kuzhu_can_be_warlord_trigger = yes
+		# The emperor does not want to leave his empire
+		tgp_is_ceremonial_liege_trigger = no
+		# Ministers cannot join this faction
+		custom_description = {
+			text = target_is_a_minister_desc
+			subject = this
+			tgp_is_any_minister = no
+		}
+	}
+
+	can_character_create = {
+		common_can_character_create_trigger = {
+			FACTION_TARGET = scope:target
+		}
+		
+		#辖区掌控力
+		trigger_if = {
+			limit = { 
+				top_liege = { 
+					OR = {
+						has_realm_law = kuzhu_medium_government_size
+						has_realm_law = kuzhu_admin_recruit_balanced
+					}
+				}
+			}
+			custom_tooltip = {
+				text = kuzhu_political_power_higher_than_tiny
+				kuzhu_governor_political_power >= -25	
+			}
+		}
+		trigger_else_if = {
+			limit = { 
+				top_liege = { 
+					OR = {
+						has_realm_law = kuzhu_large_government_size
+						has_realm_law = kuzhu_admin_recruit_theme
+						has_realm_law = kuzhu_admin_recruit_legion
+					}
+				}
+			} 
+			custom_tooltip = {
+				text = kuzhu_political_power_higher_than_low
+				kuzhu_governor_political_power >= 0	
+			}
+		}		
+		trigger_else = {
+			always = yes			
+		}		
+		#苦竹：转为军阀的条件
+		NOT = { has_character_flag = flag_kuzhu_new_governor }
+		OR = {
+			government_allows = administrative
+			government_has_flag = government_is_celestial
+			government_has_flag = government_is_meritocratic
+			government_has_flag = government_is_steppe_admin
+		}
+		kuzhu_can_be_warlord_trigger = yes		
+		# The emperor does not want to leave his empire
+		tgp_is_ceremonial_liege_trigger = no
+		# Ministers cannot join this faction
+		custom_description = {
+			text = target_is_a_minister_desc
+			subject = this
+			tgp_is_any_minister = no
+		}
+	}
+
+	can_character_join = {
+		common_can_character_join_trigger = {
+			FACTION_TARGET = scope:faction.faction_target
+		}
+
+		#辖区掌控力
+		trigger_if = {
+			limit = { 
+				top_liege = { 
+					OR = {
+						has_realm_law = kuzhu_medium_government_size
+						has_realm_law = kuzhu_admin_recruit_balanced
+					}
+				}
+			}
+			custom_tooltip = {
+				text = kuzhu_political_power_higher_than_tiny
+				kuzhu_governor_political_power >= -25	
+			}
+		}
+		trigger_else_if = {
+			limit = { 
+				top_liege = { 
+					OR = {
+						has_realm_law = kuzhu_large_government_size
+						has_realm_law = kuzhu_admin_recruit_theme
+						has_realm_law = kuzhu_admin_recruit_legion
+					}
+				}
+			} 
+			custom_tooltip = {
+				text = kuzhu_political_power_higher_than_low
+				kuzhu_governor_political_power >= 0	
+			}
+		}		
+		trigger_else = {
+			always = yes			
+		}
+		#苦竹：转为军阀的条件
+		NOT = { has_character_flag = flag_kuzhu_new_governor }
+		OR = {
+			government_allows = administrative
+			government_has_flag = government_is_celestial
+			government_has_flag = government_is_meritocratic
+			government_has_flag = government_is_steppe_admin
+		}
+		kuzhu_can_be_warlord_trigger = yes
+		# The emperor does not want to leave his empire
+		tgp_is_ceremonial_liege_trigger = no
+		# Ministers cannot join this faction
+		custom_description = {
+			text = target_is_a_minister_desc
+			subject = this
+			tgp_is_any_minister = no
+		}
+	}
+
+	can_character_become_leader = {
+		can_become_leader_of_faction_trigger = yes
+	}
+
+	on_creation = {
+		save_scope_as = faction
+		tgp_bloc_members_join_faction_effect = yes
+		if = {
+			limit = {
+				any_player = {
+					has_government = landless_adventurer_government
+					is_within_diplo_range = { CHARACTER = scope:faction.faction_target }
+					OR = {
+						has_contact = scope:faction.faction_leader
+						NOT = { has_contact = scope:faction.faction_target }
+					}
+					any_character_task_contract = {
+						task_contract_type = laamp_join_faction_contract
+						count <= 3
+					}
+					can_create_task_contract = {
+						type_name = laamp_join_faction_contract
+						employer = scope:faction.faction_leader
+					}
+					save_temporary_scope_as = player_laamp
+				}
+			}
+			scope:player_laamp = {
+				create_task_contract = {
+					task_contract_type = laamp_join_faction_contract
+					task_contract_tier = scope:faction.faction_leader.task_contract_tier_value
+					location = scope:faction.faction_leader.primary_title.title_province
+					task_contract_employer = scope:faction.faction_leader
+					target = scope:faction.faction_target
+				}
+			}
+		}
+	}
+
+	county_allow_join = no
+	county_allow_create = no
+}
+
+#建立傀儡派系
+kuzhu_install_puppet_faction = {
+	casus_belli = kuzhu_install_puppet_faction_war
+	
+	short_effect_desc = kuzhu_install_puppet_faction_short_effect_desc
+
+	sort_order = 0
+
+	is_shown = {
+		NAND = {
+			tgp_is_ceremonial_liege_trigger = yes
+			tgp_is_ceremonial_regent_trigger = no
+		}
+	}
+
+	discontent_progress = {
+		base = 0
+
+		common_discontent_progress_modifier = yes
+	}
+
+	power_threshold = {
+		base = 80
+
+		modifier = {
+			add = 20
+			faction_target = {
+				has_perk = hard_rule_perk
+			}
+			desc = "FACTION_POWER_HARD_RULE"
+		}
+
+		dynamic_power_threshold_scripted_modifier = {
+			FACTION_TYPE1 = claimant_faction
+			FACTION_TYPE2 = liberty_faction
+			FACTION_TYPE3 = populist_faction
+		}
+	}
+
+	is_character_valid = {
+		common_character_validity_trigger = {
+			FACTION_TARGET = scope:faction.faction_target
+		}
+		has_valid_faction_members_trigger = yes
+	}
+	
+	demand = {
+		save_scope_as = faction
+
+		faction_leader = {
+			save_scope_as = faction_leader
+		}
+
+		faction_target = {
+			save_scope_as = faction_target
+		}
+
+		# Let the human players in the faction know that the demand will be sent
+		every_faction_member = {
+			limit = {
+				is_ai = no
+				this != scope:faction.faction_leader
+			}
+			trigger_event = kuzhu_admin_faction_demand.1005
+		}
+
+		# Send the actual demand in 5 days
+		faction_target = {
+			trigger_event = {
+				id = kuzhu_admin_faction_demand.1001
+				days = 5
+			}
+		}
+	}
+	
+	#1.ai创建意愿
+	ai_create_score = {
+		base = 0
+
+		############
+		# BLOCKERS #
+		common_create_faction_blockers = {
+			FACTION_TARGET = scope:target
+			FLAG = kuzhu_recent_install_puppet_faction_war
+		}
+
+		#######################
+		# Standard AI Weights #
+
+		common_faction_modifiers = {
+			FACTION_TARGET = scope:target
+			OPINION_MULTIPLIER = -1
+			MAX_OPINION = 100
+			POWER = 0
+			THRESHOLD = 80
+		}
+
+		#君主暴政度
+		modifier = {
+			desc = "KUZHU_Sense_of_justice"		
+			OR = {
+				has_trait = just
+				has_trait = honest
+				has_trait = generous
+				has_trait = compassionate
+				has_trait = zealous
+				has_trait = diligent
+			}
+			add = top_liege.tyranny
+		}
+		#正统性
+		modifier = {
+			desc = "KUZHU_legitimacy_level"		
+			add = {
+				value = top_liege.legitimacy_level
+				multiply = -5
+			}
+		}
+		# Legacy
+		modifier = {
+			desc = "FACTION_REASON_GLORY_LEGACY_4"
+			add = -20
+			top_liege.dynasty ?= { has_dynasty_perk = glory_legacy_4 }
+		}
+		#王朝循环因素
+		modifier = {
+			desc = "KUZHU_advancement_phase"
+			top_liege = title:h_china.holder
+			situation:dynastic_cycle = {
+				situation_current_phase = situation_dynastic_cycle_phase_stability_advancement
+			}
+			add = -30
+		}
+		modifier = {
+			desc = "KUZHU_pro_hegemon"		
+			top_liege = title:h_china.holder
+			top_participant_group:dynastic_cycle ?= { 
+				participant_group_type = pro_hegemon_movement
+			}
+			add = -30
+		}
+		
+		modifier = { # CE1 Divine Mandate perk
+			desc = "FACTION_REASON_LEGITIMACY_LEGACY_4"
+			top_liege.dynasty = { has_dynasty_perk = ce1_legitimacy_legacy_4 }
+			add = -35
+		}
+		
+		#House Hostility from Armenian tradition
+	    modifier = {
+			desc = "FACTION_REASON_HOUSE_HOSTILITY"
+
+			top_liege.house ?= {
+				this != root.house
+			}
+			culture = { has_cultural_parameter = house_hostility_more_common }
+
+			factor = 1.25
+	    }
+	}
+	#2.ai加入意愿
+	ai_join_score = {
+		base = 0
+
+		############
+		# BLOCKERS #
+
+		common_join_faction_blockers = {
+			FACTION_TARGET = scope:faction.faction_target
+		}
+
+		#######################
+		# Standard AI Weights #
+
+		common_faction_modifiers = {
+			FACTION_TARGET = scope:faction.faction_target
+			OPINION_MULTIPLIER = -1
+			MAX_OPINION = 100
+			POWER = scope:faction.faction_power
+			THRESHOLD = scope:faction.faction_power_threshold
+		}
+
+		#君主暴政度
+		modifier = {
+			desc = "KUZHU_Sense_of_justice"		
+			OR = {
+				has_trait = just
+				has_trait = honest
+				has_trait = generous
+				has_trait = compassionate
+				has_trait = zealous
+				has_trait = diligent
+			}
+			add = top_liege.tyranny
+		}
+		#正统性
+		modifier = {
+			desc = "KUZHU_legitimacy_level"		
+			add = {
+				value = top_liege.legitimacy_level
+				multiply = -5
+			}
+		}
+		# Legacy
+		modifier = {
+			desc = "FACTION_REASON_GLORY_LEGACY_4"
+			add = -20
+			top_liege.dynasty ?= { has_dynasty_perk = glory_legacy_4 }
+		}
+		#王朝循环因素
+		modifier = {
+			desc = "KUZHU_advancement_phase"
+			top_liege = title:h_china.holder
+			situation:dynastic_cycle = {
+				situation_current_phase = situation_dynastic_cycle_phase_stability_advancement
+			}
+			add = -30
+		}
+		modifier = {
+			desc = "KUZHU_pro_hegemon"		
+			top_liege = title:h_china.holder
+			top_participant_group:dynastic_cycle ?= { 
+				participant_group_type = pro_hegemon_movement
+			}
+			add = -30
+		}
+
+		modifier = { # CE1 Divine Mandate perk
+			desc = "FACTION_REASON_LEGITIMACY_LEGACY_4"
+			top_liege.dynasty = { has_dynasty_perk = ce1_legitimacy_legacy_4 }
+			add = -35
+		}
+		
+		# Small multiplier for my neighbors already in the Faction
+		modifier = {
+			desc = "FACTION_REASON_NEIGHBORS"
+			scope:faction = {
+				any_faction_member = { #suppress the description printout if factor is 1
+					any_neighboring_realm_same_rank_owner = {
+						this = root
+					}
+				}
+			}
+			factor = {
+				value = 1
+				scope:faction = {
+			    	every_faction_member = {
+			    		if = {
+			    			limit = {
+				    			any_neighboring_realm_same_rank_owner = {
+				    				this = root
+				    			}
+							}
+			    			add = 0.25
+			    		}		
+			    	}
+		    	}
+	    	}
+	    }
+
+	    modifier = {
+			desc = "FACTION_REASON_POWERFUL_VASSAL"
+	    	factor = 2
+			is_powerful_vassal_of = scope:faction.faction_target
+	    }		
+		
+		#House Hostility from Armenian tradition
+	    modifier = {
+			desc = "FACTION_REASON_HOUSE_HOSTILITY"
+
+			top_liege.house ?= {
+				this != root.house
+			}
+			culture = { has_cultural_parameter = house_hostility_more_common }
+
+			factor = 1.25
+	    }
+		#EP3 admin legitimacy event
+		modifier = {
+			desc = "FACTION_REASON_LOW_LEGITIMACY_CHALLENGER"
+			add = 25
+			scope:faction = {
+				any_faction_member = {
+					has_character_flag = low_legitimacy_admin_factions_flag
+				}
+			}
+		}	
+	}
+	#3.ai索取意愿
+	ai_demand_chance = {
+		base = 0
+
+		# 40% base chance at minimum power (80%), increasing linearly
+		compare_modifier = {
+			value = faction_power
+			multiplier = 0.5
+		}
+
+		# Once the faction has a good chance to win (10% stronger than liege) demand chance increases much more rapidly.
+		compare_modifier = {
+			trigger = {	faction_power > 110 }
+			value = faction_power
+			multiplier = 1
+		}
+
+		modifier = {
+			add = 100
+			faction_target = {
+				is_at_war = yes # Independence Factions are opportunistic bastards!
+			}
+		}
+
+		modifier = {
+			add = -1000
+			faction_target = {
+				involved_activity ?= {
+					has_activity_type = activity_coronation
+					activity_host = prev
+				}
+			}
+		}
+	}
+	
+	#1.ui上可创建
+	can_character_create_ui = {
+		base_faction_trigger = { FACTION_TYPE = kuzhu_install_puppet_faction }
+
+		common_can_character_create_trigger = {
+			FACTION_TARGET = scope:target
+		}
+		# Bloc Cohesion requirement
+		japan_faction_cohesion_trigger = yes
+
+		#苦竹：从此填入新条件：
+		liege = {			
+			top_liege = this
+			OR = {
+				government_allows = administrative
+				government_has_flag = government_is_japan_feudal
+			}
+			OR = {
+ 				NOT = { exists = diarch }
+  				diarch = {
+   			    	NOT = { has_trait = kuzhu_empire_overseer }
+  				}
+			}
+		}
+
+		#分开写条件
+		trigger_if = {
+			limit = {
+				top_liege.tyranny >= 50
+			}
+			#custom_description = kuzhu_describe_1
+			always = yes
+		}
+		trigger_else_if = {
+			limit = {
+				top_liege.tyranny >= 25
+			}
+			#custom_description = kuzhu_describe_2
+			OR = {
+				has_trait = just
+				has_trait = honest
+				has_trait = generous
+				has_trait = compassionate
+				has_trait = zealous
+				has_trait = diligent
+				has_trait = ambitious
+			}
+		}
+		trigger_else = {
+			#custom_description = kuzhu_describe_3
+			has_trait = ambitious
+		}
+		#暴政值低
+		NOT = { tyranny >= 25 }
+	}
+	
+	#2.可创建
+	can_character_create = {
+		common_can_character_create_trigger = {
+			FACTION_TARGET = scope:target
+		}
+		# Bloc Cohesion requirement
+		japan_faction_cohesion_trigger = yes
+		
+		liege = {
+			top_liege = this
+			OR = {
+				government_allows = administrative
+				government_has_flag = government_is_japan_feudal
+			}
+			OR = {
+ 			   NOT = { exists = diarch }
+  			  diarch = {
+  			      NOT = { has_trait = kuzhu_empire_overseer }
+ 			   }
+			}			
+		}
+		
+		#分开写条件
+		trigger_if = {
+			limit = {
+				top_liege.tyranny >= 50
+			}
+			#custom_description = kuzhu_describe_1
+			always = yes
+		}
+		trigger_else_if = {
+			limit = {
+				top_liege.tyranny >= 25
+			}
+			#custom_description = kuzhu_describe_2
+			OR = {
+				has_trait = just
+				has_trait = honest
+				has_trait = generous
+				has_trait = compassionate
+				has_trait = zealous
+				has_trait = diligent
+				has_trait = ambitious
+			}
+		}
+		trigger_else = {
+			#custom_description = kuzhu_describe_3
+			has_trait = ambitious
+		}
+		NOT = { tyranny >= 25 }
+	}
+	
+	#3.可加入
+	can_character_join = {
+		common_can_character_join_trigger = {
+			FACTION_TARGET = scope:faction.faction_target
+		}
+		top_liege = {
+			OR = {
+				government_allows = administrative
+				government_has_flag = government_is_japan_feudal
+			}
+			OR = {
+ 				NOT = { exists = diarch }
+ 				diarch = {
+ 					NOT = { has_trait = kuzhu_empire_overseer }
+ 				}
+			}
+		}
+		#分开写条件
+		trigger_if = {
+			limit = {
+				top_liege.tyranny >= 50
+			}
+			#custom_description = kuzhu_describe_1
+			always = yes
+		}
+		trigger_else_if = {
+			limit = {
+				top_liege.tyranny >= 25
+			}
+			#custom_description = kuzhu_describe_2
+			OR = {
+				has_trait = just
+				has_trait = honest
+				has_trait = generous
+				has_trait = compassionate
+				has_trait = zealous
+				has_trait = diligent
+				has_trait = ambitious
+			}
+		}
+		trigger_else = {
+			#custom_description = kuzhu_describe_3
+			has_trait = ambitious
+		}
+		NOT = { tyranny >= 25 }
+	}
+
+	can_character_become_leader = {
+		can_become_leader_of_faction_trigger = yes
+	}
+	
+	county_join_score =  {
+		base = 0
+		compare_modifier = {
+			desc = "FACTION_REASON_COUNTY_OPINION"
+			value = county_opinion
+			multiplier = -1.0
+		}
+	}
+
+	is_county_valid = {
+		holder = scope:faction.faction_target
+		county_opinion < -25
+		OR = {
+			culture != scope:faction.faction_target.culture 
+			faith != scope:faction.faction_target.faith 
+		}
+	}
+
+	on_creation = {
+		save_scope_as = faction
+		if = {
+			limit = {
+				any_player = {
+					has_government = landless_adventurer_government
+					is_within_diplo_range = { CHARACTER = scope:faction.faction_target }
+					NOT = { has_contact = scope:faction.faction_target }
+					OR = {
+						faith = scope:faction.faction_target.faith
+						culture = scope:faction.faction_target.culture
+					}
+					any_character_task_contract = {
+						task_contract_type = laamp_join_faction_contract
+						count <= 3
+					}
+					can_create_task_contract = {
+						type_name = laamp_join_faction_contract
+						employer = scope:faction.faction_leader
+					}
+					save_temporary_scope_as = player_laamp
+				}
+			}
+			scope:player_laamp = {
+				create_task_contract = {
+					task_contract_type = laamp_join_faction_contract
+					task_contract_tier = scope:faction.faction_leader.task_contract_tier_value
+					location = scope:faction.faction_leader.primary_title.title_province
+					task_contract_employer = scope:faction.faction_leader
+					target = scope:faction.faction_target
+				}
+			}
+		}
+	}
+
+	county_allow_join = yes
+	county_allow_create = no
+}

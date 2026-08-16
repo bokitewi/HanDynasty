@@ -1,0 +1,14 @@
+﻿#藩镇特殊契约类型
+kuzhu_warlord_vassal = {
+	#admin_province_contract = kuzhu_steppe_admin_provinces
+
+	contracts = {
+		feudal_government_taxes
+		feudal_government_levies
+		kuzhu_warlord_types
+		title_revocation_rights
+		war_declaration_rights
+		kuzhu_vassal_war_participation_obligation
+		#kuzhu_close_follower #牙将
+	}
+}

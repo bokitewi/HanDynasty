@@ -1,0 +1,2370 @@
+﻿@hd_never_primary_score = -1000
+
+c_hd_nf_famous_h_house_111010001001013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_322
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010004012013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_518
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010004025013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1528
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010005002013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_2112
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010005003013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_2112
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010006006013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_4401
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010007003013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_5041
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010008005013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_351
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010008012013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_5041
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010008014013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_351
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010008016013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_6413
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010008023013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1091
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010008026013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_4401
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010010005013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1194
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010010006013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_276
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010010016013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_745
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010013002013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_579
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010013004013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_6053
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010015004013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1091
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010015005013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_3488
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010015010013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1545
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010016002013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_843
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010016007013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_843
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010020001013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1733
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010020006013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_6895
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010022002013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1690
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010022003013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1410
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010022006013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1690
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010024005013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1197
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010024007013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1197
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010024012013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_2112
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010024016013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_4349
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010024021013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1264
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010024023013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_579
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010024024013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_843
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010024025013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1410
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010024029013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_2112
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010024040013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_3279
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010024041013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_3249
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010024042013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_3279
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010024044013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_2160
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010024046013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1564
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010025003013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_qufu
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010027005013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_4401
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010028001013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_5041
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010030004013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1733
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010031003013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_3533
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010032001013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1519
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010043002013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1194
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010049001013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_4027
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010052002013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1788
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010052003013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_3279
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010052004013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_901
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010080004013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_518
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010094001013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1733
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010094002013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_6053
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010094008013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1733
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010094009013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_4401
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010118002013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1788
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010118006013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1528
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010125002013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1091
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010135001013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1091
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010135002013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1564
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010141001013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1191
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010142004013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_351
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010142006013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_745
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010142006023 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_745
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010142009013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1528
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010147001013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_745
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010148002013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_4442
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010148008013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1022
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010148009013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_745
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010151002013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_351
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010151003013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_351
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010153002013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_579
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010153003013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1788
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010154001013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1197
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010155003013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1528
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010157001013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_2112
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010165001013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_543
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010173001013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1690
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010178005013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1733
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010185001013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1197
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010191003013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_3488
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010191004013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1194
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010196001013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_2112
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010199001013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_745
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010231001013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_2112
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010243002013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_4401
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010250024013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_579
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010250025013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_4349
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010250025033 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_3562
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010250025043 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_2056
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010250025053 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_5041
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010250025063 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1733
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010250025073 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_4990
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010340001013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1788
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010349001013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_579
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010353001013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1191
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010377001013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_745
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010380001013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_3562
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010412001013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_901
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010435001013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_4401
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010469001013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1191
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010470001013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1191
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010473001013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_579
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010474001013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_4990
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010475002013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_16
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010575001013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_3488
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010626001013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1445
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_house_111010766001013 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_5041
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_uuii_book_house_065492fcef27 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_745
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_uuii_book_house_1cdd03787801 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1091
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_uuii_book_house_3407087037c1 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_2112
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_uuii_book_house_3be3db78f1d4 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_351
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_uuii_book_house_42b052f2e929 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_3279
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_uuii_book_house_52d26348c960 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_6895
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_uuii_book_house_548814db6ff4 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_6895
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_uuii_book_house_5c0048d2f4d3 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_3562
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_uuii_book_house_5d08a8beb34f = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_579
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_uuii_book_house_6029f12e01f7 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_4349
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_uuii_book_house_609fbf481dca = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_3279
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_uuii_book_house_69dbe6f0a144 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_3533
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_uuii_book_house_6ea1bef3ce73 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_6895
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_uuii_book_house_731e61a87a1a = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_4401
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_uuii_book_house_770645027e64 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1022
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_uuii_book_house_841f862663b0 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_2112
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_uuii_book_house_8bd49871d3da = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_745
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_uuii_book_house_a79cbb257375 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1788
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_uuii_book_house_ad9daa477502 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_3279
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_uuii_book_house_cd7e1781065a = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_6413
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_uuii_book_house_d8c5b5c5ec35 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_6895
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_uuii_book_house_ebb9ac992bef = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_901
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_uuii_book_house_f8bdf3d26e54 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1022
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_uuii_book_house_f9362e43465a = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_3279
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_h_uuii_book_house_ffc18f9bef2b = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1733
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_p_cai_zhi = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_579
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_p_chen_fan = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1690
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_p_deng_yu = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1733
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_p_geng_yan = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_543
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_p_gong_sun_shu = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_901
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_p_li_gu = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_745
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_p_li_ying_2 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_745
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_p_liang_ji = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1445
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_p_liu_xin_2 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_4349
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_p_wang_lang_2 = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_257
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_p_wang_mang = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_1191
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_famous_p_xie_cheng = {
+	color = { 100 100 100 }
+	landless = yes
+
+	capital = c_uuii_p_6413
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+

@@ -1,0 +1,187 @@
+﻿@better_than_the_alternatives_score = 50
+
+e_tartaria = {
+	color = { 205 5 5 }
+	capital = c_barkul
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = {
+					has_cultural_pillar = heritage_turkic
+				}
+			}
+			add = @better_than_the_alternatives_score
+		}
+	}
+	k_dzungaria = {
+		color = { 156 78 48 }
+		capital = c_barkul
+
+		cultural_names = {
+			name_list_uyghur = cn_qocho
+		}
+		d_kara_khoja = {
+			color = { 132 99 77 }
+			capital = c_barkul
+
+			cultural_names = {
+				name_list_han = cn_gaochan
+				name_list_uyghur = cn_qocho
+			}
+			c_barkul = {
+				color = { 121 96 79 }
+				b_barkul = {
+					color = { 110 40 135 }
+					province = 7257
+				}
+
+				b_liaotun = {
+					color = { 110 40 135 }
+					province = 7258
+				}
+
+				b_pulei = {
+					color = { 110 40 135 }
+					province = 7259
+				}
+
+				b_hami = {
+					color = { 145 55 100 }
+					province = 7252
+
+					cultural_names = {
+						name_list_han = cn_yizhou
+						name_list_uyghur = cn_qumul
+					}
+				}
+
+			}
+
+		}
+
+		d_beshbalik = {
+			color = { 190 89 38 }
+			capital = c_beshbalik
+
+			cultural_names = {
+				name_list_han = cn_yizhou
+				name_list_mongol = cn_urumqi
+			}
+			c_beshbalik = {
+				color = { 188 72 1 }
+
+				cultural_names = {
+					name_list_han = cn_yizhou
+					name_list_mongol = cn_urumqi
+				}
+				b_fukang = {
+					color = { 120 45 115 }
+					province = 7253
+				}
+
+				b_cheshi = {
+					color = { 120 45 115 }
+					province = 7254
+
+					cultural_names = {
+						name_list_han = cn_tingzhou
+					}
+				}
+
+				b_beilu = {
+					color = { 120 45 115 }
+					province = 7256
+				}
+
+			}
+
+			c_jimsar = {
+				color = { 177 109 65 }
+				b_jimsar = {
+					color = { 112 10 201 }
+					province = 7255
+
+					cultural_names = {
+						name_list_han = cn_yulishi
+					}
+				}
+
+				b_yizhi = {
+					color = { 112 10 201 }
+					province = 7260
+				}
+
+				b_altai_south_foot = {
+					color = { 112 10 201 }
+					province = 7474
+				}
+
+			}
+
+		}
+
+		d_naiman_gobi = {
+			color = { 170 107 91 }
+			capital = c_balgun
+			c_balgun = {
+				color = { 176 101 99 }
+				b_balgun = {
+					color = { 45 50 150 }
+					province = 7261
+				}
+
+				b_chumy-su = {
+					color = { 45 50 150 }
+					province = 7262
+				}
+
+			}
+
+			c_kara_asirgan = {
+				color = { 183 119 86 }
+				b_kara-asirgan = {
+					color = { 25 20 135 }
+					province = 7263
+				}
+
+				b_tegurik = {
+					color = { 25 20 135 }
+					province = 7265
+				}
+
+				b_morin_tolochai = {
+					color = { 25 20 135 }
+					province = 7264
+				}
+
+			}
+
+			c_boro_burgasu = {
+				color = { 175 89 77 }
+				b_boro_burgasu = {
+					color = { 30 10 90 }
+					province = 7266
+				}
+
+				b_suchatu = {
+					color = { 30 10 90 }
+					province = 7267
+				}
+
+				b_alak-nor = {
+					color = { 30 10 90 }
+					province = 7268
+				}
+
+			}
+
+		}
+
+	}
+
+}
+

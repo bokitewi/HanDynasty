@@ -1,0 +1,1577 @@
+﻿##### k_amdo ############################
+
+### d_tuyuhun
+## c_fuqi
+# Yagkeng
+7335 = {
+	culture = liangzhou
+	religion = jingxue
+	holding = none
+}
+### d_xining
+## c_xining
+# Rusar
+7342 = {
+	culture = shaodang
+	religion = tengri_pagan
+	holding = castle_holding
+}
+### d_tuyuhun
+## c_gerqen
+# Qabqa
+7344 = {
+	culture = xianling
+	religion = tengri_pagan
+	holding = castle_holding
+}
+### d_xining
+## c_xining
+# Xining
+7343 = {
+	culture = xianling
+	religion = jingxue
+	holding = none
+}
+### d_tuyuhun
+## c_gerqen
+# Changzhi
+7345 = {
+	culture = xianling
+	religion = jingxue
+	holding = none
+}
+## c_fuqi
+# Fuqi
+7334 = {
+	culture = xianling
+	religion = tengri_pagan
+	holding = castle_holding
+}
+# Gangca
+7336 = {
+	culture = liangzhou
+	religion = jingxue
+	holding = none
+}
+## c_gerqen
+# Haeyan
+7337 = {
+	culture = xianling
+	religion = jingxue
+	holding = none
+}
+### d_longyou
+## c_xiningzhou
+# Datong
+7338 = {
+	culture = xianling
+	religion = jingxue
+	holding = castle_holding
+}
+# Gonlung
+7339 = {
+	culture = xianling
+	religion = jingxue
+	holding = none
+}
+# Ledu
+7340 = {
+	culture = xianling
+	religion = tengri_pagan
+	holding = none
+}
+### d_xining
+## c_xining
+# Shanzhou
+7341 = {
+	culture = xianling
+	religion = jingxue
+	holding = castle_holding
+}
+##### k_balhae ############################
+
+### d_BAL_buyeo
+## c_BAL_yizhou
+# Liao_Yizhou
+7434 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = nomad_holding
+}
+### d_BAL_buyeo
+## c_BAL_changchun
+# Liao_Jizhou
+7440 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = none
+}
+### d_BAL_buyeo
+## c_BAL_yizhou
+# Liao_Changchun
+7433 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = castle_holding
+}
+### d_BAL_buyeo
+## c_BAL_yizhou
+# Liao_Fengzhou3
+7439 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = none
+}
+## c_BAL_changchun
+# Liao_Weizhou
+7441 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = none
+}
+### d_BAL_buyeo
+## c_BAL_changchun
+# Liao_Changchun2
+7442 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = nomad_holding
+}
+## c_BAL_xinzhou
+# FIC_Liao_Fuyunan
+7443 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = none
+}
+# Liao_Xinzhou
+7444 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = nomad_holding
+}
+##### k_dzungaria ############################
+
+### d_beshbalik
+## c_beshbalik
+# Beilu
+7256 = {
+	culture = pulei
+	religion = mahayana
+	holding = none
+}
+### d_kara_khoja
+## c_barkul
+# Barkul
+7257 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = nomad_holding
+}
+# Liaotun
+7258 = {
+	culture = pulei
+	religion = mahayana
+	holding = none
+}
+# Hami
+7252 = {
+	culture = pulei
+	religion = mahayana
+	holding = castle_holding
+}
+# Pulei
+7259 = {
+	culture = pulei
+	religion = mahayana
+	holding = none
+}
+### d_naiman_gobi
+## c_balgun
+# Balgun
+7261 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = nomad_holding
+}
+# Chumy-su
+7262 = {
+	culture = zhongqiang
+	religion = jingxue
+	holding = none
+}
+## c_kara_asirgan
+# Kara Asirgan
+7263 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = nomad_holding
+}
+# Morin Tolochai
+7264 = {
+	culture = zhongqiang
+	religion = jingxue
+	holding = none
+}
+# Tegurik
+7265 = {
+	culture = zhongqiang
+	religion = jingxue
+	holding = none
+}
+## c_boro_burgasu
+# Boro Burgasu
+7266 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = nomad_holding
+}
+# Suchatu
+7267 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = none
+}
+### d_beshbalik
+## c_jimsar
+# Yizhi
+7260 = {
+	culture = pulei
+	religion = mahayana
+	holding = none
+}
+# Altai South Foot
+7474 = {
+	holding = none
+}
+### d_naiman_gobi
+## c_boro_burgasu
+# Alak-Nor
+7268 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = none
+}
+### d_beshbalik
+## c_beshbalik
+# Cheshi
+7254 = {
+	culture = pulei
+	religion = mahayana
+	holding = none
+}
+# Fukang
+7253 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = nomad_holding
+}
+## c_jimsar
+# Jimsar
+7255 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = nomad_holding
+}
+##### k_khitan ############################
+
+### d_LIAO_linhuang
+## c_LIAO_ulagaian
+# FIC_Liao_Ulanulagai
+7419 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = nomad_holding
+}
+### d_LIAO_linhuang
+## c_LIAO_ulagaian
+# FIC_Liao_Ulanuer
+7420 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = none
+}
+# FIC_Liao_Charnoer
+7421 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = none
+}
+## c_LIAO_linhuang
+# Liao_Songzhanzhou
+7423 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = nomad_holding
+}
+### d_LIAO_linhuang
+## c_SW_hongxingan
+# FIC_Liao_Liquan
+7425 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = none
+}
+### d_LIAO_linhuang
+## c_SW_hongxingan
+# Liao_Wuzhou
+7426 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = nomad_holding
+}
+## c_LIAO_heicaoan
+# FIC_Liao_Matudi
+7427 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = nomad_holding
+}
+# FIC_Liao_Baicaoer
+7428 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = none
+}
+## c_LIAO_linhuang
+# FIC_Liao_Huopingan
+7429 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = castle_holding
+}
+### d_LIAO_shangjing
+## c_LIAO_horqinan
+# FIC_Liao_Bayintailai
+7430 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = none
+}
+### d_LIAO_linhuang
+## c_LIAO_linhuang
+# Liao_Fengzhou2
+7431 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = castle_holding
+}
+### d_LIAO_shangjing
+## c_LIAO_changchun
+# FIC_Liao_Yumitudi
+7435 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = nomad_holding
+}
+# FIC_Liao_Heihorqin
+7436 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = none
+}
+## c_LIAO_horqinan
+# FIC_Liao_Horqin
+7437 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = nomad_holding
+}
+## c_LIAO_changchun
+# FIC_Liao_Shuangliao
+7438 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = none
+}
+## c_LIAO_horqinan
+# Liao_Chunzhou
+7432 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = none
+}
+### d_LIAO_linhuang
+## c_SW_hongxingan
+# FIC_Liao_Wuluan
+7424 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = none
+}
+##### k_naimania ############################
+
+### d_zavkhan
+## c_uliastai
+# Otgontenger
+7310 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = none
+}
+### d_ovorkhangai
+## c_tovkhon
+# Guchin-Us
+7305 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = none
+}
+## c_bombogor
+# Orog
+7300 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = none
+}
+## c_ikh_bogd
+# Tuin
+7299 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = nomad_holding
+}
+## c_bombogor
+# Khutag
+7298 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = none
+}
+# Boon Tsagaan
+7297 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = none
+}
+# Bombogor
+7296 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = nomad_holding
+}
+## c_khasagt_khairkhan
+# Taigan
+7295 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = none
+}
+### d_gobi_altai
+## c_sharga
+# Sharga
+7470 = {
+	culture = naiman
+	religion = tengri_pagan
+	holding = nomad_holding
+	863.1.1 = {
+		holding = herder_holding
+	}
+	884.5.12 = {
+		holding = nomad_holding
+	}
+	1020.1.2 = {
+		religion = nestorian
+	}
+}
+## c_tseel
+# Aj Bogd
+7472 = {
+	holding = none
+}
+### d_ovorkhangai
+## c_ikh_bogd
+# Khuisiin Naiman Nuur
+7301 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = none
+}
+# Taatsiin Tsagaan
+7302 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = none
+}
+## c_khasagt_khairkhan
+# Gegeen
+7294 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = none
+}
+# Khasagt Khairkhan
+7293 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = nomad_holding
+}
+### d_khovd
+## c_ulaangom
+# Munkh-Khairkhan
+7326 = {
+	culture = zhongqiang
+	religion = jingxue
+	holding = none
+}
+## c_tsambagarau
+# Tsambagarau
+7325 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = nomad_holding
+}
+# Tal-Tugal
+7324 = {
+	culture = zhongqiang
+	religion = jingxue
+	holding = none
+}
+### d_gobi_altai
+## c_sharga
+# Khar Us
+7323 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = castle_holding
+}
+### d_zavkhan
+## c_khar_us
+# Elsen Tasarkhai
+7322 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = none
+}
+# Durgun
+7321 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = nomad_holding
+}
+## c_urgamal
+# Setsen Sart
+7320 = {
+	culture = zhongqiang
+	religion = jingxue
+	holding = none
+}
+# Urgamal
+7319 = {
+	culture = zhongqiang
+	religion = jingxue
+	holding = none
+}
+# Airag
+7318 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = nomad_holding
+}
+### d_khovd
+## c_ulaangom
+# Khyarhgas
+7317 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = nomad_holding
+}
+### d_gobi_altai
+## c_zarman
+# Zarman
+7316 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = none
+}
+# Eej Khairkhan
+7315 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = none
+}
+# Nutsgen Uul
+7314 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = nomad_holding
+}
+## c_tseel
+# Tseel
+7313 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = nomad_holding
+}
+# Alag Khairkhan
+7312 = {
+	culture = zhongqiang
+	religion = jingxue
+	holding = none
+}
+## c_sharga
+# Bumbag Hayrhan Uul
+7311 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = nomad_holding
+}
+### d_zavkhan
+## c_uliastai
+# Uliastai
+7309 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = nomad_holding
+}
+## c_urgamal
+# Ulaagchiin Khar
+7308 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = none
+}
+### d_ovorkhangai
+## c_tovkhon
+# Tovkhon
+7307 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = nomad_holding
+}
+# Arvaikheer
+7306 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = none
+}
+## c_chezier
+# FIC_Mong_Jiasaihe
+7391 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = castle_holding
+}
+# FIC_Mong_Chezier
+7393 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = none
+}
+##### k_otuken ############################
+
+### d_orkhon
+## c_bahantu
+# Khogno Khan
+7273 = {
+	culture = zhongqiang
+	religion = jingxue
+	holding = none
+}
+### d_em_tataria
+## c_tarhanalin
+# FIC_Mong_Tarhanalin
+7373 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = nomad_holding
+}
+### d_orkhon
+## c_karakorum
+# Shankh
+7275 = {
+	culture = zhongqiang
+	religion = jingxue
+	holding = none
+}
+### d_em_tataria
+## c_em_dadaels
+# FIC_Mong_Ichar_Ekin
+7374 = {
+	culture = xianbei
+	religion = jingxue
+	holding = nomad_holding
+}
+# FIC_Mong_Tarkhaidam
+7375 = {
+	culture = zhongqiang
+	religion = jingxue
+	holding = none
+}
+## c_karepuri
+# FIC_Mong_Karepuri
+7376 = {
+	culture = xianbei
+	religion = jingxue
+	holding = nomad_holding
+}
+### d_EM_onon
+## c_EM_khaldun
+# FIC_Mong_Kyursugol
+7377 = {
+	culture = zhongqiang
+	religion = jingxue
+	holding = none
+}
+### d_EM_yujuelu
+## c_EM_tsetsen
+# FIC_Mong_Shaqiu
+7406 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = none
+}
+# FIC_Mong_Elsenurud
+7405 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = nomad_holding
+}
+### d_EM_onon
+## c_EM_ononum
+# FIC_Mong_Ulajagol
+7404 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = nomad_holding
+}
+# FIC_Mong_Khanazuun
+7403 = {
+	culture = zhongqiang
+	religion = jingxue
+	holding = none
+}
+### d_orkhon
+## c_khanjargalant
+# Sharga_OTU
+7281 = {
+	culture = zhongqiang
+	religion = jingxue
+	holding = none
+}
+## c_mumo
+# Erdenet
+7280 = {
+	culture = zhongqiang
+	religion = jingxue
+	holding = none
+}
+### d_em_tataria
+## c_karepuri
+# FIC_Mong_Tarkilechi
+7372 = {
+	culture = zhongqiang
+	religion = jingxue
+	holding = none
+}
+### d_orkhon
+## c_karakorum
+# Karakorum
+7473 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = nomad_holding
+	867.1.1 = {
+		buildings = { longhouses_01 }
+	}
+	1066.1.1 = {
+		culture = khitan
+		religion = mahayana
+	}
+	1178.1.1 = {
+		culture = kerait
+		religion = nestorian
+	}
+}
+### d_ogrash
+## c_naushki
+# Naushki
+7292 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = nomad_holding
+}
+## c_khentii
+# Chikoy_OGR
+7291 = {
+	culture = zhongqiang
+	religion = jingxue
+	holding = none
+}
+### d_EM_onon
+## c_EM_jiangbian
+# Mong_Jiangbian
+7399 = {
+	culture = xianbei
+	religion = tengri_pagan
+	holding = nomad_holding
+}
+## c_EM_khaldun
+# FIC_Mong_Khanabaruun
+7398 = {
+	culture = zhongqiang
+	religion = jingxue
+	holding = none
+}
+### d_orkhon
+## c_bahantu
+# Batkhaan
+7274 = {
+	culture = xiongnu
+	religion = jingxue
+	holding = nomad_holding
+}
+### d_ogrash
+## c_longcheng
+# Longcheng
+7272 = {
+	culture = xiongnu
+	religion = jingxue
+	holding = nomad_holding
+}
+### d_EM_onon
+## c_EM_khaldun
+# FIC_Mong_Olongoluud
+7369 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = nomad_holding
+}
+## c_EM_jiangbian
+# FIC_Mong_Kurumnuur
+7397 = {
+	culture = zhongqiang
+	religion = jingxue
+	holding = none
+}
+### d_ogrash
+## c_khentii
+# Burkal
+7290 = {
+	culture = zhongqiang
+	religion = jingxue
+	holding = none
+}
+# Khentii
+7289 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = nomad_holding
+}
+## c_husutai
+# Tuul Khentii
+7288 = {
+	culture = zhongqiang
+	religion = jingxue
+	holding = none
+}
+### d_orkhon
+## c_karabalgasun
+# Otuken City
+7469 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = nomad_holding
+}
+### d_em_tataria
+## c_em_dutulun
+# FIC_Mong_Dutulunels
+7370 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = nomad_holding
+}
+## c_em_zhen
+# FIC_Mong_Ulyntsana
+7365 = {
+	culture = zhongqiang
+	religion = jingxue
+	holding = none
+}
+## c_em_gobidada
+# FIC_Mong_Chusolalin
+7364 = {
+	culture = zhongqiang
+	religion = jingxue
+	holding = none
+}
+### d_ogrash
+## c_naushki
+# Oarkhan Uul
+7287 = {
+	culture = zhongqiang
+	religion = jingxue
+	holding = none
+}
+## c_ulaanbaatar
+# Orkhontuul
+7286 = {
+	culture = zhongqiang
+	religion = jingxue
+	holding = none
+}
+### d_orkhon
+## c_khanjargalant
+# Ogiy
+7278 = {
+	culture = zhongqiang
+	religion = jingxue
+	holding = none
+}
+### d_em_tataria
+## c_em_gobidada
+# FIC_Mong_Elskhol
+7363 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = nomad_holding
+}
+### d_ogrash
+## c_husutai
+# Hustai
+7285 = {
+	culture = xiongnu
+	religion = jingxue
+	holding = nomad_holding
+}
+## c_longcheng
+# FIC_Mong_Ulantolgod
+7362 = {
+	culture = zhongqiang
+	religion = jingxue
+	holding = none
+}
+## c_ulaanbaatar
+# Moltsog Els
+7284 = {
+	culture = zhongqiang
+	religion = jingxue
+	holding = none
+}
+### d_em_tataria
+## c_em_zhen
+# Mong_Zhen
+7361 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = nomad_holding
+}
+### d_orkhon
+## c_mumo
+# Mumo
+7269 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = nomad_holding
+}
+### d_ogrash
+## c_ulaanbaatar
+# Ulaanbaatar
+7283 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = nomad_holding
+}
+### d_em_tataria
+## c_tarhanalin
+# FIC_Mong_Olokuialin
+7368 = {
+	culture = zhongqiang
+	religion = jingxue
+	holding = none
+}
+### d_orkhon
+## c_mumo
+# Khoyorgol
+7270 = {
+	culture = zhongqiang
+	religion = jingxue
+	holding = none
+}
+### d_em_tataria
+## c_em_gobidada
+# FIC_Mong_Payenula
+7367 = {
+	culture = zhongqiang
+	religion = jingxue
+	holding = none
+}
+## c_em_zhen
+# FIC_Mong_Herulun
+7366 = {
+	culture = zhongqiang
+	religion = jingxue
+	holding = none
+}
+### d_orkhon
+## c_karabalgasun
+# Bulgan Uul
+7282 = {
+	culture = zhongqiang
+	religion = jingxue
+	holding = none
+}
+### d_EM_yujuelu
+## c_EM_yujuelu
+# FIC_Mong_Ergunegol
+7408 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = nomad_holding
+}
+### d_em_tataria
+## c_em_dutulun
+# FIC_Mong_Semkut
+7371 = {
+	culture = zhongqiang
+	religion = jingxue
+	holding = none
+}
+### d_orkhon
+## c_hanhai
+# Hanhai
+7276 = {
+	culture = xiongnu
+	religion = jingxue
+	holding = nomad_holding
+}
+# Karabalgasun
+7277 = {
+	culture = zhongqiang
+	religion = jingxue
+	holding = castle_holding
+}
+## c_khanjargalant
+# Khanjargalant
+7279 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = nomad_holding
+}
+### d_ogrash
+## c_longcheng
+# Bayan Nuur
+7271 = {
+	culture = zhongqiang
+	religion = jingxue
+	holding = castle_holding
+}
+### d_EM_yujuelu
+## c_EM_yujuelu
+# FIC_Mong_Nuurkhoid
+7407 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = none
+}
+##### k_shiwei ############################
+
+### d_em_wuguguo
+## c_kkhuoer
+# FIC_Mong_Kukuchol
+7378 = {
+	culture = xianbei
+	religion = tengri_pagan
+	holding = nomad_holding
+}
+## c_em_kherulendada
+# FIC_Mong_Hinkanalin
+7379 = {
+	culture = xianbei
+	religion = jingxue
+	holding = nomad_holding
+}
+## c_kkhuoer
+# FIC_Mong_Kanchuku
+7380 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = castle_holding
+}
+## c_em_akhulun
+# FIC_Mong_Tsagaanuur
+7402 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = nomad_holding
+}
+# FIC_Mong_Horobot
+7401 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = none
+}
+## c_em_kherulendada
+# FIC_Mong_Usguitalbai
+7381 = {
+	culture = zhongqiang
+	religion = jingxue
+	holding = none
+}
+## c_em_karakopi
+# FIC_Mong_Tapsunuur
+7382 = {
+	culture = xianbei
+	religion = jingxue
+	holding = nomad_holding
+}
+# FIC_Mong_Zovkerulen
+7383 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = none
+}
+### d_SW_heicheziguo
+## c_SW_hulunbuir
+# FIC_Mong_Khalkagol
+7418 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = none
+}
+### d_em_wuguguo
+## c_em_hepung
+# FIC_Mong_Kurnuur
+7384 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = none
+}
+### d_SW_heicheziguo
+## c_SW_zhongcheziguo
+# FIC_Mong_Beiheisha
+7396 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = nomad_holding
+}
+# FIC_Mong_Nanchezi
+7395 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = none
+}
+## c_SW_hulunbuir
+# FIC_Mong_Kharbuir
+7417 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = nomad_holding
+}
+### d_SW_dashiweiguo
+## c_SW_hailar
+# FIC_Mong_Khailangol
+7416 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = none
+}
+### d_em_wuguguo
+## c_em_hepung
+# Mong_Hepung
+7400 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = nomad_holding
+}
+### d_SW_heicheziguo
+## c_SW_dongcheziguo
+# FIC_Mong_Zuunbuir
+7389 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = castle_holding
+}
+## c_SW_zhongcheziguo
+# FIC_Mong_Dongheisha
+7392 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = none
+}
+## c_em_khartereg
+# FIC_Mong_Khosoonuud
+7385 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = none
+}
+### d_SW_dashiweiguo
+## c_SW_pibeihe
+# FIC_Mong_Genhegol
+7412 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = none
+}
+### d_SW_heicheziguo
+## c_SW_dongcheziguo
+# FIC_Mong_Xisaiyin
+7390 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = nomad_holding
+}
+### d_SW_dashiweiguo
+## c_SW_ergunia
+# FIC_Mong_Nyurgol
+7410 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = none
+}
+### d_SW_heicheziguo
+## c_em_khartereg
+# FIC_Mong_Tulanhara
+7386 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = none
+}
+### d_SW_dashiweiguo
+## c_wlhld
+# FIC_Mong_Oyuhulun
+7415 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = castle_holding
+}
+## c_SW_pibeihe
+# Mong_Pibeihe
+7414 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = nomad_holding
+}
+### d_SW_heicheziguo
+## c_em_khartereg
+# FIC_Mong_Nuurkhoorond
+7388 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = nomad_holding
+}
+### d_SW_dashiweiguo
+## c_SW_hailar
+# FIC_Mong_Hailargol
+7409 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = nomad_holding
+}
+# FIC_Mong_Olanuur
+7413 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = none
+}
+## c_SW_ergunia
+# FIC_Mong_Telburgol
+7411 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = nomad_holding
+}
+## c_wlhld
+# FIC_Mong_Ulanhulud
+7387 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = nomad_holding
+}
+##### k_xia ############################
+
+### d_juyan
+## c_chamil
+# Chalamtum
+7351 = {
+	culture = pulei
+	religion = mahayana
+	holding = none
+}
+## c_ongi
+# Myangan Yamaat
+7303 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = none
+}
+# Ongi
+7304 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = nomad_holding
+}
+## c_gobi_gurvan_saikhan
+# GOBI_Khatan_Suudal
+7454 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = none
+}
+# GOBI_Gurvan_Saikhan
+7455 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = none
+}
+# GOBI_Gashunn
+7456 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = nomad_holding
+}
+## c_mazongshan
+# Mazongshan
+7346 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = nomad_holding
+}
+# Saihantaolai
+7347 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = none
+}
+## c_chamil
+# Minggam
+7350 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = nomad_holding
+}
+##### k_xianbei ############################
+
+### d_gobi_shatuoguo
+## c_LIAO_raozhou
+# FIC_Liao_Xilin
+7422 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = nomad_holding
+}
+### d_gobi_dadaels
+## c_gobi_ulaantatar
+# GOBI_Ikh_Nart
+7445 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = none
+}
+# GOBI_Khulugur
+7446 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = nomad_holding
+}
+# GOBI_Burdene_Bulag
+7447 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = none
+}
+### d_gobi_shatuoguo
+## c_gobi_dorngovi
+# GOBI_Miggan
+7448 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = nomad_holding
+}
+## c_gobi_sonkhot
+# GOBI_Sishajiang
+7449 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = nomad_holding
+}
+# GOBI_Liaoli
+7450 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = none
+}
+## c_gobi_dorngovi
+# GOBI_Iren
+7451 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = none
+}
+## c_gobi_maominggan
+# GOBI_Altan_Uul
+7452 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = none
+}
+# GOBI_Aibakha
+7453 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = nomad_holding
+}
+### d_gobi_ongi
+## c_gobi_ongi_gol
+# GOBI_Deed_Ongi
+7457 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = nomad_holding
+}
+# GOBI_Dood_Ongi
+7458 = {
+	culture = zhongqiang
+	religion = jingxue
+	holding = none
+}
+## c_gobi_ulaan_nuur
+# GOBI_Ulaan_Nuur
+7459 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = nomad_holding
+}
+# GOBI_Bayanzag
+7460 = {
+	culture = zhongqiang
+	religion = jingxue
+	holding = none
+}
+## c_gobi_ulaan_govi
+# GOBI_Ochikhi
+7461 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = nomad_holding
+}
+# GOBI_Burgasutai
+7462 = {
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = none
+}
+### d_gobi_shatuoguo
+## c_gobi_abga
+# GOBI_Durma
+7463 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = nomad_holding
+}
+# GOBI_Elsuul
+7464 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = none
+}
+## c_gobi_abakhai
+# GOBI_Kur_Chagan
+7465 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = nomad_holding
+}
+# GOBI_Abakhanar
+7466 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = none
+}
+### d_gobi_shatuoguo
+## c_LIAO_raozhou
+# FIC_Mong_Kharulagai
+7394 = {
+	culture = xianbei
+	religion = xianbei_polytheism
+	holding = none
+}
+# Gobi-Altai South
+7327 = {
+	holding = none
+}
+# Khangai
+7328 = {
+	holding = none
+}
+# GOBI DESERT
+7329 = {
+	holding = none
+}
+# GOBI DESERT
+7330 = {
+	holding = none
+}
+# GOBI DESERT
+7331 = {
+	holding = none
+}
+# ALTAISHAN
+7332 = {
+	holding = none
+}
+# TIANSHAN
+7333 = {
+	holding = none
+}
+# Babao
+7348 = {
+	culture = liangzhou
+	religion = jingxue
+	holding = castle_holding
+}
+# Semnyi
+7349 = {
+	culture = liangzhou
+	religion = jingxue
+	holding = none
+}
+# IMPASSABLE CENTRAL GOBI 1
+7352 = {
+	holding = none
+}
+# IMPASSABLE CENTRAL GOBI 2
+7353 = {
+	holding = none
+}
+# IMPASSABLE CENTRAL GOBI 3
+7354 = {
+	holding = none
+}
+# IMPASSABLE EASTERN GOBI 1
+7355 = {
+	holding = none
+}
+# IMPASSABLE Yablonoi south
+7356 = {
+	holding = none
+}
+# IMPASSABLE Greater Khingan south
+7357 = {
+	holding = none
+}
+# IMPASSABLE eastern Gobi
+7358 = {
+	holding = none
+}
+# IMPASSABLE eastern Mongolia desert 1
+7359 = {
+	holding = none
+}
+# IMPASSABLE eastern Mongolia desert 2
+7360 = {
+	holding = none
+}
+# HD_IMPASSABLE_SMALL
+7467 = {
+	holding = none
+}
+# HD_IMPASSABLE_LARGE
+7468 = {
+	holding = none
+}
+# Anxi
+7471 = {
+	holding = none
+}

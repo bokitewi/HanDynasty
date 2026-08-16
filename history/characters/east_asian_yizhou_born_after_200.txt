@@ -1,0 +1,195 @@
+﻿# Generated from 華陽國志、三國志、三國演義、後漢書 and 漢晉春秋.
+# Culture: yizhou
+# Time partition: born_after_200 (birth > 200).
+# No title history is assigned. Dates marked in the evidence audit may be estimates.
+
+##### 【李球】
+li_qiu={
+	name="uuii_book_li_qiu_name" #球
+	dynasty_house="house_111010004022013"
+	father="li_chan"
+	culture="yizhou"
+	faith="jingxue"
+	diplomacy="5"
+	martial="8"
+	stewardship="4"
+	intrigue="8"
+	learning="8"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_martial_3
+	trait=tk_historical_character01
+	trait=honest
+	trait=wrathful
+	trait=arbitrary
+	204.7.1={
+		birth=yes
+	}
+	263.7.1={
+		death=yes
+	}
+}
+
+##### 【诸葛瞻】
+zhu_ge_zhan={
+	name="uuii_book_zhu_ge_zhan_name" #瞻
+	dynasty_house="uuii_book_house_87d431bc3b58"
+	mother="huang_shi_5"
+	culture="yizhou"
+	faith="jingxue"
+	diplomacy="6"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_3
+	trait=tk_historical_character01
+	trait=brave
+	trait=honest
+	trait=wrathful
+	227.7.1={
+		birth=yes
+	}
+	263.7.1={
+		death=yes
+	}
+}
+
+##### 【杨戏】
+yang_xi={
+	name="uuii_book_yang_xi_name" #戏
+	dynasty_house="uuii_book_house_c72c91369d79"
+	culture="yizhou"
+	faith="jingxue"
+	diplomacy="6"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_martial_4
+	trait=tk_historical_character01
+	trait=wrathful
+	trait=lustful
+	trait=generous
+	234.7.1={
+		birth=yes
+	}
+	299.7.1={
+		death=yes
+	}
+}
+
+##### 【费立】
+fei_li={
+	name="uuii_book_fei_li_name" #立
+	dynasty_house="uuii_book_house_05e8d68837d7"
+	culture="yizhou"
+	faith="jingxue"
+	diplomacy="6"
+	martial="8"
+	stewardship="8"
+	intrigue="6"
+	learning="8"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_martial_4
+	trait=tk_historical_character01
+	trait=honest
+	trait=patient
+	trait=vengeful
+	246.7.1={
+		birth=yes
+	}
+	311.7.1={
+		death=yes
+	}
+}
+
+##### 【张裔】
+zhang_yi_12={
+	name="uuii_book_zhang_yi_12_name" #裔
+	dynasty_house="uuii_book_house_d9fe3563eb7c"
+	culture="yizhou"
+	faith="jingxue"
+	diplomacy="7"
+	martial="8"
+	stewardship="7"
+	intrigue="5"
+	learning="5"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_martial_2
+	trait=tk_historical_character01
+	trait=lustful
+	trait=stubborn
+	trait=shy
+	210.7.1={
+		birth=yes
+	}
+	275.7.1={
+		death=yes
+	}
+}
+
+##### 【李郃】
+li_he_3={
+	name="uuii_book_li_he_3_name" #郃
+	dynasty_house="uuii_book_house_35861a224a6c"
+	culture="yizhou"
+	faith="jingxue"
+	diplomacy="7"
+	martial="5"
+	stewardship="7"
+	intrigue="7"
+	learning="8"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_learning_3
+	trait=tk_historical_character01
+	trait=lazy
+	trait=cynical
+	trait=forgiving
+	798.7.1={
+		birth=yes
+	}
+	842.7.1={
+		death=yes
+	}
+}
+
+##### 【何攀】
+he_pan_2={
+	name="uuii_book_he_pan_2_name" #攀
+	dynasty_house="uuii_book_house_1937e580aabd"
+	culture="yizhou"
+	faith="jingxue"
+	diplomacy="7"
+	martial="5"
+	stewardship="9"
+	intrigue="7"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_4
+	trait=tk_historical_character01
+	trait=lustful
+	trait=just
+	trait=trusting
+	244.7.1={
+		birth=yes
+	}
+	301.7.1={
+		death=yes
+	}
+}

@@ -1,0 +1,447 @@
+﻿namespace = kuzhu_admin_faction_demand
+
+# Install Warlord Faction Demand
+# by Joakim Andreasson
+kuzhu_admin_faction_demand.0001 = {
+	type = letter_event
+	sender = scope:faction_leader
+	opening = {
+		desc = "KUZHU_FACTION_WARLORD_RISING"
+	}
+	desc = "KUZHU_FACTION_WARLORD_RISING_DESC"
+	
+	trigger = {
+		# May have ceased to exist by the time this triggers
+		exists = scope:faction
+	}
+
+	immediate = {
+		# Grab our scope for loc.
+		save_scope_as = faction_target
+	}
+
+	# Accept.
+	option = {
+		name = "FACTION_DEMAND_ACCEPT"
+
+		# This effect should always be placed here, _before_ all the other effects in the block.
+		trigger_event = { on_action = on_faction_demand_accepted }
+
+		root = {
+			save_scope_as = faction_target
+			add_dread = medium_dread_loss
+			# LEGITIMACY LOSS FOR ACCEPTING FACTION DEMANDS
+			faction_accept_demand_legitimacy_effect = yes
+		}
+		
+		scope:faction = {
+			every_faction_member = {
+				#苦竹：简单转为军阀
+				kuzhu_convert_to_warlord_from_admin_effect = yes
+				add_character_flag = {
+					flag = flag_kuzhu_new_warlord
+					years = 10
+				}
+				trigger_event = kuzhu_admin_faction_demand.0002
+			}
+		}
+
+		add_prestige = {
+			value = medium_prestige_value
+			multiply = -1
+		}
+
+		ai_chance = {
+			base = 1
+			modifier = {
+				add = 99
+				scope:faction = { faction_power >= 100 }
+			}
+			modifier = {
+				add = 50
+				scope:faction = { faction_power >= 125 }
+			}
+			modifier = {
+				add = 50
+				scope:faction = { faction_power >= 150 }
+			}
+			modifier = {
+				add = 50
+				scope:faction = { faction_power >= 200 }
+			}
+			modifier = {
+				factor = 0.1
+				any_ally = {
+					NOR = {
+						target_is_liege_or_above = root
+						target_is_vassal_or_below = root
+					}
+					max_military_strength > root.max_military_strength
+				}
+			}
+			compare_modifier = {
+				value = debt_level
+				multiplier = 25
+			}
+			modifier = {
+				add = -50
+				is_at_war = no
+				primary_title.tier >= tier_kingdom
+			}
+			modifier = {
+				add = -150
+				is_at_war = no
+				primary_title.tier >= tier_empire
+			}
+			modifier = {
+				add = -5000
+				OR = {
+					mpo_has_gok_mongol_empire_trigger = yes
+					has_variable = conqueror
+				}
+			}
+			modifier = {
+				add = 10000
+				scope:faction_leader = { is_yes_men_enabled = yes }
+			}
+		}
+	}
+
+	# Reject.
+	option = {
+		name = "FACTION_DEMAND_REFUSE"
+
+		scope:faction_leader = { trigger_event = kuzhu_admin_faction_demand.0003 }
+
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_boldness = 4.0
+			}
+			modifier = {
+				add = 50
+				scope:faction = { faction_power < 80 }
+			}
+			modifier = {
+				add = 100
+				scope:faction = { faction_power < 60 }
+			}
+			modifier = {
+				add = 1000
+				scope:faction = { faction_power < 40 }
+			}
+			compare_modifier = {
+				value = debt_level
+				multiplier = -25
+			}
+			modifier = {
+				add = 5000
+				OR = {
+					mpo_has_gok_mongol_empire_trigger = yes
+					has_variable = conqueror
+				}
+			}
+			modifier = {
+				add = 10000
+				scope:faction_leader = { is_no_men_enabled = yes }
+			}
+		}
+	}
+}
+
+# Install Warlord Faction Demand Accepted
+# by Ismael Serrano
+kuzhu_admin_faction_demand.0002 = {
+	type = letter_event
+	sender = scope:faction_target
+	opening = {
+		desc = "KUZHU_FACTION_WARLORD_RISING_ACCEPTED"
+	}
+	desc = "KUZHU_FACTION_WARLORD_RISING_ACCEPTED_DESC"
+
+	option = {
+		name = "FACTION_DEMAND_ACCEPTED_OPT"
+		custom_tooltip = kuzhu_admin_faction_demand.0002.tt
+	}
+}
+
+# Install Warlord Faction Demand Refused
+# by Joakim Andreasson
+kuzhu_admin_faction_demand.0003 = {
+	type = letter_event
+	sender = scope:faction_target
+	opening = {
+		desc = "KUZHU_FACTION_WARLORD_RISING_REFUSED"
+	}
+	desc = "KUZHU_FACTION_WARLORD_RISING_REFUSED_DESC"
+
+	option = {
+		name = "FACTION_DEMAND_REFUSED_OPT"
+		scope:faction = {
+			faction_start_war = {}
+			
+			every_faction_member = {
+				limit = { this != scope:faction.faction_leader }
+				trigger_event = kuzhu_admin_faction_demand.0004
+			}
+		}
+	}
+}
+
+# Install Warlord Faction Demand Refused Member Notice
+# by Joakim Andreasson
+kuzhu_admin_faction_demand.0004 = {
+	type = letter_event
+	sender = scope:faction_target
+	opening = {
+		desc = "KUZHU_FACTION_WARLORD_RISING_REFUSED"
+	}
+	desc = "KUZHU_FACTION_WARLORD_RISING_REFUSED_DESC"
+
+	option = {
+		name = "FACTION_DEMAND_REFUSED_OPT"	
+	}
+}
+
+# Install Warlord Faction Demand Send Notice
+# by Joakim Andreasson
+kuzhu_admin_faction_demand.0005 = {
+	type = letter_event
+	sender = scope:faction_leader
+	opening = {
+		desc = "KUZHU_FACTION_WARLORD_RISING_SEND_DEMAND_NOTIFICATION"
+	}
+	desc = "KUZHU_FACTION_WARLORD_RISING_SEND_DEMAND_NOTIFICATION_DESC"
+
+	option = {
+		name = "FACTION_DEMAND_SEND_DEMAND_NOTIFICATION_OPT"	
+	}
+}
+
+
+#立傀儡
+
+# Install Puppet Faction Demand
+kuzhu_admin_faction_demand.1001 = {
+	type = letter_event
+	sender = scope:faction_leader
+	opening = {
+		desc = "KUZHU_FACTION_INSTALL_PUPPET"
+	}
+	desc = "KUZHU_FACTION_INSTALL_PUPPET_DESC"
+	
+	trigger = {
+		# May have ceased to exist by the time this triggers
+		exists = scope:faction
+	}
+
+	immediate = {
+		# Grab our scope for loc.
+		save_scope_as = faction_target
+	}
+
+	# Accept.
+	option = {
+		name = "FACTION_DEMAND_ACCEPT"
+
+		# This effect should always be placed here, _before_ all the other effects in the block.
+		trigger_event = { on_action = on_faction_demand_accepted }
+
+		root = {
+			save_scope_as = faction_target
+			add_dread = medium_dread_loss
+			# LEGITIMACY LOSS FOR ACCEPTING FACTION DEMANDS
+			faction_accept_demand_legitimacy_effect = yes
+			#加入被架空的效果
+			add_trait = kuzhu_puppet_ruler
+			set_diarch = scope:faction_leader
+			try_start_diarchy = regency
+			set_diarchy_swing = 100			
+		}
+		#监国特质，可为其增添特殊效果
+		scope:faction_leader = {
+			add_trait = kuzhu_empire_overseer
+		}		
+		scope:faction = {
+			every_faction_member = {
+				trigger_event = kuzhu_admin_faction_demand.1002
+				#苦竹：给予一些奖励
+				if = {
+					limit = {
+						government_has_flag = government_has_influence
+					}
+					change_influence = 1000
+				}
+				else = {
+					add_prestige = 1000
+				}				
+			}
+		}
+
+		add_prestige = {
+			value = medium_prestige_value
+			multiply = -1
+		}
+
+		ai_chance = {
+			base = 1
+			modifier = {
+				add = 99
+				scope:faction = { faction_power >= 100 }
+			}
+			modifier = {
+				add = 50
+				scope:faction = { faction_power >= 125 }
+			}
+			modifier = {
+				add = 50
+				scope:faction = { faction_power >= 150 }
+			}
+			modifier = {
+				add = 50
+				scope:faction = { faction_power >= 200 }
+			}
+			modifier = {
+				factor = 0.1
+				any_ally = {
+					NOR = {
+						target_is_liege_or_above = root
+						target_is_vassal_or_below = root
+					}
+					max_military_strength > root.max_military_strength
+				}
+			}
+			compare_modifier = {
+				value = debt_level
+				multiplier = 25
+			}
+			modifier = {
+				add = -50
+				is_at_war = no
+				primary_title.tier >= tier_kingdom
+			}
+			modifier = {
+				add = -150
+				is_at_war = no
+				primary_title.tier >= tier_empire
+			}
+			modifier = {
+				add = -5000
+				OR = {
+					mpo_has_gok_mongol_empire_trigger = yes
+					has_variable = conqueror
+				}
+			}
+			modifier = {
+				add = 10000
+				scope:faction_leader = { is_yes_men_enabled = yes }
+			}
+		}
+	}
+
+	# Reject.
+	option = {
+		name = "FACTION_DEMAND_REFUSE"
+
+		scope:faction_leader = { trigger_event = kuzhu_admin_faction_demand.1003 }
+
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_boldness = 4.0
+			}
+			modifier = {
+				add = 50
+				scope:faction = { faction_power < 80 }
+			}
+			modifier = {
+				add = 100
+				scope:faction = { faction_power < 60 }
+			}
+			modifier = {
+				add = 1000
+				scope:faction = { faction_power < 40 }
+			}
+			compare_modifier = {
+				value = debt_level
+				multiplier = -25
+			}
+			modifier = {
+				add = 5000
+				OR = {
+					mpo_has_gok_mongol_empire_trigger = yes
+					has_variable = conqueror
+				}
+			}
+			modifier = {
+				add = 10000
+				scope:faction_leader = { is_no_men_enabled = yes }
+			}
+		}
+	}
+}
+
+# Install Puppet Faction Demand Accepted
+kuzhu_admin_faction_demand.1002 = {
+	type = letter_event
+	sender = scope:faction_target
+	opening = {
+		desc = "KUZHU_FACTION_INSTALL_PUPPET_ACCEPTED"
+	}
+	desc = "KUZHU_FACTION_INSTALL_PUPPET_ACCEPTED_DESC"
+
+	option = {
+		name = "FACTION_DEMAND_ACCEPTED_OPT"
+		custom_tooltip = kuzhu_admin_faction_demand.1002.tt
+	}
+}
+
+# Install Puppet Faction Demand Refused
+kuzhu_admin_faction_demand.1003 = {
+	type = letter_event
+	sender = scope:faction_target
+	opening = {
+		desc = "KUZHU_FACTION_INSTALL_PUPPET_REFUSED"
+	}
+	desc = "KUZHU_FACTION_INSTALL_PUPPET_REFUSED_DESC"
+
+	option = {
+		name = "FACTION_DEMAND_REFUSED_OPT"
+		scope:faction = {
+			faction_start_war = {}
+			
+			every_faction_member = {
+				limit = { this != scope:faction.faction_leader }
+				trigger_event = kuzhu_admin_faction_demand.1004
+			}
+		}
+	}
+}
+
+# Install Puppet Faction Demand Refused Member Notice
+kuzhu_admin_faction_demand.1004 = {
+	type = letter_event
+	sender = scope:faction_target
+	opening = {
+		desc = "KUZHU_FACTION_INSTALL_PUPPET_REFUSED"
+	}
+	desc = "KUZHU_FACTION_INSTALL_PUPPET_REFUSED_DESC"
+
+	option = {
+		name = "FACTION_DEMAND_REFUSED_OPT"	
+	}
+}
+
+# Install Puppet Faction Demand Send Notice
+kuzhu_admin_faction_demand.1005 = {
+	type = letter_event
+	sender = scope:faction_leader
+	opening = {
+		desc = "KUZHU_FACTION_INSTALL_PUPPET_SEND_DEMAND_NOTIFICATION"
+	}
+	desc = "KUZHU_FACTION_INSTALL_PUPPET_SEND_DEMAND_NOTIFICATION_DESC"
+
+	option = {
+		name = "FACTION_DEMAND_SEND_DEMAND_NOTIFICATION_OPT"	
+	}
+}

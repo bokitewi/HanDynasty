@@ -1,0 +1,265 @@
+﻿
+
+hd_mcpe_has_opposing_personality_trait_trigger = {
+	save_temporary_scope_value_as = {
+		name = trait
+		value = flag:$TRAIT$
+	}
+
+	OR = {
+		AND = {
+			scope:trait = flag:brave
+			has_trait = craven
+		}
+		AND = {
+			scope:trait = flag:craven
+			has_trait = brave
+		}
+		AND = {
+			scope:trait = flag:calm
+			has_trait = wrathful
+		}
+		AND = {
+			scope:trait = flag:wrathful
+			has_trait = calm
+		}
+		AND = {
+			scope:trait = flag:chaste
+			has_trait = lustful
+		}
+		AND = {
+			scope:trait = flag:lustful
+			has_trait = chaste
+		}
+		AND = {
+			scope:trait = flag:content
+			has_trait = ambitious
+		}
+		AND = {
+			scope:trait = flag:ambitious
+			has_trait = content
+		}
+		AND = {
+			scope:trait = flag:diligent
+			has_trait = lazy
+		}
+		AND = {
+			scope:trait = flag:lazy
+			has_trait = diligent
+		}
+		AND = {
+			scope:trait = flag:fickle
+			has_trait = stubborn
+		}
+		AND = {
+			scope:trait = flag:stubborn
+			has_trait = fickle
+		}
+		AND = {
+			scope:trait = flag:forgiving
+			has_trait = vengeful
+		}
+		AND = {
+			scope:trait = flag:vengeful
+			has_trait = forgiving
+		}
+		AND = {
+			scope:trait = flag:generous
+			has_trait = greedy
+		}
+		AND = {
+			scope:trait = flag:greedy
+			has_trait = generous
+		}
+		AND = {
+			scope:trait = flag:gregarious
+			has_trait = shy
+		}
+		AND = {
+			scope:trait = flag:shy
+			has_trait = gregarious
+		}
+		AND = {
+			scope:trait = flag:honest
+			has_trait = deceitful
+		}
+		AND = {
+			scope:trait = flag:deceitful
+			has_trait = honest
+		}
+		AND = {
+			scope:trait = flag:humble
+			has_trait = arrogant
+		}
+		AND = {
+			scope:trait = flag:arrogant
+			has_trait = humble
+		}
+		AND = {
+			scope:trait = flag:just
+			has_trait = arbitrary
+		}
+		AND = {
+			scope:trait = flag:arbitrary
+			has_trait = just
+		}
+		AND = {
+			scope:trait = flag:patient
+			has_trait = impatient
+		}
+		AND = {
+			scope:trait = flag:impatient
+			has_trait = patient
+		}
+		AND = {
+			scope:trait = flag:temperate
+			has_trait = gluttonous
+		}
+		AND = {
+			scope:trait = flag:gluttonous
+			has_trait = temperate
+		}
+		AND = {
+			scope:trait = flag:trusting
+			has_trait = paranoid
+		}
+		AND = {
+			scope:trait = flag:paranoid
+			has_trait = trusting
+		}
+		AND = {
+			scope:trait = flag:zealous
+			has_trait = cynical
+		}
+		AND = {
+			scope:trait = flag:cynical
+			has_trait = zealous
+		}
+		AND = {
+			scope:trait = flag:compassionate
+			OR = {
+				has_trait = callous
+				has_trait = sadistic
+			}
+		}
+		AND = {
+			scope:trait = flag:callous
+			OR = {
+				has_trait = compassionate
+				has_trait = sadistic
+			}
+		}
+		AND = {
+			scope:trait = flag:sadistic
+			OR = {
+				has_trait = compassionate
+				has_trait = callous
+			}
+		}
+	}
+}
+
+hd_mcpe_is_childhood_personality_event_valid_trigger = {
+	AND = {
+		is_available_child = yes
+		exists = location.county.holder
+		NOR = {
+			has_trait = $TRAIT_1$
+			hd_mcpe_has_opposing_personality_trait_trigger = { TRAIT = $TRAIT_1$ }
+			has_trait = $TRAIT_2$
+			hd_mcpe_has_opposing_personality_trait_trigger = { TRAIT = $TRAIT_2$ }
+			has_trait = $TRAIT_3$
+			hd_mcpe_has_opposing_personality_trait_trigger = { TRAIT = $TRAIT_3$ }
+		}
+	}
+}
+
+mcpe_child_personality_0009_child_preacher_trigger = {
+	is_ai = yes
+	is_available_child = yes
+	age >= 4 # Kid should be able to talk in order to preach
+	NOT = { this = root }
+	NOT = { has_trait = cynical }
+}
+
+
+
+mcpe_appropriate_priest = {
+	is_available_ai_adult = yes
+	faith = root.faith
+	OR = {
+		is_clergy = yes
+		has_trait = devoted
+		has_council_position = councillor_court_chaplain
+		has_court_position = high_almoner_court_position
+		has_court_position = chief_qadi_court_position
+	}
+}
+
+
+
+mcpe_sutiably_evil_person = {
+	is_available_ai = yes
+	OR = {
+		AND = { # Either another child
+			age >= 13
+			age > root.age
+			is_adult = no
+		}
+		AND = { # Or an 'untouchable' noble adult
+			is_adult = yes
+			exists = dynasty
+			dynasty = {
+				any_dynasty_member = {
+					count >= 2
+				}
+			}
+		}
+	}
+	NOR = {
+		ai_compassion >= 0
+		ai_honor >= 0
+		has_relation_friend = root
+		has_relation_potential_friend = root
+	}
+	OR = {
+		has_trait = sadistic
+		has_trait = callous
+		has_personality_malicious_trigger = yes
+	}
+}
+
+
+
+mcpe_appropriate_traumatizing_lover_target = {
+	is_available_ai_adult = yes
+	OR = {
+		any_relation = {
+			type = lover
+			is_available_ai_adult = yes
+		}
+		any_secret = {
+			secret_type = secret_lover
+			NOT = { is_known_by = root }
+			secret_target = {
+				is_available_ai_adult = yes
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

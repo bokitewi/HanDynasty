@@ -1,0 +1,25 @@
+﻿#苦竹：在请求成为军阀互动中作为提示
+
+msg_admin_to_warlord_request_accepted = {
+	icon = "theme_troops"
+	title = event_message_title
+	desc = event_message_effect
+	style = good
+	message_filter_type = admin_new_powerful_family
+}
+
+msg_admin_to_warlord_request_denied = {
+	icon = "theme_troops"
+	title = event_message_title
+	desc = event_message_effect
+	style = bad
+	message_filter_type = admin_new_powerful_family
+}
+
+msg_admin_to_warlord_decision_notice = {
+	icon = "theme_troops"
+	title = event_message_title
+	desc = event_message_effect
+	style = bad
+	message_filter_type = admin_new_powerful_family
+}

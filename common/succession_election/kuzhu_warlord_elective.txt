@@ -1,0 +1,225 @@
+﻿# The entry should be named in the same way that the elective succession law is named to define it's voter's logic.
+# Root scope - Elector, the character voting in the election.
+# scope:candidate scope - Candidate, Character considered for the title.
+# scope:title scope - Title, The title the nomination is for.
+# scope:holder scope - Ruler, The ruler currently holding the title.
+# scope:holder_candidate scope - Favored Candidate, The title owner's candidate.
+# The voter will vote for the top score candidate calculated from this script.
+
+kuzhu_warlord_elective = {
+	elector_vote_strength = {
+		base = 1
+		modifier = { #Sicilian Parliamentary Support
+			desc = tooltip_feudal_vote_strength_parliament
+			add = 1
+			is_landed_or_landless_administrative = yes
+			exists = capital_county
+			capital_county.county_opinion > 25
+			capital_county = { exists = var:variable_sicilian_parliament_county }
+		}
+		modifier = { #Imperial Dignity
+			desc = tooltip_feudal_vote_strength_emperor_tier
+			add = 3
+			highest_held_title_tier = 5
+		}
+		modifier = { #Royal Dignity
+			desc = tooltip_feudal_vote_strength_king_tier
+			add = 2
+			highest_held_title_tier = 4
+		}
+		modifier = { #Princely Dignity
+			desc = tooltip_feudal_vote_strength_duke_tier
+			add = 1
+			highest_held_title_tier = 3
+		}
+		modifier = { #Powerful Vassal
+			desc = tooltip_feudal_vote_strength_powerful_vassal
+			add = {
+				value = 1
+				if = { #Additional point if the vassal is more powerful than the current ruler (Vassal King who meets this condition will have more voting power than the Emperor himself (1+1+1+2 = 5))
+					limit = {
+						max_military_strength > scope:holder.max_military_strength
+					}
+					add = 1
+				}
+			}
+			this != scope:holder
+			is_powerful_vassal = yes
+			liege = scope:holder
+		}
+		
+		#苦竹：这里稍微改一下
+		modifier = { #骑士影响
+			desc = kuzhu_tooltip_is_knight_of_holder
+			add = 1
+			is_knight_of = scope:holder
+		}
+		modifier = { #军事能力影响
+			desc = kuzhu_tooltip_martial_level1
+			add = 1
+			martial > 10
+		}
+		modifier = { #军事能力影响
+			desc = kuzhu_tooltip_martial_level2
+			add = 1
+			martial > 15
+		}
+		modifier = { #军事能力影响
+			desc = kuzhu_tooltip_martial_level3
+			add = 1
+			martial > 20
+		}
+		
+		modifier = { #Regent Influence
+			desc = tooltip_feudal_vote_strength_is_diarch
+			add = 1
+			is_diarch_of_target = scope:holder
+		}
+		modifier = { #本地人影响
+			desc = kuzhu_tooltip_local_noble
+			add = 2
+			AND = {
+				NOT = { this = scope:holder }
+				any_held_title = {
+					any_this_title_or_de_jure_above = {
+						this = scope:title
+					}
+				}
+			}	
+		}			
+	}
+	
+	electors = {
+		max = 8
+		add = holder
+		add = {
+			type = holder_direct_vassals
+			limit = {
+				age >= 16				
+				can_be_combatant_based_on_gender_trigger = { ARMY_OWNER = scope:holder }				
+				NOR = {
+					has_trait = incapable
+					is_at_war_with = scope:holder
+					government_has_flag = government_is_nomadic
+					government_has_flag = government_is_tribal					
+					government_has_flag = government_is_herder					
+				}
+				any_held_title = {
+					any_this_title_or_de_jure_above = {
+						this = scope:title
+					}
+				}				
+			}
+		}
+		add = {
+			type = holder_council_members
+			limit = {
+				is_knight_of = scope:holder
+				NOR = {
+					has_trait = incapable
+					is_at_war_with = scope:holder
+				}	
+			}
+		}		
+	}
+
+	candidate_score = {
+		base = 0
+		######################	Elector self-voting pattern	##########################
+		elector_self_voting_pattern_feudal_elective_modifier = yes
+
+		##########################	Holder voting pattern	##########################
+		holder_voting_pattern_feudal_elective_modifier = yes
+
+		##########################	Elector voting patterns (circumstances)	##########################
+		elector_voting_pattern_circumstances_feudal_elective_modifier = yes
+
+		##########################	Elector voting patterns (prestige/piety)	##########################
+		elector_voting_pattern_prestige_piety_feudal_elective_modifier = yes
+
+		##########################	Elector voting patterns (traits)	##########################
+		elector_voting_pattern_traits_feudal_elective_modifier = yes
+
+		##########################	Elector voting patterns (opinion)	##########################
+		elector_voting_pattern_opinion_feudal_elective_modifier = yes
+
+		##########################	Elector voting patterns (misc)	##########################
+		elector_voting_pattern_circumstances_misc_elective_modifier = yes
+		
+		modifier = { 
+			#给军事能力强的来点意愿，改自学术能力投票
+			add = 15
+			desc = kuzhu_tooltip_feudal_elector_vote_martial_education
+			this != scope:candidate
+			scope:candidate = {
+				martial >= 12
+				OR = {
+					has_trait = education_martial
+					has_lifestyle = martial_lifestyle
+					has_trait = lifestyle_blademaster
+					has_martial_lifestyle_trait_trigger = yes
+					has_trait = education_martial_prowess
+				}
+			}
+		}
+	}
+	
+	#scope:candidate = Candidate, scope:title = Title, scope:holder_candidate = Candidate currently selected by ruler.
+	candidates = {
+		add = {
+			type = holder_direct_vassals
+			limit = {
+				age >= 16
+				can_be_combatant_based_on_gender_trigger = { ARMY_OWNER = scope:holder }					
+				any_held_title = {
+					any_this_title_or_de_jure_above = {
+						this = scope:title
+					}
+				}
+				NOR = {
+					any_held_title = { is_noble_family_title = yes }
+					any_held_title = { is_nomad_title = yes }
+				}
+			}
+		}			
+		add = {
+			type = title_claimants
+			limit = {
+				age >= 16				
+				can_be_combatant_based_on_gender_trigger = { ARMY_OWNER = scope:holder }
+				NOR = {
+					any_held_title = { is_noble_family_title = yes }
+					any_held_title = { is_nomad_title = yes }
+				}
+			}
+		}		
+		add = {
+			type = holder_close_or_extended_family
+			limit = {
+				age >= 16				
+				can_be_combatant_based_on_gender_trigger = { ARMY_OWNER = scope:holder }
+				liege = {
+					any_held_title = {
+						any_this_title_or_de_jure_above = {
+							this = scope:title
+						}
+					}
+				}
+				NOR = {
+					any_held_title = { is_noble_family_title = yes }
+					any_held_title = { is_nomad_title = yes }
+				}				
+			}
+		}
+		add = {
+			type = holder_council_members
+			limit = {
+				is_knight_of = scope:holder
+				NOR = {
+					any_held_title = { is_noble_family_title = yes }
+					any_held_title = { is_nomad_title = yes }
+				}				
+			}	
+		}		
+	}
+}

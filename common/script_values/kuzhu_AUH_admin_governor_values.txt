@@ -1,0 +1,113 @@
+﻿# root - charater that is evaluated for the governorship
+
+kuzhu_governor_political_power = {
+	value = {
+		# 和行政效率靠拢
+		add = {
+			desc = BASE
+			value = -50 
+		}
+
+		#封臣关系
+		add = {
+			desc = kuzhu_vassal_opinion
+			every_vassal = {
+				limit = { 
+					is_landed = yes
+					tier_difference = {
+						target = root
+						value = -1
+					}
+					opinion = {
+						target = root
+						value < 0
+					}
+				}
+				add = -3
+			}
+			every_vassal = {
+				limit = { 
+					is_landed = yes
+					tier_difference = {
+						target = root
+						value = -1
+					}
+					opinion = {
+						target = root
+						value >= 50
+					}
+				}
+				add = 3
+			}			
+		}
+		
+		#影响力和威望取平均值，默认两边最大值都是5		
+		add = {
+			desc = kuzhu_prestige_level
+			culture = {
+				if = {
+					limit = { has_cultural_era_or_later = culture_era_late_medieval }
+					add = { value = root.prestige_level multiply = 8 }
+				}
+				else_if = {
+					limit = { has_cultural_era_or_later = culture_era_high_medieval }
+					add = { value = root.prestige_level multiply = 7 }
+				}
+				else_if = {
+					limit = { has_cultural_era_or_later = culture_era_early_medieval }
+					add = { value = root.prestige_level multiply = 6 }
+				}
+				else = {
+					add = { value = root.prestige_level multiply = 5 }
+				}
+			}
+		}
+		add = {
+			desc = kuzhu_influence_level
+			culture = {
+				if = {
+					limit = { has_cultural_era_or_later = culture_era_late_medieval }
+					add = { value = root.influence_level multiply = 8 }
+				}
+				else_if = {
+					limit = { has_cultural_era_or_later = culture_era_high_medieval }
+					add = { value = root.influence_level multiply = 7 }
+				}
+				else_if = {
+					limit = { has_cultural_era_or_later = culture_era_early_medieval }
+					add = { value = root.influence_level multiply = 6 }
+				}
+				else = {
+					add = { value = root.influence_level multiply = 5 }
+				}
+			}
+		}
+		#私兵数量
+		add = {
+			desc = kuzhu_maa_num
+			culture = {
+				if = {
+					limit = { has_cultural_era_or_later = culture_era_late_medieval }
+					add = { value = root.maa_regiments_count multiply = 2 }
+				}
+				else_if = {
+					limit = { has_cultural_era_or_later = culture_era_high_medieval }
+					add = { value = root.maa_regiments_count multiply = 3 }
+				}
+				else_if = {
+					limit = { has_cultural_era_or_later = culture_era_early_medieval }
+					add = { value = root.maa_regiments_count multiply = 4 }
+				}
+				else = {
+					add = { value = root.maa_regiments_count multiply = 5 }
+				}
+			}
+		}
+		
+		max = 50
+		min = -50
+	}
+}
+
+
+

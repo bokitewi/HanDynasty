@@ -1,0 +1,463 @@
+﻿# Generated from 華陽國志、三國志、三國演義、後漢書 and 漢晉春秋.
+# Culture: sushen
+# Time partition: 180_200 (death >= 180 and birth <= 200).
+# No title history is assigned. Dates marked in the evidence audit may be estimates.
+
+##### 【海东青郎武】
+hai_dong_qing_lang_wu={
+	name="uuii_book_hai_dong_qing_lang_wu_name" #东青郎武
+	dynasty_house="house_134030001001013"
+	culture="sushen"
+	faith="shamanism"
+	diplomacy="8"
+	martial="6"
+	stewardship="6"
+	intrigue="6"
+	learning="9"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_learning_2
+	trait=tk_fictional_character02
+	trait=calm
+	trait=temperate
+	trait=impatient
+	160.7.1={
+		birth=yes
+	}
+	228.7.1={
+		death=yes
+	}
+}
+
+##### 【勿吉赫塔图】
+wu_ji_he_ta_tu={
+	name="uuii_book_wu_ji_he_ta_tu_name" #吉赫塔图
+	dynasty_house="house_134030002001013"
+	culture="sushen"
+	faith="shamanism"
+	diplomacy="6"
+	martial="7"
+	stewardship="8"
+	intrigue="7"
+	learning="5"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_2
+	trait=tk_fictional_character02
+	trait=lazy
+	trait=shy
+	trait=brave
+	157.7.1={
+		birth=yes
+	}
+	234.7.1={
+		death=yes
+	}
+}
+
+##### 【叶鲁哈尔真】
+ye_lu_ha_er_zhen={
+	name="uuii_book_ye_lu_ha_er_zhen_name" #鲁哈尔真
+	dynasty_house="house_134030003001013"
+	culture="sushen"
+	faith="shamanism"
+	diplomacy="5"
+	martial="6"
+	stewardship="9"
+	intrigue="8"
+	learning="5"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_2
+	trait=tk_fictional_character02
+	trait=honest
+	trait=forgiving
+	trait=greedy
+	162.7.1={
+		birth=yes
+	}
+	231.7.1={
+		death=yes
+	}
+}
+
+##### 【兀良哈涂太吉】
+wu_liang_ha_tu_tai_ji={
+	name="uuii_book_wu_liang_ha_tu_tai_ji_name" #良哈涂太吉
+	dynasty_house="house_134030004001013"
+	culture="sushen"
+	faith="shamanism"
+	diplomacy="7"
+	martial="6"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_diplomacy_2
+	trait=tk_fictional_character02
+	trait=ambitious
+	trait=impatient
+	trait=calm
+	165.7.1={
+		birth=yes
+	}
+	238.7.1={
+		death=yes
+	}
+}
+
+##### 【库娄海隆】
+ku_lou_hai_long={
+	name="uuii_book_ku_lou_hai_long_name" #娄海隆
+	dynasty_house="house_134030007001013"
+	culture="sushen"
+	faith="shamanism"
+	diplomacy="5"
+	martial="6"
+	stewardship="9"
+	intrigue="5"
+	learning="8"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_2
+	trait=tk_fictional_character02
+	trait=humble
+	trait=paranoid
+	trait=callous
+	149.7.1={
+		birth=yes
+	}
+	221.7.1={
+		death=yes
+	}
+}
+
+##### 【素和乌骨】
+su_he_wu_gu={
+	name="uuii_book_su_he_wu_gu_name" #和乌骨
+	dynasty_house="house_134030008001013"
+	culture="sushen"
+	faith="shamanism"
+	diplomacy="5"
+	martial="6"
+	stewardship="7"
+	intrigue="8"
+	learning="6"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_intrigue_2
+	trait=tk_fictional_character02
+	trait=brave
+	trait=arbitrary
+	trait=cynical
+	164.7.1={
+		birth=yes
+	}
+	226.7.1={
+		death=yes
+	}
+}
+
+##### 【覆钟莫延】
+fu_zhong_mo_yan={
+	name="uuii_book_fu_zhong_mo_yan_name" #钟莫延
+	dynasty_house="house_134030014001013"
+	culture="sushen"
+	faith="shamanism"
+	diplomacy="6"
+	martial="6"
+	stewardship="8"
+	intrigue="7"
+	learning="7"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_2
+	trait=tk_fictional_character01
+	trait=temperate
+	trait=shy
+	trait=brave
+	163.7.1={
+		birth=yes
+	}
+	231.7.1={
+		death=yes
+	}
+}
+
+##### 【大莫卢桦太】
+da_mo_lu_hua_tai={
+	name="uuii_book_da_mo_lu_hua_tai_name" #莫卢桦太
+	dynasty_house="house_134030016001013"
+	culture="sushen"
+	faith="shamanism"
+	diplomacy="7"
+	martial="7"
+	stewardship="5"
+	intrigue="8"
+	learning="5"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_intrigue_2
+	trait=tk_fictional_character02
+	trait=impatient
+	trait=sadistic
+	trait=trusting
+	168.7.1={
+		birth=yes
+	}
+	240.7.1={
+		death=yes
+	}
+}
+
+##### 【具弗伏琅琅】
+ju_fu_fu_lang_lang={
+	name="uuii_book_ju_fu_fu_lang_lang_name" #弗伏琅琅
+	dynasty_house="house_134030017001013"
+	culture="sushen"
+	faith="shamanism"
+	diplomacy="6"
+	martial="8"
+	stewardship="6"
+	intrigue="8"
+	learning="4"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_martial_2
+	trait=tk_fictional_character02
+	trait=impatient
+	trait=temperate
+	trait=lustful
+	156.7.1={
+		birth=yes
+	}
+	231.7.1={
+		death=yes
+	}
+}
+
+##### 【明临硕硕】
+ming_lin_shuo_shuo={
+	name="uuii_book_ming_lin_shuo_shuo_name" #临硕硕
+	dynasty_house="house_134030024001013"
+	culture="sushen"
+	faith="shamanism"
+	diplomacy="8"
+	martial="5"
+	stewardship="8"
+	intrigue="8"
+	learning="6"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_2
+	trait=tk_fictional_character02
+	trait=sadistic
+	trait=zealous
+	trait=fickle
+	165.7.1={
+		birth=yes
+	}
+	241.7.1={
+		death=yes
+	}
+}
+
+##### 【乙素支】
+yi_su_zhi={
+	name="uuii_book_yi_su_zhi_name" #素支
+	dynasty_house="house_134030027001013"
+	culture="sushen"
+	faith="shamanism"
+	diplomacy="5"
+	martial="5"
+	stewardship="5"
+	intrigue="9"
+	learning="8"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_intrigue_2
+	trait=tk_fictional_character01
+	trait=brave
+	trait=just
+	trait=generous
+	167.7.1={
+		birth=yes
+	}
+	246.7.1={
+		death=yes
+	}
+}
+
+##### 【羽真侯楚旦】
+yu_zhen_hou_chu_dan={
+	name="uuii_book_yu_zhen_hou_chu_dan_name" #真侯楚旦
+	dynasty_house="house_134030051001013"
+	culture="sushen"
+	faith="shamanism"
+	diplomacy="7"
+	martial="9"
+	stewardship="6"
+	intrigue="6"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_martial_2
+	trait=tk_fictional_character01
+	trait=callous
+	trait=forgiving
+	trait=stubborn
+	156.7.1={
+		birth=yes
+	}
+	222.7.1={
+		death=yes
+	}
+}
+
+##### 【匹黎尔粘合】
+pi_li_er_zhan_he={
+	name="uuii_book_pi_li_er_zhan_he_name" #黎尔粘合
+	dynasty_house="house_134030058001013"
+	culture="sushen"
+	faith="shamanism"
+	diplomacy="7"
+	martial="5"
+	stewardship="6"
+	intrigue="6"
+	learning="9"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_learning_2
+	trait=tk_fictional_character01
+	trait=sadistic
+	trait=content
+	trait=forgiving
+	163.7.1={
+		birth=yes
+	}
+	227.7.1={
+		death=yes
+	}
+}
+
+##### 【拔大何柯多尔】
+ba_da_he_ke_duo_er={
+	name="uuii_book_ba_da_he_ke_duo_er_name" #大何柯多尔
+	dynasty_house="house_134030059001013"
+	culture="sushen"
+	faith="shamanism"
+	diplomacy="5"
+	martial="7"
+	stewardship="6"
+	intrigue="6"
+	learning="8"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_learning_2
+	trait=tk_fictional_character02
+	trait=shy
+	trait=stubborn
+	trait=generous
+	152.7.1={
+		birth=yes
+	}
+	238.7.1={
+		death=yes
+	}
+}
+
+##### 【郁羽陵昕垵】
+yu_yu_ling_xin_an={
+	name="uuii_book_yu_yu_ling_xin_an_name" #羽陵昕垵
+	dynasty_house="house_134030060001013"
+	culture="sushen"
+	faith="shamanism"
+	diplomacy="6"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_martial_2
+	trait=tk_fictional_character01
+	trait=trusting
+	trait=honest
+	trait=content
+	159.7.1={
+		birth=yes
+	}
+	225.7.1={
+		death=yes
+	}
+}
+
+##### 【库伏真达斡尔】
+ku_fu_zhen_da_wo_er={
+	name="uuii_book_ku_fu_zhen_da_wo_er_name" #伏真达斡尔
+	dynasty_house="house_134030061001013"
+	culture="sushen"
+	faith="shamanism"
+	diplomacy="6"
+	martial="8"
+	stewardship="9"
+	intrigue="5"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_2
+	trait=tk_fictional_character02
+	trait=impatient
+	trait=forgiving
+	trait=callous
+	167.7.1={
+		birth=yes
+	}
+	234.7.1={
+		death=yes
+	}
+}
+
+##### 【鲁娄答达】
+lu_lou_da_da={
+	name="uuii_book_lu_lou_da_da_name" #娄答达
+	dynasty_house="house_134030062001013"
+	culture="sushen"
+	faith="shamanism"
+	diplomacy="8"
+	martial="4"
+	stewardship="4"
+	intrigue="8"
+	learning="8"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_diplomacy_2
+	trait=tk_fictional_character01
+	trait=humble
+	trait=temperate
+	trait=forgiving
+	155.7.1={
+		birth=yes
+	}
+	236.7.1={
+		death=yes
+	}
+}

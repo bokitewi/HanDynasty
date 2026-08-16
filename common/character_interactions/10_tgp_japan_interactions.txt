@@ -1,0 +1,2 @@
+# UUII excludes Japan from the playable map and final static database.
+# This Japan-only gameplay entry point is intentionally disabled for new games.

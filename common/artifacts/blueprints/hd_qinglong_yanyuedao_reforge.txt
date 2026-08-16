@@ -1,0 +1,39 @@
+hd_qinglong_yanyuedao_to_court = {
+	in_type = spear
+	in_visuals = hd_qinglong_yanyuedao
+	out_type = pedestal
+	out_visuals = hd_qinglong_yanyuedao_court
+	template = hd_qinglong_yanyuedao_template
+
+	disallowed_modifiers = {
+		prowess
+		martial
+		knight_effectiveness_mult
+		enemy_hard_casualty_modifier
+	}
+
+	replacement_modifiers = {
+		illustrious = {
+			hd_qinglong_yanyuedao_court_modifier
+		}
+	}
+}
+
+hd_qinglong_yanyuedao_to_weapon = {
+	in_type = pedestal
+	in_visuals = hd_qinglong_yanyuedao_court
+	out_type = spear
+	out_visuals = hd_qinglong_yanyuedao
+	template = hd_qinglong_yanyuedao_template
+
+	disallowed_modifiers = {
+		court_grandeur_baseline_add
+		monthly_dynasty_prestige
+	}
+
+	replacement_modifiers = {
+		illustrious = {
+			hd_qinglong_yanyuedao_weapon_modifier
+		}
+	}
+}

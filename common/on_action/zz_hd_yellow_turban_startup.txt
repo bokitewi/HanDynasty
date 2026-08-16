@@ -1,0 +1,41 @@
+﻿# Start the historical Yellow Turban rebellion on the 184 bookmark after lobby setup.
+on_game_start_after_lobby = {
+	on_actions = {
+		hd_yellow_turban_after_lobby
+	}
+}
+
+hd_yellow_turban_after_lobby = {
+	trigger = {
+		game_start_date = 184.1.1
+		current_date = 184.1.1
+		NOT = { exists = global_var:hd_yellow_turban_184_initialized }
+		exists = character:zhang_jiao
+		exists = character:tang_zhou
+		exists = character:ma_yuan_yi
+		exists = title:e_han.holder
+		exists = title:d_hd_nanyang_yellow_turbans.holder
+		exists = title:d_hd_yingchuan_yellow_turbans.holder
+		character:zhang_jiao = {
+			is_alive = yes
+			primary_title = title:d_hd_yellow_turbans
+			has_government = landless_adventurer_government
+			NOT = { has_character_flag = hd_yellow_turban_rebellion_started }
+		}
+		character:tang_zhou = { is_alive = yes }
+		character:ma_yuan_yi = { is_alive = yes }
+		title:e_han.holder = { is_alive = yes }
+		title:d_hd_nanyang_yellow_turbans.holder = { is_alive = yes }
+		title:d_hd_yingchuan_yellow_turbans.holder = { is_alive = yes }
+	}
+	effect = {
+		character:zhang_jiao = {
+			# The historical plan was exposed in the first month of the 184 bookmark.
+			trigger_event = {
+				id = hd_yellow_turban.0001
+				months = 1
+			}
+		}
+		set_global_variable = hd_yellow_turban_184_initialized
+	}
+}

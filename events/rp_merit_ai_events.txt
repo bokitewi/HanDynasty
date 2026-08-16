@@ -1,0 +1,190 @@
+﻿namespace = rp_merit_ai
+
+rp_merit_ai.0001 = {
+	type = character_event
+	hidden = yes
+
+	immediate = {
+		add_character_flag = {
+			flag = rp_war_demand_event_cooldown
+			days = 1095
+		}
+		rp_select_war_demand_actor_effect = yes
+		if = {
+			limit = { exists = scope:rp_war_demand_actor }
+			scope:rp_war_demand_actor = {
+				rp_add_merit_effect = { LIEGE = root VALUE = 6 }
+				rp_hanxin_event_ambition_effect = { LIEGE = root VALUE = 10 }
+				add_character_modifier = {
+					modifier = rp_campaign_discipline_modifier
+					years = 3
+				}
+				add_opinion = {
+					target = root
+					modifier = rp_campaign_incident_grateful_opinion
+				}
+			}
+			add_prestige = 30
+		}
+	}
+}
+
+rp_merit_ai.0002 = {
+	type = character_event
+	hidden = yes
+
+	immediate = {
+		if = {
+			limit = { exists = var:rp_hanxin_ambition_target }
+			var:rp_hanxin_ambition_target = {
+				rp_hanxin_add_ambition_effect = { LIEGE = root VALUE = 10 }
+			}
+		}
+		else = {
+			rp_select_hanxin_ambition_actor_effect = yes
+			if = {
+				limit = { exists = scope:rp_hanxin_actor }
+				rp_activate_selected_hanxin_ambition_actor_effect = yes
+				scope:rp_hanxin_actor = {
+					rp_hanxin_add_ambition_effect = { LIEGE = root VALUE = 10 }
+				}
+			}
+		}
+	}
+}
+
+rp_merit_ai.0003 = {
+	type = character_event
+	hidden = yes
+
+	immediate = {
+		add_character_flag = {
+			flag = rp_travel_retainer_recently_checked
+			days = 180
+		}
+		random = {
+			chance = 3
+			rp_create_travel_retainer_effect = yes
+		}
+	}
+}
+
+rp_merit_ai.0004 = {
+	type = character_event
+	hidden = yes
+
+	immediate = {
+		add_character_flag = {
+			flag = rp_yearly_idiom_recently_checked
+			days = 365
+		}
+		random_list = {
+			35 = { add_character_modifier = { modifier = rp_campaign_discipline_modifier years = 3 } }
+			25 = { add_character_modifier = { modifier = rp_merit_honored_modifier years = 3 } }
+			20 = { add_prestige = 40 }
+			20 = { }
+		}
+	}
+}
+
+rp_merit_ai.0005 = {
+	type = character_event
+	hidden = yes
+
+	immediate = {
+		if = {
+			limit = { is_at_war = yes }
+			add_character_modifier = {
+				modifier = rp_campaign_discipline_modifier
+				years = 1
+			}
+		}
+		else = {
+			add_prestige = 15
+		}
+	}
+}
+
+rp_merit_ai.0006 = {
+	type = character_event
+	hidden = yes
+
+	immediate = {
+		if = {
+			limit = { rp_has_grantable_county_trigger = yes }
+			random_list = {
+				60 = { rp_ai_grant_county_to_merit_candidate_effect = yes }
+				40 = { rp_ai_grant_nonland_merit_reward_effect = yes }
+			}
+		}
+		else = {
+			rp_ai_grant_nonland_merit_reward_effect = yes
+		}
+	}
+}
+
+rp_merit_ai.0007 = {
+	type = character_event
+	hidden = yes
+
+	immediate = {
+		rp_select_merit_atonement_actor_effect = yes
+		if = {
+			limit = { exists = scope:rp_atonement_actor }
+			scope:rp_atonement_actor = {
+				if = {
+					limit = { gold >= 80 }
+					random = {
+						chance = 45
+						remove_short_term_gold = 80
+						root = { add_gold = 60 }
+						rp_complete_merit_atonement_effect = { LIEGE = root VALUE = 3 }
+					}
+				}
+				else_if = {
+					limit = {
+						OR = {
+							martial >= 12
+							prowess >= 14
+							has_trait = brave
+							has_trait = diligent
+						}
+					}
+					random = {
+						chance = 60
+						add_character_flag = {
+							flag = rp_atone_by_war_service
+							days = 1825
+						}
+						add_character_flag = {
+							flag = rp_merit_atonement_recently_handled
+							days = 1095
+						}
+						add_character_modifier = {
+							modifier = rp_atonement_border_service_modifier
+							years = 5
+						}
+						add_opinion = {
+							target = root
+							modifier = rp_merit_atonement_accepted_opinion
+						}
+					}
+				}
+				else = {
+					random_list = {
+						60 = {
+							add_character_modifier = {
+								modifier = rp_atonement_border_service_modifier
+								years = 3
+							}
+							rp_complete_merit_atonement_effect = { LIEGE = root VALUE = 4 }
+						}
+						40 = {
+							rp_fail_merit_atonement_effect = { LIEGE = root }
+						}
+					}
+				}
+			}
+		}
+	}
+}

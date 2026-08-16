@@ -1,0 +1,112 @@
+﻿# Generated from 華陽國志、三國志、三國演義、後漢書 and 漢晉春秋.
+# Culture: goguryeo
+# Time partition: dead_before_180 (death < 180).
+# No title history is assigned. Dates marked in the evidence audit may be estimates.
+
+##### 【高伯固】
+gao_bo_gu={
+	name="uuii_book_gao_bo_gu_name" #伯固
+	dynasty_house="house_123020001001013"
+	culture="goguryeo"
+	faith="shamanism"
+	diplomacy="7"
+	martial="9"
+	stewardship="6"
+	intrigue="5"
+	learning="5"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_martial_2
+	trait=tk_historical_character02
+	trait=greedy
+	trait=brave
+	trait=humble
+	89.7.1={
+		birth=yes
+	}
+	179.7.1={
+		death=yes
+	}
+}
+
+##### 【吴汉】
+wu_han={
+	name="uuii_book_wu_han_name" #汉
+	dynasty_house="uuii_book_house_32ecca4c2a0d"
+	culture="goguryeo"
+	faith="jingxue"
+	diplomacy="12"
+	martial="1"
+	stewardship="15"
+	intrigue="1"
+	learning="10"
+	prowess="2"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_4
+	trait=tk_historical_character01
+	trait=brave
+	trait=diligent
+	trait=honest
+	1.7.1={
+		birth=yes
+	}
+	61.7.1={
+		death=yes
+	}
+}
+
+##### 【盖延】
+gai_yan={
+	name="uuii_book_gai_yan_name" #延
+	dynasty_house="uuii_book_house_8691b6ef71ee"
+	culture="goguryeo"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_intrigue_4
+	trait=tk_historical_character01
+	trait=honest
+	trait=generous
+	trait=wrathful
+	1.7.1={
+		birth=yes
+	}
+	39.7.1={
+		death=yes
+	}
+}
+
+##### 【王元】
+wang_yuan={
+	name="uuii_book_wang_yuan_name" #元
+	dynasty_house="uuii_book_house_908847837203"
+	culture="goguryeo"
+	faith="shamanism"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_diplomacy_3
+	trait=tk_historical_character01
+	trait=honest
+	trait=generous
+	trait=wrathful
+	110.7.1={
+		birth=yes
+	}
+	175.7.1={
+		death=yes
+	}
+}

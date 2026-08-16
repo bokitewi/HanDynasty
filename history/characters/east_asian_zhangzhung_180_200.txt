@@ -1,0 +1,166 @@
+﻿# Generated from 華陽國志、三國志、三國演義、後漢書 and 漢晉春秋.
+# Culture: zhangzhung
+# Time partition: 180_200 (death >= 180 and birth <= 200).
+# No title history is assigned. Dates marked in the evidence audit may be estimates.
+
+##### 【穆赤赞】
+mu_chi_zan={
+	name="uuii_book_mu_chi_zan_name" #赤赞
+	dynasty_house="house_114020001001013"
+	culture="zhangzhung"
+	faith="old_bon"
+	diplomacy="5"
+	martial="9"
+	stewardship="6"
+	intrigue="5"
+	learning="8"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_martial_2
+	trait=tk_historical_character01
+	trait=arbitrary
+	trait=impatient
+	trait=stubborn
+	158.7.1={
+		birth=yes
+	}
+	229.7.1={
+		death=yes
+	}
+}
+
+##### 【聂叙仁莫】
+nie_xu_ren_mo={
+	name="uuii_book_nie_xu_ren_mo_name" #叙仁莫
+	dynasty_house="house_114020002001013"
+	culture="zhangzhung"
+	faith="old_bon"
+	diplomacy="6"
+	martial="6"
+	stewardship="9"
+	intrigue="9"
+	learning="5"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_2
+	trait=tk_historical_character01
+	trait=gregarious
+	trait=callous
+	trait=fickle
+	161.7.1={
+		birth=yes
+	}
+	233.7.1={
+		death=yes
+	}
+}
+
+##### 【琼布杰尔纳】
+qiong_bu_jie_er_na={
+	name="uuii_book_qiong_bu_jie_er_na_name" #布杰尔纳
+	dynasty_house="house_114020003001013"
+	culture="zhangzhung"
+	faith="old_bon"
+	diplomacy="5"
+	martial="7"
+	stewardship="6"
+	intrigue="8"
+	learning="5"
+	prowess="9"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_intrigue_2
+	trait=tk_historical_character01
+	trait=impatient
+	trait=brave
+	trait=paranoid
+	165.7.1={
+		birth=yes
+	}
+	230.7.1={
+		death=yes
+	}
+}
+
+##### 【拉达克查谟】
+la_da_ke_cha_mo={
+	name="uuii_book_la_da_ke_cha_mo_name" #达克查谟
+	dynasty_house="house_114020004001013"
+	culture="zhangzhung"
+	faith="old_bon"
+	diplomacy="8"
+	martial="4"
+	stewardship="8"
+	intrigue="8"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_2
+	trait=tk_historical_character01
+	trait=deceitful
+	trait=trusting
+	trait=humble
+	156.7.1={
+		birth=yes
+	}
+	225.7.1={
+		death=yes
+	}
+}
+
+##### 【勃律汉尼】
+bo_lv_han_ni={
+	name="uuii_book_bo_lv_han_ni_name" #律汉尼
+	dynasty_house="house_114020005001013"
+	culture="zhangzhung"
+	faith="old_bon"
+	diplomacy="9"
+	martial="9"
+	stewardship="7"
+	intrigue="6"
+	learning="5"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_diplomacy_2
+	trait=tk_historical_character01
+	trait=wrathful
+	trait=lazy
+	trait=impatient
+	158.7.1={
+		birth=yes
+	}
+	231.7.1={
+		death=yes
+	}
+}
+
+##### 【纳姆加尔麻加】
+na_mu_jia_er_ma_jia={
+	name="uuii_book_na_mu_jia_er_ma_jia_name" #姆加尔麻加
+	dynasty_house="house_114020006001013"
+	culture="zhangzhung"
+	faith="old_bon"
+	diplomacy="10"
+	martial="5"
+	stewardship="6"
+	intrigue="6"
+	learning="7"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_diplomacy_2
+	trait=tk_historical_character01
+	trait=impatient
+	trait=stubborn
+	trait=arbitrary
+	162.7.1={
+		birth=yes
+	}
+	239.7.1={
+		death=yes
+	}
+}

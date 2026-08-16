@@ -1,0 +1,86 @@
+﻿namespace = kuzhu_admin_governor
+
+# demand administration Recipient Player event
+kuzhu_admin_governor.0001 = {
+	type = letter_event
+	opening = ep3_interactions_events.0005.opening
+	desc = {
+		desc = ep3_interactions_events.0005.desc
+		first_valid = {
+			triggered_desc = {
+				trigger = { scope:hereditary = yes }
+				desc = ep3_interactions_events.0005.hereditary
+			}
+			desc = ep3_interactions_events.0005.fallback
+		}
+	}
+	sender = scope:actor
+	
+	trigger = {
+		exists = scope:demanded_administration
+		scope:recipient.primary_title = scope:demanded_administration
+		scope:recipient = { target_is_liege_or_above = scope:actor }
+	}
+
+	#Accept
+	option = {
+		name = ep3_interactions_events.0005.a
+		scope:actor = {
+			send_interface_toast = {
+				type = event_toast_effect_good
+				title = demand_admin_interaction_accept
+				left_icon = scope:recipient
+				change_to_administrative_interaction_effect = yes
+			}
+		}
+		stress_impact = {
+			greedy = medium_stress_impact_gain
+		}
+	}
+}
+
+kuzhu_admin_governor.0002 = {
+	type = letter_event
+	opening = ep3_interactions_events.0005.opening
+	desc = {
+		desc = ep3_interactions_events.0005.desc
+		first_valid = {
+			triggered_desc = {
+				trigger = { scope:hereditary = yes }
+				desc = ep3_interactions_events.0005.hereditary
+			}
+			desc = ep3_interactions_events.0005.fallback
+		}
+	}
+	sender = scope:actor
+	
+	trigger = {
+		exists = scope:demanded_administration
+		scope:recipient.primary_title = scope:demanded_administration
+		scope:recipient = { target_is_liege_or_above = scope:actor }
+	}
+	
+	#Refuse
+	option = {
+		name = ep3_interactions_events.0005.d
+		trigger = { scope:hook = no }
+		show_as_unavailable = { scope:hook = yes }
+		scope:actor = {
+			send_interface_toast = {
+				type = event_toast_effect_bad
+				title = demand_admin_interaction_refuse
+				left_icon = scope:recipient
+				custom_tooltip = demand_admin_interaction_vassal_refuses
+			}
+			if = {
+				limit = { is_ai = yes }
+				add_opinion = {
+					modifier = angry_opinion
+					target = scope:recipient
+					opinion = -15
+				}
+			}
+		}
+	}
+}
+

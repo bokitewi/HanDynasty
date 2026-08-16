@@ -1,0 +1,26 @@
+# Unsupported vanilla regional event chain retained only as inert public shells.
+namespace = south_asia
+
+south_asia.0001 = { type = character_event hidden = yes trigger = { always = no } }
+south_asia.0002 = { type = character_event hidden = yes trigger = { always = no } }
+south_asia.0003 = { type = character_event hidden = yes trigger = { always = no } }
+south_asia.0004 = { type = character_event hidden = yes trigger = { always = no } }
+south_asia.0011 = { type = character_event hidden = yes trigger = { always = no } }
+south_asia.0012 = { type = character_event hidden = yes trigger = { always = no } }
+south_asia.0013 = { type = character_event hidden = yes trigger = { always = no } }
+south_asia.0021 = { type = character_event hidden = yes trigger = { always = no } }
+south_asia.0022 = { type = character_event hidden = yes trigger = { always = no } }
+south_asia.0030 = { type = character_event hidden = yes trigger = { always = no } }
+south_asia.0031 = { type = character_event hidden = yes trigger = { always = no } }
+south_asia.0032 = { type = character_event hidden = yes trigger = { always = no } }
+south_asia.0033 = { type = character_event hidden = yes trigger = { always = no } }
+south_asia.0034 = { type = character_event hidden = yes trigger = { always = no } }
+south_asia.0035 = { type = character_event hidden = yes trigger = { always = no } }
+south_asia.0036 = { type = character_event hidden = yes trigger = { always = no } }
+south_asia.0037 = { type = character_event hidden = yes trigger = { always = no } }
+south_asia.0038 = { type = character_event hidden = yes trigger = { always = no } }
+south_asia.0039 = { type = character_event hidden = yes trigger = { always = no } }
+south_asia.0040 = { type = character_event hidden = yes trigger = { always = no } }
+south_asia.0041 = { type = character_event hidden = yes trigger = { always = no } }
+south_asia.0050 = { type = character_event hidden = yes trigger = { always = no } }
+south_asia.0051 = { type = character_event hidden = yes trigger = { always = no } }

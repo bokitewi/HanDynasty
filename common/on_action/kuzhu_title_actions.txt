@@ -1,0 +1,73 @@
+﻿# A title is transferred to a new character
+# root = the new holder
+# scope:title = the title that changes hands
+# scope:previous_holder = previous holder. Might be dead
+
+kuzhu_warlord_on_title_gain = {
+	effect = {
+		#苦竹：军阀制头衔处理，为军阀制头衔添加特殊继承法
+		if = {
+			limit = {
+				has_realm_law = kuzhu_warlord_elective_succession_law
+				#vassal_contract_has_flag = kuzhu_warlord_is_general_type
+				scope:title = {
+					tier >= tier_duchy
+					NOT = { has_title_law = kuzhu_warlord_appointment_title_law }
+					is_titular = no
+				}
+			}
+			scope:title = {
+				add_title_law = kuzhu_warlord_appointment_title_law
+			}
+		}
+		#苦竹：加上军阀特质，并给经验，但后面不知道怎么简化
+		if = {
+			limit = {
+				government_has_flag = government_is_kuzhu_warlord
+				NOT = { has_trait = kuzhu_warlord_trait }
+			}
+			add_trait = kuzhu_warlord_trait
+		}
+		if = {
+			limit = {
+				has_trait = kuzhu_warlord_trait
+			}
+			if = {
+				limit = {
+					scope:title = { tier = tier_county }						
+				}
+				add_trait_xp = {
+					trait = kuzhu_warlord_trait
+					value = 4
+				}				
+			}
+			if = {
+				limit = {
+					scope:title = { tier = tier_duchy }						
+				}
+				add_trait_xp = {
+					trait = kuzhu_warlord_trait
+					value = 8
+				}				
+			}
+			if = {
+				limit = {
+					scope:title = { tier = tier_kingdom }						
+				}
+				add_trait_xp = {
+					trait = kuzhu_warlord_trait
+					value = 12
+				}				
+			}
+			if = {
+				limit = {
+					scope:title = { tier >= tier_empire }						
+				}
+				add_trait_xp = {
+					trait = kuzhu_warlord_trait
+					value = 16
+				}				
+			}			
+		}		
+	}
+}

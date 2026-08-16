@@ -1,0 +1,1103 @@
+﻿e_uuii_fusang = {
+	color = { 104 81 12 }
+	capital = c_uuii_p_2880
+
+	can_be_named_after_dynasty = no
+	k_uuii_kunu_region = {
+		color = { 95 83 1 }
+		capital = c_uuii_p_2931
+
+		can_be_named_after_dynasty = no
+		d_zhuzi_gounu = {
+			color = { 72 66 1 }
+			capital = c_uuii_p_2931
+
+			can_be_named_after_dynasty = no
+		}
+
+		d_gounu = {
+			color = { 100 108 1 }
+			capital = c_uuii_p_3514
+
+			can_be_named_after_dynasty = no
+			c_uuii_p_3514 = {
+				color = { 113 126 1 }
+				b_uuii_p_3514 = {
+					color = { 141 130 169 }
+					province = 3514
+				}
+
+				b_uuii_p_3516 = {
+					color = { 233 246 251 }
+					province = 3516
+				}
+
+				b_uuii_p_2819 = {
+					color = { 64 132 226 }
+					province = 2819
+				}
+
+				b_uuii_p_3978 = {
+					color = { 3 27 200 }
+					province = 3978
+				}
+
+			}
+
+			c_uuii_p_3976 = {
+				color = { 81 94 1 }
+				b_uuii_p_3976 = {
+					color = { 129 21 219 }
+					province = 3976
+				}
+
+				b_uuii_p_3974 = {
+					color = { 45 15 218 }
+					province = 3974
+				}
+
+				b_uuii_p_2815 = {
+					color = { 85 174 240 }
+					province = 2815
+				}
+
+				b_uuii_p_3521 = {
+					color = { 136 196 163 }
+					province = 3521
+				}
+
+				b_uuii_p_3977 = {
+					color = { 171 24 92 }
+					province = 3977
+				}
+
+				b_uuii_p_3982 = {
+					color = { 171 39 222 }
+					province = 3982
+				}
+
+			}
+
+			c_uuii_p_2931 = {
+				color = { 117 109 1 }
+				b_uuii_p_2931 = {
+					color = { 168 76 133 }
+					province = 2931
+				}
+
+				b_uuii_p_3984 = {
+					color = { 45 45 223 }
+					province = 3984
+				}
+
+				b_uuii_p_3520 = {
+					color = { 151 241 239 }
+					province = 3520
+				}
+
+				b_uuii_p_4015 = {
+					color = { 88 138 11 }
+					province = 4015
+				}
+
+			}
+
+			c_uuii_p_3515 = {
+				color = { 79 108 31 }
+				b_uuii_p_3515 = {
+					color = { 104 14 223 }
+					province = 3515
+				}
+
+				b_uuii_p_3981 = {
+					color = { 129 36 94 }
+					province = 3981
+				}
+
+				b_uuii_p_3980 = {
+					color = { 87 33 221 }
+					province = 3980
+				}
+
+				b_uuii_p_3983 = {
+					color = { 3 142 95 }
+					province = 3983
+				}
+
+				b_uuii_p_3517 = {
+					color = { 82 23 187 }
+					province = 3517
+				}
+
+				b_uuii_p_4020 = {
+					color = { 88 153 141 }
+					province = 4020
+				}
+
+			}
+
+		}
+
+		d_xiematai_gounu = {
+			color = { 120 107 65 }
+			capital = c_uuii_p_3515
+
+			can_be_named_after_dynasty = no
+		}
+
+		d_zhuzi = {
+			color = { 120 90 1 }
+			capital = c_uuii_p_4010
+
+			can_be_named_after_dynasty = no
+			c_uuii_p_3987 = {
+				color = { 112 76 25 }
+				b_uuii_p_3987 = {
+					color = { 171 54 97 }
+					province = 3987
+				}
+
+				b_uuii_p_3988 = {
+					color = { 3 57 225 }
+					province = 3988
+				}
+
+				b_uuii_p_3519 = {
+					color = { 114 233 208 }
+					province = 3519
+				}
+
+				b_uuii_p_3989 = {
+					color = { 45 160 98 }
+					province = 3989
+				}
+
+				b_uuii_p_4003 = {
+					color = { 4 174 5 }
+					province = 4003
+				}
+
+			}
+
+			c_uuii_p_3993 = {
+				color = { 124 107 49 }
+				b_uuii_p_3993 = {
+					color = { 4 159 0 }
+					province = 3993
+				}
+
+				b_uuii_p_2926 = {
+					color = { 128 67 183 }
+					province = 2926
+				}
+
+			}
+
+			c_uuii_p_3998 = {
+				color = { 117 96 1 }
+				b_uuii_p_3998 = {
+					color = { 4 87 130 }
+					province = 3998
+				}
+
+				b_uuii_p_2925 = {
+					color = { 163 55 118 }
+					province = 2925
+				}
+
+				b_uuii_p_2914 = {
+					color = { 127 33 196 }
+					province = 2914
+				}
+
+			}
+
+			c_uuii_p_3999 = {
+				color = { 115 71 1 }
+				b_uuii_p_3999 = {
+					color = { 46 159 3 }
+					province = 3999
+				}
+
+				b_uuii_p_4001 = {
+					color = { 130 96 4 }
+					province = 4001
+				}
+
+			}
+
+			c_uuii_p_4008 = {
+				color = { 118 100 1 }
+				b_uuii_p_4008 = {
+					color = { 4 117 135 }
+					province = 4008
+				}
+
+				b_uuii_p_3523 = {
+					color = { 92 140 237 }
+					province = 3523
+				}
+
+				b_uuii_p_2833 = {
+					color = { 65 69 69 }
+					province = 2833
+				}
+
+				b_uuii_p_2922 = {
+					color = { 152 39 175 }
+					province = 2922
+				}
+
+				b_uuii_p_4005 = {
+					color = { 88 108 6 }
+					province = 4005
+				}
+
+			}
+
+			c_uuii_p_4010 = {
+				color = { 108 77 1 }
+				b_uuii_p_4010 = {
+					color = { 88 123 136 }
+					province = 4010
+				}
+
+				b_uuii_p_4018 = {
+					color = { 4 147 140 }
+					province = 4018
+				}
+
+				b_uuii_p_4019 = {
+					color = { 46 150 13 }
+					province = 4019
+				}
+
+				b_uuii_p_4013 = {
+					color = { 4 132 10 }
+					province = 4013
+				}
+
+			}
+
+		}
+
+	}
+
+	k_uuii_wa_region = {
+		color = { 118 101 94 }
+		capital = c_uuii_p_2829
+
+		can_be_named_after_dynasty = no
+		d_zhongbu = {
+			color = { 99 75 72 }
+			capital = c_uuii_p_4352
+
+			can_be_named_after_dynasty = no
+			c_uuii_p_2829 = {
+				color = { 110 64 63 }
+				b_uuii_p_2829 = {
+					color = { 20 135 33 }
+					province = 2829
+				}
+
+				b_uuii_p_3542 = {
+					color = { 94 130 227 }
+					province = 3542
+				}
+
+				b_uuii_p_4371 = {
+					color = { 4 147 90 }
+					province = 4371
+				}
+
+			}
+
+			c_uuii_p_2849 = {
+				color = { 107 75 78 }
+				b_uuii_p_2849 = {
+					color = { 129 13 47 }
+					province = 2849
+				}
+
+				b_uuii_p_4378 = {
+					color = { 88 168 221 }
+					province = 4378
+				}
+
+				b_uuii_p_4381 = {
+					color = { 4 177 95 }
+					province = 4381
+				}
+
+				b_uuii_p_4382 = {
+					color = { 46 180 223 }
+					province = 4382
+				}
+
+				b_uuii_p_4361 = {
+					color = { 4 117 85 }
+					province = 4361
+				}
+
+			}
+
+			c_uuii_p_2855 = {
+				color = { 80 62 50 }
+				b_uuii_p_2855 = {
+					color = { 106 121 45 }
+					province = 2855
+				}
+
+				b_uuii_p_4429 = {
+					color = { 130 108 19 }
+					province = 4429
+				}
+
+				b_uuii_p_4448 = {
+					color = { 46 165 156 }
+					province = 4448
+				}
+
+				b_uuii_p_4446 = {
+					color = { 4 159 155 }
+					province = 4446
+				}
+
+				b_uuii_p_4422 = {
+					color = { 46 87 143 }
+					province = 4422
+				}
+
+			}
+
+			c_uuii_p_2880 = {
+				color = { 0 220 2 }
+				b_uuii_p_2880 = {
+					color = { 0 220 2 }
+					province = 2880
+				}
+
+				b_uuii_p_4302 = {
+					color = { 46 153 183 }
+					province = 4302
+				}
+
+				b_uuii_p_4296 = {
+					color = { 4 135 180 }
+					province = 4296
+				}
+
+				b_uuii_p_4291 = {
+					color = { 4 120 50 }
+					province = 4291
+				}
+
+			}
+
+			c_uuii_p_4314 = {
+				color = { 95 64 57 }
+				b_uuii_p_4314 = {
+					color = { 130 189 189 }
+					province = 4314
+				}
+
+				b_uuii_p_2989 = {
+					color = { 146 49 143 }
+					province = 2989
+				}
+
+				b_uuii_p_4316 = {
+					color = { 4 195 190 }
+					province = 4316
+				}
+
+				b_uuii_p_2961 = {
+					color = { 194 63 108 }
+					province = 2961
+				}
+
+				b_uuii_p_4376 = {
+					color = { 4 162 220 }
+					province = 4376
+				}
+
+				b_uuii_p_4373 = {
+					color = { 88 153 91 }
+					province = 4373
+				}
+
+			}
+
+			c_uuii_p_4342 = {
+				color = { 104 89 89 }
+				b_uuii_p_4342 = {
+					color = { 46 60 203 }
+					province = 4342
+				}
+
+				b_uuii_p_4346 = {
+					color = { 4 72 205 }
+					province = 4346
+				}
+
+			}
+
+			c_uuii_p_4352 = {
+				color = { 117 76 85 }
+				b_uuii_p_4352 = {
+					color = { 46 90 208 }
+					province = 4352
+				}
+
+				b_uuii_p_4356 = {
+					color = { 4 102 210 }
+					province = 4356
+				}
+
+				b_uuii_p_4357 = {
+					color = { 46 105 83 }
+					province = 4357
+				}
+
+				b_uuii_p_3552 = {
+					color = { 95 125 222 }
+					province = 3552
+				}
+
+			}
+
+			c_uuii_p_4372 = {
+				color = { 109 80 83 }
+				b_uuii_p_4372 = {
+					color = { 46 150 218 }
+					province = 4372
+				}
+
+				b_uuii_p_4343 = {
+					color = { 88 63 76 }
+					province = 4343
+				}
+
+				b_uuii_p_4366 = {
+					color = { 4 132 215 }
+					province = 4366
+				}
+
+			}
+
+			c_uuii_p_4402 = {
+				color = { 111 73 56 }
+				b_uuii_p_4402 = {
+					color = { 46 27 133 }
+					province = 4402
+				}
+
+				b_uuii_p_4411 = {
+					color = { 4 154 10 }
+					province = 4411
+				}
+
+				b_uuii_p_4386 = {
+					color = { 4 192 225 }
+					province = 4386
+				}
+
+				b_uuii_p_4387 = {
+					color = { 46 195 98 }
+					province = 4387
+				}
+
+			}
+
+			c_uuii_p_4429 = {
+				color = { 121 79 70 }
+				b_uuii_p_4436 = {
+					color = { 4 129 150 }
+					province = 4436
+				}
+
+				b_uuii_p_4441 = {
+					color = { 4 144 25 }
+					province = 4441
+				}
+
+				b_uuii_p_4432 = {
+					color = { 46 117 148 }
+					province = 4432
+				}
+
+				b_uuii_p_4431 = {
+					color = { 4 214 20 }
+					province = 4431
+				}
+
+				b_uuii_p_4416 = {
+					color = { 4 69 140 }
+					province = 4416
+				}
+
+				b_uuii_p_4421 = {
+					color = { 4 184 15 }
+					province = 4421
+				}
+
+			}
+
+		}
+
+		d_dongbei = {
+			color = { 137 91 91 }
+			capital = c_uuii_p_3561
+
+			can_be_named_after_dynasty = no
+			c_uuii_p_3561 = {
+				color = { 136 103 111 }
+				b_uuii_p_3561 = {
+					color = { 7 242 71 }
+					province = 3561
+				}
+
+				b_uuii_p_4466 = {
+					color = { 4 6 165 }
+					province = 4466
+				}
+
+				b_uuii_p_4456 = {
+					color = { 4 189 160 }
+					province = 4456
+				}
+
+				b_uuii_p_4451 = {
+					color = { 4 174 30 }
+					province = 4451
+				}
+
+				b_uuii_p_4452 = {
+					color = { 46 177 158 }
+					province = 4452
+				}
+
+				b_uuii_p_3566 = {
+					color = { 87 254 202 }
+					province = 3566
+				}
+
+			}
+
+		}
+
+		d_bianhan_wodi = {
+			color = { 116 84 85 }
+			capital = c_uuii_p_3971
+
+			can_be_named_after_dynasty = no
+		}
+
+	}
+
+	k_uuii_yamatai_region = {
+		color = { 82 48 1 }
+		capital = c_uuii_p_4039
+
+		can_be_named_after_dynasty = no
+		d_chuyun_xiematai = {
+			color = { 55 41 1 }
+			capital = c_uuii_p_4197
+
+			can_be_named_after_dynasty = no
+			c_uuii_p_4197 = {
+				color = { 78 51 1 }
+				b_uuii_p_4197 = {
+					color = { 4 48 130 }
+					province = 4197
+				}
+
+				b_uuii_p_4172 = {
+					color = { 4 186 90 }
+					province = 4172
+				}
+
+				b_wuming_mount1 = {
+					color = { 2 48 15 }
+					province = 2427
+				}
+
+			}
+
+			c_uuii_p_4207 = {
+				color = { 49 32 1 }
+				b_uuii_p_4207 = {
+					color = { 4 78 135 }
+					province = 4207
+				}
+
+				b_uuii_p_4204 = {
+					color = { 88 69 124 }
+					province = 4204
+				}
+
+				b_uuii_p_2831 = {
+					color = { 17 169 17 }
+					province = 2831
+				}
+
+				b_uuii_p_4286 = {
+					color = { 4 105 175 }
+					province = 4286
+				}
+
+				b_uuii_p_4213 = {
+					color = { 46 96 138 }
+					province = 4213
+				}
+
+			}
+
+			c_uuii_p_4093 = {
+				color = { 70 42 1 }
+				b_uuii_p_4093 = {
+					color = { 46 162 178 }
+					province = 4093
+				}
+
+				b_uuii_p_4157 = {
+					color = { 4 141 210 }
+					province = 4157
+				}
+
+				b_uuii_p_4092 = {
+					color = { 4 159 50 }
+					province = 4092
+				}
+
+				b_uuii_p_4152 = {
+					color = { 4 126 80 }
+					province = 4152
+				}
+
+			}
+
+			c_uuii_p_4058 = {
+				color = { 53 27 1 }
+				b_uuii_p_4058 = {
+					color = { 4 143 160 }
+					province = 4058
+				}
+
+				b_uuii_p_4074 = {
+					color = { 46 102 168 }
+					province = 4074
+				}
+
+				b_uuii_p_4078 = {
+					color = { 4 114 170 }
+					province = 4078
+				}
+
+				b_uuii_p_4079 = {
+					color = { 46 117 43 }
+					province = 4079
+				}
+
+			}
+
+		}
+
+		d_jingji = {
+			color = { 59 28 1 }
+			capital = c_uuii_p_4262
+
+			can_be_named_after_dynasty = no
+			c_uuii_p_4262 = {
+				color = { 58 22 6 }
+				b_uuii_p_4262 = {
+					color = { 46 33 163 }
+					province = 4262
+				}
+
+				b_uuii_p_2878 = {
+					color = { 103 41 31 }
+					province = 2878
+				}
+
+				b_uuii_p_2872 = {
+					color = { 119 55 45 }
+					province = 2872
+				}
+
+				b_uuii_p_4266 = {
+					color = { 4 45 165 }
+					province = 4266
+				}
+
+			}
+
+			c_uuii_p_4273 = {
+				color = { 76 31 1 }
+				b_uuii_p_4273 = {
+					color = { 88 166 41 }
+					province = 4273
+				}
+
+				b_uuii_p_4276 = {
+					color = { 4 75 170 }
+					province = 4276
+				}
+
+				b_uuii_p_2832 = {
+					color = { 31 112 32 }
+					province = 2832
+				}
+
+			}
+
+			c_uuii_p_4336 = {
+				color = { 45 2 1 }
+				b_uuii_p_4336 = {
+					color = { 4 42 200 }
+					province = 4336
+				}
+
+				b_uuii_p_4341 = {
+					color = { 4 57 75 }
+					province = 4341
+				}
+
+				b_uuii_p_4327 = {
+					color = { 46 15 168 }
+					province = 4327
+				}
+
+				b_uuii_p_4326 = {
+					color = { 4 12 195 }
+					province = 4326
+				}
+
+			}
+
+			c_uuii_p_4237 = {
+				color = { 64 12 1 }
+				b_uuii_p_4237 = {
+					color = { 4 168 150 }
+					province = 4237
+				}
+
+				b_uuii_p_4242 = {
+					color = { 4 183 25 }
+					province = 4242
+				}
+
+			}
+
+		}
+
+		d_dadao = {
+			color = { 77 44 1 }
+			capital = c_uuii_p_4257
+
+			can_be_named_after_dynasty = no
+			c_uuii_p_4257 = {
+				color = { 81 23 1 }
+				b_uuii_p_4257 = {
+					color = { 46 18 133 }
+					province = 4257
+				}
+
+				b_uuii_p_4256 = {
+					color = { 4 15 160 }
+					province = 4256
+				}
+
+				b_uuii_p_4261 = {
+					color = { 4 130 35 }
+					province = 4261
+				}
+
+				b_uuii_p_4232 = {
+					color = { 4 153 20 }
+					province = 4232
+				}
+
+			}
+
+			c_uuii_p_4227 = {
+				color = { 96 54 4 }
+				b_uuii_p_4227 = {
+					color = { 4 138 145 }
+					province = 4227
+				}
+
+				b_uuii_p_4222 = {
+					color = { 4 223 15 }
+					province = 4222
+				}
+
+			}
+
+		}
+
+		d_xiematai = {
+			color = { 106 56 1 }
+			capital = c_uuii_p_3527
+
+			can_be_named_after_dynasty = no
+			c_uuii_p_3527 = {
+				color = { 124 73 33 }
+				b_uuii_p_3527 = {
+					color = { 83 18 190 }
+					province = 3527
+				}
+
+				b_uuii_p_3525 = {
+					color = { 105 9 218 }
+					province = 3525
+				}
+
+				b_uuii_p_4023 = {
+					color = { 4 162 15 }
+					province = 4023
+				}
+
+			}
+
+			c_uuii_p_4039 = {
+				color = { 122 37 1 }
+				b_uuii_p_4039 = {
+					color = { 46 210 23 }
+					province = 4039
+				}
+
+				b_uuii_p_4038 = {
+					color = { 4 207 150 }
+					province = 4038
+				}
+
+				b_uuii_p_4025 = {
+					color = { 88 168 16 }
+					province = 4025
+				}
+
+				b_uuii_p_4024 = {
+					color = { 46 165 143 }
+					province = 4024
+				}
+
+			}
+
+			c_uuii_p_4028 = {
+				color = { 126 71 35 }
+				b_uuii_p_4028 = {
+					color = { 4 177 145 }
+					province = 4028
+				}
+
+				b_uuii_p_4029 = {
+					color = { 46 180 18 }
+					province = 4029
+				}
+
+				b_uuii_p_4031 = {
+					color = { 130 186 19 }
+					province = 4031
+				}
+
+				b_uuii_p_4033 = {
+					color = { 4 192 20 }
+					province = 4033
+				}
+
+				b_uuii_p_4034 = {
+					color = { 46 195 148 }
+					province = 4034
+				}
+
+			}
+
+			c_uuii_p_4053 = {
+				color = { 111 36 1 }
+				b_uuii_p_4053 = {
+					color = { 4 39 130 }
+					province = 4053
+				}
+
+				b_uuii_p_4050 = {
+					color = { 88 30 156 }
+					province = 4050
+				}
+
+				b_uuii_p_2888 = {
+					color = { 86 27 17 }
+					province = 2888
+				}
+
+				b_uuii_p_4048 = {
+					color = { 4 24 155 }
+					province = 4048
+				}
+
+			}
+
+			c_uuii_p_4044 = {
+				color = { 105 53 1 }
+				b_uuii_p_4044 = {
+					color = { 46 12 153 }
+					province = 4044
+				}
+
+			}
+
+		}
+
+		d_uuii_p_4093 = {
+			color = { 48 31 9 }
+			capital = c_uuii_p_4147
+
+			can_be_named_after_dynasty = no
+		}
+
+		d_duima = {
+			color = { 92 30 1 }
+			capital = c_uuii_p_2932
+
+			can_be_named_after_dynasty = no
+			c_uuii_p_2932 = {
+				color = { 87 1 1 }
+				b_uuii_p_2932 = {
+					color = { 125 53 188 }
+					province = 2932
+				}
+
+				b_uuii_p_4061 = {
+					color = { 130 63 34 }
+					province = 4061
+				}
+
+				b_uuii_p_4060 = {
+					color = { 88 60 161 }
+					province = 4060
+				}
+
+				b_uuii_p_4059 = {
+					color = { 46 190 33 }
+					province = 4059
+				}
+
+			}
+
+			c_uuii_p_4064 = {
+				color = { 121 39 25 }
+				b_uuii_p_4064 = {
+					color = { 46 72 163 }
+					province = 4064
+				}
+
+				b_uuii_p_4063 = {
+					color = { 4 69 35 }
+					province = 4063
+				}
+
+				b_uuii_p_4068 = {
+					color = { 4 84 165 }
+					province = 4068
+				}
+
+				b_uuii_p_4083 = {
+					color = { 4 129 45 }
+					province = 4083
+				}
+
+			}
+
+			c_uuii_p_4084 = {
+				color = { 111 21 1 }
+				b_uuii_p_4084 = {
+					color = { 46 132 173 }
+					province = 4084
+				}
+
+				b_uuii_p_4088 = {
+					color = { 4 144 175 }
+					province = 4088
+				}
+
+				b_uuii_p_4107 = {
+					color = { 4 204 185 }
+					province = 4107
+				}
+
+				b_uuii_p_4112 = {
+					color = { 4 6 60 }
+					province = 4112
+				}
+
+				b_uuii_p_4113 = {
+					color = { 46 9 188 }
+					province = 4113
+				}
+
+			}
+
+			c_uuii_p_4119 = {
+				color = { 107 13 6 }
+				b_uuii_p_4119 = {
+					color = { 88 27 191 }
+					province = 4119
+				}
+
+				b_uuii_p_4122 = {
+					color = { 4 136 65 }
+					province = 4122
+				}
+
+				b_uuii_p_4117 = {
+					color = { 4 21 190 }
+					province = 4117
+				}
+
+				b_uuii_p_4127 = {
+					color = { 4 51 195 }
+					province = 4127
+				}
+
+				b_uuii_p_4137 = {
+					color = { 4 81 200 }
+					province = 4137
+				}
+
+			}
+
+			c_uuii_p_4147 = {
+				color = { 113 33 27 }
+				b_uuii_p_4147 = {
+					color = { 4 111 205 }
+					province = 4147
+				}
+
+				b_uuii_p_4187 = {
+					color = { 4 18 225 }
+					province = 4187
+				}
+
+				b_uuii_p_4182 = {
+					color = { 4 3 195 }
+					province = 4182
+				}
+
+				b_uuii_p_4142 = {
+					color = { 4 196 75 }
+					province = 4142
+				}
+
+				b_uuii_p_4217 = {
+					color = { 4 108 140 }
+					province = 4217
+				}
+
+			}
+
+		}
+
+	}
+
+}
+

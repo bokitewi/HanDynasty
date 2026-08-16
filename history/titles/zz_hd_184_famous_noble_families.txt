@@ -1,0 +1,1768 @@
+﻿c_hd_nf_famous_h_house_111010001001013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = zhao_yun
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010004012013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = li_qian
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010004025013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = li_wang
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010005002013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = zhou_tao
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010005003013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = zhou_shao
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010006006013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = wu_xian
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010007003013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = zheng_xuan
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010008005013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = wang_duan
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010008012013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = wang_weng
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010008014013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = wang_xiu
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010008016013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = wang_lang
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010008023013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = wang_kuang
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010008026013 = {
+	189.1.1 = {
+		liege = h_china
+		holder = wang_ping
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 189.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010010005013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = chen_gong
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010010006013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = chen_yu
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010010016013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = chen_shi
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010013002013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = jiang_yun
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010013004013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = jiang_ai_lian
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010015004013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = han_xian
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010015005013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = han_dang
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010015010013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = han_sui
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010016002013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = yang_feng
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010016007013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = yang_ci
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010020001013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = xu_you
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010020006013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = xu_gai
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010022002013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = lv_fan
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010022003013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = lv_bu
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010022006013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = lv_ai
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010024005013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = zhang_ling
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010024007013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = zhang_he
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010024012013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = zhang_yun
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010024016013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = zhang_zhao
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010024021013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = zhang_liao
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010024023013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = zhang_yue
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010024024013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = zhang_dao
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010024025013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = zhang_yang
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010024029013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = zhang_wen_2
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010024040013 = {
+	200.1.1 = {
+		liege = h_china
+		holder = zhang_ren
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 200.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010024041013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = zhang_jian_3
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010024042013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = zhang_zhen
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010024044013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = zhang_lu
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010024046013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = zhang_ji_4
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010025003013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = kong_xian_2
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010027005013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = yan_yan
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010028001013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = hua_xin
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010030004013 = {
+	200.1.1 = {
+		liege = h_china
+		holder = wei_yan
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 200.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010031003013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = tao_qian
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010032001013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = jiang_tai
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010043002013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = pan_zhang
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010049001013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = lu_su
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010052002013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = ma_cang
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010052003013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = ma_xiang
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010052004013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = ma_dang
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010080004013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = yu_jin
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010094001013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = huang_long
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010094002013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = huang_gai
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010094008013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = huang_zhong
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010094009013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = huang_quan
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010118002013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = pang_de_gong
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010118006013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = pang_wu
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010125002013 = {
+	200.1.1 = {
+		liege = h_china
+		holder = dong_cheng
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 200.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010135001013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = jia_kui
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010135002013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = jia_xu
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010141001013 = {
+	200.1.1 = {
+		liege = h_china
+		holder = yan_liang
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 200.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010142004013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = guo_yun
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010142006013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = guo_jia
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010142006023 = {
+	184.1.1 = {
+		liege = h_china
+		holder = guo_tu
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010142009013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = guo_si
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010147001013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = zhong_yao
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010148002013 = {
+	200.1.1 = {
+		liege = h_china
+		holder = xu_sheng
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 200.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010148008013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = xu_huang
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010148009013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = xu_shu
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010151002013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = gao_gan
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010151003013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = gao_shun
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010153002013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = cai_yong
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010153003013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = cai_zan
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010154001013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = tian_feng
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010155003013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = fan_chou
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010157001013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = ling_cao
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010165001013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = lu_zhi
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010173001013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = ying_kai
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010178005013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = deng_tong
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010185001013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = zuo_xiao
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010191003013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = cheng_pu
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010191004013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = cheng_yu
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010196001013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = lu_kang
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010199001013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = xun_gun
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010231001013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = quan_rou
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010243002013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = gan_ning
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010250024013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = liu_dai
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010250025013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = liu_yi_4
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010250025033 = {
+	184.1.1 = {
+		liege = h_china
+		holder = liu_bei
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010250025043 = {
+	184.1.1 = {
+		liege = h_china
+		holder = liu_pu_2
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010250025053 = {
+	184.1.1 = {
+		liege = h_china
+		holder = liu_dai_3
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010250025063 = {
+	184.1.1 = {
+		liege = h_china
+		holder = liu_qiang
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010250025073 = {
+	184.1.1 = {
+		liege = h_china
+		holder = liu_yan_5
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010340001013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = liao_hua
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010349001013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = man_chong
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010353001013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = wen_chou
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010377001013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = xin_hu
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010380001013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = jian_yong
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010412001013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = fa_zhen
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010435001013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = qiao_qian
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010469001013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = ju_shou
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010470001013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = shen_pei
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010473001013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = dian_wei
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010474001013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = fei_gu
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010475002013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = yue_jin
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010575001013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = gong_sun_yan
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010626001013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = huang_fu_song
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_house_111010766001013 = {
+	184.1.1 = {
+		liege = h_china
+		holder = tai_shi_ci
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_uuii_book_house_065492fcef27 = {
+	184.1.1 = {
+		liege = h_china
+		holder = zhang_rang
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_uuii_book_house_1cdd03787801 = {
+	216.1.1 = {
+		liege = h_china
+		holder = guan_qiu_jian
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 216.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_uuii_book_house_3407087037c1 = {
+	190.1.1 = {
+		liege = h_china
+		holder = wu_guo_tai
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 190.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_uuii_book_house_3be3db78f1d4 = {
+	225.1.1 = {
+		liege = h_china
+		holder = wang_jing_2
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 225.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_uuii_book_house_42b052f2e929 = {
+	228.1.1 = {
+		liege = h_china
+		holder = huang_hao
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 228.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_uuii_book_house_52d26348c960 = {
+	184.1.1 = {
+		liege = h_china
+		holder = xia_hou_chong
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_uuii_book_house_548814db6ff4 = {
+	184.1.1 = {
+		liege = h_china
+		holder = xia_hou_dun
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_uuii_book_house_5c0048d2f4d3 = {
+	189.1.1 = {
+		liege = h_china
+		holder = liu_feng
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 189.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_uuii_book_house_5d08a8beb34f = {
+	218.1.1 = {
+		liege = h_china
+		holder = wen_qin
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 218.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_uuii_book_house_6029f12e01f7 = {
+	191.1.1 = {
+		liege = h_china
+		holder = liu_yong
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 191.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_uuii_book_house_609fbf481dca = {
+	210.1.1 = {
+		liege = h_china
+		holder = ma_zhong_2
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 210.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_uuii_book_house_69dbe6f0a144 = {
+	184.1.1 = {
+		liege = h_china
+		holder = zhu_ran
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_uuii_book_house_6ea1bef3ce73 = {
+	184.1.1 = {
+		liege = h_china
+		holder = sun_gan
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_uuii_book_house_731e61a87a1a = {
+	191.1.1 = {
+		liege = h_china
+		holder = li_yan
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 191.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_uuii_book_house_770645027e64 = {
+	189.1.1 = {
+		liege = h_china
+		holder = wei_biao
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 189.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_uuii_book_house_841f862663b0 = {
+	236.1.1 = {
+		liege = h_china
+		holder = ding_feng
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 236.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_uuii_book_house_8bd49871d3da = {
+	184.1.1 = {
+		liege = h_china
+		holder = hu_guang
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_uuii_book_house_a79cbb257375 = {
+	184.1.1 = {
+		liege = h_china
+		holder = yang_yi_2
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_uuii_book_house_ad9daa477502 = {
+	184.1.1 = {
+		liege = h_china
+		holder = wang_fu
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_uuii_book_house_cd7e1781065a = {
+	184.1.1 = {
+		liege = h_china
+		holder = zhu_jun
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_uuii_book_house_d8c5b5c5ec35 = {
+	185.1.1 = {
+		liege = h_china
+		holder = xia_hou_shang
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 185.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_uuii_book_house_ebb9ac992bef = {
+	193.1.1 = {
+		liege = h_china
+		holder = feng_yi
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 193.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_uuii_book_house_f8bdf3d26e54 = {
+	222.1.1 = {
+		liege = h_china
+		holder = du_yu
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 222.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_uuii_book_house_f9362e43465a = {
+	207.1.1 = {
+		liege = h_china
+		holder = liu_chan
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 207.1.1
+			}
+		}
+	}
+}
+c_hd_nf_famous_h_uuii_book_house_ffc18f9bef2b = {
+	197.1.1 = {
+		liege = h_china
+		holder = deng_ai
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 197.1.1
+			}
+		}
+	}
+}

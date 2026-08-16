@@ -1,0 +1,17 @@
+﻿l_simp_chinese:
+ # 原版丝路参与组说明中的旧六区引用必须覆盖
+ silk_road_situation_participant_group_china_realm_desc:0 "该角色是在丝绸之路东段拥有领地的非[nomadic|E][independent_ruler|E]。"
+ silk_road_situation_participant_group_silk_road_domain_desc:0 "该角色是非[nomadic|E][ruler|E]，其[domain|E]直接位于[GetGeographicalRegion('dlc_tgp_silk_road_route_region').GetName]上。"
+ silk_road_situation_participant_group_silk_road_realm_desc:0 "该角色是非[nomadic|E][ruler|E]，其[realm|E]的一部分与[GetGeographicalRegion('dlc_tgp_silk_road_route_region').GetName]相连。"
+ silk_road_situation_participant_group_silk_road_periphery_desc:0 "该角色是非[nomadic|E][ruler|E]，位于[GetGeographicalRegion('tgp_silk_road_region').GetName]内，但不属于更直接的丝路参与组。"
+ visit_silk_road_market_decision_changan:0 "$building_changan_market_01$ #weak （[GetSituation('silk_road_situation').GetSubRegionByKey('region_silk_road_eastern_section').MakeScope.Var('innovation').CultureInnovationType.GetName]）#!"
+
+ # 仍在使用的运河催化剂改用四区键
+ catalyst_silk_road_china_grand_canal_expanded_desc:0 "$great_project_type_grand_canals$[great_project|E]完工 #weak （[GetSituation('silk_road_situation').GetSubRegionByKey('region_silk_road_eastern_section').GetName]）#!"
+ catalyst_silk_road_china_grand_canal_expanded_secondary_desc:0 "$great_project_type_grand_canals$[great_project|E]完工 #weak （[GetSituation('silk_road_situation').GetSubRegionByKey('region_silk_road_middle_northern_route').GetName]、[GetSituation('silk_road_situation').GetSubRegionByKey('region_silk_road_middle_southern_route').GetName]）#!"
+ catalyst_silk_road_china_grand_canal_expanded_tertiary_desc:0 "$great_project_type_grand_canals$[great_project|E]完工 #weak （[GetSituation('silk_road_situation').GetSubRegionByKey('region_silk_road_western_section').GetName]）#!"
+
+ # 保留原版大草原显示名，只覆盖三个项目地图说明
+ the_great_steppe_sub_region_steppe_west_desc:0 "$SITUATION_SUB_REGION_TOOLTIP_DESC$\n\n#weak 西部草原覆盖凉州诸郡。河西走廊及其邻近边地连接中原与西域，水草、旱灾和严寒的变化不断影响当地牧群与迁徙。#!"
+ the_great_steppe_sub_region_steppe_central_desc:0 "$SITUATION_SUB_REGION_TOOLTIP_DESC$\n\n#weak 中部草原覆盖并州诸郡。这里位于农耕腹地与北方草原之间，山地、河谷和边塞共同塑造了逐水草而居的生活。#!"
+ the_great_steppe_sub_region_steppe_east_desc:0 "$SITUATION_SUB_REGION_TOOLTIP_DESC$\n\n#weak 东部草原覆盖幽州诸郡。燕山南北与辽西边地构成通往东北草原的门户，季候变化会左右牧场肥力与游牧势力的迁徙方向。#!"

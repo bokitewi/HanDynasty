@@ -1,0 +1,95 @@
+# Effects used by the historical Liu Bei aftermath chain.
+
+hd_liu_bei_receive_anxi_effect = {
+	if = {
+		limit = {
+			exists = title:c_uuii_p_2936
+			title:c_uuii_p_2936.holder ?= { is_alive = yes }
+		}
+		create_title_and_vassal_change = {
+			type = granted
+			save_scope_as = hd_liu_bei_anxi_change
+			add_claim_on_loss = no
+		}
+		title:c_uuii_p_2936 = {
+			change_title_holder_include_vassals = {
+				holder = root
+				change = scope:hd_liu_bei_anxi_change
+			}
+		}
+		resolve_title_and_vassal_change = scope:hd_liu_bei_anxi_change
+		add_character_flag = hd_liu_bei_received_anxi
+	}
+}
+
+hd_liu_bei_become_adventurer_effect = {
+	if = {
+		limit = { is_alive = yes }
+
+		# Save a current liege before the landed titles are moved.  This is
+		# normally the Han court (or the Zhongshan lord after Liu Bei receives
+		# Anxi), and is the recipient to whom the county is returned.
+		if = {
+			limit = { liege ?= { is_alive = yes } }
+			liege = { save_scope_as = hd_liu_bei_former_liege }
+		}
+		else = {
+			title:e_han.holder ?= { save_scope_as = hd_liu_bei_former_liege }
+		}
+
+		every_held_title = {
+			title_tier >= county
+			limit = {
+				is_landless_type_title = no
+				is_noble_family_title = no
+			}
+			add_to_list = hd_liu_bei_landed_titles_to_return
+		}
+
+		if = {
+			limit = {
+				exists = scope:hd_liu_bei_former_liege
+			}
+			create_title_and_vassal_change = {
+				type = granted
+				save_scope_as = hd_liu_bei_return_change
+				add_claim_on_loss = no
+			}
+			every_in_list = {
+				list = hd_liu_bei_landed_titles_to_return
+				change_title_holder_include_vassals = {
+					holder = scope:hd_liu_bei_former_liege
+					change = scope:hd_liu_bei_return_change
+				}
+			}
+			resolve_title_and_vassal_change = scope:hd_liu_bei_return_change
+		}
+
+		create_landless_adventurer_title_effect = {
+			REASON = flag:voluntary
+			FLAVOR_CHAR = root
+		}
+		scope:new_landless_adventurer_title ?= {
+			set_title_name = hd_zhuojun_rangers
+		}
+
+		# The noble-family title is the pre-uprising Liu Bei start.  Destroy it
+		# only after the new camp exists, so a player never briefly loses their
+		# sole title and trips a game-over check during the conversion.
+		if = {
+			limit = { has_title = title:c_hd_nf_famous_h_house_111010250025033 }
+			destroy_title = title:c_hd_nf_famous_h_house_111010250025033
+		}
+		add_realm_law_skip_effects = camp_purpose_mercenaries
+		add_character_flag = hd_liu_bei_adventurer_path
+
+		# The oath is personal, so the two sworn brothers follow him even after
+		# he abandons the county office.
+		character:guan_yu ?= {
+			if = { limit = { employer != root } set_employer = root }
+		}
+		character:zhang_fei ?= {
+			if = { limit = { employer != root } set_employer = root }
+		}
+	}
+}

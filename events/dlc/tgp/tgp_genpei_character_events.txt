@@ -1,0 +1,17 @@
+# Unsupported vanilla regional event chain retained only as inert public shells.
+namespace = tgp_genpei_character
+
+tgp_genpei_character.1000 = { type = character_event hidden = yes trigger = { always = no } }
+tgp_genpei_character.1010 = { type = character_event hidden = yes trigger = { always = no } }
+tgp_genpei_character.1090 = { type = character_event hidden = yes trigger = { always = no } }
+tgp_genpei_character.1095 = { type = character_event hidden = yes trigger = { always = no } }
+tgp_genpei_character.1100 = { type = character_event hidden = yes trigger = { always = no } }
+tgp_genpei_character.2000 = { type = character_event hidden = yes trigger = { always = no } }
+tgp_genpei_character.2010 = { type = character_event hidden = yes trigger = { always = no } }
+tgp_genpei_character.3000 = { type = character_event hidden = yes trigger = { always = no } }
+tgp_genpei_character.3010 = { type = character_event hidden = yes trigger = { always = no } }
+tgp_genpei_character.3100 = { type = character_event hidden = yes trigger = { always = no } }
+tgp_genpei_character.4000 = { type = character_event hidden = yes trigger = { always = no } }
+
+scripted_effect save_genpei_scopes_effect = { }
+scripted_effect tgp_yoshinaka_new_house_bloc_effect = { }

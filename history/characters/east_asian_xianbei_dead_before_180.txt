@@ -1,0 +1,248 @@
+﻿# Generated from 華陽國志、三國志、三國演義、後漢書 and 漢晉春秋.
+# Culture: xianbei
+# Time partition: dead_before_180 (death < 180).
+# No title history is assigned. Dates marked in the evidence audit may be estimates.
+
+##### 【拓拔折苴】
+tuo_ba_zhe_ju={
+	name="uuii_book_tuo_ba_zhe_ju_name" #拔折苴
+	dynasty_house="house_131100002001013"
+	father="tuo_ba_tan_shi_huai"
+	culture="xianbei"
+	faith="tengri_pagan"
+	diplomacy="6"
+	martial="9"
+	stewardship="7"
+	intrigue="5"
+	learning="8"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_martial_2
+	trait=tk_historical_character01
+	trait=cynical
+	trait=just
+	trait=wrathful
+	154.7.1={
+		birth=yes
+	}
+	179.7.1={
+		death=yes
+	}
+}
+
+##### 【耿夔】
+geng_kui={
+	name="uuii_book_geng_kui_name" #夔
+	dynasty_house="uuii_book_house_951604f50123"
+	culture="xianbei"
+	faith="shamanism"
+	diplomacy="5"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_4
+	trait=tk_historical_character01
+	trait=brave
+	trait=honest
+	trait=ambitious
+	82.7.1={
+		birth=yes
+	}
+	147.7.1={
+		death=yes
+	}
+}
+
+##### 【邓遵】
+deng_zun={
+	name="uuii_book_deng_zun_name" #遵
+	dynasty_house="uuii_book_house_9d021088fd55"
+	culture="xianbei"
+	faith="shamanism"
+	diplomacy="4"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_learning_4
+	trait=tk_historical_character01
+	trait=deceitful
+	trait=just
+	trait=cynical
+	82.7.1={
+		birth=yes
+	}
+	147.7.1={
+		death=yes
+	}
+}
+
+##### 【张显】
+zhang_xian_4={
+	name="uuii_book_zhang_xian_4_name" #显
+	dynasty_house="uuii_book_house_75097e5e3a41"
+	culture="xianbei"
+	faith="shamanism"
+	diplomacy="4"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_martial_4
+	trait=tk_historical_character01
+	trait=wrathful
+	trait=zealous
+	trait=arbitrary
+	76.7.1={
+		birth=yes
+	}
+	141.7.1={
+		death=yes
+	}
+}
+
+##### 【乌伦】
+wu_lun={
+	name="uuii_book_wu_lun_name" #伦
+	dynasty_house="uuii_book_house_76c035d8e202"
+	culture="xianbei"
+	faith="shamanism"
+	diplomacy="5"
+	martial="9"
+	stewardship="8"
+	intrigue="7"
+	learning="6"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_martial_4
+	trait=tk_historical_character01
+	trait=sadistic
+	trait=wrathful
+	trait=patient
+	90.7.1={
+		birth=yes
+	}
+	155.7.1={
+		death=yes
+	}
+}
+
+##### 【于仇贲】
+yu_chou_ben={
+	name="uuii_book_yu_chou_ben_name" #仇贲
+	dynasty_house="uuii_book_house_bddda3d5549a"
+	culture="xianbei"
+	faith="shamanism"
+	diplomacy="7"
+	martial="7"
+	stewardship="8"
+	intrigue="5"
+	learning="5"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_3
+	trait=tk_historical_character01
+	trait=callous
+	trait=vengeful
+	trait=honest
+	24.7.1={
+		birth=yes
+	}
+	89.7.1={
+		death=yes
+	}
+}
+
+##### 【邓太】
+deng_tai={
+	name="uuii_book_deng_tai_name" #太
+	dynasty_house="uuii_book_house_07bda2b07d5f"
+	culture="xianbei"
+	faith="shamanism"
+	diplomacy="6"
+	martial="8"
+	stewardship="4"
+	intrigue="8"
+	learning="6"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_martial_4
+	trait=tk_historical_character01
+	trait=vengeful
+	trait=stubborn
+	trait=patient
+	83.7.1={
+		birth=yes
+	}
+	148.7.1={
+		death=yes
+	}
+}
+
+##### 【满头】
+man_tou={
+	name="uuii_book_man_tou_name" #头
+	dynasty_house="uuii_book_house_e279840693b5"
+	culture="xianbei"
+	faith="shamanism"
+	diplomacy="8"
+	martial="4"
+	stewardship="8"
+	intrigue="8"
+	learning="4"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_3
+	trait=tk_historical_character01
+	trait=lazy
+	trait=fickle
+	trait=generous
+	28.7.1={
+		birth=yes
+	}
+	93.7.1={
+		death=yes
+	}
+}
+
+##### 【丘伦】
+qiu_lun={
+	name="uuii_book_qiu_lun_name" #伦
+	dynasty_house="uuii_book_house_f80a72139f13"
+	culture="xianbei"
+	faith="shamanism"
+	diplomacy="7"
+	martial="9"
+	stewardship="8"
+	intrigue="5"
+	learning="4"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_4
+	trait=tk_historical_character01
+	trait=cynical
+	trait=vengeful
+	trait=generous
+	79.7.1={
+		birth=yes
+	}
+	144.7.1={
+		death=yes
+	}
+}

@@ -1,0 +1,721 @@
+﻿namespace = rp_idiom
+
+rp_idiom.0001 = {
+	type = character_event
+	title = rp_idiom.0001.t
+	theme = martial
+	override_background = { reference = tgp_camp_asia }
+	override_icon = { reference = "gfx/interface/icons/event_types/type_war.dds" }
+	override_icon = { reference = "gfx/interface/icons/event_types/type_war.dds" }
+	desc = rp_idiom.0001.desc
+	right_portrait = scope:rp_idiom_enemy
+
+	trigger = {
+		is_at_war = yes
+		exists = scope:rp_idiom_enemy
+		OR = {
+			has_relation_friend = scope:rp_idiom_enemy
+			has_relation_best_friend = scope:rp_idiom_enemy
+		}
+	}
+
+	option = {
+		name = rp_idiom.0001.a
+		add_prestige = 100
+		add_character_modifier = { modifier = rp_idiom_retreat_righteous_modifier years = 3 }
+		if = {
+			limit = { exists = scope:rp_idiom_enemy }
+			scope:rp_idiom_enemy = {
+				add_opinion = { target = root modifier = rp_idiom_ally_grateful_opinion }
+			}
+		}
+	}
+
+	option = {
+		name = rp_idiom.0001.b
+		add_prestige = -25
+		add_character_modifier = { modifier = rp_idiom_battle_resolve_modifier years = 2 }
+	}
+
+	option = {
+		name = rp_idiom.0001.c
+		random_list = {
+			55 = {
+				add_prestige = 75
+				add_character_modifier = { modifier = rp_idiom_ambush_success_modifier years = 2 }
+			}
+			45 = {
+				add_prestige = -50
+				add_character_modifier = { modifier = rp_idiom_ambush_failure_modifier years = 2 }
+			}
+		}
+	}
+
+	option = {
+		name = rp_idiom.0001.d
+		trigger = {
+			scope:rp_idiom_enemy = {
+				OR = {
+					has_relation_friend = root
+					has_relation_best_friend = root
+				}
+			}
+			rp_has_gentle_disposition_trigger = yes
+		}
+		add_prestige = 50
+		add_character_modifier = { modifier = rp_idiom_retreat_righteous_modifier years = 5 }
+		scope:rp_idiom_enemy = {
+			add_opinion = { target = root modifier = rp_idiom_ally_grateful_opinion }
+		}
+	}
+
+	option = {
+		name = rp_idiom.0001.e
+		trigger = {
+			rp_has_forceful_disposition_trigger = yes
+		}
+		add_prestige = 25
+		add_dread = 5
+		add_character_modifier = { modifier = rp_idiom_battle_resolve_modifier years = 3 }
+	}
+}
+
+rp_idiom.0010 = {
+	type = character_event
+	title = rp_idiom.0010.t
+	theme = travel
+	override_background = { reference = tgp_chinese_corridor_day }
+	override_icon = { reference = "gfx/interface/icons/event_types/type_journey.dds" }
+	override_icon = { reference = "gfx/interface/icons/event_types/type_journey.dds" }
+	desc = rp_idiom.0010.desc
+
+	trigger = {
+		rp_has_senior_war_adviser_trigger = yes
+	}
+
+	immediate = {
+		add_character_flag = { flag = rp_idiom_travel_recently_checked days = 365 }
+		rp_idiom_select_court_actor_effect = yes
+	}
+
+	option = {
+		name = rp_idiom.0010.a
+		random_list = {
+			70 = {
+				add_character_modifier = { modifier = rp_idiom_old_horse_modifier years = 5 }
+				rp_idiom_reward_actor_merit_effect = { VALUE = 5 }
+			}
+			30 = {
+				add_prestige = -35
+				add_character_modifier = { modifier = rp_idiom_ambush_failure_modifier years = 1 }
+			}
+		}
+	}
+
+	option = {
+		name = rp_idiom.0010.b
+		trigger = { prestige >= 50 }
+		add_prestige = -50
+		add_character_modifier = { modifier = rp_idiom_old_horse_modifier years = 3 }
+	}
+
+	option = {
+		name = rp_idiom.0010.c
+		add_character_modifier = { modifier = rp_idiom_battle_resolve_modifier years = 1 }
+	}
+
+	option = {
+		name = rp_idiom.0010.d
+		trigger = {
+			rp_has_gentle_disposition_trigger = yes
+		}
+		add_prestige = 25
+		add_character_modifier = { modifier = rp_idiom_old_horse_modifier years = 3 }
+	}
+}
+
+rp_idiom.0020 = {
+	type = character_event
+	title = rp_idiom.0020.t
+	theme = diplomacy
+	override_background = { reference = tgp_chinese_corridor_day }
+	override_icon = { reference = "gfx/interface/icons/event_types/type_diplomacy.dds" }
+	override_icon = { reference = "gfx/interface/icons/event_types/type_diplomacy.dds" }
+	desc = rp_idiom.0020.desc
+	right_portrait = scope:rp_idiom_actor
+
+	trigger = {
+		rp_has_diplomatic_retainer_trigger = yes
+	}
+
+	immediate = {
+		add_character_flag = { flag = rp_idiom_travel_recently_checked days = 365 }
+		rp_idiom_select_court_actor_effect = yes
+	}
+
+	option = {
+		name = rp_idiom.0020.a
+		random_list = {
+			60 = {
+				add_prestige = 150
+				add_character_modifier = { modifier = rp_idiom_returned_jade_modifier years = 20 }
+				rp_idiom_reward_actor_merit_effect = { VALUE = 10 }
+			}
+			40 = {
+				add_prestige = -100
+				if = {
+					limit = { exists = scope:rp_idiom_actor }
+					scope:rp_idiom_actor = {
+						add_character_modifier = { modifier = rp_merit_resentful_modifier years = 3 }
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = rp_idiom.0020.b
+		add_prestige = 25
+		if = {
+			limit = { exists = scope:rp_idiom_enemy }
+			scope:rp_idiom_enemy = {
+				add_opinion = { target = root modifier = rp_idiom_rebuffed_power_opinion }
+			}
+		}
+	}
+
+	option = {
+		name = rp_idiom.0020.c
+		random_list = {
+			45 = {
+				add_prestige = 50
+				add_dread = 5
+			}
+			55 = {
+				add_prestige = -75
+				add_character_modifier = { modifier = rp_traitor_modifier years = 1 }
+			}
+		}
+	}
+}
+
+rp_idiom.0030 = {
+	type = character_event
+	title = rp_idiom.0030.t
+	theme = martial
+	override_background = { reference = tgp_camp_asia }
+	override_icon = { reference = "gfx/interface/icons/event_types/type_war.dds" }
+	override_icon = { reference = "gfx/interface/icons/event_types/type_war.dds" }
+	desc = rp_idiom.0030.desc
+	right_portrait = scope:rp_idiom_actor
+
+	trigger = {
+		is_at_war = yes
+		rp_has_senior_war_adviser_trigger = yes
+	}
+
+	immediate = {
+		rp_idiom_select_court_actor_effect = yes
+	}
+
+	option = {
+		name = rp_idiom.0030.a
+		add_character_modifier = { modifier = rp_idiom_old_horse_modifier years = 5 }
+		rp_idiom_reward_actor_merit_effect = { VALUE = 5 }
+	}
+
+	option = {
+		name = rp_idiom.0030.b
+		add_prestige = 30
+	}
+}
+
+rp_idiom.0040 = {
+	type = character_event
+	title = rp_idiom.0040.t
+	theme = intrigue
+	override_background = { reference = tgp_chinese_corridor_day }
+	override_icon = { reference = "gfx/interface/icons/event_types/type_intrigue.dds" }
+	desc = rp_idiom.0040.desc
+	right_portrait = scope:rp_idiom_actor
+
+	trigger = {
+		OR = {
+			rp_has_martial_family_member_trigger = yes
+			rp_has_diplomatic_retainer_trigger = yes
+		}
+	}
+
+	immediate = {
+		add_character_flag = {
+			flag = rp_idiom_qiefu_rescue_cooldown
+			days = 1825
+		}
+		if = {
+			limit = { rp_has_martial_family_member_trigger = yes }
+			rp_idiom_select_martial_family_effect = yes
+		}
+		if = {
+			limit = { NOT = { exists = scope:rp_idiom_actor } }
+			rp_idiom_select_court_actor_effect = yes
+		}
+	}
+
+	option = {
+		name = rp_idiom.0040.a
+		random_list = {
+			60 = {
+				add_prestige = 150
+				add_character_modifier = { modifier = rp_idiom_tally_saved_ally_modifier years = 20 }
+				rp_idiom_reward_actor_merit_effect = { VALUE = 15 }
+			}
+			40 = {
+				add_prestige = -75
+				if = {
+					limit = { exists = scope:rp_idiom_actor }
+					scope:rp_idiom_actor = {
+						add_character_modifier = { modifier = rp_campaign_shamed_modifier years = 3 }
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = rp_idiom.0040.b
+		add_prestige = 25
+	}
+
+	option = {
+		name = rp_idiom.0040.c
+		random_list = {
+			50 = { add_prestige = 75 }
+			50 = { add_prestige = -25 }
+		}
+	}
+
+	option = {
+		name = rp_idiom.0040.d
+		trigger = {
+			gold >= 25
+			rp_has_gentle_disposition_trigger = yes
+		}
+		remove_short_term_gold = 25
+		add_prestige = 100
+		scope:rp_idiom_actor = {
+			add_opinion = { target = root modifier = rp_idiom_ally_grateful_opinion }
+			rp_idiom_reward_actor_merit_effect = { VALUE = 10 }
+		}
+	}
+
+	option = {
+		name = rp_idiom.0040.e
+		trigger = {
+			rp_has_forceful_disposition_trigger = yes
+		}
+		random_list = {
+			75 = {
+				add_prestige = 150
+				scope:rp_idiom_actor = {
+					add_opinion = { target = root modifier = rp_idiom_supported_claimant_opinion }
+					rp_idiom_reward_actor_merit_effect = { VALUE = 20 }
+				}
+			}
+			25 = {
+				add_prestige = -50
+				scope:rp_idiom_actor = {
+					add_character_modifier = { modifier = rp_campaign_shamed_modifier years = 2 }
+				}
+			}
+		}
+	}
+}
+
+rp_idiom.0050 = {
+	type = character_event
+	title = rp_idiom.0050.t
+	theme = martial
+	override_background = { reference = tgp_study_asia }
+	override_icon = { reference = "gfx/interface/icons/event_types/type_war.dds" }
+	override_icon = { reference = "gfx/interface/icons/event_types/type_war.dds" }
+	desc = rp_idiom.0050.desc
+	right_portrait = scope:rp_idiom_enemy
+
+	trigger = {
+		OR = {
+			has_trait = ambitious
+			has_trait = stubborn
+			has_trait = brave
+			has_trait = vengeful
+		}
+	}
+
+	option = {
+		name = rp_idiom.0050.a
+		add_character_modifier = { modifier = rp_idiom_enduring_revenge_modifier years = 30 }
+		if = {
+			limit = { exists = scope:rp_idiom_enemy }
+			set_variable = { name = rp_idiom_revenge_target value = scope:rp_idiom_enemy }
+		}
+	}
+
+	option = {
+		name = rp_idiom.0050.b
+		add_prestige = 25
+	}
+
+	option = {
+		name = rp_idiom.0050.c
+		add_character_modifier = { modifier = rp_idiom_hidden_preparation_modifier years = 10 }
+	}
+}
+
+rp_idiom.0051 = {
+	type = character_event
+	title = rp_idiom.0051.t
+	theme = martial
+	override_background = { reference = tgp_camp_asia }
+	override_icon = { reference = "gfx/interface/icons/event_types/type_war.dds" }
+	override_icon = { reference = "gfx/interface/icons/event_types/type_war.dds" }
+	desc = rp_idiom.0051.desc
+
+	option = {
+		name = rp_idiom.0051.a
+		add_prestige = 500
+		add_dread = 10
+	}
+}
+
+rp_idiom.0060 = {
+	type = character_event
+	title = rp_idiom.0060.t
+	theme = martial
+	override_background = { reference = tgp_camp_asia }
+	override_icon = { reference = "gfx/interface/icons/event_types/type_war.dds" }
+	override_icon = { reference = "gfx/interface/icons/event_types/type_war.dds" }
+	desc = rp_idiom.0060.desc
+	right_portrait = scope:rp_idiom_actor
+
+	trigger = {
+		is_at_war = yes
+		rp_has_senior_war_adviser_trigger = yes
+	}
+
+	immediate = {
+		rp_idiom_select_court_actor_effect = yes
+	}
+
+	option = {
+		name = rp_idiom.0060.a
+		random_list = {
+			65 = {
+				add_prestige = 150
+				add_character_modifier = { modifier = rp_idiom_strike_capital_modifier years = 10 }
+				rp_idiom_reward_actor_merit_effect = { VALUE = 12 }
+			}
+			35 = {
+				add_prestige = -50
+				add_character_modifier = { modifier = rp_campaign_disorder_modifier years = 2 }
+			}
+		}
+	}
+
+	option = {
+		name = rp_idiom.0060.b
+		add_character_modifier = { modifier = rp_campaign_discipline_modifier years = 2 }
+	}
+
+	option = {
+		name = rp_idiom.0060.c
+		random_list = {
+			45 = {
+				add_prestige = 200
+				add_character_modifier = { modifier = rp_idiom_strike_capital_modifier years = 10 }
+			}
+			55 = {
+				add_prestige = -75
+				add_character_modifier = { modifier = rp_campaign_disorder_modifier years = 3 }
+			}
+		}
+	}
+
+	option = {
+		name = rp_idiom.0060.d
+		trigger = {
+			rp_has_gentle_disposition_trigger = yes
+		}
+		random_list = {
+			80 = {
+				add_prestige = 100
+				add_character_modifier = { modifier = rp_idiom_strike_capital_modifier years = 8 }
+				rp_idiom_reward_actor_merit_effect = { VALUE = 8 }
+			}
+			20 = {
+				add_prestige = -25
+				add_character_modifier = { modifier = rp_campaign_disorder_modifier years = 1 }
+			}
+		}
+	}
+
+	option = {
+		name = rp_idiom.0060.e
+		trigger = {
+			rp_has_forceful_disposition_trigger = yes
+		}
+		random_list = {
+			55 = {
+				add_prestige = 225
+				add_character_modifier = { modifier = rp_idiom_strike_capital_modifier years = 12 }
+				rp_idiom_reward_actor_merit_effect = { VALUE = 15 }
+			}
+			45 = {
+				add_prestige = -50
+				add_character_modifier = { modifier = rp_campaign_disorder_modifier years = 3 }
+			}
+		}
+	}
+}
+
+rp_idiom.0070 = {
+	type = character_event
+	title = rp_idiom.0070.t
+	theme = diplomacy
+	override_background = { reference = tgp_chinese_corridor_day }
+	override_icon = { reference = "gfx/interface/icons/event_types/type_diplomacy.dds" }
+	override_icon = { reference = "gfx/interface/icons/event_types/type_diplomacy.dds" }
+	desc = rp_idiom.0070.desc
+
+	trigger = {
+		is_independent_ruler = yes
+		highest_held_title_tier <= tier_kingdom
+	}
+
+	option = {
+		name = rp_idiom.0070.a
+		add_prestige = 75
+		add_character_modifier = { modifier = rp_campaign_discipline_modifier years = 5 }
+	}
+
+	option = {
+		name = rp_idiom.0070.b
+		add_prestige = 75
+		add_character_modifier = { modifier = rp_merit_honored_modifier years = 5 }
+	}
+
+	option = {
+		name = rp_idiom.0070.c
+		add_gold = 80
+		add_character_modifier = { modifier = rp_idiom_balancing_powers_modifier years = 5 }
+	}
+}
+
+rp_idiom.0080 = {
+	type = character_event
+	title = rp_idiom.0080.t
+	theme = diplomacy
+	override_background = { reference = tgp_chinese_corridor_day }
+	override_icon = { reference = "gfx/interface/icons/event_types/type_diplomacy.dds" }
+	override_icon = { reference = "gfx/interface/icons/event_types/type_diplomacy.dds" }
+	desc = rp_idiom.0080.desc
+	right_portrait = scope:rp_idiom_actor
+
+	trigger = {
+		is_independent_ruler = yes
+		OR = {
+			rp_has_diplomatic_retainer_trigger = yes
+			rp_has_senior_war_adviser_trigger = yes
+		}
+	}
+
+	immediate = {
+		rp_idiom_select_court_actor_effect = yes
+	}
+
+	option = {
+		name = rp_idiom.0080.a
+		add_gold = 60
+		add_character_modifier = { modifier = rp_idiom_lips_teeth_alarm_modifier years = 10 }
+	}
+
+	option = {
+		name = rp_idiom.0080.b
+		add_prestige = 150
+		add_character_modifier = { modifier = rp_campaign_discipline_modifier years = 5 }
+		rp_idiom_reward_actor_merit_effect = { VALUE = 8 }
+	}
+
+	option = {
+		name = rp_idiom.0080.c
+		random_list = {
+			50 = {
+				add_prestige = 75
+				add_character_modifier = { modifier = rp_merit_honored_modifier years = 5 }
+			}
+			50 = {
+				add_prestige = -25
+				add_character_modifier = { modifier = rp_merit_resentful_modifier years = 3 }
+			}
+		}
+	}
+}
+
+rp_idiom.0090 = {
+	type = character_event
+	title = rp_idiom.0090.t
+	theme = diplomacy
+	override_background = { reference = tgp_study_asia }
+	override_icon = { reference = "gfx/interface/icons/event_types/type_diplomacy.dds" }
+	override_icon = { reference = "gfx/interface/icons/event_types/type_diplomacy.dds" }
+	desc = rp_idiom.0090.desc
+	right_portrait = scope:rp_idiom_actor
+
+	trigger = {
+		gold >= 500
+		any_courtier_or_guest = {
+			is_adult = yes
+			NOT = { dynasty = root.dynasty }
+			any_claim = {
+				OR = {
+					tier = tier_kingdom
+					tier = tier_empire
+				}
+			}
+		}
+	}
+
+	immediate = {
+		random_courtier_or_guest = {
+			limit = {
+				is_adult = yes
+				NOT = { dynasty = root.dynasty }
+				any_claim = {
+					OR = {
+						tier = tier_kingdom
+						tier = tier_empire
+					}
+				}
+			}
+			save_scope_as = rp_idiom_actor
+		}
+	}
+
+	option = {
+		name = rp_idiom.0090.a
+		remove_short_term_gold = 500
+		random_list = {
+			60 = {
+				add_prestige = 200
+				add_character_modifier = { modifier = rp_idiom_rare_commodity_modifier years = 20 }
+				scope:rp_idiom_actor = {
+					add_opinion = { target = root modifier = rp_idiom_supported_claimant_opinion }
+					rp_add_merit_effect = { LIEGE = root VALUE = 20 }
+				}
+			}
+			40 = {
+				add_prestige = -75
+			}
+		}
+	}
+
+	option = {
+		name = rp_idiom.0090.b
+		remove_short_term_gold = 200
+		random_list = {
+			50 = {
+				add_prestige = 80
+				scope:rp_idiom_actor = {
+					add_opinion = { target = root modifier = rp_retainer_recruited_opinion }
+					rp_add_merit_effect = { LIEGE = root VALUE = 8 }
+				}
+			}
+			50 = { add_prestige = -20 }
+		}
+	}
+
+	option = {
+		name = rp_idiom.0090.c
+		add_prestige = 50
+		scope:rp_idiom_actor = {
+			add_opinion = { target = root modifier = rp_idiom_neighbor_abandoned_opinion }
+			move_to_pool = yes
+		}
+	}
+
+	option = {
+		name = rp_idiom.0090.d
+		trigger = {
+			gold >= 250
+			rp_has_gentle_disposition_trigger = yes
+		}
+		remove_short_term_gold = 250
+		add_prestige = 150
+		scope:rp_idiom_actor = {
+			add_opinion = { target = root modifier = rp_idiom_supported_claimant_opinion }
+			rp_add_merit_effect = { LIEGE = root VALUE = 15 }
+		}
+	}
+
+	option = {
+		name = rp_idiom.0090.e
+		trigger = {
+			gold >= 150
+			rp_has_cunning_disposition_trigger = yes
+		}
+		remove_short_term_gold = 150
+		random_list = {
+			80 = {
+				add_prestige = 125
+				scope:rp_idiom_actor = {
+					add_opinion = { target = root modifier = rp_idiom_supported_claimant_opinion }
+					rp_add_merit_effect = { LIEGE = root VALUE = 20 }
+				}
+			}
+			20 = {
+				add_prestige = -25
+				scope:rp_idiom_actor = {
+					add_character_modifier = { modifier = rp_idiom_rare_commodity_modifier years = 5 }
+				}
+			}
+		}
+	}
+}
+
+rp_idiom.0100 = {
+	type = character_event
+	title = rp_idiom.0100.t
+	theme = stewardship
+	override_background = { reference = tgp_chinese_corridor_day }
+	override_icon = { reference = "gfx/interface/icons/event_types/type_stewardship.dds" }
+	override_icon = { reference = "gfx/interface/icons/event_types/type_domain.dds" }
+	desc = rp_idiom.0100.desc
+
+	trigger = {
+		is_at_war = no
+		NOT = { has_character_flag = rp_idiom_startling_reform_done }
+		OR = {
+			martial >= 10
+			intrigue >= 10
+			stewardship >= 10
+		}
+	}
+
+	option = {
+		name = rp_idiom.0100.a
+		trigger = { prestige >= 100 }
+		add_prestige = -100
+		add_character_modifier = { modifier = rp_idiom_startling_reform_modifier years = 10 }
+		add_character_flag = { flag = rp_idiom_startling_reform_done years = 30 }
+	}
+
+	option = {
+		name = rp_idiom.0100.b
+		add_character_modifier = { modifier = rp_idiom_startling_military_modifier years = 5 }
+		add_character_flag = { flag = rp_idiom_startling_reform_done years = 30 }
+	}
+
+	option = {
+		name = rp_idiom.0100.c
+		add_character_modifier = { modifier = rp_idiom_startling_law_modifier years = 10 }
+		add_character_flag = { flag = rp_idiom_startling_reform_done years = 30 }
+	}
+}

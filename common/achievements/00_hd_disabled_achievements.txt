@@ -1,0 +1,7 @@
+﻿# The total conversion disables vanilla achievements but the engine still expects
+# a non-empty achievement database. Reuse a vanilla public key as an inert sentinel.
+
+until_death_do_us_part_achievement = {
+	possible = { always = no }
+	happened = { always = no }
+}

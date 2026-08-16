@@ -1,0 +1,10 @@
+﻿l_simp_chinese:
+ rp_war_defection.0001.t: "临阵归附"
+ rp_war_defection.0001.desc: "[rp_defector.GetTitledFirstName]的使者进入我的军帐，声称其主不堪[rp_defection_old_liege.GetTitledFirstName]苛待，愿率领封地与部曲归附于我。\n\n不久，斥候也传来消息：[rp_defector.GetPrimaryTitle.GetNameNoTier]的旗帜已经调转方向，开始与我军并肩作战。这份归顺来得正是时候，至于其中有多少忠诚，只能留待以后验证。"
+ rp_war_defection.0001.a: "识时归义，正当如此。"
+ rp_war_defection.0002.t: "临阵背主"
+ rp_war_defection.0002.desc: "急报送到我面前：[rp_defector.GetTitledFirstName]已经投向[rp_defection_new_liege.GetTitledFirstName]。几乎就在同时，战场上属于[rp_defector.GetHerHis]旗帜也调转方向。\n\n[rp_defector.GetHerHis|U]封地军心随之动摇，麾下部曲开始向昔日同袍举起兵器。我已经无法再把这次背叛当成一则尚待查证的流言。"
+ rp_war_defection.0002.desc.founding: "急报送到我面前：[rp_defector.GetTitledFirstName]已经投向[rp_defection_new_liege.GetTitledFirstName]。我反复看着这个名字——[rp_defector.GetSheHe]曾是最早追随我的元从旧臣之一。\n\n如今，[rp_defector.GetHerHis]封地与部曲已经倒戈，昔日受我赏赐的旗号正指向旧日同袍。这场背叛不仅削弱了军势，也让所有旧臣看见了君臣旧恩的结局。"
+ rp_war_defection.0002.a: "叛臣！"
+ rp_defected_to_us_opinion: "战时归顺"
+ rp_defected_from_me_opinion: "临阵倒戈"

@@ -1,0 +1,30 @@
+# Unsupported vanilla regional event chain retained only as inert public shells.
+namespace = british_isles
+
+british_isles.0001 = { type = character_event hidden = yes trigger = { always = no } }
+british_isles.0002 = { type = character_event hidden = yes trigger = { always = no } }
+british_isles.1001 = { type = character_event hidden = yes trigger = { always = no } }
+british_isles.1002 = { type = character_event hidden = yes trigger = { always = no } }
+british_isles.1011 = { type = character_event hidden = yes trigger = { always = no } }
+british_isles.1021 = { type = character_event hidden = yes trigger = { always = no } }
+british_isles.1022 = { type = character_event hidden = yes trigger = { always = no } }
+british_isles.1032 = { type = character_event hidden = yes trigger = { always = no } }
+british_isles.1033 = { type = character_event hidden = yes trigger = { always = no } }
+british_isles.1041 = { type = character_event hidden = yes trigger = { always = no } }
+british_isles.1051 = { type = character_event hidden = yes trigger = { always = no } }
+british_isles.1052 = { type = character_event hidden = yes trigger = { always = no } }
+british_isles.1053 = { type = character_event hidden = yes trigger = { always = no } }
+british_isles.1061 = { type = character_event hidden = yes trigger = { always = no } }
+british_isles.1062 = { type = character_event hidden = yes trigger = { always = no } }
+british_isles.1063 = { type = character_event hidden = yes trigger = { always = no } }
+british_isles.2001 = { type = character_event hidden = yes trigger = { always = no } }
+british_isles.2002 = { type = character_event hidden = yes trigger = { always = no } }
+british_isles.3001 = { type = character_event hidden = yes trigger = { always = no } }
+british_isles.3002 = { type = character_event hidden = yes trigger = { always = no } }
+british_isles.4001 = { type = character_event hidden = yes trigger = { always = no } }
+british_isles.4002 = { type = character_event hidden = yes trigger = { always = no } }
+
+scripted_trigger british_isles_1033_danelaw_lost_last_de_jure_trigger = { always = no }
+scripted_trigger british_isles_1033_england_lost_last_de_jure_trigger = { always = no }
+
+scripted_effect british_isles_1021_notify_other_players_effect = { }

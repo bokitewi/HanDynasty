@@ -1,0 +1,23 @@
+# Unsupported vanilla regional event chain retained only as inert public shells.
+namespace = middle_europe_decisions
+
+middle_europe_decisions.0001 = { type = character_event hidden = yes trigger = { always = no } }
+middle_europe_decisions.0002 = { type = character_event hidden = yes trigger = { always = no } }
+middle_europe_decisions.0003 = { type = character_event hidden = yes trigger = { always = no } }
+middle_europe_decisions.0004 = { type = character_event hidden = yes trigger = { always = no } }
+middle_europe_decisions.0005 = { type = character_event hidden = yes trigger = { always = no } }
+middle_europe_decisions.0006 = { type = character_event hidden = yes trigger = { always = no } }
+middle_europe_decisions.0007 = { type = character_event hidden = yes trigger = { always = no } }
+middle_europe_decisions.0008 = { type = character_event hidden = yes trigger = { always = no } }
+middle_europe_decisions.0010 = { type = character_event hidden = yes trigger = { always = no } }
+middle_europe_decisions.0011 = { type = character_event hidden = yes trigger = { always = no } }
+middle_europe_decisions.0012 = { type = character_event hidden = yes trigger = { always = no } }
+middle_europe_decisions.0013 = { type = character_event hidden = yes trigger = { always = no } }
+middle_europe_decisions.0015 = { type = character_event hidden = yes trigger = { always = no } }
+middle_europe_decisions.0016 = { type = character_event hidden = yes trigger = { always = no } }
+middle_europe_decisions.0017 = { type = character_event hidden = yes trigger = { always = no } }
+middle_europe_decisions.0018 = { type = character_event hidden = yes trigger = { always = no } }
+
+scripted_trigger middle_europe_decisions_0017_get_appropriate_courtier_trigger = { always = no }
+scripted_trigger middle_europe_decisions_0017_get_theocratic_vassal_trigger = { always = no }
+scripted_trigger middle_europe_decisions_0017_most_powerful_saxon_vassal_trigger = { always = no }

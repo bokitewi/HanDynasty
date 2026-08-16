@@ -1,0 +1,409 @@
+﻿# Generated from 華陽國志、三國志、三國演義、後漢書 and 漢晉春秋.
+# Culture: kashmiri
+# Time partition: 180_200 (death >= 180 and birth <= 200).
+# No title history is assigned. Dates marked in the evidence audit may be estimates.
+
+##### 【尉迟德保】
+yu_chi_de_bao={
+	name="uuii_book_yu_chi_de_bao_name" #德保
+	dynasty_house="house_162110001001013"
+	culture="kashmiri"
+	faith="tengri_pagan"
+	diplomacy="6"
+	martial="7"
+	stewardship="8"
+	intrigue="7"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_2
+	trait=tk_fictional_character02
+	trait=diligent
+	trait=sadistic
+	trait=fickle
+	168.7.1={
+		birth=yes
+	}
+	234.7.1={
+		death=yes
+	}
+}
+
+##### 【休循耶闍者】
+xiu_xun_ye_du_zhe={
+	name="uuii_book_xiu_xun_ye_du_zhe_name" #循耶闍者
+	dynasty_house="house_162110002001013"
+	culture="kashmiri"
+	faith="theravada"
+	diplomacy="5"
+	martial="9"
+	stewardship="8"
+	intrigue="6"
+	learning="6"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_martial_2
+	trait=tk_fictional_character01
+	trait=paranoid
+	trait=forgiving
+	trait=patient
+	171.7.1={
+		birth=yes
+	}
+	250.7.1={
+		death=yes
+	}
+}
+
+##### 【呼屠乾坤】
+hu_tu_qian_kun={
+	name="uuii_book_hu_tu_qian_kun_name" #屠乾坤
+	dynasty_house="house_162110003001013"
+	culture="kashmiri"
+	faith="tengri_pagan"
+	diplomacy="6"
+	martial="9"
+	stewardship="6"
+	intrigue="8"
+	learning="5"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_martial_2
+	trait=tk_fictional_character02
+	trait=gregarious
+	trait=greedy
+	trait=brave
+	166.7.1={
+		birth=yes
+	}
+	241.7.1={
+		death=yes
+	}
+}
+
+##### 【捐毒摩柯】
+juan_du_mo_ke={
+	name="uuii_book_juan_du_mo_ke_name" #毒摩柯
+	dynasty_house="house_162110004001013"
+	culture="kashmiri"
+	faith="theravada"
+	diplomacy="8"
+	martial="6"
+	stewardship="5"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_diplomacy_2
+	trait=tk_fictional_character01
+	trait=content
+	trait=generous
+	trait=lustful
+	166.7.1={
+		birth=yes
+	}
+	241.7.1={
+		death=yes
+	}
+}
+
+##### 【乌秅盘锦】
+wu_cha_pan_jin={
+	name="uuii_book_wu_cha_pan_jin_name" #秅盘锦
+	dynasty_house="house_162110005001013"
+	culture="kashmiri"
+	faith="tengri_pagan"
+	diplomacy="7"
+	martial="4"
+	stewardship="8"
+	intrigue="9"
+	learning="4"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_intrigue_2
+	trait=tk_fictional_character01
+	trait=generous
+	trait=sadistic
+	trait=arbitrary
+	167.7.1={
+		birth=yes
+	}
+	253.7.1={
+		death=yes
+	}
+}
+
+##### 【拘弥衍晖邢】
+ju_mi_yan_hui_xing={
+	name="uuii_book_ju_mi_yan_hui_xing_name" #弥衍晖邢
+	dynasty_house="house_162110006001013"
+	culture="kashmiri"
+	faith="tengri_pagan"
+	diplomacy="4"
+	martial="8"
+	stewardship="8"
+	intrigue="8"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_martial_2
+	trait=tk_fictional_character01
+	trait=shy
+	trait=cynical
+	trait=fickle
+	161.7.1={
+		birth=yes
+	}
+	257.7.1={
+		death=yes
+	}
+}
+
+##### 【渠勒久疑忽】
+qu_lei_jiu_yi_hu={
+	name="uuii_book_qu_lei_jiu_yi_hu_name" #勒久疑忽
+	dynasty_house="house_162110007001013"
+	culture="kashmiri"
+	faith="tengri_pagan"
+	diplomacy="8"
+	martial="8"
+	stewardship="6"
+	intrigue="6"
+	learning="5"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_diplomacy_2
+	trait=tk_fictional_character01
+	trait=impatient
+	trait=temperate
+	trait=arbitrary
+	166.7.1={
+		birth=yes
+	}
+	253.7.1={
+		death=yes
+	}
+}
+
+##### 【皮山室利】
+pi_shan_shi_li={
+	name="uuii_book_pi_shan_shi_li_name" #山室利
+	dynasty_house="house_162110008001013"
+	culture="kashmiri"
+	faith="theravada"
+	diplomacy="6"
+	martial="6"
+	stewardship="6"
+	intrigue="8"
+	learning="8"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_intrigue_2
+	trait=tk_fictional_character01
+	trait=wrathful
+	trait=paranoid
+	trait=honest
+	165.7.1={
+		birth=yes
+	}
+	244.7.1={
+		death=yes
+	}
+}
+
+##### 【桃槐迷不失】
+tao_huai_mi_bu_shi={
+	name="uuii_book_tao_huai_mi_bu_shi_name" #槐迷不失
+	dynasty_house="house_162110009001013"
+	culture="kashmiri"
+	faith="theravada"
+	diplomacy="6"
+	martial="9"
+	stewardship="5"
+	intrigue="5"
+	learning="7"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_martial_2
+	trait=tk_fictional_character01
+	trait=patient
+	trait=fickle
+	trait=ambitious
+	159.7.1={
+		birth=yes
+	}
+	236.7.1={
+		death=yes
+	}
+}
+
+##### 【裴良盛】
+pei_liang_sheng={
+	name="uuii_book_pei_liang_sheng_name" #良盛
+	dynasty_house="house_162110010001013"
+	culture="kashmiri"
+	faith="tengri_pagan"
+	diplomacy="6"
+	martial="7"
+	stewardship="7"
+	intrigue="6"
+	learning="9"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_learning_2
+	trait=tk_historical_character01
+	trait=diligent
+	trait=deceitful
+	trait=cynical
+	161.7.1={
+		birth=yes
+	}
+	236.7.1={
+		death=yes
+	}
+}
+
+##### 【迦腻色伽麦格斯】
+jia_ni_se_ga_mai_ge_si={
+	name="uuii_book_jia_ni_se_ga_mai_ge_si_name" #腻色伽麦格斯
+	dynasty_house="house_162110011001013"
+	culture="kashmiri"
+	faith="theravada"
+	diplomacy="5"
+	martial="6"
+	stewardship="8"
+	intrigue="8"
+	learning="7"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_2
+	trait=tk_historical_character02
+	trait=brave
+	trait=diligent
+	trait=stubborn
+	162.7.1={
+		birth=yes
+	}
+	238.7.1={
+		death=yes
+	}
+}
+
+##### 【韦苏提婆塔克图】
+wei_su_ti_po_ta_ke_tu={
+	name="uuii_book_wei_su_ti_po_ta_ke_tu_name" #苏提婆塔克图
+	dynasty_house="house_162110012001013"
+	culture="kashmiri"
+	faith="theravada"
+	diplomacy="5"
+	martial="8"
+	stewardship="7"
+	intrigue="8"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_intrigue_2
+	trait=tk_historical_character01
+	trait=wrathful
+	trait=zealous
+	trait=greedy
+	161.7.1={
+		birth=yes
+	}
+	236.7.1={
+		death=yes
+	}
+}
+
+##### 【难兜胡维什卡】
+nan_dou_hu_wei_shen_ka={
+	name="uuii_book_nan_dou_hu_wei_shen_ka_name" #兜胡维什卡
+	dynasty_house="house_162110013001013"
+	culture="kashmiri"
+	faith="mahayana"
+	diplomacy="9"
+	martial="8"
+	stewardship="4"
+	intrigue="7"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_diplomacy_2
+	trait=tk_historical_character01
+	trait=stubborn
+	trait=ambitious
+	trait=lustful
+	166.7.1={
+		birth=yes
+	}
+	241.7.1={
+		death=yes
+	}
+}
+
+##### 【循鲜洉勒】
+xun_xian_hou_lei={
+	name="uuii_book_xun_xian_hou_lei_name" #鲜洉勒
+	dynasty_house="house_162110014001013"
+	culture="kashmiri"
+	faith="mahayana"
+	diplomacy="4"
+	martial="5"
+	stewardship="9"
+	intrigue="8"
+	learning="6"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_2
+	trait=tk_historical_character01
+	trait=greedy
+	trait=content
+	trait=callous
+	163.7.1={
+		birth=yes
+	}
+	239.7.1={
+		death=yes
+	}
+}
+
+##### 【迦毕试乌头劳】
+jia_bi_shi_wu_tou_lao={
+	name="uuii_book_jia_bi_shi_wu_tou_lao_name" #毕试乌头劳
+	dynasty_house="house_162110015001013"
+	culture="kashmiri"
+	faith="mahayana"
+	diplomacy="7"
+	martial="6"
+	stewardship="4"
+	intrigue="6"
+	learning="8"
+	prowess="9"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_learning_2
+	trait=tk_historical_character02
+	trait=trusting
+	trait=sadistic
+	trait=stubborn
+	158.7.1={
+		birth=yes
+	}
+	233.7.1={
+		death=yes
+	}
+}

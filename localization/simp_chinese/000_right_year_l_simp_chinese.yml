@@ -1,0 +1,29 @@
+﻿l_simp_chinese:
+ RIGHT_YEAR:0 "$YEAR$"
+ GAME_DATE_STRING:0 "$RIGHT_YEAR$年 $MONTH$ $DAY$日"
+ GAME_DATE_STRING_SHORT:0 "公元$RIGHT_YEAR$年 $MONTH_SHORT$ $DAY$日"
+ GAME_DATE_STRING_SHORT_NO_YEAR:0 "$MONTH_SHORT$, $DAY$"
+ GAME_DATE_STRING_LONG:0 "公元$RIGHT_YEAR$年 $MONTH$ $DAY|O$日"
+ 
+ RIGHT_JOINED_YEAR:0 "$JOINED$"
+ RIGHT_LEFTED_YEAR:0 "$LEFT$"
+ 
+ RIGHT_FOUNATION_YEAR:0 "[DynastyHouse.GetFoundYear]"
+ 
+ RIGHT_DATE_YEAR:0 "[DATE.GetYear]"
+ 
+ RIGHT_START_DATE_YEAR:0 "[LegacyItem.GetStartDate.GetYear]"
+ RIGHT_END_DATE_YEAR:0 "[LegacyItem.GetEndDate.GetYear]"
+ 
+ RIGHT_RULER_DESIGNER_BIRTH_YEAR:0 "[RulerDesignerWindow.GetBirthYear]"
+ 
+ RIGHT_SUCCESSION_START_DATE_YEAR:0 "[SuccessionEventWindow.GetStartDate.GetYear]"
+ RIGHT_SUCCESSION_END_DATE_YEAR:0 "[SuccessionEventWindow.GetEndDate.GetYear]"
+ 
+ RIGHT_PICK_ANY_CHARACTER_YEAR:0 "[GameSetup.GetSelectedBookmark.GetDate.GetYear]"
+ 
+ 
+ #选剧本
+ RIGHT_BOOKMARK_YEAR:0 "[BookmarkItem.GetDate.GetYear]"
+ #RIGHT_BOOKMARK_YEAR:0 "[Subtract_int32('(int32)4619', BookmarkItem.GetDate.GetYear)]"
+ #RIGHT_BOOKMARK_YEAR:0 "[AddTextIf(EqualTo_string(BookmarkItem.GetYear,'867'),'前')][AddTextIf(EqualTo_string(BookmarkItem.GetYear,'1066'),'后')]"

@@ -1,0 +1,122 @@
+﻿# Historical Yellow Turban rebellion CB. It is started only by the 184 opening event.
+
+hd_yellow_turban_rebellion_war = {
+	icon = peasant_war
+	group = civil_war
+	combine_into_one = yes
+	should_show_war_goal_subview = yes
+	mutually_exclusive_titles = { always = yes }
+	allow_hostages = no
+
+	# The opening event is the only entry point; valid_to_start keeps it out of the UI.
+	allowed_for_character = {}
+	allowed_against_character = {}
+	target_titles = all
+	target_title_tier = all
+	target_de_jure_regions_above = yes
+	target_top_liege_if_outside_realm = no
+	ignore_effect = change_title_holder
+	should_check_for_interface_availability = no
+
+	valid_to_start = {
+		always = no
+	}
+	cost = {}
+
+	should_invalidate = {
+		NOT = {
+			any_in_list = {
+				list = target_titles
+				any_in_de_jure_hierarchy = {
+					tier = tier_county
+					holder = {
+						target_is_same_character_or_above = scope:defender
+					}
+				}
+			}
+		}
+	}
+
+	on_invalidated_desc = msg_religious_war_invalidation_region_message
+
+	on_invalidated = {
+		hd_yellow_turban_war_failed_effect = yes
+	}
+
+	on_declaration = {
+		on_declared_war = yes
+	}
+
+	on_victory_desc = {
+		desc = hd_yellow_turban_war_victory_desc
+	}
+
+	on_victory = {
+		scope:attacker = { show_pow_release_message_effect = yes }
+		hd_uprising_grant_independence_effect = {
+			WAR = root.war
+		}
+		hd_yellow_turban_dissolve_han_court_effect = yes
+		laamp_as_mercenary_payout_tooltip_effect = yes
+		mandala_war_victory_effects = yes
+		hd_yellow_turban_war_victory_effect = yes
+	}
+
+	on_white_peace_desc = {
+		desc = hd_uprising_war_white_peace_desc
+	}
+
+	on_white_peace = {
+		scope:attacker = {
+			show_pow_release_message_effect = yes
+			stress_impact = {
+				ambitious = medium_stress_impact_gain
+				arrogant = medium_stress_impact_gain
+			}
+		}
+		scope:defender = {
+			stress_impact = {
+				arrogant = medium_stress_impact_gain
+			}
+		}
+		laamp_as_mercenary_payout_tooltip_effect = yes
+		hd_yellow_turban_war_failed_effect = yes
+	}
+
+	on_defeat_desc = {
+		desc = hd_uprising_war_defeat_desc
+	}
+
+	on_defeat = {
+		# The shared effect recovers every title obtained by the attacker during the uprising.
+		hd_uprising_annex_attacker_realm_effect = yes
+		scope:attacker = { show_pow_release_message_effect = yes }
+		scope:defender = { mandala_peacemaker_perk_serenity_effect = yes }
+		laamp_as_mercenary_payout_tooltip_effect = yes
+		mandala_war_defeat_effects = yes
+		hd_yellow_turban_war_failed_effect = yes
+	}
+
+	on_primary_attacker_death = invalidate
+	on_primary_defender_death = inherit
+
+	transfer_behavior = transfer
+	attacker_allies_inherit = no
+	defender_allies_inherit = yes
+
+	war_name = "HD_UPRISING_WAR_NAME"
+	interface_priority = 80
+	use_de_jure_wargoal_only = yes
+	attacker_wargoal_percentage = 0.8
+
+	# Zhang Jiao begins as a landless adventurer and receives his armies from the event.
+	landless_attacker_needs_armies = no
+	full_occupation_by_attacker_gives_victory = no
+	full_occupation_by_defender_gives_victory = no
+
+	max_attacker_score_from_battles = 100
+	max_defender_score_from_battles = 50
+	max_defender_score_from_occupation = 150
+	max_attacker_score_from_occupation = 150
+	max_ai_diplo_distance_to_title = 500
+}

@@ -1,0 +1,52 @@
+﻿
+# This is only there so the script system does not complain about non-existing parameters for more common traits.
+tradition_hd_mcpe_dummy = {
+	category = dummy
+
+	can_pick = {
+		always = no
+	}
+
+	is_shown = {
+		always = no
+	}
+
+	parameters = {
+		brave_trait_more_common = yes
+		craven_trait_more_common = yes
+		calm_trait_more_common = yes
+		wrathful_trait_more_common = yes
+		chaste_trait_more_common = yes
+		lustful_trait_more_common = yes
+		content_trait_more_common = yes
+		ambitious_trait_more_common = yes
+		diligent_trait_more_common = yes
+		lazy_trait_more_common = yes
+		fickle_trait_more_common = yes
+		stubborn_trait_more_common = yes
+		forgiving_trait_more_common = yes
+		vengeful_trait_more_common = yes
+		generous_trait_more_common = yes
+		greedy_trait_more_common = yes
+		gregarious_trait_more_common = yes
+		shy_trait_more_common = yes
+		honest_trait_more_common = yes
+		deceitful_trait_more_common = yes
+		humble_trait_more_common = yes
+		arrogant_trait_more_common = yes
+		just_trait_more_common = yes
+		arbitrary_trait_more_common = yes
+		patient_trait_more_common = yes
+		impatient_trait_more_common = yes
+		temperate_trait_more_common = yes
+		gluttonous_trait_more_common = yes
+		trusting_trait_more_common = yes
+		paranoid_trait_more_common = yes
+		zealous_trait_more_common = yes
+		cynical_trait_more_common = yes
+		compassionate_trait_more_common = yes
+		callous_trait_more_common = yes
+		sadistic_trait_more_common = yes
+	}
+}
+

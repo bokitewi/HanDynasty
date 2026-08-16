@@ -1,0 +1,4579 @@
+﻿namespace = mcpe
+
+
+
+############################################
+### Vanilla childhood personality events ###
+############################################
+
+
+
+#Craven, Lazy or Arbitrary
+#Child is trying to deal with a bully
+mcpe.1 = {
+	type = character_event
+	title = child_personality.0001.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { exists = scope:bully }
+				desc = {
+					desc = child_personality.0001.opening
+					random_valid = {
+						desc = child_personality.0001.bullying_1
+						desc = child_personality.0001.bullying_2
+						desc = child_personality.0001.bullying_3
+					}
+					desc = child_personality.0001.end
+				}
+			}
+			desc = child_personality.0001.no_bully_fallback
+		}
+	}
+	theme = education
+	override_icon = {
+		reference = "gfx/interface/icons/event_types/type_relation_unfriendly.dds"
+	}
+	override_background = { reference = corridor_day }
+	left_portrait = {
+		character = root
+		animation = worry
+	}
+	right_portrait = {
+		character = scope:bully
+		animation = schadenfreude
+	}
+
+	trigger = {
+		hd_mcpe_is_childhood_personality_event_valid_trigger = {
+			TRAIT_1 = craven
+			TRAIT_2 = lazy
+			TRAIT_3 = arbitrary
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		mcpe_weight_for_event_modifier = {
+			TRAIT_1 = craven
+			TRAIT_2 = lazy
+			TRAIT_3 = arbitrary
+		}
+	}
+
+	immediate = {
+		mcpe_save_scopes_for_desc = yes
+		mcpe_save_bully_effect = yes
+	}
+
+	option = {
+		name = child_personality.0001.a
+		add_trait = craven
+		mcpe_inform_guardian_effect = { GR_ID = 11 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = craven }
+		}
+		mcpe_notify_bully_effect = { EVENT_ID = 2001 }
+	}
+
+	option = {
+		name = child_personality.0001.b
+		add_trait = lazy
+		mcpe_inform_guardian_effect = { GR_ID = 12 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = lazy }
+		}
+		mcpe_notify_bully_effect = { EVENT_ID = 2002 }
+	}
+
+	#Take outsized revenge, become arbitrary
+	option = {
+		name = child_personality.0001.c
+		add_trait = arbitrary
+		mcpe_inform_guardian_effect = { GR_ID = 13 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = arbitrary }
+		}
+		mcpe_notify_bully_effect = { EVENT_ID = 2003 }
+	}
+}
+
+#arrogant, compassionate or callous
+mcpe.2 = {
+	type = character_event
+	title = child_personality.0002.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					exists = scope:guardian
+				}
+				desc = child_personality.0002.guardian
+			}
+			desc = child_personality.0002.no_guardian
+		}
+	}
+	theme = education
+	override_background = {
+		reference = gallows
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+	right_portrait = {
+		character = scope:guardian
+		animation = personality_callous
+	}
+
+	trigger = {
+		hd_mcpe_is_childhood_personality_event_valid_trigger = {
+			TRAIT_1 = arrogant
+			TRAIT_2 = compassionate
+			TRAIT_3 = callous
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		mcpe_weight_for_event_modifier = {
+			TRAIT_1 = arrogant
+			TRAIT_2 = compassionate
+			TRAIT_3 = callous
+		}
+	}
+
+	immediate = {
+		mcpe_save_scopes_for_desc = yes
+	}
+
+	option = {
+		name = child_personality.0002.a
+		add_trait = arrogant
+		mcpe_inform_guardian_effect = { GR_ID = 21 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = arrogant }
+		}
+	}
+
+	option = {
+		name = child_personality.0002.b
+		add_trait = compassionate
+		mcpe_inform_guardian_effect = { GR_ID = 22 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = compassionate }
+		}
+	}
+
+	option = {
+		name = child_personality.0002.c
+		add_trait = callous
+		mcpe_inform_guardian_effect = { GR_ID = 23 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = callous }
+		}
+	}
+}
+
+#deceitful, honest or humble
+mcpe.3 = {
+	type = character_event
+	title = child_personality.0003.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					exists = scope:guardian
+				}
+				desc = child_personality.0003.guardian
+			}
+			desc = child_personality.0003.no_guardian
+		}
+	}
+	theme = education
+	override_background = {
+		reference = sitting_room
+	}
+	left_portrait = {
+		character = root
+		animation = worry
+	}
+	right_portrait = {
+		character = scope:robbed_guest
+		animation = anger
+	}
+	lower_left_portrait = scope:guardian
+
+	trigger = {
+		hd_mcpe_is_childhood_personality_event_valid_trigger = {
+			TRAIT_1 = deceitful
+			TRAIT_2 = honest
+			TRAIT_3 = humble
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		mcpe_weight_for_event_modifier = {
+			TRAIT_1 = deceitful
+			TRAIT_2 = honest
+			TRAIT_3 = humble
+		}
+	}
+
+	immediate = {
+		mcpe_save_scopes_for_desc = yes
+		mcpe_save_robbed_guest_effect = yes
+	}
+
+	option = {
+		name = child_personality.0003.a
+		add_trait = deceitful
+		mcpe_inform_guardian_effect = { GR_ID = 31 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = deceitful }
+		}
+	}
+
+	option = {
+		name = child_personality.0003.b
+		add_trait = honest
+		mcpe_inform_guardian_effect = { GR_ID = 32 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = honest }
+		}	
+	}
+
+	option = {
+		name = child_personality.0003.c
+		add_trait = humble
+		mcpe_inform_guardian_effect = { GR_ID = 33 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = humble }
+		}	
+	}
+}
+
+#generous, diligent or patient
+mcpe.4 = {
+	type = character_event
+	title = child_personality.0004.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					exists = scope:knight
+				}
+				desc = child_personality.0004.desc_knight
+			}
+			desc = child_personality.0004.desc
+		}
+	}
+	theme = education
+	override_background = {
+		reference = armory
+	}
+	left_portrait = {
+		character = root
+		animation = personality_honorable
+	}
+	right_portrait = {
+		character = scope:knight
+		animation = marshal
+	}
+
+	trigger = {
+		hd_mcpe_is_childhood_personality_event_valid_trigger = {
+			TRAIT_1 = generous
+			TRAIT_2 = diligent
+			TRAIT_3 = patient
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		mcpe_weight_for_event_modifier = {
+			TRAIT_1 = generous
+			TRAIT_2 = diligent
+			TRAIT_3 = patient
+		}
+	}
+
+	immediate = {
+		mcpe_save_scopes_for_desc = yes
+		mcpe_save_knight_effect = yes
+	}
+
+	option = {
+		name = child_personality.0004.a
+		add_trait = generous
+		mcpe_inform_guardian_effect = { GR_ID = 41 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = generous }
+		}	
+	}
+
+	option = {
+		name = child_personality.0004.b
+		add_trait = diligent
+		mcpe_inform_guardian_effect = { GR_ID = 42 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = diligent }
+		}	
+	}
+
+	option = {
+		name = child_personality.0004.c
+		add_trait = patient
+		mcpe_inform_guardian_effect = { GR_ID = 43 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = patient }
+		}
+	}
+}
+
+#wrathful, forgiving or fickle
+mcpe.5 = {
+	type = character_event
+	title = child_personality.0005.t
+	desc = child_personality.0005.desc
+	theme = education
+	
+	override_background = {
+		reference = courtyard
+	}
+	left_portrait = {
+		character = root
+		animation = worry
+	}
+	right_portrait = {
+		character = scope:doing_push
+		animation = anger
+	}
+
+	trigger = {
+		hd_mcpe_is_childhood_personality_event_valid_trigger = {
+			TRAIT_1 = wrathful
+			TRAIT_2 = forgiving
+			TRAIT_3 = fickle
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		mcpe_weight_for_event_modifier = {
+			TRAIT_1 = wrathful
+			TRAIT_2 = forgiving
+			TRAIT_3 = fickle
+		}
+	}
+
+	immediate = {
+		mcpe_save_scopes_for_desc = yes
+		mcpe_save_bully_effect = yes
+	}
+
+	option = {
+		name = child_personality.0005.a
+		add_trait = wrathful
+		mcpe_inform_guardian_effect = { GR_ID = 51 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = wrathful }
+		}
+	}
+
+	option = {
+		name = child_personality.0005.b
+		add_trait = forgiving
+		mcpe_inform_guardian_effect = { GR_ID = 52 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = forgiving }
+		}
+		
+		if = {
+			limit = {
+				exists = scope:doing_push
+				scope:doing_push = {
+					NOT = {
+						any_relation = {
+							type = victim
+							this = root
+						}
+					}
+				}
+			}
+			show_as_tooltip = {
+				scope:doing_push = { set_relation_friend = { reason = friend_playing_children target = root } }
+			}
+			scope:doing_push = { trigger_event = child_personality.2004 }
+		}
+	}
+
+	option = {
+		name = child_personality.0005.c
+		add_trait = fickle
+		mcpe_inform_guardian_effect = { GR_ID = 53 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = fickle }
+		}
+	}
+}
+
+#vengeful, chaste or stubborn
+#Child is rejected by a crush
+mcpe.6 = {
+	type = character_event
+	title = child_personality.0006.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					exists = scope:crush
+				}
+				desc = child_personality.0006.desc_crush
+			}
+			desc = child_personality.0006.desc
+		}
+	}
+	theme = education
+	override_icon = {
+		reference = "gfx/interface/icons/event_types/type_relation_unfriendly.dds"
+	}
+	override_background = {
+		reference = corridor_day
+	}
+	left_portrait = {
+		character = root
+		animation = sadness
+	}
+	right_portrait = {
+		character = scope:crush
+		animation = dismissal
+	}
+
+	trigger = {
+		age >= 13 #Because chaste/lustful are only given at age 13
+		hd_mcpe_is_childhood_personality_event_valid_trigger = {
+			TRAIT_1 = vengeful
+			TRAIT_2 = chaste
+			TRAIT_3 = stubborn
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		mcpe_weight_for_event_modifier = {
+			TRAIT_1 = vengeful
+			TRAIT_2 = chaste
+			TRAIT_3 = stubborn
+		}
+	}
+
+	immediate = {
+		mcpe_save_scopes_for_desc = yes
+		mcpe_save_unrequited_crush_effect = yes
+	}
+
+	option = { #Vengeful
+		name = {
+			text = child_personality.0006.a
+		}
+		name = {
+			trigger = { exists = scope:crush }
+			text = child_personality.0006.a_crush
+		}
+		if = {
+			limit = {
+				exists = scope:crush
+			}
+			remove_relation_crush = scope:crush
+
+			if = {
+				limit = {
+					can_set_relation_victim_trigger = { CHARACTER = scope:crush }
+				}
+				set_relation_victim = scope:crush
+			}
+		}
+		add_trait = vengeful
+		mcpe_inform_guardian_effect = { GR_ID = 61 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = vengeful }
+		}
+	}
+
+	option = { #Chaste
+		name = child_personality.0006.b
+		if = {
+			limit = {
+				exists = scope:crush
+			}
+			remove_relation_crush = scope:crush
+		}
+		add_trait = chaste
+		mcpe_inform_guardian_effect = { GR_ID = 62 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = chaste }
+		}
+	}
+
+	option = { #Stubborn
+		name = {
+			text = child_personality.0006.c
+		}
+		name = {
+			trigger = { exists = scope:crush }
+			text = child_personality.0006.c_crush
+		}
+		add_trait = stubborn
+		if = {
+			limit = {
+				exists = scope:crush
+			}
+			scope:crush = {
+				trigger_event = child_personality.2005
+			}
+		}
+		mcpe_inform_guardian_effect = { GR_ID = 63 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = stubborn }
+		}
+	}
+}
+
+#just, cynical or temperate
+mcpe.7 = {
+	type = character_event
+	title = child_personality.0007.t
+	desc = child_personality.0007.desc
+	theme = education
+
+	override_background = {
+		reference = gallows
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+	right_portrait = {
+		character = scope:guardian
+		animation = personality_cynical
+	}
+
+	trigger = {
+		hd_mcpe_is_childhood_personality_event_valid_trigger = {
+			TRAIT_1 = just
+			TRAIT_2 = cynical
+			TRAIT_3 = temperate
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		mcpe_weight_for_event_modifier = {
+			TRAIT_1 = just
+			TRAIT_2 = cynical
+			TRAIT_3 = temperate
+		}
+	}
+
+	immediate = {
+		mcpe_save_scopes_for_desc = yes
+	}
+
+	option = {
+		name = child_personality.0007.a
+		add_trait = just
+		mcpe_inform_guardian_effect = { GR_ID = 71 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = just }
+		}	
+	}
+
+	option = {
+		name = child_personality.0007.b
+		add_trait = cynical
+		mcpe_inform_guardian_effect = { GR_ID = 72 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = cynical }
+		}	
+	}
+
+	option = {
+		name = child_personality.0007.c
+		add_trait = temperate
+		mcpe_inform_guardian_effect = { GR_ID = 73 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = temperate }
+		}
+	}
+}
+
+#greedy, gregarious or lustful
+mcpe.8 = {
+	type = character_event
+	title = child_personality.0008.t
+	desc = {
+		desc = child_personality.0008.desc
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					exists = scope:boy
+				}
+				desc = child_personality.0008.servant_boy
+			}
+			triggered_desc = {
+				trigger = {
+					exists = scope:girl
+				}
+				desc = child_personality.0008.serving_wench
+			}
+			desc = child_personality.0008.desc_not_server
+		}
+	}
+	theme = education
+	override_background = {
+		reference = feast
+	}
+	left_portrait = {
+		character = root
+		animation = ecstasy
+	}
+	right_portrait = {
+		character = scope:peasant_server
+		animation = admiration
+	}
+
+	trigger = {
+		age >= 13 #Because chaste/lustful are only given at age 13
+		hd_mcpe_is_childhood_personality_event_valid_trigger = {
+			TRAIT_1 = greedy
+			TRAIT_2 = gregarious
+			TRAIT_3 = lustful
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		mcpe_weight_for_event_modifier = {
+			TRAIT_1 = greedy
+			TRAIT_2 = gregarious
+			TRAIT_3 = lustful
+		}
+	}
+
+	immediate = {
+		mcpe_save_scopes_for_desc = yes
+
+		hidden_effect = {
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							has_sexuality = homosexual
+							is_female = no
+						}
+						AND = {
+							is_female = yes
+							has_sexuality = heterosexual
+						}
+					}
+				}
+
+				save_scope_value_as = {
+					name = boy
+					value = yes
+				}
+			}
+
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							has_sexuality = homosexual
+							is_female = yes
+						}
+						AND = {
+							is_female = no
+							has_sexuality = heterosexual
+						}
+					}
+				}
+
+				save_scope_value_as = {
+					name = girl
+					value = yes
+				}
+			}
+
+			if = {
+				limit = {
+					has_sexuality = bisexual
+				}
+
+				random_list = {
+					10 = {
+						save_scope_value_as = {
+							name = boy
+							value = yes
+						}
+					}
+					10 = {
+						save_scope_value_as = {
+							name = girl
+							value = yes
+						}
+					}
+				}
+			}
+
+			if = { # Generate a crush, for fun
+				limit = {
+					is_ai = no # Avoid character bloat
+					OR = {
+						exists = scope:boy
+						exists = scope:girl
+					}
+				}
+				hidden_effect = {
+					create_character = {
+						location = root.capital_province
+						template = servant_character
+						age = root.age
+						gender_female_chance = root_attraction_based_female_chance
+						faith = root.capital_province.county.faith
+						culture = root.capital_province.county.culture
+						dynasty = none
+						save_scope_as = peasant_server
+					}
+					add_courtier = scope:peasant_server
+					scope:peasant_server = {
+						add_trait = peasant_leader
+						set_relation_crush = root
+					}
+					random_list = {
+						25 = {
+							trigger = {
+								is_female = yes
+								scope:peasant_server = { is_female = yes }
+							}
+							scope:peasant_server = { set_sexuality = homosexual }
+						}
+						100 = {
+							trigger = {
+								is_female = yes
+								scope:peasant_server = { is_male = yes }
+							}
+							scope:peasant_server = { set_sexuality = heterosexual }
+						}
+						25 = {
+							trigger = {
+								is_male = yes
+								scope:peasant_server = { is_male = yes }
+							}
+							scope:peasant_server = { set_sexuality = homosexual }
+						}
+						100 = {
+							trigger = {
+								is_male = yes
+								scope:peasant_server = { is_female = yes }
+							}
+							scope:peasant_server = { set_sexuality = heterosexual }
+						}
+						50 = {
+							scope:peasant_server = { set_sexuality = bisexual }
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = child_personality.0008.a
+		add_trait = greedy
+		mcpe_inform_guardian_effect = { GR_ID = 81 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = greedy }
+		}	
+	}
+
+	option = {
+		name = child_personality.0008.b
+		add_trait = gregarious
+		mcpe_inform_guardian_effect = { GR_ID = 82 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = gregarious }
+		}
+	}
+
+	option = {
+		name = child_personality.0008.c
+		add_trait = lustful
+		mcpe_inform_guardian_effect = { GR_ID = 83 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = lustful }
+		}
+
+		if = {
+			limit = {
+				exists = scope:peasant_server
+			}
+			set_relation_crush = scope:peasant_server
+		}
+	}
+}
+
+#brave, calm or zealous
+mcpe.9 = {
+	type = character_event
+	title = child_personality.0009.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					exists = scope:child_preacher
+				}
+				desc = child_personality.0009.desc
+			}
+			desc = child_personality.0009.desc_fallback
+		}
+	}
+	theme = education
+	override_background = {
+		reference = courtyard
+	}
+	left_portrait = {
+		character = root
+		animation = shock
+	}
+	right_portrait = {
+		character = scope:child_preacher
+		animation = personality_zealous
+	}
+
+	trigger = {
+		hd_mcpe_is_childhood_personality_event_valid_trigger = {
+			TRAIT_1 = brave
+			TRAIT_2 = calm
+			TRAIT_3 = zealous
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		mcpe_weight_for_event_modifier = {
+			TRAIT_1 = brave
+			TRAIT_2 = calm
+			TRAIT_3 = zealous
+		}
+	}
+
+	immediate = {
+		mcpe_save_scopes_for_desc = yes
+		mcpe_save_child_preacher_effect = yes
+	}
+
+	option = {
+		name = child_personality.0009.a
+		add_trait = brave
+		mcpe_inform_guardian_effect = { GR_ID = 91 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = brave }
+		}
+		custom_tooltip = child_personality.0009.a.tt
+		random = {
+			chance = 25
+			increase_wounds_effect = { REASON = fight }
+		}
+		if = {
+			limit = {
+				exists = scope:child_preacher
+				any_relation = {
+					type = bully
+					NOT = {
+						any_relation = {
+							type = friend
+							this = scope:child_preacher
+						}
+					}
+				}
+			}
+			hidden_effect = {
+				random = {
+					chance = 50
+					show_as_tooltip = {
+						random_relation = {
+							type = bully
+							limit = {
+								NOT = {
+									any_relation = {
+										type = friend
+										this = scope:child_preacher
+									}
+								}
+							}
+							increase_wounds_effect = { REASON = fight }
+						}
+					}
+					hidden_effect = {
+						random_relation = {
+							type = bully
+							limit = {
+								NOT = {
+									any_relation = {
+										type = friend
+										this = scope:child_preacher
+									}
+								}
+							}
+							trigger_event = child_personality.2007
+						}
+					}
+				}
+			}
+		}
+		mcpe_befriend_child_preacher_effect = yes
+	}
+
+	option = {
+		name = child_personality.0009.b
+		add_trait = calm
+		mcpe_inform_guardian_effect = { GR_ID = 92 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = calm }
+		}
+		mcpe_befriend_child_preacher_effect = yes
+	}
+
+	option = {
+		name = child_personality.0009.c
+		add_trait = zealous
+		mcpe_inform_guardian_effect = { GR_ID = 93 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = zealous }
+		}
+		mcpe_befriend_child_preacher_effect = yes
+	}
+
+	option = {
+		name = child_personality.0009.d
+		trigger = {
+			OR = {
+				has_relation_victim = scope:child_preacher
+				has_relation_bully = scope:child_preacher
+			}
+		}
+		scope:child_preacher = {
+			random = {
+				chance = 25
+				increase_wounds_effect = { REASON = fight }
+			}
+		}
+		if = {
+			limit = {
+				NOR = {
+					has_trait = compassionate
+					has_trait = callous
+					has_trait = sadistic
+				}
+			}
+			add_trait = sadistic
+		}
+		
+		ai_chance = {
+			base = 0
+		}
+	}
+
+	after = {
+		if = {
+			limit = {
+				exists = scope:child_preacher
+			}
+
+			scope:child_preacher = {
+				trigger_event = child_personality.2006
+			}
+		}
+	}
+}
+
+#ambitious, sadistic or paranoid
+mcpe.10 = {
+	type = character_event
+	title = child_personality.0010.t
+	desc = child_personality.0010.desc
+	theme = education
+	override_background = {
+		reference = terrain
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+	right_portrait = {
+		character = scope:guardian
+		animation = marshal
+	}
+
+	trigger = {
+		hd_mcpe_is_childhood_personality_event_valid_trigger = {
+			TRAIT_1 = ambitious
+			TRAIT_2 = sadistic
+			TRAIT_3 = paranoid
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		mcpe_weight_for_event_modifier = {
+			TRAIT_1 = ambitious
+			TRAIT_2 = sadistic
+			TRAIT_3 = paranoid
+		}
+	}
+
+	immediate = {
+		mcpe_save_scopes_for_desc = yes
+	}
+
+	option = {
+		name = child_personality.0010.a
+		add_trait = ambitious
+		mcpe_inform_guardian_effect = { GR_ID = 101 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = ambitious }
+		}
+	}
+
+	option = {
+		name = child_personality.0010.b
+		add_trait = sadistic
+		mcpe_inform_guardian_effect = { GR_ID = 102 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = sadistic }
+		}
+	}
+
+	option = {
+		name = child_personality.0010.c
+		add_trait = paranoid
+		mcpe_inform_guardian_effect = { GR_ID = 103 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = paranoid }
+		}
+	}
+}
+
+#content, fickle or trusting
+mcpe.11 = {
+	type = character_event
+	title = child_personality.0011.t
+	desc = child_personality.0011.desc
+	theme = education
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+	right_portrait = {
+		character = scope:guardian
+		animation = chancellor
+	}
+
+	trigger = {
+		hd_mcpe_is_childhood_personality_event_valid_trigger = {
+			TRAIT_1 = content
+			TRAIT_2 = fickle
+			TRAIT_3 = trusting
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		mcpe_weight_for_event_modifier = {
+			TRAIT_1 = content
+			TRAIT_2 = fickle
+			TRAIT_3 = trusting
+		}
+	}
+
+	immediate = {
+		mcpe_save_scopes_for_desc = yes
+	}
+
+
+	option = {
+		name = child_personality.0011.a
+		add_trait = content
+		mcpe_inform_guardian_effect = { GR_ID = 111 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = content }
+		}	
+	}
+
+	option = {
+		name = child_personality.0011.b
+		add_trait = fickle
+		mcpe_inform_guardian_effect = { GR_ID = 112 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = fickle }
+		}	
+	}
+
+	option = {
+		name = child_personality.0011.c
+		add_trait = trusting
+		mcpe_inform_guardian_effect = { GR_ID = 113 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = trusting }
+		}
+	}
+}
+
+#impatient, shy or gluttonous
+mcpe.12 = {
+	type = character_event
+	title = child_personality.0012.t
+	desc = child_personality.0012.desc
+	theme = education
+	override_background = {
+		reference = feast
+	}
+	left_portrait = {
+		character = root
+		animation = boredom
+	}
+	right_portrait = {
+		character = scope:guardian
+		animation = happiness
+	}
+
+	trigger = {
+		hd_mcpe_is_childhood_personality_event_valid_trigger = {
+			TRAIT_1 = impatient
+			TRAIT_2 = shy
+			TRAIT_3 = gluttonous
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		mcpe_weight_for_event_modifier = {
+			TRAIT_1 = impatient
+			TRAIT_2 = shy
+			TRAIT_3 = gluttonous
+		}
+	}
+
+	immediate = {
+		mcpe_save_scopes_for_desc = yes
+	}
+
+	option = {
+		name = child_personality.0012.a
+		add_trait = impatient
+		mcpe_inform_guardian_effect = { GR_ID = 121 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = impatient }
+		}	
+	}
+
+	option = {
+		name = child_personality.0012.b
+		add_trait = shy
+		mcpe_inform_guardian_effect = { GR_ID = 122 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = shy }
+		}	
+	}
+
+	option = {
+		name = child_personality.0012.c
+		add_trait = gluttonous
+		mcpe_inform_guardian_effect = { GR_ID = 123 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = gluttonous }
+		}
+	}
+}
+
+
+
+########################################
+### New childhood personality events ###
+########################################
+
+
+
+mcpe.13 = {
+	type = character_event
+	title = mcpe.13.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { exists = scope:bully }
+				desc = mcpe.13.d.bully
+			}
+			desc = mcpe.13.d.no_bully_fallback
+		}
+	}
+	theme = education
+	override_icon = {
+		reference = "gfx/interface/icons/event_types/type_relation_unfriendly.dds"
+	}
+	override_background = {
+		reference = courtyard
+	}
+	left_portrait = {
+		character = scope:bully
+		animation = schadenfreude
+	}
+
+	trigger = {
+		hd_mcpe_is_childhood_personality_event_valid_trigger = {
+			TRAIT_1 = wrathful
+			TRAIT_2 = vengeful
+			TRAIT_3 = calm
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		mcpe_weight_for_event_modifier = {
+			TRAIT_1 = wrathful
+			TRAIT_2 = vengeful
+			TRAIT_3 = calm
+		}
+	}
+
+	immediate = {
+		mcpe_save_scopes_for_desc = yes
+		mcpe_save_bully_effect = yes
+	}
+
+	option = {
+		name = mcpe.13.a
+		add_trait = wrathful
+		mcpe_inform_guardian_effect = { GR_ID = 131 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = wrathful }
+		}	
+	}
+
+	option = {
+		name = mcpe.13.b
+		add_trait = vengeful
+		mcpe_inform_guardian_effect = { GR_ID = 132 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = vengeful }
+		}	
+	}
+
+	option = {
+		name = mcpe.13.c
+		add_trait = calm
+		mcpe_inform_guardian_effect = { GR_ID = 133 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = calm }
+		}
+	}
+}
+
+
+
+mcpe.14 = {
+	type = character_event
+	title = mcpe.14.t
+	desc = mcpe.14.d
+	theme = education
+	left_portrait = {
+		character = root
+		animation = sadness
+	}
+
+	trigger = {
+		age >= 13 #Because chaste/lustful are only given at age 13
+		hd_mcpe_is_childhood_personality_event_valid_trigger = {
+			TRAIT_1 = chaste
+			TRAIT_2 = cynical
+			TRAIT_3 = patient
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		mcpe_weight_for_event_modifier = {
+			TRAIT_1 = chaste
+			TRAIT_2 = cynical
+			TRAIT_3 = patient
+		}
+	}
+
+	immediate = {
+		mcpe_save_scopes_for_desc = yes
+	}
+
+	option = {
+		name = mcpe.14.a
+		add_trait = chaste
+		mcpe_inform_guardian_effect = { GR_ID = 141 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = chaste }
+		}	
+	}
+
+	option = {
+		name = mcpe.14.b
+		add_trait = cynical
+		mcpe_inform_guardian_effect = { GR_ID = 142 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = cynical }
+		}	
+	}
+
+	option = {
+		name = mcpe.14.c
+		add_trait = patient
+		mcpe_inform_guardian_effect = { GR_ID = 143 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = patient }
+		}
+	}
+}
+
+
+
+mcpe.15 = {
+	type = character_event
+	title = mcpe.15.t
+	desc = mcpe.15.d
+	theme = education
+	left_portrait = {
+		character = root
+		animation = boredom
+	}
+
+	trigger = {
+		hd_mcpe_is_childhood_personality_event_valid_trigger = {
+			TRAIT_1 = impatient
+			TRAIT_2 = diligent
+			TRAIT_3 = deceitful
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		mcpe_weight_for_event_modifier = {
+			TRAIT_1 = impatient
+			TRAIT_2 = diligent
+			TRAIT_3 = deceitful
+		}
+	}
+
+	immediate = {
+		mcpe_save_scopes_for_desc = yes
+	}
+
+	option = {
+		name = mcpe.15.a
+		add_trait = impatient
+		mcpe_inform_guardian_effect = { GR_ID = 151 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = impatient }
+		}	
+	}
+
+	option = {
+		name = mcpe.15.b
+		add_trait = diligent
+		mcpe_inform_guardian_effect = { GR_ID = 152 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = diligent }
+		}	
+	}
+
+	option = {
+		name = mcpe.15.c
+		add_trait = deceitful
+		mcpe_inform_guardian_effect = { GR_ID = 153 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = deceitful }
+		}
+	}
+}
+
+
+
+mcpe.16 = {
+	type = character_event
+	title = mcpe.16.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					exists = scope:crush
+				}
+				desc = mcpe.16.d.crush
+			}
+			desc = mcpe.16.d.no_crush
+		}
+	}
+	theme = education
+	left_portrait = scope:crush
+
+	trigger = {
+		age >= 13 #Because chaste/lustful are only given at age 13
+		hd_mcpe_is_childhood_personality_event_valid_trigger = {
+			TRAIT_1 = brave
+			TRAIT_2 = lustful
+			TRAIT_3 = shy
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		mcpe_weight_for_event_modifier = {
+			TRAIT_1 = brave
+			TRAIT_2 = lustful
+			TRAIT_3 = shy
+		}
+	}
+
+	immediate = {
+		mcpe_save_scopes_for_desc = yes
+		mcpe_save_unrequited_crush_effect = yes
+	}
+
+	option = {
+		name = mcpe.16.a
+		add_trait = brave
+		mcpe_inform_guardian_effect = { GR_ID = 161 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = brave }
+		}
+	}
+
+	option = {
+		name = mcpe.16.b
+		add_trait = lustful
+		mcpe_inform_guardian_effect = { GR_ID = 162 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = lustful }
+		}
+	}
+
+	option = {
+		name = mcpe.16.c
+		add_trait = shy
+		mcpe_inform_guardian_effect = { GR_ID = 163 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = shy }
+		}
+	}
+}
+
+
+
+mcpe.17 = {
+	type = character_event
+	title = mcpe.17.t
+	desc = mcpe.17.d
+	theme = education
+	left_portrait = {
+		character = root
+		animation = fear
+	}
+
+	trigger = {
+		hd_mcpe_is_childhood_personality_event_valid_trigger = {
+			TRAIT_1 = craven
+			TRAIT_2 = callous
+			TRAIT_3 = generous
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		mcpe_weight_for_event_modifier = {
+			TRAIT_1 = craven
+			TRAIT_2 = callous
+			TRAIT_3 = generous
+		}
+	}
+
+	immediate = {
+		mcpe_save_scopes_for_desc = yes
+	}
+
+	option = {
+		name = mcpe.17.a
+		add_trait = craven
+		mcpe_inform_guardian_effect = { GR_ID = 171 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = craven }
+		}	
+	}
+
+	option = {
+		name = mcpe.17.b
+		add_trait = callous
+		mcpe_inform_guardian_effect = { GR_ID = 172 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = callous }
+		}	
+	}
+
+	option = {
+		name = mcpe.17.c
+		add_trait = generous
+		mcpe_inform_guardian_effect = { GR_ID = 173 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = generous }
+		}
+	}
+}
+
+
+
+mcpe.18 = {
+	type = character_event
+	title = mcpe.18.t
+	desc = mcpe.18.d
+	theme = education
+	override_background = {
+		reference = feast
+	}
+	left_portrait = {
+		character = root
+		animation = disgusted
+	}
+
+	trigger = {
+		hd_mcpe_is_childhood_personality_event_valid_trigger = {
+			TRAIT_1 = gluttonous
+			TRAIT_2 = honest
+			TRAIT_3 = temperate
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		mcpe_weight_for_event_modifier = {
+			TRAIT_1 = gluttonous
+			TRAIT_2 = honest
+			TRAIT_3 = temperate
+		}
+	}
+
+	immediate = {
+		mcpe_save_scopes_for_desc = yes
+	}
+
+	option = {
+		name = mcpe.18.a
+		add_trait = gluttonous
+		mcpe_inform_guardian_effect = { GR_ID = 181 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = gluttonous }
+		}	
+	}
+
+	option = {
+		name = mcpe.18.b
+		add_trait = honest
+		mcpe_inform_guardian_effect = { GR_ID = 182 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = honest }
+		}	
+	}
+
+	option = {
+		name = mcpe.18.c
+		add_trait = temperate
+		mcpe_inform_guardian_effect = { GR_ID = 183 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = temperate }
+		}
+	}
+}
+
+
+
+mcpe.19 = {
+	type = character_event
+	title = mcpe.19.t
+	desc = mcpe.19.d
+	theme = education
+	override_background = {
+		reference = corridor_night
+	}
+	left_portrait = {
+		character = root
+		animation = anger
+	}
+
+	trigger = {
+		hd_mcpe_is_childhood_personality_event_valid_trigger = {
+			TRAIT_1 = just
+			TRAIT_2 = sadistic
+			TRAIT_3 = forgiving
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		mcpe_weight_for_event_modifier = {
+			TRAIT_1 = just
+			TRAIT_2 = sadistic
+			TRAIT_3 = forgiving
+		}
+	}
+
+	immediate = {
+		mcpe_save_scopes_for_desc = yes
+	}
+
+	option = {
+		name = mcpe.19.a
+		add_trait = just
+		mcpe_inform_guardian_effect = { GR_ID = 191 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = just }
+		}	
+	}
+
+	option = {
+		name = mcpe.19.b
+		add_trait = sadistic
+		mcpe_inform_guardian_effect = { GR_ID = 192 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = sadistic }
+		}	
+	}
+
+	option = {
+		name = mcpe.19.c
+		add_trait = forgiving
+		mcpe_inform_guardian_effect = { GR_ID = 193 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = forgiving }
+		}
+	}
+}
+
+
+
+mcpe.20 = {
+	type = character_event
+	title = mcpe.20.t
+	desc = mcpe.20.d
+	theme = education
+	override_background = {
+		reference = market
+	}
+	left_portrait = scope:guardian
+
+	trigger = {
+		hd_mcpe_is_childhood_personality_event_valid_trigger = {
+			TRAIT_1 = arrogant
+			TRAIT_2 = greedy
+			TRAIT_3 = fickle
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		mcpe_weight_for_event_modifier = {
+			TRAIT_1 = arrogant
+			TRAIT_2 = greedy
+			TRAIT_3 = fickle
+		}
+	}
+
+	immediate = {
+		mcpe_save_scopes_for_desc = yes
+	}
+
+	option = {
+		name = mcpe.20.a
+		add_trait = arrogant
+		mcpe_inform_guardian_effect = { GR_ID = 201 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = arrogant }
+		}	
+	}
+
+	option = {
+		name = mcpe.20.b
+		add_trait = greedy
+		mcpe_inform_guardian_effect = { GR_ID = 202 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = greedy }
+		}	
+	}
+
+	option = {
+		name = mcpe.20.c
+		add_trait = fickle
+		mcpe_inform_guardian_effect = { GR_ID = 203 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = fickle }
+		}
+	}
+}
+
+
+
+mcpe.21 = {
+	type = character_event
+	title = mcpe.21.t
+	desc = mcpe.21.d
+	theme = education
+	override_background = {
+		reference = terrain
+	}
+	left_portrait = scope:guardian
+
+	trigger = {
+		hd_mcpe_is_childhood_personality_event_valid_trigger = {
+			TRAIT_1 = gregarious
+			TRAIT_2 = paranoid
+			TRAIT_3 = lazy
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		mcpe_weight_for_event_modifier = {
+			TRAIT_1 = gregarious
+			TRAIT_2 = paranoid
+			TRAIT_3 = lazy
+		}
+	}
+
+	immediate = {
+		mcpe_save_scopes_for_desc = yes
+	}
+
+	option = {
+		name = mcpe.21.a
+		add_trait = gregarious
+		mcpe_inform_guardian_effect = { GR_ID = 211 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = gregarious }
+		}	
+	}
+
+	option = {
+		name = mcpe.21.b
+		add_trait = paranoid
+		mcpe_inform_guardian_effect = { GR_ID = 212 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = paranoid }
+		}	
+	}
+
+	option = {
+		name = mcpe.21.c
+		add_trait = lazy
+		mcpe_inform_guardian_effect = { GR_ID = 213 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = lazy }
+		}
+	}
+}
+
+
+
+mcpe.22 = {
+	type = character_event
+	title = mcpe.22.t
+	desc = mcpe.22.d
+	theme = education
+	override_background = {
+		reference = temple
+	}
+	left_portrait = root
+
+	trigger = {
+		hd_mcpe_is_childhood_personality_event_valid_trigger = {
+			TRAIT_1 = zealous
+			TRAIT_2 = humble
+			TRAIT_3 = compassionate
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		mcpe_weight_for_event_modifier = {
+			TRAIT_1 = zealous
+			TRAIT_2 = humble
+			TRAIT_3 = compassionate
+		}
+	}
+
+	immediate = {
+		mcpe_save_scopes_for_desc = yes
+	}
+
+	option = {
+		name = mcpe.22.a
+		add_trait = zealous
+		mcpe_inform_guardian_effect = { GR_ID = 221 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = zealous }
+		}	
+	}
+
+	option = {
+		name = mcpe.22.b
+		add_trait = humble
+		mcpe_inform_guardian_effect = { GR_ID = 222 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = humble }
+		}	
+	}
+
+	option = {
+		name = mcpe.22.c
+		add_trait = compassionate
+		mcpe_inform_guardian_effect = { GR_ID = 223 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = compassionate }
+		}
+	}
+}
+
+
+
+mcpe.23 = {
+	type = character_event
+	title = mcpe.23.t
+	desc = mcpe.23.d
+	theme = education
+	left_portrait = root
+
+	trigger = {
+		hd_mcpe_is_childhood_personality_event_valid_trigger = {
+			TRAIT_1 = trusting
+			TRAIT_2 = stubborn
+			TRAIT_3 = arbitrary
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		mcpe_weight_for_event_modifier = {
+			TRAIT_1 = trusting
+			TRAIT_2 = stubborn
+			TRAIT_3 = arbitrary
+		}
+	}
+
+	immediate = {
+		mcpe_save_scopes_for_desc = yes
+	}
+
+	option = {
+		name = mcpe.23.a
+		add_trait = trusting
+		mcpe_inform_guardian_effect = { GR_ID = 231 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = trusting }
+		}
+	}
+
+	option = {
+		name = mcpe.23.b
+		add_trait = stubborn
+		mcpe_inform_guardian_effect = { GR_ID = 232 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = stubborn }
+		}
+	}
+
+	option = {
+		name = mcpe.23.c
+		add_trait = arbitrary
+		mcpe_inform_guardian_effect = { GR_ID = 233 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = arbitrary }
+		}
+	}
+}
+
+
+
+mcpe.24 = {
+	type = character_event
+	title = mcpe.24.t
+	desc = mcpe.24.d
+	theme = education
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	trigger = {
+		hd_mcpe_is_childhood_personality_event_valid_trigger = {
+			TRAIT_1 = ambitious
+			TRAIT_2 = greedy
+			TRAIT_3 = compassionate
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		mcpe_weight_for_event_modifier = {
+			TRAIT_1 = ambitious
+			TRAIT_2 = greedy
+			TRAIT_3 = compassionate
+		}
+	}
+
+	immediate = {
+		mcpe_save_scopes_for_desc = yes
+	}
+
+	option = {
+		name = mcpe.24.a
+		add_trait = ambitious
+		mcpe_inform_guardian_effect = { GR_ID = 241 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = ambitious }
+		}
+	}
+
+	option = {
+		name = mcpe.24.b
+		add_trait = greedy
+		mcpe_inform_guardian_effect = { GR_ID = 242 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = greedy }
+		}
+	}
+
+	option = {
+		name = mcpe.24.c
+		add_trait = compassionate
+		mcpe_inform_guardian_effect = { GR_ID = 243 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = compassionate }
+		}
+	}
+}
+
+
+
+mcpe.25 = {
+	type = character_event
+	title = mcpe.25.t
+	desc = mcpe.25.d
+	theme = education
+	left_portrait = root
+
+	trigger = {
+		age >= 13 #Because chaste/lustful are only given at age 13
+		hd_mcpe_is_childhood_personality_event_valid_trigger = {
+			TRAIT_1 = lustful
+			TRAIT_2 = chaste
+			TRAIT_3 = paranoid
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		mcpe_weight_for_event_modifier = {
+			TRAIT_1 = lustful
+			TRAIT_2 = chaste
+			TRAIT_3 = paranoid
+		}
+	}
+
+	immediate = {
+		mcpe_save_scopes_for_desc = yes
+		# ...I would really like to save a character who has a crush on root here for flavor, but finding such a character is surprisingly hard to do.
+		# I could do any_living_character and then filter by has_relation_crush, but this is a performance nightmare.
+		# I could also mod the scripted relation itself in order to make it easier to do reverse search, but this would be out of scope for this mod.
+	}
+
+	option = {
+		name = mcpe.25.a
+		add_trait = lustful
+		mcpe_inform_guardian_effect = { GR_ID = 251 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = lustful }
+		}
+	}
+
+	option = {
+		name = mcpe.25.b
+		add_trait = chaste
+		mcpe_inform_guardian_effect = { GR_ID = 252 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = chaste }
+		}
+	}
+
+	option = {
+		name = mcpe.25.c
+		add_trait = paranoid
+		mcpe_inform_guardian_effect = { GR_ID = 253 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = paranoid }
+		}
+	}
+}
+
+
+
+mcpe.26 = {
+	type = character_event
+	title = mcpe.26.t
+	desc = mcpe.26.d
+	theme = education
+	override_background = {
+		reference = garden
+	}
+	left_portrait = root
+
+	trigger = {
+		hd_mcpe_is_childhood_personality_event_valid_trigger = {
+			TRAIT_1 = brave
+			TRAIT_2 = craven
+			TRAIT_3 = deceitful
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		mcpe_weight_for_event_modifier = {
+			TRAIT_1 = brave
+			TRAIT_2 = craven
+			TRAIT_3 = deceitful
+		}
+	}
+
+	immediate = {
+		mcpe_save_scopes_for_desc = yes
+	}
+
+	option = {
+		name = mcpe.26.a
+		add_trait = brave
+		mcpe_inform_guardian_effect = { GR_ID = 261 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = brave }
+		}
+	}
+
+	option = {
+		name = mcpe.26.b
+		add_trait = craven
+		mcpe_inform_guardian_effect = { GR_ID = 262 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = craven }
+		}
+	}
+
+	option = {
+		name = mcpe.26.c
+		add_trait = deceitful
+		mcpe_inform_guardian_effect = { GR_ID = 263 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = deceitful }
+		}
+	}
+}
+
+
+
+mcpe.27 = {
+	type = character_event
+	title = mcpe.27.t
+	desc = mcpe.27.d
+	theme = education
+	override_background = {
+		reference = temple
+	}
+	left_portrait = root
+
+	trigger = {
+		hd_mcpe_is_childhood_personality_event_valid_trigger = {
+			TRAIT_1 = zealous
+			TRAIT_2 = content
+			TRAIT_3 = callous
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		mcpe_weight_for_event_modifier = {
+			TRAIT_1 = zealous
+			TRAIT_2 = content
+			TRAIT_3 = callous
+		}
+	}
+
+	immediate = {
+		mcpe_save_scopes_for_desc = yes
+	}
+
+	option = {
+		name = mcpe.27.a
+		add_trait = zealous
+		mcpe_inform_guardian_effect = { GR_ID = 271 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = zealous }
+		}
+	}
+
+	option = {
+		name = mcpe.27.b
+		add_trait = content
+		mcpe_inform_guardian_effect = { GR_ID = 272 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = content }
+		}
+	}
+
+	option = {
+		name = mcpe.27.c
+		add_trait = callous
+		mcpe_inform_guardian_effect = { GR_ID = 273 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = callous }
+		}
+	}
+}
+
+
+
+mcpe.28 = {
+	type = character_event
+	title = mcpe.28.t
+	desc = mcpe.28.d
+	theme = education
+	override_background = {
+		reference = courtyard
+	}
+	left_portrait = scope:guardian
+
+	trigger = {
+		hd_mcpe_is_childhood_personality_event_valid_trigger = {
+			TRAIT_1 = gluttonous
+			TRAIT_2 = trusting
+			TRAIT_3 = cynical
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		mcpe_weight_for_event_modifier = {
+			TRAIT_1 = gluttonous
+			TRAIT_2 = trusting
+			TRAIT_3 = cynical
+		}
+	}
+
+	immediate = {
+		mcpe_save_scopes_for_desc = yes
+	}
+
+	option = {
+		name = mcpe.28.a
+		add_trait = gluttonous
+		mcpe_inform_guardian_effect = { GR_ID = 281 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = gluttonous }
+		}
+	}
+
+	option = {
+		name = mcpe.28.b
+		add_trait = trusting
+		mcpe_inform_guardian_effect = { GR_ID = 282 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = trusting }
+		}
+	}
+
+	option = {
+		name = mcpe.28.c
+		add_trait = cynical
+		mcpe_inform_guardian_effect = { GR_ID = 283 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = cynical }
+		}
+	}
+}
+
+
+
+mcpe.29 = {
+	type = character_event
+	title = mcpe.29.t
+	desc = mcpe.29.d
+	theme = education
+	override_background = {
+		reference = garden
+	}
+	left_portrait = root
+
+	trigger = {
+		hd_mcpe_is_childhood_personality_event_valid_trigger = {
+			TRAIT_1 = just
+			TRAIT_2 = lazy
+			TRAIT_3 = shy
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		mcpe_weight_for_event_modifier = {
+			TRAIT_1 = just
+			TRAIT_2 = lazy
+			TRAIT_3 = shy
+		}
+	}
+
+	immediate = {
+		mcpe_save_scopes_for_desc = yes
+	}
+
+	option = {
+		name = mcpe.29.a
+		add_trait = just
+		mcpe_inform_guardian_effect = { GR_ID = 291 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = just }
+		}
+	}
+
+	option = {
+		name = mcpe.29.b
+		add_trait = lazy
+		mcpe_inform_guardian_effect = { GR_ID = 292 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = lazy }
+		}
+	}
+
+	option = {
+		name = mcpe.29.c
+		add_trait = shy
+		mcpe_inform_guardian_effect = { GR_ID = 293 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = shy }
+		}
+	}
+}
+
+
+
+mcpe.30 = {
+	type = character_event
+	title = mcpe.30.t
+	desc = mcpe.30.d
+	theme = education
+	left_portrait = root
+
+	trigger = {
+		hd_mcpe_is_childhood_personality_event_valid_trigger = {
+			TRAIT_1 = arbitrary
+			TRAIT_2 = diligent
+			TRAIT_3 = wrathful
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		mcpe_weight_for_event_modifier = {
+			TRAIT_1 = arbitrary
+			TRAIT_2 = diligent
+			TRAIT_3 = wrathful
+		}
+	}
+
+	immediate = {
+		mcpe_save_scopes_for_desc = yes
+	}
+
+	option = {
+		name = mcpe.30.a
+		add_trait = arbitrary
+		mcpe_inform_guardian_effect = { GR_ID = 301 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = arbitrary }
+		}
+	}
+
+	option = {
+		name = mcpe.30.b
+		add_trait = diligent
+		mcpe_inform_guardian_effect = { GR_ID = 302 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = diligent }
+		}
+	}
+
+	option = {
+		name = mcpe.30.c
+		add_trait = wrathful
+		mcpe_inform_guardian_effect = { GR_ID = 303 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = wrathful }
+		}
+	}
+}
+
+
+
+mcpe.31 = {
+	type = character_event
+	title = mcpe.31.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { exists = scope:bully }
+				desc = mcpe.31.d.bully
+			}
+			desc = mcpe.31.d.no_bully_fallback
+		}
+	}
+	theme = education
+	override_icon = {
+		reference = "gfx/interface/icons/event_types/type_relation_unfriendly.dds"
+	}
+	override_background = {
+		reference = courtyard
+	}
+	left_portrait = {
+		character = scope:bully
+		animation = sadness
+	}
+
+	trigger = {
+		hd_mcpe_is_childhood_personality_event_valid_trigger = {
+			TRAIT_1 = forgiving
+			TRAIT_2 = vengeful
+			TRAIT_3 = arrogant
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		mcpe_weight_for_event_modifier = {
+			TRAIT_1 = forgiving
+			TRAIT_2 = vengeful
+			TRAIT_3 = arrogant
+		}
+	}
+
+	immediate = {
+		mcpe_save_scopes_for_desc = yes
+		mcpe_save_bully_effect = yes
+	}
+
+	option = {
+		name = mcpe.31.a
+		add_trait = forgiving
+		mcpe_inform_guardian_effect = { GR_ID = 311 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = forgiving }
+		}
+	}
+
+	option = {
+		name = mcpe.31.b
+		add_trait = vengeful
+		mcpe_inform_guardian_effect = { GR_ID = 312 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = vengeful }
+		}
+	}
+
+	option = {
+		name = mcpe.31.c
+		add_trait = arrogant
+		mcpe_inform_guardian_effect = { GR_ID = 313 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = arrogant }
+		}
+	}
+}
+
+
+
+mcpe.32 = {
+	type = character_event
+	title = mcpe.32.t
+	desc = mcpe.32.d
+	theme = education
+	override_background = {
+		reference = market
+	}
+	left_portrait = scope:guardian
+
+	trigger = {
+		hd_mcpe_is_childhood_personality_event_valid_trigger = {
+			TRAIT_1 = honest
+			TRAIT_2 = ambitious
+			TRAIT_3 = generous
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		mcpe_weight_for_event_modifier = {
+			TRAIT_1 = honest
+			TRAIT_2 = ambitious
+			TRAIT_3 = generous
+		}
+	}
+
+	immediate = {
+		mcpe_save_scopes_for_desc = yes
+	}
+
+	option = {
+		name = mcpe.32.a
+		add_trait = honest
+		mcpe_inform_guardian_effect = { GR_ID = 321 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = honest }
+		}
+	}
+
+	option = {
+		name = mcpe.32.b
+		add_trait = ambitious
+		mcpe_inform_guardian_effect = { GR_ID = 322 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = ambitious }
+		}
+	}
+
+	option = {
+		name = mcpe.32.c
+		add_trait = generous
+		mcpe_inform_guardian_effect = { GR_ID = 323 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = generous }
+		}
+	}
+}
+
+
+
+mcpe.33 = {
+	type = character_event
+	title = mcpe.33.t
+	desc = mcpe.33.d
+	theme = education
+	override_background = {
+		reference = garden
+	}
+	left_portrait = {
+		character = root
+		animation = boredom
+	}
+
+	trigger = {
+		hd_mcpe_is_childhood_personality_event_valid_trigger = {
+			TRAIT_1 = impatient
+			TRAIT_2 = calm
+			TRAIT_3 = content
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		mcpe_weight_for_event_modifier = {
+			TRAIT_1 = impatient
+			TRAIT_2 = calm
+			TRAIT_3 = content
+		}
+	}
+
+	immediate = {
+		mcpe_save_scopes_for_desc = yes
+	}
+
+	option = {
+		name = mcpe.33.a
+		add_trait = impatient
+		mcpe_inform_guardian_effect = { GR_ID = 331 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = impatient }
+		}
+	}
+
+	option = {
+		name = mcpe.33.b
+		add_trait = calm
+		mcpe_inform_guardian_effect = { GR_ID = 332 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = calm }
+		}
+	}
+
+	option = {
+		name = mcpe.33.c
+		add_trait = content
+		mcpe_inform_guardian_effect = { GR_ID = 333 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = content }
+		}
+	}
+}
+
+
+
+mcpe.34 = {
+	type = character_event
+	title = mcpe.34.t
+	desc = mcpe.34.d
+	theme = education
+	override_background = {
+		reference = courtyard
+	}
+	left_portrait = root
+
+	trigger = {
+		hd_mcpe_is_childhood_personality_event_valid_trigger = {
+			TRAIT_1 = gregarious
+			TRAIT_2 = humble
+			TRAIT_3 = sadistic
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		mcpe_weight_for_event_modifier = {
+			TRAIT_1 = gregarious
+			TRAIT_2 = humble
+			TRAIT_3 = sadistic
+		}
+	}
+
+	immediate = {
+		mcpe_save_scopes_for_desc = yes
+	}
+
+	option = {
+		name = mcpe.34.a
+		add_trait = gregarious
+		mcpe_inform_guardian_effect = { GR_ID = 341 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = gregarious }
+		}
+	}
+
+	option = {
+		name = mcpe.34.b
+		add_trait = humble
+		mcpe_inform_guardian_effect = { GR_ID = 342 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = humble }
+		}
+	}
+
+	option = {
+		name = mcpe.34.c
+		add_trait = sadistic
+		mcpe_inform_guardian_effect = { GR_ID = 343 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = sadistic }
+		}
+	}
+}
+
+
+
+mcpe.35 = {
+	type = character_event
+	title = mcpe.35.t
+	desc = mcpe.35.d
+	theme = education
+	left_portrait = root
+
+	trigger = {
+		hd_mcpe_is_childhood_personality_event_valid_trigger = {
+			TRAIT_1 = temperate
+			TRAIT_2 = stubborn
+			TRAIT_3 = patient
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		mcpe_weight_for_event_modifier = {
+			TRAIT_1 = temperate
+			TRAIT_2 = stubborn
+			TRAIT_3 = patient
+		}
+	}
+
+	immediate = {
+		mcpe_save_scopes_for_desc = yes
+	}
+
+	option = {
+		name = mcpe.35.a
+		add_trait = temperate
+		mcpe_inform_guardian_effect = { GR_ID = 351 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = temperate }
+		}
+	}
+
+	option = {
+		name = mcpe.35.b
+		add_trait = stubborn
+		mcpe_inform_guardian_effect = { GR_ID = 352 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = stubborn }
+		}
+	}
+
+	option = {
+		name = mcpe.35.c
+		add_trait = patient
+		mcpe_inform_guardian_effect = { GR_ID = 353 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = patient }
+		}
+	}
+}
+
+
+
+mcpe.36 = {
+	type = character_event
+	title = child_personality.7000.t
+	desc = child_personality.7000.desc
+	theme = education
+	override_background = { reference = bp1_kitchen_western }
+	left_portrait = {
+		character = root
+		animation = worry
+	}
+	right_portrait = {
+		character = scope:other_child
+		animation = ecstasy
+	}
+
+	trigger = {
+		hd_mcpe_is_childhood_personality_event_valid_trigger = {
+			TRAIT_1 = diligent
+			TRAIT_2 = gregarious
+			TRAIT_3 = temperate
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		mcpe_weight_for_event_modifier = {
+			TRAIT_1 = diligent
+			TRAIT_2 = gregarious
+			TRAIT_3 = temperate
+		}
+	}
+
+	immediate = {
+		save_scope_as = child
+		mcpe_add_suitable_same_realm_children_to_list = yes
+		random_in_list = {
+			list = suitable_same_realm_children
+			limit = {
+				NOR = {
+					has_trait = honest
+					has_relation_bully = root
+					has_relation_victim = root
+					has_relation_rival = root
+				}
+			}
+			alternative_limit = {
+				NOR = {
+					has_relation_bully = root
+					has_relation_victim = root
+					has_relation_rival = root
+				}
+			}
+			alternative_limit = {
+				always = yes
+			}
+			weight = {
+				base = 1
+				modifier = {
+					add = 10
+					is_of_major_interest_to_root_trigger = yes
+				}
+				modifier = {
+					add = 5
+					is_of_minor_interest_to_root_trigger = yes
+				}
+				modifier = {
+					add = 5
+					has_trait = rowdy
+				}
+				modifier = {
+					add = 5
+					has_trait = deceitful
+				}
+			}
+			save_scope_as = other_child
+		}
+	}
+
+	option = { # diligent
+		name = child_personality.7000.a
+		add_trait = diligent
+		mcpe_trigger_basegame_guardian_response = { TRAIT = diligent GR_ID = 7001 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = diligent }
+		}
+
+		scope:other_child = {
+			add_opinion = {
+				target = root
+				modifier = spoilsport_opinion
+			}
+		}
+	}
+
+	option = { # gregarious
+		name = child_personality.7000.b
+		add_trait = gregarious
+		mcpe_trigger_basegame_guardian_response = { TRAIT = gregarious GR_ID = 7001 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = gregarious }
+		}
+
+		progress_towards_friend_effect = {
+			CHARACTER = scope:other_child
+			OPINION = 25
+			REASON = friend_children_stole_alcohol
+		}
+		random = {
+			chance = 1
+			add_trait = drunkard
+		}
+	}
+
+	option = { # temperate
+		name = child_personality.7000.c
+		add_trait = temperate
+		mcpe_trigger_basegame_guardian_response = { TRAIT = temperate GR_ID = 7001 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = temperate }
+		}
+	}
+}
+
+
+
+mcpe.37 = {
+	type = character_event
+	title = child_personality.7010.t
+	desc = child_personality.7010.desc
+	theme = education
+	override_background = { reference = temple }
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+	right_portrait = {
+		character = scope:sermon_priest
+		animation = personality_zealous
+	}
+
+	trigger = {
+		hd_mcpe_is_childhood_personality_event_valid_trigger = {
+			TRAIT_1 = zealous
+			TRAIT_2 = ambitious
+			TRAIT_3 = sadistic
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		mcpe_weight_for_event_modifier = {
+			TRAIT_1 = zealous
+			TRAIT_2 = ambitious
+			TRAIT_3 = sadistic
+		}
+	}
+
+	immediate = {
+		save_scope_as = child
+		mcpe_save_sermon_priest = yes
+	}
+
+	option = { # zealous
+		name = child_personality.7010.a
+		add_trait = zealous
+		mcpe_trigger_basegame_guardian_response = { TRAIT = zealous GR_ID = 7011 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = zealous }
+		}
+
+		if = {
+			limit = {
+				scope:sermon_priest = {
+					NOT = {
+						has_trait = cynical
+					}
+				}
+			}
+			progress_towards_friend_effect = {
+				CHARACTER = scope:sermon_priest
+				OPINION = 50
+				REASON = friend_child_sermon
+			}
+		}
+	}
+
+	option = { # ambitious
+		name = child_personality.7010.b
+		add_trait = ambitious
+		mcpe_trigger_basegame_guardian_response = { TRAIT = ambitious GR_ID = 7011 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = ambitious }
+		}
+
+		scope:sermon_priest = {
+			if = {
+				limit = {
+					OR = {
+						has_trait = cynical
+						has_trait = ambitious
+						AND = {
+							NOT = {
+								has_trait = zealous
+							}
+							has_personality_malicious_trigger = yes
+						}
+					}
+				}
+				if = {
+					limit = {
+						can_set_relation_friend_trigger = { CHARACTER = scope:child }
+					}
+					set_relation_friend = { reason = friend_took_lessons_to_heart target = scope:child }
+					add_opinion = {
+						target = scope:child
+						modifier = clever_child_opinion
+					}
+				}
+			}
+			else = {
+				add_opinion = {
+					target = scope:child
+					modifier = disappointed_opinion
+					opinion = -10
+				}
+			}
+		}
+	}
+
+	option = { # sadistic
+		name = child_personality.7010.c
+		add_trait = sadistic
+		mcpe_trigger_basegame_guardian_response = { TRAIT = sadistic GR_ID = 7011 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = sadistic }
+		}
+
+		scope:sermon_priest = {
+			if = {
+				limit = {
+					OR = {
+						has_trait = sadistic
+						AND = {
+							has_trait = cynical
+							has_personality_malicious_trigger = yes
+						}
+					}
+				}
+				if = {
+					limit = {
+						can_set_relation_friend_trigger = { CHARACTER = scope:child }
+					}
+					set_relation_friend = { reason = friend_took_lessons_to_heart target = scope:child }
+					add_opinion = {
+						target = scope:child
+						modifier = delightfully_devilish_opinion
+					}
+				}
+			}
+			else = {
+				add_opinion = {
+					target = scope:child
+					modifier = worried_opinion
+				}
+			}
+		}
+	}
+}
+
+
+
+mcpe.38 = {
+	type = character_event
+	title = child_personality.7020.t
+	desc = child_personality.7020.desc
+	theme = education
+	override_background = { reference = market }
+	left_portrait = {
+		character = root
+		animation = fear
+	}
+	right_portrait = {
+		character = scope:evil_person
+		animation = rage
+	}
+
+	trigger = {
+		hd_mcpe_is_childhood_personality_event_valid_trigger = {
+			TRAIT_1 = shy
+			TRAIT_2 = paranoid
+			TRAIT_3 = craven
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		mcpe_weight_for_event_modifier = {
+			TRAIT_1 = shy
+			TRAIT_2 = paranoid
+			TRAIT_3 = craven
+		}
+	}
+
+	immediate = {
+		save_scope_as = child
+		mcpe_save_evil_person = yes
+	}
+
+	option = { # shy
+		name = child_personality.7020.a
+		add_trait = shy
+		mcpe_trigger_basegame_guardian_response = { TRAIT = shy GR_ID = 7021 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = shy }
+		}
+
+		random = {
+			chance = 5
+			increase_wounds_effect = { REASON = attacked }
+		}
+	}
+
+	option = { # paranoid
+		name = child_personality.7020.b
+		add_trait = paranoid
+		mcpe_trigger_basegame_guardian_response = { TRAIT = paranoid GR_ID = 7021 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = paranoid }
+		}
+
+		random = {
+			chance = 5
+			increase_wounds_effect = { REASON = attacked }
+		}
+	}
+
+	option = { # craven
+		name = child_personality.7020.c
+		add_trait = craven
+		mcpe_trigger_basegame_guardian_response = { TRAIT = craven GR_ID = 7021 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = craven }
+		}
+
+		scope:evil_person = {
+			if = {
+				limit = {
+					can_add_hook = {
+						target = root
+						type = threat_hook
+					}
+				}
+				add_hook = {
+					target = root
+					type = threat_hook
+				}
+			}
+		}
+	}
+	
+	after = {
+		if = {
+			limit = {
+				scope:evil_person = {
+					is_adult = no
+				}
+			}
+			if = {
+				limit = {
+					can_set_relation_bully_trigger = { CHARACTER = scope:child }
+				}
+				set_relation_bully = scope:child
+			}
+		}
+		else = {
+			progress_towards_rival_effect = {
+				REASON = rival_beaten_badly
+				CHARACTER = scope:evil_person
+				OPINION = 0
+			}
+		}
+	}
+}
+
+
+
+mcpe.39 = {
+	type = character_event
+	title = child_personality.7030.t
+	desc = child_personality.7030.desc
+	theme = education
+	override_background = { reference = bp1_kitchen_western }
+	left_portrait = {
+		character = root
+		animation = admiration
+	}
+	right_portrait = {
+		character = scope:cook
+		animation = steward
+	}
+
+	trigger = {
+		hd_mcpe_is_childhood_personality_event_valid_trigger = {
+			TRAIT_1 = lazy
+			TRAIT_2 = gluttonous
+			TRAIT_3 = compassionate
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		mcpe_weight_for_event_modifier = {
+			TRAIT_1 = lazy
+			TRAIT_2 = gluttonous
+			TRAIT_3 = compassionate
+		}
+	}
+
+	immediate = {
+		save_scope_as = child
+		set_favorite_treat_effect = yes
+		hidden_effect = { # Set up an irate cook for flavor & fun
+			mcpe_save_cook_effect = yes
+		}
+	}
+
+	option = { # lazy
+		name = child_personality.7030.a
+		add_trait = lazy
+		mcpe_trigger_basegame_guardian_response = { TRAIT = lazy GR_ID = 7031 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = lazy }
+		}
+
+		if = {
+			limit = {
+				exists = scope:cook
+			}
+			scope:cook = {
+				add_opinion = {
+					target = root
+					modifier = lazy_child_opinion
+				}
+			}
+		}
+	}
+
+	option = { # gluttonous
+		name = child_personality.7030.b
+		add_trait = gluttonous
+		mcpe_trigger_basegame_guardian_response = { TRAIT = gluttonous GR_ID = 7031 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = gluttonous }
+		}
+
+		hidden_effect = {
+			change_current_weight = 50
+		}
+		if = {
+			limit = {
+				exists = scope:cook
+			}
+			scope:cook = {
+				add_opinion = {
+					target = root
+					modifier = little_pig_opinion
+				}
+			}
+		}
+	}
+
+	option = { # compassionate
+		name = child_personality.7030.c
+		add_trait = compassionate
+		mcpe_trigger_basegame_guardian_response = { TRAIT = compassionate GR_ID = 7031 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = compassionate }
+		}
+
+		add_stress = minor_stress_gain
+
+		if = {
+			limit = {
+				exists = scope:cook
+			}
+			scope:cook = {
+				progress_towards_friend_effect = {
+					CHARACTER = scope:child
+					OPINION = 0
+					REASON = friend_impressed_by_childs_compassion
+				}
+				add_opinion = {
+					target = root
+					modifier = sweet_child_opinion
+				}
+			}
+		}
+	}
+}
+
+
+
+mcpe.40 = {
+	type = character_event
+	title = child_personality.7040.t
+	desc = {
+		desc = child_personality.7040.desc
+		first_valid = {
+			triggered_desc = {
+			    trigger = {
+					scope:lover_1 = {
+						is_parent_of = root
+					}
+					scope:lover_2 = {
+						is_parent_of = root
+					}
+			    }
+			    desc = {
+			    	desc = child_personality.7040.desc_motherfather
+			    }
+			}
+			triggered_desc = {
+			    trigger = {
+					OR = {
+						AND = {
+							exists = father
+							father = scope:lover_1
+						}
+						AND = {
+							exists = father
+							father = scope:lover_2
+						}
+					}
+			    }
+			    desc = {
+			    	desc = child_personality.7040.desc_father
+			    }
+			}
+			triggered_desc = {
+			    trigger = {
+					OR = {
+						AND = {
+							exists = mother
+							mother = scope:lover_1
+						}
+						AND = {
+							exists = mother
+							mother = scope:lover_2
+						}
+					}
+			    }
+			    desc = {
+			    	desc = child_personality.7040.desc_mother
+			    }
+			}
+			triggered_desc = {
+			    trigger = {
+					NOR = {
+						scope:lover_1 = {
+							is_parent_of = root
+						}
+						scope:lover_2 = {
+							is_parent_of = root
+						}
+					}
+			    }
+			    desc = {
+			    	desc = child_personality.7040.desc_default
+			    }
+			}
+		}
+	}
+	theme = education
+	override_background = { reference = bedchamber }
+	left_portrait = {
+		character = scope:lover_1
+		animation = admiration
+		outfit_tags = { no_clothes }
+	}
+	right_portrait = {
+		character = scope:lover_2
+		animation = flirtation
+		outfit_tags = { no_clothes }
+	}
+
+	trigger = {
+		is_available_child = yes
+		age >= 13 #Because chaste/lustful are only given at age 13
+		NOR = {
+			has_trait = chaste
+			has_trait = lustful
+		}
+		exists = location.county.holder
+		location.county.holder = {
+			OR = {
+				mcpe_appropriate_traumatizing_lover_target = yes
+				any_courtier_or_guest = {
+					mcpe_appropriate_traumatizing_lover_target = yes
+				}
+				any_vassal = {
+					mcpe_appropriate_traumatizing_lover_target = yes
+				}
+				AND = {
+					exists = liege
+					liege = {
+						mcpe_appropriate_traumatizing_lover_target = yes
+					}
+				}
+				AND = {
+					exists = liege
+					liege = {
+						any_courtier_or_guest = {
+							mcpe_appropriate_traumatizing_lover_target = yes
+						}
+					}
+				}
+			}
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		modifier = {
+			add = 2
+			any_relation = {
+				type = guardian
+				OR = {
+					has_trait = lustful
+					has_trait = chaste
+				}
+			}
+		}
+	}
+
+	immediate = {
+		save_scope_as = child
+		location.county.holder = {
+			if = {
+				limit = {
+					mcpe_appropriate_traumatizing_lover_target = yes
+				}
+				add_to_list = potential_child_traumatizers
+			}
+			every_courtier_or_guest = {
+				limit = {
+					mcpe_appropriate_traumatizing_lover_target = yes
+				}
+				add_to_list = potential_child_traumatizers
+			}
+			every_vassal = {
+				limit = {
+					mcpe_appropriate_traumatizing_lover_target = yes
+				}
+				add_to_list = potential_child_traumatizers
+			}
+			if = {
+				limit = {
+					exists = liege
+					liege = {
+						mcpe_appropriate_traumatizing_lover_target = yes
+					}
+				}
+				liege = {
+					add_to_list = potential_child_traumatizers
+				}
+			}
+			if = {
+				limit = {
+					exists = liege
+				}
+				liege = {
+					if = {
+						limit = {
+							mcpe_appropriate_traumatizing_lover_target = yes
+						}
+						add_to_list = potential_child_traumatizers
+					}
+					every_courtier_or_guest = {
+						limit = {
+							mcpe_appropriate_traumatizing_lover_target = yes
+						}
+						add_to_list = potential_child_traumatizers
+					}
+					every_vassal = {
+						limit = {
+							mcpe_appropriate_traumatizing_lover_target = yes
+						}
+						add_to_list = potential_child_traumatizers
+					}
+				}
+			}
+		}
+		random_in_list = {
+			list = potential_child_traumatizers
+			limit = {
+				any_secret = {
+					secret_type = secret_lover
+					NOT = { is_known_by = root }
+					secret_target = {
+						is_available_ai_adult = yes
+					}
+				}
+			}
+			alternative_limit = {
+				always = yes
+			}
+			weight = {
+				base = 1
+				modifier = {
+					add = 10
+					is_of_major_interest_to_root_trigger = yes
+				}
+				modifier = {
+					add = 5
+					is_of_minor_interest_to_root_trigger = yes
+				}
+				modifier = {
+					add = 10
+					has_trait = lustful
+				}
+				modifier = {
+					add = 10
+					exists = location
+					exists = root.location
+					location = root.location
+				}
+			}
+			save_scope_as = lover_1
+			if = {
+				limit = {
+					any_secret = {
+						secret_type = secret_lover
+						NOT = { is_known_by = root }
+						secret_target = {
+							is_available_ai_adult = yes
+						}
+					}
+				}
+				random_secret = {
+					limit = {
+						secret_type = secret_lover
+						secret_target = {
+							is_available_ai_adult = yes
+						}
+					}
+					secret_target = {
+						save_scope_as = lover_2
+					}
+					reveal_to = root
+				}
+			}
+			else = {
+				random_relation = {
+					type = lover
+					save_scope_as = lover_2
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					has_sexuality = heterosexual
+					has_sexuality = bisexual
+				}
+			}
+			if = {
+				limit = {
+					is_attracted_to_gender_of = scope:lover_1
+					scope:lover_1 = {
+						is_attracted_to_gender_of = root
+					}
+				}
+				scope:lover_1 = {
+					save_scope_as = child_crush_target
+				}
+			}
+			else_if = {
+				limit = {
+					is_attracted_to_gender_of = scope:lover_2
+					scope:lover_2 = {
+						is_attracted_to_gender_of = root
+					}
+				}
+				scope:lover_2 = {
+					save_scope_as = child_crush_target
+				}
+			}
+		}
+	}
+
+	option = { # lustful + crush
+		name = child_personality.7040.a.crush_version
+		trigger = {
+			exists = scope:child_crush_target
+			NOT = {
+				has_relation_crush = scope:child_crush_target
+			}
+		}
+		add_trait = lustful
+		set_relation_crush = scope:child_crush_target
+		if = {
+			limit = {
+				is_ai = yes
+			}
+			add_character_flag = lustful
+			random_relation = {
+				type = guardian
+				trigger_event = child_personality.7041
+			}
+		}
+		ai_chance = {
+			base = 1
+			modifier = {
+				add = 4
+				any_relation = {
+					type = guardian
+					has_trait = lustful
+				}
+			}
+			modifier = {
+				add = -0.5
+				any_relation = {
+					type = guardian
+					has_trait = chaste
+				}
+			}
+		}
+	}
+
+	option = { # lustful
+		name = child_personality.7040.a
+		trigger = {
+			OR = {
+				is_ai = no
+				NOT = { exists = scope:child_crush_target }
+			}
+		}
+		add_trait = lustful
+		if = {
+			limit = {
+				is_ai = yes
+			}
+			add_character_flag = lustful
+			random_relation = {
+				type = guardian
+				trigger_event = child_personality.7041
+			}
+		}
+		ai_chance = {
+			base = 1
+			modifier = {
+				add = 4
+				any_relation = {
+					type = guardian
+					has_trait = lustful
+				}
+			}
+			modifier = {
+				add = -0.5
+				any_relation = {
+					type = guardian
+					has_trait = chaste
+				}
+			}
+		}
+	}
+
+	option = { # chaste
+		name = child_personality.7040.b
+		add_trait = chaste
+		if = {
+			limit = {
+				is_ai = yes
+			}
+			add_character_flag = chaste
+			random_relation = {
+				type = guardian
+				trigger_event = child_personality.7041
+			}
+		}
+		ai_chance = {
+			base = 1
+			modifier = {
+				add = 4
+				any_relation = {
+					type = guardian
+					has_trait = chaste
+				}
+			}
+			modifier = {
+				add = -0.5
+				any_relation = {
+					type = guardian
+					has_trait = lustful
+				}
+			}
+		}
+	}
+}
+
+
+
+mcpe.41 = {
+	type = character_event
+	title = child_personality.7050.t
+	desc = child_personality.7050.desc
+	theme = education
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+	right_portrait = {
+		character = scope:teacher
+		animation = throne_room_writer
+	}
+
+	trigger = {
+		hd_mcpe_is_childhood_personality_event_valid_trigger = {
+			TRAIT_1 = just
+			TRAIT_2 = greedy
+			TRAIT_3 = callous
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		mcpe_weight_for_event_modifier = {
+			TRAIT_1 = just
+			TRAIT_2 = greedy
+			TRAIT_3 = callous
+		}
+	}
+
+	immediate = {
+		save_scope_as = child
+		mcpe_save_teacher_effect = yes
+	}
+
+	option = { # just
+		name = child_personality.7050.a
+		add_trait = just
+		mcpe_trigger_basegame_guardian_response = { TRAIT = just GR_ID = 7051 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = just }
+		}
+		
+		if = {
+			limit = {
+				scope:teacher = {
+					is_ai = yes
+					NOR = {
+						has_trait = greedy
+						has_trait = arbitrary
+						has_trait = callous
+						has_trait = paranoid
+					}
+				}
+			}
+			scope:teacher = {
+				progress_towards_friend_effect = {
+					CHARACTER = scope:child
+					OPINION = 0
+					REASON = friend_impressed_by_justice
+				}
+				add_opinion = {
+					target = scope:child
+					modifier = clever_child_opinion
+				}
+			}
+		}
+	}
+
+	option = { # greedy
+		name = child_personality.7050.b
+		add_trait = greedy
+		mcpe_trigger_basegame_guardian_response = { TRAIT = greedy GR_ID = 7051 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = greedy }
+		}
+		
+		if = {
+			limit = {
+				scope:teacher = {
+					is_ai = yes
+					OR = {
+						has_trait = greedy
+						has_trait = arbitrary
+					}
+				}
+			}
+			scope:teacher = {
+				if = {
+					limit = {
+						can_set_relation_friend_trigger = { CHARACTER = scope:child }
+					}
+					set_relation_friend = { reason = friend_took_lessons_to_heart target = scope:child }
+				}
+				add_opinion = {
+					target = scope:child
+					modifier = clever_child_opinion
+				}
+			}
+		}
+	}
+
+	option = { # callous
+		name = child_personality.7050.c
+		add_trait = callous
+		mcpe_trigger_basegame_guardian_response = { TRAIT = callous GR_ID = 7051 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = callous }
+		}
+		
+		if = {
+			limit = {
+				scope:teacher = {
+					is_ai = yes
+					OR = {
+						has_trait = callous
+						has_trait = sadistic
+						has_trait = paranoid
+					}
+				}
+			}
+			scope:teacher = {
+				if = {
+					limit = {
+						can_set_relation_friend_trigger = { CHARACTER = scope:child }
+					}
+					set_relation_friend = { reason = friend_took_lessons_to_heart target = scope:child }
+				}
+				add_opinion = {
+					target = scope:child
+					modifier = clever_child_opinion
+				}
+			}
+		}
+	}
+}
+
+
+
+mcpe.42 = {
+	type = character_event
+	title = child_personality.7060.t
+	desc = child_personality.7060.desc
+	theme = education
+	override_background = { reference = relaxing_room }
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+	right_portrait = {
+		character = scope:other_child
+		animation = throne_room_writer
+	}
+
+	trigger = {
+		hd_mcpe_is_childhood_personality_event_valid_trigger = {
+			TRAIT_1 = humble
+			TRAIT_2 = cynical
+			TRAIT_3 = content
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		mcpe_weight_for_event_modifier = {
+			TRAIT_1 = humble
+			TRAIT_2 = cynical
+			TRAIT_3 = content
+		}
+	}
+
+	immediate = {
+		save_scope_as = child
+		set_favorite_toy_effect = yes
+		mcpe_add_suitable_same_realm_children_to_list = yes
+		random_in_list = {
+			list = suitable_same_realm_children
+			limit = {
+				NOR = {
+					has_trait = cynical
+					has_relation_bully = root
+					has_relation_victim = root
+					has_relation_rival = root
+				}
+			}
+			alternative_limit = {
+				NOR = {
+					has_relation_bully = root
+					has_relation_victim = root
+					has_relation_rival = root
+				}
+			}
+			alternative_limit = {
+				always = yes
+			}
+			weight = {
+				base = 1
+				modifier = {
+					add = 10
+					is_of_major_interest_to_root_trigger = yes
+				}
+				modifier = {
+					add = 5
+					is_of_minor_interest_to_root_trigger = yes
+				}
+				modifier = {
+					add = 5
+					has_trait = pensive
+				}
+				modifier = {
+					add = 5
+					has_trait = zealous
+				}
+			}
+			save_scope_as = other_child
+		}
+	}
+
+	option = { # humble
+		name = child_personality.7060.a
+		add_trait = humble
+		mcpe_trigger_basegame_guardian_response = { TRAIT = humble GR_ID = 7061 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = humble }
+		}
+		
+		progress_towards_friend_effect = {
+			CHARACTER = scope:other_child
+			OPINION = 25
+			REASON = friend_bonded_after_reading_book
+		}
+		random = {
+			chance = 1
+			add_trait = lifestyle_mystic
+		}
+	}
+
+	option = { # cynical
+		name = child_personality.7060.b
+		add_trait = cynical
+		mcpe_trigger_basegame_guardian_response = { TRAIT = cynical GR_ID = 7061 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = cynical }
+		}
+
+		if = {
+			limit = {
+				can_set_relation_friend_trigger = { CHARACTER = scope:other_child }
+			}
+			set_relation_friend = { reason = friend_toy target = scope:other_child }
+		}
+	}
+
+	option = { # content
+		name = child_personality.7060.c
+		add_trait = content
+		mcpe_trigger_basegame_guardian_response = { TRAIT = content GR_ID = 7061 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = content }
+		}
+
+		add_stress = major_stress_loss
+	}
+}
+
+
+
+mcpe.43 = {
+	type = character_event
+	title = child_personality.7070.t
+	desc = child_personality.7070.desc
+	theme = education
+	override_background = { reference = feast }
+	left_portrait = {
+		character = root
+		animation = rage
+	}
+	right_portrait = {
+		character = scope:other_child
+		animation = ecstasy
+	}
+
+	trigger = {
+		hd_mcpe_is_childhood_personality_event_valid_trigger = {
+			TRAIT_1 = vengeful
+			TRAIT_2 = deceitful
+			TRAIT_3 = calm
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		mcpe_weight_for_event_modifier = {
+			TRAIT_1 = vengeful
+			TRAIT_2 = deceitful
+			TRAIT_3 = calm
+		}
+	}
+
+	immediate = {
+		save_scope_as = child
+		mcpe_save_bully_effect = yes
+		scope:bully = {
+			save_scope_as = other_child
+		}
+	}
+
+	option = { # vengeful
+		name = child_personality.7070.a
+		add_trait = vengeful
+		mcpe_trigger_basegame_guardian_response = { TRAIT = vengeful GR_ID = 7071 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = vengeful }
+		}
+		
+		progress_towards_rival_effect = {
+			REASON = rival_spat_food
+			CHARACTER = scope:other_child
+			OPINION = -50
+		}
+		
+		scope:other_child = {
+			random = {
+				chance = 15
+				increase_wounds_effect = { REASON = fight }
+			}
+		}
+		
+		add_prestige = medium_prestige_gain
+	}
+
+	option = { # deceitful
+		name = child_personality.7070.b
+		add_trait = deceitful
+		mcpe_trigger_basegame_guardian_response = { TRAIT = deceitful GR_ID = 7071 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = deceitful }
+		}
+		
+		scope:other_child = {
+			add_stress = medium_stress_gain
+		}
+	}
+
+	option = { # calm
+		name = child_personality.7070.c
+		flavor = child_personality.7070.c.flavor
+		add_trait = calm
+		mcpe_trigger_basegame_guardian_response = { TRAIT = calm GR_ID = 7071 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = calm }
+		}
+		
+		random = {
+			chance = 50
+			remove_relation_bully = scope:other_child
+		}
+	}
+}
+
+
+
+mcpe.44 = {
+	type = character_event
+	title = child_personality.7080.t
+	desc = {
+		desc = child_personality.7080.desc_1
+		first_valid = {
+			triggered_desc = {
+			    trigger = {
+					scope:teacher = {
+						NOT = {
+							is_councillor = yes
+						}
+					}
+			    }
+			    desc = {
+			    	desc = child_personality.7080.desc_name_1
+			    }
+			}
+			triggered_desc = {
+			    trigger = {
+					scope:teacher = {
+						is_councillor = yes
+					}
+			    }
+			    desc = {
+			    	desc = child_personality.7080.desc_name_2
+			    }
+			}
+		}
+	}
+	theme = education
+	override_background = { reference = market }
+	left_portrait = {
+		character = root
+		animation = steward
+	}
+	right_portrait = {
+		character = scope:teacher
+		animation = chaplain
+	}
+
+	trigger = {
+		hd_mcpe_is_childhood_personality_event_valid_trigger = {
+			TRAIT_1 = generous
+			TRAIT_2 = fickle
+			TRAIT_3 = arrogant
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		mcpe_weight_for_event_modifier = {
+			TRAIT_1 = generous
+			TRAIT_2 = fickle
+			TRAIT_3 = arrogant
+		}
+	}
+
+	immediate = {
+		save_scope_as = child
+		mcpe_save_sermon_priest = yes
+		scope:sermon_priest = {
+			save_scope_as = teacher
+		}
+	}
+
+	option = { # generous
+		name = child_personality.7080.a
+		add_trait = generous
+		mcpe_trigger_basegame_guardian_response = { TRAIT = generous GR_ID = 7081 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = generous }
+		}
+		
+		add_piety = medium_piety_gain
+		add_stress = minor_stress_gain
+	}
+
+	option = { # fickle
+		name = child_personality.7080.b
+		add_trait = fickle
+		mcpe_trigger_basegame_guardian_response = { TRAIT = fickle GR_ID = 7081 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = fickle }
+		}
+	}
+
+	option = { # arrogant
+		name = child_personality.7080.c
+		add_trait = arrogant
+		mcpe_trigger_basegame_guardian_response = { TRAIT = arrogant GR_ID = 7081 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = arrogant }
+		}
+		
+		scope:teacher = {
+			add_opinion = {
+				target = scope:child
+				modifier = disappointed_opinion
+				opinion = -30
+			}
+			pay_short_term_gold = {
+				target = scope:child
+				gold = tiny_gold_value
+			}
+		}
+	}
+}
+
+
+
+mcpe.45 = {
+	type = character_event
+	title = child_personality.7090.t
+	desc = child_personality.7090.desc
+	theme = education
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+	right_portrait = {
+		character = scope:teacher
+		animation = chancellor
+	}
+
+	trigger = {
+		hd_mcpe_is_childhood_personality_event_valid_trigger = {
+			TRAIT_1 = forgiving
+			TRAIT_2 = trusting
+			TRAIT_3 = patient
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		mcpe_weight_for_event_modifier = {
+			TRAIT_1 = forgiving
+			TRAIT_2 = trusting
+			TRAIT_3 = patient
+		}
+	}
+
+	immediate = {
+		save_scope_as = child
+		mcpe_save_teacher_effect = yes
+	}
+
+	option = { # forgiving
+		name = child_personality.7090.a
+		add_trait = forgiving
+		mcpe_trigger_basegame_guardian_response = { TRAIT = forgiving GR_ID = 7091 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = forgiving }
+		}
+		
+		scope:teacher = {
+			if = {
+				limit = {
+					OR = {
+						has_trait = forgiving
+						has_trait = compassionate
+					}
+					NOT = {
+						has_trait = vengeful
+					}
+				}
+				progress_towards_friend_effect = {
+					CHARACTER = scope:child
+					OPINION = 0
+					REASON = friend_impressed_by_forgiveness
+				}
+				add_opinion = {
+					target = scope:child
+					modifier = clever_child_opinion
+				}
+			}
+		}
+	}
+
+	option = { # trusting
+		name = child_personality.7090.b
+		add_trait = trusting
+		mcpe_trigger_basegame_guardian_response = { TRAIT = trusting GR_ID = 7091 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = trusting }
+		}
+		
+		scope:teacher = {
+			if = {
+				limit = {
+					OR = {
+						has_trait = trusting
+						has_trait = gregarious
+					}
+					NOT = {
+						has_trait = paranoid
+					}
+				}
+				progress_towards_friend_effect = {
+					CHARACTER = scope:child
+					OPINION = 0
+					REASON = friend_impressed_by_forgiveness
+				}
+				add_opinion = {
+					target = scope:child
+					modifier = clever_child_opinion
+				}
+			}
+		}
+	}
+
+	option = { # patient
+		name = child_personality.7090.c
+		add_trait = patient
+		mcpe_trigger_basegame_guardian_response = { TRAIT = patient GR_ID = 7091 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = patient }
+		}
+		
+		scope:teacher = {
+			if = {
+				limit = {
+					OR = {
+						has_trait = patient
+						has_trait = calm
+					}
+					NOT = {
+						has_trait = impatient
+					}
+				}
+				progress_towards_friend_effect = {
+					CHARACTER = scope:child
+					OPINION = 0
+					REASON = friend_impressed_by_forgiveness
+				}
+				add_opinion = {
+					target = scope:child
+					modifier = clever_child_opinion
+				}
+			}
+		}
+	}
+}
+
+
+
+mcpe.46 = {
+	type = character_event
+	title = child_personality.7100.t
+	desc = child_personality.7100.desc
+	theme = education
+	override_background = { reference = armory }
+	left_portrait = {
+		character = root
+		animation = spymaster
+	}
+	right_portrait = {
+		character = scope:other_child
+		animation = severelywounded
+	}
+
+	trigger = {
+		hd_mcpe_is_childhood_personality_event_valid_trigger = {
+			TRAIT_1 = honest
+			TRAIT_2 = arbitrary
+			TRAIT_3 = impatient
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		mcpe_weight_for_event_modifier = {
+			TRAIT_1 = honest
+			TRAIT_2 = arbitrary
+			TRAIT_3 = impatient
+		}
+	}
+
+	immediate = {
+		save_scope_as = child
+		mcpe_add_suitable_same_realm_children_to_list = yes
+		random_in_list = {
+			list = suitable_same_realm_children
+			limit = {
+				NOR = {
+					has_trait = honest
+					has_relation_bully = root
+					has_relation_victim = root
+					has_relation_rival = root
+				}
+			}
+			alternative_limit = {
+				NOR = {
+					has_relation_bully = root
+					has_relation_victim = root
+					has_relation_rival = root
+				}
+			}
+			alternative_limit = {
+				always = yes
+			}
+			weight = {
+				base = 1
+				modifier = {
+					add = 10
+					is_of_major_interest_to_root_trigger = yes
+				}
+				modifier = {
+					add = 5
+					is_of_minor_interest_to_root_trigger = yes
+				}
+				modifier = {
+					add = 5
+					has_trait = rowdy
+				}
+			}
+			save_scope_as = other_child
+		}
+		set_signature_weapon_effect = yes
+		scope:other_child = {
+			set_signature_weapon_effect = yes
+		}
+	}
+
+	option = { # honest
+		name = child_personality.7100.a
+		add_trait = honest
+		mcpe_trigger_basegame_guardian_response = { TRAIT = honest GR_ID = 7101 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = honest }
+		}
+	}
+
+	option = { # arbitrary
+		name = child_personality.7100.b
+		add_trait = arbitrary
+		mcpe_trigger_basegame_guardian_response = { TRAIT = arbitrary GR_ID = 7101 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = arbitrary }
+		}
+		
+		scope:other_child = {
+			random = {
+				chance = 15
+				increase_wounds_effect = { REASON = wounds }
+			}
+			random = {
+				chance = 35
+				progress_towards_rival_effect = {
+					REASON = rival_ignored_suffering
+					CHARACTER = scope:child
+					OPINION = 0
+				}
+			}
+		}
+	}
+
+	option = { # impatient
+		name = child_personality.7100.c
+		add_trait = impatient
+		mcpe_trigger_basegame_guardian_response = { TRAIT = impatient GR_ID = 7101 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = impatient }
+		}
+		
+		progress_towards_friend_effect = {
+			CHARACTER = scope:child
+			OPINION = 0
+			REASON = friend_tried_to_save_my_life
+		}
+	}
+}
+
+
+
+mcpe.47 = {
+	type = character_event
+	title = child_personality.7200.t
+	desc = child_personality.7200.desc
+	theme = education
+	override_background = { reference = ep2_hunt_forest_cave }
+	left_portrait = {
+		character = root
+		animation = shock
+	}
+	right_portrait = {
+		character = scope:other_child
+		animation = schadenfreude
+	}
+
+	trigger = {
+		hd_mcpe_is_childhood_personality_event_valid_trigger = {
+			TRAIT_1 = brave
+			TRAIT_2 = stubborn
+			TRAIT_3 = wrathful
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		mcpe_weight_for_event_modifier = {
+			TRAIT_1 = brave
+			TRAIT_2 = stubborn
+			TRAIT_3 = wrathful
+		}
+	}
+
+	immediate = {
+		save_scope_as = child
+		location.county = {
+			save_scope_as = capital_county_scope
+		}
+		mcpe_add_suitable_same_realm_children_to_list = yes
+		random_in_list = {
+			list = suitable_same_realm_children
+			limit = {
+				OR = {
+					has_trait = sadistic
+					has_trait = callous
+				}
+				NOR = {
+					has_trait = brave
+					has_relation_friend = root
+					has_relation_potential_friend = root
+				}
+			}
+			alternative_limit = {
+				NOR = {
+					has_trait = brave
+					has_relation_friend = root
+					has_relation_potential_friend = root
+				}
+			}
+			alternative_limit = {
+				NOR = {
+					has_relation_bully = root
+					has_relation_friend = root
+					has_relation_potential_friend = root
+				}
+			}
+			alternative_limit = {
+				always = yes
+			}
+			weight = {
+				base = 1
+				modifier = {
+					add = 10
+					is_of_major_interest_to_root_trigger = yes
+				}
+				modifier = {
+					add = 5
+					is_of_minor_interest_to_root_trigger = yes
+				}
+				modifier = {
+					add = 5
+					has_trait = rowdy
+				}
+			}
+			save_scope_as = other_child
+		}
+		scope:other_child = {
+			set_favorite_toy_effect = yes
+		}
+	}
+
+	option = { # brave
+		name = child_personality.7200.a
+		add_trait = brave
+		mcpe_trigger_basegame_guardian_response = { TRAIT = brave GR_ID = 7201 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = brave }
+		}
+		
+		random = {
+			chance = 10
+			increase_wounds_effect = { REASON = fall }
+		}
+		
+		add_prestige = medium_prestige_gain
+	}
+
+	option = { # stubborn
+		name = child_personality.7200.b
+		add_trait = stubborn
+		mcpe_trigger_basegame_guardian_response = { TRAIT = stubborn GR_ID = 7201 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = stubborn }
+		}
+		
+		scope:other_child = {
+			progress_towards_rival_effect = {
+				REASON = rival_guardian_armory_stubborn
+				CHARACTER = scope:child
+				OPINION = 0
+			}
+			add_stress = medium_stress_gain
+		}
+	}
+
+	option = { # wrathful
+		name = child_personality.7200.c
+		add_trait = wrathful
+		mcpe_trigger_basegame_guardian_response = { TRAIT = wrathful GR_ID = 7201 }
+		ai_chance = {
+			base = 1
+			mcpe_trait_choice_modifier = { TRAIT = wrathful }
+		}
+		
+		scope:other_child = {
+			random = {
+				chance = 10
+				increase_wounds_effect = { REASON = fight }
+			}
+			progress_towards_rival_effect = {
+				REASON = rival_cave_wrathful
+				CHARACTER = scope:child
+				OPINION = 0
+			}
+		}
+	}
+}
+
+
+
+

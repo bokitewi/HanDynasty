@@ -1,0 +1,93 @@
+﻿# AUH enhancement of the vanilla Han Art of War tradition.
+tradition_tgp_art_of_war = {
+	category = combat
+
+	layers = {
+		0 = martial
+		1 = western
+		4 = board_gamers.dds
+	}
+
+	is_shown = {
+		OR = {
+			this = culture:han
+			any_parent_culture_or_above = { this = culture:han }
+		}
+		has_tgp_dlc_trigger = yes
+	}
+
+	can_pick = { }
+
+	parameters = {
+		guardians_can_transfer_commander_traits = yes
+		military_governor_appointment_score = yes
+		kuzhu_stewardship_logistics_bonus = yes
+	}
+
+	character_modifier = {
+		counter_efficiency = 0.1
+		siege_phase_time = -0.1
+		supply_duration = 0.2
+		movement_speed = 0.1
+	}
+
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			if = {
+				limit = {
+					NOR = {
+						culture_pillar:ethos_bureaucratic = { is_in_list = traits }
+						culture_pillar:ethos_bellicose = { is_in_list = traits }
+					}
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = not_bellicose_or_bureaucratic_desc
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						any_culture_county = {
+							count >= 5
+							any_county_province = {
+								has_building_or_higher = examination_hall_01
+							}
+						}
+					}
+				}
+				add = {
+					value = tradition_unfulfilled_criteria_penalty
+					desc = duchies_with_examination_halls_desc
+				}
+			}
+			if = {
+				limit = {
+					culture_tradition_reduction_trigger = { TRADITION = tradition_tgp_art_of_war }
+				}
+				multiply = {
+					value = 0.5
+					desc = inspired_by_culture_desc
+				}
+			}
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+
+	ai_will_do = {
+		value = 400
+		if = {
+			limit = { scope:character = { government_allows = administrative } }
+			multiply = 2
+		}
+		else_if = {
+			limit = { scope:character ?= { ai_has_warlike_personality = yes } }
+			multiply = 4
+		}
+	}
+}

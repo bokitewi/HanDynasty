@@ -1,0 +1,85 @@
+hd_cixiong_shuanggujian_weapon_modifier = {
+	prowess = 3
+	diplomacy = 5
+	vassal_opinion = 5
+	knight_effectiveness_mult = 0.05
+	monthly_prestige = 0.3
+}
+
+hd_cixiong_shuanggujian_court_modifier = {
+	court_grandeur_baseline_add = 4
+	diplomacy = 2
+	monthly_prestige = 0.4
+	monthly_dynasty_prestige = 0.08
+}
+
+hd_zhangba_shemao_weapon_modifier = {
+	prowess = 5
+	martial = 3
+	knight_effectiveness_mult = 0.08
+	enemy_hard_casualty_modifier = 0.10
+	dread_baseline_add = 5
+}
+
+hd_zhangba_shemao_court_modifier = {
+	court_grandeur_baseline_add = 4
+	monthly_prestige = 0.3
+	dread_baseline_add = 5
+}
+
+hd_liangyin_qiang_weapon_modifier = {
+	prowess = 4
+	martial = 3
+	knight_effectiveness_mult = 0.10
+	hard_casualty_modifier = -0.05
+	monthly_prestige = 0.2
+}
+
+hd_liangyin_qiang_court_modifier = {
+	court_grandeur_baseline_add = 3
+	monthly_prestige = 0.3
+	monthly_dynasty_prestige = 0.05
+}
+
+hd_shenwei_longdan_qiang_weapon_modifier = {
+	prowess = 5
+	martial = 4
+	knight_effectiveness_mult = 0.10
+	hard_casualty_modifier = -0.05
+	monthly_prestige = 0.3
+}
+
+hd_shenwei_longdan_qiang_court_modifier = {
+	court_grandeur_baseline_add = 4
+	monthly_prestige = 0.4
+	monthly_dynasty_prestige = 0.08
+}
+
+hd_hao_longdan_weapon_modifier = {
+	prowess = 5
+	martial = 4
+	knight_effectiveness_mult = 0.10
+	enemy_hard_casualty_modifier = 0.08
+	dread_baseline_add = 3
+}
+
+hd_hao_longdan_court_modifier = {
+	court_grandeur_baseline_add = 4
+	martial = 2
+	monthly_prestige = 0.4
+}
+
+hd_wushuang_fangtian_huaji_weapon_modifier = {
+	prowess = 5
+	martial = 5
+	knight_effectiveness_mult = 0.10
+	enemy_hard_casualty_modifier = 0.10
+	dread_baseline_add = 5
+	monthly_prestige = 0.5
+}
+
+hd_wushuang_fangtian_huaji_court_modifier = {
+	court_grandeur_baseline_add = 5
+	monthly_prestige = 0.5
+	dread_baseline_add = 5
+}

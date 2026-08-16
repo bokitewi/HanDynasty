@@ -1,0 +1,9 @@
+﻿189000002 = {
+	name = "uuii_world_placeholder"
+	culture = han
+	faith = mahayana
+
+	800.1.1 = {
+		birth = yes
+	}
+}

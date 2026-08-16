@@ -1,0 +1,71 @@
+﻿# Project-owned TGP situation startup.
+# The vanilla dynastic cycle definition, events and GUI remain in the game
+# files; this child on_action only supplies the map-specific start hook.
+
+saas_start_dynastic_cycle = {
+	effect = {
+		# The total-conversion startup replaces vanilla game_start.txt, so restore
+		# the one-day marker expected by vanilla and AUH phase on_start guards.
+		set_global_variable = {
+			name = is_game_start_date
+			days = 1
+		}
+
+		if = {
+			limit = {
+				has_tgp_dlc_trigger = yes
+				game_start_date = 184.1.1
+				current_date = 184.1.1
+				exists = title:h_china.holder
+				NOT = { exists = situation:dynastic_cycle }
+			}
+			start_situation = {
+				type = dynastic_cycle
+				start_phase = situation_dynastic_cycle_phase_instability
+			}
+		}
+
+		if = {
+			limit = {
+				has_tgp_dlc_trigger = yes
+				game_start_date = 184.1.1
+				current_date = 184.1.1
+				exists = situation:dynastic_cycle
+				NOT = { exists = global_var:saas_dynastic_cycle_initialized }
+			}
+			situation:dynastic_cycle = {
+				title:h_china = {
+					set_variable = {
+						name = years_since_imperial_examination
+						value = 0
+					}
+				}
+				# Keep Liu Hong above the mandate threshold that can immediately trigger a collapse.
+				title:h_china.holder ?= {
+					if = {
+						limit = { legitimacy < legitimacy_level_6 }
+						add_legitimacy = {
+							value = legitimacy_level_6
+							subtract = legitimacy
+						}
+					}
+				}
+				if = {
+					limit = { game_start_date < 868.1.1 }
+					tgp_set_wuking_element_effect = { ELEMENT = earth }
+				}
+				else = {
+					tgp_set_wuking_element_effect = { ELEMENT = fire }
+				}
+				every_situation_participant = {
+					recalculate_participant_group = situation:dynastic_cycle
+				}
+			}
+			setup_tributaries_effect = yes
+			set_global_variable = {
+				name = saas_dynastic_cycle_initialized
+				value = yes
+			}
+		}
+	}
+}

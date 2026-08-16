@@ -1,0 +1,461 @@
+﻿
+l_english:
+ mcpe.13.t:0 "Vicious Mockery"
+ mcpe.13.d.no_bully_fallback:0 "Another child is mocking me in front of a group of other children. They seem unsure how to respond, seemingsly waiting for me to do something..."
+ mcpe.13.d.bully:0 "[bully.GetTitledFirstName|U] is mocking me in front of a group of other children. They seem unsure how to respond, seemingsly waiting for me to do something..."
+ mcpe.13.a:0 "I punch the loudmouth in the face!"
+ mcpe.13.b:0 "I will remember this. One day you will pay!"
+ mcpe.13.c:0 "It's just words. Nothing to be upset about."
+
+ mcpegr.13.d_bully:0 "[child.GetTitledFirstName|U] tells me that [bully.GetTitledFirstName] was mocking [child.GetHerHim] in front of a group of other children.\n\n"
+ mcpegr.13.d_no_bully_fallback:0 "[child.GetTitledFirstName|U] tells me that another child was mocking [child.GetHerHim] in front of a group of other children.\n\n"
+ mcpegr.13.d_wrathful:0 "[child.GetSheHe|U] immediately punched the loudmouth in the face!"
+ mcpegr.13.d_vengeful:0 "[child.GetSheHe|U] vows to remember this and take revenge one day!"
+ mcpegr.13.d_calm:0 "[child.GetSheHe|U] says that is was just words, and nothing to be upset about."
+ mcpegr.13.confirm_wrathful:0 "An appropriate response to disrespect."
+ mcpegr.13.confirm_vengeful:0 "Good. Insults are not to be forgotten or forgiven."
+ mcpegr.13.confirm_calm:0 "A wise decision. Words cannot harm [child.GetHerHim]\"."
+ mcpegr.13.wrathful_change:0 "[child.GetFirstNameNoTooltip|U] should not hold back [child.GetHerHis] wrath!"
+ mcpegr.13.vengeful_change:0 "[child.GetFirstNameNoTooltip|U] should remember this and make them pay one day."
+ mcpegr.13.calm_change:0 "[child.GetFirstNameNoTooltip|U] should not get so upset over mere words."
+
+
+
+ mcpe.14.t:0 "Loveless Marriage"
+ mcpe.14.d:0 "I notice a married couple among our servants having a fight. Both of them seem to have already forgotten about why it started, but it must have been some triviality. Now they are openly screaming at each other about how horrible the other one supposedly is and they seem to agree that getting married to each other was the biggest mistake of their life."
+ mcpe.14.a:0 "If this is what love is like, I don't want it."
+ mcpe.14.b:0 "This just shows people only care about themselves."
+ mcpe.14.c:0 "They would just have to take some time to listen to each other!"
+
+ mcpegr.14.d:0 "[child.GetTitledFirstName|U] seems to have witnessed a married couple among our servants having a fight. They are known for openly screaming at each other over any triviality, and publicly declaring that getting married to each other was the biggest mistake of their life.\n\n"
+ mcpegr.14.d_chaste:0 "[child.GetFirstNameNoTooltip|U] says that if this is what lave is like, [child.GetSheHe] doesn't want it."
+ mcpegr.14.d_cynical:0 "[child.GetFirstNameNoTooltip|U] says this just shows that people only care about themselves."
+ mcpegr.14.d_patient:0 "[child.GetFirstNameNoTooltip|U] says that all of their problems could be solved if they would just take some time to listen to each other."
+ mcpegr.14.confirm_chaste:0 "An understandable reaction."
+ mcpegr.14.confirm_cynical:0 "A valuable lesson to have learned."
+ mcpegr.14.confirm_patient:0 "If only they were so wise..."
+ mcpegr.14.chaste_change:0 "Do you really want love if this is what it is like?"
+ mcpegr.14.cynical_change:0 "This just shows that people only care about themselves."
+ mcpegr.14.patient_change:0 "They would just have to take some time to listen to each other!"
+
+
+
+ mcpe.15.t:0 "Boring Lecture"
+ mcpe.15.d:0 "I have to sit through an *extremely* boring lecture. My tutor speaks incredibly slowly, and the speech pattern is so convoluted that at the end of a sentence I cannot even remember how it started. Why am I even sitting here? Should I say something..?"
+ mcpe.15.a:0 "Get to the point already, this is boring!"
+ mcpe.15.b:0 "I have to try concentrating, even if it's hard."
+ mcpe.15.c:0 "Make up an excuse to leave, and then another for not coming back."
+
+ mcpegr.15.d:0 "[child.GetTitledFirstName|U] had to sit through a lecture by an infamously boring tutor. Going through a lecture like this is something like a rite of passage, so I was curious how [child.GetFirstNameNoTooltip] would handle it.\n\n"
+ mcpegr.15.d_impatient:0 "Turns out [child.GetSheHe] interrupted the tutor mid-lecture and complained that it's boring."
+ mcpegr.15.d_diligent:0 "Amazingly, [child.GetSheHe] actually managed to concentrate through the whole thing!"
+ mcpegr.15.d_deceitful:0 "[child.GetSheHe|U] just made up an excuse to leave, and then another for not coming back."
+ mcpegr.15.confirm_impatient:0 "Yes, [child.GetSheHe] shouldn't let anyone waste [child.GetHerHis] time!"
+ mcpegr.15.confirm_diligent:0 "Very impressive, [child.GetFirstNameNoTooltip]."
+ mcpegr.15.confirm_deceitful:0 "Ha! How creative, [child.GetFirstNameNoTooltip]!"
+ mcpegr.15.impatient_change:0 "[child.GetFirstNameNoTooltip|U] shouldn't let anyone waste [child.GetHerHis] time!"
+ mcpegr.15.diligent_change:0 "[child.GetFirstNameNoTooltip|U] should just study harder!"
+ mcpegr.15.deceitful_change:0 "[child.GetFirstNameNoTooltip|U] should have just made up an excuse to leave!"
+
+
+
+ mcpe.16.t:0 "Crush in town"
+ mcpe.16.d.no_crush:0 "I have fallen in love with a common [child.Custom('servant_for_romance')]. Their family will be leaving soon, so we likely will not see each other again. What should I do?"
+ mcpe.16.d.crush:0 "I am in love with [crush.GetTitledFirstName], and [crush.GetSheHe] is staying in our town. This could be my chance, but I am also a little scared. What should I do?"
+ mcpe.16.a:0 "Try to find a chance to confess my feelings."
+ mcpe.16.b:0 "Time for a little spying without showing myself..."
+ mcpe.16.c:0 "Lock myself in my room and hope no one notices me."
+
+ mcpegr.16.d:0 "[child.GetTitledFirstName|U] seems to have fallen in love with [crush.GetTitledFirstName], and [crush.GetSheHe] is staying in our town.\n\n"
+ mcpegr.16.d.no_crush:0 "[child.GetTitledFirstName|U] seems to have fallen in love with a common [child.Custom('servant_for_romance')].\n\n"
+ mcpegr.16.d_brave:0 "[child.GetFirstNameNoTooltip|U] actually confessed [child.GetHerHis] feelings."
+ mcpegr.16.d_lustful:0 "[child.GetFirstNameNoTooltip|U] spent a lot of time trying to spy on [child.GetHerHis] crush without revealing [child.GetHerHim]self."
+ mcpegr.16.d_shy:0 "[child.GetFirstNameNoTooltip|U] just locked [child.GetHerHim]self in [child.GetHerHis] room and hoped no one would notice [child.GetHerHim]."
+ mcpegr.16.confirm_brave:0 "Exactly how it should be done."
+ mcpegr.16.confirm_lustful:0 "Ha! It's a rite of passage."
+ mcpegr.16.confirm_shy:0 "An understandable reaction."
+ mcpegr.16.brave_change:0 "[child.GetFirstNameNoTooltip|U] should just confess [child.GetHerHis] feelings!"
+ mcpegr.16.lustful_change:0 "[child.GetFirstNameNoTooltip|U] just passed on an excellent spying opportunity."
+ mcpegr.16.shy_change:0 "[child.GetFirstNameNoTooltip|U] should just stay in [child.GetHerHis] room!"
+
+
+
+ mcpe.17.t:0 "Robber's wake"
+ mcpe.17.d:0 "I find a child of one of our servants crying somewhere in a corner. When I approach, they look up to me and stammer something about been robbed while trying to buy food on the market outside, and then continue crying."
+ mcpe.17.a:0 "I didn't know it's so dangerous out there..."
+ mcpe.17.b:0 "Well, that doesn't sound like *my* problem."
+ mcpe.17.c:0 "Cheer up, I will share some of my own food with you."
+
+ mcpegr.17.d:0 "[child.GetTitledFirstName|U] found a child of one of our servants crying after being robbed while trying to buy food on the market. When I asked [child.GetFirstNameNoTooltip] what [child.GetSheHe] though about that, [child.GetSheHe] said:\n\n"
+ mcpegr.17.d_craven:0 "\"I didn't know it's so dangerous out there. We should be more careful.\""
+ mcpegr.17.d_callous:0 "\"This isn't *my* problem. Why is this servant bothering me with this?\""
+ mcpegr.17.d_generous:0 "\"We should share some of our own food with the servants. It's the least we can do the cheer them up!\""
+ mcpegr.17.confirm_craven:0 "Yes, it certainly is dangerous out there."
+ mcpegr.17.confirm_callous:0 "Absolutely. This isn't our problem at all."
+ mcpegr.17.confirm_generous:0 "Sharing with them is the right thing to do."
+ mcpegr.17.craven_change:0 "Don't you realize how dangerous it is out there?"
+ mcpegr.17.callous_change:0 "But why is this our problem?"
+ mcpegr.17.generous_change:0 "We should share our food with the servants."
+
+
+
+ mcpe.18.t:0 "Foreign delicacy"
+ mcpe.18.d:0 "At a local feast, I am invited to try an expensive foreign delicacy. I eagerly try some of it, only to immediately realize: It tastes horrible. I *am* rather hungry though, and people might be insulted if I tell them I don't like their expensive food..."
+ mcpe.18.a:0 "I may have had better, but food is still food."
+ mcpe.18.b:0 "This \"delicacy\" actully tastes like crap!"
+ mcpe.18.c:0 "I think I don't really enjoy this fancy food..."
+
+ mcpegr.18.d:0 "[child.GetTitledFirstName|U] attended a local feast, where [child.GetSheHe] was invited to try an expensive foreign delicacy. Judging by [child.GetHerHis] expression, [child.GetSheHe] didn't seem to like it very much.\n\n"
+ mcpegr.18.d_gluttonous:0 "[child.GetSheHe|U] still kept eating anyway."
+ mcpegr.18.d_honest:0 "[child.GetSheHe|U] told everyone that this so called \"delicacy\" actually tasted like crap."
+ mcpegr.18.d_temperate:0 "[child.GetSheHe|U] seemed to conclude that fancy food isn't really for [child.GetHerHim]."
+ mcpegr.18.confirm_gluttonous:0 "Well, bad food is still food."
+ mcpegr.18.confirm_honest:0 "That's right! You tell them, [child.GetFirstNameNoTooltip]!"
+ mcpegr.18.confirm_temperate:0 "One shouly only eat what is necessary."
+ mcpegr.18.gluttonous_change:0 "Bad food is still food!"
+ mcpegr.18.honest_change:0 "[child.GetFirstNameNoTooltip|U] should just say the food is bad!"
+ mcpegr.18.temperate_change:0 "Maybe fancy food isn't for [child.GetFirstNameNoTooltip]."
+
+
+
+ mcpe.19.t:0 "Judgement"
+ mcpe.19.d:0 "A lowly thief has broken into my room, and destroyed a lot of my possessions while greedily digging for valuables. The intruder was caught quickly by the guards, but now I wonder what the punishment should be. I am angry of course, but what fate does this thief actually deserve?"
+ mcpe.19.a:0 "You must work to repair the damage you caused."
+ mcpe.19.b:0 "I will enjoy making you suffer!"
+ mcpe.19.c:0 "You just have to promise to never do it again."
+
+ mcpegr.19.d:0 "A lowly thief has broken into [child.GetFirstNamePossessiveNoTooltip] room, and destroyed a lot of [child.GetHerHis] possessions while greedily digging for valuables. The intruder was caught quickly by the guards, and [child.GetFirstNameNoTooltip] offered [child.GetHerHis] opinion on what the punishment should be.\n\n"
+ mcpegr.19.d_just:0 "[child.GetSheHe|U] thinks the thief should work to repair the damage they caused."
+ mcpegr.19.d_sadistic:0 "[child.GetSheHe|U] wants to make the thief suffer as much as possible."
+ mcpegr.19.d_forgiving:0 "[child.GetSheHe|U] would let the thief go as long as they promise to never do it again."
+ mcpegr.19.confirm_just:0 "A reasonable punishment for the crime."
+ mcpegr.19.confirm_sadistic:0 "Yes. Make them really regret it."
+ mcpegr.19.confirm_forgiving:0 "How merciful."
+ mcpegr.19.just_change:0 "No, the punishment should fit the crime!"
+ mcpegr.19.sadistic_change:0 "No, make them suffer!"
+ mcpegr.19.forgiving_change:0 "No, be merciful and forgive!"
+
+
+
+ mcpe.20.t:0 "New Toy"
+ mcpe.20.d:0 "[guardian.GetTitledFirstName|U] has taken me to the marketplace in search of a new toy. There are many merchants here, and I know that I can pick whichever toy I want. What should I choose?"
+ mcpe.20.a:0 "None of these toys are good enough for me!"
+ mcpe.20.b:0 "I search for the most expensive one there is!"
+ mcpe.20.c:0 "I want that one! Wait, no, this one! Hold on, I actually want this one!"
+
+ mcpegr.20.d:0 "I have taken [child.GetTitledFirstName] to the marketplace in search of a new toy.\n\n"
+ mcpegr.20.d_arrogant:0 "[child.GetSheHe|U] says that none of the toys in the entire market are good enough for [child.GetHerHim]."
+ mcpegr.20.d_greedy:0 "[child.GetSheHe|U] deliberately picks the most expensive one there is, knowing that I will be the one to pay for it."
+ mcpegr.20.d_fickle:0 "[child.GetSheHe|U] can't seem to decide, instead changing [child.GetHerHis] opinion every time [child.GetSheHe] sees a new one."
+ mcpegr.20.confirm_arrogant:0 "Just as well."
+ mcpegr.20.confirm_greedy:0 "[child.GetFirstNameNoTooltip|U] knows to value wealth."
+ mcpegr.20.confirm_fickle:0 "It's good to keep an open mind."
+ mcpegr.20.arrogant_change:0 "[child.GetFirstNameNoTooltip|U] should have higher standards!"
+ mcpegr.20.greedy_change:0 "[child.GetFirstNameNoTooltip|U] should learn to value wealth!"
+ mcpegr.20.fickle_change:0 "[child.GetFirstNameNoTooltip|U] should learn to keep an open mind!"
+
+
+
+ mcpe.21.t:0 "Tour of the land"
+ mcpe.21.d:0 "I am taking a tour of my family's land together with [guardian.GetTitledFirstName] in order to help familiarize myself with the geography and the people. When we are almost finished, [guardian.GetSheHe] asks me if there is anything left I wish to do."
+ mcpe.21.a:0 "I want to talk with some of the locals!"
+ mcpe.21.b:0 "The people are looking at us strangely. Let's go home."
+ mcpe.21.c:0 "Nothing, I am already tired from the day's events."
+
+ mcpegr.21.d:0 "I am taking [child.GetTitledFirstName] on a tour of [child.GetHerHis] family's land, in order to help familiarize [child.GetHerHim] with the geography and the people. When we are almost finished, I ask if there is anything left that [child.GetSheHe] wishes to do.\n\n"
+ mcpegr.21.d_gregarious:0 "[child.GetFirstNameNoTooltip|U] says that [child.GetSheHe] wants to talk to some of the locals in order to get to know them better."
+ mcpegr.21.d_paranoid:0 "[child.GetFirstNameNoTooltip|U] looks worried and says the people are looking at us strangely, so we should just go home."
+ mcpegr.21.d_lazy:0 "[child.GetFirstNameNoTooltip|U] wants to do nothing, because [child.GetSheHe] is already tired from the day's events."
+ mcpegr.21.confirm_gregarious:0 "An excellent idea!"
+ mcpegr.21.confirm_paranoid:0 "You can never be too cautious."
+ mcpegr.21.confirm_lazy:0 "Yes, let us rest."
+ mcpegr.21.gregarious_change:0 "[child.GetSheHe|U] should talk with some of the locals!"
+ mcpegr.21.paranoid_change:0 "[child.GetSheHe|U] should be more worried about [child.GetHerHis] safety!"
+ mcpegr.21.lazy_change:0 "[child.GetSheHe|U] should just enjoy a well earned rest."
+
+
+
+ mcpe.22.t:0 "Wages of sin"
+ mcpe.22.d:0 "There have always been rumors that a reclusive individual in the area was secretly living a life of sin, disrespecting the divine order. There has never been any solid evidence behind these accusations, but recently, a fire broke out in their home. I think to myself:"
+ mcpe.22.a:0 "A clear warning against disrespecting the divine!"
+ mcpe.22.b:0 "Mere rumors don't justify looking down on others!"
+ mcpe.22.c:0 "We should help them rebuild, no matter what people say!"
+
+ mcpegr.22.d:0 "There have always been rumors that a reclusive individual in the area was secretly living a life of sin, disrespecting the divine order. There has never been any solid evidence behind these accusations, but recently, a fire broke out in their home. [child.GetTitledFirstName|U] tells me:\n\n"
+ mcpegr.22.d_zealous:0 "\"This is a clear warning against disrespecting the divine! This sinner got what they deserved!\""
+ mcpegr.22.d_humble:0 "\"Mere rumors don't justify looking down on others! We should not pretend to know their true character!\""
+ mcpegr.22.d_compassionate:0 "\"We should help this poor soul rebuild their home! It does not matter what people say!\""
+ mcpegr.22.confirm_zealous:0 "Yes, sinners will get what they deserve!"
+ mcpegr.22.confirm_humble:0 "Yes, we should not look down on others."
+ mcpegr.22.confirm_compassionate:0 "Yes, we should always help those in need."
+ mcpegr.22.zealous_change:0 "[child.GetFirstNameNoTooltip|U] should not question the divine will!"
+ mcpegr.22.humble_change:0 "[child.GetFirstNameNoTooltip|U] doesn't know their true character!"
+ mcpegr.22.compassionate_change:0 "[child.GetFirstNameNoTooltip|U] should help a poor soul in need!"
+
+
+
+ mcpe.23.t:0 "Short lesson"
+ mcpe.23.d:0 "I am studying with my tutor, when I notice other children playing outside, and seemingly having a very good time. The tutor notes my lack of focus on the lesson, and offers to let me end early today. \"I promise that if anyone asks about you, I will say the lesson ended early because of me.\", they say."
+ mcpe.23.a:0 "Thanks!"
+ mcpe.23.b:0 "No, I promised to finish the lesson and I will finish it."
+ mcpe.23.c:0 "I was going to go anyway, no matter what you say."
+
+ mcpegr.23.d:0 "I notice some children playing outside, and seemingly having a very good time. [child.GetTitledFirstName|U] is not among them, because [child.GetSheHe] is supposed to be studying right now.\n\n"
+ mcpegr.23.d_trusting:0 "However, I soon see [child.GetHerHim] joining the other children. The tutor later tells me that the lesson just happened to end early that day."
+ mcpegr.23.d_stubborn:0 "And indeed, [child.GetHerHim] does not join the other children and keeps studying. The tutor later tells me that [child.GetFirstNameNoTooltip] insisted in finishing the lesson, because that is what [child.GetSheHe] said [child.GetSheHe] would do."
+ mcpegr.23.d_arbitrary:0 "However, I soon see [child.GetHerHim] joining the other children. The tutor later tells me that [child.GetFirstNameNoTooltip] just left without asking for permission."
+ mcpegr.23.confirm_trusting:0 "Sometimes lessons end early."
+ mcpegr.23.confirm_stubborn:0 "Yes. Always stick to the plan, [child.GetFirstNameNoTooltip]!"
+ mcpegr.23.confirm_arbitrary:0 "Why would [child.GetFirstNameNoTooltip] need permission?"
+ mcpegr.23.trusting_change:0 "[child.GetFirstNameNoTooltip|U] should have just asked to leave!"
+ mcpegr.23.stubborn_change:0 "[child.GetFirstNameNoTooltip|U] should have stuck to the lesson!"
+ mcpegr.23.arbitrary_change:0 "[child.GetFirstNameNoTooltip|U] should have just walked away!"
+
+
+
+ mcpe.24.t:0 "The dream"
+ mcpe.24.d:0 "I wake from the most fantastic dream. Thinking on it before I forget, I remember in my dream I played the part of a powerful conqueror like Alexander the Great. Thinking back to what made the dream so great, I recall..."
+ mcpe.24.a:0 "...The power and respect I had."
+ mcpe.24.b:0 "...The untold wealth that I possessed."
+ mcpe.24.c:0 "...The smiles of my people, living happy and fulfilled lives."
+
+ mcpegr.24.d:0 "[child.GetTitledFirstName|U] tells me about a dream [child.GetSheHe] had last night. [child.GetSheHe|U] played the part of a powerful ruler over a vast realm.\n\n"
+ mcpegr.24.d_ambitious:0 "[child.GetSheHe|U] says the best part about this dream was the power and respect [child.GetSheHe] had, and wishes to achieve the same in the waking world."
+ mcpegr.24.d_greedy:0 "[child.GetSheHe|U] says the best part about this dream was the untold wealth that [child.GetSheHe] possessed, and wishes to achieve the same in the waking world."
+ mcpegr.24.d_compassionate:0 "[child.GetSheHe|U] says the best part about this dream was the smiles of [child.GetHerHis] people living happy und fulfilled lives. [child.GetSheHe|U] now wishes to make people happy like this in the waking world."
+ mcpegr.24.confirm_ambitious:0 "Power is a good thing to strive for."
+ mcpegr.24.confirm_greedy:0 "Wealth is a good thing to strive for."
+ mcpegr.24.confirm_compassionate:0 "Happiness is a good thing to strive for."
+ mcpegr.24.ambitious_change:0 "You should seek power instead!"
+ mcpegr.24.greedy_change:0 "You should seek wealth instead!"
+ mcpegr.24.compassionate_change:0 "You should seek happiness instead!"
+
+
+
+ mcpe.25.t:0 "The stalker"
+ mcpe.25.d:0 "Recently, I have noticed a common [child.Custom('servant_for_romance')] secretly follow me around, staring at me from a distance and quickly hiding somewhere when I seem to notice. Could it be that I have a secret admirer?"
+ mcpe.25.a:0 "I definitely like this kind of attention!"
+ mcpe.25.b:0 "This makes me really uncomfortable."
+ mcpe.25.c:0 "...They probably want to murder me."
+
+ mcpegr.25.d:0 "Recently, I have noticed a common [child.Custom('servant_for_romance')] secretly follow [child.GetTitledFirstName|U] around, staring at [child.GetHerHim] from a distance and quickly hiding somewhere when [child.GetSheHe] seems to notice. It seems [child.GetFirstNameNoTooltip|U] has an admirer.\n\n"
+ mcpegr.25.d_lustful:0 "From the looks of it, [child.GetSheHe] seems to really enjoy this kind of attention."
+ mcpegr.25.d_chaste:0 "This situation is making [child.GetHerHim] really uncomfortable."
+ mcpegr.25.d_paranoid:0 "However, [child.GetSheHe] seems to have come to the conclusion that this means someone is trying to murder [child.GetHerHim]."
+ mcpegr.25.confirm_lustful:0 "Why shouldn't [child.GetSheHe] enjoy it?"
+ mcpegr.25.confirm_chaste:0 "As it should. This is improper."
+ mcpegr.25.confirm_paranoid:0 "Yes, appearances can be deceiving."
+ mcpegr.25.lustful_change:0 "[child.GetFirstNameNoTooltip|U] should just enjoy the attention!"
+ mcpegr.25.chaste_change:0 "[child.GetFirstNameNoTooltip|U] should reject these temptations!"
+ mcpegr.25.paranoid_change:0 "[child.GetFirstNameNoTooltip|U] should care more about [child.GetHerHis] safety!"
+
+
+
+ mcpe.26.t:0 "A walk outside"
+ mcpe.26.d:0 "A group of other children suggested that I sneak out of the castle with them to spend some time in the wilds, in order to prove that I can take care of myself in the real world, without a bunch of guards watching me all the time... If I dare, that is."
+ mcpe.26.a:0 "Why not? I am not afraid of the real world out there!"
+ mcpe.26.b:0 "Go outside without guards? No way, that's *dangerous*!"
+ mcpe.26.c:0 "Sure. But some discreet guards will follow us, just in case."
+
+ mcpegr.26.d:0 "I could not find [child.GetTitledFirstName|U] yesterday. When asking around, I found out that [child.GetSheHe] was last seen with a group of other children, who seem to have snuck out of the castle together.\n\n"
+ mcpegr.26.d_brave:0 "Today, [child.GetFirstNameNoTooltip|U] showed up again, together with the other children. They seem to be really impressed by [child.GetHerHis] bravery, and are telling stories of their adventure to anyone who will listen."
+ mcpegr.26.d_craven:0 "Today, I found [child.GetFirstNameNoTooltip|U] hiding in an old closet. Apparently [child.GetSheHe] was afraid that the other children would take [child.GetHerHim] to some dangerous place."
+ mcpegr.26.d_deceitful:0 "Today, [child.GetFirstNameNoTooltip|U] showed up again, together with the other children. Some guards then tell me that [child.GetSheHe] asked them to follow the group discreetly in order to make sure they were safe."
+ mcpegr.26.confirm_brave:0 "Ha! [child.GetFirstNameNoTooltip|U] isn't afraid of anything!"
+ mcpegr.26.confirm_craven:0 "[child.GetFirstNameNoTooltip|U] knows how to stay out of trouble."
+ mcpegr.26.confirm_deceitful:0 "Showing bravery without unneccesary risks. Clever."
+ mcpegr.26.brave_change:0 "[child.GetFirstNameNoTooltip|U] should prove [child.GetHerHis] bravery!"
+ mcpegr.26.craven_change:0 "[child.GetFirstNameNoTooltip|U] should stay out of trouble!"
+ mcpegr.26.deceitful_change:0 "[child.GetFirstNameNoTooltip|U] should have just lied!"
+
+
+
+ mcpe.27.t:0 "The funeral"
+ mcpe.27.d:0 "A trusted servant of our family has recently passed away. As I attend the funeral, I think about how strange it is to imagine that someone who was just always there and whose presence I have taken for granted will now be gone from our lives forever. As I ponder the reality that every single person will die, I think to myself..."
+ mcpe.27.a:0 "...without divine guidance, we are nothing."
+ mcpe.27.b:0 "...power and glory are pointless in the end."
+ mcpe.27.c:0 "...this funeral is boring and annoying."
+
+ mcpegr.27.d:0 "A trusted servant of our family has recently passed away. [child.GetTitledFirstName|U] seemed to be deep in thought while attending the funeral, so I ask [child.GetHerHim] if [child.GetSheHe] has any thoughts on the servant's life and death.\n\n"
+ mcpegr.27.d_zealous:0 "[child.GetSheHe|U] responds by saying that this funeral made [child.GetHerHim] realize that our short lives are all meaningless without divine guidance, and we need to dedicate ourselves to our faith in order to find purpose in life."
+ mcpegr.27.d_content:0 "[child.GetSheHe|U] responds by saying that this funeral made [child.GetHerHim] realize how pointless it is to strive for power and glory. In the end, we are all going to die, and then these things will be of no value to us anymore."
+ mcpegr.27.d_callous:0 "[child.GetSheHe|U] responds by saying that this funeral was boring and annoying, and that [child.GetSheHe] doesn't understand why [child.GetSheHe] had to attend it. After all, it's not like the dead still need the company."
+ mcpegr.27.confirm_zealous:0 "Wisely spoken, [child.GetFirstNameNoTooltip|U]."
+ mcpegr.27.confirm_content:0 "Yes, power and glory are always fleeting."
+ mcpegr.27.confirm_callous:0 "I agree. Why did we have to be there?"
+ mcpegr.27.zealous_change:0 "This was an important religious ritual!"
+ mcpegr.27.content_change:0 "Power and glory are always fleeting!"
+ mcpegr.27.callous_change:0 "Why even care about this funeral?"
+
+
+
+ mcpe.28.t:0 "Traveling merchant"
+ mcpe.28.d:0 "A traveling merchant arrives at our castle, and immediately aske me if I would like to have a look at all the exotic goods on display. There is a variety of exotic foods, toys and trinkets. For each one of them, the merchant can tell an amazing story about its origin and the daring adventures that brought it into the collection. When [guardian.GetTitledFirstName] arrives, the merchant asks if I have found anythink I would like."
+ mcpe.28.a:0 "This food looks delicious! I want to try it!"
+ mcpe.28.b:0 "I would like this mystical good luck charm please!"
+ mcpe.28.c:0 "I am not stupid. I won't fall for these lies."
+
+ mcpegr.28.d:0 "A traveling merchant has arrived at our castle, and immediately starts talking to [child.GetTitledFirstName|U] about all the exotic goods on display.\n\n"
+ mcpegr.28.d_gluttonous:0 "[child.GetSheHe|U] seems to not be impressed with all the mystical good luck charms and such, but is very interested in the delicious looking exotic food."
+ mcpegr.28.d_trusting:0 "[child.GetSheHe|U] wants me to buy [child.GetHerHim] a mystical good luck charm from a far away land."
+ mcpegr.28.d_cynical:0 "[child.GetSheHe|U] says that [child.GetSheHe] is not stupid, and can see right through the merchants lies about the supposed mystical powers of these items."
+ mcpegr.28.confirm_gluttonous:0 "Nothing wrong with good food!"
+ mcpegr.28.confirm_trusting:0 "Sure, whatever you want."
+ mcpegr.28.confirm_cynical:0 "[child.GetFirstNameNoTooltip|U] isn't so easily tricked."
+ mcpegr.28.gluttonous_change:0 "You should try the food, [child.GetFirstNameNoTooltip|U]!"
+ mcpegr.28.trusting_change:0 "You should just take the good luck charm!"
+ mcpegr.28.cynical_change:0 "How can you fall for these lies?"
+
+
+
+ mcpe.29.t:0 "Hospitality"
+ mcpe.29.d:0 "A traveler has arrived at our castle with their family. They are exhausted from a long journey and intend to stay for a few nights. One of their children approaches me and asks how they can thank us for our hospitality."
+ mcpe.29.a:0 "No need to thank us."
+ mcpe.29.b:0 "Could you do some of my chores for me?"
+ mcpe.29.c:0 "...Why are you talking to me?"
+
+ mcpegr.29.d:0 "A traveler has arrived at our castle with their family. They are exhausted from a long journey and intend to stay for a few nights. Apparently, one of their children has approached [child.GetTitledFirstName|U] and asked [child.GetHerHim] how they can thank us for our hospitality.\n\n"
+ mcpegr.29.d_just:0 "[child.GetFirstNameNoTooltip|U] said that there was no need to thank us, and that we are just fulfilling our duty of providing good hospitality."
+ mcpegr.29.d_lazy:0 "[child.GetFirstNameNoTooltip|U] asked if they could do some of [child.GetHerHis] chores for [child.GetHerHim]."
+ mcpegr.29.d_shy:0 "[child.GetFirstNameNoTooltip|U] did not like being approached like this, and has been hiding in [child.GetHerHis] room since then."
+ mcpegr.29.confirm_just:0 "Yes, this is how it should be."
+ mcpegr.29.confirm_lazy:0 "Well, I suppose they can help..."
+ mcpegr.29.confirm_shy:0 "Let's give [child.GetHerHim] some space."
+ mcpegr.29.just_change:0 "We have a duty to provide hospitality!"
+ mcpegr.29.lazy_change:0 "We could make them do some chores for us."
+ mcpegr.29.shy_change:0 "We don't want to be bothered!"
+
+
+
+ mcpe.30.t:0 "Promise of Progress"
+ mcpe.30.d:0 "One of my tutors reminds me that I promised to put in a little bit more effort for my studies, but my latest progress on the subject is apparently still a little bit disappointing. I think this tutor is just not a very good teacher, and I only made the promise so I would finally be left alone. What should I do?"
+ mcpe.30.a:0 "I don't care about that promise anymore."
+ mcpe.30.b:0 "Fine, I will study more. A promise is a promise."
+ mcpe.30.c:0 "How *DARE* you blame *ME* for *YOUR* incompetence?!"
+
+ mcpegr.30.d:0 "[child.GetTitledFirstName|U] has promised one of [child.GetHerHis] tutors to put in a little bit more effort in [child.GetHerHis] studies, but [child.GetHerHis] latest progress on the subject is apparently still a little bit disappointing. I suspect that this tutor is just not a very good teacher, but I still want to know how [child.GetFirstNameNoTooltip|U] will treat this promise, so I ask [child.GetHerHim] about it.\n\n"
+ mcpegr.30.d_arbitrary:0 "[child.GetSheHe|U] tells me that [child.GetSheHe] only made that promise to be finally left alone, and does not care about it anymore."
+ mcpegr.30.d_diligent:0 "[child.GetSheHe|U] tells me that [child.GetSheHe] still takes this promise very seriously, and will definitely study more."
+ mcpegr.30.d_wrathful:0 "[child.GetSheHe|U] tells me that [child.GetSheHe] is really angry with this stupid, incompenent tutor who is a horrible teacher and a complete failure in general. And then blames [child.GetHerHim] for it."
+ mcpegr.30.confirm_arbitrary:0 "Sometimes, promises need to be broken."
+ mcpegr.30.confirm_diligent:0 "Impressive, [child.GetFirstNameNoTooltip|U]. Keep at it."
+ mcpegr.30.confirm_wrathful:0 "An understandable reaction."
+ mcpegr.30.arbitrary_change:0 "Why do you still care about that promise?"
+ mcpegr.30.diligent_change:0 "A promise is a promise. Keep studying!"
+ mcpegr.30.wrathful_change:0 "Aren't you angry at this incompetent tutor?"
+
+
+
+ mcpe.31.t:0 "The gossip"
+ mcpe.31.d.no_bully_fallback:0 "Another child has been spreading annoying rumors about me, but I suspect they don't really mean any of the awful things they say. They probably just want attention, or they want to besmirch my name because of envy. I think to myself..."
+ mcpe.31.d.bully:0 "[bully.GetTitledFirstName|U] has been spreading annoying rumors about me, but I suspect [bully.GetSheHe] don't really mean any of the awful things [bully.GetSheHe] says. [bully.GetSheHe|U] probably just wants attention, or maybe [bully.GetSheHe] wants to besmirch my name because of envy. I think to myself that..."
+ mcpe.31.a:0 "...we could have been friends in different circumstances."
+ mcpe.31.b:0 "...anyone who disrespects me will pay, no matter their reason."
+ mcpe.31.c:0 "...I don't care what my inferiors think about me."
+
+ mcpegr.31.d.no_bully_fallback:0 "Another child has been spreading annoying rumors about [child.GetTitledFirstName|U], but [child.GetSheHe] told me that [child.GetSheHe] suspects they don't really mean any of the awful things they say. They probably just want attention, or they want to besmirch [child.GetHerHis] name because of envy.\n\n"
+ mcpegr.31.d.bully:0 "[bully.GetTitledFirstName|U] has been spreading annoying rumors about [child.GetTitledFirstName|U], but [child.GetFirstNameNoTooltip|U] told me that [child.GetSheHe] suspects [bully.GetFirstNameNoTooltip|U] doesn't really mean any of the awful things [bully.GetSheHe] says. [bully.GetFirstNameNoTooltip|U] probably just wants attention, or [bully.GetSheHe] wants to besmirch [child.GetFirstNamePossessiveNoTooltip|U] name because of envy.\n\n"
+ mcpegr.31.d_forgiving:0 "[child.GetFirstNameNoTooltip|U] says that this kind of behavior is to be pittied. In different circumstances, they could have been friends, so it does not make sense be be resentful over it."
+ mcpegr.31.d_vengeful:0 "[child.GetFirstNameNoTooltip|U] says that [child.GetSheHe] does not really care about the reason though. Anyone who disrespects [child.GetHerHim] will pay, no matter what."
+ mcpegr.31.d_arrogant:0 "[child.GetFirstNameNoTooltip|U] says that none of this matters in the end. After all, why should [child.GetSheHe] care about what [child.GetHerHis] inferiors think of [child.GetHerHim]?"
+ mcpegr.31.confirm_forgiving:0 "Indeed. What a waste."
+ mcpegr.31.confirm_vengeful:0 "That's right. Make them pay."
+ mcpegr.31.confirm_arrogant:0 "Yes, why care about them?"
+ mcpegr.31.forgiving_change:0 "You could have been friends!"
+ mcpegr.31.vengeful_change:0 "Let no one disrespect you!"
+ mcpegr.31.arrogant_change:0 "Why care about your inferiors?"
+
+
+
+ mcpe.32.t:0 "Little thief"
+ mcpe.32.d:0 "At the market, I spot a child clad in dirty rags hiding behind some crates, and then quickly stealing some food from a merchant when no one seems to pay attention. [guardian.GetTitledFirstName|U] seems to have noticed it too, and is now looking at me like [guardian.GetSheHe|U] expects me to say something..."
+ mcpe.32.a:0 "Tell the merchant who stole from them!"
+ mcpe.32.b:0 "Find the child and make them work for us."
+ mcpe.32.c:0 "Let's give this poor child some food!"
+
+ mcpegr.32.d:0 "At the market, I spot a child clad in dirty rags hiding behind some crates, and then quickly stealing some food from a merchant when no one seems to pay attention. [child.GetTitledFirstName|U] seems to have noticed it too, and says:\n\n"
+ mcpegr.32.d_honest:0 "\"Did you see this? This poor merchant needs to know who stole from them!\""
+ mcpegr.32.d_ambitious:0 "\"Did you see this? If we can find this child, we can make them work for us. Someone in need can be easily controlled!\""
+ mcpegr.32.d_generous:0 "\"Did you see this? We must give this poor child some food so they don't have to steal anymore!\""
+ mcpegr.32.confirm_honest:0 "Yes, the thief needs to be caught."
+ mcpegr.32.confirm_ambitious:0 "Good thinking, [child.GetFirstNameNoTooltip|U]."
+ mcpegr.32.confirm_generous:0 "Indeed, let us give."
+ mcpegr.32.honest_change:0 "The merchant needs to know who stole from them!"
+ mcpegr.32.ambitious_change:0 "Why don't we make this child work for us instead?"
+ mcpegr.32.generous_change:0 "No, let's give this poor child some food!"
+
+
+
+ mcpe.33.t:0 "Gardening"
+ mcpe.33.d:0 "I have recently taken an interest in gardening. I have seen a lot of beatiful flowers over the years, but when I tend to these plants myself, they just don't seem to want to grow. My tutors say that sometimes the plants just don't want to grow when you want them to, but to me it just seems like a waste of time. A boring waste of time. With a sigh, I think to myself..."
+ mcpe.33.a:0 "This is stupid. I don't have time for this."
+ mcpe.33.b:0 "There is no need to get worked up over this."
+ mcpe.33.c:0 "Gardening is a lot like ruling a realm in some ways."
+
+ mcpegr.33.d:0 "[child.GetTitledFirstName|U] has recently taken an interest in gardening, but [child.GetSheHe] does not appear to be very successful at it. The plants just don't grow when [child.GetFirstNameNoTooltip|U] wants them to, and [child.GetSheHe] seems incredibly bored. When I talk to [child.GetHerHim] about it, [child.GetSheHe] says:\n\n"
+ mcpegr.33.d_impatient:0 "\"This is stupid. I don't have time for this. Let me do something more exciting!\""
+ mcpegr.33.d_calm:0 "\"There is no need to get worked up over this. Not everyone can be immediately good at everything, including gardening.\""
+ mcpegr.33.d_content:0 "\"Gardening is a lot like ruling a realm in some ways. I don't know why people seek power and glory when they could just tend to their plants.\""
+ mcpegr.33.confirm_impatient:0 "Fine, do something else then."
+ mcpegr.33.confirm_calm:0 "Yes, there is no shame in this."
+ mcpegr.33.confirm_content:0 "Yes, be happy with what you have."
+ mcpegr.33.impatient_change:0 "You shoudn't waste your time with this."
+ mcpegr.33.calm_change:0 "There is no need to be upset over this."
+ mcpegr.33.content_change:0 "Do you see now how pointless striving for power is?"
+
+
+
+ mcpe.34.t:0 "Lunch break"
+ mcpe.34.d:0 "I have observed some of our soldiers training in the courtyard the whole morning. Around noon, they take a break in order to eat something and chat with each other. I wonder if I should go talk to them. What should I say? I will tell them..."
+ mcpe.34.a:0 "...some fantastic stories!"
+ mcpe.34.b:0 "...how much I admire them!"
+ mcpe.34.c:0 "...to stop slacking off!"
+
+ mcpegr.34.d:0 "[child.GetTitledFirstName|U] has spent the whole morning observing some of our soldiers training in the courtyard. Around noon, they take a break in order to eat something and chat with each other. [child.GetFirstNameNoTooltip|U] walks up to them and tells them...\n\n"
+ mcpegr.34.d_gregarious:0 "...some fantastic stories, and listens to some stories from the soldiers in turn. Everyone seems to be having a great time."
+ mcpegr.34.d_humble:0 "...how much [child.GetSheHe] admires them for bravely protecting everyone. The soldiers seem to appreciate the praise."
+ mcpegr.34.d_sadistic:0 "...to stop slacking off and get back to training. The soldiers seem to be upset by this."
+ mcpegr.34.confirm_gregarious:0 "Sharing stories is always fun."
+ mcpegr.34.confirm_humble:0 "It's good to have respect for the troops."
+ mcpegr.34.confirm_sadistic:0 "You heard [child.GetHerHim], back to training!"
+ mcpegr.34.gregarious_change:0 "[child.GetFirstNameNoTooltip|U] should really learn how to socialize!"
+ mcpegr.34.humble_change:0 "[child.GetFirstNameNoTooltip|U] should show respect for the troops!"
+ mcpegr.34.sadistic_change:0 "[child.GetFirstNameNoTooltip|U] should stop them from slacking off!"
+
+
+
+ mcpe.35.t:0 "Just a child"
+ mcpe.35.d:0 "I am often frustrated when adults still don't take me seriously because I am \"just a child\". After thinking about what I should do about it, I decide that..."
+ mcpe.35.a:0 "If I want to be treated like an adult, I have to act like one."
+ mcpe.35.b:0 "They will *have* to listen to me if I just yell loud enough!"
+ mcpe.35.c:0 "I shouldn't even worry about that."
+
+ mcpegr.35.d:0 "[child.GetTitledFirstName|U] is often frustrated when adulty don't take [child.GetHerHim] seriously because [child.GetSheHe] is \"just a child\". [child.GetSheHe|U] apparently has spent some time thinking about this, when [child.GetSheHe] tell me:\n\n"
+ mcpegr.35.d_temperate:0 "\"If I want to be treated like an adult, I have have to act like one.\""
+ mcpegr.35.d_stubborn:0 "\"If I just yell loud enough, then you will *have* to listen to me eventually!\""
+ mcpegr.35.d_patient:0 "\"I don't even have to worry about that. The problem will fix itself eventually.\""
+ mcpegr.35.confirm_temperate:0 "Yes, start acting like one."
+ mcpegr.35.confirm_stubborn:0 "Yes, indeed."
+ mcpegr.35.confirm_patient:0 "Indeed. No need to worry about it."
+ mcpegr.35.temperate_change:0 "You should start acting like an adult!"
+ mcpegr.35.stubborn_change:0 "You just need to yeel loud enough!"
+ mcpegr.35.patient_change:0 "You just need to wait a bit longer!"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ tradition_hd_mcpe_dummy_name:0 "MCPE Compatibility Parameters"
+ tradition_hd_mcpe_dummy_desc:0 "A hidden compatibility definition for the childhood personality event system."

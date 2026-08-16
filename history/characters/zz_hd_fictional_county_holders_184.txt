@@ -1,0 +1,6248 @@
+# Fictional lowborn county holders for the independent tribal counties at the 184 start.
+# Each character uses the culture and faith of the county capital province.
+
+# Bingzhou needs a valid 184 start holder. Ding Yuan is born in 195 and cannot
+# hold the kingdom in 184, so keep him as the historical later character.
+hd_bingzhou_holder_184 = {
+	name = "Jingxu_9759_865A"
+	culture = "han"
+	faith = "jingxue"
+	disallow_random_traits = no
+
+	145.1.1 = {
+		birth = yes
+	}
+	220.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_1509 = {
+	name = "qiang_diren_nn_1_a_wang_qi_li"
+	culture = "zhongqiang"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_1512 = {
+	name = "qiang_diren_nn_2_an_duo_er"
+	culture = "diren"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_1513 = {
+	name = "qiang_diren_nn_3_ba_ji"
+	culture = "zhongqiang"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_1515 = {
+	name = "qiang_diren_nn_4_bei_ji"
+	culture = "zhongqiang"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_1516 = {
+	name = "qiang_diren_nn_5_bi_da_ji"
+	culture = "diren"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_1519 = {
+	name = "qiang_diren_nn_6_bi_jia_ji"
+	culture = "diren"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_1520 = {
+	name = "qiang_diren_nn_7_bian_mu_xi"
+	culture = "diren"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_1522 = {
+	name = "qiang_diren_nn_8_bie_lu_mu"
+	culture = "diren"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_1528 = {
+	name = "qiang_diren_nn_9_bu_ji"
+	culture = "diren"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_1531 = {
+	name = "qiang_diren_nn_10_ce_ci_can_ge"
+	culture = "diren"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_1536 = {
+	name = "qiang_diren_nn_11_chan_xi"
+	culture = "zhongqiang"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_1538 = {
+	name = "qiang_diren_nn_12_chi_bu_su"
+	culture = "zhongqiang"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_1542 = {
+	name = "qiang_diren_nn_13_dai"
+	culture = "xianling"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_1545 = {
+	name = "qiang_diren_nn_14_dan_jin_luo_er_bu"
+	culture = "xianling"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_1546 = {
+	name = "qiang_diren_nn_15_de_ji"
+	culture = "xianling"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_1548 = {
+	name = "qiang_diren_nn_16_di_ji"
+	culture = "xianling"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_1572 = {
+	name = "mongolic_xianbei_nn_0"
+	culture = "xianbei"
+	faith = "xianbei_polytheism"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_166 = {
+	name = "dan"
+	culture = "jiaozhou"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_1746 = {
+	name = "qiang_diren_nn_17_duo_ji_bu_dan"
+	culture = "diren"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_1748 = {
+	name = "qiang_diren_nn_18_e_luo_san_ji"
+	culture = "diren"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_1749 = {
+	name = "qiang_diren_nn_19_e_ze"
+	culture = "diren"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_1755 = {
+	name = "qiang_diren_nn_20_er_ma_zong_ci"
+	culture = "diren"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_1757 = {
+	name = "qiang_diren_nn_21_gao_er_ji"
+	culture = "diren"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_1766 = {
+	name = "tai"
+	culture = "wuling"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_1771 = {
+	name = "yong"
+	culture = "wuling"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_1773 = {
+	name = "li"
+	culture = "jingzhou"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_1782 = {
+	name = "chang"
+	culture = "wuling"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_1785 = {
+	name = "zhong"
+	culture = "wuling"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_1818 = {
+	name = "fu"
+	culture = "jingzhou"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_1825 = {
+	name = "kao"
+	culture = "wuling"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_1879 = {
+	name = "fa"
+	culture = "jingzhou"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_1883 = {
+	name = "xian"
+	culture = "wuling"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_1884 = {
+	name = "dan1"
+	culture = "wuling"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_1887 = {
+	name = "du"
+	culture = "wuling"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_1888 = {
+	name = "zhenduo"
+	culture = "wuling"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_1889 = {
+	name = "dan"
+	culture = "wuling"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_193 = {
+	name = "tai"
+	culture = "jiuzhenyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_2139 = {
+	name = "feng"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_2142 = {
+	name = "yong"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_2148 = {
+	name = "yu"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_2322 = {
+	name = "zhao"
+	culture = "wuling"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_2616 = {
+	name = "mongolic_wuhuan_nn_1"
+	culture = "wuhuan"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_2617 = {
+	name = "mongolic_wuhuan_nn_2"
+	culture = "wuhuan"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_2629 = {
+	name = "mongolic_wuhuan_nn_3"
+	culture = "wuhuan"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_2743 = {
+	name = "turkic_xiongnu_nn_1"
+	culture = "xiongnu"
+	faith = "tengri_pagan"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_2748 = {
+	name = "turkic_xiongnu_nn_2"
+	culture = "xiongnu"
+	faith = "tengri_pagan"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_2749 = {
+	name = "turkic_xiongnu_nn_3"
+	culture = "xiongnu"
+	faith = "tengri_pagan"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_2824 = {
+	name = "xia"
+	culture = "banshun"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3027 = {
+	name = "qiang_diren_nn_22_ge"
+	culture = "zhongqiang"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3038 = {
+	name = "qiang_diren_nn_23_ge_li_sa"
+	culture = "zhongqiang"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3040 = {
+	name = "qiang_diren_nn_24_ge_lu_cong_bao"
+	culture = "zhongqiang"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3046 = {
+	name = "qiang_diren_nn_25_gu_jia_ji"
+	culture = "zhongqiang"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3048 = {
+	name = "qiang_diren_nn_26_gu_ni_mi"
+	culture = "zhongqiang"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3049 = {
+	name = "qiang_diren_nn_27_he_bu_ji"
+	culture = "zhongqiang"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3051 = {
+	name = "qiang_diren_nn_28_he_ma_ji"
+	culture = "zhongqiang"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3057 = {
+	name = "qiang_diren_nn_29_he"
+	culture = "zhongqiang"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3058 = {
+	name = "qiang_diren_nn_30_he_gu_e_ji"
+	culture = "zhongqiang"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3061 = {
+	name = "qiang_diren_nn_31_heng"
+	culture = "zhongqiang"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3062 = {
+	name = "qiang_diren_nn_32_hu"
+	culture = "shaodang"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3089 = {
+	name = "mongolic_xianbei_nn_1"
+	culture = "xianbei"
+	faith = "xianbei_polytheism"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3102 = {
+	name = "man"
+	culture = "banshun"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3112 = {
+	name = "yihu"
+	culture = "wuling"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3122 = {
+	name = "qiang_diren_nn_33_hua_ji"
+	culture = "diren"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3133 = {
+	name = "qiang_diren_nn_34_jie_ge_ji"
+	culture = "diren"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3134 = {
+	name = "qiang_diren_nn_35_ke_er_ji"
+	culture = "diren"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3136 = {
+	name = "qiang_diren_nn_36_ku_ji"
+	culture = "diren"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3138 = {
+	name = "qiang_diren_nn_37_la_ji"
+	culture = "diren"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3141 = {
+	name = "qiang_diren_nn_38_lang_ka"
+	culture = "diren"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3144 = {
+	name = "jian"
+	culture = "ranpang"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3207 = {
+	name = "pifang"
+	culture = "banshun"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3259 = {
+	name = "xie"
+	culture = "qiongdu"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3260 = {
+	name = "hu"
+	culture = "qiongdu"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3284 = {
+	name = "jing"
+	culture = "yizhou"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3314 = {
+	name = "you"
+	culture = "banshun"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3319 = {
+	name = "gongsheng"
+	culture = "banshun"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3479 = {
+	name = "mongolic_xianbei_nn_2"
+	culture = "xianbei"
+	faith = "xianbei_polytheism"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3480 = {
+	name = "mongolic_wuhuan_nn_4"
+	culture = "wuhuan"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3482 = {
+	name = "mongolic_xianbei_nn_3"
+	culture = "xianbei"
+	faith = "xianbei_polytheism"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3484 = {
+	name = "mongolic_wuhuan_nn_5"
+	culture = "wuhuan"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3492 = {
+	name = "mongolic_xianbei_nn_4"
+	culture = "xianbei"
+	faith = "xianbei_polytheism"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3498 = {
+	name = "mongolic_wuhuan_nn_6"
+	culture = "wuhuan"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3501 = {
+	name = "mongolic_wuhuan_nn_7"
+	culture = "wuhuan"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3503 = {
+	name = "mongolic_wuhuan_nn_8"
+	culture = "wuhuan"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3504 = {
+	name = "mongolic_wuhuan_nn_9"
+	culture = "wuhuan"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3579 = {
+	name = "turkic_xiongnu_nn_4"
+	culture = "xiongnu"
+	faith = "tengri_pagan"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3607 = {
+	name = "qiang_diren_nn_39_liang"
+	culture = "diren"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3609 = {
+	name = "qiang_diren_nn_40_lu_wa_nuo_ri"
+	culture = "diren"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3615 = {
+	name = "qiang_diren_nn_41_lu_ta_er"
+	culture = "diren"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3635 = {
+	name = "qiang_diren_nn_42_lu_fo_ji"
+	culture = "diren"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3637 = {
+	name = "wang"
+	culture = "wuling"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3642 = {
+	name = "yijiu"
+	culture = "wuling"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3643 = {
+	name = "bofu"
+	culture = "wuling"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3669 = {
+	name = "shangfu"
+	culture = "wuling"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3670 = {
+	name = "renchen"
+	culture = "wuling"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3688 = {
+	name = "pijiang"
+	culture = "banshun"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3699 = {
+	name = "wugui_personal_name"
+	culture = "banshun"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3701 = {
+	name = "qian"
+	culture = "banshun"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3705 = {
+	name = "ning"
+	culture = "ranpang"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3711 = {
+	name = "lin"
+	culture = "ranpang"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3713 = {
+	name = "gai"
+	culture = "ranpang"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3724 = {
+	name = "shang"
+	culture = "ranpang"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3738 = {
+	name = "ji"
+	culture = "wuling"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3742 = {
+	name = "de"
+	culture = "wuling"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3744 = {
+	name = "cimu"
+	culture = "wuling"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3761 = {
+	name = "mongolic_wuhuan_nn_10"
+	culture = "wuhuan"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3763 = {
+	name = "mongolic_wuhuan_nn_11"
+	culture = "wuhuan"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3766 = {
+	name = "mongolic_wuhuan_nn_12"
+	culture = "wuhuan"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3771 = {
+	name = "mongolic_wuhuan_nn_13"
+	culture = "wuhuan"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3775 = {
+	name = "mongolic_xianbei_nn_5"
+	culture = "xianbei"
+	faith = "xianbei_polytheism"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3777 = {
+	name = "mongolic_wuhuan_nn_14"
+	culture = "wuhuan"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3778 = {
+	name = "mongolic_xianbei_nn_6"
+	culture = "xianbei"
+	faith = "xianbei_polytheism"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3787 = {
+	name = "mongolic_wuhuan_nn_15"
+	culture = "wuhuan"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3789 = {
+	name = "mongolic_wuhuan_nn_16"
+	culture = "wuhuan"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3795 = {
+	name = "mongolic_wuhuan_nn_17"
+	culture = "wuhuan"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3801 = {
+	name = "mongolic_xianbei_nn_7"
+	culture = "xianbei"
+	faith = "xianbei_polytheism"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3803 = {
+	name = "mongolic_xianbei_nn_8"
+	culture = "xianbei"
+	faith = "xianbei_polytheism"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3806 = {
+	name = "mongolic_wuhuan_nn_18"
+	culture = "wuhuan"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3809 = {
+	name = "mongolic_xianbei_nn_9"
+	culture = "xianbei"
+	faith = "xianbei_polytheism"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3813 = {
+	name = "mongolic_wuhuan_nn_19"
+	culture = "wuhuan"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3819 = {
+	name = "mongolic_wuhuan_nn_20"
+	culture = "wuhuan"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3826 = {
+	name = "mongolic_wuhuan_nn_21"
+	culture = "wuhuan"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3827 = {
+	name = "mongolic_xianbei_nn_10"
+	culture = "xianbei"
+	faith = "xianbei_polytheism"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3828 = {
+	name = "mongolic_xianbei_nn_11"
+	culture = "xianbei"
+	faith = "xianbei_polytheism"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3830 = {
+	name = "mongolic_xianbei_nn_12"
+	culture = "xianbei"
+	faith = "xianbei_polytheism"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3837 = {
+	name = "mongolic_xianbei_nn_13"
+	culture = "xianbei"
+	faith = "xianbei_polytheism"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_4401 = {
+	name = "buchen"
+	culture = "banshun"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_4440 = {
+	name = "shan"
+	culture = "banshun"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_4722 = {
+	name = "turkic_xiongnu_nn_5"
+	culture = "xiongnu"
+	faith = "tengri_pagan"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_4751 = {
+	name = "shou"
+	culture = "kunming"
+	faith = "wugui"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_4755 = {
+	name = "wuji"
+	culture = "luoyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_4756 = {
+	name = "chi"
+	culture = "zhuyai"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_4777 = {
+	name = "tuo"
+	culture = "wuhu"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_4787 = {
+	name = "gou"
+	culture = "yelang"
+	faith = "wugui"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_4788 = {
+	name = "hmongic_nanman_nn_1"
+	culture = "nanman"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_4790 = {
+	name = "lufu"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_4791 = {
+	name = "dechen"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_4793 = {
+	name = "nian"
+	culture = "yangzhou"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_4803 = {
+	name = "boqing"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_4806 = {
+	name = "qiu"
+	culture = "yangzhou"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_4812 = {
+	name = "xi"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_4813 = {
+	name = "zai"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_4820 = {
+	name = "fei"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_4823 = {
+	name = "zhuo"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_4838 = {
+	name = "ju"
+	culture = "yangzhou"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_4843 = {
+	name = "bi"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_4846 = {
+	name = "ao"
+	culture = "yangzhou"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_4863 = {
+	name = "tuo1"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_4865 = {
+	name = "boyu"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_4870 = {
+	name = "xi1"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_4874 = {
+	name = "chen"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_4875 = {
+	name = "fuhuang"
+	culture = "yangzhou"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_4876 = {
+	name = "xigu"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_4882 = {
+	name = "yun"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_4887 = {
+	name = "wei"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_4888 = {
+	name = "gui"
+	culture = "yangzhou"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_4891 = {
+	name = "gong"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_4896 = {
+	name = "e"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_4898 = {
+	name = "heji"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_4899 = {
+	name = "xingfu"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_4912 = {
+	name = "zhongzi"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_4917 = {
+	name = "ji1"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_4922 = {
+	name = "kou"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_4948 = {
+	name = "da"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_4953 = {
+	name = "qiu1"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_4954 = {
+	name = "jiu"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_4957 = {
+	name = "gao"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5005 = {
+	name = "guishou"
+	culture = "wuling"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5010 = {
+	name = "xi2"
+	culture = "wuling"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5031 = {
+	name = "hu1"
+	culture = "wuling"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5032 = {
+	name = "chong"
+	culture = "wuling"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5036 = {
+	name = "qitao"
+	culture = "wuling"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5037 = {
+	name = "wan"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5039 = {
+	name = "wukui"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5058 = {
+	name = "hao"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5063 = {
+	name = "gong1"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5067 = {
+	name = "kuan"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5072 = {
+	name = "hu2"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5076 = {
+	name = "mubo"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5102 = {
+	name = "wo"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5119 = {
+	name = "ye"
+	culture = "wuhu"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5122 = {
+	name = "xun"
+	culture = "wuhu"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5127 = {
+	name = "lian"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5131 = {
+	name = "cu"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5133 = {
+	name = "xiao"
+	culture = "wuhu"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5136 = {
+	name = "ling"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5149 = {
+	name = "ping"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5152 = {
+	name = "lan"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5153 = {
+	name = "mi"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5154 = {
+	name = "lang"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5178 = {
+	name = "bian"
+	culture = "luoyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5193 = {
+	name = "ruoshan"
+	culture = "zhuyai"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5194 = {
+	name = "dan2"
+	culture = "daner"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5195 = {
+	name = "jia"
+	culture = "zhuyai"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5196 = {
+	name = "heigong"
+	culture = "zhuyai"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5217 = {
+	name = "tong"
+	culture = "zhuyai"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5248 = {
+	name = "zibang"
+	culture = "wuhu"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5254 = {
+	name = "li"
+	culture = "wuhu"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5255 = {
+	name = "shen"
+	culture = "wuhu"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5257 = {
+	name = "xing"
+	culture = "wuhu"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5263 = {
+	name = "tui"
+	culture = "wuhu"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5265 = {
+	name = "wu1"
+	culture = "wuhu"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5270 = {
+	name = "chou"
+	culture = "wuhu"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5276 = {
+	name = "song1"
+	culture = "wuhu"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5283 = {
+	name = "jiang"
+	culture = "luoyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5287 = {
+	name = "jia1"
+	culture = "luoyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5290 = {
+	name = "hmongic_nanman_nn_2"
+	culture = "nanman"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5291 = {
+	name = "xian1"
+	culture = "yelang"
+	faith = "wugui"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5294 = {
+	name = "hmongic_nanman_nn_3"
+	culture = "nanman"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5295 = {
+	name = "fen"
+	culture = "yelang"
+	faith = "wugui"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5297 = {
+	name = "tun"
+	culture = "yelang"
+	faith = "wugui"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5299 = {
+	name = "yan1"
+	culture = "yelang"
+	faith = "wugui"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5302 = {
+	name = "shu"
+	culture = "wuhu"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5313 = {
+	name = "chou1"
+	culture = "dian"
+	faith = "wugui"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5314 = {
+	name = "hmongic_nanman_nn_4"
+	culture = "nanman"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5319 = {
+	name = "chen1"
+	culture = "wuhu"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5322 = {
+	name = "su"
+	culture = "dian"
+	faith = "wugui"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5323 = {
+	name = "hmongic_nanman_nn_5"
+	culture = "nanman"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5328 = {
+	name = "yiru"
+	culture = "dian"
+	faith = "wugui"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5329 = {
+	name = "bang"
+	culture = "dian"
+	faith = "wugui"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5330 = {
+	name = "mo"
+	culture = "dian"
+	faith = "wugui"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5332 = {
+	name = "hmongic_nanman_nn_6"
+	culture = "nanman"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5333 = {
+	name = "di"
+	culture = "kunming"
+	faith = "wugui"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5336 = {
+	name = "qiu2"
+	culture = "kunming"
+	faith = "wugui"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5340 = {
+	name = "huo"
+	culture = "yelang"
+	faith = "wugui"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5347 = {
+	name = "hmongic_nanman_nn_7"
+	culture = "nanman"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5364 = {
+	name = "ming"
+	culture = "yelang"
+	faith = "wugui"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5372 = {
+	name = "hmongic_nanman_nn_8"
+	culture = "nanman"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5380 = {
+	name = "zhuer"
+	culture = "dian"
+	faith = "wugui"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5381 = {
+	name = "wuzhi"
+	culture = "zuodu"
+	faith = "wugui"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5395 = {
+	name = "xiaobai"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5419 = {
+	name = "zhao1"
+	culture = "yangzhou"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5432 = {
+	name = "pang"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5436 = {
+	name = "she"
+	culture = "wuling"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5460 = {
+	name = "shangren"
+	culture = "wuling"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5462 = {
+	name = "yuan"
+	culture = "zhuyai"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5467 = {
+	name = "wuye"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5479 = {
+	name = "huan"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5484 = {
+	name = "guang"
+	culture = "wuling"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5496 = {
+	name = "chujiu"
+	culture = "wuhu"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5507 = {
+	name = "tu"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5531 = {
+	name = "yansheng"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5537 = {
+	name = "ren"
+	culture = "gufu"
+	faith = "wugui"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5538 = {
+	name = "ao1"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5551 = {
+	name = "dai"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5561 = {
+	name = "zhi"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5570 = {
+	name = "min"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5571 = {
+	name = "xuwu"
+	culture = "wuhu"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5583 = {
+	name = "wuyu"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5593 = {
+	name = "kai"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5596 = {
+	name = "qi1"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5607 = {
+	name = "heng"
+	culture = "wuhu"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5622 = {
+	name = "pan"
+	culture = "yangzhou"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5624 = {
+	name = "bai"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5634 = {
+	name = "he"
+	culture = "luoyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5641 = {
+	name = "yan2"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5650 = {
+	name = "yinqi"
+	culture = "wuhu"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5653 = {
+	name = "di1"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5654 = {
+	name = "fazhang"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5655 = {
+	name = "jian1"
+	culture = "zuodu"
+	faith = "wugui"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5659 = {
+	name = "dan3"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5667 = {
+	name = "jia2"
+	culture = "yelang"
+	faith = "wugui"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5679 = {
+	name = "shi"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5683 = {
+	name = "du1"
+	culture = "yelang"
+	faith = "wugui"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5691 = {
+	name = "rong"
+	culture = "yangzhou"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5699 = {
+	name = "guang1"
+	culture = "kunming"
+	faith = "wugui"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5708 = {
+	name = "heng1"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5711 = {
+	name = "hmongic_nanman_nn_9"
+	culture = "nanman"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5725 = {
+	name = "chen2"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5727 = {
+	name = "bi1"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5731 = {
+	name = "liang"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5740 = {
+	name = "qiao"
+	culture = "wuhu"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5752 = {
+	name = "heijiang"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5761 = {
+	name = "ji2"
+	culture = "jiaozhou"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5768 = {
+	name = "chang"
+	culture = "yangzhou"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5773 = {
+	name = "chu1"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5784 = {
+	name = "zaikong"
+	culture = "wuhu"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5793 = {
+	name = "qi2"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5796 = {
+	name = "buku"
+	culture = "wuhu"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5808 = {
+	name = "ju1"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5810 = {
+	name = "liu"
+	culture = "jiuzhenyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5830 = {
+	name = "qingjie"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5837 = {
+	name = "huangpu"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5846 = {
+	name = "chafu"
+	culture = "jiaozhou"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5849 = {
+	name = "huiyu"
+	culture = "luoyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5855 = {
+	name = "gaoyu"
+	culture = "yangzhou"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5863 = {
+	name = "yayu"
+	culture = "luoyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5867 = {
+	name = "yucheng"
+	culture = "wuling"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5898 = {
+	name = "tuo2"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5907 = {
+	name = "hu3"
+	culture = "wuhu"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5908 = {
+	name = "huqi"
+	culture = "yangzhou"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5910 = {
+	name = "tui1"
+	culture = "yelang"
+	faith = "wugui"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5926 = {
+	name = "zheng"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5942 = {
+	name = "dai1"
+	culture = "gufu"
+	faith = "wugui"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5980 = {
+	name = "ban"
+	culture = "zuodu"
+	faith = "wugui"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5992 = {
+	name = "yu1"
+	culture = "wuhu"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5994 = {
+	name = "yu2"
+	culture = "zhuyai"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5995 = {
+	name = "yu3"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5996 = {
+	name = "yi1"
+	culture = "yangzhou"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6002 = {
+	name = "xiexin"
+	culture = "kunming"
+	faith = "wugui"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6009 = {
+	name = "gui1"
+	culture = "yelang"
+	faith = "wugui"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6014 = {
+	name = "meng"
+	culture = "wuling"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6016 = {
+	name = "chao"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6021 = {
+	name = "ren1"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6024 = {
+	name = "jie"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6038 = {
+	name = "quji"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6039 = {
+	name = "wei1"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6043 = {
+	name = "jiao"
+	culture = "luoyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6048 = {
+	name = "xi3"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6053 = {
+	name = "ding"
+	culture = "yangzhou"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6060 = {
+	name = "yan3"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6065 = {
+	name = "ningzu"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6072 = {
+	name = "furen"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6076 = {
+	name = "fu1"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6088 = {
+	name = "situ"
+	culture = "yelang"
+	faith = "wugui"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6098 = {
+	name = "su1"
+	culture = "jiuzhenyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6104 = {
+	name = "ji3"
+	culture = "wuhu"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6105 = {
+	name = "feiwang"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6106 = {
+	name = "shang1"
+	culture = "luoyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6120 = {
+	name = "bo"
+	culture = "wuhu"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6124 = {
+	name = "ba"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6133 = {
+	name = "que"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6134 = {
+	name = "xi4"
+	culture = "wuhu"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6136 = {
+	name = "xiao1"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6151 = {
+	name = "min1"
+	culture = "jiuzhenyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6154 = {
+	name = "chengshi"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6157 = {
+	name = "shan1"
+	culture = "jiaozhou"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6162 = {
+	name = "guizhu"
+	culture = "kunming"
+	faith = "wugui"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6163 = {
+	name = "xiqi"
+	culture = "wuhu"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6173 = {
+	name = "zhuo1"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6177 = {
+	name = "yiwu"
+	culture = "yelang"
+	faith = "wugui"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6185 = {
+	name = "yu4"
+	culture = "yelang"
+	faith = "wugui"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6191 = {
+	name = "chonger"
+	culture = "wuhu"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6194 = {
+	name = "huan1"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6199 = {
+	name = "yigao"
+	culture = "jingzhou"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6203 = {
+	name = "heitun"
+	culture = "luoyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6204 = {
+	name = "ju2"
+	culture = "yelang"
+	faith = "wugui"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6210 = {
+	name = "nou"
+	culture = "yelang"
+	faith = "wugui"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6212 = {
+	name = "shouman"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6213 = {
+	name = "zhong"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6235 = {
+	name = "biao"
+	culture = "yangzhou"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6244 = {
+	name = "biao1"
+	culture = "jiuzhenyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6248 = {
+	name = "qiji"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6253 = {
+	name = "zao"
+	culture = "yangzhou"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6254 = {
+	name = "liu1"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6269 = {
+	name = "zhi1"
+	culture = "yangzhou"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6281 = {
+	name = "zhi2"
+	culture = "wuling"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6290 = {
+	name = "xing1"
+	culture = "zhuyai"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6291 = {
+	name = "jujiu"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6299 = {
+	name = "quliang"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6307 = {
+	name = "wan2"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6311 = {
+	name = "bing"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6315 = {
+	name = "cheng"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6318 = {
+	name = "zhi3"
+	culture = "luoyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6320 = {
+	name = "xie1"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6336 = {
+	name = "liao"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6337 = {
+	name = "fu"
+	culture = "wuhu"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6349 = {
+	name = "ju3"
+	culture = "yangzhou"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6359 = {
+	name = "an"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6372 = {
+	name = "sheng1"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6380 = {
+	name = "an1"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6381 = {
+	name = "qi3"
+	culture = "luoyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6388 = {
+	name = "qi4"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6393 = {
+	name = "wo1"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6402 = {
+	name = "li1"
+	culture = "yelang"
+	faith = "wugui"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6403 = {
+	name = "ji4"
+	culture = "wuhu"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6412 = {
+	name = "zhi4"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6424 = {
+	name = "lu1"
+	culture = "wuling"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6428 = {
+	name = "yu5"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6433 = {
+	name = "hang"
+	culture = "jiuzhenyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6434 = {
+	name = "fenggong"
+	culture = "wuhu"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6436 = {
+	name = "ziling"
+	culture = "jiaozhou"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6439 = {
+	name = "wucheng"
+	culture = "jingzhou"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6443 = {
+	name = "huyong"
+	culture = "luoyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6444 = {
+	name = "heng2"
+	culture = "wuhu"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6457 = {
+	name = "fang"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6466 = {
+	name = "zhang"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6470 = {
+	name = "mao"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6471 = {
+	name = "mao1"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6477 = {
+	name = "xuan"
+	culture = "zhuyai"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6486 = {
+	name = "hmongic_nanman_nn_10"
+	culture = "nanman"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6487 = {
+	name = "xuan1"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6489 = {
+	name = "xuan2"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6493 = {
+	name = "sheng2"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6498 = {
+	name = "hao1"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6507 = {
+	name = "zheng1"
+	culture = "luoyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6516 = {
+	name = "de1"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6518 = {
+	name = "qi5"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6525 = {
+	name = "cu1"
+	culture = "yelang"
+	faith = "wugui"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6549 = {
+	name = "nen"
+	culture = "wuhu"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6552 = {
+	name = "chou2"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6564 = {
+	name = "chou3"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6568 = {
+	name = "luo"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6569 = {
+	name = "shi1"
+	culture = "luoyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6579 = {
+	name = "xiu"
+	culture = "zuodu"
+	faith = "wugui"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6587 = {
+	name = "xiu1"
+	culture = "luoyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6593 = {
+	name = "xiu2"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6610 = {
+	name = "dian"
+	culture = "zhuyai"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6617 = {
+	name = "yu6"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6625 = {
+	name = "yang"
+	culture = "jiuzhenyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6628 = {
+	name = "zhouyu"
+	culture = "wuhu"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6643 = {
+	name = "jin1"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6657 = {
+	name = "shuo"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6658 = {
+	name = "qianmou"
+	culture = "kunming"
+	faith = "wugui"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6661 = {
+	name = "hui"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6693 = {
+	name = "chi1"
+	culture = "jiuzhenyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6711 = {
+	name = "zang"
+	culture = "jiuzhenyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6713 = {
+	name = "kan"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6715 = {
+	name = "qiu3"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6731 = {
+	name = "zhe"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6742 = {
+	name = "kuaikui"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6762 = {
+	name = "ban1"
+	culture = "wuling"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6774 = {
+	name = "qi6"
+	culture = "luoyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6779 = {
+	name = "qian1"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6787 = {
+	name = "fu2"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6802 = {
+	name = "xun1"
+	culture = "wuhu"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6811 = {
+	name = "bushi"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6812 = {
+	name = "jing1"
+	culture = "yangzhou"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6824 = {
+	name = "gongqi"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6827 = {
+	name = "jiao1"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6842 = {
+	name = "dan4"
+	culture = "jiaozhou"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6850 = {
+	name = "huisun"
+	culture = "wuhu"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6860 = {
+	name = "er"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_7006 = {
+	name = "hmongic_nanman_nn_11"
+	culture = "nanman"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5210 = {
+	name = "dan"
+	culture = "wuhu"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5208 = {
+	name = "tai"
+	culture = "wuhu"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5228 = {
+	name = "yong"
+	culture = "wuhu"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5203 = {
+	name = "li"
+	culture = "nanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5884 = {
+	name = "chang"
+	culture = "zhuyai"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5205 = {
+	name = "zhong"
+	culture = "zhuyai"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5163 = {
+	name = "fu"
+	culture = "zhuyai"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5167 = {
+	name = "kao"
+	culture = "zhuyai"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5186 = {
+	name = "dan"
+	culture = "zhuyai"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6328 = {
+	name = "tai"
+	culture = "zhuyai"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3468 = {
+	name = "mongolic_xianbei_nn_0"
+	culture = "xianbei"
+	faith = "xianbei_polytheism"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3483 = {
+	name = "Bo_dang"
+	culture = "goguryeo"
+	faith = "yemaek_shamanism"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3850 = {
+	name = "mongolic_wuhuan_nn_1"
+	culture = "wuhuan"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3448 = {
+	name = "Bo_go"
+	culture = "goguryeo"
+	faith = "yemaek_shamanism"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5353 = {
+	name = "hmongic_nanman_nn_1"
+	culture = "nanman"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5354 = {
+	name = "hmongic_nanman_nn_2"
+	culture = "nanman"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5369 = {
+	name = "hmongic_nanman_nn_3"
+	culture = "nanman"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5356 = {
+	name = "hmongic_nanman_nn_4"
+	culture = "nanman"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5351 = {
+	name = "hmongic_nanman_nn_5"
+	culture = "nanman"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_3662 = {
+	name = "yong"
+	culture = "wuling"
+	faith = "guiwu"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_6683 = {
+	name = "chang"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_fictional_holder_c_uuii_p_5615 = {
+	name = "zhong"
+	culture = "shanyue"
+	faith = "baiyuefanlin"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}

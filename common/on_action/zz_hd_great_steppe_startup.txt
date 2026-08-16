@@ -1,0 +1,55 @@
+﻿# The total conversion shadows vanilla common/on_action/game_start.txt.
+# Restore only the Great Steppe startup compatibility that is safe on this map.
+on_game_start = {
+	on_actions = {
+		hd_great_steppe_game_start_compat
+	}
+}
+
+on_game_start_after_lobby = {
+	on_actions = {
+		hd_great_steppe_after_lobby_compat
+	}
+}
+
+hd_great_steppe_game_start_compat = {
+	effect = {
+		situation:the_great_steppe ?= {
+			every_situation_participant = {
+				recalculate_participant_group = situation:the_great_steppe
+			}
+			every_participant_group = {
+				every_situation_group_participant = {
+					set_variable = {
+						name = steppe_game_start_var
+						years = 1
+					}
+				}
+			}
+		}
+	}
+}
+
+hd_great_steppe_after_lobby_compat = {
+	effect = {
+		situation:the_great_steppe ?= {
+			every_situation_participant = {
+				recalculate_participant_group = situation:the_great_steppe
+			}
+			every_participant_group = {
+				every_situation_group_participant = {
+					set_variable = {
+						name = steppe_game_start_var
+						years = 1
+					}
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = situation_the_great_steppe_toggle_off
+				}
+				end_situation = yes
+			}
+		}
+	}
+}

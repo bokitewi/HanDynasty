@@ -1,0 +1,181 @@
+﻿###DECISIONS LIST###
+
+##
+#Become Genghis Khan
+#Enforce Bactrian Supremacy
+##
+
+
+##########
+#Become Genghis Khan
+# by Petter Vilberg
+### Become Greatest of Khans ###
+become_greatest_of_khans_decision = {
+	is_shown = { always = no }
+	is_valid = { always = no }
+	effect = { }
+	ai_potential = { always = no }
+}
+establish_bactrian_supremacy_decision = {
+	is_shown = { always = no }
+	is_valid = { always = no }
+	effect = { }
+	ai_potential = { always = no }
+}
+establish_yamagate_in_samarkand_decision = {
+	is_shown = { always = no }
+	is_valid = { always = no }
+	effect = { }
+	ai_potential = { always = no }
+}
+break_with_the_old_ways_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
+	}
+	desc = break_with_the_old_ways_decision_desc
+	selection_tooltip = break_with_the_old_ways_decision_tooltip
+	decision_group_type = major
+
+	ai_check_interval_by_tier = {
+		barony = 0
+		county = 0
+		duchy = 0
+		kingdom = 120
+		empire = 120
+		hegemony = 120
+	}
+
+	is_shown = {
+		is_ruler = yes
+		is_playable_character = yes
+		faith = faith:kabarism
+		NOT = {
+			faith:kabarism = {
+				has_variable = old_ways_been_broken
+			}
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+		top_liege = this
+		highest_held_title_tier > 3 #Only Kings and Emperors
+		custom_tooltip = {
+			text = hof_exists_tt
+			faith = { exists = religious_head }
+		}
+		trigger_if = {
+			limit = {
+				faith = { exists = religious_head }
+			}
+			is_liege_or_above_of = root.faith.religious_head
+		}
+	}
+
+	widget = {
+		gui = "decision_view_widget_option_list_generic"
+		controller = decision_option_list_controller
+		decision_to_second_step_button = "CHOOSE_REFORMATION_TYPE"
+		show_from_start = yes
+
+		item = { # Righteous: Chosen People
+			value = bwow_no_changes
+			current_description = bwow_no_changes_desc
+			localization = bwow_chosen_people
+			icon = "gfx/interface/icons/faith/tengri.dds"
+			ai_chance = {
+				value = 10
+				add = ai_sociability
+				add = ai_compassion
+			}
+		}
+
+		item = { # Pluralist
+			value = bwow_chosen_people
+			current_description = bwow_chosen_people_desc
+			localization = bwow_no_changes
+			icon = "gfx/interface/icons/icon_culture.dds"
+			ai_chance = {
+				value = 100
+				add = ai_zeal
+			}
+		}
+
+		item = { # Righteous: Esotericism
+			value = bwow_esotericism
+			current_description = bwow_esotericism_desc
+			localization = bwow_esotericism
+			icon = "gfx/interface/icons/traits/mystic_base.dds"
+			ai_chance = {
+				value = 100
+				add = {
+					subtract = ai_rationality
+				}
+			}
+		}
+
+		item = { # Fundementalist
+			value = bwow_fundementalist
+			current_description = bwow_fundementalist_desc
+			localization = bwow_fundementalist
+			icon = "gfx/interface/icons/icon_skill_martial.dds"
+			ai_chance = {
+				value = 0
+				add = ai_zeal
+				add = ai_vengefulness
+				add = {
+					subtract = ai_sociability
+					subtract = ai_compassion
+				}
+			}
+		}
+	}
+
+	effect = {
+		trigger_event = religious_decision.0501
+		show_as_tooltip = {
+			if = {
+				limit = {
+					scope:bwow_no_changes = yes
+				}
+				root.faith = { remove_doctrine = unreformed_faith_doctrine }
+			}
+			if = {
+				limit = {
+					scope:bwow_chosen_people = yes
+				}
+				root.faith = { break_with_old_ways_become_syncretic = yes }
+			}
+			if = {
+				limit = {
+					scope:bwow_esotericism = yes
+				}
+				root.faith = { break_with_old_ways_become_righteous = yes }
+			}
+			if = {
+				limit = {
+					scope:bwow_fundementalist = yes
+				}
+				root.faith = { break_with_old_ways_become_fundamentalist = yes }
+			}
+		}
+		hidden_effect = {
+			faith:kabarism = {
+				set_variable = old_ways_been_broken
+			}
+		}
+	}
+	
+	ai_potential = {
+		faith = faith:kabarism
+	}
+
+	ai_will_do = {
+		base = 100
+		modifier = {
+			factor = 0
+			has_trait = cynical
+		}
+	}
+}

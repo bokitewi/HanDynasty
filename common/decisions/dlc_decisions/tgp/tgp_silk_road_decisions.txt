@@ -1,0 +1,379 @@
+﻿# Four-market adaptation of the vanilla Silk Road travel decision.
+visit_silk_road_market_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/tgp_silk_road.dds"
+	}
+	desc = visit_silk_road_market_decision_desc
+	selection_tooltip = visit_silk_road_market_decision_tooltip
+
+	cooldown = { years = 10 }
+
+	ai_check_interval_by_tier = {
+		barony = 0
+		county = 0
+		duchy = 240
+		kingdom = 36
+		empire = 36
+		hegemony = 36
+	}
+
+	is_shown = {
+		OR = {
+			is_ai = no
+			any_character_situation = { situation_type = silk_road_situation }
+		}
+		has_tgp_dlc_trigger = yes
+		is_playable_character = yes
+		OR = {
+			silk_road_valid_market_to_visit_trigger = { SUB_REGION = eastern_section }
+			silk_road_valid_market_to_visit_trigger = { SUB_REGION = middle_northern_route }
+			silk_road_valid_market_to_visit_trigger = { SUB_REGION = middle_southern_route }
+			silk_road_valid_market_to_visit_trigger = { SUB_REGION = western_section }
+		}
+	}
+
+	is_valid = {
+		is_adult = yes
+		gold >= major_gold_value
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+		is_playable_character = yes
+		is_incapable = no
+	}
+
+	widget = {
+		gui = "decision_view_widget_option_list_generic"
+		controller = decision_option_list_controller
+		decision_to_second_step_button = "THE_SILK_ROAD_AWAITS"
+		show_from_start = yes
+
+		item = { # Chang'an
+			value = c_uuii_p_867
+			is_shown = { always = yes }
+			is_valid = {
+				custom_tooltip = {
+					text = no_building_at_silk_road_market_desc
+					title:c_uuii_p_867 = {
+						any_county_province = { has_building_with_flag = silk_road_node }
+					}
+				}
+				custom_tooltip = {
+					text = no_available_innovation_at_silk_road_market_desc
+					silk_road_valid_market_to_visit_trigger = { SUB_REGION = eastern_section }
+				}
+			}
+			localization = visit_silk_road_market_decision_changan
+			icon = "gfx/interface/icons/travel/icon_travel_silk_road_marketplace.dds"
+			ai_chance = {
+				value = 1
+				if = {
+					limit = {
+						root.location = {
+							squared_distance = {
+								target = title:c_uuii_p_867.title_province
+								value <= squared_distance_small
+							}
+						}
+					}
+					multiply = 10
+				}
+				if = {
+					limit = {
+						root.location = {
+							squared_distance = {
+								target = title:c_uuii_p_867.title_province
+								value <= squared_distance_large
+							}
+						}
+					}
+					multiply = 2
+				}
+				if = {
+					limit = {
+						root.location = {
+							squared_distance = {
+								target = title:c_uuii_p_867.title_province
+								value > squared_distance_huge
+							}
+						}
+					}
+					multiply = 0.1
+				}
+			}
+		}
+
+		item = { # Loulan
+			value = c_uuii_p_6454
+			is_shown = { always = yes }
+			is_valid = {
+				custom_tooltip = {
+					text = no_building_at_silk_road_market_desc
+					title:c_uuii_p_6454 = {
+						any_county_province = { has_building_with_flag = silk_road_node }
+					}
+				}
+				custom_tooltip = {
+					text = no_available_innovation_at_silk_road_market_desc
+					silk_road_valid_market_to_visit_trigger = { SUB_REGION = middle_northern_route }
+				}
+			}
+			localization = visit_silk_road_market_decision_loulan
+			icon = "gfx/interface/icons/travel/icon_travel_silk_road_marketplace.dds"
+			ai_chance = {
+				value = 1
+				if = {
+					limit = {
+						root.location = {
+							squared_distance = {
+								target = title:c_uuii_p_6454.title_province
+								value <= squared_distance_small
+							}
+						}
+					}
+					multiply = 10
+				}
+				if = {
+					limit = {
+						root.location = {
+							squared_distance = {
+								target = title:c_uuii_p_6454.title_province
+								value <= squared_distance_large
+							}
+						}
+					}
+					multiply = 2
+				}
+				if = {
+					limit = {
+						root.location = {
+							squared_distance = {
+								target = title:c_uuii_p_6454.title_province
+								value > squared_distance_huge
+							}
+						}
+					}
+					multiply = 0.1
+				}
+			}
+		}
+
+		item = { # Khotan
+			value = c_uuii_p_6152
+			is_shown = { always = yes }
+			is_valid = {
+				custom_tooltip = {
+					text = no_building_at_silk_road_market_desc
+					title:c_uuii_p_6152 = {
+						any_county_province = { has_building_with_flag = silk_road_node }
+					}
+				}
+				custom_tooltip = {
+					text = no_available_innovation_at_silk_road_market_desc
+					silk_road_valid_market_to_visit_trigger = { SUB_REGION = middle_southern_route }
+				}
+			}
+			localization = visit_silk_road_market_decision_khotan
+			icon = "gfx/interface/icons/travel/icon_travel_silk_road_marketplace.dds"
+			ai_chance = {
+				value = 1
+				if = {
+					limit = {
+						root.location = {
+							squared_distance = {
+								target = title:c_uuii_p_6152.title_province
+								value <= squared_distance_small
+							}
+						}
+					}
+					multiply = 10
+				}
+				if = {
+					limit = {
+						root.location = {
+							squared_distance = {
+								target = title:c_uuii_p_6152.title_province
+								value <= squared_distance_large
+							}
+						}
+					}
+					multiply = 2
+				}
+				if = {
+					limit = {
+						root.location = {
+							squared_distance = {
+								target = title:c_uuii_p_6152.title_province
+								value > squared_distance_huge
+							}
+						}
+					}
+					multiply = 0.1
+				}
+			}
+		}
+
+		item = { # Dayuan
+			value = c_uuii_p_5024
+			is_shown = { always = yes }
+			is_valid = {
+				custom_tooltip = {
+					text = no_building_at_silk_road_market_desc
+					title:c_uuii_p_5024 = {
+						any_county_province = { has_building_with_flag = silk_road_node }
+					}
+				}
+				custom_tooltip = {
+					text = no_available_innovation_at_silk_road_market_desc
+					silk_road_valid_market_to_visit_trigger = { SUB_REGION = western_section }
+				}
+			}
+			localization = visit_silk_road_market_decision_dayuan
+			icon = "gfx/interface/icons/travel/icon_travel_silk_road_marketplace.dds"
+			ai_chance = {
+				value = 1
+				if = {
+					limit = {
+						root.location = {
+							squared_distance = {
+								target = title:c_uuii_p_5024.title_province
+								value <= squared_distance_small
+							}
+						}
+					}
+					multiply = 10
+				}
+				if = {
+					limit = {
+						root.location = {
+							squared_distance = {
+								target = title:c_uuii_p_5024.title_province
+								value <= squared_distance_large
+							}
+						}
+					}
+					multiply = 2
+				}
+				if = {
+					limit = {
+						root.location = {
+							squared_distance = {
+								target = title:c_uuii_p_5024.title_province
+								value > squared_distance_huge
+							}
+						}
+					}
+					multiply = 0.1
+				}
+			}
+		}
+	}
+
+	effect = {
+		remove_short_term_gold = major_gold_value
+		switch = {
+			trigger = yes
+			scope:c_uuii_p_867 = {
+				title:c_uuii_p_867 = { tgp_silk_road_decision_scope_effect = yes }
+			}
+			scope:c_uuii_p_6454 = {
+				title:c_uuii_p_6454 = { tgp_silk_road_decision_scope_effect = yes }
+			}
+			scope:c_uuii_p_6152 = {
+				title:c_uuii_p_6152 = { tgp_silk_road_decision_scope_effect = yes }
+			}
+			scope:c_uuii_p_5024 = {
+				title:c_uuii_p_5024 = { tgp_silk_road_decision_scope_effect = yes }
+			}
+		}
+		if = {
+			limit = { exists = scope:destination_province }
+			if = {
+				limit = { scope:destination_province = root.location }
+				trigger_event = { id = tgp_silk_road_events.0010 }
+			}
+			else = {
+				custom_tooltip = travel_silk_road_market_desc
+				start_travel_plan = {
+					destination = scope:destination_province
+					on_arrival_event = tgp_silk_road_events.0010
+					travel_with_domicile = no
+					return_trip = yes
+					on_travel_planner_cancel_on_action = silk_road_market_visit_travel_planner_cancel_on_action
+					players_use_planner = yes
+				}
+			}
+			if = {
+				limit = { exists = scope:innovation_temp }
+				custom_tooltip = potential_innovation_at_silk_road_market_desc
+			}
+			custom_tooltip = travel_silk_road_market_innovation_warning_tt
+			if = {
+				limit = {
+					root.location = {
+						squared_distance = {
+							target = scope:destination_province
+							value >= squared_distance_huge
+						}
+					}
+				}
+				custom_tooltip = travel_silk_road_market_long_tt
+			}
+		}
+	}
+
+	ai_potential = {
+		is_at_war = no
+		short_term_gold >= major_gold_value
+		ai_greed > low_positive_ai_value
+		ai_should_focus_on_building_in_their_capital = yes
+	}
+
+	ai_will_do = {
+		base = 20
+		modifier = {
+			add = 10
+			root.culture.culture_head = root
+		}
+		modifier = {
+			factor = 0.1
+			any_character_situation = {
+				situation:silk_road_situation = this
+				any_participant_group = {
+					participant_group_type = silk_road_nomad
+					participant_group_has_character = root
+				}
+			}
+		}
+		modifier = {
+			factor = 0.2
+			any_character_situation = {
+				situation:silk_road_situation = this
+				any_participant_group = {
+					participant_group_type = silk_road_periphery
+					participant_group_has_character = root
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			any_character_situation = {
+				situation:silk_road_situation = this
+				any_participant_group = {
+					participant_group_type = silk_road_realm
+					participant_group_has_character = root
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				silk_road_valid_market_to_visit_trigger = { SUB_REGION = eastern_section }
+				silk_road_valid_market_to_visit_trigger = { SUB_REGION = middle_northern_route }
+				silk_road_valid_market_to_visit_trigger = { SUB_REGION = middle_southern_route }
+				silk_road_valid_market_to_visit_trigger = { SUB_REGION = western_section }
+			}
+		}
+	}
+}

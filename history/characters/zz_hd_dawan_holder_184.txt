@@ -1,0 +1,14 @@
+﻿# Neutral local holder retained for the Dayuan county after Tianwei becomes landless.
+hd_dawan_holder_c_uuii_p_5024 = {
+	name = "hd_dawan_holder_name"
+	culture = "dayuan"
+	faith = "mahayana"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}

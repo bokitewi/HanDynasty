@@ -1,0 +1,159 @@
+﻿# for all celestial governors of all tiers, their spouses use either loc string spouse_celestial_governor_female or spouse_celestial_governor_male depending on the gender of the governor
+
+kuzhu_warlord_emperor_male_vassal_governor = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 180
+	governments = { kuzhu_warlord_government }
+	flavourization_rules = {
+		only_vassals = yes
+		only_holder = no
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+kuzhu_warlord_emperor_female_vassal_governess = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 180
+	governments = { kuzhu_warlord_government }
+	flavourization_rules = {
+		only_vassals = yes
+		only_holder = no
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+#苦竹：国王级封臣
+
+kuzhu_warlord_king_male_vassal_governor = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 180
+	governments = { kuzhu_warlord_government }
+	flavourization_rules = {
+		only_vassals = yes
+		only_holder = no
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+kuzhu_warlord_king_female_vassal_governess = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 180
+	governments = { kuzhu_warlord_government }
+	flavourization_rules = {
+		only_vassals = yes
+		only_holder = no
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+#苦竹：公爵级封臣
+
+kuzhu_warlord_duke_male_vassal_governor = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 180
+	governments = { kuzhu_warlord_government }
+	flavourization_rules = {
+		only_vassals = yes
+		only_holder = no
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+kuzhu_warlord_duke_female_vassal_governess = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 180
+	governments = { kuzhu_warlord_government }
+	flavourization_rules = {
+		only_vassals = yes
+		only_holder = no
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+#苦竹：伯爵级封臣
+
+kuzhu_warlord_count_male_vassal_governor = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 180
+	governments = { kuzhu_warlord_government }
+	flavourization_rules = {
+		only_vassals = yes
+		only_holder = no
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+kuzhu_warlord_count_female_vassal_governess = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 180
+	governments = { kuzhu_warlord_government }
+	flavourization_rules = {
+		only_vassals = yes
+		only_holder = no
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+#苦竹：男爵级封臣
+
+kuzhu_warlord_baron_male_vassal_governor = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 180
+	governments = { kuzhu_warlord_government }
+	flavourization_rules = {
+		only_vassals = yes
+		only_holder = no
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+kuzhu_warlord_baron_female_vassal_governess = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 180
+	governments = { kuzhu_warlord_government }
+	flavourization_rules = {
+		only_vassals = yes
+		only_holder = no
+		spouse_takes_title = no
+		top_liege = no
+	}
+}

@@ -1,0 +1,36 @@
+# Unsupported vanilla regional event chain retained only as inert public shells.
+namespace = iberia_north_africa
+
+iberia_north_africa.0001 = { type = character_event hidden = yes trigger = { always = no } }
+iberia_north_africa.0002 = { type = character_event hidden = yes trigger = { always = no } }
+iberia_north_africa.0005 = { type = character_event hidden = yes trigger = { always = no } }
+iberia_north_africa.0006 = { type = character_event hidden = yes trigger = { always = no } }
+iberia_north_africa.0010 = { type = character_event hidden = yes trigger = { always = no } }
+iberia_north_africa.0011 = { type = character_event hidden = yes trigger = { always = no } }
+iberia_north_africa.0015 = { type = character_event hidden = yes trigger = { always = no } }
+iberia_north_africa.0016 = { type = character_event hidden = yes trigger = { always = no } }
+iberia_north_africa.0101 = { type = character_event hidden = yes trigger = { always = no } }
+iberia_north_africa.0102 = { type = character_event hidden = yes trigger = { always = no } }
+iberia_north_africa.0111 = { type = character_event hidden = yes trigger = { always = no } }
+iberia_north_africa.0112 = { type = character_event hidden = yes trigger = { always = no } }
+iberia_north_africa.0121 = { type = character_event hidden = yes trigger = { always = no } }
+iberia_north_africa.0122 = { type = character_event hidden = yes trigger = { always = no } }
+iberia_north_africa.0131 = { type = character_event hidden = yes trigger = { always = no } }
+iberia_north_africa.2001 = { type = character_event hidden = yes trigger = { always = no } }
+iberia_north_africa.2002 = { type = character_event hidden = yes trigger = { always = no } }
+iberia_north_africa.2003 = { type = character_event hidden = yes trigger = { always = no } }
+iberia_north_africa.2011 = { type = character_event hidden = yes trigger = { always = no } }
+iberia_north_africa.2012 = { type = character_event hidden = yes trigger = { always = no } }
+iberia_north_africa.2013 = { type = character_event hidden = yes trigger = { always = no } }
+iberia_north_africa.2014 = { type = character_event hidden = yes trigger = { always = no } }
+iberia_north_africa.2100 = { type = character_event hidden = yes trigger = { always = no } }
+iberia_north_africa.2101 = { type = character_event hidden = yes trigger = { always = no } }
+iberia_north_africa.2105 = { type = character_event hidden = yes trigger = { always = no } }
+iberia_north_africa.9101 = { type = character_event hidden = yes trigger = { always = no } }
+
+scripted_trigger convert_random_aragonese_counties_in_d_aragon_basic_reqs_trigger = { always = no }
+scripted_trigger iberia_north_africa_0002_is_in_portugal_trigger = { always = no }
+
+scripted_effect calculate_controlled_aragonese_duchies_effect = { }
+scripted_effect convert_aragonese_counties_to_aragonese_effect = { }
+scripted_effect copy_over_new_cultural_pillars_to_aragonese_effect = { }

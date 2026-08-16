@@ -1,0 +1,21 @@
+# Unsupported vanilla regional event chain retained only as inert public shells.
+namespace = mongol_invasion
+
+mongol_invasion.0001 = { type = character_event hidden = yes trigger = { always = no } }
+mongol_invasion.0100 = { type = character_event hidden = yes trigger = { always = no } }
+mongol_invasion.1001 = { type = character_event hidden = yes trigger = { always = no } }
+mongol_invasion.1002 = { type = character_event hidden = yes trigger = { always = no } }
+mongol_invasion.1004 = { type = character_event hidden = yes trigger = { always = no } }
+mongol_invasion.1005 = { type = character_event hidden = yes trigger = { always = no } }
+mongol_invasion.2001 = { type = character_event hidden = yes trigger = { always = no } }
+mongol_invasion.2002 = { type = character_event hidden = yes trigger = { always = no } }
+mongol_invasion.2003 = { type = character_event hidden = yes trigger = { always = no } }
+mongol_invasion.2101 = { type = character_event hidden = yes trigger = { always = no } }
+mongol_invasion.2102 = { type = character_event hidden = yes trigger = { always = no } }
+mongol_invasion.2103 = { type = character_event hidden = yes trigger = { always = no } }
+mongol_invasion.2111 = { type = character_event hidden = yes trigger = { always = no } }
+mongol_invasion.2112 = { type = character_event hidden = yes trigger = { always = no } }
+mongol_invasion.3000 = { type = character_event hidden = yes trigger = { always = no } }
+mongol_invasion.3100 = { type = character_event hidden = yes trigger = { always = no } }
+mongol_invasion.3200 = { type = character_event hidden = yes trigger = { always = no } }
+mongol_invasion.9999 = { type = character_event hidden = yes trigger = { always = no } }

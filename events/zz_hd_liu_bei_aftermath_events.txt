@@ -1,0 +1,68 @@
+namespace = hd_liu_bei_aftermath
+
+hd_liu_bei_aftermath.0001 = {
+	type = character_event
+	title = hd_liu_bei_aftermath.0001.t
+	desc = hd_liu_bei_aftermath.0001.desc
+	theme = war
+
+	left_portrait = {
+		character = root
+		animation = personality_honorable
+	}
+
+	trigger = {
+		this = character:liu_bei
+		is_alive = yes
+		exists = global_var:hd_yellow_turban_outcome_resolved
+		has_character_flag = hd_liu_bei_aftermath_started
+		NOT = { has_character_flag = hd_liu_bei_adventurer_path }
+		NOT = { has_character_flag = hd_liu_bei_received_anxi }
+	}
+
+	option = {
+		name = hd_liu_bei_aftermath.0001.a
+		hd_liu_bei_receive_anxi_effect = yes
+		trigger_event = {
+			id = hd_liu_bei_aftermath.0002
+			months = 2
+		}
+		ai_chance = { base = 100 }
+	}
+
+	option = {
+		name = hd_liu_bei_aftermath.0001.b
+		hd_liu_bei_become_adventurer_effect = yes
+		ai_chance = { base = 0 }
+	}
+}
+
+hd_liu_bei_aftermath.0002 = {
+	type = character_event
+	title = hd_liu_bei_aftermath.0002.t
+	desc = hd_liu_bei_aftermath.0002.desc
+	theme = intrigue
+
+	left_portrait = {
+		character = root
+		animation = personality_vengeful
+	}
+
+	trigger = {
+		this = character:liu_bei
+		is_alive = yes
+		has_character_flag = hd_liu_bei_received_anxi
+		NOT = { has_character_flag = hd_liu_bei_adventurer_path }
+	}
+
+	option = {
+		name = hd_liu_bei_aftermath.0002.a
+		character:zhang_fei ?= {
+			# A small persistent marker records the historical whipping even
+			# though the inspector is not represented by a landed character.
+			add_character_flag = hd_zhang_fei_whipped_du_you
+		}
+		hd_liu_bei_become_adventurer_effect = yes
+		ai_chance = { base = 100 }
+	}
+}

@@ -1,0 +1,1 @@
+﻿# Japan-only title flavorization disabled for the total conversion.

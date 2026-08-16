@@ -1,0 +1,11 @@
+hd_qinglong_yanyuedao_template = {
+	can_equip = {
+		always = yes
+	}
+
+	can_benefit = {
+		always = yes
+	}
+
+	unique = yes
+}

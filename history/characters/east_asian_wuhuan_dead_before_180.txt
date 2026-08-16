@@ -1,0 +1,193 @@
+﻿# Generated from 華陽國志、三國志、三國演義、後漢書 and 漢晉春秋.
+# Culture: wuhuan
+# Time partition: dead_before_180 (death < 180).
+# No title history is assigned. Dates marked in the evidence audit may be estimates.
+
+##### 【庞雄】
+pang_xiong={
+	name="uuii_book_pang_xiong_name" #雄
+	dynasty_house="uuii_book_house_6265d5473c6e"
+	culture="wuhuan"
+	faith="shamanism"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="5"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_diplomacy_4
+	trait=tk_historical_character01
+	trait=brave
+	trait=honest
+	trait=ambitious
+	79.7.1={
+		birth=yes
+	}
+	144.7.1={
+		death=yes
+	}
+}
+
+##### 【何熙】
+he_xi_2={
+	name="uuii_book_he_xi_2_name" #熙
+	dynasty_house="uuii_book_house_57c413def7b9"
+	culture="wuhuan"
+	faith="shamanism"
+	diplomacy="7"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="4"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_martial_3
+	trait=tk_historical_character01
+	trait=honest
+	trait=temperate
+	trait=stubborn
+	50.7.1={
+		birth=yes
+	}
+	115.7.1={
+		death=yes
+	}
+}
+
+##### 【乌桓】
+wu_huan={
+	name="uuii_book_wu_huan_name" #桓
+	dynasty_house="uuii_book_house_6708ba6b496e"
+	culture="wuhuan"
+	faith="shamanism"
+	diplomacy="5"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_learning_4
+	trait=tk_historical_character01
+	trait=brave
+	trait=callous
+	trait=cynical
+	79.7.1={
+		birth=yes
+	}
+	144.7.1={
+		death=yes
+	}
+}
+
+##### 【句龙吾斯】
+ju_long_wu_si={
+	name="uuii_book_ju_long_wu_si_name" #龙吾斯
+	dynasty_house="uuii_book_house_7b08d622acd5"
+	culture="wuhuan"
+	faith="shamanism"
+	diplomacy="6"
+	martial="8"
+	stewardship="4"
+	intrigue="8"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_learning_4
+	trait=tk_historical_character01
+	trait=deceitful
+	trait=trusting
+	trait=patient
+	114.7.1={
+		birth=yes
+	}
+	179.7.1={
+		death=yes
+	}
+}
+
+##### 【苏拔廆】
+su_ba_gui={
+	name="uuii_book_su_ba_gui_name" #拔廆
+	dynasty_house="uuii_book_house_9cc7e7e43322"
+	culture="wuhuan"
+	faith="shamanism"
+	diplomacy="4"
+	martial="5"
+	stewardship="9"
+	intrigue="8"
+	learning="5"
+	prowess="9"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_3
+	trait=tk_historical_character01
+	trait=temperate
+	trait=impatient
+	trait=shy
+	110.7.1={
+		birth=yes
+	}
+	175.7.1={
+		death=yes
+	}
+}
+
+##### 【郝旦】
+hao_dan={
+	name="uuii_book_hao_dan_name" #旦
+	dynasty_house="uuii_book_house_3b18435af25f"
+	culture="wuhuan"
+	faith="shamanism"
+	diplomacy="8"
+	martial="6"
+	stewardship="8"
+	intrigue="5"
+	learning="8"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_learning_2
+	trait=tk_historical_character01
+	trait=just
+	trait=forgiving
+	trait=trusting
+	19.7.1={
+		birth=yes
+	}
+	84.7.1={
+		death=yes
+	}
+}
+
+##### 【于秩居】
+yu_zhi_ju={
+	name="uuii_book_yu_zhi_ju_name" #秩居
+	dynasty_house="uuii_book_house_c789fdb1a725"
+	culture="wuhuan"
+	faith="shamanism"
+	diplomacy="7"
+	martial="7"
+	stewardship="5"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_diplomacy_2
+	trait=tk_historical_character01
+	trait=gregarious
+	trait=diligent
+	trait=greedy
+	110.7.1={
+		birth=yes
+	}
+	175.7.1={
+		death=yes
+	}
+}

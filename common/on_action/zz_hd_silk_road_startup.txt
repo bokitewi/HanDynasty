@@ -1,0 +1,96 @@
+# Start the project-owned four-section Silk Road in the 184 bookmark.
+on_game_start = {
+	on_actions = {
+		hd_start_silk_road_184
+	}
+}
+
+hd_start_silk_road_184 = {
+	effect = {
+		if = {
+			limit = {
+				has_tgp_dlc_trigger = yes
+				game_start_date = 184.1.1
+				current_date = 184.1.1
+				NOT = { exists = global_var:hd_silk_road_184_initialized }
+			}
+
+			# The province history registry is generator-owned, so the four market
+			# slots are installed here with the same effects used by vanilla history.
+			# Install them before starting the situation so scripted construction does
+			# not award four opening-day market catalysts.
+			set_global_variable = {
+				name = hd_silk_road_installing_markets
+				value = yes
+			}
+			title:c_uuii_p_867.title_province = {
+				if = {
+					limit = { NOT = { has_building_or_higher = changan_market_01 } }
+					if = {
+						limit = { has_special_building_slot = no }
+						add_special_building_slot = changan_market_01
+					}
+					add_special_building = changan_market_01
+				}
+			}
+			title:c_uuii_p_6454.title_province = {
+				if = {
+					limit = { NOT = { has_building_or_higher = uuii_loulan_market_01 } }
+					if = {
+						limit = { has_special_building_slot = no }
+						add_special_building_slot = uuii_loulan_market_01
+					}
+					add_special_building = uuii_loulan_market_01
+				}
+			}
+			title:c_uuii_p_6152.title_province = {
+				if = {
+					limit = { NOT = { has_building_or_higher = khotan_market_01 } }
+					if = {
+						limit = { has_special_building_slot = no }
+						add_special_building_slot = khotan_market_01
+					}
+					add_special_building = khotan_market_01
+				}
+			}
+			title:c_uuii_p_5024.title_province = {
+				if = {
+					limit = { NOT = { has_building_or_higher = uuii_dayuan_market_01 } }
+					if = {
+						limit = { has_special_building_slot = no }
+						add_special_building_slot = uuii_dayuan_market_01
+					}
+					add_special_building = uuii_dayuan_market_01
+				}
+			}
+			remove_global_variable = hd_silk_road_installing_markets
+
+			if = {
+				limit = { NOT = { exists = situation:silk_road_situation } }
+				start_situation = {
+					type = silk_road_situation
+					start_phase = phase_steady_trading
+				}
+			}
+
+			if = {
+				limit = {
+					exists = situation:silk_road_situation
+					title:c_uuii_p_867.title_province = { has_building_or_higher = changan_market_01 }
+					title:c_uuii_p_6454.title_province = { has_building_or_higher = uuii_loulan_market_01 }
+					title:c_uuii_p_6152.title_province = { has_building_or_higher = khotan_market_01 }
+					title:c_uuii_p_5024.title_province = { has_building_or_higher = uuii_dayuan_market_01 }
+				}
+				situation:silk_road_situation = {
+					every_situation_participant = {
+						recalculate_participant_group = situation:silk_road_situation
+					}
+				}
+				set_global_variable = {
+					name = hd_silk_road_184_initialized
+					value = yes
+				}
+			}
+		}
+	}
+}

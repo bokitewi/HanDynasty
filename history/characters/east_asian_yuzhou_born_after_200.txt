@@ -1,0 +1,230 @@
+﻿# Generated from 華陽國志、三國志、三國演義、後漢書 and 漢晉春秋.
+# Culture: yuzhou
+# Time partition: born_after_200 (birth > 200).
+# No title history is assigned. Dates marked in the evidence audit may be estimates.
+
+##### 【曹彦】
+cao_yan_2={
+	name="uuii_book_cao_yan_2_name" #彦
+	dynasty_house="uuii_book_house_a640b218f7f8"
+	father="cao_zhen"
+	culture="yuzhou"
+	faith="jingxue"
+	diplomacy="6"
+	martial="8"
+	stewardship="8"
+	intrigue="7"
+	learning="7"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_3
+	trait=tk_historical_character01
+	trait=content
+	trait=just
+	trait=generous
+	203.7.1={
+		birth=yes
+	}
+	249.7.1={
+		death=yes
+	}
+}
+
+##### 【曹皑】
+cao_ai={
+	name="uuii_book_cao_ai_name" #皑
+	dynasty_house="uuii_book_house_a640b218f7f8"
+	father="cao_zhen"
+	culture="yuzhou"
+	faith="jingxue"
+	diplomacy="7"
+	martial="6"
+	stewardship="9"
+	intrigue="6"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_2
+	trait=tk_historical_character01
+	trait=arbitrary
+	trait=lustful
+	trait=impatient
+	205.7.1={
+		birth=yes
+	}
+	245.7.1={
+		death=yes
+	}
+}
+
+##### 【曹珠】
+cao_zhu_2={
+	name="uuii_book_cao_zhu_2_name" #珠
+	dynasty_house="uuii_book_house_a640b218f7f8"
+	female=yes
+	father="cao_hong"
+	culture="yuzhou"
+	faith="jingxue"
+	diplomacy="8"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="4"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_diplomacy_2
+	trait=tk_historical_character01
+	trait=lazy
+	trait=impatient
+	trait=vengeful
+	209.7.1={
+		birth=yes
+	}
+	230.7.1={
+		death=yes
+	}
+}
+
+##### 【郭心怡】
+guo_xin_yi={
+	name="uuii_book_guo_xin_yi_name" #心怡
+	dynasty_house="house_111010142010013"
+	female=yes
+	father="guo_man"
+	culture="yuzhou"
+	faith="jingxue"
+	diplomacy="8"
+	martial="7"
+	stewardship="8"
+	intrigue="7"
+	learning="4"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_diplomacy_2
+	trait=tk_historical_character01
+	trait=fickle
+	trait=zealous
+	trait=humble
+	204.7.1={
+		birth=yes
+	}
+	264.7.1={
+		death=yes
+	}
+}
+
+##### 【钟会】
+zhong_hui={
+	name="uuii_book_zhong_hui_name" #会
+	dynasty_house="house_111010147001013"
+	father="zhong_yao"
+	culture="yuzhou"
+	faith="jingxue"
+	diplomacy="7"
+	martial="5"
+	stewardship="15"
+	intrigue="2"
+	learning="3"
+	prowess="2"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_4
+	trait=tk_historical_character02
+	trait=brave
+	trait=honest
+	trait=generous
+	225.7.1={
+		birth=yes
+	}
+	264.7.1={
+		death=yes
+	}
+}
+
+##### 【荀粲】
+xun_can={
+	name="uuii_book_xun_can_name" #粲
+	dynasty_house="house_111010199001013"
+	father="xun_yu_2"
+	culture="yuzhou"
+	faith="jingxue"
+	diplomacy="8"
+	martial="8"
+	stewardship="8"
+	intrigue="8"
+	learning="4"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_diplomacy_4
+	trait=tk_historical_character01
+	trait=calm
+	trait=sadistic
+	trait=content
+	201.7.1={
+		birth=yes
+	}
+	241.7.1={
+		death=yes
+	}
+}
+
+##### 【夏侯荣】
+xia_hou_rong={
+	name="uuii_book_xia_hou_rong_name" #荣
+	dynasty_house="uuii_book_house_52d26348c960"
+	father="xia_hou_yuan"
+	culture="yuzhou"
+	faith="jingxue"
+	diplomacy="8"
+	martial="5"
+	stewardship="6"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_diplomacy_2
+	trait=tk_historical_character01
+	trait=ambitious
+	trait=cynical
+	trait=gregarious
+	207.7.1={
+		birth=yes
+	}
+	219.7.1={
+		death=yes
+	}
+}
+
+##### 【夏侯和】
+xia_hou_he={
+	name="uuii_book_xia_hou_he_name" #和
+	dynasty_house="uuii_book_house_52d26348c960"
+	father="xia_hou_yuan"
+	culture="yuzhou"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_martial_4
+	trait=tk_historical_character01
+	trait=gregarious
+	trait=just
+	trait=honest
+	215.7.1={
+		birth=yes
+	}
+	278.7.1={
+		death=yes
+	}
+}

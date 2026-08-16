@@ -1,0 +1,64 @@
+# Japan-only script values neutralized; public keys remain stable.
+
+japanese_manor_external_building_high_base_cost_value = 0
+japanese_manor_external_building_normal_base_cost_value = 0
+japanese_manor_internal_building_high_base_cost_value = 0
+japanese_manor_internal_building_normal_base_cost_value = 0
+japanese_manor_local_theme_cost_reduction_value = 0
+japanese_manor_move_cooldown_value = 0
+service_house_governor_efficiency_bonus_value = 0
+tgp_leave_house_bloc_cooldown_years_value = 0
+tgp_leave_house_bloc_truce_years_value = 0
+
+japanese_house_power_value = { value = 0 }
+japanese_kampaku_house_bloc_size_heir_score_value = { value = 0 }
+japanese_kampaku_house_bloc_size_score_value = { value = 0 }
+japanese_kampaku_house_devoted_score_value = { value = 0 }
+japanese_kampaku_house_devoted_value = { value = 0 }
+japanese_kampaku_house_governorship_score_value = { value = 0 }
+japanese_kampaku_house_governorship_value = { value = 0 }
+japanese_kampaku_house_imperial_child_score_value = { value = 0 }
+japanese_kampaku_house_imperial_child_value = { value = 0 }
+japanese_kampaku_house_imperial_parent_score_value = { value = 0 }
+japanese_kampaku_house_imperial_parent_value = { value = 0 }
+japanese_kampaku_house_imperial_parent_value_actual = { value = 0 }
+japanese_kampaku_house_imperial_spouse_score_value = { value = 0 }
+japanese_kampaku_house_imperial_spouse_value = { value = 0 }
+japanese_kampaku_house_past_kampaku_value = { value = 0 }
+japanese_kampaku_house_past_kampaku_value_actual = { value = 0 }
+japanese_kampaku_imperial_spouse_score_value = { value = 0 }
+japanese_kampaku_imperial_spouse_value = { value = 0 }
+japanese_manor_building_ai_modifier_value = { value = 0 }
+japanese_manor_external_building_high_cost_tier_1_value = { value = 0 }
+japanese_manor_external_building_high_cost_tier_2_value = { value = 0 }
+japanese_manor_external_building_high_cost_tier_3_value = { value = 0 }
+japanese_manor_external_building_high_cost_tier_4_value = { value = 0 }
+japanese_manor_external_building_high_cost_tier_5_value = { value = 0 }
+japanese_manor_external_building_high_cost_tier_6_value = { value = 0 }
+japanese_manor_external_building_high_cost_tier_7_value = { value = 0 }
+japanese_manor_external_building_normal_cost_tier_1_value = { value = 0 }
+japanese_manor_external_building_normal_cost_tier_2_value = { value = 0 }
+japanese_manor_external_building_normal_cost_tier_3_value = { value = 0 }
+japanese_manor_external_building_normal_cost_tier_4_value = { value = 0 }
+japanese_manor_external_building_normal_cost_tier_5_value = { value = 0 }
+japanese_manor_external_building_normal_cost_tier_6_value = { value = 0 }
+japanese_manor_internal_building_high_cost_tier_1_value = { value = 0 }
+japanese_manor_internal_building_high_cost_tier_2_value = { value = 0 }
+japanese_manor_internal_building_high_cost_tier_3_value = { value = 0 }
+japanese_manor_internal_building_high_cost_tier_4_value = { value = 0 }
+japanese_manor_internal_building_high_cost_tier_5_value = { value = 0 }
+japanese_manor_internal_building_high_cost_tier_6_value = { value = 0 }
+japanese_manor_internal_building_normal_cost_tier_1_value = { value = 0 }
+japanese_manor_internal_building_normal_cost_tier_2_value = { value = 0 }
+japanese_manor_internal_building_normal_cost_tier_3_value = { value = 0 }
+japanese_manor_internal_building_normal_cost_tier_4_value = { value = 0 }
+japanese_manor_internal_building_normal_cost_tier_5_value = { value = 0 }
+japanese_manor_internal_building_normal_cost_tier_6_value = { value = 0 }
+japanese_manor_location_cost_modifier_value = { value = 0 }
+japanese_shogun_opposition_vassals_value = { value = 0 }
+pledge_loyalty_to_liege_grant_legitimacy_value = { value = 0 }
+tgp_bloc_house_head_average_opinion_reversed_value = { value = 0 }
+tgp_bloc_house_head_average_opinion_value = { value = 0 }
+tgp_bloc_house_member_count_value = { value = 0 }
+tgp_bloc_member_count_value = { value = 0 }
+tgp_bloc_member_house_count_value = { value = 0 }

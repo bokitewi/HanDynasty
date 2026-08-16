@@ -1,0 +1,36 @@
+﻿# UUII: Inert public interfaces for the removed vanilla Mongol invasion chain.
+
+give_temujin_land_effect = {}
+spawn_temujin_character_effect = {}
+form_the_mongol_empire_effect = {}
+spawn_mongol_troops_effect = {}
+spawn_mongol_troops_condensed_effect = {}
+spawn_mongol_successor_state_troops_effect = {}
+spawn_temujins_court_effect = {}
+spawn_dynamic_mongol_court_effect = {}
+start_wars_for_mongolia_effect = {}
+send_mongol_subjugation_demand_effect = {}
+mongol_war_target_evaluation_and_declaration_effect = {}
+mongols_devastate_county_effect = {}
+assign_core_mongol_titles_to_heir_effect = {}
+grant_mongol_successor_nomadic_bonuses_effect = {}
+grant_ilkhanate_effect = {}
+grant_golden_horde_effect = {}
+grant_chagatai_effect = {}
+grant_red_horde_effect = {}
+grant_white_horde_effect = {}
+grant_aarlud_khanate_effect = {}
+grant_togskol_khanate_effect = {}
+grant_baruun_khanate_effect = {}
+grant_great_yuan_effect = {}
+grant_blue_horde_effect = {}
+grant_omnod_dalai_khanate_effect = {}
+pick_up_remaining_counties_effect = {}
+set_correct_mongol_breakup_vassalage_effect = {}
+shift_counties_on_mongol_succession_effect = {}
+grant_suitable_title_to_candidate_effect = {}
+break_up_mongol_empire_effect = {}
+temujin_conqueror_bonuses_effect = {}
+convert_great_yuan_to_admin_effect = {}
+change_mongol_successor_illegal_government = {}
+mongol_breakup_purge_mongolia_exclaves_effect = {}

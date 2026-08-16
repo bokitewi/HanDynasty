@@ -1,0 +1,37 @@
+pdxmesh = {
+	name = "hd_zhangba_shemao_portrait_mesh"
+	file = "hd_zhangba_shemao_portrait.mesh"
+	meshsettings = {
+		name = "hd_zhangba_shemao_portrait_mainShape"
+		index = 0
+		texture_diffuse = "hd_zhangba_shemao_main_diffuse.dds"
+		texture_normal = "hd_zhangba_shemao_main_normal.dds"
+		texture_specular = "hd_zhangba_shemao_main_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "hd_zhangba_shemao_portrait_entity"
+	pdxmesh = "hd_zhangba_shemao_portrait_mesh"
+}
+
+pdxmesh = {
+	name = "hd_zhangba_shemao_court_mesh"
+	file = "hd_zhangba_shemao_court.mesh"
+	meshsettings = {
+		name = "hd_zhangba_shemao_court_mainShape"
+		index = 0
+		texture_diffuse = "hd_zhangba_shemao_main_diffuse.dds"
+		texture_normal = "hd_zhangba_shemao_main_normal.dds"
+		texture_specular = "hd_zhangba_shemao_main_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+entity = {
+	name = "hd_zhangba_shemao_court_entity"
+	pdxmesh = "hd_zhangba_shemao_court_mesh"
+}

@@ -1,0 +1,154 @@
+### Repaired Confederations & Leagues Expanded casus belli ###
+
+hd_confederation_subjugation_cb = {
+	icon = confederation_subjugation
+	group = subjugation
+	target_titles = none
+	ticking_war_score_targets_entire_realm = yes
+
+	allowed_for_character = {
+		scope:attacker = {
+			hd_is_hd_defensive_league = yes
+			has_variable = hd_league_leader
+			var:hd_league_leader = this
+		}
+	}
+
+	allowed_against_character = {
+		scope:defender = {
+			top_liege = this
+			highest_held_title_tier < tier_kingdom
+			NOT = { is_confederation_member = yes }
+		}
+	}
+
+	cost = { prestige = 150 }
+	on_declaration = { on_declared_war = yes }
+
+	on_victory_desc = { desc = hd_confederation_subjugation_victory_desc }
+	on_victory = {
+		scope:attacker = {
+			add_prestige = 100
+			set_variable = { name = hd_subjugated_league_target value = scope:defender }
+			trigger_event = { id = hd_confederation.0600 days = 1 }
+		}
+		add_truce_attacker_victory_effect = yes
+	}
+
+	on_white_peace_desc = { desc = hd_confederation_subjugation_white_peace_desc }
+	on_white_peace = {
+		scope:attacker = { add_prestige = -50 }
+		add_truce_white_peace_effect = yes
+	}
+
+	on_defeat_desc = { desc = hd_confederation_subjugation_defeat_desc }
+	on_defeat = {
+		scope:attacker = { add_prestige = -150 }
+		add_truce_attacker_defeat_effect = yes
+	}
+
+	on_primary_attacker_death = inherit
+	on_primary_defender_death = inherit
+	attacker_allies_inherit = yes
+	defender_allies_inherit = yes
+	interface_priority = 60
+}
+
+# First war in the Anti-Dong/anti-regent chain.  It has no title transfer;
+# victory or white peace only opens the pursuit decision.
+hd_anti_regent_punitive_cb = {
+	icon = claim_throne
+	group = civil_war
+	target_titles = none
+	ticking_war_score_targets_entire_realm = yes
+
+	allowed_for_character = {
+		scope:attacker = {
+			has_character_flag = hd_anti_regent_league_leader
+			hd_is_anti_regent_league_member = yes
+		}
+	}
+	allowed_against_character = {
+		scope:defender = {
+			has_character_flag = hd_current_han_regent
+		}
+	}
+
+	on_declaration = { on_declared_war = yes }
+	on_victory_desc = { desc = hd_anti_regent_punitive_victory_desc }
+	on_victory = {
+		scope:attacker = {
+			set_variable = { name = hd_anti_regent_target value = scope:defender }
+			set_variable = { name = hd_anti_regent_first_war_result value = victory }
+			trigger_event = { id = hd_anti_regent.0100 days = 1 }
+		}
+		add_truce_attacker_victory_effect = yes
+	}
+	on_white_peace_desc = { desc = hd_anti_regent_punitive_white_peace_desc }
+	on_white_peace = {
+		scope:attacker = {
+			set_variable = { name = hd_anti_regent_target value = scope:defender }
+			set_variable = { name = hd_anti_regent_first_war_result value = white_peace }
+			trigger_event = { id = hd_anti_regent.0100 days = 1 }
+		}
+		add_truce_white_peace_effect = yes
+	}
+	on_defeat_desc = { desc = hd_anti_regent_punitive_defeat_desc }
+	on_defeat = {
+		scope:attacker = { trigger_event = { id = hd_anti_regent.0101 days = 1 } }
+		add_truce_attacker_defeat_effect = yes
+	}
+	on_primary_attacker_death = inherit
+	on_primary_defender_death = inherit
+	attacker_allies_inherit = yes
+	defender_allies_inherit = yes
+}
+
+# Second war in the chain.  The on_victory event handles all title packages;
+# this CB deliberately has no ordinary transfer behavior.
+hd_enter_the_passes_cb = {
+	icon = invasion
+	group = civil_war
+	target_titles = none
+	ticking_war_score_targets_entire_realm = yes
+
+	allowed_for_character = {
+		scope:attacker = {
+			has_character_flag = hd_anti_regent_league_leader
+			hd_is_anti_regent_league_member = yes
+		}
+	}
+	allowed_against_character = {
+		scope:defender = { has_character_flag = hd_current_han_regent }
+	}
+
+	on_declaration = { on_declared_war = yes }
+	on_victory_desc = { desc = hd_enter_the_passes_victory_desc }
+	on_victory = {
+		scope:attacker = {
+			set_variable = { name = hd_anti_regent_target value = scope:defender }
+			trigger_event = { id = hd_anti_regent.0200 days = 1 }
+		}
+		add_truce_attacker_victory_effect = yes
+	}
+	on_white_peace_desc = { desc = hd_enter_the_passes_white_peace_desc }
+	on_white_peace = {
+		scope:attacker = {
+			set_variable = { name = hd_anti_regent_target value = scope:defender }
+			trigger_event = { id = hd_anti_regent.0201 days = 1 }
+		}
+		add_truce_white_peace_effect = yes
+	}
+	on_defeat_desc = { desc = hd_enter_the_passes_defeat_desc }
+	on_defeat = {
+		scope:attacker = {
+			set_variable = { name = hd_anti_regent_target value = scope:defender }
+			trigger_event = { id = hd_anti_regent.0201 days = 1 }
+		}
+		add_truce_attacker_defeat_effect = yes
+	}
+	on_primary_attacker_death = inherit
+	on_primary_defender_death = inherit
+	attacker_allies_inherit = yes
+	defender_allies_inherit = yes
+}

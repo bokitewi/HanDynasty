@@ -1,0 +1,7 @@
+# Japan-only succession appointments retained as candidate-free public shells.
+
+japanese_regent = {
+	allow_children = no
+	default_candidates = { }
+	candidate_score = { value = 0 }
+}

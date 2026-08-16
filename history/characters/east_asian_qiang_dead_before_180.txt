@@ -1,0 +1,112 @@
+﻿# Generated from 華陽國志、三國志、三國演義、後漢書 and 漢晉春秋.
+# Culture: qiang
+# Time partition: dead_before_180 (death < 180).
+# No title history is assigned. Dates marked in the evidence audit may be estimates.
+
+##### 【马贤】
+ma_xian={
+	name="uuii_book_ma_xian_name" #贤
+	dynasty_house="uuii_book_house_987a2f90702e"
+	culture="qiang"
+	faith="shamanism"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="5"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_martial_3
+	trait=tk_historical_character01
+	trait=brave
+	trait=honest
+	trait=generous
+	93.7.1={
+		birth=yes
+	}
+	158.7.1={
+		death=yes
+	}
+}
+
+##### 【狼莫】
+lang_mo={
+	name="uuii_book_lang_mo_name" #莫
+	dynasty_house="uuii_book_house_e4fa2d385584"
+	culture="qiang"
+	faith="shamanism"
+	diplomacy="6"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_intrigue_3
+	trait=tk_historical_character01
+	trait=deceitful
+	trait=shy
+	trait=impatient
+	110.7.1={
+		birth=yes
+	}
+	175.7.1={
+		death=yes
+	}
+}
+
+##### 【吕羌】
+lv_qiang_3={
+	name="uuii_book_lv_qiang_3_name" #羌
+	dynasty_house="uuii_book_house_3d82200ae4ef"
+	culture="qiang"
+	faith="shamanism"
+	diplomacy="6"
+	martial="7"
+	stewardship="9"
+	intrigue="6"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_4
+	trait=tk_historical_character01
+	trait=lazy
+	trait=humble
+	trait=greedy
+	1.7.1={
+		birth=yes
+	}
+	61.7.1={
+		death=yes
+	}
+}
+
+##### 【唐羌】
+tang_qiang={
+	name="uuii_book_tang_qiang_name" #羌
+	dynasty_house="uuii_book_house_12c4f832e129"
+	culture="qiang"
+	faith="shamanism"
+	diplomacy="8"
+	martial="8"
+	stewardship="6"
+	intrigue="5"
+	learning="7"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_diplomacy_2
+	trait=tk_historical_character01
+	trait=ambitious
+	trait=greedy
+	trait=diligent
+	110.7.1={
+		birth=yes
+	}
+	175.7.1={
+		death=yes
+	}
+}

@@ -1,0 +1,291 @@
+# Hand-maintained Han regional cultures for the Eastern Han states.
+# These are static regional branches of Han culture: they share Han heritage,
+# language, name list, traditions, aesthetics and culture-history baseline.
+
+youzhou = {
+	color = { 0.49 0.1 0.18 }
+	name_order_convention = dynasty_always_first
+	ethos = ethos_courtly
+	heritage = heritage_chinese
+	language = language_chinese
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = { }
+	dlc_tradition = { trait = tradition_scholar_officials requires_dlc_flag = all_under_heaven fallback = tradition_philosopher_culture }
+	dlc_tradition = { trait = tradition_tgp_art_of_war requires_dlc_flag = all_under_heaven fallback = tradition_formation_fighting }
+	dlc_tradition = { trait = tradition_cultural_primacy requires_dlc_flag = all_under_heaven }
+	dlc_tradition = { trait = tradition_tgp_court_machinations requires_dlc_flag = all_under_heaven }
+	dlc_tradition = { trait = tradition_cultivation requires_dlc_flag = all_under_heaven }
+	dlc_tradition = { trait = tradition_intensive_farming requires_dlc_flag = all_under_heaven fallback = tradition_agrarian }
+	name_list = name_list_han
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+	house_coa_frame = house_china
+	ethnicities = { 100 = asian_han_chinese }
+}
+
+jizhou = {
+	color = { 0.58 0.16 0.08 }
+	name_order_convention = dynasty_always_first
+	ethos = ethos_courtly
+	heritage = heritage_chinese
+	language = language_chinese
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = { }
+	dlc_tradition = { trait = tradition_scholar_officials requires_dlc_flag = all_under_heaven fallback = tradition_philosopher_culture }
+	dlc_tradition = { trait = tradition_tgp_art_of_war requires_dlc_flag = all_under_heaven fallback = tradition_formation_fighting }
+	dlc_tradition = { trait = tradition_cultural_primacy requires_dlc_flag = all_under_heaven }
+	dlc_tradition = { trait = tradition_tgp_court_machinations requires_dlc_flag = all_under_heaven }
+	dlc_tradition = { trait = tradition_cultivation requires_dlc_flag = all_under_heaven }
+	dlc_tradition = { trait = tradition_intensive_farming requires_dlc_flag = all_under_heaven fallback = tradition_agrarian }
+	name_list = name_list_han
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+	house_coa_frame = house_china
+	ethnicities = { 100 = asian_han_chinese }
+}
+
+yanzhou = {
+	color = { 0.46 0.18 0.12 }
+	name_order_convention = dynasty_always_first
+	ethos = ethos_courtly
+	heritage = heritage_chinese
+	language = language_chinese
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = { }
+	dlc_tradition = { trait = tradition_scholar_officials requires_dlc_flag = all_under_heaven fallback = tradition_philosopher_culture }
+	dlc_tradition = { trait = tradition_tgp_art_of_war requires_dlc_flag = all_under_heaven fallback = tradition_formation_fighting }
+	dlc_tradition = { trait = tradition_cultural_primacy requires_dlc_flag = all_under_heaven }
+	dlc_tradition = { trait = tradition_tgp_court_machinations requires_dlc_flag = all_under_heaven }
+	dlc_tradition = { trait = tradition_cultivation requires_dlc_flag = all_under_heaven }
+	dlc_tradition = { trait = tradition_intensive_farming requires_dlc_flag = all_under_heaven fallback = tradition_agrarian }
+	name_list = name_list_han
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+	house_coa_frame = house_china
+	ethnicities = { 100 = asian_han_chinese }
+}
+
+qingzhou = {
+	color = { 0.6 0.22 0.1 }
+	name_order_convention = dynasty_always_first
+	ethos = ethos_courtly
+	heritage = heritage_chinese
+	language = language_chinese
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = { }
+	dlc_tradition = { trait = tradition_scholar_officials requires_dlc_flag = all_under_heaven fallback = tradition_philosopher_culture }
+	dlc_tradition = { trait = tradition_tgp_art_of_war requires_dlc_flag = all_under_heaven fallback = tradition_formation_fighting }
+	dlc_tradition = { trait = tradition_cultural_primacy requires_dlc_flag = all_under_heaven }
+	dlc_tradition = { trait = tradition_tgp_court_machinations requires_dlc_flag = all_under_heaven }
+	dlc_tradition = { trait = tradition_cultivation requires_dlc_flag = all_under_heaven }
+	dlc_tradition = { trait = tradition_intensive_farming requires_dlc_flag = all_under_heaven fallback = tradition_agrarian }
+	name_list = name_list_han
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+	house_coa_frame = house_china
+	ethnicities = { 100 = asian_han_chinese }
+}
+
+xuzhou = {
+	color = { 0.5 0.25 0.08 }
+	name_order_convention = dynasty_always_first
+	ethos = ethos_courtly
+	heritage = heritage_chinese
+	language = language_chinese
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = { }
+	dlc_tradition = { trait = tradition_scholar_officials requires_dlc_flag = all_under_heaven fallback = tradition_philosopher_culture }
+	dlc_tradition = { trait = tradition_tgp_art_of_war requires_dlc_flag = all_under_heaven fallback = tradition_formation_fighting }
+	dlc_tradition = { trait = tradition_cultural_primacy requires_dlc_flag = all_under_heaven }
+	dlc_tradition = { trait = tradition_tgp_court_machinations requires_dlc_flag = all_under_heaven }
+	dlc_tradition = { trait = tradition_cultivation requires_dlc_flag = all_under_heaven }
+	dlc_tradition = { trait = tradition_intensive_farming requires_dlc_flag = all_under_heaven fallback = tradition_agrarian }
+	name_list = name_list_han
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+	house_coa_frame = house_china
+	ethnicities = { 100 = asian_han_chinese }
+}
+
+yuzhou = {
+	color = { 0.62 0.28 0.12 }
+	name_order_convention = dynasty_always_first
+	ethos = ethos_courtly
+	heritage = heritage_chinese
+	language = language_chinese
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = { }
+	dlc_tradition = { trait = tradition_scholar_officials requires_dlc_flag = all_under_heaven fallback = tradition_philosopher_culture }
+	dlc_tradition = { trait = tradition_tgp_art_of_war requires_dlc_flag = all_under_heaven fallback = tradition_formation_fighting }
+	dlc_tradition = { trait = tradition_cultural_primacy requires_dlc_flag = all_under_heaven }
+	dlc_tradition = { trait = tradition_tgp_court_machinations requires_dlc_flag = all_under_heaven }
+	dlc_tradition = { trait = tradition_cultivation requires_dlc_flag = all_under_heaven }
+	dlc_tradition = { trait = tradition_intensive_farming requires_dlc_flag = all_under_heaven fallback = tradition_agrarian }
+	name_list = name_list_han
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+	house_coa_frame = house_china
+	ethnicities = { 100 = asian_han_chinese }
+}
+
+jingzhou = {
+	color = { 0.42 0.12 0.08 }
+	name_order_convention = dynasty_always_first
+	ethos = ethos_courtly
+	heritage = heritage_chinese
+	language = language_chinese
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = { }
+	dlc_tradition = { trait = tradition_scholar_officials requires_dlc_flag = all_under_heaven fallback = tradition_philosopher_culture }
+	dlc_tradition = { trait = tradition_tgp_art_of_war requires_dlc_flag = all_under_heaven fallback = tradition_formation_fighting }
+	dlc_tradition = { trait = tradition_cultural_primacy requires_dlc_flag = all_under_heaven }
+	dlc_tradition = { trait = tradition_tgp_court_machinations requires_dlc_flag = all_under_heaven }
+	dlc_tradition = { trait = tradition_cultivation requires_dlc_flag = all_under_heaven }
+	dlc_tradition = { trait = tradition_intensive_farming requires_dlc_flag = all_under_heaven fallback = tradition_agrarian }
+	name_list = name_list_han
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+	house_coa_frame = house_china
+	ethnicities = { 100 = asian_han_chinese }
+}
+
+yangzhou = {
+	color = { 0.55 0.12 0.22 }
+	name_order_convention = dynasty_always_first
+	ethos = ethos_courtly
+	heritage = heritage_chinese
+	language = language_chinese
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = { }
+	dlc_tradition = { trait = tradition_scholar_officials requires_dlc_flag = all_under_heaven fallback = tradition_philosopher_culture }
+	dlc_tradition = { trait = tradition_tgp_art_of_war requires_dlc_flag = all_under_heaven fallback = tradition_formation_fighting }
+	dlc_tradition = { trait = tradition_cultural_primacy requires_dlc_flag = all_under_heaven }
+	dlc_tradition = { trait = tradition_tgp_court_machinations requires_dlc_flag = all_under_heaven }
+	dlc_tradition = { trait = tradition_cultivation requires_dlc_flag = all_under_heaven }
+	dlc_tradition = { trait = tradition_intensive_farming requires_dlc_flag = all_under_heaven fallback = tradition_agrarian }
+	name_list = name_list_han
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+	house_coa_frame = house_china
+	ethnicities = { 100 = asian_han_chinese }
+}
+
+yizhou = {
+	color = { 0.48 0.08 0.25 }
+	name_order_convention = dynasty_always_first
+	ethos = ethos_courtly
+	heritage = heritage_chinese
+	language = language_chinese
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = { }
+	dlc_tradition = { trait = tradition_scholar_officials requires_dlc_flag = all_under_heaven fallback = tradition_philosopher_culture }
+	dlc_tradition = { trait = tradition_tgp_art_of_war requires_dlc_flag = all_under_heaven fallback = tradition_formation_fighting }
+	dlc_tradition = { trait = tradition_cultural_primacy requires_dlc_flag = all_under_heaven }
+	dlc_tradition = { trait = tradition_tgp_court_machinations requires_dlc_flag = all_under_heaven }
+	dlc_tradition = { trait = tradition_cultivation requires_dlc_flag = all_under_heaven }
+	dlc_tradition = { trait = tradition_intensive_farming requires_dlc_flag = all_under_heaven fallback = tradition_agrarian }
+	name_list = name_list_han
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+	house_coa_frame = house_china
+	ethnicities = { 100 = asian_han_chinese }
+}
+
+liangzhou = {
+	color = { 0.62 0.18 0.2 }
+	name_order_convention = dynasty_always_first
+	ethos = ethos_courtly
+	heritage = heritage_chinese
+	language = language_chinese
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = { }
+	dlc_tradition = { trait = tradition_scholar_officials requires_dlc_flag = all_under_heaven fallback = tradition_philosopher_culture }
+	dlc_tradition = { trait = tradition_tgp_art_of_war requires_dlc_flag = all_under_heaven fallback = tradition_formation_fighting }
+	dlc_tradition = { trait = tradition_cultural_primacy requires_dlc_flag = all_under_heaven }
+	dlc_tradition = { trait = tradition_tgp_court_machinations requires_dlc_flag = all_under_heaven }
+	dlc_tradition = { trait = tradition_cultivation requires_dlc_flag = all_under_heaven }
+	dlc_tradition = { trait = tradition_intensive_farming requires_dlc_flag = all_under_heaven fallback = tradition_agrarian }
+	name_list = name_list_han
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+	house_coa_frame = house_china
+	ethnicities = { 100 = asian_han_chinese }
+}
+
+bingzhou = {
+	color = { 0.45 0.2 0.18 }
+	name_order_convention = dynasty_always_first
+	ethos = ethos_courtly
+	heritage = heritage_chinese
+	language = language_chinese
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = { }
+	dlc_tradition = { trait = tradition_scholar_officials requires_dlc_flag = all_under_heaven fallback = tradition_philosopher_culture }
+	dlc_tradition = { trait = tradition_tgp_art_of_war requires_dlc_flag = all_under_heaven fallback = tradition_formation_fighting }
+	dlc_tradition = { trait = tradition_cultural_primacy requires_dlc_flag = all_under_heaven }
+	dlc_tradition = { trait = tradition_tgp_court_machinations requires_dlc_flag = all_under_heaven }
+	dlc_tradition = { trait = tradition_cultivation requires_dlc_flag = all_under_heaven }
+	dlc_tradition = { trait = tradition_intensive_farming requires_dlc_flag = all_under_heaven fallback = tradition_agrarian }
+	name_list = name_list_han
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+	house_coa_frame = house_china
+	ethnicities = { 100 = asian_han_chinese }
+}
+
+jiaozhou = {
+	color = { 0.58 0.25 0.2 }
+	name_order_convention = dynasty_always_first
+	ethos = ethos_courtly
+	heritage = heritage_chinese
+	language = language_chinese
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = { }
+	dlc_tradition = { trait = tradition_scholar_officials requires_dlc_flag = all_under_heaven fallback = tradition_philosopher_culture }
+	dlc_tradition = { trait = tradition_tgp_art_of_war requires_dlc_flag = all_under_heaven fallback = tradition_formation_fighting }
+	dlc_tradition = { trait = tradition_cultural_primacy requires_dlc_flag = all_under_heaven }
+	dlc_tradition = { trait = tradition_tgp_court_machinations requires_dlc_flag = all_under_heaven }
+	dlc_tradition = { trait = tradition_cultivation requires_dlc_flag = all_under_heaven }
+	dlc_tradition = { trait = tradition_intensive_farming requires_dlc_flag = all_under_heaven fallback = tradition_agrarian }
+	name_list = name_list_han
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+	house_coa_frame = house_china
+	ethnicities = { 100 = asian_han_chinese }
+}

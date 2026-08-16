@@ -1,0 +1,46 @@
+### Defensive league decisions ###
+
+hd_leave_defensive_league_decision = {
+	picture = { reference = "gfx/interface/illustrations/decisions/mpo_decision_confederation.dds" }
+	decision_group_type = major
+	desc = hd_leave_defensive_league_decision_desc
+	selection_tooltip = hd_leave_defensive_league_decision_tooltip
+
+	is_shown = { hd_is_hd_defensive_league = yes }
+	is_valid = {
+		is_at_war = no
+		hd_is_hd_defensive_league = yes
+		highest_held_title_tier >= tier_county
+	}
+
+	cost = { prestige = 250 }
+	effect = {
+		add_prestige = -250
+		confederation = { remove_confederation_member = root }
+	}
+}
+
+hd_unify_defensive_league_decision = {
+	picture = { reference = "gfx/interface/illustrations/decisions/mpo_decision_confederation.dds" }
+	decision_group_type = major
+	desc = hd_unify_defensive_league_decision_desc
+	selection_tooltip = hd_unify_defensive_league_decision_tooltip
+
+	is_shown = { hd_is_hd_defensive_league = yes }
+	is_valid = {
+		is_alive = yes
+		has_variable = hd_league_leader
+		var:hd_league_leader = root
+		prestige_level >= 3
+		gold >= 300
+		prestige >= 500
+		confederation = { NOT = { any_confederation_member = { is_at_war = yes } } }
+		confederation = {
+			has_variable = hd_league_unification_year
+			current_year >= var:hd_league_unification_year
+		}
+	}
+
+	cost = { gold = 300 prestige = 500 }
+	effect = { trigger_event = hd_confederation.0500 }
+}

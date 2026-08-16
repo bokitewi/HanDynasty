@@ -1,0 +1,213 @@
+﻿uuii_silk_road_subregion_eastern = {
+	counties = {                                   c_uuii_p_867 c_uuii_p_873 c_uuii_p_5114 c_uuii_p_877 c_uuii_p_6294 c_uuii_p_880 c_uuii_p_1507 c_uuii_p_1512 c_uuii_p_1513 c_uuii_p_3027 c_uuii_p_3038 c_uuii_p_3047 c_uuii_p_1571 c_uuii_p_3080 c_uuii_p_1570 c_uuii_p_1564 c_uuii_p_1561 c_uuii_p_1560 c_zhangye c_uuii_p_1562 c_uuii_p_5744 c_uuii_p_4983 c_shandan c_uuii_p_6832 c_uuii_p_6340 c_uuii_p_5792 c_uuii_p_5947 c_uuii_p_6724 c_uuii_p_6287 c_uuii_p_6800 c_uuii_p_5007 c_uuii_p_6289 c_uuii_p_6374 c_uuii_p_5097 }
+}
+
+uuii_han_guangzhou_region = {
+	kingdoms = {  k_uuii_guangzhou }
+}
+
+tgp_china_tributary_region = {
+	kingdoms = {     k_uuii_congling k_uuii_hexi k_uuii_tarim_beidao k_uuii_tianshan_beilu }
+}
+
+world_steppe_central = {
+	duchies = {                  d_tuoba d_yunzhong d_dingxiang d_shuofang d_hexi d_shangjun d_beidi_bingzhou d_daijun d_shanggu d_xiwuhuan d_xixianbei d_gobi_ongi d_gobi_dadaels d_orkhon d_em_tataria d_ogrash d_shangjun_sili }
+	counties = {     c_gobi_sonkhot c_gobi_maominggan c_gobi_dorngovi c_em_gobidada }
+}
+
+uuii_han_bingzhou_region = {
+	kingdoms = {  k_uuii_bingzhou }
+}
+
+tgp_silk_road_hexi_region = { }
+
+uuii_empire_fusang_region = {
+	kingdoms = {    k_uuii_kunu_region k_uuii_wa_region k_uuii_yamatai_region }
+}
+
+tgp_silk_road_china_region = { }
+
+uuii_silk_road_subregion_middle_south = {
+	counties = {              c_uuii_p_6726 c_uuii_p_6826 c_uuii_p_4976 c_ronglu c_uuii_p_6653 c_uuii_p_5814 c_uuii_p_5548 c_uuii_p_5874 c_uuii_p_6026 c_uuii_p_6152 c_uuii_p_6766 c_uuii_p_6243 c_uuii_p_6361 }
+}
+
+uuii_disabled_out_of_map_region = { }
+
+uuii_han_yizhou_region = {
+	kingdoms = {  k_uuii_yizhou }
+}
+
+dlc_tgp_silk_road_route_region = {
+	counties = {                                                               c_uuii_p_867 c_uuii_p_873 c_uuii_p_5114 c_uuii_p_877 c_uuii_p_6294 c_uuii_p_880 c_uuii_p_1507 c_uuii_p_1512 c_uuii_p_1513 c_uuii_p_3027 c_uuii_p_3038 c_uuii_p_3047 c_uuii_p_1571 c_uuii_p_3080 c_uuii_p_1570 c_uuii_p_1564 c_uuii_p_1561 c_uuii_p_1560 c_zhangye c_uuii_p_1562 c_uuii_p_5744 c_uuii_p_4983 c_shandan c_uuii_p_6832 c_uuii_p_6340 c_uuii_p_5792 c_uuii_p_5947 c_uuii_p_6724 c_uuii_p_6287 c_uuii_p_6800 c_uuii_p_5007 c_uuii_p_6289 c_uuii_p_6374 c_uuii_p_5097 c_uuii_p_6454 c_uuii_p_6288 c_uuii_p_6063 c_uuii_p_6128 c_uuii_p_6775 c_uuii_p_6695 c_uuii_p_6550 c_uuii_p_6216 c_uuii_p_6117 c_uuii_p_6420 c_uuii_p_6627 c_uuii_p_6461 c_uuii_p_6778 c_uuii_p_6726 c_uuii_p_5814 c_ronglu c_uuii_p_6653 c_uuii_p_6766 c_uuii_p_5874 c_uuii_p_6152 c_uuii_p_5548 c_uuii_p_6026 c_uuii_p_6243 c_uuii_p_6361 c_uuii_p_6844 c_uuii_p_5806 c_uuii_p_5474 c_uuii_p_5024 }
+}
+
+graphical_east_asia = {
+	kingdoms = {                                k_uuii_byeonhan_region k_uuii_congling k_uuii_dayuan k_uuii_fuyu_region k_uuii_goguryeo_region k_uuii_guangzhou k_uuii_hexi k_uuii_jiaozhou k_uuii_jiangzhou k_uuii_jingzhou k_uuii_jinhan_region k_uuii_jizhou k_uuii_kunu_region k_uuii_lelang_region k_uuii_mahan_region k_uuii_ningzhou k_uuii_qingzhou k_uuii_sili k_uuii_tarim_beidao k_uuii_tarim_nandao k_uuii_tianshan_beilu k_uuii_wa_region k_uuii_xiangzhou k_uuii_xuzhou k_uuii_yamatai_region k_uuii_yangzhou k_uuii_yanzhou k_uuii_ye_region k_uuii_yizhou k_uuii_yuzhou k_uuii_zhouhu_region }
+}
+
+graphical_india = { }
+
+graphical_mediterranean = { }
+
+graphical_siberia = { }
+
+graphical_western = { }
+
+uuii_silk_road_route_middle_south = {
+	should_remember_counties_order = yes
+	counties = {              c_uuii_p_6454 c_uuii_p_6726 c_uuii_p_5814 c_ronglu c_uuii_p_6653 c_uuii_p_6766 c_uuii_p_5874 c_uuii_p_6152 c_uuii_p_5548 c_uuii_p_6026 c_uuii_p_6243 c_uuii_p_6361 c_uuii_p_6778 }
+}
+
+uuii_han_ningzhou_region = {
+	kingdoms = {  k_uuii_ningzhou }
+}
+
+uuii_han_xuzhou_region = {
+	kingdoms = {  k_uuii_xuzhou }
+}
+
+tgp_silk_road_xiyu_region = { }
+
+uuii_empire_chaoxian_region = {
+	kingdoms = {         k_uuii_byeonhan_region k_uuii_fuyu_region k_uuii_goguryeo_region k_uuii_jinhan_region k_uuii_lelang_region k_uuii_mahan_region k_uuii_ye_region k_uuii_zhouhu_region }
+}
+
+uuii_empire_xiyu_region = {
+	kingdoms = {   k_uuii_tarim_nandao k_uuii_dayuan }
+}
+
+uuii_han_jiaozhou_region = {
+	kingdoms = {  k_uuii_jiaozhou }
+}
+
+uuii_han_jingzhou_region = {
+	kingdoms = {  k_uuii_jingzhou }
+}
+
+uuii_han_jizhou_region = {
+	kingdoms = {  k_uuii_jizhou }
+}
+
+uuii_han_liangzhou_region = {
+	kingdoms = {  k_uuii_liangzhou }
+}
+
+uuii_han_qingzhou_region = {
+	kingdoms = {  k_uuii_qingzhou }
+}
+
+uuii_han_sili_region = {
+	kingdoms = {  k_uuii_sili }
+}
+
+uuii_han_yangzhou_region = {
+	kingdoms = {  k_uuii_yangzhou }
+}
+
+uuii_han_yanzhou_region = {
+	kingdoms = {  k_uuii_yanzhou }
+}
+
+uuii_han_youzhou_region = {
+	kingdoms = {  k_uuii_youzhou }
+}
+
+uuii_han_yuzhou_region = {
+	kingdoms = {  k_uuii_yuzhou }
+}
+
+uuii_outside_silk_road_visual_region = {
+	kingdoms = {            k_uuii_byeonhan_region k_uuii_fuyu_region k_uuii_goguryeo_region k_uuii_jinhan_region k_uuii_kunu_region k_uuii_lelang_region k_uuii_mahan_region k_uuii_wa_region k_uuii_yamatai_region k_uuii_ye_region k_uuii_zhouhu_region }
+}
+
+uuii_silk_road_route_eastern = {
+	should_remember_counties_order = yes
+	counties = {                                   c_uuii_p_867 c_uuii_p_873 c_uuii_p_5114 c_uuii_p_877 c_uuii_p_6294 c_uuii_p_880 c_uuii_p_1507 c_uuii_p_1512 c_uuii_p_1513 c_uuii_p_3027 c_uuii_p_3038 c_uuii_p_3047 c_uuii_p_1571 c_uuii_p_3080 c_uuii_p_1570 c_uuii_p_1564 c_uuii_p_1561 c_uuii_p_1560 c_zhangye c_uuii_p_1562 c_uuii_p_5744 c_uuii_p_4983 c_shandan c_uuii_p_6832 c_uuii_p_6340 c_uuii_p_5792 c_uuii_p_5947 c_uuii_p_6724 c_uuii_p_6287 c_uuii_p_6800 c_uuii_p_5007 c_uuii_p_6289 c_uuii_p_6374 c_uuii_p_5097 }
+}
+
+uuii_silk_road_route_middle_north = {
+	should_remember_counties_order = yes
+	counties = {              c_uuii_p_6454 c_uuii_p_6288 c_uuii_p_6063 c_uuii_p_6128 c_uuii_p_6775 c_uuii_p_6695 c_uuii_p_6550 c_uuii_p_6216 c_uuii_p_6117 c_uuii_p_6420 c_uuii_p_6627 c_uuii_p_6461 c_uuii_p_6778 }
+}
+
+uuii_silk_road_route_western = {
+	should_remember_counties_order = yes
+	counties = {      c_uuii_p_6778 c_uuii_p_6844 c_uuii_p_5806 c_uuii_p_5474 c_uuii_p_5024 }
+}
+
+uuii_silk_road_subregion_middle_north = {
+	counties = {                         c_uuii_p_6454 c_uuii_p_6288 c_uuii_p_5541 c_uuii_p_6063 c_uuii_p_6114 c_uuii_p_6128 c_uuii_p_6775 c_uuii_p_6117 c_uuii_p_6627 c_uuii_p_5022 c_uuii_p_6420 c_uuii_p_6216 c_uuii_p_6550 c_uuii_p_6695 c_uuii_p_5057 c_uuii_p_6619 c_uuii_p_6421 c_uuii_p_5042 c_uuii_p_5028 c_uuii_p_5533 c_uuii_p_5465 c_uuii_p_6222 c_uuii_p_4971 c_uuii_p_6461 }
+}
+
+uuii_silk_road_subregion_western = {
+	counties = {              c_uuii_p_6778 c_uuii_p_5060 c_uuii_p_6844 c_uuii_p_6339 c_uuii_p_6789 c_uuii_p_5480 c_uuii_p_6308 c_julan c_uuii_p_5881 c_uuii_p_5024 c_uuii_p_6638 c_uuii_p_5474 c_uuii_p_5806 }
+}
+
+world_steppe_east = {
+	kingdoms = {  k_shiwei }
+	duchies = {         d_EM_yujuelu d_EM_onon d_LIAO_linhuang d_LIAO_shangjing d_BAL_buyeo d_fuyu d_yuwen d_dongwuhuan }
+	counties = {             c_LIAO_raozhou c_gobi_abakhai c_gobi_abga c_uuii_p_1254 c_uuii_p_2605 c_uuii_p_3787 c_uuii_p_3789 c_uuii_p_3492 c_uuii_p_3480 c_uuii_p_3771 c_uuii_p_3506 c_uuii_p_1259 }
+}
+
+world_huaxia_bingzhou = {
+	regions = {  uuii_han_bingzhou_region }
+}
+
+world_huaxia_yizhou = {
+	regions = {  uuii_han_yizhou_region }
+}
+
+world_huaxia_yongzhou = {
+	regions = {  uuii_han_liangzhou_region }
+}
+
+world_steppe_west = {
+	kingdoms = {      k_xia k_dzungaria k_naimania k_uuii_tarim_nandao k_amdo }
+	regions = {  uuii_han_liangzhou_region }
+}
+
+graphical_steppe = {
+	regions = {    uuii_han_liangzhou_region uuii_han_bingzhou_region uuii_han_youzhou_region }
+}
+
+world_huaxia_youzhou = {
+	regions = {  uuii_han_youzhou_region }
+}
+
+uuii_empire_han_region = {
+	regions = {                uuii_han_yuzhou_region uuii_han_xuzhou_region uuii_han_yanzhou_region uuii_han_qingzhou_region uuii_han_jizhou_region uuii_han_youzhou_region uuii_han_bingzhou_region uuii_han_sili_region uuii_han_liangzhou_region uuii_han_yizhou_region uuii_han_jingzhou_region uuii_han_yangzhou_region uuii_han_guangzhou_region uuii_han_jiaozhou_region uuii_han_ningzhou_region }
+}
+
+world_steppe_tarim = {
+	regions = {   uuii_silk_road_subregion_middle_north uuii_silk_road_subregion_middle_south }
+}
+
+tgp_silk_road_region = {
+	regions = {     uuii_silk_road_subregion_eastern uuii_silk_road_subregion_middle_north uuii_silk_road_subregion_middle_south uuii_silk_road_subregion_western }
+}
+
+world_steppe = {
+	generate_modifiers = yes
+	regions = {    world_steppe_west world_steppe_central world_steppe_east }
+}
+
+world_asia_china = {
+	regions = {  uuii_empire_han_region }
+}
+
+world_asia_north_east = {
+	regions = {    uuii_empire_han_region uuii_empire_chaoxian_region uuii_empire_fusang_region }
+}
+
+graphical_mena = {
+	regions = {  world_africa }
+}
+
+world_asia_east = {
+	regions = {   world_asia_north_east uuii_empire_xiyu_region }
+}
+
+world_asia = {
+	regions = {  world_asia_east }
+}
+

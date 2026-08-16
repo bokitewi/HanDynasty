@@ -1,0 +1,85 @@
+﻿# Generated from 華陽國志、三國志、三國演義、後漢書 and 漢晉春秋.
+# Culture: tagalog
+# Time partition: 180_200 (death >= 180 and birth <= 200).
+# No title history is assigned. Dates marked in the evidence audit may be estimates.
+
+##### 【佩莱斯约瑟夫】
+pei_lai_si_yue_se_fu={
+	name="uuii_book_pei_lai_si_yue_se_fu_name" #莱斯约瑟夫
+	dynasty_house="house_174080013001013"
+	culture="tagalog"
+	faith="dayawism"
+	diplomacy="8"
+	martial="8"
+	stewardship="6"
+	intrigue="5"
+	learning="6"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_diplomacy_2
+	trait=tk_historical_character01
+	trait=zealous
+	trait=ambitious
+	trait=wrathful
+	168.7.1={
+		birth=yes
+	}
+	235.7.1={
+		death=yes
+	}
+}
+
+##### 【劳雷尔拉蒙】
+lao_lei_er_la_meng={
+	name="uuii_book_lao_lei_er_la_meng_name" #雷尔拉蒙
+	dynasty_house="house_174080015001013"
+	culture="tagalog"
+	faith="dayawism"
+	diplomacy="7"
+	martial="6"
+	stewardship="8"
+	intrigue="8"
+	learning="4"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_2
+	trait=tk_historical_character01
+	trait=stubborn
+	trait=lustful
+	trait=vengeful
+	168.7.1={
+		birth=yes
+	}
+	235.7.1={
+		death=yes
+	}
+}
+
+##### 【马尼拉阿尔涅尔】
+ma_ni_la_a_er_nie_er={
+	name="uuii_book_ma_ni_la_a_er_nie_er_name" #尼拉阿尔涅尔
+	dynasty_house="house_174080025001013"
+	culture="tagalog"
+	faith="dayawism"
+	diplomacy="6"
+	martial="6"
+	stewardship="6"
+	intrigue="7"
+	learning="8"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_learning_2
+	trait=tk_historical_character01
+	trait=shy
+	trait=generous
+	trait=sadistic
+	168.7.1={
+		birth=yes
+	}
+	235.7.1={
+		death=yes
+	}
+}

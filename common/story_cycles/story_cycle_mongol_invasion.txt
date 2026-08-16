@@ -1,0 +1,7 @@
+# Unsupported vanilla regional story cycle retained only as an inert public shell.
+
+story_mongol_invasion = {
+	visible = no
+	on_setup = { end_story = yes }
+	on_owner_death = { end_story = yes }
+}

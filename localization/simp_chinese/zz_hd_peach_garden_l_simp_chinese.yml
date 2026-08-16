@@ -1,0 +1,4 @@
+﻿l_simp_chinese:
+ hd_peach_garden.0001.t:0 "桃园结义"
+ hd_peach_garden.0001.desc:0 "我与[guan_yu.GetName]、[zhang_fei.GetName]虽然相识未久，却有着相同的志向。今日我们备下酒礼，对天地立誓，从此结为兄弟，同心协力，共扶汉室。\n\n“不求同年同月同日生，只愿同年同月同日死。”"
+ hd_peach_garden.0001.a:0 "不求同生，但求同死！"

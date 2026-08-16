@@ -1,0 +1,285 @@
+﻿# Title transfer and outcome effects used by the uprising war.
+
+hd_uprising_transfer_duchy_to_attacker_effect = {
+	create_title_and_vassal_change = {
+		type = conquest
+		save_scope_as = hd_uprising_change
+		add_claim_on_loss = no
+	}
+
+	# Transfer the duchy title itself when it is held by the enemy or uncreated.
+	if = {
+		limit = {
+			OR = {
+				NOT = { exists = holder }
+				holder ?= {
+					OR = {
+						this = $ENEMY$
+						is_vassal_or_below_of = $ENEMY$
+					}
+				}
+			}
+		}
+		change_title_holder = {
+			holder = $RECIPIENT$
+			change = scope:hd_uprising_change
+			take_baronies = no
+		}
+	}
+
+	# All occupied counties go directly to the primary attacker.
+	every_de_jure_county = {
+		limit = {
+			holder ?= {
+				OR = {
+					this = $ENEMY$
+					is_vassal_or_below_of = $ENEMY$
+				}
+			}
+			county_controller ?= {
+				is_attacker_in_war = $WAR$
+			}
+		}
+		change_title_holder = {
+			holder = $RECIPIENT$
+			change = scope:hd_uprising_change
+			take_baronies = yes
+		}
+	}
+
+	resolve_title_and_vassal_change = scope:hd_uprising_change
+}
+
+hd_uprising_transfer_duchy_to_defender_effect = {
+	create_title_and_vassal_change = {
+		type = conquest
+		save_scope_as = hd_uprising_change
+		add_claim_on_loss = no
+	}
+
+	# Transfer the duchy title itself when it is held by the enemy or uncreated.
+	if = {
+		limit = {
+			OR = {
+				NOT = { exists = holder }
+				holder ?= {
+					OR = {
+						this = $ENEMY$
+						is_vassal_or_below_of = $ENEMY$
+					}
+				}
+			}
+		}
+		change_title_holder = {
+			holder = $RECIPIENT$
+			change = scope:hd_uprising_change
+			take_baronies = no
+		}
+	}
+
+	# All occupied counties go directly to the primary defender.
+	every_de_jure_county = {
+		limit = {
+			holder ?= {
+				OR = {
+					this = $ENEMY$
+					is_vassal_or_below_of = $ENEMY$
+				}
+			}
+			county_controller ?= {
+				is_defender_in_war = $WAR$
+			}
+		}
+		change_title_holder = {
+			holder = $RECIPIENT$
+			change = scope:hd_uprising_change
+			take_baronies = yes
+		}
+	}
+
+	resolve_title_and_vassal_change = scope:hd_uprising_change
+}
+
+hd_uprising_grant_independence_effect = {
+	create_title_and_vassal_change = {
+		type = independency
+		save_scope_as = hd_uprising_independence_change
+		add_claim_on_loss = no
+	}
+
+	scope:attacker = {
+		change_liege_or_become_independent = {
+			CHANGE = scope:hd_uprising_independence_change
+			VASSAL = this
+		}
+		add_truce_both_ways = {
+			character = scope:defender
+			days = 1825
+			war = $WAR$
+			result = victory
+		}
+	}
+
+	resolve_title_and_vassal_change = scope:hd_uprising_independence_change
+}
+
+# A Yellow Turban victory breaks the Han court's control over the provinces.
+# The territorial vassals become independent first; only then is the Chinese
+# hegemony destroyed, leaving e_han and the emperor's personal realm intact.
+hd_yellow_turban_dissolve_han_court_effect = {
+	scope:defender = {
+		every_vassal = {
+			limit = {
+				is_landed = yes
+				highest_held_title_tier > tier_barony
+			}
+			add_to_list = hd_yellow_turban_han_direct_vassals
+		}
+	}
+
+	create_title_and_vassal_change = {
+		type = independency
+		save_scope_as = hd_yellow_turban_han_dissolution_change
+		add_claim_on_loss = no
+	}
+
+	every_in_list = {
+		list = hd_yellow_turban_han_direct_vassals
+		change_liege_or_become_independent = {
+			CHANGE = scope:hd_yellow_turban_han_dissolution_change
+			VASSAL = this
+		}
+	}
+
+	resolve_title_and_vassal_change = scope:hd_yellow_turban_han_dissolution_change
+
+	# h_china is the actual top-level Chinese hegemony. e_han deliberately survives
+	# as the emperor's reduced remnant state.
+	title:h_china.holder ?= {
+		destroy_title = title:h_china
+	}
+}
+
+hd_uprising_annex_attacker_realm_effect = {
+	# Capture every current title held by the primary attacker, including
+	# duchies obtained by the half-year occupation transfer.
+	scope:attacker = {
+		every_held_title = {
+			limit = {
+				tier >= tier_county
+				is_landless_type_title = no
+			}
+			add_to_list = hd_uprising_attacker_titles
+		}
+	}
+
+	create_title_and_vassal_change = {
+		type = conquest
+		save_scope_as = hd_uprising_annex_change
+		add_claim_on_loss = no
+	}
+
+	every_in_list = {
+		list = hd_uprising_attacker_titles
+		change_title_holder_include_vassals = {
+			holder = scope:defender
+			change = scope:hd_uprising_annex_change
+			take_baronies = yes
+		}
+	}
+
+	resolve_title_and_vassal_change = scope:hd_uprising_annex_change
+}
+
+hd_uprising_half_year_scan_effect = {
+	$WAR$ = {
+		save_scope_as = hd_uprising_war
+		primary_attacker = {
+			save_scope_as = hd_uprising_attacker
+		}
+		primary_defender = {
+			save_scope_as = hd_uprising_defender
+		}
+	}
+
+	# A side that has lost its last landed title cannot continue the war.
+	# Yellow Turban attackers are exempt because Zhang Jiao starts landless.
+	if = {
+		limit = {
+			hd_uprising_attacker_cannot_continue_trigger = {
+				WAR = scope:hd_uprising_war
+				ATTACKER = scope:hd_uprising_attacker
+			}
+		}
+		scope:hd_uprising_war = {
+			end_war = defender
+		}
+	}
+	else_if = {
+		limit = {
+			hd_uprising_defender_cannot_continue_trigger = {
+				DEFENDER = scope:hd_uprising_defender
+			}
+		}
+		scope:hd_uprising_war = {
+			end_war = attacker
+		}
+	}
+	else = {
+		# Check both directions so either side can take a completely occupied duchy.
+		scope:hd_uprising_defender = {
+			every_sub_realm_duchy = {
+				limit = {
+					hd_uprising_duchy_fully_occupied_by_attacker_trigger = {
+						WAR = scope:hd_uprising_war
+						ENEMY = scope:hd_uprising_defender
+					}
+				}
+				hd_uprising_transfer_duchy_to_attacker_effect = {
+					WAR = scope:hd_uprising_war
+					ENEMY = scope:hd_uprising_defender
+					RECIPIENT = scope:hd_uprising_attacker
+				}
+			}
+		}
+
+		scope:hd_uprising_attacker = {
+			every_sub_realm_duchy = {
+				limit = {
+					hd_uprising_duchy_fully_occupied_by_defender_trigger = {
+						WAR = scope:hd_uprising_war
+						ENEMY = scope:hd_uprising_attacker
+					}
+				}
+				hd_uprising_transfer_duchy_to_defender_effect = {
+					WAR = scope:hd_uprising_war
+					ENEMY = scope:hd_uprising_attacker
+					RECIPIENT = scope:hd_uprising_defender
+				}
+			}
+		}
+
+		# Re-check after transfers so a newly landless side ends immediately.
+		if = {
+			limit = {
+				hd_uprising_attacker_cannot_continue_trigger = {
+					WAR = scope:hd_uprising_war
+					ATTACKER = scope:hd_uprising_attacker
+				}
+			}
+			scope:hd_uprising_war = {
+				end_war = defender
+			}
+		}
+		else_if = {
+			limit = {
+				hd_uprising_defender_cannot_continue_trigger = {
+					DEFENDER = scope:hd_uprising_defender
+				}
+			}
+			scope:hd_uprising_war = {
+				end_war = attacker
+			}
+		}
+	}
+}

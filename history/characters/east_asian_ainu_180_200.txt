@@ -1,0 +1,139 @@
+﻿# Generated from 華陽國志、三國志、三國演義、後漢書 and 漢晉春秋.
+# Culture: ainu
+# Time partition: 180_200 (death >= 180 and birth <= 200).
+# No title history is assigned. Dates marked in the evidence audit may be estimates.
+
+##### 【根室八郎右卫门】
+gen_shi_ba_lang_you_wei_men={
+	name="uuii_book_gen_shi_ba_lang_you_wei_men_name" #室八郎右卫门
+	dynasty_house="house_121040001001013"
+	culture="ainu"
+	faith="kamuyism_pagan"
+	diplomacy="6"
+	martial="6"
+	stewardship="6"
+	intrigue="8"
+	learning="9"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_learning_2
+	trait=tk_historical_character02
+	trait=ambitious
+	trait=arbitrary
+	trait=diligent
+	165.7.1={
+		birth=yes
+	}
+	241.7.1={
+		death=yes
+	}
+}
+
+##### 【流鬼也可矢】
+liu_gui_ye_ke_shi={
+	name="uuii_book_liu_gui_ye_ke_shi_name" #鬼也可矢
+	dynasty_house="house_121040026001013"
+	culture="ainu"
+	faith="kamuyism_pagan"
+	diplomacy="9"
+	martial="6"
+	stewardship="6"
+	intrigue="5"
+	learning="5"
+	prowess="9"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_diplomacy_2
+	trait=tk_fictional_character02
+	trait=greedy
+	trait=vengeful
+	trait=honest
+	166.7.1={
+		birth=yes
+	}
+	243.7.1={
+		death=yes
+	}
+}
+
+##### 【尼夫赫鲂淖】
+ni_fu_he_fang_nao={
+	name="uuii_book_ni_fu_he_fang_nao_name" #夫赫鲂淖
+	dynasty_house="house_121040027001013"
+	culture="ainu"
+	faith="kamuyism_pagan"
+	diplomacy="5"
+	martial="8"
+	stewardship="9"
+	intrigue="5"
+	learning="4"
+	prowess="9"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_2
+	trait=tk_fictional_character02
+	trait=content
+	trait=honest
+	trait=stubborn
+	163.7.1={
+		birth=yes
+	}
+	239.7.1={
+		death=yes
+	}
+}
+
+##### 【夜叉卓可】
+ye_cha_zhuo_ke={
+	name="uuii_book_ye_cha_zhuo_ke_name" #叉卓可
+	dynasty_house="house_121040028001013"
+	culture="ainu"
+	faith="kamuyism_pagan"
+	diplomacy="6"
+	martial="6"
+	stewardship="4"
+	intrigue="8"
+	learning="8"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_intrigue_2
+	trait=tk_fictional_character02
+	trait=lustful
+	trait=zealous
+	trait=lazy
+	168.7.1={
+		birth=yes
+	}
+	244.7.1={
+		death=yes
+	}
+}
+
+##### 【楚科奇摩剌】
+chu_ke_qi_mo_la={
+	name="uuii_book_chu_ke_qi_mo_la_name" #科奇摩剌
+	dynasty_house="house_121040029001013"
+	culture="ainu"
+	faith="kamuyism_pagan"
+	diplomacy="4"
+	martial="6"
+	stewardship="4"
+	intrigue="9"
+	learning="9"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_intrigue_2
+	trait=tk_fictional_character02
+	trait=brave
+	trait=fickle
+	trait=shy
+	159.7.1={
+		birth=yes
+	}
+	231.7.1={
+		death=yes
+	}
+}

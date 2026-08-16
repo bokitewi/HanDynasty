@@ -1,0 +1,8 @@
+# Unsupported vanilla regional event chain retained only as inert public shells.
+namespace = fp2_struggle
+
+fp2_struggle.2045 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_struggle.2050 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_struggle.2051 = { type = character_event hidden = yes trigger = { always = no } }
+
+scripted_trigger el_cid_too_important_trigger = { always = no }

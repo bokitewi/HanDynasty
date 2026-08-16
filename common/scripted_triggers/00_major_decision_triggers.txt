@@ -1,0 +1,26 @@
+# Unsupported vanilla regional major-decision triggers disabled.
+
+accuse_krstjani_of_heresy_decision_suitable_krstjani_realm_owner_trigger = { always = no }
+favour_the_countryside_basques_counts_as_basque_trigger = { always = no }
+favour_the_countryside_basques_rationale_excommunicated_trigger = { always = no }
+favour_the_countryside_basques_rationale_hof_rivalry_trigger = { always = no }
+favour_the_countryside_basques_rationale_naked_cynicism_trigger = { always = no }
+favour_the_countryside_basques_rationale_negative_piety_level_trigger = { always = no }
+favour_the_countryside_basques_rationale_sinful_traits_trigger = { always = no }
+favour_the_countryside_basques_rationale_virtuous_basque_pagan_traits_trigger = { always = no }
+launch_hungarian_migration_count_processing_trigger = { always = no }
+launch_hungarian_migration_county_is_within_custom_hungary_trigger = { always = no }
+launch_hungarian_migration_direct_vassal_requirements_trigger = { always = no }
+launch_hungarian_migration_ducal_processing_trigger = { always = no }
+launch_hungarian_migration_misplaced_count_suitable_liege_trigger = { always = no }
+launch_hungarian_migration_sub_vassal_liege_pairing_trigger = { always = no }
+negotiate_the_danelaw_additional_filter_trigger = { always = no }
+negotiate_the_danelaw_basic_filter_trigger = { always = no }
+negotiate_the_danelaw_british_side_trigger = { always = no }
+negotiate_the_danelaw_norse_side_trigger = { always = no }
+negotiate_the_danelaw_standard_filter_trigger = { always = no }
+negotiate_the_danelaw_valid_danelaw_opponent_trigger = { always = no }
+rebuke_roman_revanchism_counties_controlled_by_ere_trigger = { always = no }
+rebuke_roman_revanchism_counties_controlled_trigger = { always = no }
+rebuke_roman_revanchism_sicily_controls_unlisted_empire_trigger = { always = no }
+restore_roman_empire_decision_religion_culture_trigger = { always = no }

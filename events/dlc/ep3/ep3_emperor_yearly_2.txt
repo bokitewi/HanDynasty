@@ -1,0 +1,56 @@
+# Unsupported vanilla regional event chain retained only as inert public shells.
+namespace = ep3_emperor_yearly
+
+ep3_emperor_yearly.2000 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_emperor_yearly.2010 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_emperor_yearly.2020 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_emperor_yearly.2021 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_emperor_yearly.2030 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_emperor_yearly.2040 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_emperor_yearly.2050 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_emperor_yearly.2060 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_emperor_yearly.2070 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_emperor_yearly.2080 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_emperor_yearly.2081 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_emperor_yearly.2090 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_emperor_yearly.2100 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_emperor_yearly.2110 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_emperor_yearly.2120 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_emperor_yearly.2130 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_emperor_yearly.2140 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_emperor_yearly.2150 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_emperor_yearly.2151 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_emperor_yearly.2160 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_emperor_yearly.2170 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_emperor_yearly.2180 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_emperor_yearly.2181 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_emperor_yearly.2190 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_emperor_yearly.2200 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_emperor_yearly.2210 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_emperor_yearly.2211 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_emperor_yearly.2220 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_emperor_yearly.2230 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_emperor_yearly.2240 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_emperor_yearly.2300 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_emperor_yearly.2310 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_emperor_yearly.2320 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_emperor_yearly.2330 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_emperor_yearly.2340 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_emperor_yearly.2400 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_emperor_yearly.2401 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_emperor_yearly.2410 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_emperor_yearly.2420 = { type = character_event hidden = yes trigger = { always = no } }
+
+scripted_trigger 2100_valid_neighboring_county_trigger = { always = no }
+scripted_trigger 2120_valid_byz_spouse_trigger = { always = no }
+scripted_trigger 2120_valid_non_byz_complainer_trigger = { always = no }
+scripted_trigger emperor_2010_valid_child_trigger = { always = no }
+scripted_trigger emperor_2010_valid_courtier_trigger = { always = no }
+scripted_trigger ep3_2160_valid_neighbor_trigger = { always = no }
+scripted_trigger ep3_2190_valid_domicile_owner_trigger = { always = no }
+scripted_trigger ep3_2220_famous_monastery_trigger = { always = no }
+scripted_trigger ep3_2220_valid_county_trigger = { always = no }
+scripted_trigger ep3_2240_valid_courtier_trigger = { always = no }
+scripted_trigger ep3_valid_greek_culture_trigger = { always = no }
+scripted_trigger valid_clergy_gender_trigger = { always = no }
+scripted_trigger valid_date_foundation_constantinople_trigger = { always = no }

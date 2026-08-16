@@ -1,0 +1,22 @@
+# Public no-op interfaces retained for generic callers after unsupported
+# European, regency, and TGP Japan systems were disabled.
+
+faction_demand_regent_transfer_effect = {
+	if = {
+		limit = { always = no }
+		$NEW_REGENT$ = { save_temporary_scope_as = hd_disabled_regent_candidate }
+		set_variable = {
+			name = hd_disabled_regent_transfer_reason
+			value = flag:$REASON$
+		}
+	}
+}
+create_love_artifact_poetry_effect = {
+	$OWNER$ = { }
+}
+tgp_bloc_members_join_faction_effect = { }
+tgp_destroy_ceremonial_throne_effect = { }
+tgp_japan_demand_administrative_refusal_effect = { }
+tgp_liege_change_bloc_management_effect = {
+	$VASSAL$ = { }
+}

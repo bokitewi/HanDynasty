@@ -1,0 +1,395 @@
+﻿window = {
+	name = "rp_merit_roster_window"
+	size = { 1180 760 }
+	parentanchor = center
+	layer = middle
+	allow_outside = yes
+	movable = yes
+	alwaystransparent = no
+
+	using = Window_Background
+	using = Window_Decoration_Spike
+
+	visible = "[And( GetVariableSystem.HasValue( 'rp_merit_roster_visibility_toggle', 'true' ), GetPlayer.IsValid )]"
+
+	state = {
+		name = _show
+		using = Animation_FadeIn_Quick
+		using = Sound_WindowShow_Standard
+		on_finish = "[GetScriptedGui('rp_merit_roster_rebuild_effect').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+	}
+
+	state = {
+		name = _hide
+		using = Animation_FadeOut_Quick
+		using = Sound_WindowHide_Standard
+	}
+
+	vbox = {
+		using = Window_Margins
+		layoutpolicy_horizontal = expanding
+		layoutpolicy_vertical = expanding
+		spacing = 8
+
+		header_pattern = {
+			layoutpolicy_horizontal = expanding
+
+			blockoverride "header_text" {
+				text = rp_merit_roster_window_title
+				max_width = 720
+			}
+
+			blockoverride "button_close" {
+				focuspolicy = click
+				onclick = "[GetVariableSystem.Toggle( 'rp_merit_roster_visibility_toggle' )]"
+			}
+		}
+
+		hbox = {
+			layoutpolicy_horizontal = expanding
+			size = { 0 34 }
+			margin = { 12 0 }
+			spacing = 8
+
+			text_single = {
+				layoutpolicy_horizontal = expanding
+				text = rp_merit_roster_window_subtitle
+				default_format = "#low"
+				align = nobaseline
+				autoresize = no
+			}
+
+			button_standard = {
+				name = "rp_merit_roster_refresh_button"
+				size = { 105 30 }
+				focuspolicy = click
+				onclick = "[GetScriptedGui('rp_merit_roster_rebuild_effect').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+				tooltip = rp_merit_roster_refresh_tt
+				using = tooltip_ne
+
+				text_single = {
+					alwaystransparent = yes
+					size = { 85 22 }
+					parentanchor = center
+					text = rp_merit_roster_refresh
+					default_format = "#high"
+					align = center|nobaseline
+				}
+			}
+		}
+
+		widget = {
+			name = "rp_merit_roster_header"
+			layoutpolicy_horizontal = expanding
+			size = { 0 38 }
+			margin = { 12 0 }
+			background = { using = Background_Area_Characterlist }
+
+			text_single = {
+				size = { 210 26 }
+				parentanchor = top|left
+				position = { 78 6 }
+				text = rp_merit_roster_col_character
+				default_format = "#high"
+				align = left|nobaseline
+			}
+
+			text_single = {
+				size = { 105 26 }
+				parentanchor = top|left
+				position = { 300 6 }
+				text = rp_merit_roster_col_merit
+				default_format = "#high"
+				align = center|nobaseline
+			}
+
+			text_single = {
+				size = { 180 26 }
+				parentanchor = top|left
+				position = { 405 6 }
+				text = rp_merit_roster_col_record
+				default_format = "#high"
+				align = center|nobaseline
+			}
+
+			text_single = {
+				size = { 90 26 }
+				parentanchor = top|left
+				position = { 585 6 }
+				text = rp_merit_roster_col_seniority
+				default_format = "#high"
+				align = center|nobaseline
+			}
+
+			text_single = {
+				size = { 220 26 }
+				parentanchor = top|left
+				position = { 675 6 }
+				text = rp_merit_roster_col_status
+				default_format = "#high"
+				align = center|nobaseline
+			}
+
+			text_single = {
+				size = { 125 26 }
+				parentanchor = top|left
+				position = { 895 6 }
+				text = rp_merit_roster_col_rewards
+				default_format = "#high"
+				align = center|nobaseline
+			}
+		}
+
+		scrollbox = {
+			name = "rp_merit_roster_scrollbox"
+			layoutpolicy_horizontal = expanding
+			layoutpolicy_vertical = expanding
+			margin = { 12 0 }
+
+			blockoverride "scrollbox_content" {
+				vbox = {
+					layoutpolicy_horizontal = expanding
+					layoutpolicy_vertical = expanding
+					spacing = 5
+
+					fixedgridbox = {
+						name = "rp_merit_roster_grid"
+						layoutpolicy_horizontal = expanding
+						addcolumn = 1020
+						addrow = 86
+						setitemsizefromcell = yes
+						datamodel = "[GetPlayer.MakeScope.GetList('rp_merit_roster_ui_list')]"
+
+						item = {
+							rp_merit_roster_list_item = {}
+						}
+					}
+				}
+			}
+		}
+
+		text_multi = {
+			visible = "[IsDataModelEmpty( GetPlayer.MakeScope.GetList('rp_merit_roster_ui_list') )]"
+			layoutpolicy_horizontal = expanding
+			minimumsize = { 0 60 }
+			text = rp_merit_roster_empty
+			default_format = "#low"
+			align = center
+		}
+	}
+}
+
+types rp_merit_roster_types
+{
+	type rp_merit_roster_list_item = widget {
+		name = "rp_merit_roster_list_item"
+		datacontext = "[Scope.GetCharacter]"
+		size = { 1020 86 }
+		allow_outside = yes
+
+		background = {
+			using = Background_Area_Characterlist
+		}
+
+		portrait_head_small = {
+			size = { 52 52 }
+			parentanchor = top|left
+			position = { 14 17 }
+			blockoverride "glow_visible" { visible = no }
+		}
+
+		widget = {
+			size = { 210 70 }
+			parentanchor = top|left
+			position = { 78 10 }
+
+			text_single = {
+				size = { 210 22 }
+				parentanchor = top|left
+				position = { 0 0 }
+				text = "[Character.GetTitledFirstNameNoTooltip]"
+				max_width = 200
+				default_format = "#high"
+				align = left|nobaseline
+				autoresize = no
+			}
+
+			text_single = {
+				visible = "[Character.GetHouse.IsValid]"
+				size = { 210 20 }
+				parentanchor = top|left
+				position = { 0 24 }
+				text = "[Character.GetHouse.GetNameNoTooltip]"
+				max_width = 200
+				default_format = "#low"
+				align = left|nobaseline
+				autoresize = no
+			}
+
+			text_single = {
+				size = { 210 20 }
+				parentanchor = top|left
+				position = { 0 48 }
+				text = "[Character.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+				max_width = 200
+				default_format = "#low"
+				align = left|nobaseline
+				autoresize = no
+			}
+		}
+
+		widget = {
+			size = { 105 64 }
+			parentanchor = top|left
+			position = { 300 11 }
+
+			text_single = {
+				size = { 105 28 }
+				parentanchor = top|left
+				position = { 0 2 }
+				text = "[Character.MakeScope.Var('rp_merit_score').GetValue|0]"
+				default_format = "#V"
+				align = center|nobaseline
+				autoresize = no
+			}
+
+			text_single = {
+				size = { 105 22 }
+				parentanchor = top|left
+				position = { 0 36 }
+				text = "[Character.MakeScope.Var('rp_merit_peak_score').GetValue|0]"
+				default_format = "#low"
+				align = center|nobaseline
+				autoresize = no
+			}
+		}
+
+		widget = {
+			size = { 180 64 }
+			parentanchor = top|left
+			position = { 405 11 }
+
+			text_single = {
+				size = { 54 26 }
+				parentanchor = top|left
+				position = { 0 2 }
+				text = "[Character.MakeScope.Var('rp_merit_battles').GetValue|0]"
+				tooltip = rp_merit_roster_battles_tt
+				default_format = "#high"
+				align = center|nobaseline
+				autoresize = no
+			}
+
+			text_single = {
+				size = { 54 18 }
+				parentanchor = top|left
+				position = { 0 36 }
+				text = rp_merit_roster_record_battles_short
+				default_format = "#low"
+				align = center|nobaseline
+				autoresize = no
+			}
+
+			text_single = {
+				size = { 54 26 }
+				parentanchor = top|left
+				position = { 62 2 }
+				text = "[Character.MakeScope.Var('rp_merit_sieges').GetValue|0]"
+				tooltip = rp_merit_roster_sieges_tt
+				default_format = "#high"
+				align = center|nobaseline
+				autoresize = no
+			}
+
+			text_single = {
+				size = { 54 18 }
+				parentanchor = top|left
+				position = { 62 36 }
+				text = rp_merit_roster_record_sieges_short
+				default_format = "#low"
+				align = center|nobaseline
+				autoresize = no
+			}
+
+			text_single = {
+				size = { 54 26 }
+				parentanchor = top|left
+				position = { 124 2 }
+				text = "[Character.MakeScope.Var('rp_merit_captures').GetValue|0]"
+				tooltip = rp_merit_roster_captures_tt
+				default_format = "#high"
+				align = center|nobaseline
+				autoresize = no
+			}
+
+			text_single = {
+				size = { 54 18 }
+				parentanchor = top|left
+				position = { 124 36 }
+				text = rp_merit_roster_record_captures_short
+				default_format = "#low"
+				align = center|nobaseline
+				autoresize = no
+			}
+		}
+
+		widget = {
+			size = { 90 64 }
+			parentanchor = top|left
+			position = { 585 11 }
+
+			text_single = {
+				size = { 90 28 }
+				parentanchor = top|left
+				position = { 0 2 }
+				text = "[Character.MakeScope.Var('rp_founding_seniority').GetValue|0]"
+				default_format = "#high"
+				align = center|nobaseline
+				autoresize = no
+			}
+
+			text_single = {
+				size = { 90 20 }
+				parentanchor = top|left
+				position = { 0 36 }
+				text = rp_merit_roster_years_short
+				default_format = "#low"
+				align = center|nobaseline
+				autoresize = no
+			}
+		}
+
+		text_multi = {
+			size = { 220 64 }
+			parentanchor = top|left
+			position = { 675 11 }
+			text = "[Character.Custom('RPMeritStatus')]"
+			default_format = "#low"
+			align = center
+			autoresize = no
+		}
+
+		button_standard = {
+			name = "rp_merit_roster_reward_button"
+			size = { 110 38 }
+			parentanchor = top|left
+			position = { 902 24 }
+			focuspolicy = click
+			button_ignore = none
+			enabled = "[GetScriptedGui('rp_merit_roster_reward_event_effect').IsValid( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope( 'rp_merit_target', Character.MakeScope ).End )]"
+			onclick = "[GetScriptedGui('rp_merit_roster_reward_event_effect').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope( 'rp_merit_target', Character.MakeScope ).End )]"
+			tooltip = rp_merit_roster_reward_action_tt
+			using = tooltip_ne
+
+			text_single = {
+				alwaystransparent = yes
+				size = { 96 24 }
+				parentanchor = center
+				text = rp_merit_roster_reward_action
+				default_format = "#high"
+				align = center|nobaseline
+				autoresize = no
+			}
+		}
+	}
+}

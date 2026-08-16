@@ -1,0 +1,785 @@
+﻿rp_is_merit_system_enabled_trigger = {
+	is_ruler = yes
+	is_ai = no
+	highest_held_title_tier >= tier_county
+}
+
+rp_has_rewardable_merit_trigger = {
+	has_variable = rp_merit_score
+	var:rp_merit_score >= 30
+}
+
+rp_can_request_merit_reward_trigger = {
+	rp_has_rewardable_merit_trigger = yes
+	OR = {
+		AND = {
+			highest_held_title_tier >= tier_kingdom
+			var:rp_merit_score >= 120
+		}
+		AND = {
+			highest_held_title_tier = tier_duchy
+			var:rp_merit_score >= 90
+		}
+		AND = {
+			highest_held_title_tier = tier_county
+			var:rp_merit_score >= 60
+		}
+		AND = {
+			highest_held_title_tier < tier_county
+			has_variable = rp_founding_seniority
+			var:rp_founding_seniority >= 40
+			var:rp_merit_score >= 90
+		}
+		AND = {
+			highest_held_title_tier < tier_county
+			has_variable = rp_founding_seniority
+			var:rp_founding_seniority >= 20
+			var:rp_merit_score >= 60
+		}
+		AND = {
+			highest_held_title_tier < tier_county
+			NOR = {
+				is_powerful_vassal = yes
+				has_trait = ambitious
+				has_trait = greedy
+				has_trait = arrogant
+			}
+			OR = {
+				NOT = { has_variable = rp_founding_seniority }
+				var:rp_founding_seniority < 30
+			}
+			var:rp_merit_score >= 30
+		}
+		AND = {
+			highest_held_title_tier < tier_county
+			OR = {
+				is_powerful_vassal = yes
+				has_trait = ambitious
+				has_trait = greedy
+				has_trait = arrogant
+			}
+			var:rp_merit_score >= 60
+		}
+	}
+}
+
+rp_is_great_house_trigger = {
+	OR = {
+		has_character_flag = rp_great_house_mark
+		is_powerful_vassal = yes
+		highest_held_title_tier >= tier_duchy
+		AND = {
+			has_variable = rp_merit_score
+			var:rp_merit_score >= 100
+		}
+		AND = {
+			has_character_flag = rp_founding_follower
+			OR = {
+				has_trait = rp_founding_follower_trait
+				has_trait = rp_core_follower_trait
+				has_trait = rp_pillar_follower_trait
+			}
+			highest_held_title_tier >= tier_county
+			has_variable = rp_founding_seniority
+			var:rp_founding_seniority >= 30
+		}
+		house = {
+			any_house_member = {
+				count >= 20
+				is_alive = yes
+			}
+		}
+	}
+}
+
+rp_is_valid_merit_subject_trigger = {
+	exists = $LIEGE$
+	trigger_if = {
+		limit = { exists = $LIEGE$ }
+		is_alive = yes
+		has_variable = rp_merit_score
+		OR = {
+			var:rp_merit_score > 0
+			var:rp_merit_score < 0
+		}
+		NOT = { this = $LIEGE$ }
+		OR = {
+			is_vassal_or_below_of = $LIEGE$
+			is_courtier_of = $LIEGE$
+			is_knight_of = $LIEGE$
+		}
+		NOT = { is_at_war_with = $LIEGE$ }
+	}
+}
+
+rp_can_receive_merit_from_liege_trigger = {
+	exists = $LIEGE$
+	trigger_if = {
+		limit = { exists = $LIEGE$ }
+		is_alive = yes
+		NOT = { this = $LIEGE$ }
+		OR = {
+			is_vassal_or_below_of = $LIEGE$
+			is_courtier_of = $LIEGE$
+			is_knight_of = $LIEGE$
+		}
+		NOT = { is_at_war_with = $LIEGE$ }
+	}
+}
+
+rp_should_record_player_merit_stat_trigger = {
+	OR = {
+		is_ai = no
+		AND = {
+			is_ai = yes
+			top_liege = {
+				is_ai = no
+			}
+		}
+	}
+}
+
+rp_can_be_punished_for_merit_trigger = {
+	rp_can_receive_merit_from_liege_trigger = { LIEGE = $LIEGE$ }
+	OR = {
+		has_character_flag = rp_has_defected
+		has_character_flag = rp_resentful_mark
+		has_character_flag = rp_hanxin_ambition_actor
+		has_variable = rp_merit_recent_major_loss
+		has_character_modifier = rp_merit_resentful_modifier
+		has_character_modifier = rp_merit_disgraced_officer_modifier
+		has_character_modifier = rp_traitor_modifier
+		has_character_modifier = rp_campaign_disorder_modifier
+		has_character_modifier = rp_campaign_shamed_modifier
+		has_character_modifier = rp_power_under_suspicion_modifier
+	}
+	NOT = { has_character_flag = rp_recently_punished_by_merit_law }
+}
+
+rp_can_request_merit_atonement_trigger = {
+	rp_can_receive_merit_from_liege_trigger = { LIEGE = $LIEGE$ }
+	OR = {
+		has_character_flag = rp_merit_can_atone
+		has_character_flag = rp_resentful_mark
+		has_variable = rp_merit_recent_major_loss
+		has_character_modifier = rp_merit_resentful_modifier
+		has_character_modifier = rp_merit_disgraced_officer_modifier
+		has_character_modifier = rp_power_under_suspicion_modifier
+		has_character_modifier = rp_merit_salary_penalty_modifier
+	}
+	NOT = { has_character_flag = rp_merit_atonement_recently_handled }
+	NOT = { is_imprisoned = yes }
+}
+
+rp_has_merit_atonement_candidate_trigger = {
+	OR = {
+		any_vassal_or_below = { rp_can_request_merit_atonement_trigger = { LIEGE = root } }
+		any_courtier_or_guest = { rp_can_request_merit_atonement_trigger = { LIEGE = root } }
+		any_knight = { rp_can_request_merit_atonement_trigger = { LIEGE = root } }
+	}
+}
+
+rp_ai_has_retainer_capacity_trigger = {
+	NOT = {
+		any_courtier_or_guest = {
+			count >= 5
+			has_character_flag = rp_retainer
+		}
+	}
+}
+
+rp_is_safe_founding_actor_trigger = {
+	is_alive = yes
+	NOT = { this = $LIEGE$ }
+	OR = {
+		is_vassal_or_below_of = $LIEGE$
+		is_courtier_of = $LIEGE$
+		is_knight_of = $LIEGE$
+	}
+	NOT = { is_at_war_with = $LIEGE$ }
+}
+
+rp_has_rewardable_merit_subject_trigger = {
+	OR = {
+		any_vassal_or_below = {
+			rp_is_valid_merit_subject_trigger = { LIEGE = root }
+			rp_can_request_merit_reward_trigger = yes
+			NOT = { has_character_flag = rp_petition_recently_handled }
+		}
+		any_courtier_or_guest = {
+			rp_is_valid_merit_subject_trigger = { LIEGE = root }
+			rp_can_request_merit_reward_trigger = yes
+			NOT = { has_character_flag = rp_petition_recently_handled }
+		}
+		any_knight = {
+			rp_is_valid_merit_subject_trigger = { LIEGE = root }
+			rp_can_request_merit_reward_trigger = yes
+			NOT = { has_character_flag = rp_petition_recently_handled }
+		}
+	}
+}
+
+rp_has_grantable_county_trigger = {
+	any_held_title = {
+		tier = tier_county
+		is_landless_type_title = no
+		NOT = { this = root.capital_county }
+		NOT = { this = root.primary_title }
+	}
+}
+
+rp_has_grantable_duchy_trigger = {
+	any_held_title = {
+		tier = tier_duchy
+		is_landless_type_title = no
+		NOT = { this = root.primary_title }
+		NOT = { this = root.capital_county.de_jure_liege }
+		any_de_jure_county = {
+			holder = root
+			NOT = { this = root.capital_county }
+			NOT = { this = root.primary_title }
+		}
+	}
+}
+
+rp_has_grantable_multiple_duchies_trigger = {
+	any_held_title = {
+		count >= 2
+		tier = tier_duchy
+		is_landless_type_title = no
+		NOT = { this = root.primary_title }
+		NOT = { this = root.capital_county.de_jure_liege }
+		any_de_jure_county = {
+			holder = root
+			NOT = { this = root.capital_county }
+			NOT = { this = root.primary_title }
+		}
+	}
+}
+
+rp_has_grantable_kingdom_trigger = {
+	any_held_title = {
+		tier = tier_kingdom
+		is_landless_type_title = no
+		NOT = { this = root.primary_title }
+		NOT = { this = root.capital_county.de_jure_liege.de_jure_liege }
+		any_de_jure_county = {
+			holder = root
+			NOT = { this = root.capital_county }
+			NOT = { this = root.primary_title }
+		}
+	}
+}
+
+rp_has_grantable_multiple_kingdoms_trigger = {
+	any_held_title = {
+		count >= 2
+		tier = tier_kingdom
+		is_landless_type_title = no
+		NOT = { this = root.primary_title }
+		NOT = { this = root.capital_county.de_jure_liege.de_jure_liege }
+		any_de_jure_county = {
+			holder = root
+			NOT = { this = root.capital_county }
+			NOT = { this = root.primary_title }
+		}
+	}
+}
+
+rp_has_grantable_empire_trigger = {
+	any_held_title = {
+		tier = tier_empire
+		is_landless_type_title = no
+		NOT = { this = root.primary_title }
+		NOT = { this = root.capital_county.de_jure_liege.de_jure_liege.de_jure_liege }
+		any_de_jure_county = {
+			holder = root
+			NOT = { this = root.capital_county }
+			NOT = { this = root.primary_title }
+		}
+	}
+}
+
+rp_has_grantable_multiple_empires_trigger = {
+	any_held_title = {
+		count >= 2
+		tier = tier_empire
+		is_landless_type_title = no
+		NOT = { this = root.primary_title }
+		NOT = { this = root.capital_county.de_jure_liege.de_jure_liege.de_jure_liege }
+		any_de_jure_county = {
+			holder = root
+			NOT = { this = root.capital_county }
+			NOT = { this = root.primary_title }
+		}
+	}
+}
+
+rp_has_creatable_duchy_from_county_trigger = {
+	gold >= 250
+	any_held_title = {
+		tier = tier_county
+		is_landless_type_title = no
+		NOT = { this = root.capital_county }
+		NOT = { this = root.primary_title }
+		de_jure_liege = {
+			tier = tier_duchy
+			is_title_created = no
+			NOT = { this = root.capital_county.de_jure_liege }
+		}
+	}
+}
+
+rp_can_fire_campaign_incident_trigger = {
+	rp_is_merit_activity_enabled_trigger = yes
+	is_at_war = yes
+	NOT = { has_character_flag = rp_campaign_incident_cooldown }
+	OR = {
+		any_vassal_or_below = {
+			rp_can_receive_merit_from_liege_trigger = { LIEGE = root }
+			has_character_flag = rp_war_service_participant
+		}
+		any_courtier_or_guest = {
+			rp_can_receive_merit_from_liege_trigger = { LIEGE = root }
+			has_character_flag = rp_war_service_participant
+		}
+		any_knight = {
+			rp_can_receive_merit_from_liege_trigger = { LIEGE = root }
+			has_character_flag = rp_war_service_participant
+		}
+	}
+}
+
+rp_can_fire_minor_campaign_incident_trigger = {
+	rp_is_merit_activity_enabled_trigger = yes
+	is_at_war = yes
+	NOT = { has_character_flag = rp_minor_campaign_incident_cooldown }
+	OR = {
+		any_vassal_or_below = {
+			rp_can_receive_merit_from_liege_trigger = { LIEGE = root }
+			has_character_flag = rp_war_service_participant
+		}
+		any_courtier_or_guest = {
+			rp_can_receive_merit_from_liege_trigger = { LIEGE = root }
+			has_character_flag = rp_war_service_participant
+		}
+		any_knight = {
+			rp_can_receive_merit_from_liege_trigger = { LIEGE = root }
+			has_character_flag = rp_war_service_participant
+		}
+	}
+}
+
+rp_has_hanxin_restraint_trait_trigger = {
+	OR = {
+		has_trait = loyal
+		has_trait = honest
+		has_trait = just
+		has_trait = compassionate
+		has_trait = content
+		has_trait = humble
+		has_trait = trusting
+		has_trait = generous
+		has_trait = forgiving
+		has_trait = calm
+		has_trait = patient
+	}
+}
+
+rp_has_gentle_disposition_trigger = {
+	OR = {
+		has_trait = loyal
+		has_trait = honest
+		has_trait = just
+		has_trait = compassionate
+		has_trait = content
+		has_trait = humble
+		has_trait = trusting
+		has_trait = generous
+		has_trait = forgiving
+		has_trait = calm
+		has_trait = patient
+		diplomacy >= 12
+	}
+}
+
+rp_has_forceful_disposition_trigger = {
+	OR = {
+		has_trait = ambitious
+		has_trait = brave
+		has_trait = wrathful
+		has_trait = vengeful
+		has_trait = arrogant
+		has_trait = stubborn
+		martial >= 12
+		prowess >= 12
+	}
+}
+
+rp_has_cunning_disposition_trigger = {
+	OR = {
+		has_trait = deceitful
+		has_trait = greedy
+		has_trait = paranoid
+		has_trait = arbitrary
+		intrigue >= 12
+	}
+}
+
+rp_has_two_hanxin_alt_ambition_traits_trigger = {
+	OR = {
+		AND = { has_trait = arrogant has_trait = greedy }
+		AND = { has_trait = arrogant has_trait = brave }
+		AND = { has_trait = arrogant has_trait = wrathful }
+		AND = { has_trait = arrogant has_trait = vengeful }
+		AND = { has_trait = arrogant has_trait = deceitful }
+		AND = { has_trait = arrogant has_trait = craven }
+		AND = { has_trait = greedy has_trait = brave }
+		AND = { has_trait = greedy has_trait = wrathful }
+		AND = { has_trait = greedy has_trait = vengeful }
+		AND = { has_trait = greedy has_trait = deceitful }
+		AND = { has_trait = greedy has_trait = craven }
+		AND = { has_trait = brave has_trait = wrathful }
+		AND = { has_trait = brave has_trait = vengeful }
+		AND = { has_trait = brave has_trait = deceitful }
+		AND = { has_trait = brave has_trait = craven }
+		AND = { has_trait = wrathful has_trait = vengeful }
+		AND = { has_trait = wrathful has_trait = deceitful }
+		AND = { has_trait = wrathful has_trait = craven }
+		AND = { has_trait = vengeful has_trait = deceitful }
+		AND = { has_trait = vengeful has_trait = craven }
+		AND = { has_trait = deceitful has_trait = craven }
+	}
+}
+
+rp_hanxin_child_ward_with_liege_trigger = {
+	any_child = {
+		is_alive = yes
+		is_adult = no
+		has_relation_guardian = $LIEGE$
+	}
+}
+
+rp_hanxin_close_family_at_liege_court_trigger = {
+	any_close_family_member = {
+		is_alive = yes
+		is_courtier_of = $LIEGE$
+	}
+}
+
+rp_hanxin_countermeasure_active_trigger = {
+	OR = {
+		rp_hanxin_child_ward_with_liege_trigger = { LIEGE = $LIEGE$ }
+		rp_hanxin_close_family_at_liege_court_trigger = { LIEGE = $LIEGE$ }
+		opinion = { target = $LIEGE$ value >= 60 }
+	}
+}
+
+rp_is_hanxin_ambition_candidate_trigger = {
+	is_alive = yes
+	is_adult = yes
+	is_landed = yes
+	is_vassal_of = $LIEGE$
+	OR = {
+		has_trait = ambitious
+		AND = {
+			rp_has_two_hanxin_alt_ambition_traits_trigger = yes
+			NOT = { rp_has_hanxin_restraint_trait_trigger = yes }
+		}
+	}
+	NOT = { is_at_war_with = $LIEGE$ }
+	NOT = { is_imprisoned = yes }
+	NOT = { has_character_flag = rp_hanxin_ambition_suppressed }
+	NOT = { has_character_flag = rp_hanxin_ambition_actor }
+	OR = {
+		AND = {
+			is_ai = no
+			has_variable = rp_merit_peak_score
+			var:rp_merit_peak_score >= 100
+		}
+		rp_has_ai_merit_qualification_trigger = yes
+	}
+	any_held_title = {
+		count >= 2
+		tier = tier_county
+	}
+}
+
+rp_hanxin_ambition_actor_valid_trigger = {
+	is_alive = yes
+	is_adult = yes
+	is_landed = yes
+	is_vassal_of = $LIEGE$
+	has_character_flag = rp_hanxin_ambition_actor
+	NOT = { is_imprisoned = yes }
+	has_variable = hanxin_ambition
+}
+
+rp_is_campaign_incident_actor_trigger = {
+	rp_can_receive_merit_from_liege_trigger = { LIEGE = $LIEGE$ }
+	has_character_flag = rp_war_service_participant
+	NOT = { has_character_flag = rp_campaign_incident_recent_actor }
+}
+
+rp_is_high_merit_campaign_actor_trigger = {
+	rp_is_campaign_incident_actor_trigger = { LIEGE = $LIEGE$ }
+	OR = {
+		AND = {
+			is_ai = no
+			has_variable = rp_merit_score
+			var:rp_merit_score >= $VALUE$
+		}
+		AND = {
+			is_ai = yes
+			rp_has_ai_merit_qualification_trigger = yes
+		}
+	}
+}
+
+rp_has_another_high_merit_actor_trigger = {
+	OR = {
+		any_vassal_or_below = {
+			rp_is_high_merit_campaign_actor_trigger = { LIEGE = root VALUE = $VALUE$ }
+			NOT = { this = $ACTOR$ }
+		}
+		any_courtier_or_guest = {
+			rp_is_high_merit_campaign_actor_trigger = { LIEGE = root VALUE = $VALUE$ }
+			NOT = { this = $ACTOR$ }
+		}
+		any_knight = {
+			rp_is_high_merit_campaign_actor_trigger = { LIEGE = root VALUE = $VALUE$ }
+			NOT = { this = $ACTOR$ }
+		}
+	}
+}
+
+rp_is_war_demand_actor_trigger = {
+	rp_can_receive_merit_from_liege_trigger = { LIEGE = $LIEGE$ }
+	is_adult = yes
+	OR = {
+		AND = {
+			is_ai = no
+			has_variable = rp_merit_score
+			var:rp_merit_score >= 70
+		}
+		AND = {
+			is_ai = yes
+			rp_has_ai_merit_qualification_trigger = yes
+		}
+	}
+	NOT = { has_character_flag = rp_war_demand_recent_actor }
+	OR = {
+		martial >= 14
+		prowess >= 16
+		has_trait = ambitious
+		has_trait = brave
+		has_trait = wrathful
+		has_trait = vengeful
+	}
+}
+
+rp_can_fire_war_demand_event_trigger = {
+	rp_is_merit_activity_enabled_trigger = yes
+	is_at_war = no
+	NOT = { has_character_flag = rp_war_demand_event_cooldown }
+	OR = {
+		any_vassal_or_below = { rp_is_war_demand_actor_trigger = { LIEGE = root } }
+		any_courtier_or_guest = { rp_is_war_demand_actor_trigger = { LIEGE = root } }
+		any_knight = { rp_is_war_demand_actor_trigger = { LIEGE = root } }
+	}
+	any_neighboring_top_liege_realm_owner = {
+		is_alive = yes
+		is_ruler = yes
+		NOT = { this = root }
+		NOT = { is_at_war_with = root }
+	}
+}
+
+rp_has_defection_favoring_trait_trigger = {
+	OR = {
+		has_trait = ambitious
+		has_trait = greedy
+		has_trait = deceitful
+		has_trait = craven
+		has_trait = arrogant
+	}
+}
+
+rp_has_defection_restraining_trait_trigger = {
+	OR = {
+		has_trait = loyal
+		has_trait = honest
+		has_trait = brave
+		has_trait = compassionate
+		has_trait = humble
+	}
+}
+
+rp_defection_recently_rewarded_trigger = {
+	OR = {
+		has_character_flag = rp_defection_recently_rewarded
+		has_character_modifier = rp_merit_honored_modifier
+		has_opinion_modifier = { modifier = rp_merit_reward_gold_opinion target = $LIEGE$ }
+		has_opinion_modifier = { modifier = rp_merit_reward_honor_opinion target = $LIEGE$ }
+		has_opinion_modifier = { modifier = rp_merit_promised_office_opinion target = $LIEGE$ }
+		has_opinion_modifier = { modifier = rp_merit_recorded_opinion target = $LIEGE$ }
+		has_opinion_modifier = { modifier = rp_merit_troops_rewarded_opinion target = $LIEGE$ }
+		has_opinion_modifier = { modifier = rp_privilege_granted_opinion target = $LIEGE$ }
+	}
+}
+
+rp_defection_recently_rebuffed_trigger = {
+	OR = {
+		has_character_flag = rp_resentful_mark
+		has_character_modifier = rp_merit_resentful_modifier
+		has_opinion_modifier = { modifier = rp_merit_legal_rebuff_opinion target = $LIEGE$ }
+		has_opinion_modifier = { modifier = rp_privilege_refused_opinion target = $LIEGE$ }
+		has_opinion_modifier = { modifier = rp_merit_refused_harsh_opinion target = $LIEGE$ }
+		has_opinion_modifier = { modifier = rp_campaign_incident_rebuked_opinion target = $LIEGE$ }
+	}
+}
+
+rp_defection_recently_humiliated_trigger = {
+	OR = {
+		has_character_flag = rp_publicly_shamed
+		has_character_modifier = rp_campaign_shamed_modifier
+		is_imprisoned_by = $LIEGE$
+	}
+}
+
+rp_defection_same_culture_or_dynasty_trigger = {
+	OR = {
+		culture = $TARGET$.culture
+		dynasty = $TARGET$.dynasty
+	}
+}
+
+rp_defection_marriage_tie_trigger = {
+	OR = {
+		any_spouse = {
+			OR = {
+				this = $TARGET$
+				any_close_family_member = { this = $TARGET$ }
+			}
+		}
+		$TARGET$ = {
+			any_spouse = {
+				any_close_family_member = { this = root }
+			}
+		}
+	}
+}
+
+rp_has_occupied_county_for_defection_trigger = {
+	any_held_title = {
+		tier = tier_county
+		any_county_province = {
+			is_occupied = yes
+		}
+	}
+}
+
+rp_is_war_defection_candidate_trigger = {
+	is_alive = yes
+	is_adult = yes
+	is_landed = yes
+	is_vassal_of = $LIEGE$
+	NOT = { this = $LIEGE$ }
+	NOT = { this = $TARGET$ }
+	NOT = { is_imprisoned = yes }
+	NOT = { has_character_flag = rp_has_defected }
+	NOT = { has_character_flag = rp_defection_cooldown }
+	any_held_title = { tier = tier_county }
+	opinion = { target = $LIEGE$ value <= -60 }
+	opinion = { target = $TARGET$ value >= 50 }
+	current_military_strength >= {
+		value = $LIEGE$.current_military_strength
+		multiply = 0.08
+	}
+	$WAR$ = {
+		OR = {
+			AND = {
+				primary_attacker = $LIEGE$
+				primary_defender = $TARGET$
+			}
+			AND = {
+				primary_defender = $LIEGE$
+				primary_attacker = $TARGET$
+			}
+		}
+		OR = {
+			NOT = { has_variable = rp_war_defection_count }
+			var:rp_war_defection_count < 2
+		}
+	}
+}
+rp_is_merit_activity_enabled_trigger = {
+	is_ruler = yes
+	highest_held_title_tier >= tier_county
+}
+
+rp_has_ai_merit_qualification_trigger = {
+	is_ai = yes
+	OR = {
+		has_character_flag = rp_ai_merit_qualified
+		AND = {
+			has_variable = rp_ai_merit_service_count
+			var:rp_ai_merit_service_count >= 8
+		}
+	}
+}
+
+rp_has_ai_merit_reward_candidate_trigger = {
+	OR = {
+		any_vassal_or_below = {
+			rp_can_receive_merit_from_liege_trigger = { LIEGE = root }
+			rp_has_ai_merit_qualification_trigger = yes
+			NOT = { has_character_flag = rp_ai_land_reward_recently_handled }
+		}
+		any_courtier_or_guest = {
+			rp_can_receive_merit_from_liege_trigger = { LIEGE = root }
+			rp_has_ai_merit_qualification_trigger = yes
+			NOT = { has_character_flag = rp_ai_land_reward_recently_handled }
+		}
+		any_knight = {
+			rp_can_receive_merit_from_liege_trigger = { LIEGE = root }
+			rp_has_ai_merit_qualification_trigger = yes
+			NOT = { has_character_flag = rp_ai_land_reward_recently_handled }
+		}
+	}
+}
+
+# HanDyansty compatibility blocks retained while taking the Rewards and Punishments 1.1 core.
+
+rp_is_power_overshadow_candidate_trigger = {
+	is_alive = yes
+	is_adult = yes
+	is_landed = yes
+	is_vassal_of = $LIEGE$
+	NOT = { is_close_family_of = $LIEGE$ }
+	NOT = { is_at_war_with = $LIEGE$ }
+	OR = {
+		AND = {
+			has_variable = rp_merit_score
+			var:rp_merit_score >= 80
+		}
+		AND = {
+			has_variable = rp_merit_peak_score
+			var:rp_merit_peak_score >= 120
+		}
+	}
+	OR = {
+		is_powerful_vassal = yes
+		highest_held_title_tier >= tier_duchy
+		martial >= 16
+		has_trait = ambitious
+		has_trait = arrogant
+	}
+}
+
+rp_power_story_hero_valid_trigger = {
+	exists = scope:story.var:rp_power_hero
+	scope:story.var:rp_power_hero = {
+		rp_is_power_overshadow_candidate_trigger = { LIEGE = scope:story.story_owner }
+	}
+}

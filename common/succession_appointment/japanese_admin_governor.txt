@@ -1,0 +1,13 @@
+# Japan-only succession appointments retained as candidate-free public shells.
+
+japanese_governor = {
+	allow_children = no
+	default_candidates = { }
+	candidate_score = { value = 0 }
+}
+
+japanese_military_governor = {
+	allow_children = no
+	default_candidates = { }
+	candidate_score = { value = 0 }
+}

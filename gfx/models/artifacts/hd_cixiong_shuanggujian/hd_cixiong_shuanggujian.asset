@@ -1,0 +1,45 @@
+pdxmesh = {
+	name = "hd_cixiong_shuanggujian_portrait_mesh"
+	file = "hd_cixiong_shuanggujian_portrait.mesh"
+	meshsettings = {
+		name = "hd_cixiong_shuanggujian_portrait_mainShape"
+		index = 0
+		texture_diffuse = "hd_cixiong_shuanggujian_main_diffuse.dds"
+		texture_normal = "hd_cixiong_shuanggujian_main_normal.dds"
+		texture_specular = "hd_cixiong_shuanggujian_main_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = {
+			"DOUBLE_SIDED_ENABLED"
+		}
+	}
+}
+
+entity = {
+	name = "hd_cixiong_shuanggujian_portrait_entity"
+	pdxmesh = "hd_cixiong_shuanggujian_portrait_mesh"
+}
+
+pdxmesh = {
+	name = "hd_cixiong_shuanggujian_court_mesh"
+	file = "hd_cixiong_shuanggujian_court.mesh"
+	meshsettings = {
+		name = "hd_cixiong_shuanggujian_court_mainShape"
+		index = 0
+		texture_diffuse = "hd_cixiong_shuanggujian_main_diffuse.dds"
+		texture_normal = "hd_cixiong_shuanggujian_main_normal.dds"
+		texture_specular = "hd_cixiong_shuanggujian_main_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = {
+			"DOUBLE_SIDED_ENABLED"
+		}
+	}
+}
+
+entity = {
+	name = "hd_cixiong_shuanggujian_court_entity"
+	pdxmesh = "hd_cixiong_shuanggujian_court_mesh"
+}

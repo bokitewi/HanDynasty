@@ -1,0 +1,236 @@
+﻿@hd_never_primary_score = -1000
+
+c_hd_nf_donghai_mi = {
+	color = { 85 145 125 }
+	landless = yes
+
+	capital = c_uuii_p_257
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_henei_sima = {
+	color = { 105 75 145 }
+	landless = yes
+
+	capital = c_uuii_p_1091
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_langya_zhuge = {
+	color = { 95 120 170 }
+	landless = yes
+
+	capital = c_uuii_p_4442
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_longxi_dong = {
+	color = { 155 80 65 }
+	landless = yes
+
+	capital = c_uuii_p_1528
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_nanyang_he = {
+	color = { 135 95 155 }
+	landless = yes
+
+	capital = c_uuii_p_1733
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_peiguo_cao = {
+	color = { 165 115 60 }
+	landless = yes
+
+	capital = c_uuii_p_6895
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_pengcheng_liu = {
+	color = { 180 90 75 }
+	landless = yes
+
+	capital = c_uuii_p_4349
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_runan_yuan = {
+	color = { 150 95 75 }
+	landless = yes
+
+	capital = c_uuii_p_1690
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+c_hd_nf_wujun_sun = {
+	color = { 55 130 145 }
+	landless = yes
+
+	capital = c_uuii_p_2112
+	definite_form = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+d_hd_jinfan_bandits = {
+	color = { 35 95 125 }
+	capital = c_uuii_p_3102
+	landless = yes
+
+	definite_form = yes
+	require_landless = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+d_hd_nanyang_yellow_turbans = {
+	color = { 205 175 45 }
+	capital = c_uuii_p_1733
+	landless = yes
+
+	definite_form = yes
+	require_landless = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+d_hd_weilinor = {
+	color = { 115 170 185 }
+	capital = c_uuii_p_787
+	landless = yes
+
+	definite_form = yes
+	require_landless = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+d_hd_yellow_turbans = {
+	color = { 190 170 45 }
+	capital = c_uuii_p_164
+	landless = yes
+
+	definite_form = yes
+	require_landless = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+d_hd_yingchuan_yellow_turbans = {
+	color = { 220 185 50 }
+	capital = c_uuii_p_745
+	landless = yes
+
+	definite_form = yes
+	require_landless = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+
+d_hd_zhuojun_rangers = {
+	color = { 110 85 55 }
+	capital = c_uuii_p_3562
+	landless = yes
+
+	definite_form = yes
+	require_landless = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = {
+		add = @hd_never_primary_score
+	}
+}
+

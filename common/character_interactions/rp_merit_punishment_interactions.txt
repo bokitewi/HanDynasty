@@ -1,0 +1,30 @@
+﻿rp_punish_merit_subject_interaction = {
+	category = interaction_category_vassal
+	common_interaction = yes
+	interface_priority = 25
+	icon = icon_scheme_slander
+
+	desc = rp_punish_merit_subject_interaction_desc
+
+	popup_on_receive = no
+	pause_on_receive = no
+	auto_accept = yes
+
+	is_shown = {
+		scope:actor = {
+			rp_is_merit_system_enabled_trigger = yes
+		}
+		scope:recipient = {
+			rp_can_be_punished_for_merit_trigger = { LIEGE = scope:actor }
+		}
+	}
+
+	on_accept = {
+		scope:recipient = { save_scope_as = rp_penalty_target }
+		scope:actor = { trigger_event = rp_merit.1210 }
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}

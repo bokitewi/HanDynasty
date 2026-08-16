@@ -1,0 +1,5 @@
+﻿
+korea_unify_goryeo_reward_effect = {}
+
+# Create a Ceremonial Monarch title and apply the Meritocratic Regency succession law to the Realm
+tgp_create_meritocratic_ruling_regent_title_effect = {}

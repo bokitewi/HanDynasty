@@ -1,0 +1,11 @@
+hd_qixing_baodao = {
+	default_type = sword
+	icon = "artifact_sword.dds"
+	asset = hd_qixing_baodao_portrait_entity
+}
+
+hd_qixing_baodao_court = {
+	default_type = pedestal
+	icon = "artifact_sword.dds"
+	asset = hd_qixing_baodao_court_entity
+}

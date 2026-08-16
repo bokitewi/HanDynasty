@@ -1,0 +1,193 @@
+﻿# Generated from 華陽國志、三國志、三國演義、後漢書 and 漢晉春秋.
+# Culture: tai
+# Time partition: 180_200 (death >= 180 and birth <= 200).
+# No title history is assigned. Dates marked in the evidence audit may be estimates.
+
+##### 【阿瑜陀耶摩哂陀】
+a_yu_tuo_ye_mo_shen_tuo={
+	name="uuii_book_a_yu_tuo_ye_mo_shen_tuo_name" #瑜陀耶摩哂陀
+	dynasty_house="house_172010003001013"
+	culture="tai"
+	faith="theravada"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="5"
+	learning="6"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_diplomacy_2
+	trait=tk_historical_character01
+	trait=humble
+	trait=just
+	trait=vengeful
+	159.7.1={
+		birth=yes
+	}
+	227.7.1={
+		death=yes
+	}
+}
+
+##### 【郑卡文】
+zheng_ka_wen={
+	name="uuii_book_zheng_ka_wen_name" #卡文
+	dynasty_house="house_172010004001013"
+	culture="tai"
+	faith="theravada"
+	diplomacy="8"
+	martial="5"
+	stewardship="7"
+	intrigue="8"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_diplomacy_2
+	trait=tk_historical_character01
+	trait=stubborn
+	trait=calm
+	trait=trusting
+	162.7.1={
+		birth=yes
+	}
+	240.7.1={
+		death=yes
+	}
+}
+
+##### 【西那瓦汶塞】
+xi_na_wa_wen_sai={
+	name="uuii_book_xi_na_wa_wen_sai_name" #那瓦汶塞
+	dynasty_house="house_172010028001013"
+	culture="tai"
+	faith="theravada"
+	diplomacy="6"
+	martial="5"
+	stewardship="8"
+	intrigue="5"
+	learning="7"
+	prowess="9"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_2
+	trait=tk_historical_character01
+	trait=content
+	trait=stubborn
+	trait=impatient
+	160.7.1={
+		birth=yes
+	}
+	234.7.1={
+		death=yes
+	}
+}
+
+##### 【颂堪舒难陀】
+song_kan_shu_nan_tuo={
+	name="uuii_book_song_kan_shu_nan_tuo_name" #堪舒难陀
+	dynasty_house="house_172010030001013"
+	culture="tai"
+	faith="theravada"
+	diplomacy="8"
+	martial="6"
+	stewardship="8"
+	intrigue="7"
+	learning="6"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_2
+	trait=tk_historical_character01
+	trait=content
+	trait=zealous
+	trait=lustful
+	166.7.1={
+		birth=yes
+	}
+	244.7.1={
+		death=yes
+	}
+}
+
+##### 【巴莫婆修奴】
+ba_mo_po_xiu_nu={
+	name="uuii_book_ba_mo_po_xiu_nu_name" #莫婆修奴
+	dynasty_house="house_172010032001013"
+	culture="tai"
+	faith="theravada"
+	diplomacy="6"
+	martial="5"
+	stewardship="8"
+	intrigue="8"
+	learning="5"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_2
+	trait=tk_historical_character01
+	trait=wrathful
+	trait=forgiving
+	trait=ambitious
+	164.7.1={
+		birth=yes
+	}
+	241.7.1={
+		death=yes
+	}
+}
+
+##### 【林阳罗摩罗阇】
+lin_yang_luo_mo_luo_du={
+	name="uuii_book_lin_yang_luo_mo_luo_du_name" #阳罗摩罗阇
+	dynasty_house="house_172010044001013"
+	culture="tai"
+	faith="theravada"
+	diplomacy="7"
+	martial="5"
+	stewardship="7"
+	intrigue="8"
+	learning="7"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_intrigue_2
+	trait=tk_historical_character01
+	trait=paranoid
+	trait=arbitrary
+	trait=impatient
+	166.7.1={
+		birth=yes
+	}
+	227.7.1={
+		death=yes
+	}
+}
+
+##### 【金邻厄迦陀沙律】
+jin_lin_e_jia_tuo_sha_lv={
+	name="uuii_book_jin_lin_e_jia_tuo_sha_lv_name" #邻厄迦陀沙律
+	dynasty_house="house_172010045001013"
+	culture="tai"
+	faith="theravada"
+	diplomacy="7"
+	martial="8"
+	stewardship="7"
+	intrigue="5"
+	learning="7"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_martial_2
+	trait=tk_historical_character01
+	trait=cynical
+	trait=calm
+	trait=shy
+	166.7.1={
+		birth=yes
+	}
+	227.7.1={
+		death=yes
+	}
+}

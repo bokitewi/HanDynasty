@@ -1,0 +1,63 @@
+﻿# Assign the verified vanilla camp-purpose laws to the historical 184 camps.
+on_game_start = {
+	on_actions = {
+		hd_setup_184_special_adventurers
+	}
+}
+
+hd_setup_184_special_adventurers = {
+	trigger = {
+		game_start_date = 184.1.1
+		current_date = 184.1.1
+		NOT = { exists = global_var:hd_184_special_adventurers_initialized }
+	}
+	effect = {
+		character:liu_bei ?= {
+			if = {
+				limit = { is_alive = yes has_government = landless_adventurer_government }
+				add_realm_law_skip_effects = camp_purpose_mercenaries
+			}
+		}
+		character:zhang_jiao ?= {
+			if = {
+				limit = { is_alive = yes has_government = landless_adventurer_government }
+				add_realm_law_skip_effects = camp_purpose_scholars
+			}
+		}
+		character:zhang_man_cheng ?= {
+			if = {
+				limit = { is_alive = yes has_government = landless_adventurer_government }
+				add_realm_law_skip_effects = camp_purpose_mercenaries
+			}
+		}
+		character:bo_cai ?= {
+			if = {
+				limit = { is_alive = yes has_government = landless_adventurer_government }
+				add_realm_law_skip_effects = camp_purpose_mercenaries
+			}
+		}
+		character:gan_ning ?= {
+			if = {
+				limit = { is_alive = yes has_government = landless_adventurer_government }
+				add_realm_law_skip_effects = camp_purpose_mercenaries
+			}
+		}
+		character:bokitewi ?= {
+			if = {
+				limit = { is_alive = yes has_government = landless_adventurer_government }
+				add_realm_law_skip_effects = camp_purpose_mercenaries
+			}
+		}
+		character:liu_bei ?= {
+			if = {
+				limit = {
+					is_alive = yes
+					has_government = celestial_government
+					has_title = title:c_hd_nf_famous_h_house_111010250025033
+				}
+				trigger_event = hd_peach_garden.0001
+			}
+		}
+		set_global_variable = hd_184_special_adventurers_initialized
+	}
+}

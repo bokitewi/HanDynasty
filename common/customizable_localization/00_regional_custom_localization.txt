@@ -1,0 +1,3 @@
+# UUII keeps only the China-Hexi-Xiyu map scope.
+# Vanilla regional naming branches for Europe, Africa, the Middle East, India,
+# Tibet, the steppe, Southeast Asia, Korea and Japan are intentionally disabled.

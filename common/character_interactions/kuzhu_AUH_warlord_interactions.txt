@@ -1,0 +1,612 @@
+﻿#苦竹：转为军阀制互动，暂时禁止ai使用
+
+kuzhu_demand_feudalize_interaction = {
+	category = interaction_category_vassal
+	icon = demand_admin_interaction
+
+	ai_maybe = yes
+	ai_min_reply_days = 4
+	ai_max_reply_days = 9
+	can_send_despite_rejection = yes
+	ai_accept_negotiation = yes
+	popup_on_receive = yes
+	common_interaction = no
+
+	#according to telemetry, practically never used
+	interface_priority = 0
+
+	#ai_targets = {
+	#	ai_recipients = vassals
+	#}
+	#ai_target_quick_trigger = {
+	#	adult = yes
+	#}
+	#ai_frequency_by_tier = {
+	#	barony = 0
+	#	county = 0
+	#	duchy = 12
+	#	kingdom = 12
+	#	empire = 12
+	#	hegemony = 12
+	#}
+
+	desc = kuzhu_demand_feudalize_interaction_desc
+
+	is_shown = {
+		scope:actor = {
+			OR = {
+				government_allows = administrative
+				government_has_flag = government_is_kuzhu_warlord
+			}		
+		}
+		scope:recipient = {		
+			government_allows = administrative
+			highest_held_title_tier >= tier_duchy			
+			target_is_liege_or_above = scope:actor
+			is_landed = yes
+		}
+	}
+
+	cooldown_against_recipient = { years = 10 }
+
+	is_valid_showing_failures_only = {
+		scope:recipient = {
+			NOT = { has_strong_hook = scope:actor }
+			is_at_war = no
+			trigger_if = {
+				limit = { exists = confederation }
+				NOT = { scope:actor.confederation ?= confederation }
+			}
+			liege = scope:actor
+		}
+		custom_tooltip = {
+			text = head_of_faith_unable_to_change_government_desc
+			NOT = {
+				scope:recipient = { faith.religious_head ?= this }
+			}
+		}
+	}
+
+	# Offer hereditary boost 苦竹：留用，如此直接分封王
+	send_option = {
+		is_valid = {
+			scope:recipient = { is_landed = yes }
+			custom_tooltip = {
+				text = kuzhu_acknowledged_military_noble
+				scope:recipient.house ?= {
+					any_house_member = { count > 1 }
+				}
+			}
+			custom_tooltip = {
+				text = demand_admin_hereditary_exists_tt
+				NOT = { exists = scope:recipient.primary_title.var:petition_house_rights }
+			}
+		}
+		flag = enable_kuzhu_prince_warlord
+		localization = enable_kuzhu_prince_warlord
+	}
+	#Spend influence
+	send_option = {
+		flag = influence
+		is_valid = {
+			scope:actor.influence >= massive_influence_value
+		}
+		localization = SPEND_INFLUENCE
+	}
+	#Use hook
+	send_option = {
+		is_valid = {
+			scope:actor = { has_usable_hook = scope:recipient }
+		}
+		flag = hook
+		localization = SCHEME_HOOK
+	}
+	should_use_extra_icon = {
+		scope:actor = { has_usable_hook = scope:recipient }
+	}
+	extra_icon = "gfx/interface/icons/character_interactions/hook_icon.dds"
+
+	send_options_exclusive = no
+
+	auto_accept = {
+		custom_description = {
+			text = "spending_hook"
+			subject = scope:actor
+			object = scope:recipient
+			scope:hook = yes
+		}
+	}
+	
+	#苦竹：on_send留作观察
+	#on_send = {
+	#	scope:recipient = {
+	#		primary_title = { save_scope_as = demanded_administration }
+	#		trigger_event = {
+	#			id = ep3_interactions_events.0005
+	#			days = 5
+	#		}
+	#	}
+	#}
+
+	on_accept = {		
+		scope:recipient = {
+			kuzhu_transfer_treasury_to_gold_effect= yes	
+			kuzhu_convert_to_warlord_from_admin_effect = yes
+			#苦竹：处理特殊选项，先封王，后影响力
+			if = {
+				limit = { scope:enable_kuzhu_prince_warlord = yes }
+				vassal_contract_set_obligation_level = { 
+					type = kuzhu_warlord_types
+					level = kuzhu_warlord_prince_type
+				}		
+			}
+			if = {
+				limit = { scope:influence = yes }
+				scope:actor = {
+					change_influence = {
+						value = massive_influence_loss
+					}
+				}
+			}	
+			if = {
+				limit = {
+					scope:recipient = { is_ai = yes }
+				}
+				scope:recipient = {
+					set_variable = {
+						name = demand_admin_accepted_ai_block
+						value = scope:actor
+						years = 10
+					}
+				}
+			}			
+		}
+		#苦竹：发个消息
+		scope:actor = {		
+			send_interface_message = {
+				type = msg_admin_to_warlord_request_accepted
+				title = msg_admin_to_warlord_request_accepted.title
+				left_icon = scope:recipient
+				show_as_tooltip = {
+					custom_tooltip = kuzhu_demand_warlord_interaction_vassal_accept
+				}
+			}
+		}		
+	}
+
+	on_decline = {
+		scope:actor = {			
+			send_interface_message = {
+				type = msg_admin_to_warlord_request_denied
+				title = msg_admin_to_warlord_request_denied.title
+				left_icon = scope:recipient
+				show_as_tooltip = {
+				custom_tooltip = kuzhu_demand_warlord_interaction_vassal_refuses
+				}
+			}		
+		}				
+		scope:recipient = {
+			custom_tooltip = kuzhu_demand_warlord_interaction_vassal_refuses
+			set_variable = {
+				name = demand_admin_accepted_ai_block
+				value = scope:actor
+				years = 10
+			}
+		}	
+	}
+
+	#ai_potential = {
+	#	government_allows = administrative
+	#	is_adult = yes
+	#}
+
+#	ai_will_do = {
+#		base = 100
+#		modifier = {
+#			factor = 0
+#			scope:recipient = { highest_held_title_tier >= tier_county }
+#			gold >= 300
+#		}
+#		modifier = {
+#			factor = 0
+#			scope:recipient = { highest_held_title_tier >= tier_duchy }
+#			gold >= 600
+#		}
+#		modifier = {
+#			factor = 0
+#			scope:recipient = { highest_held_title_tier >= tier_kingdom }
+#			gold >= 2000
+#		}
+#	}
+
+	ai_accept = {
+		base = 40
+		opinion_modifier = { # Opinion Factor
+			who = scope:recipient
+			opinion_target = scope:actor
+			multiplier = 0.5
+			desc = AI_OPINION_REASON
+		}
+		ai_value_modifier = {
+			ai_rationality = 0.5 	#It's practical
+			ai_energy = 1 			#It's a change
+			ai_boldness = -0.25		#They might defy you
+			ai_sociability = 0.25 	#They wanna please you
+		}
+		# They are afraid of you
+		modifier = {
+			scope:recipient = {
+				has_dread_level_towards = {
+					target = scope:actor
+					level = 1
+				}
+			}
+			add = 30
+		}
+		modifier = {
+			scope:recipient = {
+				has_dread_level_towards = {
+					target = scope:actor
+					level = 2
+				}
+			}
+			add = 60
+		}
+		# Imperial Bureaucracy
+		modifier = {
+			scope:actor = { has_realm_law = imperial_bureaucracy_0 }
+			add = 10
+			desc = IMPERIAL_BUREAUCRACY_LOW_AI_REASON_DESC
+		}
+		modifier = {
+			scope:actor = { has_realm_law = imperial_bureaucracy_2 }
+			add = 20
+			desc = IMPERIAL_BUREAUCRACY_HIGH_AI_REASON_DESC
+		}
+		modifier = {
+			scope:actor = { has_realm_law = imperial_bureaucracy_3 }
+			add = 30
+			desc = IMPERIAL_BUREAUCRACY_HIGH_AI_REASON_DESC
+		} 
+
+		# The Recipient already uses another form of Admin
+		modifier = {
+			scope:recipient = {
+				government_allows = administrative
+			}
+			desc = is_already_administrative
+			add = 25
+		}
+
+
+		# Celestials in China
+		modifier = {
+			scope:actor = {
+				has_title = title:h_china
+			}
+			scope:recipient.primary_title.hegemony = title:h_china
+			desc = hegemony_of_china_desc
+			add = 50
+		}
+
+		# Cultural acceptance
+		modifier = {
+			culture != scope:actor.culture
+			"scope:recipient.culture.cultural_acceptance(scope:actor.culture)" < 50
+			add = {
+				value = 50
+				subtract = "scope:recipient.culture.cultural_acceptance(scope:actor.culture)"
+				multiply = 0.25
+				round = yes
+			}
+			desc = CULTURAL_ACCEPTANCE
+		}
+		# Cultural acceptance
+		modifier = {
+			culture = { has_cultural_pillar = ethos_bureaucratic }
+			add = -20
+			desc = BUREAUCRATIC_ETHOS_REASON
+		}
+		# Hereditary province
+		modifier = {
+			scope:enable_kuzhu_prince_warlord = yes
+			desc = demand_admin_hereditary_reason_desc
+			add = {
+				value = 25
+				every_held_title = {
+					limit = {
+						tier = scope:recipient.highest_held_title_tier
+						is_landless_type_title = no
+						is_noble_family_title = no
+					}
+					add = 25
+				}
+			}
+		}
+		# Spend influence
+		modifier = {
+			desc = INFLUENCE_REASON
+			scope:influence = yes
+			add = {
+				value = 30
+				multiply = scope:actor.influence_level
+				min = 5
+			}
+		}
+		# Chinese administrative cultures are reluctant to abandon the bureaucracy.
+		modifier = {
+			add = -20
+			scope:actor = {
+				government_allows = administrative
+			}
+			scope:recipient = {
+				culture = {
+					OR = {
+						this = culture:han
+						any_parent_culture_or_above = { this = culture:han }
+						has_cultural_tradition = tradition_kuzhu_minor_china
+					}
+				}
+			}
+			desc = "HISTORICAL_ADMIN_REASON"
+		}
+	}
+}
+
+kuzhu_call_warlord_to_war_interaction = {
+	category = interaction_category_diplomacy
+	desc = kuzhu_warlord_call_to_war_interaction_desc
+	interface_priority = 65
+	interface = call_ally
+	popup_on_receive = yes 
+	pause_on_receive = yes
+	common_interaction = yes
+	icon = alliance
+
+	greeting = positive
+	notification_text = CALL_ALLY_NOTIFICATION
+
+	is_shown = {
+		scope:actor = {
+			is_at_war_as_defender = yes 
+			
+			is_liege_or_above_of = scope:recipient
+		}
+		scope:recipient = {
+			vassal_contract_has_flag = kuzhu_warlord_war_duty
+		}
+	} 
+ 
+	has_valid_target = {
+	}
+
+	has_valid_target_showing_failures_only = {
+		exists = scope:target
+
+		#Set the primary enemy
+		scope:target = { primary_attacker = { save_temporary_scope_as = primary_enemy } }
+
+		scope:target = {
+			is_war_leader = scope:actor
+			is_defender = scope:actor
+		}
+	}
+
+	is_valid_showing_failures_only = {
+
+		scope:recipient = {
+			is_ruler = yes
+		}
+
+		# Only War Leaders can call allies
+		scope:actor = {
+			custom_description = {
+				text = must_be_war_leader
+				any_character_war = {
+					is_war_leader = scope:actor
+				}
+			}
+		}
+
+		# Cannot call the same character multiple times
+		scope:actor = {
+			custom_description = {
+				text = cannot_call_same_character_multiple_times
+				subject = scope:recipient
+				any_character_war = {
+					ALL_FALSE = {
+						was_called = scope:recipient
+						is_participant = scope:recipient
+					}
+				}
+			}
+		}
+
+		# Can only call for defensive wars
+		scope:actor = {
+			custom_description = {
+				text = must_be_war_leader
+				any_character_war = {
+					is_defender = scope:actor
+				}
+			}
+		}
+	}
+
+	on_auto_accept = {
+		scope:recipient = {
+			trigger_event = call_ally.0001
+		}
+	}
+
+	on_accept = {
+		call_ally_interaction_effect = yes
+
+		save_scope_value_as = {
+			name = call_ally_interaction
+			value = yes
+		}
+
+		scope:actor = {
+			hidden_effect = { #To nudge friendship
+				if = {
+					limit = {
+						NOR = {
+							has_relation_friend = scope:recipient
+							has_relation_potential_friend = scope:recipient
+						}
+					}
+					set_relation_potential_friend = scope:recipient
+				}
+			}
+			trigger_event = call_ally.0100
+		}
+	}
+
+	on_decline = {
+		#The war could theoretically end on the day the decline is sent
+		if = {
+			limit = {
+				exists = scope:target
+			}
+			scope:target = {
+				if = {
+					limit = {
+						is_attacker = scope:actor
+					}
+					scope:actor = {
+						add_opinion = {
+							modifier = rejected_call_to_offensive_war
+							target = scope:recipient
+						}
+					}
+				}
+				else = {
+					scope:actor = {
+						add_opinion = {
+							modifier = rejected_call_to_defensive_war
+							target = scope:recipient
+						}
+					}
+				}
+				hidden_effect = {
+					if = {
+						limit = {
+							NOT = { was_called = scope:recipient }
+						}
+						set_called_to = scope:recipient
+					}
+				}
+			}
+			scope:actor = {
+				trigger_event = call_ally.0101
+			}
+		}
+	}
+
+	auto_accept = {
+		OR = {
+			# Always accept a call from a Spouse
+			custom_description = {
+				text = "recipient_is_spouse"
+				subject = scope:actor
+				object = scope:recipient
+				scope:recipient = {
+					is_spouse_of = scope:actor
+					is_ai = yes
+				}
+			}
+			# Always accept a call from the Heir
+			custom_description = {
+				text = "is_recipients_player_heir"
+				subject = scope:actor
+				object = scope:recipient
+
+				exists = scope:recipient.player_heir
+				scope:recipient = {
+					player_heir = scope:actor
+					is_close_or_extended_family_of = scope:actor # Only for family
+					is_ai = yes
+				}
+			}
+			# Always accept a call from the one you are heir of
+			custom_description = {
+				text = "is_player_heir"
+				subject = scope:recipient
+				object = scope:actor
+
+				exists = scope:actor.player_heir
+				scope:actor.player_heir = scope:recipient
+				scope:actor = { # Shouldn't be able to force your liege to join just because you've not got any family...
+					is_close_or_extended_family_of = scope:recipient
+				}
+				scope:recipient = {
+					is_ai = yes
+				}
+			}
+		}
+	}
+
+	ai_will_do = {
+		base = 25
+	}
+
+	ai_accept = {
+		base = 25
+
+		modifier = {  # Refuse call against Heir
+			add = -1000
+			exists = scope:recipient.player_heir
+			trigger_if = {
+				limit = { scope:target.casus_belli.primary_defender = scope:actor }
+				scope:target.casus_belli.primary_attacker = scope:recipient.player_heir
+			}
+			trigger_else = {
+				scope:target.casus_belli.primary_defender = scope:recipient.player_heir
+			}
+			desc = WONT_FIGHT_HEIR_REASON
+		}
+
+		modifier = {  # Refuse call against Spouse
+			add = -1000
+			scope:recipient = {
+				trigger_if = {
+					limit = { scope:target.casus_belli.primary_defender = scope:actor }
+					any_spouse = {
+						this = scope:target.casus_belli.primary_attacker
+					}
+				}
+				trigger_else = {
+					any_spouse = {
+						this = scope:target.casus_belli.primary_defender
+					}
+				}
+
+			}
+			desc = WONT_FIGHT_SPOUSE_REASON
+		}
+
+		opinion_modifier = { # Opinion Factor
+			who = scope:recipient
+			opinion_target = scope:actor
+			multiplier = 1.0
+			desc = AI_OPINION_REASON
+		}
+
+		# Honor factor
+		ai_value_modifier = {
+			ai_honor = 1
+			min = -25
+			max = 25
+		}
+
+		modifier = {  # Reluctant to defend against another ally
+			add = -25
+			scope:target.casus_belli.primary_defender = scope:actor
+			scope:recipient = {
+				is_allied_to = scope:target.casus_belli.primary_attacker
+			}
+			desc = WAR_WITH_ALLY_REASON
+		}
+	}
+}

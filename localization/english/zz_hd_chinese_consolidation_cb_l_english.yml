@@ -1,0 +1,3 @@
+﻿l_english:
+ hd_chinese_consolidation_cb_victory_desc_attacker:0 "You gain all county titles in [defender.GetShortUINamePossessive] realm that are controlled by an attacker-side participant. Barony titles and their holders within those counties remain unchanged."
+ hd_chinese_consolidation_cb_victory_desc:0 "[attacker.GetShortUIName|U] gains all county titles in [defender.GetShortUINamePossessive] realm that are controlled by an attacker-side participant. Barony titles and their holders within those counties remain unchanged."

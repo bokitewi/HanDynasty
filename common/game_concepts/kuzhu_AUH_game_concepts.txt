@@ -1,0 +1,21 @@
+﻿
+###################################
+# warlord
+###################################
+
+kuzhu_warlord = {
+	texture = "gfx/interface/icons/government_types/kuzhu_warlord_government.dds"
+	alias = { kuzhu_warlord_government kuzhu_warlords kuzhu_warlord_i }
+}
+
+kuzhu_government_size_law = {
+	texture = "gfx/interface/icons/message_feed/law.dds"
+	parent = crown_authority
+	alias = { kuzhu_government_size_law_i }	
+}
+
+kuzhu_governor_political_power = {
+	texture = "gfx/interface/icons/icon_liege.dds"
+	parent = influence
+	alias = { kuzhu_governor_political_power_i }
+}

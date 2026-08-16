@@ -1,0 +1,22 @@
+﻿l_english:
+ hd_palace_crisis.0001.t:0 "Shadows at Court"
+ hd_palace_crisis.0001.desc:0 "Inside the Luoyang palace, the struggle between the Ten Attendants and General-in-Chief He Jin has passed the point of return. Each side is searching for a way to destroy the other, and every whisper in the court could be the prelude to bloodshed."
+ hd_palace_crisis.0001.a:0 "Watch who draws first."
+ hd_palace_crisis.0002.t:0 "The Final Measure"
+ hd_palace_crisis.0002.desc:0 "Yuan Shao takes He Jin aside with a dangerous proposal: if the eunuchs cannot be removed inside the palace, summon the armies of Liangzhou and use an outside force to break their grip. It may destroy the Attendants—or set all the realm alight."
+ hd_palace_crisis.0002.a:0 "Send the letter to Liangzhou."
+ hd_palace_crisis.0003.t:0 "March to Luoyang?"
+ hd_palace_crisis.0003.desc:0 "The summons reaches the Liangzhou army. Your adviser warns that the call to Luoyang may be the court's last gamble: entering the capital could change the realm, but it would also place your army in the middle of a palace crisis."
+ hd_palace_crisis.0003.a:0 "March to Luoyang."
+ hd_palace_crisis.0003.b:0 "Remain where we are."
+ hd_palace_crisis.0004.t:0 "The Palace Doors Close"
+ hd_palace_crisis.0004.desc:0 "The Ten Attendants learn that an outside army is on its way and strike first. He Jin is trapped behind the palace gates; one door after another closes, and he realizes that he will not leave the palace alive."
+ hd_palace_crisis.0004.a:0 "The die is cast…"
+ hd_palace_crisis.0005.t:0 "Blood at the Palace Gate"
+ hd_palace_crisis.0005.desc:0 "News of He Jin's murder reaches Yuan Shao and Cao Cao. Their soldiers storm the palace, breaking through the forbidden gates as the Ten Attendants flee through the firelight. The court struggle ends in blood."
+ hd_palace_crisis.0005.a:0 "Let none of them escape."
+ hd_palace_crisis.0006.t:0 "The Liangzhou Army at Luoyang"
+ hd_palace_crisis.0006.desc:0 "The Liangzhou army finally reaches Luoyang. The palace has changed hands, and the military government and direct vassals of Sili now fall under your authority; you retain Liangzhou and face the troubled capital as its new lord."
+ hd_palace_crisis.0006.a:0 "Take control of Sili."
+
+

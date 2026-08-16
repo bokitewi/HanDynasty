@@ -1,0 +1,16 @@
+# Japan-only scripted modifiers neutralized.
+
+house_bloc_desire_to_join_modifiers = { value = 0 }
+house_bloc_tyranny_war_modifiers = { value = 0 }
+house_relation_ai_accept_confederation_member_modifiers = { value = 0 }
+house_relation_ai_accept_modifiers = {
+	# Public no-op shell. Keep the three macros used by old generic callers.
+	modifier = {
+		always = no
+		exists = $HOUSE_1_MEMBER$.house
+		exists = $HOUSE_2_MEMBER$.house
+		add = $MULTIPLIER$
+	}
+}
+japan_demand_admin_acceptance_modifier = { value = 0 }
+japanese_new_house_name_modifiers = { value = 0 }

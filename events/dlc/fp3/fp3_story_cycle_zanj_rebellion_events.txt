@@ -1,0 +1,10 @@
+# Unsupported vanilla regional event chain retained only as inert public shells.
+namespace = fp3_story_cycle_zanj_rebellion_events
+
+fp3_story_cycle_zanj_rebellion_events.0001 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_story_cycle_zanj_rebellion_events.0002 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_story_cycle_zanj_rebellion_events.0003 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_story_cycle_zanj_rebellion_events.0005 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_story_cycle_zanj_rebellion_events.0006 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_story_cycle_zanj_rebellion_events.0007 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_story_cycle_zanj_rebellion_events.0008 = { type = character_event hidden = yes trigger = { always = no } }

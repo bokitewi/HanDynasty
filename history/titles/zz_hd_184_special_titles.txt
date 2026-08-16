@@ -1,0 +1,207 @@
+﻿d_hd_jinfan_bandits = {
+	184.1.1 = {
+		liege = 0
+		holder = gan_ning
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = {
+				name = adventurer_creation_reason
+				value = flag:historical
+			}
+			destroy_landless_title_no_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+d_hd_nanyang_yellow_turbans = {
+	184.1.1 = {
+		liege = 0
+		holder = zhang_man_cheng
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = {
+				name = adventurer_creation_reason
+				value = flag:historical
+			}
+			destroy_landless_title_no_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+d_hd_weilinor = {
+	184.1.1 = {
+		liege = 0
+		holder = bokitewi
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = {
+				name = adventurer_creation_reason
+				value = flag:historical
+			}
+			destroy_landless_title_no_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+d_hd_yellow_turbans = {
+	184.1.1 = {
+		liege = 0
+		holder = zhang_jiao
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = {
+				name = adventurer_creation_reason
+				value = flag:historical
+			}
+			destroy_landless_title_no_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+d_hd_yingchuan_yellow_turbans = {
+	184.1.1 = {
+		liege = 0
+		holder = bo_cai
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = {
+				name = adventurer_creation_reason
+				value = flag:historical
+			}
+			destroy_landless_title_no_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_donghai_mi = {
+	184.1.1 = {
+		liege = h_china
+		holder = mi_zhu
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_henei_sima = {
+	184.1.1 = {
+		liege = h_china
+		holder = si_ma_fang
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_langya_zhuge = {
+	184.1.1 = {
+		liege = h_china
+		holder = zhu_ge_gui
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_longxi_dong = {
+	184.1.1 = {
+		liege = h_china
+		holder = dong_zhuo_2
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_nanyang_he = {
+	184.1.1 = {
+		liege = h_china
+		holder = he_jin
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_peiguo_cao = {
+	184.1.1 = {
+		liege = h_china
+		holder = cao_cao
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_pengcheng_liu = {
+	184.1.1 = {
+		liege = h_china
+		holder = liu_hong_3
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_runan_yuan = {
+	184.1.1 = {
+		liege = h_china
+		holder = yuan_shao
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}
+c_hd_nf_wujun_sun = {
+	184.1.1 = {
+		liege = h_china
+		holder = sun_jian
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = {
+				DATE = 184.1.1
+			}
+		}
+	}
+}

@@ -1,0 +1,61 @@
+###################随机生成角色
+300000100001={
+	name="hmongic_yueren_nn_4" 
+	culture="shanyue"
+	faith="baiyuefanlin"
+	diplomacy="4"
+	martial="5"
+	stewardship="5"
+	intrigue="5"
+	learning="4"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=no
+
+	156.7.1={
+		birth=yes
+	}
+	225.7.1={
+		death=yes
+	}
+}
+300000100002={
+	name="hmongic_yueren_nn_6" 
+	culture="shanyue"
+	faith="baiyuefanlin"
+	diplomacy="4"
+	martial="5"
+	stewardship="5"
+	intrigue="5"
+	learning="4"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=no
+
+	176.7.1={
+		birth=yes
+	}
+	225.7.1={
+		death=yes
+	}
+}
+300000100003={
+	name="hmongic_yueren_nn_1" 
+	culture="shanyue"
+	faith="baiyuefanlin"
+	diplomacy="4"
+	martial="5"
+	stewardship="5"
+	intrigue="5"
+	learning="4"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=no
+
+	154.7.1={
+		birth=yes
+	}
+	225.7.1={
+		death=yes
+	}
+}

@@ -1,0 +1,6609 @@
+baijia1 = {
+	name = "dynn_baijia1"
+	culture = "bingzhou"
+}
+baijia2 = {
+	name = "dynn_baijia2"
+	culture = "han"
+}
+baijia3 = {
+	name = "dynn_baijia3"
+	culture = "yuzhou"
+}
+baijia4 = {
+	name = "dynn_baijia4"
+	culture = "han"
+}
+baijia5 = {
+	name = "dynn_baijia5"
+	culture = "yuzhou"
+}
+baijia6 = {
+	name = "dynn_baijia6"
+	culture = "han"
+}
+baijia7 = {
+	name = "dynn_baijia7"
+	culture = "yuzhou"
+}
+baijia8 = {
+	name = "dynn_baijia8"
+	culture = "han"
+}
+baijia9 = {
+	name = "dynn_baijia9"
+	culture = "han"
+}
+baijia10 = {
+	name = "dynn_baijia10"
+	culture = "han"
+}
+baijia11 = {
+	name = "dynn_baijia11"
+	culture = "han"
+}
+baijia12 = {
+	name = "dynn_baijia12"
+	culture = "yuzhou"
+}
+baijia13 = {
+	name = "dynn_baijia13"
+	culture = "han"
+}
+baijia14 = {
+	name = "dynn_baijia14"
+	culture = "han"
+}
+baijia15 = {
+	name = "dynn_baijia15"
+	culture = "bingzhou"
+}
+baijia16 = {
+	name = "dynn_baijia16"
+	culture = "bingzhou"
+}
+baijia17 = {
+	name = "dynn_baijia17"
+	culture = "han"
+}
+baijia18 = {
+	name = "dynn_baijia18"
+	culture = "liangzhou"
+}
+baijia19 = {
+	name = "dynn_baijia19"
+	culture = "han"
+}
+baijia20 = {
+	name = "dynn_baijia20"
+	culture = "yuzhou"
+}
+baijia21 = {
+	name = "dynn_baijia21"
+	culture = "han"
+}
+baijia22 = {
+	name = "dynn_baijia22"
+	culture = "han"
+}
+baijia23 = {
+	name = "dynn_baijia23"
+	culture = "yanzhou"
+}
+baijia24 = {
+	name = "dynn_baijia24"
+	culture = "bingzhou"
+}
+baijia25 = {
+	name = "dynn_baijia25"
+	culture = "yuzhou"
+}
+baijia26 = {
+	name = "dynn_baijia26"
+	culture = "yuzhou"
+}
+baijia27 = {
+	name = "dynn_baijia27"
+	culture = "yuzhou"
+}
+baijia28 = {
+	name = "dynn_baijia28"
+	culture = "han"
+}
+baijia29 = {
+	name = "dynn_baijia29"
+	culture = "han"
+}
+baijia30 = {
+	name = "dynn_baijia30"
+	culture = "bingzhou"
+}
+baijia31 = {
+	name = "dynn_baijia31"
+	culture = "han"
+}
+baijia32 = {
+	name = "dynn_baijia32"
+	culture = "han"
+}
+baijia33 = {
+	name = "dynn_baijia33"
+	culture = "han"
+}
+baijia34 = {
+	name = "dynn_baijia34"
+	culture = "han"
+}
+baijia35 = {
+	name = "dynn_baijia35"
+	culture = "yanzhou"
+}
+baijia36 = {
+	name = "dynn_baijia36"
+	culture = "han"
+}
+baijia37 = {
+	name = "dynn_baijia37"
+	culture = "han"
+}
+baijia38 = {
+	name = "dynn_baijia38"
+	culture = "han"
+}
+baijia39 = {
+	name = "dynn_baijia39"
+	culture = "han"
+}
+baijia40 = {
+	name = "dynn_baijia40"
+	culture = "han"
+}
+baijia41 = {
+	name = "dynn_baijia41"
+	culture = "qingzhou"
+}
+baijia42 = {
+	name = "dynn_baijia42"
+	culture = "yuzhou"
+}
+baijia43 = {
+	name = "dynn_baijia43"
+	culture = "han"
+}
+baijia44 = {
+	name = "dynn_baijia44"
+	culture = "han"
+}
+baijia45 = {
+	name = "dynn_baijia45"
+	culture = "yanzhou"
+}
+baijia46 = {
+	name = "dynn_baijia46"
+	culture = "han"
+}
+baijia47 = {
+	name = "dynn_baijia47"
+	culture = "yuzhou"
+}
+baijia48 = {
+	name = "dynn_baijia48"
+	culture = "han"
+}
+baijia49 = {
+	name = "dynn_baijia49"
+	culture = "yanzhou"
+}
+baijia50 = {
+	name = "dynn_baijia50"
+	culture = "han"
+}
+baijia51 = {
+	name = "dynn_baijia51"
+	culture = "han"
+}
+baijia52 = {
+	name = "dynn_baijia52"
+	culture = "han"
+}
+baijia53 = {
+	name = "dynn_baijia53"
+	culture = "liangzhou"
+}
+baijia54 = {
+	name = "dynn_baijia54"
+	culture = "han"
+}
+baijia55 = {
+	name = "dynn_baijia55"
+	culture = "han"
+}
+baijia56 = {
+	name = "dynn_baijia56"
+	culture = "han"
+}
+baijia57 = {
+	name = "dynn_baijia57"
+	culture = "han"
+}
+baijia58 = {
+	name = "dynn_baijia58"
+	culture = "yuzhou"
+}
+baijia59 = {
+	name = "dynn_baijia59"
+	culture = "yuzhou"
+}
+baijia60 = {
+	name = "dynn_baijia60"
+	culture = "han"
+}
+baijia61 = {
+	name = "dynn_baijia61"
+	culture = "han"
+}
+baijia62 = {
+	name = "dynn_baijia62"
+	culture = "han"
+}
+baijia63 = {
+	name = "dynn_baijia63"
+	culture = "han"
+}
+baijia64 = {
+	name = "dynn_baijia64"
+	culture = "han"
+}
+baijia65 = {
+	name = "dynn_baijia65"
+	culture = "yanzhou"
+}
+baijia66 = {
+	name = "dynn_baijia66"
+	culture = "han"
+}
+baijia67 = {
+	name = "dynn_baijia67"
+	culture = "han"
+}
+baijia68 = {
+	name = "dynn_baijia68"
+	culture = "yanzhou"
+}
+baijia69 = {
+	name = "dynn_baijia69"
+	culture = "han"
+}
+baijia70 = {
+	name = "dynn_baijia70"
+	culture = "han"
+}
+baijia71 = {
+	name = "dynn_baijia71"
+	culture = "han"
+}
+baijia72 = {
+	name = "dynn_baijia72"
+	culture = "han"
+}
+baijia73 = {
+	name = "dynn_baijia73"
+	culture = "yanzhou"
+}
+baijia74 = {
+	name = "dynn_baijia74"
+	culture = "han"
+}
+baijia75 = {
+	name = "dynn_baijia75"
+	culture = "han"
+}
+baijia76 = {
+	name = "dynn_baijia76"
+	culture = "yuzhou"
+}
+baijia77 = {
+	name = "dynn_baijia77"
+	culture = "han"
+}
+baijia78 = {
+	name = "dynn_baijia78"
+	culture = "han"
+}
+baijia79 = {
+	name = "dynn_baijia79"
+	culture = "han"
+}
+baijia80 = {
+	name = "dynn_baijia80"
+	culture = "yuzhou"
+}
+baijia81 = {
+	name = "dynn_baijia81"
+	culture = "yuzhou"
+}
+baijia82 = {
+	name = "dynn_baijia82"
+	culture = "han"
+}
+baijia83 = {
+	name = "dynn_baijia83"
+	culture = "han"
+}
+baijia84 = {
+	name = "dynn_baijia84"
+	culture = "han"
+}
+baijia85 = {
+	name = "dynn_baijia85"
+	culture = "bingzhou"
+}
+baijia86 = {
+	name = "dynn_baijia86"
+	culture = "han"
+}
+baijia87 = {
+	name = "dynn_baijia87"
+	culture = "han"
+}
+baijia88 = {
+	name = "dynn_baijia88"
+	culture = "yuzhou"
+}
+baijia89 = {
+	name = "dynn_baijia89"
+	culture = "han"
+}
+baijia90 = {
+	name = "dynn_baijia90"
+	culture = "han"
+}
+baijia91 = {
+	name = "dynn_baijia91"
+	culture = "han"
+}
+baijia92 = {
+	name = "dynn_baijia92"
+	culture = "han"
+}
+baijia93 = {
+	name = "dynn_baijia93"
+	culture = "han"
+}
+baijia94 = {
+	name = "dynn_baijia94"
+	culture = "han"
+}
+baijia95 = {
+	name = "dynn_baijia95"
+	culture = "han"
+}
+baijia96 = {
+	name = "dynn_baijia96"
+	culture = "han"
+}
+baijia97 = {
+	name = "dynn_baijia97"
+	culture = "han"
+}
+baijia98 = {
+	name = "dynn_baijia98"
+	culture = "han"
+}
+baijia99 = {
+	name = "dynn_baijia99"
+	culture = "han"
+}
+baijia100 = {
+	name = "dynn_baijia100"
+	culture = "yuzhou"
+}
+baijia101 = {
+	name = "dynn_baijia101"
+	culture = "han"
+}
+baijia102 = {
+	name = "dynn_baijia102"
+	culture = "han"
+}
+baijia103 = {
+	name = "dynn_baijia103"
+	culture = "han"
+}
+baijia104 = {
+	name = "dynn_baijia104"
+	culture = "han"
+}
+baijia105 = {
+	name = "dynn_baijia105"
+	culture = "youzhou"
+}
+baijia106 = {
+	name = "dynn_baijia106"
+	culture = "yuzhou"
+}
+baijia107 = {
+	name = "dynn_baijia107"
+	culture = "han"
+}
+baijia108 = {
+	name = "dynn_baijia108"
+	culture = "han"
+}
+baijia109 = {
+	name = "dynn_baijia109"
+	culture = "han"
+}
+baijia110 = {
+	name = "dynn_baijia110"
+	culture = "yuzhou"
+}
+baijia111 = {
+	name = "dynn_baijia111"
+	culture = "han"
+}
+baijia112 = {
+	name = "dynn_baijia112"
+	culture = "yanzhou"
+}
+baijia113 = {
+	name = "dynn_baijia113"
+	culture = "qingzhou"
+}
+baijia114 = {
+	name = "dynn_baijia114"
+	culture = "qingzhou"
+}
+baijia115 = {
+	name = "dynn_baijia115"
+	culture = "han"
+}
+baijia116 = {
+	name = "dynn_baijia116"
+	culture = "yuzhou"
+}
+baijia117 = {
+	name = "dynn_baijia117"
+	culture = "han"
+}
+baijia118 = {
+	name = "dynn_baijia118"
+	culture = "yuzhou"
+}
+baijia119 = {
+	name = "dynn_baijia119"
+	culture = "yanzhou"
+}
+baijia120 = {
+	name = "dynn_baijia120"
+	culture = "yuzhou"
+}
+baijia121 = {
+	name = "dynn_baijia121"
+	culture = "han"
+}
+baijia122 = {
+	name = "dynn_baijia122"
+	culture = "han"
+}
+baijia123 = {
+	name = "dynn_baijia123"
+	culture = "han"
+}
+baijia124 = {
+	name = "dynn_baijia124"
+	culture = "bingzhou"
+}
+baijia125 = {
+	name = "dynn_baijia125"
+	culture = "han"
+}
+baijia126 = {
+	name = "dynn_baijia126"
+	culture = "qingzhou"
+}
+baijia127 = {
+	name = "dynn_baijia127"
+	culture = "bingzhou"
+}
+baijia128 = {
+	name = "dynn_baijia128"
+	culture = "liangzhou"
+}
+baijia129 = {
+	name = "dynn_baijia129"
+	culture = "yuzhou"
+}
+baijia130 = {
+	name = "dynn_baijia130"
+	culture = "qingzhou"
+}
+baijia131 = {
+	name = "dynn_baijia131"
+	culture = "han"
+}
+baijia132 = {
+	name = "dynn_baijia132"
+	culture = "han"
+}
+baijia133 = {
+	name = "dynn_baijia133"
+	culture = "han"
+}
+baijia134 = {
+	name = "dynn_baijia134"
+	culture = "han"
+}
+baijia135 = {
+	name = "dynn_baijia135"
+	culture = "han"
+}
+baijia136 = {
+	name = "dynn_baijia136"
+	culture = "han"
+}
+baijia137 = {
+	name = "dynn_baijia137"
+	culture = "bingzhou"
+}
+baijia138 = {
+	name = "dynn_baijia138"
+	culture = "han"
+}
+baijia139 = {
+	name = "dynn_baijia139"
+	culture = "han"
+}
+baijia140 = {
+	name = "dynn_baijia140"
+	culture = "han"
+}
+baijia141 = {
+	name = "dynn_baijia141"
+	culture = "han"
+}
+baijia142 = {
+	name = "dynn_baijia142"
+	culture = "han"
+}
+baijia143 = {
+	name = "dynn_baijia143"
+	culture = "yanzhou"
+}
+baijia144 = {
+	name = "dynn_baijia144"
+	culture = "qingzhou"
+}
+baijia145 = {
+	name = "dynn_baijia145"
+	culture = "yuzhou"
+}
+baijia146 = {
+	name = "dynn_baijia146"
+	culture = "han"
+}
+baijia147 = {
+	name = "dynn_baijia147"
+	culture = "yuzhou"
+}
+baijia148 = {
+	name = "dynn_baijia148"
+	culture = "han"
+}
+baijia149 = {
+	name = "dynn_baijia149"
+	culture = "han"
+}
+baijia150 = {
+	name = "dynn_baijia150"
+	culture = "xuzhou"
+}
+baijia151 = {
+	name = "dynn_baijia151"
+	culture = "han"
+}
+baijia152 = {
+	name = "dynn_baijia152"
+	culture = "han"
+}
+baijia153 = {
+	name = "dynn_baijia153"
+	culture = "han"
+}
+baijia154 = {
+	name = "dynn_baijia154"
+	culture = "han"
+}
+baijia155 = {
+	name = "dynn_baijia155"
+	culture = "han"
+}
+baijia156 = {
+	name = "dynn_baijia156"
+	culture = "han"
+}
+baijia157 = {
+	name = "dynn_baijia157"
+	culture = "yuzhou"
+}
+baijia158 = {
+	name = "dynn_baijia158"
+	culture = "han"
+}
+baijia159 = {
+	name = "dynn_baijia159"
+	culture = "han"
+}
+baijia160 = {
+	name = "dynn_baijia160"
+	culture = "bingzhou"
+}
+baijia161 = {
+	name = "dynn_baijia161"
+	culture = "bingzhou"
+}
+baijia162 = {
+	name = "dynn_baijia162"
+	culture = "han"
+}
+baijia163 = {
+	name = "dynn_baijia163"
+	culture = "han"
+}
+baijia164 = {
+	name = "dynn_baijia164"
+	culture = "han"
+}
+baijia165 = {
+	name = "dynn_baijia165"
+	culture = "yizhou"
+}
+baijia166 = {
+	name = "dynn_baijia166"
+	culture = "han"
+}
+baijia167 = {
+	name = "dynn_baijia167"
+	culture = "han"
+}
+baijia168 = {
+	name = "dynn_baijia168"
+	culture = "han"
+}
+baijia169 = {
+	name = "dynn_baijia169"
+	culture = "han"
+}
+baijia170 = {
+	name = "dynn_baijia170"
+	culture = "han"
+}
+baijia171 = {
+	name = "dynn_baijia171"
+	culture = "han"
+}
+baijia172 = {
+	name = "dynn_baijia172"
+	culture = "han"
+}
+baijia173 = {
+	name = "dynn_baijia173"
+	culture = "han"
+}
+baijia174 = {
+	name = "dynn_baijia174"
+	culture = "han"
+}
+baijia175 = {
+	name = "dynn_baijia175"
+	culture = "han"
+}
+baijia176 = {
+	name = "dynn_baijia176"
+	culture = "han"
+}
+baijia177 = {
+	name = "dynn_baijia177"
+	culture = "han"
+}
+baijia178 = {
+	name = "dynn_baijia178"
+	culture = "han"
+}
+baijia179 = {
+	name = "dynn_baijia179"
+	culture = "han"
+}
+baijia180 = {
+	name = "dynn_baijia180"
+	culture = "han"
+}
+baijia181 = {
+	name = "dynn_baijia181"
+	culture = "qingzhou"
+}
+baijia182 = {
+	name = "dynn_baijia182"
+	culture = "yuzhou"
+}
+baijia183 = {
+	name = "dynn_baijia183"
+	culture = "han"
+}
+baijia184 = {
+	name = "dynn_baijia184"
+	culture = "han"
+}
+baijia185 = {
+	name = "dynn_baijia185"
+	culture = "han"
+}
+baijia186 = {
+	name = "dynn_baijia186"
+	culture = "han"
+}
+baijia187 = {
+	name = "dynn_baijia187"
+	culture = "han"
+}
+baijia188 = {
+	name = "dynn_baijia188"
+	culture = "yuzhou"
+}
+baijia189 = {
+	name = "dynn_baijia189"
+	culture = "han"
+}
+baijia190 = {
+	name = "dynn_baijia190"
+	culture = "yuzhou"
+}
+baijia191 = {
+	name = "dynn_baijia191"
+	culture = "han"
+}
+baijia192 = {
+	name = "dynn_baijia192"
+	culture = "liangzhou"
+}
+baijia193 = {
+	name = "dynn_baijia193"
+	culture = "yuzhou"
+}
+baijia194 = {
+	name = "dynn_baijia194"
+	culture = "han"
+}
+baijia195 = {
+	name = "dynn_baijia195"
+	culture = "yuzhou"
+}
+baijia196 = {
+	name = "dynn_baijia196"
+	culture = "yuzhou"
+}
+baijia197 = {
+	name = "dynn_baijia197"
+	culture = "han"
+}
+baijia198 = {
+	name = "dynn_baijia198"
+	culture = "han"
+}
+baijia199 = {
+	name = "dynn_baijia199"
+	culture = "yuzhou"
+}
+baijia200 = {
+	name = "dynn_baijia200"
+	culture = "han"
+}
+baijia201 = {
+	name = "dynn_baijia201"
+	culture = "han"
+}
+baijia202 = {
+	name = "dynn_baijia202"
+	culture = "han"
+}
+baijia203 = {
+	name = "dynn_baijia203"
+	culture = "han"
+}
+baijia204 = {
+	name = "dynn_baijia204"
+	culture = "han"
+}
+baijia205 = {
+	name = "dynn_baijia205"
+	culture = "han"
+}
+baijia206 = {
+	name = "dynn_baijia206"
+	culture = "han"
+}
+baijia207 = {
+	name = "dynn_baijia207"
+	culture = "han"
+}
+baijia208 = {
+	name = "dynn_baijia208"
+	culture = "yuzhou"
+}
+baijia209 = {
+	name = "dynn_baijia209"
+	culture = "yuzhou"
+}
+baijia210 = {
+	name = "dynn_baijia210"
+	culture = "han"
+}
+baijia211 = {
+	name = "dynn_baijia211"
+	culture = "yuzhou"
+}
+baijia212 = {
+	name = "dynn_baijia212"
+	culture = "han"
+}
+baijia213 = {
+	name = "dynn_baijia213"
+	culture = "yuzhou"
+}
+baijia214 = {
+	name = "dynn_baijia214"
+	culture = "han"
+}
+baijia215 = {
+	name = "dynn_baijia215"
+	culture = "yongren"
+}
+baijia216 = {
+	name = "dynn_baijia216"
+	culture = "han"
+}
+baijia217 = {
+	name = "dynn_baijia217"
+	culture = "bingzhou"
+}
+baijia218 = {
+	name = "dynn_baijia218"
+	culture = "han"
+}
+baijia219 = {
+	name = "dynn_baijia219"
+	culture = "han"
+}
+baijia220 = {
+	name = "dynn_baijia220"
+	culture = "yongren"
+}
+baijia221 = {
+	name = "dynn_baijia221"
+	culture = "liangzhou"
+}
+baijia222 = {
+	name = "dynn_baijia222"
+	culture = "yuzhou"
+}
+baijia223 = {
+	name = "dynn_baijia223"
+	culture = "yizhou"
+}
+baijia224 = {
+	name = "dynn_baijia224"
+	culture = "han"
+}
+baijia225 = {
+	name = "dynn_baijia225"
+	culture = "han"
+}
+baijia226 = {
+	name = "dynn_baijia226"
+	culture = "han"
+}
+baijia227 = {
+	name = "dynn_baijia227"
+	culture = "han"
+}
+baijia228 = {
+	name = "dynn_baijia228"
+	culture = "han"
+}
+baijia229 = {
+	name = "dynn_baijia229"
+	culture = "han"
+}
+baijia230 = {
+	name = "dynn_baijia230"
+	culture = "han"
+}
+baijia231 = {
+	name = "dynn_baijia231"
+	culture = "han"
+}
+baijia232 = {
+	name = "dynn_baijia232"
+	culture = "han"
+}
+baijia233 = {
+	name = "dynn_baijia233"
+	culture = "han"
+}
+baijia234 = {
+	name = "dynn_baijia234"
+	culture = "han"
+}
+baijia235 = {
+	name = "dynn_baijia235"
+	culture = "han"
+}
+baijia236 = {
+	name = "dynn_baijia236"
+	culture = "han"
+}
+baijia237 = {
+	name = "dynn_baijia237"
+	culture = "han"
+}
+baijia238 = {
+	name = "dynn_baijia238"
+	culture = "han"
+}
+baijia239 = {
+	name = "dynn_baijia239"
+	culture = "yuzhou"
+}
+baijia240 = {
+	name = "dynn_baijia240"
+	culture = "bingzhou"
+}
+baijia241 = {
+	name = "dynn_baijia241"
+	culture = "han"
+}
+baijia242 = {
+	name = "dynn_baijia242"
+	culture = "han"
+}
+baijia243 = {
+	name = "dynn_baijia243"
+	culture = "bingzhou"
+}
+baijia244 = {
+	name = "dynn_baijia244"
+	culture = "han"
+}
+baijia245 = {
+	name = "dynn_baijia245"
+	culture = "yuzhou"
+}
+baijia246 = {
+	name = "dynn_baijia246"
+	culture = "han"
+}
+baijia247 = {
+	name = "dynn_baijia247"
+	culture = "han"
+}
+baijia248 = {
+	name = "dynn_baijia248"
+	culture = "youzhou"
+}
+baijia249 = {
+	name = "dynn_baijia249"
+	culture = "han"
+}
+baijia250 = {
+	name = "dynn_baijia250"
+	culture = "han"
+}
+baijia251 = {
+	name = "dynn_baijia251"
+	culture = "han"
+}
+baijia252 = {
+	name = "dynn_baijia252"
+	culture = "han"
+}
+baijia253 = {
+	name = "dynn_baijia253"
+	culture = "han"
+}
+baijia254 = {
+	name = "dynn_baijia254"
+	culture = "yuzhou"
+}
+baijia255 = {
+	name = "dynn_baijia255"
+	culture = "han"
+}
+baijia256 = {
+	name = "dynn_baijia256"
+	culture = "bingzhou"
+}
+baijia257 = {
+	name = "dynn_baijia257"
+	culture = "han"
+}
+baijia258 = {
+	name = "dynn_baijia258"
+	culture = "han"
+}
+baijia259 = {
+	name = "dynn_baijia259"
+	culture = "han"
+}
+baijia260 = {
+	name = "dynn_baijia260"
+	culture = "han"
+}
+baijia261 = {
+	name = "dynn_baijia261"
+	culture = "yuzhou"
+}
+baijia262 = {
+	name = "dynn_baijia262"
+	culture = "han"
+}
+baijia263 = {
+	name = "dynn_baijia263"
+	culture = "youzhou"
+}
+baijia264 = {
+	name = "dynn_baijia264"
+	culture = "han"
+}
+baijia265 = {
+	name = "dynn_baijia265"
+	culture = "han"
+}
+baijia266 = {
+	name = "dynn_baijia266"
+	culture = "qingzhou"
+}
+baijia267 = {
+	name = "dynn_baijia267"
+	culture = "han"
+}
+baijia268 = {
+	name = "dynn_baijia268"
+	culture = "han"
+}
+baijia269 = {
+	name = "dynn_baijia269"
+	culture = "han"
+}
+baijia270 = {
+	name = "dynn_baijia270"
+	culture = "han"
+}
+baijia271 = {
+	name = "dynn_baijia271"
+	culture = "han"
+}
+baijia272 = {
+	name = "dynn_baijia272"
+	culture = "yizhou"
+}
+baijia273 = {
+	name = "dynn_baijia273"
+	culture = "han"
+}
+baijia274 = {
+	name = "dynn_baijia274"
+	culture = "han"
+}
+baijia275 = {
+	name = "dynn_baijia275"
+	culture = "han"
+}
+baijia276 = {
+	name = "dynn_baijia276"
+	culture = "han"
+}
+baijia277 = {
+	name = "dynn_baijia277"
+	culture = "han"
+}
+baijia278 = {
+	name = "dynn_baijia278"
+	culture = "han"
+}
+baijia279 = {
+	name = "dynn_baijia279"
+	culture = "han"
+}
+baijia280 = {
+	name = "dynn_baijia280"
+	culture = "qingzhou"
+}
+baijia281 = {
+	name = "dynn_baijia281"
+	culture = "han"
+}
+baijia282 = {
+	name = "dynn_baijia282"
+	culture = "han"
+}
+baijia283 = {
+	name = "dynn_baijia283"
+	culture = "han"
+}
+baijia284 = {
+	name = "dynn_baijia284"
+	culture = "han"
+}
+baijia285 = {
+	name = "dynn_baijia285"
+	culture = "han"
+}
+baijia286 = {
+	name = "dynn_baijia286"
+	culture = "han"
+}
+baijia287 = {
+	name = "dynn_baijia287"
+	culture = "han"
+}
+baijia288 = {
+	name = "dynn_baijia288"
+	culture = "han"
+}
+baijia289 = {
+	name = "dynn_baijia289"
+	culture = "han"
+}
+baijia290 = {
+	name = "dynn_baijia290"
+	culture = "yuzhou"
+}
+baijia291 = {
+	name = "dynn_baijia291"
+	culture = "han"
+}
+baijia292 = {
+	name = "dynn_baijia292"
+	culture = "liangzhou"
+}
+baijia293 = {
+	name = "dynn_baijia293"
+	culture = "yanzhou"
+}
+baijia294 = {
+	name = "dynn_baijia294"
+	culture = "han"
+}
+baijia295 = {
+	name = "dynn_baijia295"
+	culture = "han"
+}
+baijia296 = {
+	name = "dynn_baijia296"
+	culture = "han"
+}
+baijia297 = {
+	name = "dynn_baijia297"
+	culture = "han"
+}
+baijia298 = {
+	name = "dynn_baijia298"
+	culture = "yuzhou"
+}
+baijia299 = {
+	name = "dynn_baijia299"
+	culture = "han"
+}
+baijia300 = {
+	name = "dynn_baijia300"
+	culture = "han"
+}
+baijia301 = {
+	name = "dynn_baijia301"
+	culture = "liangzhou"
+}
+baijia302 = {
+	name = "dynn_baijia302"
+	culture = "han"
+}
+baijia303 = {
+	name = "dynn_baijia303"
+	culture = "han"
+}
+baijia304 = {
+	name = "dynn_baijia304"
+	culture = "yuzhou"
+}
+baijia305 = {
+	name = "dynn_baijia305"
+	culture = "han"
+}
+baijia306 = {
+	name = "dynn_baijia306"
+	culture = "han"
+}
+baijia307 = {
+	name = "dynn_baijia307"
+	culture = "han"
+}
+baijia308 = {
+	name = "dynn_baijia308"
+	culture = "han"
+}
+baijia309 = {
+	name = "dynn_baijia309"
+	culture = "han"
+}
+baijia310 = {
+	name = "dynn_baijia310"
+	culture = "han"
+}
+baijia311 = {
+	name = "dynn_baijia311"
+	culture = "han"
+}
+baijia312 = {
+	name = "dynn_baijia312"
+	culture = "han"
+}
+baijia313 = {
+	name = "dynn_baijia313"
+	culture = "han"
+}
+baijia314 = {
+	name = "dynn_baijia314"
+	culture = "han"
+}
+baijia315 = {
+	name = "dynn_baijia315"
+	culture = "youzhou"
+}
+baijia316 = {
+	name = "dynn_baijia316"
+	culture = "bingzhou"
+}
+baijia317 = {
+	name = "dynn_baijia317"
+	culture = "yuzhou"
+}
+baijia318 = {
+	name = "dynn_baijia318"
+	culture = "han"
+}
+baijia319 = {
+	name = "dynn_baijia319"
+	culture = "han"
+}
+baijia320 = {
+	name = "dynn_baijia320"
+	culture = "han"
+}
+baijia321 = {
+	name = "dynn_baijia321"
+	culture = "yuzhou"
+}
+baijia322 = {
+	name = "dynn_baijia322"
+	culture = "han"
+}
+baijia323 = {
+	name = "dynn_baijia323"
+	culture = "han"
+}
+baijia324 = {
+	name = "dynn_baijia324"
+	culture = "han"
+}
+baijia325 = {
+	name = "dynn_baijia325"
+	culture = "han"
+}
+baijia326 = {
+	name = "dynn_baijia326"
+	culture = "han"
+}
+baijia327 = {
+	name = "dynn_baijia327"
+	culture = "han"
+}
+baijia328 = {
+	name = "dynn_baijia328"
+	culture = "yizhou"
+}
+baijia329 = {
+	name = "dynn_baijia329"
+	culture = "han"
+}
+baijia330 = {
+	name = "dynn_baijia330"
+	culture = "han"
+}
+baijia331 = {
+	name = "dynn_baijia331"
+	culture = "han"
+}
+baijia332 = {
+	name = "dynn_baijia332"
+	culture = "han"
+}
+baijia333 = {
+	name = "dynn_baijia333"
+	culture = "han"
+}
+baijia334 = {
+	name = "dynn_baijia334"
+	culture = "han"
+}
+baijia335 = {
+	name = "dynn_baijia335"
+	culture = "yongren"
+}
+baijia336 = {
+	name = "dynn_baijia336"
+	culture = "han"
+}
+baijia337 = {
+	name = "dynn_baijia337"
+	culture = "han"
+}
+baijia338 = {
+	name = "dynn_baijia338"
+	culture = "han"
+}
+baijia339 = {
+	name = "dynn_baijia339"
+	culture = "han"
+}
+baijia340 = {
+	name = "dynn_baijia340"
+	culture = "han"
+}
+baijia341 = {
+	name = "dynn_baijia341"
+	culture = "han"
+}
+baijia342 = {
+	name = "dynn_baijia342"
+	culture = "han"
+}
+baijia343 = {
+	name = "dynn_baijia343"
+	culture = "han"
+}
+baijia344 = {
+	name = "dynn_baijia344"
+	culture = "han"
+}
+baijia345 = {
+	name = "dynn_baijia345"
+	culture = "han"
+}
+baijia346 = {
+	name = "dynn_baijia346"
+	culture = "han"
+}
+baijia347 = {
+	name = "dynn_baijia347"
+	culture = "han"
+}
+baijia348 = {
+	name = "dynn_baijia348"
+	culture = "han"
+}
+baijia349 = {
+	name = "dynn_baijia349"
+	culture = "han"
+}
+baijia350 = {
+	name = "dynn_baijia350"
+	culture = "han"
+}
+baijia351 = {
+	name = "dynn_baijia351"
+	culture = "han"
+}
+baijia352 = {
+	name = "dynn_baijia352"
+	culture = "han"
+}
+baijia353 = {
+	name = "dynn_baijia353"
+	culture = "han"
+}
+baijia354 = {
+	name = "dynn_baijia354"
+	culture = "han"
+}
+baijia355 = {
+	name = "dynn_baijia355"
+	culture = "han"
+}
+baijia356 = {
+	name = "dynn_baijia356"
+	culture = "han"
+}
+baijia357 = {
+	name = "dynn_baijia357"
+	culture = "han"
+}
+baijia358 = {
+	name = "dynn_baijia358"
+	culture = "han"
+}
+baijia359 = {
+	name = "dynn_baijia359"
+	culture = "han"
+}
+baijia360 = {
+	name = "dynn_baijia360"
+	culture = "han"
+}
+baijia361 = {
+	name = "dynn_baijia361"
+	culture = "han"
+}
+baijia362 = {
+	name = "dynn_baijia362"
+	culture = "han"
+}
+baijia363 = {
+	name = "dynn_baijia363"
+	culture = "han"
+}
+baijia364 = {
+	name = "dynn_baijia364"
+	culture = "han"
+}
+baijia365 = {
+	name = "dynn_baijia365"
+	culture = "han"
+}
+baijia366 = {
+	name = "dynn_baijia366"
+	culture = "han"
+}
+baijia367 = {
+	name = "dynn_baijia367"
+	culture = "han"
+}
+baijia368 = {
+	name = "dynn_baijia368"
+	culture = "han"
+}
+baijia369 = {
+	name = "dynn_baijia369"
+	culture = "han"
+}
+baijia370 = {
+	name = "dynn_baijia370"
+	culture = "han"
+}
+baijia371 = {
+	name = "dynn_baijia371"
+	culture = "han"
+}
+baijia372 = {
+	name = "dynn_baijia372"
+	culture = "qingzhou"
+}
+baijia373 = {
+	name = "dynn_baijia373"
+	culture = "han"
+}
+baijia374 = {
+	name = "dynn_baijia374"
+	culture = "han"
+}
+baijia375 = {
+	name = "dynn_baijia375"
+	culture = "yuzhou"
+}
+baijia376 = {
+	name = "dynn_baijia376"
+	culture = "han"
+}
+baijia377 = {
+	name = "dynn_baijia377"
+	culture = "han"
+}
+baijia378 = {
+	name = "dynn_baijia378"
+	culture = "yuzhou"
+}
+baijia379 = {
+	name = "dynn_baijia379"
+	culture = "han"
+}
+baijia380 = {
+	name = "dynn_baijia380"
+	culture = "yanzhou"
+}
+baijia381 = {
+	name = "dynn_baijia381"
+	culture = "han"
+}
+baijia382 = {
+	name = "dynn_baijia382"
+	culture = "han"
+}
+baijia383 = {
+	name = "dynn_baijia383"
+	culture = "qingzhou"
+}
+baijia384 = {
+	name = "dynn_baijia384"
+	culture = "liangzhou"
+}
+baijia385 = {
+	name = "dynn_baijia385"
+	culture = "han"
+}
+baijia386 = {
+	name = "dynn_baijia386"
+	culture = "han"
+}
+baijia387 = {
+	name = "dynn_baijia387"
+	culture = "han"
+}
+baijia388 = {
+	name = "dynn_baijia388"
+	culture = "han"
+}
+baijia389 = {
+	name = "dynn_baijia389"
+	culture = "han"
+}
+baijia390 = {
+	name = "dynn_baijia390"
+	culture = "youzhou"
+}
+baijia391 = {
+	name = "dynn_baijia391"
+	culture = "han"
+}
+baijia392 = {
+	name = "dynn_baijia392"
+	culture = "han"
+}
+baijia393 = {
+	name = "dynn_baijia393"
+	culture = "han"
+}
+baijia394 = {
+	name = "dynn_baijia394"
+	culture = "yuzhou"
+}
+baijia395 = {
+	name = "dynn_baijia395"
+	culture = "han"
+}
+baijia396 = {
+	name = "dynn_baijia396"
+	culture = "yuzhou"
+}
+baijia397 = {
+	name = "dynn_baijia397"
+	culture = "han"
+}
+baijia398 = {
+	name = "dynn_baijia398"
+	culture = "han"
+}
+baijia399 = {
+	name = "dynn_baijia399"
+	culture = "han"
+}
+baijia400 = {
+	name = "dynn_baijia400"
+	culture = "han"
+}
+baijia401 = {
+	name = "dynn_baijia401"
+	culture = "han"
+}
+baijia402 = {
+	name = "dynn_baijia402"
+	culture = "han"
+}
+baijia403 = {
+	name = "dynn_baijia403"
+	culture = "han"
+}
+baijia404 = {
+	name = "dynn_baijia404"
+	culture = "han"
+}
+baijia405 = {
+	name = "dynn_baijia405"
+	culture = "han"
+}
+baijia406 = {
+	name = "dynn_baijia406"
+	culture = "han"
+}
+baijia407 = {
+	name = "dynn_baijia407"
+	culture = "han"
+}
+baijia408 = {
+	name = "dynn_baijia408"
+	culture = "han"
+}
+baijia409 = {
+	name = "dynn_baijia409"
+	culture = "han"
+}
+baijia410 = {
+	name = "dynn_baijia410"
+	culture = "yuzhou"
+}
+baijia411 = {
+	name = "dynn_baijia411"
+	culture = "han"
+}
+baijia412 = {
+	name = "dynn_baijia412"
+	culture = "han"
+}
+baijia413 = {
+	name = "dynn_baijia413"
+	culture = "han"
+}
+baijia414 = {
+	name = "dynn_baijia414"
+	culture = "yuzhou"
+}
+baijia415 = {
+	name = "dynn_baijia415"
+	culture = "han"
+}
+baijia416 = {
+	name = "dynn_baijia416"
+	culture = "han"
+}
+baijia417 = {
+	name = "dynn_baijia417"
+	culture = "han"
+}
+baijia418 = {
+	name = "dynn_baijia418"
+	culture = "han"
+}
+baijia419 = {
+	name = "dynn_baijia419"
+	culture = "han"
+}
+baijia420 = {
+	name = "dynn_baijia420"
+	culture = "han"
+}
+baijia421 = {
+	name = "dynn_baijia421"
+	culture = "han"
+}
+baijia422 = {
+	name = "dynn_baijia422"
+	culture = "han"
+}
+baijia423 = {
+	name = "dynn_baijia423"
+	culture = "han"
+}
+baijia424 = {
+	name = "dynn_baijia424"
+	culture = "han"
+}
+baijia425 = {
+	name = "dynn_baijia425"
+	culture = "yuzhou"
+}
+baijia426 = {
+	name = "dynn_baijia426"
+	culture = "han"
+}
+baijia427 = {
+	name = "dynn_baijia427"
+	culture = "han"
+}
+baijia428 = {
+	name = "dynn_baijia428"
+	culture = "yuzhou"
+}
+baijia429 = {
+	name = "dynn_baijia429"
+	culture = "han"
+}
+baijia430 = {
+	name = "dynn_baijia430"
+	culture = "han"
+}
+baijia431 = {
+	name = "dynn_baijia431"
+	culture = "han"
+}
+baijia432 = {
+	name = "dynn_baijia432"
+	culture = "bingzhou"
+}
+baijia433 = {
+	name = "dynn_baijia433"
+	culture = "han"
+}
+baijia434 = {
+	name = "dynn_baijia434"
+	culture = "han"
+}
+baijia435 = {
+	name = "dynn_baijia435"
+	culture = "han"
+}
+baijia436 = {
+	name = "dynn_baijia436"
+	culture = "han"
+}
+baijia437 = {
+	name = "dynn_baijia437"
+	culture = "han"
+}
+baijia438 = {
+	name = "dynn_baijia438"
+	culture = "han"
+}
+baijia439 = {
+	name = "dynn_baijia439"
+	culture = "han"
+}
+baijia440 = {
+	name = "dynn_baijia440"
+	culture = "han"
+}
+baijia441 = {
+	name = "dynn_baijia441"
+	culture = "han"
+}
+baijia442 = {
+	name = "dynn_baijia442"
+	culture = "han"
+}
+baijia443 = {
+	name = "dynn_baijia443"
+	culture = "han"
+}
+baijia444 = {
+	name = "dynn_baijia444"
+	culture = "youzhou"
+}
+baijia445 = {
+	name = "dynn_baijia445"
+	culture = "han"
+}
+baijia446 = {
+	name = "dynn_baijia446"
+	culture = "han"
+}
+baijia447 = {
+	name = "dynn_baijia447"
+	culture = "han"
+}
+baijia448 = {
+	name = "dynn_baijia448"
+	culture = "han"
+}
+baijia449 = {
+	name = "dynn_baijia449"
+	culture = "han"
+}
+baijia450 = {
+	name = "dynn_baijia450"
+	culture = "yuzhou"
+}
+baijia451 = {
+	name = "dynn_baijia451"
+	culture = "han"
+}
+baijia452 = {
+	name = "dynn_baijia452"
+	culture = "han"
+}
+baijia453 = {
+	name = "dynn_baijia453"
+	culture = "yuzhou"
+}
+baijia454 = {
+	name = "dynn_baijia454"
+	culture = "han"
+}
+baijia455 = {
+	name = "dynn_baijia455"
+	culture = "han"
+}
+baijia456 = {
+	name = "dynn_baijia456"
+	culture = "han"
+}
+baijia457 = {
+	name = "dynn_baijia457"
+	culture = "han"
+}
+baijia458 = {
+	name = "dynn_baijia458"
+	culture = "bingzhou"
+}
+baijia459 = {
+	name = "dynn_baijia459"
+	culture = "han"
+}
+baijia460 = {
+	name = "dynn_baijia460"
+	culture = "youzhou"
+}
+baijia461 = {
+	name = "dynn_baijia461"
+	culture = "han"
+}
+baijia462 = {
+	name = "dynn_baijia462"
+	culture = "han"
+}
+baijia463 = {
+	name = "dynn_baijia463"
+	culture = "yuzhou"
+}
+baijia464 = {
+	name = "dynn_baijia464"
+	culture = "xuzhou"
+}
+baijia465 = {
+	name = "dynn_baijia465"
+	culture = "han"
+}
+baijia466 = {
+	name = "dynn_baijia466"
+	culture = "han"
+}
+baijia467 = {
+	name = "dynn_baijia467"
+	culture = "han"
+}
+baijia468 = {
+	name = "dynn_baijia468"
+	culture = "han"
+}
+baijia469 = {
+	name = "dynn_baijia469"
+	culture = "yuzhou"
+}
+baijia470 = {
+	name = "dynn_baijia470"
+	culture = "han"
+}
+baijia471 = {
+	name = "dynn_baijia471"
+	culture = "han"
+}
+baijia472 = {
+	name = "dynn_baijia472"
+	culture = "han"
+}
+baijia473 = {
+	name = "dynn_baijia473"
+	culture = "han"
+}
+baijia474 = {
+	name = "dynn_baijia474"
+	culture = "han"
+}
+baijia475 = {
+	name = "dynn_baijia475"
+	culture = "han"
+}
+baijia476 = {
+	name = "dynn_baijia476"
+	culture = "han"
+}
+baijia477 = {
+	name = "dynn_baijia477"
+	culture = "han"
+}
+baijia478 = {
+	name = "dynn_baijia478"
+	culture = "yanzhou"
+}
+baijia479 = {
+	name = "dynn_baijia479"
+	culture = "han"
+}
+baijia480 = {
+	name = "dynn_baijia480"
+	culture = "han"
+}
+baijia481 = {
+	name = "dynn_baijia481"
+	culture = "han"
+}
+baijia482 = {
+	name = "dynn_baijia482"
+	culture = "han"
+}
+baijia483 = {
+	name = "dynn_baijia483"
+	culture = "han"
+}
+baijia484 = {
+	name = "dynn_baijia484"
+	culture = "han"
+}
+baijia485 = {
+	name = "dynn_baijia485"
+	culture = "han"
+}
+baijia486 = {
+	name = "dynn_baijia486"
+	culture = "han"
+}
+baijia487 = {
+	name = "dynn_baijia487"
+	culture = "han"
+}
+baijia488 = {
+	name = "dynn_baijia488"
+	culture = "qingzhou"
+}
+baijia489 = {
+	name = "dynn_baijia489"
+	culture = "han"
+}
+baijia490 = {
+	name = "dynn_baijia490"
+	culture = "han"
+}
+baijia491 = {
+	name = "dynn_baijia491"
+	culture = "han"
+}
+baijia492 = {
+	name = "dynn_baijia492"
+	culture = "han"
+}
+baijia493 = {
+	name = "dynn_baijia493"
+	culture = "yuzhou"
+}
+baijia494 = {
+	name = "dynn_baijia494"
+	culture = "han"
+}
+baijia495 = {
+	name = "dynn_baijia495"
+	culture = "han"
+}
+baijia496 = {
+	name = "dynn_baijia496"
+	culture = "han"
+}
+baijia497 = {
+	name = "dynn_baijia497"
+	culture = "han"
+}
+baijia498 = {
+	name = "dynn_baijia498"
+	culture = "han"
+}
+baijia499 = {
+	name = "dynn_baijia499"
+	culture = "han"
+}
+baijia500 = {
+	name = "dynn_baijia500"
+	culture = "yanzhou"
+}
+baijia501 = {
+	name = "dynn_baijia501"
+	culture = "han"
+}
+baijia502 = {
+	name = "dynn_baijia502"
+	culture = "han"
+}
+baijia503 = {
+	name = "dynn_baijia503"
+	culture = "han"
+}
+baijia504 = {
+	name = "dynn_baijia504"
+	culture = "han"
+}
+xin1 = {
+	name = "dynn_xin1"
+	culture = "yuzhou"
+}
+xin2 = {
+	name = "dynn_xin2"
+	culture = "yanzhou"
+}
+xin3 = {
+	name = "dynn_xin3"
+	culture = "yuzhou"
+}
+xin4 = {
+	name = "dynn_xin4"
+	culture = "yuzhou"
+}
+xin5 = {
+	name = "dynn_xin5"
+	culture = "han"
+}
+xin6 = {
+	name = "dynn_xin6"
+	culture = "han"
+}
+xin7 = {
+	name = "dynn_xin7"
+	culture = "han"
+}
+xin8 = {
+	name = "dynn_xin8"
+	culture = "han"
+}
+xin9 = {
+	name = "dynn_xin9"
+	culture = "han"
+}
+xin10 = {
+	name = "dynn_xin10"
+	culture = "han"
+}
+xin11 = {
+	name = "dynn_xin11"
+	culture = "han"
+}
+xin12 = {
+	name = "dynn_xin12"
+	culture = "han"
+}
+xin13 = {
+	name = "dynn_xin13"
+	culture = "han"
+}
+xin14 = {
+	name = "dynn_xin14"
+	culture = "han"
+}
+xin15 = {
+	name = "dynn_xin15"
+	culture = "han"
+}
+xin16 = {
+	name = "dynn_xin16"
+	culture = "yuzhou"
+}
+xin17 = {
+	name = "dynn_xin17"
+	culture = "han"
+}
+xin18 = {
+	name = "dynn_xin18"
+	culture = "han"
+}
+xin19 = {
+	name = "dynn_xin19"
+	culture = "yuzhou"
+}
+xin20 = {
+	name = "dynn_xin20"
+	culture = "han"
+}
+xin21 = {
+	name = "dynn_xin21"
+	culture = "youzhou"
+}
+xin22 = {
+	name = "dynn_xin22"
+	culture = "han"
+}
+xin23 = {
+	name = "dynn_xin23"
+	culture = "han"
+}
+xin24 = {
+	name = "dynn_xin24"
+	culture = "yanzhou"
+}
+xin25 = {
+	name = "dynn_xin25"
+	culture = "yuzhou"
+}
+xin26 = {
+	name = "dynn_xin26"
+	culture = "bingzhou"
+}
+xin27 = {
+	name = "dynn_xin27"
+	culture = "han"
+}
+xin28 = {
+	name = "dynn_xin28"
+	culture = "han"
+}
+xin29 = {
+	name = "dynn_xin29"
+	culture = "han"
+}
+
+xin30 = {
+	name = "dynn_xin30"
+	culture = "qingzhou"
+}
+
+xin31 = {
+	name = "dynn_xin31"
+	culture = "qingzhou"
+}
+
+xin32 = {
+	name = "dynn_xin32"
+	culture = "han"
+}
+
+xin33 = {
+	name = "dynn_xin33"
+	culture = "han"
+}
+
+xin34 = {
+	name = "dynn_xin34"
+	culture = "han"
+}
+
+xin35 = {
+	name = "dynn_xin35"
+	culture = "qingzhou"
+}
+
+xin36 = {
+	name = "dynn_xin36"
+	culture = "han"
+}
+
+xin37 = {
+	name = "dynn_xin37"
+	culture = "yanzhou"
+}
+
+xin38 = {
+	name = "dynn_xin38"
+	culture = "yanzhou"
+}
+
+xin39 = {
+	name = "dynn_xin39"
+	culture = "qingzhou"
+}
+
+xin40 = {
+	name = "dynn_xin40"
+	culture = "yuzhou"
+}
+
+xin41 = {
+	name = "dynn_xin41"
+	culture = "yuzhou"
+}
+
+xin42 = {
+	name = "dynn_xin42"
+	culture = "yuzhou"
+}
+
+xin43 = {
+	name = "dynn_xin43"
+	culture = "yuzhou"
+}
+
+xin44 = {
+	name = "dynn_xin44"
+	culture = "yuzhou"
+}
+
+xin45 = {
+	name = "dynn_xin45"
+	culture = "yuzhou"
+}
+
+xin46 = {
+	name = "dynn_xin46"
+	culture = "yuzhou"
+}
+
+xin47 = {
+	name = "dynn_xin47"
+	culture = "yuzhou"
+}
+
+xin48 = {
+	name = "dynn_xin48"
+	culture = "yuzhou"
+}
+
+xin49 = {
+	name = "dynn_xin49"
+	culture = "yuzhou"
+}
+
+xin50 = {
+	name = "dynn_xin50"
+	culture = "han"
+}
+
+xin51 = {
+	name = "dynn_xin51"
+	culture = "liangzhou"
+}
+
+xin52 = {
+	name = "dynn_xin52"
+	culture = "han"
+}
+
+xin53 = {
+	name = "dynn_xin53"
+	culture = "han"
+}
+
+xin54 = {
+	name = "dynn_xin54"
+	culture = "han"
+}
+
+xin55 = {
+	name = "dynn_xin55"
+	culture = "yanzhou"
+}
+
+xin56 = {
+	name = "dynn_xin56"
+	culture = "han"
+}
+
+xin57 = {
+	name = "dynn_xin57"
+	culture = "han"
+}
+
+xin58 = {
+	name = "dynn_xin58"
+	culture = "han"
+}
+
+xin59 = {
+	name = "dynn_xin59"
+	culture = "qingzhou"
+}
+
+xin60 = {
+	name = "dynn_xin60"
+	culture = "yuzhou"
+}
+
+xin61 = {
+	name = "dynn_xin61"
+	culture = "yuzhou"
+}
+
+xin62 = {
+	name = "dynn_xin62"
+	culture = "qingzhou"
+}
+
+xin63 = {
+	name = "dynn_xin63"
+	culture = "xuzhou"
+}
+
+xin64 = {
+	name = "dynn_xin64"
+	culture = "xuzhou"
+}
+
+xin65 = {
+	name = "dynn_xin65"
+	culture = "han"
+}
+
+xin66 = {
+	name = "dynn_xin66"
+	culture = "xuzhou"
+}
+
+xin67 = {
+	name = "dynn_xin67"
+	culture = "han"
+}
+
+xin68 = {
+	name = "dynn_xin68"
+	culture = "qingzhou"
+}
+
+xin69 = {
+	name = "dynn_xin69"
+	culture = "qingzhou"
+}
+
+xin70 = {
+	name = "dynn_xin70"
+	culture = "han"
+}
+
+xin71 = {
+	name = "dynn_xin71"
+	culture = "xuzhou"
+}
+
+xin72 = {
+	name = "dynn_xin72"
+	culture = "yuzhou"
+}
+
+xin73 = {
+	name = "dynn_xin73"
+	culture = "han"
+}
+
+xin74 = {
+	name = "dynn_xin74"
+	culture = "yuzhou"
+}
+
+xin75 = {
+	name = "dynn_xin75"
+	culture = "yuzhou"
+}
+
+xin76 = {
+	name = "dynn_xin76"
+	culture = "yuzhou"
+}
+
+xin77 = {
+	name = "dynn_xin77"
+	culture = "yuzhou"
+}
+
+xin78 = {
+	name = "dynn_xin78"
+	culture = "liangzhou"
+}
+
+xin79 = {
+	name = "dynn_xin79"
+	culture = "bingzhou"
+}
+
+xin80 = {
+	name = "dynn_xin80"
+	culture = "bingzhou"
+}
+
+xin81 = {
+	name = "dynn_xin81"
+	culture = "bingzhou"
+}
+
+xin82 = {
+	name = "dynn_xin82"
+	culture = "bingzhou"
+}
+
+xin83 = {
+	name = "dynn_xin83"
+	culture = "liangzhou"
+}
+
+xin84 = {
+	name = "dynn_xin84"
+	culture = "liangzhou"
+}
+
+xin85 = {
+	name = "dynn_xin85"
+	culture = "liangzhou"
+}
+
+xin86 = {
+	name = "dynn_xin86"
+	culture = "liangzhou"
+}
+
+xin87 = {
+	name = "dynn_xin87"
+	culture = "han"
+}
+
+xin88 = {
+	name = "dynn_xin88"
+	culture = "han"
+}
+
+xin89 = {
+	name = "dynn_xin89"
+	culture = "han"
+}
+
+xin90 = {
+	name = "dynn_xin90"
+	culture = "han"
+}
+
+xin91 = {
+	name = "dynn_xin91"
+	culture = "han"
+}
+
+xin92 = {
+	name = "dynn_xin92"
+	culture = "han"
+}
+
+xin93 = {
+	name = "dynn_xin93"
+	culture = "han"
+}
+
+xin94 = {
+	name = "dynn_xin94"
+	culture = "han"
+}
+
+xin95 = {
+	name = "dynn_xin95"
+	culture = "han"
+}
+
+xin96 = {
+	name = "dynn_xin96"
+	culture = "han"
+}
+
+xin97 = {
+	name = "dynn_xin97"
+	culture = "han"
+}
+
+xin98 = {
+	name = "dynn_xin98"
+	culture = "han"
+}
+
+xin99 = {
+	name = "dynn_xin99"
+	culture = "han"
+}
+
+xin100 = {
+	name = "dynn_xin100"
+	culture = "han"
+}
+
+xin101 = {
+	name = "dynn_xin101"
+	culture = "han"
+}
+
+xin102 = {
+	name = "dynn_xin102"
+	culture = "han"
+}
+
+xin103 = {
+	name = "dynn_xin103"
+	culture = "han"
+}
+
+xin104 = {
+	name = "dynn_xin104"
+	culture = "han"
+}
+
+xin105 = {
+	name = "dynn_xin105"
+	culture = "han"
+}
+
+xin106 = {
+	name = "dynn_xin106"
+	culture = "han"
+}
+
+xin107 = {
+	name = "dynn_xin107"
+	culture = "han"
+}
+
+xin108 = {
+	name = "dynn_xin108"
+	culture = "han"
+}
+
+xin109 = {
+	name = "dynn_xin109"
+	culture = "han"
+}
+
+xin110 = {
+	name = "dynn_xin110"
+	culture = "liangzhou"
+}
+
+xin111 = {
+	name = "dynn_xin111"
+	culture = "han"
+}
+
+xin112 = {
+	name = "dynn_xin112"
+	culture = "han"
+}
+
+xin113 = {
+	name = "dynn_xin113"
+	culture = "han"
+}
+
+xin114 = {
+	name = "dynn_xin114"
+	culture = "han"
+}
+
+xin115 = {
+	name = "dynn_xin115"
+	culture = "han"
+}
+
+xin116 = {
+	name = "dynn_xin116"
+	culture = "han"
+}
+
+xin117 = {
+	name = "dynn_xin117"
+	culture = "liangzhou"
+}
+
+xin118 = {
+	name = "dynn_xin118"
+	culture = "han"
+}
+
+xin119 = {
+	name = "dynn_xin119"
+	culture = "han"
+}
+
+xin120 = {
+	name = "dynn_xin120"
+	culture = "han"
+}
+
+xin121 = {
+	name = "dynn_xin121"
+	culture = "han"
+}
+
+xin122 = {
+	name = "dynn_xin122"
+	culture = "han"
+}
+
+xin123 = {
+	name = "dynn_xin123"
+	culture = "han"
+}
+
+xin124 = {
+	name = "dynn_xin124"
+	culture = "han"
+}
+
+xin125 = {
+	name = "dynn_xin125"
+	culture = "han"
+}
+
+xin126 = {
+	name = "dynn_xin126"
+	culture = "han"
+}
+
+xin127 = {
+	name = "dynn_xin127"
+	culture = "liangzhou"
+}
+
+xin128 = {
+	name = "dynn_xin128"
+	culture = "han"
+}
+
+xin129 = {
+	name = "dynn_xin129"
+	culture = "han"
+}
+
+xin130 = {
+	name = "dynn_xin130"
+	culture = "han"
+}
+
+xin131 = {
+	name = "dynn_xin131"
+	culture = "han"
+}
+
+xin132 = {
+	name = "dynn_xin132"
+	culture = "han"
+}
+
+xin133 = {
+	name = "dynn_xin133"
+	culture = "han"
+}
+
+xin134 = {
+	name = "dynn_xin134"
+	culture = "han"
+}
+
+xin135 = {
+	name = "dynn_xin135"
+	culture = "han"
+}
+
+xin136 = {
+	name = "dynn_xin136"
+	culture = "han"
+}
+
+xin137 = {
+	name = "dynn_xin137"
+	culture = "han"
+}
+
+xin138 = {
+	name = "dynn_xin138"
+	culture = "han"
+}
+
+xin139 = {
+	name = "dynn_xin139"
+	culture = "han"
+}
+
+xin140 = {
+	name = "dynn_xin140"
+	culture = "han"
+}
+
+xin141 = {
+	name = "dynn_xin141"
+	culture = "han"
+}
+
+xin142 = {
+	name = "dynn_xin142"
+	culture = "han"
+}
+
+xin143 = {
+	name = "dynn_xin143"
+	culture = "han"
+}
+
+xin144 = {
+	name = "dynn_xin144"
+	culture = "han"
+}
+
+xin145 = {
+	name = "dynn_xin145"
+	culture = "han"
+}
+
+xin146 = {
+	name = "dynn_xin146"
+	culture = "han"
+}
+
+xin147 = {
+	name = "dynn_xin147"
+	culture = "han"
+}
+
+xin148 = {
+	name = "dynn_xin148"
+	culture = "han"
+}
+
+xin149 = {
+	name = "dynn_xin149"
+	culture = "han"
+}
+
+xin150 = {
+	name = "dynn_xin150"
+	culture = "han"
+}
+
+xin151 = {
+	name = "dynn_xin151"
+	culture = "han"
+}
+
+xin152 = {
+	name = "dynn_xin152"
+	culture = "han"
+}
+
+xin153 = {
+	name = "dynn_xin153"
+	culture = "han"
+}
+
+xin154 = {
+	name = "dynn_xin154"
+	culture = "han"
+}
+
+xin155 = {
+	name = "dynn_xin155"
+	culture = "han"
+}
+
+xin156 = {
+	name = "dynn_xin156"
+	culture = "han"
+}
+
+xin157 = {
+	name = "dynn_xin157"
+	culture = "han"
+}
+
+xin158 = {
+	name = "dynn_xin158"
+	culture = "han"
+}
+
+xin159 = {
+	name = "dynn_xin159"
+	culture = "han"
+}
+
+xin160 = {
+	name = "dynn_xin160"
+	culture = "han"
+}
+
+xin161 = {
+	name = "dynn_xin161"
+	culture = "han"
+}
+
+xin162 = {
+	name = "dynn_xin162"
+	culture = "han"
+}
+
+xin163 = {
+	name = "dynn_xin163"
+	culture = "han"
+}
+
+xin164 = {
+	name = "dynn_xin164"
+	culture = "han"
+}
+
+xin165 = {
+	name = "dynn_xin165"
+	culture = "han"
+}
+
+xin166 = {
+	name = "dynn_xin166"
+	culture = "han"
+}
+
+xin167 = {
+	name = "dynn_xin167"
+	culture = "han"
+}
+
+xin168 = {
+	name = "dynn_xin168"
+	culture = "han"
+}
+
+xin169 = {
+	name = "dynn_xin169"
+	culture = "han"
+}
+
+xin170 = {
+	name = "dynn_xin170"
+	culture = "han"
+}
+xin171 = {
+	name = "dynn_xin171"
+	culture = "han"
+}
+
+xin172 = {
+	name = "dynn_xin172"
+	culture = "liangzhou"
+}
+
+xin173 = {
+	name = "dynn_xin173"
+	culture = "han"
+}
+
+xin174 = {
+	name = "dynn_xin174"
+	culture = "han"
+}
+
+xin175 = {
+	name = "dynn_xin175"
+	culture = "han"
+}
+
+xin176 = {
+	name = "dynn_xin176"
+	culture = "han"
+}
+
+xin177 = {
+	name = "dynn_xin177"
+	culture = "han"
+}
+
+xin178 = {
+	name = "dynn_xin178"
+	culture = "han"
+}
+
+xin179 = {
+	name = "dynn_xin179"
+	culture = "han"
+}
+
+xin180 = {
+	name = "dynn_xin180"
+	culture = "han"
+}
+
+xin181 = {
+	name = "dynn_xin181"
+	culture = "han"
+}
+
+xin182 = {
+	name = "dynn_xin182"
+	culture = "liangzhou"
+}
+
+xin183 = {
+	name = "dynn_xin183"
+	culture = "han"
+}
+
+xin184 = {
+	name = "dynn_xin184"
+	culture = "han"
+}
+
+xin185 = {
+	name = "dynn_xin185"
+	culture = "han"
+}
+
+xin186 = {
+	name = "dynn_xin186"
+	culture = "han"
+}
+
+xin187 = {
+	name = "dynn_xin187"
+	culture = "han"
+}
+
+xin188 = {
+	name = "dynn_xin188"
+	culture = "han"
+}
+
+xin189 = {
+	name = "dynn_xin189"
+	culture = "han"
+}
+
+xin190 = {
+	name = "dynn_xin190"
+	culture = "han"
+}
+xin191 = {
+	name = "dynn_xin191"
+	culture = "han"
+}
+
+xin192 = {
+	name = "dynn_xin192"
+	culture = "han"
+}
+
+xin193 = {
+	name = "dynn_xin193"
+	culture = "han"
+}
+
+xin194 = {
+	name = "dynn_xin194"
+	culture = "han"
+}
+
+xin195 = {
+	name = "dynn_xin195"
+	culture = "han"
+}
+
+xin196 = {
+	name = "dynn_xin196"
+	culture = "han"
+}
+
+xin197 = {
+	name = "dynn_xin197"
+	culture = "han"
+}
+
+xin198 = {
+	name = "dynn_xin198"
+	culture = "han"
+}
+
+xin199 = {
+	name = "dynn_xin199"
+	culture = "han"
+}
+
+xin200 = {
+	name = "dynn_xin200"
+	culture = "han"
+}
+xin201 = {
+	name = "dynn_xin201"
+	culture = "han"
+}
+
+xin202 = {
+	name = "dynn_xin202"
+	culture = "han"
+}
+
+xin203 = {
+	name = "dynn_xin203"
+	culture = "han"
+}
+
+xin204 = {
+	name = "dynn_xin204"
+	culture = "han"
+}
+
+xin205 = {
+	name = "dynn_xin205"
+	culture = "youzhou"
+}
+
+xin206 = {
+	name = "dynn_xin206"
+	culture = "han"
+}
+
+xin207 = {
+	name = "dynn_xin207"
+	culture = "han"
+}
+
+xin208 = {
+	name = "dynn_xin208"
+	culture = "han"
+}
+
+xin209 = {
+	name = "dynn_xin209"
+	culture = "han"
+}
+
+xin210 = {
+	name = "dynn_xin210"
+	culture = "han"
+}
+
+xin211 = {
+	name = "dynn_xin211"
+	culture = "liangzhou"
+}
+
+xin212 = {
+	name = "dynn_xin212"
+	culture = "yuzhou"
+}
+
+xin213 = {
+	name = "dynn_xin213"
+	culture = "youzhou"
+}
+
+xin214 = {
+	name = "dynn_xin214"
+	culture = "bingzhou"
+}
+
+xin215 = {
+	name = "dynn_xin215"
+	culture = "liangzhou"
+}
+
+xin216 = {
+	name = "dynn_xin216"
+	culture = "yuzhou"
+}
+
+xin217 = {
+	name = "dynn_xin217"
+	culture = "bingzhou"
+}
+
+xin218 = {
+	name = "dynn_xin218"
+	culture = "yuzhou"
+}
+
+xin219 = {
+	name = "dynn_xin219"
+	culture = "liangzhou"
+}
+
+xin220 = {
+	name = "dynn_xin220"
+	culture = "yuzhou"
+}
+
+xin221 = {
+	name = "dynn_xin221"
+	culture = "liangzhou"
+}
+
+xin222 = {
+	name = "dynn_xin222"
+	culture = "han"
+}
+
+xin223 = {
+	name = "dynn_xin223"
+	culture = "liangzhou"
+}
+
+xin224 = {
+	name = "dynn_baijia15"
+	culture = "youzhou"
+}
+
+xin225 = {
+	name = "dynn_xin225"
+	culture = "liangzhou"
+}
+
+xin226 = {
+	name = "dynn_xin226"
+	culture = "liangzhou"
+}
+
+xin227 = {
+	name = "dynn_xin227"
+	culture = "yuzhou"
+}
+
+xin228 = {
+	name = "dynn_xin228"
+	culture = "yuzhou"
+}
+
+xin229 = {
+	name = "dynn_xin229"
+	culture = "han"
+}
+
+xin230 = {
+	name = "dynn_xin230"
+	culture = "liangzhou"
+}
+
+xin231 = {
+	name = "dynn_xin231"
+	culture = "han"
+}
+
+xin232 = {
+	name = "dynn_xin232"
+	culture = "han"
+}
+
+xin233 = {
+	name = "dynn_xin233"
+	culture = "yuzhou"
+}
+
+xin234 = {
+	name = "dynn_xin234"
+	culture = "han"
+}
+
+xin235 = {
+	name = "dynn_xin235"
+	culture = "han"
+}
+
+xin236 = {
+	name = "dynn_xin236"
+	culture = "han"
+}
+
+xin237 = {
+	name = "dynn_xin237"
+	culture = "yuzhou"
+}
+
+xin238 = {
+	name = "dynn_xin238"
+	culture = "yuzhou"
+}
+
+xin239 = {
+	name = "dynn_xin239"
+	culture = "han"
+}
+
+xin240 = {
+	name = "dynn_xin240"
+	culture = "han"
+}
+
+xin241 = {
+	name = "dynn_xin241"
+	culture = "qingzhou"
+}
+
+xin242 = {
+	name = "dynn_xin242"
+	culture = "yuzhou"
+}
+
+xin243 = {
+	name = "dynn_xin243"
+	culture = "han"
+}
+
+xin244 = {
+	name = "dynn_xin244"
+	culture = "han"
+}
+
+xin245 = {
+	name = "dynn_xin245"
+	culture = "han"
+}
+
+xin246 = {
+	name = "dynn_xin246"
+	culture = "han"
+}
+
+xin247 = {
+	name = "dynn_xin247"
+	culture = "han"
+}
+
+xin248 = {
+	name = "dynn_xin248"
+	culture = "han"
+}
+
+xin249 = {
+	name = "dynn_xin249"
+	culture = "han"
+}
+
+xin250 = {
+	name = "dynn_xin250"
+	culture = "han"
+}
+
+xin251 = {
+	name = "dynn_xin251"
+	culture = "yanzhou"
+}
+
+xin252 = {
+	name = "dynn_xin252"
+	culture = "han"
+}
+
+xin253 = {
+	name = "dynn_xin253"
+	culture = "han"
+}
+
+xin254 = {
+	name = "dynn_xin254"
+	culture = "han"
+}
+
+xin255 = {
+	name = "dynn_xin255"
+	culture = "han"
+}
+
+xin256 = {
+	name = "dynn_xin256"
+	culture = "han"
+}
+
+xin257 = {
+	name = "dynn_xin257"
+	culture = "han"
+}
+
+xin258 = {
+	name = "dynn_xin258"
+	culture = "han"
+}
+
+xin259 = {
+	name = "dynn_xin259"
+	culture = "han"
+}
+
+xin260 = {
+	name = "dynn_xin260"
+	culture = "han"
+}
+
+xin261 = {
+	name = "dynn_xin261"
+	culture = "han"
+}
+
+xin262 = {
+	name = "dynn_xin262"
+	culture = "boren"
+}
+
+xin263 = {
+	name = "dynn_xin263"
+	culture = "han"
+}
+
+xin264 = {
+	name = "dynn_xin264"
+	culture = "liangzhou"
+}
+
+xin265 = {
+	name = "dynn_xin265"
+	culture = "han"
+}
+
+xin266 = {
+	name = "dynn_xin266"
+	culture = "han"
+}
+
+xin267 = {
+	name = "dynn_xin267"
+	culture = "han"
+}
+
+xin268 = {
+	name = "dynn_xin268"
+	culture = "liangzhou"
+}
+
+xin269 = {
+	name = "dynn_xin269"
+	culture = "han"
+}
+
+xin270 = {
+	name = "dynn_xin270"
+	culture = "han"
+}
+
+xin271 = {
+	name = "dynn_xin271"
+	culture = "han"
+}
+
+xin272 = {
+	name = "dynn_xin272"
+	culture = "han"
+}
+
+xin273 = {
+	name = "dynn_xin273"
+	culture = "han"
+}
+
+xin274 = {
+	name = "dynn_xin274"
+	culture = "han"
+}
+
+xin275 = {
+	name = "dynn_xin275"
+	culture = "han"
+}
+
+xin276 = {
+	name = "dynn_xin276"
+	culture = "han"
+}
+
+xin277 = {
+	name = "dynn_xin277"
+	culture = "han"
+}
+
+xin278 = {
+	name = "dynn_xin278"
+	culture = "han"
+}
+
+xin279 = {
+	name = "dynn_xin279"
+	culture = "han"
+}
+
+xin280 = {
+	name = "dynn_xin280"
+	culture = "han"
+}
+
+xin281 = {
+	name = "dynn_xin281"
+	culture = "liangzhou"
+}
+
+xin282 = {
+	name = "dynn_xin282"
+	culture = "yizhou"
+}
+
+xin283 = {
+	name = "dynn_xin283"
+	culture = "han"
+}
+
+xin284 = {
+	name = "dynn_xin284"
+	culture = "han"
+}
+
+xin285 = {
+	name = "dynn_xin285"
+	culture = "han"
+}
+
+xin286 = {
+	name = "dynn_xin286"
+	culture = "han"
+}
+
+xin287 = {
+	name = "dynn_xin287"
+	culture = "han"
+}
+
+xin288 = {
+	name = "dynn_xin288"
+	culture = "han"
+}
+
+xin289 = {
+	name = "dynn_xin289"
+	culture = "han"
+}
+
+xin290 = {
+	name = "dynn_xin290"
+	culture = "han"
+}
+
+xin291 = {
+	name = "dynn_xin291"
+	culture = "han"
+}
+
+xin292 = {
+	name = "dynn_xin292"
+	culture = "han"
+}
+
+xin293 = {
+	name = "dynn_xin293"
+	culture = "han"
+}
+
+xin294 = {
+	name = "dynn_xin294"
+	culture = "han"
+}
+
+xin295 = {
+	name = "dynn_xin295"
+	culture = "han"
+}
+
+xin296 = {
+	name = "dynn_xin296"
+	culture = "han"
+}
+
+xin297 = {
+	name = "dynn_xin297"
+	culture = "yizhou"
+}
+
+xin298 = {
+	name = "dynn_xin298"
+	culture = "han"
+}
+
+xin299 = {
+	name = "dynn_xin299"
+	culture = "han"
+}
+
+xin300 = {
+	name = "dynn_xin300"
+	culture = "han"
+}
+
+xin301 = {
+	name = "dynn_xin301"
+	culture = "han"
+}
+
+xin302 = {
+	name = "dynn_xin302"
+	culture = "han"
+}
+
+xin303 = {
+	name = "dynn_xin303"
+	culture = "han"
+}
+
+xin304 = {
+	name = "dynn_xin304"
+	culture = "han"
+}
+
+xin305 = {
+	name = "dynn_xin305"
+	culture = "han"
+}
+
+xin306 = {
+	name = "dynn_xin306"
+	culture = "han"
+}
+
+xin307 = {
+	name = "dynn_xin307"
+	culture = "han"
+}
+
+xin308 = {
+	name = "dynn_xin308"
+	culture = "han"
+}
+
+xin309 = {
+	name = "dynn_xin309"
+	culture = "han"
+}
+
+xin310 = {
+	name = "dynn_xin310"
+	culture = "han"
+}
+
+xin311 = {
+	name = "dynn_xin311"
+	culture = "han"
+}
+
+xin312 = {
+	name = "dynn_xin312"
+	culture = "yuzhou"
+}
+
+xin313 = {
+	name = "dynn_xin313"
+	culture = "bingzhou"
+}
+
+xin314 = {
+	name = "dynn_xin314"
+	culture = "bingzhou"
+}
+
+xin315 = {
+	name = "dynn_xin315"
+	culture = "bingzhou"
+}
+
+xin316 = {
+	name = "dynn_xin316"
+	culture = "bingzhou"
+}
+
+xin317 = {
+	name = "dynn_xin317"
+	culture = "han"
+}
+
+xin318 = {
+	name = "dynn_xin318"
+	culture = "yuzhou"
+}
+
+xin319 = {
+	name = "dynn_xin319"
+	culture = "han"
+}
+
+xin320 = {
+	name = "dynn_xin320"
+	culture = "han"
+}
+
+xin321 = {
+	name = "dynn_xin321"
+	culture = "han"
+}
+
+xin322 = {
+	name = "dynn_xin322"
+	culture = "han"
+}
+
+xin323 = {
+	name = "dynn_xin323"
+	culture = "han"
+}
+
+xin324 = {
+	name = "dynn_xin324"
+	culture = "han"
+}
+
+xin325 = {
+	name = "dynn_xin325"
+	culture = "han"
+}
+
+xin326 = {
+	name = "dynn_xin326"
+	culture = "qingzhou"
+}
+
+xin327 = {
+	name = "dynn_xin327"
+	culture = "yuzhou"
+}
+
+xin328 = {
+	name = "dynn_xin328"
+	culture = "han"
+}
+
+xin329 = {
+	name = "dynn_xin329"
+	culture = "bingzhou"
+}
+
+xin330 = {
+	name = "dynn_xin330"
+	culture = "han"
+}
+
+xin331 = {
+	name = "dynn_xin331"
+	culture = "han"
+}
+
+xin332 = {
+	name = "dynn_xin332"
+	culture = "yuzhou"
+}
+
+xin333 = {
+	name = "dynn_xin333"
+	culture = "han"
+}
+
+xin334 = {
+	name = "dynn_xin334"
+	culture = "han"
+}
+
+xin335 = {
+	name = "dynn_xin335"
+	culture = "yanzhou"
+}
+
+xin336 = {
+	name = "dynn_xin336"
+	culture = "qingzhou"
+}
+
+xin337 = {
+	name = "dynn_xin337"
+	culture = "qingzhou"
+}
+
+xin338 = {
+	name = "dynn_xin338"
+	culture = "jizhou"
+}
+
+xin339 = {
+	name = "dynn_xin339"
+	culture = "jizhou"
+}
+
+xin340 = {
+	name = "dynn_xin340"
+	culture = "yuzhou"
+}
+
+xin341 = {
+	name = "dynn_xin341"
+	culture = "qingzhou"
+}
+
+xin342 = {
+	name = "dynn_xin342"
+	culture = "jizhou"
+}
+
+xin343 = {
+	name = "dynn_xin343"
+	culture = "jizhou"
+}
+
+xin344 = {
+	name = "dynn_xin344"
+	culture = "jizhou"
+}
+
+xin345 = {
+	name = "dynn_xin345"
+	culture = "jizhou"
+}
+
+xin346 = {
+	name = "dynn_xin346"
+	culture = "jizhou"
+}
+
+xin347 = {
+	name = "dynn_xin347"
+	culture = "jizhou"
+}
+
+xin348 = {
+	name = "dynn_xin348"
+	culture = "qingzhou"
+}
+
+xin349 = {
+	name = "dynn_xin349"
+	culture = "qingzhou"
+}
+
+xin350 = {
+	name = "dynn_xin350"
+	culture = "qingzhou"
+}
+
+xin351 = {
+	name = "dynn_xin351"
+	culture = "qingzhou"
+}
+
+xin352 = {
+	name = "dynn_xin352"
+	culture = "qingzhou"
+}
+
+xin353 = {
+	name = "dynn_xin353"
+	culture = "qingzhou"
+}
+
+xin354 = {
+	name = "dynn_xin354"
+	culture = "yuzhou"
+}
+
+xin355 = {
+	name = "dynn_xin355"
+	culture = "yuzhou"
+}
+
+xin356 = {
+	name = "dynn_xin356"
+	culture = "yi"
+}
+
+xin357 = {
+	name = "dynn_xin357"
+	culture = "yi"
+}
+
+xin358 = {
+	name = "dynn_xin358"
+	culture = "yi"
+}
+
+xin359 = {
+	name = "dynn_xin359"
+	culture = "yi"
+}
+
+xin360 = {
+	name = "dynn_xin360"
+	culture = "yuzhou"
+}
+
+xin361 = {
+	name = "dynn_xin361"
+	culture = "yuzhou"
+}
+
+xin362 = {
+	name = "dynn_xin362"
+	culture = "yuzhou"
+}
+
+xin363 = {
+	name = "dynn_xin363"
+	culture = "yuzhou"
+}
+
+xin364 = {
+	name = "dynn_xin364"
+	culture = "yuzhou"
+}
+
+xin365 = {
+	name = "dynn_xin365"
+	culture = "yuzhou"
+}
+
+xin366 = {
+	name = "dynn_xin366"
+	culture = "yuzhou"
+}
+
+xin367 = {
+	name = "dynn_xin367"
+	culture = "yuzhou"
+}
+
+xin368 = {
+	name = "dynn_xin368"
+	culture = "yuzhou"
+}
+
+xin369 = {
+	name = "dynn_xin369"
+	culture = "yuzhou"
+}
+
+xin370 = {
+	name = "dynn_xin370"
+	culture = "yuzhou"
+}
+
+xin371 = {
+	name = "dynn_xin371"
+	culture = "yuzhou"
+}
+
+xin372 = {
+	name = "dynn_xin372"
+	culture = "qingzhou"
+}
+
+xin373 = {
+	name = "dynn_xin373"
+	culture = "qingzhou"
+}
+
+xin374 = {
+	name = "dynn_xin374"
+	culture = "qingzhou"
+}
+
+xin375 = {
+	name = "dynn_xin375"
+	culture = "qingzhou"
+}
+
+xin376 = {
+	name = "dynn_xin376"
+	culture = "yuzhou"
+}
+
+xin377 = {
+	name = "dynn_xin377"
+	culture = "yuzhou"
+}
+
+xin378 = {
+	name = "dynn_xin378"
+	culture = "xuzhou"
+}
+
+xin379 = {
+	name = "dynn_xin379"
+	culture = "xuzhou"
+}
+
+xin380 = {
+	name = "dynn_xin380"
+	culture = "xuzhou"
+}
+
+xin381 = {
+	name = "dynn_xin381"
+	culture = "yuzhou"
+}
+
+xin382 = {
+	name = "dynn_xin382"
+	culture = "yuzhou"
+}
+
+xin383 = {
+	name = "dynn_xin383"
+	culture = "yuzhou"
+}
+
+xin384 = {
+	name = "dynn_xin384"
+	culture = "yuzhou"
+}
+
+xin385 = {
+	name = "dynn_xin385"
+	culture = "youzhou"
+}
+
+xin386 = {
+	name = "dynn_xin386"
+	culture = "yuzhou"
+}
+
+xin387 = {
+	name = "dynn_xin387"
+	culture = "yuzhou"
+}
+
+xin388 = {
+	name = "dynn_xin388"
+	culture = "qingzhou"
+}
+
+xin389 = {
+	name = "dynn_xin389"
+	culture = "yanzhou"
+}
+
+xin390 = {
+	name = "dynn_xin390"
+	culture = "qingzhou"
+}
+
+xin391 = {
+	name = "dynn_xin391"
+	culture = "yuzhou"
+}
+
+xin392 = {
+	name = "dynn_xin392"
+	culture = "yuzhou"
+}
+
+xin393 = {
+	name = "dynn_xin393"
+	culture = "qingzhou"
+}
+
+xin394 = {
+	name = "dynn_xin394"
+	culture = "yanzhou"
+}
+
+xin395 = {
+	name = "dynn_xin395"
+	culture = "yanzhou"
+}
+
+xin396 = {
+	name = "dynn_xin396"
+	culture = "qingzhou"
+}
+
+xin397 = {
+	name = "dynn_xin397"
+	culture = "yuzhou"
+}
+
+xin398 = {
+	name = "dynn_xin398"
+	culture = "yuzhou"
+}
+
+xin399 = {
+	name = "dynn_xin399"
+	culture = "yuzhou"
+}
+
+xin400 = {
+	name = "dynn_xin400"
+	culture = "yuzhou"
+}
+
+xin401 = {
+	name = "dynn_xin401"
+	culture = "qingzhou"
+}
+
+xin402 = {
+	name = "dynn_xin402"
+	culture = "qingzhou"
+}
+
+xin403 = {
+	name = "dynn_xin403"
+	culture = "qingzhou"
+}
+
+xin404 = {
+	name = "dynn_xin404"
+	culture = "qingzhou"
+}
+
+xin405 = {
+	name = "dynn_xin405"
+	culture = "qingzhou"
+}
+
+xin406 = {
+	name = "dynn_xin406"
+	culture = "qingzhou"
+}
+
+xin407 = {
+	name = "dynn_xin407"
+	culture = "qingzhou"
+}
+
+xin408 = {
+	name = "dynn_xin408"
+	culture = "yanzhou"
+}
+
+xin409 = {
+	name = "dynn_xin409"
+	culture = "yuzhou"
+}
+
+xin410 = {
+	name = "dynn_xin410"
+	culture = "qingzhou"
+}
+
+xin411 = {
+	name = "dynn_xin411"
+	culture = "qingzhou"
+}
+
+xin412 = {
+	name = "dynn_xin412"
+	culture = "yanzhou"
+}
+
+xin413 = {
+	name = "dynn_xin413"
+	culture = "yanzhou"
+}
+
+xin414 = {
+	name = "dynn_xin414"
+	culture = "yanzhou"
+}
+
+xin415 = {
+	name = "dynn_xin415"
+	culture = "yanzhou"
+}
+
+xin416 = {
+	name = "dynn_xin416"
+	culture = "yuzhou"
+}
+
+xin417 = {
+	name = "dynn_xin417"
+	culture = "yuzhou"
+}
+
+xin418 = {
+	name = "dynn_xin418"
+	culture = "yuzhou"
+}
+
+xin419 = {
+	name = "dynn_xin419"
+	culture = "yuzhou"
+}
+
+xin420 = {
+	name = "dynn_xin420"
+	culture = "qingzhou"
+}
+
+xin421 = {
+	name = "dynn_xin421"
+	culture = "qingzhou"
+}
+
+xin422 = {
+	name = "dynn_xin422"
+	culture = "qingzhou"
+}
+
+xin423 = {
+	name = "dynn_xin423"
+	culture = "qingzhou"
+}
+
+xin424 = {
+	name = "dynn_xin424"
+	culture = "qingzhou"
+}
+
+xin425 = {
+	name = "dynn_xin425"
+	culture = "qingzhou"
+}
+
+xin426 = {
+	name = "dynn_xin426"
+	culture = "qingzhou"
+}
+
+xin427 = {
+	name = "dynn_xin427"
+	culture = "yanzhou"
+}
+
+xin428 = {
+	name = "dynn_xin428"
+	culture = "yanzhou"
+}
+
+xin429 = {
+	name = "dynn_xin429"
+	culture = "yanzhou"
+}
+
+xin430 = {
+	name = "dynn_xin430"
+	culture = "yanzhou"
+}
+
+xin431 = {
+	name = "dynn_xin431"
+	culture = "yanzhou"
+}
+
+xin432 = {
+	name = "dynn_xin432"
+	culture = "yanzhou"
+}
+
+xin433 = {
+	name = "dynn_xin433"
+	culture = "yanzhou"
+}
+
+xin434 = {
+	name = "dynn_xin434"
+	culture = "yanzhou"
+}
+
+xin435 = {
+	name = "dynn_xin435"
+	culture = "qingzhou"
+}
+
+xin436 = {
+	name = "dynn_xin436"
+	culture = "qingzhou"
+}
+
+xin437 = {
+	name = "dynn_xin437"
+	culture = "qingzhou"
+}
+
+xin438 = {
+	name = "dynn_xin438"
+	culture = "qingzhou"
+}
+
+xin439 = {
+	name = "dynn_xin439"
+	culture = "yuzhou"
+}
+
+xin440 = {
+	name = "dynn_xin440"
+	culture = "yuzhou"
+}
+
+xin441 = {
+	name = "dynn_xin441"
+	culture = "yuzhou"
+}
+
+xin442 = {
+	name = "dynn_xin442"
+	culture = "qingzhou"
+}
+
+xin443 = {
+	name = "dynn_xin443"
+	culture = "qingzhou"
+}
+
+xin444 = {
+	name = "dynn_xin444"
+	culture = "qingzhou"
+}
+
+xin445 = {
+	name = "dynn_xin445"
+	culture = "yanzhou"
+}
+
+xin446 = {
+	name = "dynn_xin446"
+	culture = "yanzhou"
+}
+
+xin447 = {
+	name = "dynn_xin447"
+	culture = "yanzhou"
+}
+
+xin448 = {
+	name = "dynn_xin448"
+	culture = "qingzhou"
+}
+
+xin449 = {
+	name = "dynn_xin449"
+	culture = "qingzhou"
+}
+
+xin450 = {
+	name = "dynn_xin450"
+	culture = "qingzhou"
+}
+
+xin451 = {
+	name = "dynn_xin451"
+	culture = "qingzhou"
+}
+
+xin452 = {
+	name = "dynn_xin452"
+	culture = "qingzhou"
+}
+
+xin453 = {
+	name = "dynn_xin453"
+	culture = "qingzhou"
+}
+
+xin454 = {
+	name = "dynn_xin454"
+	culture = "qingzhou"
+}
+
+xin455 = {
+	name = "dynn_xin455"
+	culture = "qingzhou"
+}
+
+xin456 = {
+	name = "dynn_xin456"
+	culture = "bingzhou"
+}
+
+xin457 = {
+	name = "dynn_xin457"
+	culture = "bingzhou"
+}
+
+xin458 = {
+	name = "dynn_xin458"
+	culture = "xuzhou"
+}
+
+xin459 = {
+	name = "dynn_xin459"
+	culture = "xuzhou"
+}
+
+xin460 = {
+	name = "dynn_xin460"
+	culture = "xuzhou"
+}
+
+xin461 = {
+	name = "dynn_xin461"
+	culture = "xuzhou"
+}
+
+xin462 = {
+	name = "dynn_xin462"
+	culture = "xuzhou"
+}
+
+xin463 = {
+	name = "dynn_xin463"
+	culture = "xuzhou"
+}
+
+xin464 = {
+	name = "dynn_xin464"
+	culture = "qingzhou"
+}
+
+xin465 = {
+	name = "dynn_xin465"
+	culture = "qingzhou"
+}
+
+xin466 = {
+	name = "dynn_xin466"
+	culture = "qingzhou"
+}
+
+xin467 = {
+	name = "dynn_xin467"
+	culture = "yanzhou"
+}
+
+xin468 = {
+	name = "dynn_xin468"
+	culture = "yanzhou"
+}
+
+xin469 = {
+	name = "dynn_xin469"
+	culture = "yanzhou"
+}
+
+xin470 = {
+	name = "dynn_xin470"
+	culture = "yanzhou"
+}
+
+xin471 = {
+	name = "dynn_xin471"
+	culture = "yanzhou"
+}
+
+xin472 = {
+	name = "dynn_xin472"
+	culture = "yanzhou"
+}
+
+xin473 = {
+	name = "dynn_xin473"
+	culture = "yanzhou"
+}
+
+xin474 = {
+	name = "dynn_xin474"
+	culture = "yanzhou"
+}
+
+xin475 = {
+	name = "dynn_xin475"
+	culture = "yanzhou"
+}
+
+xin476 = {
+	name = "dynn_xin476"
+	culture = "yanzhou"
+}
+
+xin477 = {
+	name = "dynn_xin477"
+	culture = "yanzhou"
+}
+
+xin478 = {
+	name = "dynn_xin478"
+	culture = "yanzhou"
+}
+
+xin479 = {
+	name = "dynn_xin479"
+	culture = "yanzhou"
+}
+
+xin480 = {
+	name = "dynn_xin480"
+	culture = "yuzhou"
+}
+
+xin481 = {
+	name = "dynn_xin481"
+	culture = "yuzhou"
+}
+
+xin482 = {
+	name = "dynn_xin481"
+	culture = "yuzhou"
+}
+
+xin483 = {
+	name = "dynn_xin483"
+	culture = "yuzhou"
+}
+
+xin484 = {
+	name = "dynn_xin484"
+	culture = "yuzhou"
+}
+
+xin485 = {
+	name = "dynn_xin485"
+	culture = "qingzhou"
+}
+
+xin486 = {
+	name = "dynn_xin486"
+	culture = "qingzhou"
+}
+
+xin487 = {
+	name = "dynn_xin487"
+	culture = "qingzhou"
+}
+
+xin488 = {
+	name = "dynn_xin488"
+	culture = "qingzhou"
+}
+
+xin489 = {
+	name = "dynn_xin489"
+	culture = "qingzhou"
+}
+
+xin490 = {
+	name = "dynn_xin490"
+	culture = "yuzhou"
+}
+
+xin491 = {
+	name = "dynn_xin491"
+	culture = "yuzhou"
+}
+
+xin492 = {
+	name = "dynn_xin492"
+	culture = "yuzhou"
+}
+
+xin493 = {
+	name = "dynn_xin493"
+	culture = "yuzhou"
+}
+
+xin494 = {
+	name = "dynn_xin494"
+	culture = "yuzhou"
+}
+
+xin495 = {
+	name = "dynn_xin495"
+	culture = "yuzhou"
+}
+
+xin496 = {
+	name = "dynn_xin496"
+	culture = "yuzhou"
+}
+
+xin497 = {
+	name = "dynn_xin497"
+	culture = "yuzhou"
+}
+
+xin498 = {
+	name = "dynn_xin498"
+	culture = "yuzhou"
+}
+
+xin499 = {
+	name = "dynn_xin499"
+	culture = "yuzhou"
+}
+
+xin500 = {
+	name = "dynn_xin500"
+	culture = "yuzhou"
+}
+
+xin501 = {
+	name = "dynn_xin501"
+	culture = "yuzhou"
+}
+
+xin502 = {
+	name = "dynn_xin502"
+	culture = "yuzhou"
+}
+
+xin503 = {
+	name = "dynn_xin503"
+	culture = "yuzhou"
+}
+
+xin504 = {
+	name = "dynn_xin504"
+	culture = "yuzhou"
+}
+
+xin505 = {
+	name = "dynn_xin505"
+	culture = "yuzhou"
+}
+
+xin506 = {
+	name = "dynn_xin506"
+	culture = "yuzhou"
+}
+
+xin507 = {
+	name = "dynn_xin507"
+	culture = "yuzhou"
+}
+
+xin508 = {
+	name = "dynn_xin508"
+	culture = "yuzhou"
+}
+
+xin509 = {
+	name = "dynn_xin509"
+	culture = "qingzhou"
+}
+
+xin510 = {
+	name = "dynn_xin510"
+	culture = "qingzhou"
+}
+
+xin511 = {
+	name = "dynn_xin511"
+	culture = "yuzhou"
+}
+
+xin512 = {
+	name = "dynn_xin512"
+	culture = "qingzhou"
+}
+
+xin513 = {
+	name = "dynn_xin513"
+	culture = "qingzhou"
+}
+
+xin514 = {
+	name = "dynn_xin514"
+	culture = "qingzhou"
+}
+
+xin515 = {
+	name = "dynn_xin515"
+	culture = "qingzhou"
+}
+
+xin516 = {
+	name = "dynn_xin516"
+	culture = "qingzhou"
+}
+
+xin517 = {
+	name = "dynn_xin517"
+	culture = "yuzhou"
+}
+
+xin518 = {
+	name = "dynn_xin518"
+	culture = "yanzhou"
+}
+
+xin519 = {
+	name = "dynn_xin519"
+	culture = "yanzhou"
+}
+
+xin520 = {
+	name = "dynn_xin520"
+	culture = "yanzhou"
+}
+
+xin521 = {
+	name = "dynn_xin521"
+	culture = "yanzhou"
+}
+
+xin522 = {
+	name = "dynn_xin522"
+	culture = "yanzhou"
+}
+
+xin523 = {
+	name = "dynn_xin523"
+	culture = "yanzhou"
+}
+
+xin524 = {
+	name = "dynn_xin524"
+	culture = "yanzhou"
+}
+
+xin525 = {
+	name = "dynn_xin525"
+	culture = "yanzhou"
+}
+
+xin526 = {
+	name = "dynn_xin526"
+	culture = "yuzhou"
+}
+
+xin527 = {
+	name = "dynn_xin527"
+	culture = "yuzhou"
+}
+
+xin528 = {
+	name = "dynn_xin528"
+	culture = "yuzhou"
+}
+
+xin529 = {
+	name = "dynn_xin529"
+	culture = "yuzhou"
+}
+
+xin530 = {
+	name = "dynn_xin530"
+	culture = "yuzhou"
+}
+
+xin531 = {
+	name = "dynn_xin531"
+	culture = "yuzhou"
+}
+
+xin532 = {
+	name = "dynn_xin532"
+	culture = "yuzhou"
+}
+
+xin533 = {
+	name = "dynn_xin533"
+	culture = "yuzhou"
+}
+
+xin534 = {
+	name = "dynn_xin534"
+	culture = "yuzhou"
+}
+
+xin535 = {
+	name = "dynn_xin535"
+	culture = "yuzhou"
+}
+
+xin536 = {
+	name = "dynn_xin536"
+	culture = "bingzhou"
+}
+
+xin537 = {
+	name = "dynn_xin537"
+	culture = "bingzhou"
+}
+
+xin538 = {
+	name = "dynn_xin538"
+	culture = "bingzhou"
+}
+
+xin539 = {
+	name = "dynn_xin539"
+	culture = "bingzhou"
+}
+
+xin540 = {
+	name = "dynn_xin540"
+	culture = "bingzhou"
+}
+
+xin541 = {
+	name = "dynn_xin541"
+	culture = "bingzhou"
+}
+
+xin542 = {
+	name = "dynn_xin542"
+	culture = "bingzhou"
+}
+
+xin543 = {
+	name = "dynn_xin543"
+	culture = "bingzhou"
+}
+
+xin544 = {
+	name = "dynn_xin544"
+	culture = "bingzhou"
+}
+
+xin545 = {
+	name = "dynn_xin545"
+	culture = "bingzhou"
+}
+
+xin546 = {
+	name = "dynn_xin546"
+	culture = "bingzhou"
+}
+
+xin547 = {
+	name = "dynn_xin547"
+	culture = "bingzhou"
+}
+
+xin548 = {
+	name = "dynn_xin548"
+	culture = "bingzhou"
+}
+
+xin549 = {
+	name = "dynn_xin549"
+	culture = "bingzhou"
+}
+
+xin550 = {
+	name = "dynn_xin550"
+	culture = "bingzhou"
+}
+
+xin551 = {
+	name = "dynn_xin551"
+	culture = "bingzhou"
+}
+
+xin552 = {
+	name = "dynn_xin552"
+	culture = "bingzhou"
+}
+
+xin553 = {
+	name = "dynn_xin553"
+	culture = "bingzhou"
+}
+
+xin554 = {
+	name = "dynn_xin554"
+	culture = "bingzhou"
+}
+
+xin555 = {
+	name = "dynn_xin555"
+	culture = "bingzhou"
+}
+
+xin556 = {
+	name = "dynn_xin556"
+	culture = "liangzhou"
+}
+
+xin557 = {
+	name = "dynn_xin557"
+	culture = "liangzhou"
+}
+
+xin558 = {
+	name = "dynn_xin558"
+	culture = "liangzhou"
+}
+
+xin559 = {
+	name = "dynn_xin559"
+	culture = "liangzhou"
+}
+
+xin560 = {
+	name = "dynn_xin560"
+	culture = "bingzhou"
+}
+
+xin561 = {
+	name = "dynn_xin561"
+	culture = "bingzhou"
+}
+
+xin562 = {
+	name = "dynn_xin562"
+	culture = "bingzhou"
+}
+
+xin563 = {
+	name = "dynn_xin563"
+	culture = "bingzhou"
+}
+
+xin564 = {
+	name = "dynn_xin564"
+	culture = "bingzhou"
+}
+
+xin565 = {
+	name = "dynn_xin565"
+	culture = "bingzhou"
+}
+
+xin566 = {
+	name = "dynn_xin566"
+	culture = "bingzhou"
+}
+
+xin567 = {
+	name = "dynn_xin567"
+	culture = "bingzhou"
+}
+
+xin568 = {
+	name = "dynn_xin568"
+	culture = "bingzhou"
+}
+
+xin569 = {
+	name = "dynn_xin569"
+	culture = "yuzhou"
+}
+
+xin570 = {
+	name = "dynn_xin570"
+	culture = "bingzhou"
+}
+
+xin571 = {
+	name = "dynn_xin571"
+	culture = "bingzhou"
+}
+
+xin572 = {
+	name = "dynn_xin572"
+	culture = "bingzhou"
+}
+
+xin573 = {
+	name = "dynn_xin573"
+	culture = "bingzhou"
+}
+
+xin574 = {
+	name = "dynn_xin574"
+	culture = "yuzhou"
+}
+
+xin575 = {
+	name = "dynn_xin575"
+	culture = "yuzhou"
+}
+
+xin576 = {
+	name = "dynn_xin576"
+	culture = "yuzhou"
+}
+
+xin577 = {
+	name = "dynn_xin577"
+	culture = "yuzhou"
+}
+
+xin578 = {
+	name = "dynn_xin578"
+	culture = "yuzhou"
+}
+
+xin579 = {
+	name = "dynn_xin579"
+	culture = "yuzhou"
+}
+
+xin580 = {
+	name = "dynn_xin580"
+	culture = "yuzhou"
+}
+
+xin581 = {
+	name = "dynn_xin581"
+	culture = "yuzhou"
+}
+
+xin582 = {
+	name = "dynn_xin582"
+	culture = "yuzhou"
+}
+
+xin583 = {
+	name = "dynn_xin583"
+	culture = "yuzhou"
+}
+
+xin584 = {
+	name = "dynn_xin584"
+	culture = "yuzhou"
+}
+
+xin585 = {
+	name = "dynn_xin585"
+	culture = "yuzhou"
+}
+
+xin586 = {
+	name = "dynn_xin586"
+	culture = "yuzhou"
+}
+
+xin587 = {
+	name = "dynn_xin587"
+	culture = "yuzhou"
+}
+
+xin588 = {
+	name = "dynn_xin588"
+	culture = "yuzhou"
+}
+
+xin589 = {
+	name = "dynn_xin589"
+	culture = "yuzhou"
+}
+
+xin590 = {
+	name = "dynn_xin590"
+	culture = "yuzhou"
+}
+
+xin591 = {
+	name = "dynn_xin591"
+	culture = "yuzhou"
+}
+
+xin592 = {
+	name = "dynn_xin592"
+	culture = "bingzhou"
+}
+
+xin593 = {
+	name = "dynn_xin593"
+	culture = "bingzhou"
+}
+
+xin594 = {
+	name = "dynn_xin594"
+	culture = "bingzhou"
+}
+
+xin595 = {
+	name = "dynn_xin595"
+	culture = "bingzhou"
+}
+
+xin596 = {
+	name = "dynn_xin596"
+	culture = "bingzhou"
+}
+
+xin597 = {
+	name = "dynn_xin597"
+	culture = "qingzhou"
+}
+
+xin598 = {
+	name = "dynn_xin598"
+	culture = "qingzhou"
+}
+
+xin599 = {
+	name = "dynn_xin599"
+	culture = "qingzhou"
+}
+
+xin600 = {
+	name = "dynn_xin600"
+	culture = "qingzhou"
+}
+
+xin601 = {
+	name = "dynn_xin601"
+	culture = "qingzhou"
+}
+
+xin602 = {
+	name = "dynn_xin602"
+	culture = "qingzhou"
+}
+
+xin603 = {
+	name = "dynn_xin603"
+	culture = "qingzhou"
+}
+
+xin604 = {
+	name = "dynn_xin604"
+	culture = "qingzhou"
+}
+
+xin605 = {
+	name = "dynn_xin605"
+	culture = "qingzhou"
+}
+
+xin606 = {
+	name = "dynn_xin606"
+	culture = "qingzhou"
+}
+
+xin607 = {
+	name = "dynn_xin607"
+	culture = "qingzhou"
+}
+
+xin608 = {
+	name = "dynn_xin608"
+	culture = "qingzhou"
+}
+
+xin609 = {
+	name = "dynn_xin609"
+	culture = "yuzhou"
+}
+
+xin610 = {
+	name = "dynn_xin610"
+	culture = "yuzhou"
+}
+
+xin611 = {
+	name = "dynn_xin611"
+	culture = "yuzhou"
+}
+
+xin612 = {
+	name = "dynn_xin612"
+	culture = "liangzhou"
+}
+
+xin613 = {
+	name = "dynn_xin613"
+	culture = "liangzhou"
+}
+
+xin614 = {
+	name = "dynn_xin614"
+	culture = "liangzhou"
+}
+
+xin615 = {
+	name = "dynn_xin615"
+	culture = "liangzhou"
+}
+
+xin616 = {
+	name = "dynn_xin616"
+	culture = "liangzhou"
+}
+
+xin617 = {
+	name = "dynn_xin617"
+	culture = "liangzhou"
+}
+
+xin618 = {
+	name = "dynn_xin618"
+	culture = "liangzhou"
+}
+
+xin619 = {
+	name = "dynn_xin619"
+	culture = "liangzhou"
+}
+
+xin620 = {
+	name = "dynn_xin620"
+	culture = "liangzhou"
+}
+
+xin621 = {
+	name = "dynn_xin621"
+	culture = "yuzhou"
+}
+
+xin622 = {
+	name = "dynn_xin622"
+	culture = "yuzhou"
+}
+
+xin623 = {
+	name = "dynn_xin623"
+	culture = "qingzhou"
+}
+
+xin624 = {
+	name = "dynn_xin624"
+	culture = "qingzhou"
+}
+
+xin625 = {
+	name = "dynn_xin625"
+	culture = "yuzhou"
+}
+
+xin626 = {
+	name = "dynn_xin626"
+	culture = "yuzhou"
+}
+
+xin627 = {
+	name = "dynn_xin627"
+	culture = "yuzhou"
+}
+
+xin628 = {
+	name = "dynn_xin628"
+	culture = "yuzhou"
+}
+
+xin629 = {
+	name = "dynn_xin629"
+	culture = "youzhou"
+}
+
+xin630 = {
+	name = "dynn_xin630"
+	culture = "youzhou"
+}
+
+xin631 = {
+	name = "dynn_xin631"
+	culture = "liangzhou"
+}
+
+xin632 = {
+	name = "dynn_xin632"
+	culture = "liangzhou"
+}
+
+xin633 = {
+	name = "dynn_xin633"
+	culture = "liangzhou"
+}
+
+xin634 = {
+	name = "dynn_xin634"
+	culture = "youzhou"
+}
+
+xin635 = {
+	name = "dynn_xin635"
+	culture = "youzhou"
+}
+
+xin636 = {
+	name = "dynn_xin636"
+	culture = "youzhou"
+}
+
+xin637 = {
+	name = "dynn_xin637"
+	culture = "qingzhou"
+}
+
+xin638 = {
+	name = "dynn_xin638"
+	culture = "qingzhou"
+}
+
+xin639 = {
+	name = "dynn_xin639"
+	culture = "qingzhou"
+}
+
+xin640 = {
+	name = "dynn_xin640"
+	culture = "yuzhou"
+}
+
+xin641 = {
+	name = "dynn_xin641"
+	culture = "yuzhou"
+}
+
+xin642 = {
+	name = "dynn_xin642"
+	culture = "yuzhou"
+}
+
+xin643 = {
+	name = "dynn_xin643"
+	culture = "yuzhou"
+}
+
+xin644 = {
+	name = "dynn_xin644"
+	culture = "liangzhou"
+}
+
+xin645 = {
+	name = "dynn_xin645"
+	culture = "bingzhou"
+}
+
+xin646 = {
+	name = "dynn_xin646"
+	culture = "bingzhou"
+}
+
+xin647 = {
+	name = "dynn_xin647"
+	culture = "bingzhou"
+}
+
+xin648 = {
+	name = "dynn_xin648"
+	culture = "bingzhou"
+}
+
+xin649 = {
+	name = "dynn_xin649"
+	culture = "bingzhou"
+}
+
+xin650 = {
+	name = "dynn_xin650"
+	culture = "bingzhou"
+}
+
+xin651 = {
+	name = "dynn_xin651"
+	culture = "qingzhou"
+}
+
+xin652 = {
+	name = "dynn_xin652"
+	culture = "qingzhou"
+}
+
+xin653 = {
+	name = "dynn_xin653"
+	culture = "qingzhou"
+}
+
+xin654 = {
+	name = "dynn_xin654"
+	culture = "qingzhou"
+}
+
+xin655 = {
+	name = "dynn_xin655"
+	culture = "qingzhou"
+}
+
+xin656 = {
+	name = "dynn_xin656"
+	culture = "qingzhou"
+}
+
+xin657 = {
+	name = "dynn_xin657"
+	culture = "qingzhou"
+}
+
+xin658 = {
+	name = "dynn_xin658"
+	culture = "qingzhou"
+}
+
+xin659 = {
+	name = "dynn_xin659"
+	culture = "qingzhou"
+}
+
+xin660 = {
+	name = "dynn_xin660"
+	culture = "bingzhou"
+}
+
+xin661 = {
+	name = "dynn_xin661"
+	culture = "bingzhou"
+}
+
+xin662 = {
+	name = "dynn_xin662"
+	culture = "bingzhou"
+}
+
+xin663 = {
+	name = "dynn_xin663"
+	culture = "bingzhou"
+}
+
+xin664 = {
+	name = "dynn_xin664"
+	culture = "bingzhou"
+}
+
+xin665 = {
+	name = "dynn_xin665"
+	culture = "bingzhou"
+}
+
+xin666 = {
+	name = "dynn_xin666"
+	culture = "bingzhou"
+}
+
+xin667 = {
+	name = "dynn_xin667"
+	culture = "bingzhou"
+}
+
+xin668 = {
+	name = "dynn_xin668"
+	culture = "bingzhou"
+}
+
+xin669 = {
+	name = "dynn_xin669"
+	culture = "bingzhou"
+}
+
+xin670 = {
+	name = "dynn_xin670"
+	culture = "bingzhou"
+}
+
+xin671 = {
+	name = "dynn_xin671"
+	culture = "bingzhou"
+}
+
+xin672 = {
+	name = "dynn_xin672"
+	culture = "yuzhou"
+}
+
+xin673 = {
+	name = "dynn_xin673"
+	culture = "bingzhou"
+}
+
+xin674 = {
+	name = "dynn_xin674"
+	culture = "bingzhou"
+}
+
+xin675 = {
+	name = "dynn_xin675"
+	culture = "bingzhou"
+}
+
+xin676 = {
+	name = "dynn_xin676"
+	culture = "bingzhou"
+}
+
+xin677 = {
+	name = "dynn_xin677"
+	culture = "bingzhou"
+}
+
+xin678 = {
+	name = "dynn_xin678"
+	culture = "liangzhou"
+}
+
+xin679 = {
+	name = "dynn_xin679"
+	culture = "liangzhou"
+}
+
+xin680 = {
+	name = "dynn_xin680"
+	culture = "liangzhou"
+}
+
+xin681 = {
+	name = "dynn_xin681"
+	culture = "yuzhou"
+}
+
+xin682 = {
+	name = "dynn_xin682"
+	culture = "yuzhou"
+}
+
+xin683 = {
+	name = "dynn_xin683"
+	culture = "bingzhou"
+}
+
+xin684 = {
+	name = "dynn_xin684"
+	culture = "bingzhou"
+}
+
+xin685 = {
+	name = "dynn_xin685"
+	culture = "yuzhou"
+}
+
+xin686 = {
+	name = "dynn_xin686"
+	culture = "yuzhou"
+}
+
+xin687 = {
+	name = "dynn_xin687"
+	culture = "yuzhou"
+}
+
+xin688 = {
+	name = "dynn_xin688"
+	culture = "yuzhou"
+}
+
+xin689 = {
+	name = "dynn_xin689"
+	culture = "yuzhou"
+}
+
+xin690 = {
+	name = "dynn_xin690"
+	culture = "yuzhou"
+}
+
+xin691 = {
+	name = "dynn_xin691"
+	culture = "yuzhou"
+}
+
+xin692 = {
+	name = "dynn_xin692"
+	culture = "yuzhou"
+}
+
+xin693 = {
+	name = "dynn_xin693"
+	culture = "yuzhou"
+}
+
+xin694 = {
+	name = "dynn_xin694"
+	culture = "yuzhou"
+}
+
+xin695 = {
+	name = "dynn_xin695"
+	culture = "yuzhou"
+}
+
+xin696 = {
+	name = "dynn_xin696"
+	culture = "yuzhou"
+}
+
+xin697 = {
+	name = "dynn_xin697"
+	culture = "yuzhou"
+}
+
+xin698 = {
+	name = "dynn_xin698"
+	culture = "yuzhou"
+}
+
+xin699 = {
+	name = "dynn_xin699"
+	culture = "yuzhou"
+}
+
+xin700 = {
+	name = "dynn_xin700"
+	culture = "liangzhou"
+}
+
+xin701 = {
+	name = "dynn_xin701"
+	culture = "liangzhou"
+}
+
+xin702 = {
+	name = "dynn_xin702"
+	culture = "yuzhou"
+}
+
+xin703 = {
+	name = "dynn_xin703"
+	culture = "yuzhou"
+}
+
+xin704 = {
+	name = "dynn_xin704"
+	culture = "yuzhou"
+}
+
+xin705 = {
+	name = "dynn_xin705"
+	culture = "yuzhou"
+}
+
+xin706 = {
+	name = "dynn_xin706"
+	culture = "yuzhou"
+}
+
+xin707 = {
+	name = "dynn_xin707"
+	culture = "yuzhou"
+}
+
+xin708 = {
+	name = "dynn_xin708"
+	culture = "yuzhou"
+}
+
+xin709 = {
+	name = "dynn_xin709"
+	culture = "yuzhou"
+}
+
+xin710 = {
+	name = "dynn_xin710"
+	culture = "yuzhou"
+}
+
+xin711 = {
+	name = "dynn_xin711"
+	culture = "yuzhou"
+}
+
+xin712 = {
+	name = "dynn_xin712"
+	culture = "yuzhou"
+}
+
+xin713 = {
+	name = "dynn_xin713"
+	culture = "yuzhou"
+}
+
+xin714 = {
+	name = "dynn_xin714"
+	culture = "yuzhou"
+}
+
+xin715 = {
+	name = "dynn_xin715"
+	culture = "yuzhou"
+}
+
+xin716 = {
+	name = "dynn_xin716"
+	culture = "yuzhou"
+}
+
+xin717 = {
+	name = "dynn_xin717"
+	culture = "yuzhou"
+}
+
+xin718 = {
+	name = "dynn_xin718"
+	culture = "yuzhou"
+}
+
+xin719 = {
+	name = "dynn_xin719"
+	culture = "yuzhou"
+}
+
+xin720 = {
+	name = "dynn_xin720"
+	culture = "yuzhou"
+}
+
+xin721 = {
+	name = "dynn_xin721"
+	culture = "yuzhou"
+}
+
+xin722 = {
+	name = "dynn_xin722"
+	culture = "yuzhou"
+}
+
+xin723 = {
+	name = "dynn_xin723"
+	culture = "yuzhou"
+}
+
+xin724 = {
+	name = "dynn_xin724"
+	culture = "yuzhou"
+}
+
+xin725 = {
+	name = "dynn_xin725"
+	culture = "yuzhou"
+}
+
+xin726 = {
+	name = "dynn_xin726"
+	culture = "yuzhou"
+}
+
+xin727 = {
+	name = "dynn_xin727"
+	culture = "yuzhou"
+}
+
+xin728 = {
+	name = "dynn_xin728"
+	culture = "yuzhou"
+}
+
+xin729 = {
+	name = "dynn_xin729"
+	culture = "yuzhou"
+}
+
+xin730 = {
+	name = "dynn_xin730"
+	culture = "yuzhou"
+}
+
+xin731 = {
+	name = "dynn_xin731"
+	culture = "yuzhou"
+}
+
+xin732 = {
+	name = "dynn_xin732"
+	culture = "yuzhou"
+}
+
+xin733 = {
+	name = "dynn_xin733"
+	culture = "yuzhou"
+}
+
+xin734 = {
+	name = "dynn_xin734"
+	culture = "yuzhou"
+}
+
+xin735 = {
+	name = "dynn_xin735"
+	culture = "yuzhou"
+}
+
+xin736 = {
+	name = "dynn_xin736"
+	culture = "yuzhou"
+}
+
+xin737 = {
+	name = "dynn_xin737"
+	culture = "yuzhou"
+}
+
+xin738 = {
+	name = "dynn_xin738"
+	culture = "yuzhou"
+}
+
+xin739 = {
+	name = "dynn_xin739"
+	culture = "yuzhou"
+}
+
+xin740 = {
+	name = "dynn_xin740"
+	culture = "yuzhou"
+}
+
+xin741 = {
+	name = "dynn_xin741"
+	culture = "yuzhou"
+}
+
+xin742 = {
+	name = "dynn_xin742"
+	culture = "yuzhou"
+}
+
+xin743 = {
+	name = "dynn_xin743"
+	culture = "yuzhou"
+}
+
+xin744 = {
+	name = "dynn_xin744"
+	culture = "yuzhou"
+}
+
+xin745 = {
+	name = "dynn_xin745"
+	culture = "yuzhou"
+}
+
+xin746 = {
+	name = "dynn_xin746"
+	culture = "yuzhou"
+}
+
+xin747 = {
+	name = "dynn_xin747"
+	culture = "yuzhou"
+}
+
+xin748 = {
+	name = "dynn_xin748"
+	culture = "yuzhou"
+}
+
+xin749 = {
+	name = "dynn_xin749"
+	culture = "yuzhou"
+}
+
+xin750 = {
+	name = "dynn_xin750"
+	culture = "yuzhou"
+}
+
+xin751 = {
+	name = "dynn_xin751"
+	culture = "yuzhou"
+}
+
+xin752 = {
+	name = "dynn_xin752"
+	culture = "yuzhou"
+}
+
+xin753 = {
+	name = "dynn_xin753"
+	culture = "yuzhou"
+}
+
+xin754 = {
+	name = "dynn_xin754"
+	culture = "yuzhou"
+}
+
+xin755 = {
+	name = "dynn_xin755"
+	culture = "yuzhou"
+}
+
+xin756 = {
+	name = "dynn_xin756"
+	culture = "yuzhou"
+}
+
+xin757 = {
+	name = "dynn_xin757"
+	culture = "yuzhou"
+}
+
+xin758 = {
+	name = "dynn_xin758"
+	culture = "yuzhou"
+}
+
+xin759 = {
+	name = "dynn_xin759"
+	culture = "bingzhou"
+}
+
+xin760 = {
+	name = "dynn_xin760"
+	culture = "bingzhou"
+}
+
+xin761 = {
+	name = "dynn_xin761"
+	culture = "bingzhou"
+}
+
+xin762 = {
+	name = "dynn_xin762"
+	culture = "bingzhou"
+}
+
+xin763 = {
+	name = "dynn_xin763"
+	culture = "liangzhou"
+}
+
+xin764 = {
+	name = "dynn_xin764"
+	culture = "liangzhou"
+}
+
+xin765 = {
+	name = "dynn_xin765"
+	culture = "liangzhou"
+}
+
+xin766 = {
+	name = "dynn_xin766"
+	culture = "liangzhou"
+}
+
+xin767 = {
+	name = "dynn_xin767"
+	culture = "yuzhou"
+}
+
+xin768 = {
+	name = "dynn_xin768"
+	culture = "yuzhou"
+}
+
+xin769 = {
+	name = "dynn_xin769"
+	culture = "bingzhou"
+}
+
+xin770 = {
+	name = "dynn_xin770"
+	culture = "bingzhou"
+}
+
+xin771 = {
+	name = "dynn_xin771"
+	culture = "youzhou"
+}
+
+xin772 = {
+	name = "dynn_xin772"
+	culture = "youzhou"
+}
+
+xin773 = {
+	name = "dynn_xin773"
+	culture = "youzhou"
+}
+
+xin774 = {
+	name = "dynn_xin774"
+	culture = "youzhou"
+}
+
+xin775 = {
+	name = "dynn_xin775"
+	culture = "youzhou"
+}
+
+xin776 = {
+	name = "dynn_xin776"
+	culture = "youzhou"
+}
+
+xin777 = {
+	name = "dynn_xin777"
+	culture = "youzhou"
+}
+
+xin778 = {
+	name = "dynn_xin778"
+	culture = "bingzhou"
+}
+
+xin779 = {
+	name = "dynn_xin779"
+	culture = "bingzhou"
+}
+
+xin780 = {
+	name = "dynn_xin780"
+	culture = "bingzhou"
+}
+
+xin781 = {
+	name = "dynn_xin781"
+	culture = "liangzhou"
+}
+
+xin782 = {
+	name = "dynn_xin782"
+	culture = "liangzhou"
+}
+
+xin783 = {
+	name = "dynn_xin783"
+	culture = "liangzhou"
+}
+
+xin784 = {
+	name = "dynn_xin784"
+	culture = "liangzhou"
+}
+
+xin785 = {
+	name = "dynn_xin785"
+	culture = "liangzhou"
+}
+
+xin786 = {
+	name = "dynn_xin786"
+	culture = "liangzhou"
+}
+
+xin787 = {
+	name = "dynn_xin787"
+	culture = "liangzhou"
+}
+
+xin788 = {
+	name = "dynn_xin788"
+	culture = "liangzhou"
+}
+
+xin789 = {
+	name = "dynn_xin789"
+	culture = "liangzhou"
+}
+
+xin790 = {
+	name = "dynn_xin790"
+	culture = "liangzhou"
+}
+
+xin791 = {
+	name = "dynn_xin791"
+	culture = "liangzhou"
+}
+
+xin792 = {
+	name = "dynn_xin792"
+	culture = "liangzhou"
+}
+
+xin793 = {
+	name = "dynn_xin793"
+	culture = "liangzhou"
+}
+
+xin794 = {
+	name = "dynn_xin794"
+	culture = "liangzhou"
+}
+
+xin795 = {
+	name = "dynn_xin795"
+	culture = "liangzhou"
+}
+
+xin796 = {
+	name = "dynn_xin796"
+	culture = "liangzhou"
+}
+
+xin797 = {
+	name = "dynn_xin797"
+	culture = "liangzhou"
+}
+
+xin798 = {
+	name = "dynn_xin798"
+	culture = "liangzhou"
+}
+
+xin799 = {
+	name = "dynn_xin799"
+	culture = "yuzhou"
+}
+
+xin800 = {
+	name = "dynn_xin800"
+	culture = "yuzhou"
+}
+
+xin801 = {
+	name = "dynn_xin801"
+	culture = "yuzhou"
+}
+
+xin802 = {
+	name = "dynn_xin802"
+	culture = "yuzhou"
+}
+
+xin803 = {
+	name = "dynn_xin803"
+	culture = "liangzhou"
+}
+
+xin804 = {
+	name = "dynn_xin804"
+	culture = "liangzhou"
+}
+
+xin805 = {
+	name = "dynn_xin805"
+	culture = "liangzhou"
+}
+
+xin806 = {
+	name = "dynn_xin806"
+	culture = "liangzhou"
+}
+
+xin807 = {
+	name = "dynn_xin807"
+	culture = "yuzhou"
+}
+
+xin808 = {
+	name = "dynn_xin808"
+	culture = "yuzhou"
+}
+
+xin809 = {
+	name = "dynn_xin809"
+	culture = "yuzhou"
+}
+
+xin810 = {
+	name = "dynn_xin810"
+	culture = "yuzhou"
+}
+
+xin811 = {
+	name = "dynn_xin811"
+	culture = "liangzhou"
+}
+
+xin812 = {
+	name = "dynn_xin812"
+	culture = "liangzhou"
+}
+
+xin813 = {
+	name = "dynn_xin813"
+	culture = "yuzhou"
+}
+
+xin814 = {
+	name = "dynn_xin814"
+	culture = "yuzhou"
+}
+
+xin815 = {
+	name = "dynn_xin815"
+	culture = "yuzhou"
+}
+
+xin816 = {
+	name = "dynn_xin816"
+	culture = "yuzhou"
+}
+
+xin817 = {
+	name = "dynn_xin817"
+	culture = "yuzhou"
+}
+
+xin818 = {
+	name = "dynn_xin818"
+	culture = "yuzhou"
+}
+
+xin819 = {
+	name = "dynn_xin819"
+	culture = "yuzhou"
+}
+
+xin820 = {
+	name = "dynn_xin820"
+	culture = "yuzhou"
+}
+
+xin821 = {
+	name = "dynn_xin821"
+	culture = "yuzhou"
+}
+
+xin822 = {
+	name = "dynn_xin822"
+	culture = "yuzhou"
+}
+
+xin823 = {
+	name = "dynn_xin823"
+	culture = "yuzhou"
+}
+
+xin824 = {
+	name = "dynn_xin824"
+	culture = "yuzhou"
+}
+
+xin825 = {
+	name = "dynn_xin825"
+	culture = "yuzhou"
+}
+
+xin826 = {
+	name = "dynn_xin826"
+	culture = "yuzhou"
+}
+
+xin827 = {
+	name = "dynn_xin827"
+	culture = "yuzhou"
+}
+
+xin828 = {
+	name = "dynn_xin828"
+	culture = "yuzhou"
+}
+
+xin829 = {
+	name = "dynn_xin829"
+	culture = "yuzhou"
+}
+
+xin830 = {
+	name = "dynn_xin830"
+	culture = "yuzhou"
+}
+
+xin831 = {
+	name = "dynn_xin831"
+	culture = "yuzhou"
+}
+
+xin832 = {
+	name = "dynn_xin832"
+	culture = "yuzhou"
+}
+
+xin833 = {
+	name = "dynn_xin833"
+	culture = "yuzhou"
+}
+
+xin834 = {
+	name = "dynn_xin834"
+	culture = "yuzhou"
+}
+
+xin835 = {
+	name = "dynn_xin835"
+	culture = "yuzhou"
+}
+
+xin836 = {
+	name = "dynn_xin836"
+	culture = "yuzhou"
+}
+
+xin837 = {
+	name = "dynn_xin837"
+	culture = "yuzhou"
+}
+
+xin838 = {
+	name = "dynn_xin838"
+	culture = "qingzhou"
+}
+
+xin839 = {
+	name = "dynn_xin839"
+	culture = "liangzhou"
+}
+
+xin840 = {
+	name = "dynn_xin840"
+	culture = "yuzhou"
+}
+
+xin841 = {
+	name = "dynn_xin841"
+	culture = "yuzhou"
+}
+
+xin842 = {
+	name = "dynn_xin842"
+	culture = "yuzhou"
+}
+
+xin843 = {
+	name = "dynn_xin843"
+	culture = "yuzhou"
+}
+
+xin844 = {
+	name = "dynn_xin844"
+	culture = "yuzhou"
+}
+
+xin845 = {
+	name = "dynn_xin845"
+	culture = "liangzhou"
+}
+
+xin846 = {
+	name = "dynn_xin846"
+	culture = "liangzhou"
+}
+
+xin847 = {
+	name = "dynn_xin847"
+	culture = "liangzhou"
+}
+
+xin848 = {
+	name = "dynn_xin848"
+	culture = "liangzhou"
+}
+
+xin849 = {
+	name = "dynn_xin849"
+	culture = "yuzhou"
+}
+
+xin850 = {
+	name = "dynn_xin850"
+	culture = "yuzhou"
+}
+
+xin851 = {
+	name = "dynn_xin851"
+	culture = "yuzhou"
+}
+
+xin852 = {
+	name = "dynn_xin852"
+	culture = "liangzhou"
+}
+
+xin853 = {
+	name = "dynn_xin853"
+	culture = "liangzhou"
+}
+
+xin854 = {
+	name = "dynn_xin854"
+	culture = "liangzhou"
+}
+
+xin855 = {
+	name = "dynn_xin855"
+	culture = "liangzhou"
+}
+
+xin856 = {
+	name = "dynn_xin856"
+	culture = "liangzhou"
+}
+
+xin857 = {
+	name = "dynn_xin857"
+	culture = "liangzhou"
+}
+
+xin858 = {
+	name = "dynn_xin858"
+	culture = "liangzhou"
+}
+
+xin859 = {
+	name = "dynn_xin859"
+	culture = "liangzhou"
+}
+
+xin860 = {
+	name = "dynn_xin860"
+	culture = "liangzhou"
+}
+
+xin861 = {
+	name = "dynn_xin861"
+	culture = "liangzhou"
+}
+
+xin862 = {
+	name = "dynn_xin862"
+	culture = "liangzhou"
+}
+
+xin863 = {
+	name = "dynn_xin863"
+	culture = "liangzhou"
+}
+
+xin864 = {
+	name = "dynn_xin864"
+	culture = "liangzhou"
+}
+
+xin865 = {
+	name = "dynn_xin865"
+	culture = "liangzhou"
+}
+
+xin866 = {
+	name = "dynn_xin866"
+	culture = "liangzhou"
+}
+
+xin867 = {
+	name = "dynn_xin867"
+	culture = "liangzhou"
+}
+
+xin868 = {
+	name = "dynn_xin868"
+	culture = "liangzhou"
+}
+
+xin869 = {
+	name = "dynn_xin869"
+	culture = "liangzhou"
+}
+
+xin870 = {
+	name = "dynn_xin870"
+	culture = "liangzhou"
+}
+
+xin871 = {
+	name = "dynn_xin871"
+	culture = "liangzhou"
+}
+
+xin872 = {
+	name = "dynn_xin872"
+	culture = "liangzhou"
+}
+
+xin873 = {
+	name = "dynn_xin873"
+	culture = "liangzhou"
+}
+
+xin874 = {
+	name = "dynn_xin874"
+	culture = "liangzhou"
+}
+
+xin875 = {
+	name = "dynn_xin875"
+	culture = "liangzhou"
+}
+
+xin876 = {
+	name = "dynn_xin876"
+	culture = "liangzhou"
+}
+
+xin877 = {
+	name = "dynn_xin877"
+	culture = "yuzhou"
+}
+
+xin878 = {
+	name = "dynn_xin878"
+	culture = "yuzhou"
+}
+
+xin878 = {
+	name = "dynn_xin878"
+	culture = "yuzhou"
+}
+
+xin879 = {
+	name = "dynn_xin879"
+	culture = "liangzhou"
+}
+
+xin880 = {
+	name = "dynn_xin880"
+	culture = "liangzhou"
+}
+
+xin881 = {
+	name = "dynn_xin881"
+	culture = "liangzhou"
+}
+
+xin882 = {
+	name = "dynn_xin882"
+	culture = "liangzhou"
+}
+
+xin883 = {
+	name = "dynn_xin883"
+	culture = "yuzhou"
+}
+
+xin884 = {
+	name = "dynn_xin884"
+	culture = "liangzhou"
+}
+
+xin885 = {
+	name = "dynn_xin885"
+	culture = "yizhou"
+}
+
+xin886 = {
+	name = "dynn_xin886"
+	culture = "yizhou"
+}
+
+xin887 = {
+	name = "dynn_xin887"
+	culture = "yizhou"
+}
+
+xin888 = {
+	name = "dynn_xin888"
+	culture = "yizhou"
+}
+
+xin889 = {
+	name = "dynn_xin889"
+	culture = "yizhou"
+}
+
+xin890 = {
+	name = "dynn_xin890"
+	culture = "baipu"
+}
+
+xin891 = {
+	name = "dynn_xin891"
+	culture = "baipu"
+}
+
+xin892 = {
+	name = "dynn_xin892"
+	culture = "yizhou"
+}
+
+xin893 = {
+	name = "dynn_xin893"
+	culture = "yizhou"
+}
+
+xin894 = {
+	name = "dynn_xin894"
+	culture = "yizhou"
+}
+
+xin895 = {
+	name = "dynn_xin895"
+	culture = "liangzhou"
+}
+
+xin896 = {
+	name = "dynn_xin896"
+	culture = "liangzhou"
+}
+
+xin897 = {
+	name = "dynn_xin897"
+	culture = "diren"
+}
+
+xin898 = {
+	name = "dynn_xin898"
+	culture = "liangzhou"
+}
+
+xin899 = {
+	name = "dynn_xin899"
+	culture = "diren"
+}
+
+xin900 = {
+	name = "dynn_xin900"
+	culture = "yizhou"
+}
+
+xin901 = {
+	name = "dynn_xin901"
+	culture = "yizhou"
+}
+
+xin902 = {
+	name = "dynn_xin902"
+	culture = "yizhou"
+}
+
+xin903 = {
+	name = "dynn_xin903"
+	culture = "liangzhou"
+}
+
+xin904 = {
+	name = "dynn_xin904"
+	culture = "liangzhou"
+}
+
+xin905 = {
+	name = "dynn_xin905"
+	culture = "liangzhou"
+}
+
+xin906 = {
+	name = "dynn_xin906"
+	culture = "liangzhou"
+}
+
+xin907 = {
+	name = "dynn_xin907"
+	culture = "boren"
+}
+
+xin908 = {
+	name = "dynn_xin908"
+	culture = "boren"
+}
+
+xin909 = {
+	name = "dynn_xin909"
+	culture = "baipu"
+}
+
+xin910 = {
+	name = "dynn_xin910"
+	culture = "baipu"
+}
+
+xin911 = {
+	name = "dynn_xin911"
+	culture = "baipu"
+}
+
+xin912 = {
+	name = "dynn_xin912"
+	culture = "baipu"
+}
+
+xin913 = {
+	name = "dynn_xin913"
+	culture = "yuzhou"
+}
+
+xin914 = {
+	name = "dynn_xin914"
+	culture = "yuzhou"
+}
+
+xin915 = {
+	name = "dynn_xin915"
+	culture = "yongren"
+}
+
+xin916 = {
+	name = "dynn_xin916"
+	culture = "yongren"
+}
+
+xin917 = {
+	name = "dynn_xin917"
+	culture = "yuzhou"
+}
+
+xin918 = {
+	name = "dynn_xin918"
+	culture = "yuzhou"
+}
+
+xin919 = {
+	name = "dynn_xin919"
+	culture = "yuzhou"
+}
+
+xin920 = {
+	name = "dynn_xin920"
+	culture = "yuzhou"
+}
+
+xin921 = {
+	name = "dynn_xin921"
+	culture = "yuzhou"
+}
+
+xin922 = {
+	name = "dynn_xin922"
+	culture = "yuzhou"
+}
+
+xin923 = {
+	name = "dynn_xin923"
+	culture = "yuzhou"
+}
+
+xin924 = {
+	name = "dynn_xin924"
+	culture = "yuzhou"
+}

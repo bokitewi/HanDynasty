@@ -1,0 +1,147 @@
+﻿rp_merit_roster_decision = {
+	decision_group_type = rp_merit
+
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/tgp_decision_mandala.dds"
+	}
+	desc = rp_merit_roster_decision_desc
+	selection_tooltip = rp_merit_roster_decision_tooltip
+
+	is_shown = {
+		rp_is_merit_system_enabled_trigger = yes
+	}
+
+	is_valid = {
+		always = yes
+	}
+
+	effect = {
+		trigger_event = rp_merit.0200
+	}
+
+	ai_check_interval = 0
+}
+
+rp_petition_liege_for_merit_decision = {
+	decision_group_type = rp_merit
+
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/tgp_decision_mandala.dds"
+	}
+	desc = rp_petition_liege_for_merit_decision_desc
+	selection_tooltip = rp_petition_liege_for_merit_decision_tooltip
+
+	is_shown = {
+		is_ai = no
+		has_variable = rp_merit_owner
+		has_variable = rp_merit_score
+		var:rp_merit_score >= 30
+		var:rp_merit_owner ?= {
+			is_alive = yes
+			NOT = { this = root }
+		}
+	}
+
+	is_valid = {
+		NOT = { has_character_flag = rp_petition_recently_handled }
+	}
+
+	effect = {
+		var:rp_merit_owner = { save_scope_as = rp_petition_liege }
+		trigger_event = rp_merit.1301
+	}
+
+	ai_check_interval = 0
+}
+
+rp_retainer_banquet_decision = {
+	decision_group_type = rp_merit
+
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/tgp_decision_mandala.dds"
+	}
+	desc = rp_retainer_banquet_decision_desc
+	selection_tooltip = rp_retainer_banquet_decision_tooltip
+
+	is_shown = {
+		is_ai = no
+		rp_is_merit_system_enabled_trigger = yes
+	}
+
+	is_valid = {
+		gold >= 50
+		NOT = { has_character_flag = rp_banquet_cooldown }
+	}
+
+	effect = {
+		remove_short_term_gold = 50
+		add_character_flag = {
+			flag = rp_banquet_cooldown
+			days = 1095
+		}
+		add_character_modifier = {
+			modifier = rp_banquet_cooldown_modifier
+			years = 3
+		}
+		random_list = {
+			40 = { trigger_event = rp_retainer.0001 }
+			25 = { trigger_event = rp_retainer.0002 }
+			20 = { trigger_event = rp_retainer.0003 }
+			10 = { trigger_event = rp_retainer.0004 }
+			5 = { trigger_event = rp_retainer.0005 }
+		}
+	}
+
+	ai_check_interval = 0
+}
+
+rp_hanxin_raise_revolt_decision = {
+	decision_group_type = rp_merit
+
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/tgp_decision_mandala.dds"
+	}
+	desc = rp_hanxin_raise_revolt_decision_desc
+	selection_tooltip = rp_hanxin_raise_revolt_decision_tooltip
+
+	is_shown = {
+		is_ai = no
+		is_landed = yes
+		is_independent_ruler = no
+		exists = liege
+		rp_is_merit_system_enabled_trigger = yes
+		OR = {
+			has_character_flag = rp_hanxin_ambition_actor
+			has_character_modifier = rp_power_rebel_pressure_modifier
+		}
+	}
+
+	is_valid = {
+		is_imprisoned = no
+		is_at_war = no
+		liege = {
+			is_alive = yes
+			NOT = { is_at_war_with = root }
+			exists = primary_title
+		}
+		has_variable = rp_merit_peak_score
+		var:rp_merit_peak_score >= 100
+		OR = {
+			AND = {
+				has_variable = rp_hanxin_phase
+				var:rp_hanxin_phase >= 4
+			}
+			has_character_modifier = rp_power_rebel_pressure_modifier
+		}
+		any_held_title = {
+			count >= 2
+			tier = tier_county
+		}
+	}
+
+	effect = {
+		rp_player_hanxin_raise_revolt_effect = yes
+	}
+
+	ai_check_interval = 0
+}

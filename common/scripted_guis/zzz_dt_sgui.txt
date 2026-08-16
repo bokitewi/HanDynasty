@@ -1,0 +1,16 @@
+# obfusCKate hidden-information compatibility.
+dt_is_obf_loaded = {
+	scope = character
+
+	is_shown = {
+		has_global_variable = obf_is_loaded
+	}
+}
+
+dt_is_not_obf_loaded = {
+	scope = character
+
+	is_shown = {
+		NOT = { has_global_variable = obf_is_loaded }
+	}
+}

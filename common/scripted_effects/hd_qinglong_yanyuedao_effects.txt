@@ -1,0 +1,29 @@
+hd_create_qinglong_yanyuedao_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+
+	create_artifact = {
+		name = hd_qinglong_yanyuedao_name
+		description = hd_qinglong_yanyuedao_description
+		type = spear
+		template = hd_qinglong_yanyuedao_template
+		visuals = hd_qinglong_yanyuedao
+		wealth = scope:wealth
+		quality = scope:quality
+		max_durability = 100
+		history = {
+			type = created_before_history
+		}
+		modifier = hd_qinglong_yanyuedao_weapon_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = hd_qinglong_yanyuedao
+		equip_artifact_to_owner_replace = yes
+	}
+}

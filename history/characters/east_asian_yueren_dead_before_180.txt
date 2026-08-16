@@ -1,0 +1,114 @@
+﻿# Generated from 華陽國志、三國志、三國演義、後漢書 and 漢晉春秋.
+# Culture: yueren
+# Time partition: dead_before_180 (death < 180).
+# No title history is assigned. Dates marked in the evidence audit may be estimates.
+
+##### 【羊孙】
+yang_sun={
+	name="uuii_book_yang_sun_name" #孙
+	dynasty_house="house_112010056001013"
+	culture="yueren"
+	faith="dab_qhuas"
+	diplomacy="6"
+	martial="8"
+	stewardship="7"
+	intrigue="5"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_learning_3
+	trait=tk_historical_character01
+	trait=patient
+	trait=gregarious
+	trait=vengeful
+	86.7.1={
+		birth=yes
+	}
+	117.7.1={
+		death=yes
+	}
+}
+
+##### 【羊祝】
+yang_zhu={
+	name="uuii_book_yang_zhu_name" #祝
+	dynasty_house="house_112010056001013"
+	father="yang_sun"
+	culture="yueren"
+	faith="dab_qhuas"
+	diplomacy="5"
+	martial="6"
+	stewardship="7"
+	intrigue="7"
+	learning="9"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_learning_2
+	trait=tk_historical_character01
+	trait=shy
+	trait=wrathful
+	trait=brave
+	108.7.1={
+		birth=yes
+	}
+	164.7.1={
+		death=yes
+	}
+}
+
+##### 【陈汤】
+chen_tang={
+	name="uuii_book_chen_tang_name" #汤
+	dynasty_house="house_112010057002013"
+	culture="yueren"
+	faith="dab_qhuas"
+	diplomacy="5"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_martial_4
+	trait=tk_historical_character01
+	trait=brave
+	trait=honest
+	trait=generous
+	1.7.1={
+		birth=yes
+	}
+	117.7.1={
+		death=yes
+	}
+}
+
+##### 【陈竣】
+chen_jun={
+	name="uuii_book_chen_jun_name" #竣
+	dynasty_house="house_112010057002013"
+	father="chen_tang"
+	culture="yueren"
+	faith="dab_qhuas"
+	diplomacy="7"
+	martial="8"
+	stewardship="5"
+	intrigue="4"
+	learning="9"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_learning_2
+	trait=tk_historical_character01
+	trait=shy
+	trait=fickle
+	trait=zealous
+	109.7.1={
+		birth=yes
+	}
+	168.7.1={
+		death=yes
+	}
+}

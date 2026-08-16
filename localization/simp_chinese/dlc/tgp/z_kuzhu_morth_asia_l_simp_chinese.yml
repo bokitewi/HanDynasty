@@ -1,0 +1,14 @@
+﻿l_simp_chinese:
+ #苦竹新增特殊文化
+ culture_parameter_kuzhu_stewardship_logistics_bonus: "管理教育特质也会依据等级提升军事能力"
+ kuzhu_tradition_mengan_mouke_name: "猛安谋克"
+ kuzhu_tradition_mengan_mouke_desc: "军民一体，能耕能战；专务国事，不怀私虑。"
+ tradition_kuzhu_proved_by_sword_name: "以武证统"
+ tradition_kuzhu_proved_by_sword_desc: "谁言王侯有种？不过时运而已。国无常主，唯兵强马壮者为之！" 
+ tradition_kuzhu_minor_china_name: "小中华"
+ tradition_kuzhu_minor_china_desc: "该文化在各个方面都与汉文化高度相似，其民也以中华传人自居。"
+ tradition_kuzhu_praise_literature_name: "文章取士"
+ tradition_kuzhu_praise_literature_desc: "治大国以文不以武，为君者当以文章之才量天下名士，择其优者而用之。"
+ culture_parameter_kuzhu_confucian_education_add_merit_level: "[GetTrait('confucian_education').GetName( GetNullCharacter )]特质提供贤能[merit_level|E]上限。"
+ cannot_have_tradition_loyal_soldiers: "不能同时拥有[GetCultureTradition('tradition_loyal_soldiers').GetName]传统"
+ cannot_have_tradition_scholar_officials: "不能同时拥有[GetCultureTradition('tradition_scholar_officials').GetName]传统"

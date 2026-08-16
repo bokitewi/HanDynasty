@@ -1,0 +1,23 @@
+# Unsupported vanilla regional event chain retained only as inert public shells.
+namespace = middle_east_decisions
+
+middle_east_decisions.0001 = { type = character_event hidden = yes trigger = { always = no } }
+middle_east_decisions.0002 = { type = character_event hidden = yes trigger = { always = no } }
+middle_east_decisions.0003 = { type = character_event hidden = yes trigger = { always = no } }
+middle_east_decisions.0004 = { type = character_event hidden = yes trigger = { always = no } }
+middle_east_decisions.0005 = { type = character_event hidden = yes trigger = { always = no } }
+middle_east_decisions.0006 = { type = character_event hidden = yes trigger = { always = no } }
+middle_east_decisions.0007 = { type = character_event hidden = yes trigger = { always = no } }
+middle_east_decisions.0008 = { type = character_event hidden = yes trigger = { always = no } }
+middle_east_decisions.0009 = { type = character_event hidden = yes trigger = { always = no } }
+middle_east_decisions.0010 = { type = character_event hidden = yes trigger = { always = no } }
+middle_east_decisions.0011 = { type = character_event hidden = yes trigger = { always = no } }
+middle_east_decisions.0012 = { type = character_event hidden = yes trigger = { always = no } }
+middle_east_decisions.0013 = { type = character_event hidden = yes trigger = { always = no } }
+middle_east_decisions.0015 = { type = character_event hidden = yes trigger = { always = no } }
+middle_east_decisions.1001 = { type = character_event hidden = yes trigger = { always = no } }
+middle_east_decisions.1002 = { type = character_event hidden = yes trigger = { always = no } }
+middle_east_decisions.1020 = { type = character_event hidden = yes trigger = { always = no } }
+middle_east_decisions.1100 = { type = character_event hidden = yes trigger = { always = no } }
+middle_east_decisions.1101 = { type = character_event hidden = yes trigger = { always = no } }
+middle_east_decisions.1102 = { type = character_event hidden = yes trigger = { always = no } }

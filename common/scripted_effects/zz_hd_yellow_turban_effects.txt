@@ -1,0 +1,359 @@
+﻿# Effects for the 184 Yellow Turban historical uprising.
+
+hd_yellow_turban_rebellion_effect = {
+	character:zhang_jiao ?= { save_scope_as = hd_yellow_turban_attacker }
+	title:e_han.holder ?= { save_scope_as = hd_yellow_turban_defender }
+	title:d_hd_nanyang_yellow_turbans.holder ?= { save_scope_as = hd_yellow_turban_nanyang_leader }
+	title:d_hd_yingchuan_yellow_turbans.holder ?= { save_scope_as = hd_yellow_turban_yingchuan_leader }
+
+	if = {
+		limit = {
+			exists = scope:hd_yellow_turban_attacker
+			exists = scope:hd_yellow_turban_defender
+		}
+		scope:hd_yellow_turban_attacker = {
+			start_war = {
+				cb = hd_yellow_turban_rebellion_war
+				target = scope:hd_yellow_turban_defender
+				target_title = title:e_han
+			}
+		}
+
+		scope:hd_yellow_turban_attacker = {
+			random_character_war = {
+				limit = {
+					primary_attacker = scope:hd_yellow_turban_attacker
+					primary_defender = scope:hd_yellow_turban_defender
+					using_cb = hd_yellow_turban_rebellion_war
+				}
+				save_scope_as = hd_yellow_turban_war
+			}
+		}
+	}
+
+	if = {
+		limit = {
+			exists = scope:hd_yellow_turban_war
+			scope:hd_yellow_turban_attacker = {
+				NOT = { has_character_flag = hd_yellow_turban_rebel_leaders_created }
+			}
+		}
+
+		scope:hd_yellow_turban_war = {
+			if = {
+				limit = {
+					scope:hd_yellow_turban_nanyang_leader = {
+						is_alive = yes
+						NOT = { is_participant_in_war = scope:hd_yellow_turban_war }
+					}
+				}
+				add_attacker = scope:hd_yellow_turban_nanyang_leader
+			}
+			if = {
+				limit = {
+					scope:hd_yellow_turban_yingchuan_leader = {
+						is_alive = yes
+						NOT = { is_participant_in_war = scope:hd_yellow_turban_war }
+					}
+				}
+				add_attacker = scope:hd_yellow_turban_yingchuan_leader
+			}
+		}
+
+		# Build a pool of Han duchies and counties before creating new leaders.
+		# The duchy pool is consumed one title at a time so the thirteen leaders
+		# start in different parts of the Han realm whenever enough duchies exist.
+		scope:hd_yellow_turban_defender = {
+			every_realm_county = {
+				add_to_list = hd_yellow_turban_county_pool
+			}
+			every_held_title = {
+				limit = {
+					tier = tier_duchy
+					is_landless_type_title = no
+				}
+				add_to_list = hd_yellow_turban_duchy_pool
+			}
+			every_vassal_or_below = {
+				every_held_title = {
+					limit = {
+						tier = tier_duchy
+						is_landless_type_title = no
+					}
+					add_to_list = hd_yellow_turban_duchy_pool
+				}
+			}
+		}
+
+		# Create thirteen independent Yellow Turban co-belligerents. Each
+		# receives a vanilla adventurer camp before joining the war, which keeps
+		# the participant valid even though Zhang Jiao is landless.
+		scope:hd_yellow_turban_attacker = {
+			add_character_flag = hd_yellow_turban_rebel_leaders_created
+			while = {
+				count = 13
+				if = {
+					limit = { list_size:hd_yellow_turban_duchy_pool >= 1 }
+					random_in_list = {
+						list = hd_yellow_turban_duchy_pool
+						save_temporary_scope_as = hd_yellow_turban_rebel_duchy
+					}
+					scope:hd_yellow_turban_rebel_duchy = {
+						remove_from_list = hd_yellow_turban_duchy_pool
+						random_de_jure_county = {
+							save_temporary_scope_as = hd_yellow_turban_rebel_county
+						}
+					}
+				}
+				else = {
+					# There are normally many more than thirteen Han duchies;
+					# this fallback still fulfills the fixed count on a reduced map.
+					random_in_list = {
+						list = hd_yellow_turban_county_pool
+						save_temporary_scope_as = hd_yellow_turban_rebel_county
+					}
+				}
+
+				create_character = {
+					location = scope:hd_yellow_turban_rebel_county.title_province
+					template = populist_faction_leader_template
+					faith = faith:taipingdao
+					culture = scope:hd_yellow_turban_rebel_county.culture
+					dynasty = generate
+					gender_female_chance = 50
+					trait = populist_leader
+					save_temporary_scope_as = hd_yellow_turban_rebel_leader
+				}
+
+				scope:hd_yellow_turban_rebel_leader = {
+					create_landless_adventurer_title_effect = {
+						REASON = flag:conquest
+						FLAVOR_CHAR = scope:hd_yellow_turban_rebel_leader
+					}
+					# The vanilla effect defaults the camp-purpose law to wanderers.
+					# Keep an explicit guard so this remains true if another start-up
+					# effect changes the character's law before this chain runs.
+					if = {
+						limit = { NOT = { has_realm_law = camp_purpose_wanderers } }
+						add_realm_law = camp_purpose_wanderers
+					}
+				}
+
+				scope:hd_yellow_turban_war = {
+					add_attacker = scope:hd_yellow_turban_rebel_leader
+				}
+				scope:hd_yellow_turban_rebel_leader = {
+					spawn_army = {
+						name = peasant_faction_event_troops
+						levies = 5000
+						location = scope:hd_yellow_turban_rebel_county.title_province
+						origin = scope:hd_yellow_turban_rebel_county.title_province
+						inheritable = yes
+						save_temporary_scope_as = hd_yellow_turban_rebel_army
+					}
+				}
+				scope:hd_yellow_turban_rebel_army = {
+					assign_commander = scope:hd_yellow_turban_rebel_leader
+				}
+			}
+		}
+
+		# Add twenty random Taipingdao commanders to Zhang Jiao's camp.
+		# They are available commanders, not additional war participants.
+		scope:hd_yellow_turban_attacker = {
+			while = {
+				count = 20
+				random_in_list = {
+					list = hd_yellow_turban_county_pool
+					save_temporary_scope_as = hd_yellow_turban_commander_county
+				}
+				create_character = {
+					location = scope:hd_yellow_turban_commander_county.title_province
+					template = new_commander_character
+					faith = faith:taipingdao
+					culture = scope:hd_yellow_turban_commander_county.culture
+					dynasty = none
+					gender_female_chance = 50
+					save_temporary_scope_as = hd_yellow_turban_commander
+				}
+				scope:hd_yellow_turban_commander = {
+					set_employer = scope:hd_yellow_turban_attacker
+					set_knight_status = force
+				}
+			}
+		}
+
+		scope:hd_yellow_turban_attacker = {
+			spawn_army = {
+				name = peasant_faction_event_troops
+				levies = 10000
+				location = scope:hd_yellow_turban_attacker.location
+				origin = scope:hd_yellow_turban_attacker.location
+				inheritable = yes
+			}
+		}
+
+		scope:hd_yellow_turban_nanyang_leader = {
+			spawn_army = {
+				name = peasant_faction_event_troops
+				levies = 8000
+				location = scope:hd_yellow_turban_nanyang_leader.location
+				origin = scope:hd_yellow_turban_nanyang_leader.location
+				inheritable = yes
+			}
+		}
+
+		scope:hd_yellow_turban_yingchuan_leader = {
+			spawn_army = {
+				name = peasant_faction_event_troops
+				levies = 9000
+				location = scope:hd_yellow_turban_yingchuan_leader.location
+				origin = scope:hd_yellow_turban_yingchuan_leader.location
+				inheritable = yes
+			}
+		}
+
+		# Collect first so starting one faction war cannot invalidate the iterator.
+		scope:hd_yellow_turban_defender = {
+			every_targeting_faction = {
+				limit = {
+					exists = faction_leader
+					faction_is_type = populist_faction
+				}
+				if = {
+					limit = { NOT = { is_in_list = hd_yellow_turban_populist_factions } }
+					add_to_list = hd_yellow_turban_populist_factions
+				}
+			}
+			every_vassal_or_below = {
+				every_targeting_faction = {
+					limit = {
+						exists = faction_leader
+						faction_is_type = populist_faction
+					}
+					if = {
+						limit = { NOT = { is_in_list = hd_yellow_turban_populist_factions } }
+						add_to_list = hd_yellow_turban_populist_factions
+					}
+				}
+			}
+		}
+
+		every_in_list = {
+			list = hd_yellow_turban_populist_factions
+			limit = {
+				exists = faction_leader
+				faction_is_type = populist_faction
+			}
+			faction_start_war = {}
+		}
+
+		scope:hd_yellow_turban_attacker = {
+			add_character_flag = hd_yellow_turban_rebellion_started
+		}
+	}
+}
+
+# One result event is sent to every human player.  The global guard is important
+# because an invalidated war can otherwise pass through the normal defeat hook too.
+hd_yellow_turban_war_victory_effect = {
+	if = {
+		limit = { NOT = { exists = global_var:hd_yellow_turban_outcome_resolved } }
+		set_global_variable = hd_yellow_turban_outcome_resolved
+		every_player = {
+			trigger_event = hd_yellow_turban.0002
+		}
+	}
+}
+
+hd_yellow_turban_war_failed_effect = {
+	if = {
+		limit = { NOT = { exists = global_var:hd_yellow_turban_outcome_resolved } }
+		set_global_variable = hd_yellow_turban_outcome_resolved
+
+		# Everyone at the table sees the result, including players who were not
+		# involved in the war itself.
+		every_player = {
+			trigger_event = hd_yellow_turban.0003
+		}
+
+		# The Liu Bei chain begins three months after a failed uprising.
+		character:liu_bei ?= {
+			if = {
+				limit = {
+					is_alive = yes
+					NOT = { has_character_flag = hd_liu_bei_aftermath_started }
+				}
+				add_character_flag = hd_liu_bei_aftermath_started
+				trigger_event = {
+					id = hd_liu_bei_aftermath.0001
+					months = 3
+				}
+			}
+		}
+
+		# The palace chain is deliberately a single-player viewpoint.  A human
+		# He Jin is preferred, then Yuan Shao, then Cao Cao; if all three are AI,
+		# the historical He Jin viewpoint is used.
+		if = {
+			limit = { character:he_jin ?= { is_alive = yes is_local_player = yes } }
+			set_global_variable = hd_palace_crisis_started
+			character:he_jin = {
+				trigger_event = {
+					id = hd_palace_crisis.0001
+					months = { 22 26 }
+				}
+			}
+		}
+		else_if = {
+			limit = { character:yuan_shao ?= { is_alive = yes is_local_player = yes } }
+			set_global_variable = hd_palace_crisis_started
+			character:yuan_shao = {
+				trigger_event = {
+					id = hd_palace_crisis.0001
+					months = { 22 26 }
+				}
+			}
+		}
+		else_if = {
+			limit = { character:cao_cao ?= { is_alive = yes is_local_player = yes } }
+			set_global_variable = hd_palace_crisis_started
+			character:cao_cao = {
+				trigger_event = {
+					id = hd_palace_crisis.0001
+					months = { 22 26 }
+				}
+			}
+		}
+		else_if = {
+			limit = { character:he_jin ?= { is_alive = yes } }
+			set_global_variable = hd_palace_crisis_started
+			character:he_jin = {
+				trigger_event = {
+					id = hd_palace_crisis.0001
+					months = { 22 26 }
+				}
+			}
+		}
+		else_if = {
+			limit = { character:yuan_shao ?= { is_alive = yes } }
+			set_global_variable = hd_palace_crisis_started
+			character:yuan_shao = {
+				trigger_event = {
+					id = hd_palace_crisis.0001
+					months = { 22 26 }
+				}
+			}
+		}
+		else_if = {
+			limit = { character:cao_cao ?= { is_alive = yes } }
+			set_global_variable = hd_palace_crisis_started
+			character:cao_cao = {
+				trigger_event = {
+					id = hd_palace_crisis.0001
+					months = { 22 26 }
+				}
+			}
+		}
+	}
+}

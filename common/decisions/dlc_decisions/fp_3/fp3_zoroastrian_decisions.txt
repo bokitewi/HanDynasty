@@ -1,0 +1,29 @@
+# Unsupported vanilla regional decisions are disabled for the total conversion.
+
+destroy_the_magi_decision = {
+	is_shown = { always = no }
+	is_valid = { always = no }
+	effect = { }
+	ai_potential = { always = no }
+}
+
+fp3_embrace_zoroastrianism_decision = {
+	is_shown = { always = no }
+	is_valid = { always = no }
+	effect = { }
+	ai_potential = { always = no }
+}
+
+kindle_royal_fire_decision = {
+	is_shown = { always = no }
+	is_valid = { always = no }
+	effect = { }
+	ai_potential = { always = no }
+}
+
+restore_badd_fortress_decision = {
+	is_shown = { always = no }
+	is_valid = { always = no }
+	effect = { }
+	ai_potential = { always = no }
+}

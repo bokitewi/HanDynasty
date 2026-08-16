@@ -1,0 +1,17 @@
+﻿l_english:
+ # Override vanilla Silk Road descriptions that reference the removed six regions
+ silk_road_situation_participant_group_china_realm_desc:0 "This character is a non-[nomadic|E] [independent_ruler|E] with land in the Eastern Section of the Silk Road."
+ silk_road_situation_participant_group_silk_road_domain_desc:0 "This character is a non-[nomadic|E] [ruler|E] whose [domain|E] lies directly on the [GetGeographicalRegion('dlc_tgp_silk_road_route_region').GetName]."
+ silk_road_situation_participant_group_silk_road_realm_desc:0 "This character is a non-[nomadic|E] [ruler|E] whose [realm|E] connects to the [GetGeographicalRegion('dlc_tgp_silk_road_route_region').GetName]."
+ silk_road_situation_participant_group_silk_road_periphery_desc:0 "This character is a non-[nomadic|E] [ruler|E] within the [GetGeographicalRegion('tgp_silk_road_region').GetName] who does not belong to a more direct Silk Road group."
+ visit_silk_road_market_decision_changan:0 "$building_changan_market_01$ #weak ([GetSituation('silk_road_situation').GetSubRegionByKey('region_silk_road_eastern_section').MakeScope.Var('innovation').CultureInnovationType.GetName])#!"
+
+ # Active Grand Canal catalysts use the four-section layout
+ catalyst_silk_road_china_grand_canal_expanded_desc:0 "$great_project_type_grand_canals$ [great_project|E] is completed #weak ([GetSituation('silk_road_situation').GetSubRegionByKey('region_silk_road_eastern_section').GetName])#!"
+ catalyst_silk_road_china_grand_canal_expanded_secondary_desc:0 "$great_project_type_grand_canals$ [great_project|E] is completed #weak ([GetSituation('silk_road_situation').GetSubRegionByKey('region_silk_road_middle_northern_route').GetName], [GetSituation('silk_road_situation').GetSubRegionByKey('region_silk_road_middle_southern_route').GetName])#!"
+ catalyst_silk_road_china_grand_canal_expanded_tertiary_desc:0 "$great_project_type_grand_canals$ [great_project|E] is completed #weak ([GetSituation('silk_road_situation').GetSubRegionByKey('region_silk_road_western_section').GetName])#!"
+
+ # Retain vanilla Great Steppe names and replace only their map descriptions
+ the_great_steppe_sub_region_steppe_west_desc:0 "$SITUATION_SUB_REGION_TOOLTIP_DESC$\n\n#weak The Western Steppe covers the commanderies of Liang Province. The Hexi Corridor and its neighboring frontiers connect the Central Plains with the Western Regions, where changing pastures, droughts, and bitter winters continually shape herds and migration.#!"
+ the_great_steppe_sub_region_steppe_central_desc:0 "$SITUATION_SUB_REGION_TOOLTIP_DESC$\n\n#weak The Central Steppe covers the commanderies of Bing Province. Lying between the settled heartland and the northern grasslands, its mountains, river valleys, and frontier passes shape a life spent following water and pasture.#!"
+ the_great_steppe_sub_region_steppe_east_desc:0 "$SITUATION_SUB_REGION_TOOLTIP_DESC$\n\n#weak The Eastern Steppe covers the commanderies of You Province. The lands north and south of the Yan Mountains and the Liaoxi frontier form a gateway to the northeastern grasslands, where the seasons govern pasture fertility and the direction of nomadic migration.#!"

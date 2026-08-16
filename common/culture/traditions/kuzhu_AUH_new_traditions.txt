@@ -1,0 +1,395 @@
+﻿#苦竹：新增猛安谋克传统
+kuzhu_tradition_mengan_mouke = {
+	category = realm
+
+	layers = {
+		0 = intrigue
+		1 = western
+		4 = samurai.dds
+	}
+
+	is_shown = {
+		has_cultural_pillar = heritage_tungusic
+	}
+	
+	can_pick = {
+		has_cultural_pillar = heritage_tungusic
+	}
+
+	parameters = {		
+		harder_to_convert_county_culture = yes
+	}
+
+	character_modifier = {
+		monthly_county_control_growth_factor = 0.1
+		additional_fort_level = 2
+		defender_advantage = 4
+		levy_reinforcement_rate_even_if_baron = 0.1
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_double_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			if = {
+				limit = {
+					NOR = {
+						culture_pillar:ethos_courtly = { is_in_list = traits }
+						culture_pillar:ethos_communal = { is_in_list = traits }
+						culture_pillar:ethos_spiritual = { is_in_list = traits }
+					}
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = not_courtly_communal_or_spiritual_desc
+				}
+			}
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = {
+		value = 50
+		if = {
+			# Only Courtly cultures should pick this
+			limit = { NOT = { culture_pillar:ethos_courtly = { is_in_list = traits } } }
+			multiply = 0
+		}
+		if = {
+		 	# AI should avoid stacking traditions for courtly court positions
+			limit = { culture_tradition:tradition_music_theory = { is_in_list = traits } }
+			multiply = 0.25
+		}
+	}
+}
+
+#苦竹新传统：兵强马壮者为之
+tradition_kuzhu_proved_by_sword = {
+	category = societal
+
+	layers = {
+		0 = diplo
+		1 = mediterranean
+		4 = wolves_of_the_deep_steppe.dds 
+	}
+
+	is_shown = {
+		OR = {
+			has_cultural_pillar = heritage_turkic
+			has_cultural_pillar = heritage_japonic
+		}
+	}
+	can_pick = {
+		custom_tooltip = {
+			text = cannot_have_tradition_loyal_soldiers
+			NOT = { culture_tradition:tradition_loyal_soldiers = { is_in_list = traits } }
+		}
+		custom_tooltip = {
+			text = cannot_have_tradition_scholar_officials
+			NOT = { culture_tradition:tradition_scholar_officials = { is_in_list = traits } }
+		}
+	}
+	
+	parameters = {		
+		rowdy_trait_more_common = yes		
+		vassals_more_likely_to_refuse_demands = yes
+		ambitious_trait_more_common = yes
+		cb_lower_prestige_level_requirement = yes
+		cheaper_cbs = yes
+	}
+	character_modifier = {
+		martial_per_prestige_level = 2
+		vassal_tax_contribution_mult = -0.1
+		vassal_levy_contribution_mult = -0.1
+		legitimacy_gain_mult = -0.2		
+		legitimacy_loss_mult = 0.2		
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			if = {
+				limit = {
+					NOR = {
+						culture_pillar:ethos_bellicose = { is_in_list = traits }
+						culture_pillar:ethos_stoic = { is_in_list = traits }
+						culture_pillar:ethos_bureaucratic = { is_in_list = traits }
+					}
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = not_bellicose_stoic_or_bureaucratic_desc
+				}
+			}
+			if = {
+				limit = {
+					exists = scope:character.house
+					NOT = {
+						scope:character.house = {
+							any_house_member = {
+								count >= 3
+								has_relation_friend = scope:character
+							}
+						}
+					}
+				}
+				add = {
+					value = tradition_unfulfilled_criteria_penalty
+					desc = house_friends_desc
+				}
+			}
+
+			if = {
+				limit = {
+					culture_tradition_reduction_trigger = { TRADITION = tradition_strong_kinship }
+				}
+				multiply = {
+					value = 0.5
+					desc = inspired_by_culture_desc
+				}
+			}
+			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = {
+		value = 200
+		if = {
+			limit = { # Admin should be more into this
+				scope:character = {
+					government_allows = administrative
+				}
+			}
+			multiply = 2
+		}
+	}
+}
+
+#第二批新传统1：文章取士
+tradition_kuzhu_praise_literature = {
+	category = societal
+
+	layers = {
+		0 = learning
+		1 = asian
+		3 = 6.dds
+		4 = RICE_chinese_scroll.dds
+	}
+
+	is_shown = {
+		has_east_asian_heritage_pillar_trigger = yes
+		culture_head = {
+			OR = {
+				has_trait = confucian_education
+				has_trait = lifestyle_poet
+				learning >= 20
+			}
+		}
+	}
+	
+	can_pick = {
+		# Mutually exclusive with Poetry and Gardening
+		custom_description = {
+			text = culture_not_bellicose
+			NOT = {
+				culture_pillar:ethos_bellicose = { is_in_list = traits }
+			}
+		}
+		NOR = { 
+			has_cultural_tradition = tradition_warrior_culture 
+		}
+	}
+
+	parameters = {
+		kuzhu_confucian_education_add_merit_level = yes
+		diplomacy_education_better_outcomes = yes
+		can_author_books = yes
+		poet_trait_gives_bonuses = yes
+		poet_trait_more_common = yes		
+	}
+	character_modifier = {
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.2
+		monthly_martial_lifestyle_xp_gain_mult = -0.1		
+	}	
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_double_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			if = {
+				limit = {
+					NOR = {
+						culture_pillar:ethos_courtly = { is_in_list = traits }
+						culture_pillar:ethos_communal = { is_in_list = traits }
+						culture_pillar:ethos_spiritual = { is_in_list = traits }
+					}
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = not_courtly_communal_or_spiritual_desc
+				}
+			}
+			if = {
+				limit = {
+					trigger_if = {
+						limit = {
+							scope:character = {
+								is_ai = no
+							}
+						}
+						NOT = {
+							any_ruler = {
+								count >= 3
+								culture = prev
+								primary_title.tier >= tier_county
+								OR = {
+									has_trait = lifestyle_poet
+									has_trait = confucian_education
+								}
+							}
+						}
+					}
+					trigger_else = {
+						always = no
+					}
+				}
+				add = {
+					value = tradition_unfulfilled_criteria_penalty
+					desc = rulers_with_poet_desc
+				}
+			}
+
+			if = {
+				limit = {
+					scope:character = {
+						has_variable = tradition_poetry_travel_discount
+					}
+				}
+
+				add = {
+					value = tradition_travel_discount
+					desc = tradition_travel_discount_desc
+				}
+			}
+			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = {
+		value = 50
+		if = {
+			# Only Courtly cultures should pick this
+			limit = { NOT = { culture_pillar:ethos_courtly = { is_in_list = traits } } }
+			multiply = 0
+		}
+		if = {
+		 	# AI should avoid stacking traditions for courtly court positions
+			limit = { culture_tradition:tradition_music_theory = { is_in_list = traits } }
+			multiply = 0.25
+		}
+	}
+}
+
+#第二批新传统2：小中华
+tradition_kuzhu_minor_china = {
+	category = regional
+
+	layers = {
+		0 = diplo
+		1 = asian
+		3 = 1.dds
+		4 = asian_pavilion.dds
+	}
+
+	is_shown = {
+		has_tgp_dlc_trigger = yes
+		OR = { 
+			has_cultural_pillar = heritage_viet
+			has_cultural_pillar = heritage_korean
+			has_cultural_pillar = heritage_buyeo
+			has_cultural_pillar = heritage_japonic
+			AND = {
+				has_cultural_pillar = heritage_chinese
+				this != culture:han
+			}
+		} 
+		culture:han.culture_head ?= {
+			in_diplomatic_range = scope:character
+		}
+	}
+
+	parameters = {
+		can_always_convert_to_confucianism = yes
+		wants_to_learn_chinese = yes
+		may_adopt_silk_road_innovations = yes
+	}
+
+	culture_modifier = {
+		culture_innovation_progress_chance_from_spread_add = 20
+	}
+	character_modifier = {
+		character_innovation_progress_chance_from_fascination_add = -10				
+	}
+	
+
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			if = {
+				limit = {
+					NOR = {
+						culture_pillar:ethos_bureaucratic = { is_in_list = traits }
+						culture_pillar:ethos_courtly = { is_in_list = traits }
+						culture_pillar:ethos_spiritual = { is_in_list = traits }
+					}
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = not_bureaucratic_courtly_or_spiritual_desc
+				}
+			}
+			if = {
+				limit = {
+					trigger_if = {
+						limit = {
+							scope:character = {
+								is_ai = no
+							}
+						}
+						NOT = {
+							any_ruler = {
+								count >= 5
+								culture = prev
+								primary_title.tier >= tier_county
+								has_trait = scholar
+							}
+						}
+					}
+					trigger_else = {
+						always = no
+					}
+				}
+				add = {
+					value = tradition_unfulfilled_criteria_penalty
+					desc = rulers_with_scholar_desc
+				}
+			}
+		}
+	}	
+}

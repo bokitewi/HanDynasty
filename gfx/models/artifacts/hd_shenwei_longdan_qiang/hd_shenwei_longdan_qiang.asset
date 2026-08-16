@@ -1,0 +1,165 @@
+pdxmesh = {
+	name = "hd_shenwei_longdan_qiang_portrait_mesh"
+	file = "hd_shenwei_longdan_qiang_portrait.mesh"
+
+	meshsettings = {
+		name = "hd_shenwei_longdan_qiang_portrait_headShape"
+		index = 0
+		texture_diffuse = "hd_shenwei_longdan_qiang_head_diffuse.dds"
+		texture_normal = "hd_shenwei_longdan_qiang_head_normal.dds"
+		texture_specular = "hd_shenwei_longdan_qiang_head_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+	meshsettings = {
+		name = "hd_shenwei_longdan_qiang_portrait_neck_1Shape"
+		index = 0
+		texture_diffuse = "hd_shenwei_longdan_qiang_neck_1_diffuse.dds"
+		texture_normal = "hd_shenwei_longdan_qiang_neck_1_normal.dds"
+		texture_specular = "hd_shenwei_longdan_qiang_neck_1_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+	meshsettings = {
+		name = "hd_shenwei_longdan_qiang_portrait_neck_2Shape"
+		index = 0
+		texture_diffuse = "hd_shenwei_longdan_qiang_neck_2_diffuse.dds"
+		texture_normal = "hd_shenwei_longdan_qiang_neck_2_normal.dds"
+		texture_specular = "hd_shenwei_longdan_qiang_neck_2_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+	meshsettings = {
+		name = "hd_shenwei_longdan_qiang_portrait_neck_3Shape"
+		index = 0
+		texture_diffuse = "hd_shenwei_longdan_qiang_neck_3_diffuse.dds"
+		texture_normal = "hd_shenwei_longdan_qiang_neck_3_normal.dds"
+		texture_specular = "hd_shenwei_longdan_qiang_neck_3_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+	meshsettings = {
+		name = "hd_shenwei_longdan_qiang_portrait_neck_4Shape"
+		index = 0
+		texture_diffuse = "hd_shenwei_longdan_qiang_neck_4_diffuse.dds"
+		texture_normal = "hd_shenwei_longdan_qiang_neck_4_normal.dds"
+		texture_specular = "hd_shenwei_longdan_qiang_neck_4_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+	meshsettings = {
+		name = "hd_shenwei_longdan_qiang_portrait_helmetShape"
+		index = 0
+		texture_diffuse = "hd_shenwei_longdan_qiang_helmet_diffuse.dds"
+		texture_normal = "hd_shenwei_longdan_qiang_helmet_normal.dds"
+		texture_specular = "hd_shenwei_longdan_qiang_helmet_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+	meshsettings = {
+		name = "hd_shenwei_longdan_qiang_portrait_shaftShape"
+		index = 0
+		texture_diffuse = "hd_shenwei_longdan_qiang_shaft_diffuse.dds"
+		texture_normal = "hd_shenwei_longdan_qiang_shaft_normal.dds"
+		texture_specular = "hd_shenwei_longdan_qiang_shaft_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+	meshsettings = {
+		name = "hd_shenwei_longdan_qiang_portrait_neck_5Shape"
+		index = 0
+		texture_diffuse = "hd_shenwei_longdan_qiang_neck_5_diffuse.dds"
+		texture_normal = "hd_shenwei_longdan_qiang_neck_5_normal.dds"
+		texture_specular = "hd_shenwei_longdan_qiang_neck_5_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "hd_shenwei_longdan_qiang_portrait_entity"
+	pdxmesh = "hd_shenwei_longdan_qiang_portrait_mesh"
+}
+
+pdxmesh = {
+	name = "hd_shenwei_longdan_qiang_court_mesh"
+	file = "hd_shenwei_longdan_qiang_court.mesh"
+
+	meshsettings = {
+		name = "hd_shenwei_longdan_qiang_court_headShape"
+		index = 0
+		texture_diffuse = "hd_shenwei_longdan_qiang_head_diffuse.dds"
+		texture_normal = "hd_shenwei_longdan_qiang_head_normal.dds"
+		texture_specular = "hd_shenwei_longdan_qiang_head_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+	meshsettings = {
+		name = "hd_shenwei_longdan_qiang_court_neck_1Shape"
+		index = 0
+		texture_diffuse = "hd_shenwei_longdan_qiang_neck_1_diffuse.dds"
+		texture_normal = "hd_shenwei_longdan_qiang_neck_1_normal.dds"
+		texture_specular = "hd_shenwei_longdan_qiang_neck_1_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+	meshsettings = {
+		name = "hd_shenwei_longdan_qiang_court_neck_2Shape"
+		index = 0
+		texture_diffuse = "hd_shenwei_longdan_qiang_neck_2_diffuse.dds"
+		texture_normal = "hd_shenwei_longdan_qiang_neck_2_normal.dds"
+		texture_specular = "hd_shenwei_longdan_qiang_neck_2_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+	meshsettings = {
+		name = "hd_shenwei_longdan_qiang_court_neck_3Shape"
+		index = 0
+		texture_diffuse = "hd_shenwei_longdan_qiang_neck_3_diffuse.dds"
+		texture_normal = "hd_shenwei_longdan_qiang_neck_3_normal.dds"
+		texture_specular = "hd_shenwei_longdan_qiang_neck_3_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+	meshsettings = {
+		name = "hd_shenwei_longdan_qiang_court_neck_4Shape"
+		index = 0
+		texture_diffuse = "hd_shenwei_longdan_qiang_neck_4_diffuse.dds"
+		texture_normal = "hd_shenwei_longdan_qiang_neck_4_normal.dds"
+		texture_specular = "hd_shenwei_longdan_qiang_neck_4_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+	meshsettings = {
+		name = "hd_shenwei_longdan_qiang_court_helmetShape"
+		index = 0
+		texture_diffuse = "hd_shenwei_longdan_qiang_helmet_diffuse.dds"
+		texture_normal = "hd_shenwei_longdan_qiang_helmet_normal.dds"
+		texture_specular = "hd_shenwei_longdan_qiang_helmet_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+	meshsettings = {
+		name = "hd_shenwei_longdan_qiang_court_shaftShape"
+		index = 0
+		texture_diffuse = "hd_shenwei_longdan_qiang_shaft_diffuse.dds"
+		texture_normal = "hd_shenwei_longdan_qiang_shaft_normal.dds"
+		texture_specular = "hd_shenwei_longdan_qiang_shaft_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+	meshsettings = {
+		name = "hd_shenwei_longdan_qiang_court_neck_5Shape"
+		index = 0
+		texture_diffuse = "hd_shenwei_longdan_qiang_neck_5_diffuse.dds"
+		texture_normal = "hd_shenwei_longdan_qiang_neck_5_normal.dds"
+		texture_specular = "hd_shenwei_longdan_qiang_neck_5_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+entity = {
+	name = "hd_shenwei_longdan_qiang_court_entity"
+	pdxmesh = "hd_shenwei_longdan_qiang_court_mesh"
+}

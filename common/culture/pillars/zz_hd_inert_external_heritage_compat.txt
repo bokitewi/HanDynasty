@@ -1,0 +1,38 @@
+﻿# Hidden compatibility pillars for vanilla consumers that remain outside replaced paths.
+# They do not assign a culture or enable regional gameplay.
+
+heritage_mongolic = {
+	type = heritage
+	is_shown = { always = no }
+	audio_parameter = sea
+}
+
+heritage_japonic = {
+	type = heritage
+	is_shown = { always = no }
+	audio_parameter = sea
+}
+
+heritage_korean = {
+	type = heritage
+	is_shown = { always = no }
+	audio_parameter = sea
+}
+
+heritage_buyeo = {
+	type = heritage
+	is_shown = { always = no }
+	audio_parameter = sea
+}
+
+heritage_viet = {
+	type = heritage
+	is_shown = { always = no }
+	audio_parameter = sea
+}
+
+heritage_qiangic = {
+	type = heritage
+	is_shown = { always = no }
+	audio_parameter = sea
+}

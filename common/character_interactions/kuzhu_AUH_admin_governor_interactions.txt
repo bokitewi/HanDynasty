@@ -1,0 +1,438 @@
+﻿# Demand that a vassal switches to admin
+# 苦竹：使下级封臣转为行政制
+kuzhu_demand_follow_vassal_admin_interaction = {
+	category = interaction_category_vassal
+	icon = provincial_examination
+
+	ai_maybe = yes
+	ai_min_reply_days = 4
+	ai_max_reply_days = 9
+	can_send_despite_rejection = yes
+	ai_accept_negotiation = yes
+	popup_on_receive = yes
+	common_interaction = no
+
+	#according to telemetry, practically never used
+	interface_priority = 0
+
+	ai_targets = {
+		ai_recipients = sub_realm_characters
+	}
+	ai_target_quick_trigger = {
+		adult = yes
+	}
+	ai_frequency_by_tier = {
+		barony = 0
+		county = 0
+		duchy = 0
+		kingdom = 12
+		empire = 12
+		hegemony = 12
+	}
+
+	cost = {
+		gold = {
+			if = {	
+				limit = {
+					scope:actor = { has_treasury = no }
+					scope:recipient = {
+						any_held_title = {
+							title_province = {
+								has_holding_type = nomad_holding
+							}
+						}
+					}
+				}
+				add = 500
+			}
+		}
+		treasury = {
+			if = {	
+				limit = {
+					scope:actor = { has_treasury = yes }
+					scope:recipient = {
+						any_held_title = {
+							title_province = {
+								has_holding_type = nomad_holding
+							}
+						}
+					}
+				}
+				add = 500		
+			}			
+		}
+	}
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					scope:actor = { government_has_flag = government_is_japan_administrative }
+				}
+				desc = demand_admin_interaction_desc_japan
+			}
+			desc = demand_admin_interaction_desc
+		}
+	}
+
+	is_shown = {
+		scope:actor = {
+			government_allows = administrative
+		}
+		scope:recipient = {
+			highest_held_title_tier >= tier_county
+			target_is_liege_or_above = scope:actor
+			is_ai = yes
+			is_landed = yes
+			NOT = { 
+				has_same_government = liege
+			}
+			liege = { has_same_government = scope:actor }
+		}
+	}
+
+	cooldown_against_recipient = { years = 10 }
+
+	is_valid_showing_failures_only = {
+		scope:recipient = {
+			NOT = { has_strong_hook = scope:actor }
+			is_at_war = no
+			trigger_if = {
+				limit = {
+					is_landed = no
+					exists = domicile
+				}
+				domicile.domicile_location.county.holder = { government_allows = administrative }
+			}
+			trigger_if = {
+				limit = { exists = confederation }
+				NOT = { scope:actor.confederation ?= confederation }
+			}
+			#liege = scope:actor
+			NOT = { liege = scope:actor }
+		}
+		scope:actor = { 
+			is_at_war = no 		
+			custom_tooltip = {
+				text = kuzhu_admin_law_allows_conversion_demand
+				OR = {
+					has_realm_law = kuzhu_medium_government_size
+					has_realm_law = kuzhu_admin_recruit_balanced
+					has_realm_law = kuzhu_large_government_size
+					has_realm_law = kuzhu_admin_recruit_theme
+					has_realm_law = kuzhu_admin_recruit_legion
+				}
+			}		
+		}
+		custom_tooltip = {
+			text = cannot_take_overt_hostile_actions_against_diarch.tt
+			NOT = { scope:recipient ?= scope:actor.diarch }
+		}
+		custom_tooltip = {
+			text = demand_admin_tribal
+			NOT = {
+				scope:recipient = { government_has_flag = government_is_tribal }
+			}
+		}
+		custom_tooltip = {
+			text = head_of_faith_unable_to_change_government_desc
+			NOT = {
+				scope:recipient = { faith.religious_head ?= this }
+			}
+		}
+	}
+
+	# Offer hereditary boost
+	send_option = {
+		is_valid = {
+			scope:recipient = { is_landed = yes }
+			custom_tooltip = {
+				text = demand_admin_hereditary_tt
+				scope:recipient.house ?= {
+					any_house_member = { count > 1 }
+				}
+			}
+			custom_tooltip = {
+				text = demand_admin_hereditary_exists_tt
+				NOT = { exists = scope:recipient.primary_title.var:petition_house_rights }
+			}
+		}
+		flag = hereditary
+		localization = demand_admin_hereditary
+	}
+	#Spend influence
+	send_option = {
+		flag = influence
+		is_valid = {
+			scope:actor.influence >= massive_influence_value
+		}
+		localization = SPEND_INFLUENCE
+	}
+	#Use hook
+	send_option = {
+		is_valid = {
+			scope:actor = { has_usable_hook = scope:recipient }
+		}
+		flag = hook
+		localization = SCHEME_HOOK
+	}
+	should_use_extra_icon = {
+		scope:actor = { has_usable_hook = scope:recipient }
+	}
+	extra_icon = "gfx/interface/icons/character_interactions/hook_icon.dds"
+
+	send_options_exclusive = no
+
+	auto_accept = {
+		custom_description = {
+			text = "spending_hook"
+			subject = scope:actor
+			object = scope:recipient
+			scope:hook = yes
+		}
+	}
+
+	on_accept = {
+		scope:recipient = {
+			primary_title = { save_scope_as = demanded_administration }
+			trigger_event = {
+				id = kuzhu_admin_governor.0001
+				days = 5
+			}
+		}
+		show_as_tooltip = {
+			change_to_administrative_interaction_effect = yes
+		}		
+		if = {
+			limit = {
+				scope:recipient = { is_ai = yes }
+			}
+			scope:recipient = {
+				set_variable = {
+					name = demand_admin_accepted_ai_block
+					value = scope:actor
+					years = 10
+				}
+			}
+		}
+	}
+
+	on_decline = {
+		scope:recipient = {
+			primary_title = { save_scope_as = demanded_administration }
+			trigger_event = {
+				id = kuzhu_admin_governor.0002
+				days = 5
+			}
+		}		
+		# In Japan, this starts a war
+		if = {
+			limit = {
+				scope:actor = { government_has_flag = government_is_japan_administrative }
+				scope:recipient = {
+					is_landed = yes
+					government_has_flag = government_is_japan_feudal
+				}
+			}
+			tgp_japan_demand_administrative_refusal_effect = yes
+		}
+		# Elsewhere it does not
+		else = {
+			scope:recipient = { custom_tooltip = demand_admin_interaction_vassal_refuses }
+		}
+	}
+
+	ai_potential = {
+		government_allows = administrative
+		is_adult = yes
+	}
+
+	ai_will_do = {
+		base = 100
+		modifier = {
+			factor = 0
+			scope:recipient = { highest_held_title_tier >= tier_county }
+			gold >= 300
+		}
+		modifier = {
+			factor = 0
+			scope:recipient = { highest_held_title_tier >= tier_duchy }
+			gold >= 600
+		}
+		modifier = {
+			factor = 0
+			scope:recipient = { highest_held_title_tier >= tier_kingdom }
+			gold >= 2000
+		}
+	}
+
+	ai_accept = {
+		base = 0
+		ai_military_threat_modifier = {
+			SENDER = scope:actor
+			RECEIVER = scope:recipient
+			MULTIPLIER = -1
+		}
+		
+		#苦竹：展开以便修改
+		opinion_modifier = { # Opinion Factor
+			who = scope:recipient
+			opinion_target = scope:actor
+			multiplier = 0.5
+			desc = AI_OPINION_REASON
+		}
+		ai_value_modifier = {
+			ai_rationality = 0.5 	#It's practical
+			ai_energy = 1 			#It's a change
+			ai_boldness = -0.25		#They might defy you
+			ai_sociability = 0.25 	#They wanna please you
+		}
+		# They are afraid of you
+		modifier = {
+			scope:recipient = {
+				has_dread_level_towards = {
+					target = scope:actor
+					level = 1
+				}
+			}
+			add = 30
+		}
+		modifier = {
+			scope:recipient = {
+				has_dread_level_towards = {
+					target = scope:actor
+					level = 2
+				}
+			}
+			add = 60
+		}
+		# Imperial Bureaucracy
+		modifier = {
+			scope:actor = { has_realm_law = imperial_bureaucracy_0 }
+			add = 10
+			desc = IMPERIAL_BUREAUCRACY_LOW_AI_REASON_DESC
+		}
+		modifier = {
+			scope:actor = { has_realm_law = imperial_bureaucracy_2 }
+			add = -10
+			desc = IMPERIAL_BUREAUCRACY_HIGH_AI_REASON_DESC
+		}
+		modifier = {
+			scope:actor = { has_realm_law = imperial_bureaucracy_3 }
+			add = -20
+			desc = IMPERIAL_BUREAUCRACY_HIGH_AI_REASON_DESC
+		} 
+
+		# The Recipient already uses another form of Admin
+		modifier = {
+			scope:recipient = {
+				government_allows = administrative
+			}
+			desc = is_already_administrative
+			add = 25
+		}
+
+
+		# Celestials in China
+		modifier = {
+			scope:actor = {
+				has_title = title:h_china
+			}
+			scope:recipient.primary_title.hegemony = title:h_china
+			desc = hegemony_of_china_desc
+			add = 50
+		}
+
+		# Faith hostility
+		modifier = {
+			faith = {
+				faith_hostility_level = {
+					target = scope:actor.faith
+					value >= faith_astray_level
+				}
+			}
+			add = {
+				value = "faith.faith_hostility_level(scope:actor.faith)"
+				multiply = -10
+			}
+			desc = FAITH_HOSTILITY_LEVEL
+		}
+		modifier = {
+			exists = scope:actor.top_liege.primary_title.state_faith
+			faith = {
+				faith_hostility_level = {
+					target = scope:actor.top_liege.primary_title.state_faith
+					value >= faith_astray_level
+				}
+			}
+			add = {
+				value = "faith.faith_hostility_level(scope:actor.top_liege.primary_title.state_faith)"
+				multiply = -5
+			}
+			desc = FAITH_HOSTILITY_LEVEL_STATE_FAITH
+		}
+		# Cultural acceptance
+		modifier = {
+			culture != scope:actor.culture
+			"scope:recipient.culture.cultural_acceptance(scope:actor.culture)" < 50
+			add = {
+				value = 50
+				subtract = "scope:recipient.culture.cultural_acceptance(scope:actor.culture)"
+				multiply = -0.25
+				round = yes
+			}
+			desc = CULTURAL_ACCEPTANCE
+		}
+		# Cultural acceptance
+		modifier = {
+			culture = { has_cultural_pillar = ethos_bureaucratic }
+			add = 20
+			desc = BUREAUCRATIC_ETHOS_REASON
+		}
+		# Hereditary province
+		modifier = {
+			scope:hereditary = yes
+			desc = demand_admin_hereditary_reason_desc
+			add = {
+				value = 0
+				every_held_title = {
+					limit = {
+						tier = scope:recipient.highest_held_title_tier
+						is_landless_type_title = no
+						is_noble_family_title = no
+					}
+					add = 25
+				}
+			}
+		}
+		# Spend influence
+		modifier = {
+			desc = INFLUENCE_REASON
+			scope:influence = yes
+			add = {
+				value = 30
+				multiply = scope:actor.influence_level
+				min = 5
+			}
+		}
+		# The Chinese administrative sphere is historically receptive to this reform.
+		modifier = {
+			add = 30
+			scope:actor = {
+				government_allows = administrative
+			}
+			scope:recipient = {
+				culture = {
+					OR = {
+						this = culture:han
+						any_parent_culture_or_above = {
+							this = culture:han
+						}
+						has_cultural_tradition = tradition_kuzhu_minor_china
+					}
+				}
+			}
+			desc = "HISTORICAL_ADMIN_REASON"
+		}
+	}
+}

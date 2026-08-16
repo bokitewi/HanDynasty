@@ -1,0 +1,87 @@
+﻿# Generated from 華陽國志、三國志、三國演義、後漢書 and 漢晉春秋.
+# Culture: shan
+# Time partition: dead_before_180 (death < 180).
+# No title history is assigned. Dates marked in the evidence audit may be estimates.
+
+##### 【雍由】
+yong_you={
+	name="uuii_book_yong_you_name" #由
+	dynasty_house="house_176040022001013"
+	culture="shan"
+	faith="theravada"
+	diplomacy="8"
+	martial="7"
+	stewardship="7"
+	intrigue="6"
+	learning="4"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_diplomacy_3
+	trait=tk_historical_character01
+	trait=patient
+	trait=calm
+	trait=brave
+	75.7.1={
+		birth=yes
+	}
+	135.7.1={
+		death=yes
+	}
+}
+
+##### 【雍明吉瑜】
+yong_ming_ji_yu={
+	name="uuii_book_yong_ming_ji_yu_name" #明吉瑜
+	dynasty_house="house_176040022001013"
+	father="yong_you"
+	culture="shan"
+	faith="theravada"
+	diplomacy="9"
+	martial="6"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_diplomacy_2
+	trait=tk_historical_character01
+	trait=cynical
+	trait=calm
+	trait=stubborn
+	100.7.1={
+		birth=yes
+	}
+	165.7.1={
+		death=yes
+	}
+}
+
+##### 【雍波道帕耶】
+yong_bo_dao_pa_ye={
+	name="uuii_book_yong_bo_dao_pa_ye_name" #波道帕耶
+	dynasty_house="house_176040022001013"
+	father="yong_ming_ji_yu"
+	culture="shan"
+	faith="theravada"
+	diplomacy="6"
+	martial="6"
+	stewardship="6"
+	intrigue="8"
+	learning="9"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_learning_2
+	trait=tk_historical_character01
+	trait=generous
+	trait=deceitful
+	trait=forgiving
+	135.7.1={
+		birth=yes
+	}
+	175.7.1={
+		death=yes
+	}
+}

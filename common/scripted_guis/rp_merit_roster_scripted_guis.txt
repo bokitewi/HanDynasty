@@ -1,0 +1,227 @@
+﻿rp_merit_roster_open_effect = {
+	scope = character
+
+	is_shown = {
+		is_ai = no
+		is_ruler = yes
+	}
+
+	effect = {
+		rp_rebuild_merit_roster_ui_list_effect = yes
+	}
+}
+
+rp_merit_roster_rebuild_effect = {
+	scope = character
+
+	effect = {
+		rp_rebuild_merit_roster_ui_list_effect = yes
+	}
+}
+
+rp_merit_roster_close_effect = {
+	scope = character
+
+	effect = {
+	}
+}
+
+rp_merit_roster_reward_event_effect = {
+	scope = character
+
+	is_valid = {
+		exists = scope:rp_merit_target
+		scope:rp_merit_target = {
+			rp_is_valid_merit_subject_trigger = { LIEGE = root }
+			has_variable = rp_merit_score
+			var:rp_merit_score >= 30
+		}
+	}
+
+	effect = {
+		scope:rp_merit_target = {
+			save_scope_as = rp_merit_reward_target
+			save_scope_as = rp_major_battle_petitioner
+		}
+		trigger_event = rp_merit.0250
+	}
+}
+
+rp_merit_roster_reward_gold_effect = {
+	scope = character
+
+	is_valid = {
+		gold >= 50
+		exists = scope:rp_merit_target
+		scope:rp_merit_target = {
+			rp_is_valid_merit_subject_trigger = { LIEGE = root }
+			has_variable = rp_merit_score
+			var:rp_merit_score >= 30
+		}
+	}
+
+	effect = {
+		remove_short_term_gold = 50
+		scope:rp_merit_target = {
+			add_gold = 50
+			add_opinion = {
+				target = root
+				modifier = rp_merit_reward_gold_opinion
+			}
+			rp_consume_merit_effect = { VALUE = 10 }
+			add_character_flag = {
+				flag = rp_defection_recently_rewarded
+				days = 30
+			}
+		}
+		rp_rebuild_merit_roster_ui_list_effect = yes
+	}
+}
+
+rp_merit_roster_reward_honor_effect = {
+	scope = character
+
+	is_valid = {
+		exists = scope:rp_merit_target
+		scope:rp_merit_target = {
+			rp_is_valid_merit_subject_trigger = { LIEGE = root }
+			has_variable = rp_merit_score
+			var:rp_merit_score >= 30
+			NOT = { has_trait = rp_merit_honor_1 }
+		}
+	}
+
+	effect = {
+		scope:rp_merit_target = {
+			add_trait = rp_merit_honor_1
+			add_character_modifier = {
+				modifier = rp_merit_honored_modifier
+				years = 10
+			}
+			add_opinion = {
+				target = root
+				modifier = rp_merit_reward_honor_opinion
+			}
+			rp_consume_merit_effect = { VALUE = 10 }
+			add_character_flag = {
+				flag = rp_defection_recently_rewarded
+				days = 30
+			}
+		}
+		rp_rebuild_merit_roster_ui_list_effect = yes
+	}
+}
+
+rp_merit_roster_reward_public_commission_effect = {
+	scope = character
+
+	is_valid = {
+		exists = scope:rp_merit_target
+		scope:rp_merit_target = {
+			rp_is_valid_merit_subject_trigger = { LIEGE = root }
+			has_variable = rp_merit_score
+			var:rp_merit_score >= 50
+			NOT = { has_character_modifier = rp_honor_public_commission_modifier }
+		}
+	}
+
+	effect = {
+		scope:rp_merit_target = {
+			add_prestige = 100
+			add_character_modifier = {
+				modifier = rp_honor_public_commission_modifier
+				years = 8
+			}
+			add_opinion = {
+				target = root
+				modifier = rp_merit_reward_honor_opinion
+			}
+			rp_consume_merit_effect = { VALUE = 15 }
+			add_character_flag = {
+				flag = rp_defection_recently_rewarded
+				days = 30
+			}
+		}
+		rp_rebuild_merit_roster_ui_list_effect = yes
+	}
+}
+
+rp_merit_roster_reward_banner_drums_effect = {
+	scope = character
+
+	is_valid = {
+		exists = scope:rp_merit_target
+		scope:rp_merit_target = {
+			rp_is_valid_merit_subject_trigger = { LIEGE = root }
+			has_variable = rp_merit_score
+			var:rp_merit_score >= 60
+			NOT = { has_character_modifier = rp_banner_drums_privilege_modifier }
+			OR = {
+				martial >= 12
+				prowess >= 14
+				has_trait = brave
+				has_trait = education_martial_3
+				has_trait = education_martial_4
+				has_trait = rp_retainer_warrior
+				has_trait = rp_retainer_strategist
+			}
+		}
+	}
+
+	effect = {
+		scope:rp_merit_target = {
+			add_prestige = 120
+			add_character_modifier = {
+				modifier = rp_banner_drums_privilege_modifier
+				years = 8
+			}
+			add_opinion = {
+				target = root
+				modifier = rp_merit_reward_honor_opinion
+			}
+			rp_consume_merit_effect = { VALUE = 18 }
+			add_character_flag = {
+				flag = rp_defection_recently_rewarded
+				days = 30
+			}
+		}
+		rp_rebuild_merit_roster_ui_list_effect = yes
+	}
+}
+
+rp_merit_roster_reward_trade_patent_effect = {
+	scope = character
+
+	is_valid = {
+		exists = scope:rp_merit_target
+		scope:rp_merit_target = {
+			rp_is_valid_merit_subject_trigger = { LIEGE = root }
+			has_variable = rp_merit_score
+			var:rp_merit_score >= 45
+			NOT = { has_character_modifier = rp_trade_patent_modifier }
+		}
+	}
+
+	effect = {
+		if = {
+			limit = { prestige >= 25 }
+			add_prestige = -25
+		}
+		scope:rp_merit_target = {
+			add_character_modifier = {
+				modifier = rp_trade_patent_modifier
+				years = 10
+			}
+			add_opinion = {
+				target = root
+				modifier = rp_merit_reward_honor_opinion
+			}
+			rp_consume_merit_effect = { VALUE = 12 }
+			add_character_flag = {
+				flag = rp_defection_recently_rewarded
+				days = 30
+			}
+		}
+		rp_rebuild_merit_roster_ui_list_effect = yes
+	}
+}

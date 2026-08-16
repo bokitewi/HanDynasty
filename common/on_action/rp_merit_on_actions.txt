@@ -1,0 +1,663 @@
+﻿on_combat_end_winner = {
+	on_actions = {
+		rp_on_combat_end_winner
+		rp_on_combat_end_winner_player_subject
+		rp_on_combat_end_winner_campaign_incidents
+		rp_on_combat_end_winner_ai_campaign_incidents
+	}
+}
+
+rp_on_combat_end_winner = {
+	trigger = {
+		exists = combat.combat_war
+		OR = {
+			combat.combat_war = {
+				primary_attacker = { rp_is_merit_activity_enabled_trigger = yes }
+			}
+			combat.combat_war = {
+				primary_defender = { rp_is_merit_activity_enabled_trigger = yes }
+			}
+		}
+	}
+	events = {
+		rp_merit.0001
+	}
+}
+
+rp_on_combat_end_winner_player_subject = {
+	trigger = {
+		exists = combat.combat_war
+		side_primary_participant = {
+			is_ai = yes
+			is_ruler = yes
+		}
+		OR = {
+			side_commander = { is_ai = no }
+			any_side_knight = { is_ai = no }
+		}
+	}
+	events = {
+		rp_merit.1300
+	}
+}
+
+rp_on_combat_end_winner_campaign_incidents = {
+	trigger = {
+		exists = combat.combat_war
+		OR = {
+			combat.combat_war = {
+				primary_attacker = { rp_is_merit_system_enabled_trigger = yes }
+			}
+			combat.combat_war = {
+				primary_defender = { rp_is_merit_system_enabled_trigger = yes }
+			}
+		}
+	}
+	events = {
+		rp_merit.2000
+	}
+}
+
+rp_on_combat_end_winner_ai_campaign_incidents = {
+	trigger = {
+		exists = combat.combat_war
+		side_primary_participant = {
+			rp_is_merit_activity_enabled_trigger = yes
+			is_ai = yes
+			NOT = { has_character_flag = rp_campaign_incident_cooldown }
+		}
+	}
+	effect = {
+		side_primary_participant = {
+			random = {
+				chance = 3
+				rp_mark_campaign_incident_cooldown_effect = { DAYS = 240 }
+				trigger_event = rp_merit_ai.0005
+			}
+		}
+	}
+}
+
+on_combat_end_loser = {
+	on_actions = {
+		rp_on_combat_end_loser
+		rp_on_combat_end_loser_player_subject
+		rp_on_combat_end_loser_campaign_incidents
+		rp_on_combat_end_loser_ai_campaign_incidents
+	}
+}
+
+rp_on_combat_end_loser = {
+	trigger = {
+		exists = combat.combat_war
+		OR = {
+			combat.combat_war = {
+				primary_attacker = { rp_is_merit_activity_enabled_trigger = yes }
+			}
+			combat.combat_war = {
+				primary_defender = { rp_is_merit_activity_enabled_trigger = yes }
+			}
+		}
+	}
+	events = {
+		rp_merit.0003
+	}
+}
+
+rp_on_combat_end_loser_player_subject = {
+	trigger = {
+		exists = combat.combat_war
+		side_primary_participant = {
+			is_ai = yes
+			is_ruler = yes
+		}
+		OR = {
+			side_commander = { is_ai = no }
+			any_side_knight = { is_ai = no }
+		}
+	}
+	events = {
+		rp_merit.1302
+	}
+}
+
+rp_on_combat_end_loser_campaign_incidents = {
+	trigger = {
+		exists = combat.combat_war
+		OR = {
+			combat.combat_war = {
+				primary_attacker = { rp_is_merit_system_enabled_trigger = yes }
+			}
+			combat.combat_war = {
+				primary_defender = { rp_is_merit_system_enabled_trigger = yes }
+			}
+		}
+	}
+	events = {
+		rp_merit.2001
+	}
+}
+
+rp_on_combat_end_loser_ai_campaign_incidents = {
+	trigger = {
+		exists = combat.combat_war
+		side_primary_participant = {
+			rp_is_merit_activity_enabled_trigger = yes
+			is_ai = yes
+			NOT = { has_character_flag = rp_campaign_incident_cooldown }
+		}
+	}
+	effect = {
+		side_primary_participant = {
+			random = {
+				chance = 2
+				rp_mark_campaign_incident_cooldown_effect = { DAYS = 240 }
+				trigger_event = rp_merit_ai.0005
+			}
+		}
+	}
+}
+on_siege_completion = {
+	on_actions = {
+		rp_on_siege_completion
+		rp_on_siege_completion_campaign_incidents
+		rp_on_siege_completion_ai_campaign_incidents
+		rp_hanxin_on_siege_completion
+	}
+}
+
+rp_on_siege_completion = {
+	trigger = {
+		exists = root
+		exists = scope:war
+		root = { is_ruler = yes }
+		OR = {
+			scope:war = {
+				primary_attacker = {
+					rp_is_merit_activity_enabled_trigger = yes
+					OR = {
+						this = root
+						this = root.top_liege
+					}
+				}
+			}
+			scope:war = {
+				primary_defender = {
+					rp_is_merit_activity_enabled_trigger = yes
+					OR = {
+						this = root
+						this = root.top_liege
+					}
+				}
+			}
+		}
+	}
+	events = {
+		rp_merit.0002
+	}
+}
+
+rp_on_siege_completion_campaign_incidents = {
+	trigger = {
+		exists = root
+		exists = scope:war
+		root = { is_ruler = yes }
+		OR = {
+			scope:war = {
+				primary_attacker = {
+					rp_is_merit_system_enabled_trigger = yes
+					OR = {
+						this = root
+						this = root.top_liege
+					}
+				}
+			}
+			scope:war = {
+				primary_defender = {
+					rp_is_merit_system_enabled_trigger = yes
+					OR = {
+						this = root
+						this = root.top_liege
+					}
+				}
+			}
+		}
+	}
+	events = {
+		rp_merit.2002
+	}
+}
+
+rp_on_siege_completion_ai_campaign_incidents = {
+	trigger = {
+		exists = root
+		exists = scope:war
+		root = {
+			rp_is_merit_activity_enabled_trigger = yes
+			is_ai = yes
+			NOT = { has_character_flag = rp_campaign_incident_cooldown }
+		}
+	}
+	effect = {
+		root = {
+			random = {
+				chance = 3
+				rp_mark_campaign_incident_cooldown_effect = { DAYS = 240 }
+				trigger_event = rp_merit_ai.0005
+			}
+		}
+	}
+}
+
+rp_hanxin_on_siege_completion = {
+	trigger = {
+		exists = root
+		exists = scope:war
+		exists = scope:county
+		root = {
+			OR = {
+				has_character_flag = rp_hanxin_rebel_leader
+				exists = var:rp_hanxin_rebel_leader
+			}
+		}
+	}
+	effect = {
+		root = { rp_hanxin_rebel_siege_conquest_effect = yes }
+	}
+}
+
+on_war_won_attacker = {
+	on_actions = {
+		rp_on_war_won_attacker
+	}
+}
+
+rp_on_war_won_attacker = {
+	trigger = {
+		exists = scope:attacker
+		scope:attacker = { rp_is_merit_activity_enabled_trigger = yes }
+	}
+	effect = {
+		scope:attacker = {
+			rp_war_end_service_merit_effect = yes
+			if = {
+				limit = {
+					is_ai = no
+					rp_has_rewardable_merit_subject_trigger = yes
+				}
+				set_variable = { name = rp_petition_chain_count value = 0 }
+				trigger_event = {
+					id = rp_merit.1000
+					days = 3
+				}
+			}
+		}
+	}
+}
+
+on_war_won_defender = {
+	on_actions = {
+		rp_on_war_won_defender
+	}
+}
+
+rp_on_war_won_defender = {
+	trigger = {
+		exists = scope:defender
+		scope:defender = { rp_is_merit_activity_enabled_trigger = yes }
+	}
+	effect = {
+		scope:defender = {
+			rp_war_end_service_merit_effect = yes
+			if = {
+				limit = {
+					is_ai = no
+					rp_has_rewardable_merit_subject_trigger = yes
+				}
+				set_variable = { name = rp_petition_chain_count value = 0 }
+				trigger_event = {
+					id = rp_merit.1000
+					days = 3
+				}
+			}
+		}
+	}
+}
+
+on_war_white_peace = {
+	on_actions = {
+		rp_on_war_white_peace
+	}
+}
+
+rp_on_war_white_peace = {
+	effect = {
+		scope:attacker = {
+			if = {
+				limit = { rp_is_merit_activity_enabled_trigger = yes }
+				rp_war_end_service_merit_effect = yes
+			}
+		}
+		scope:defender = {
+			if = {
+				limit = { rp_is_merit_activity_enabled_trigger = yes }
+				rp_war_end_service_merit_effect = yes
+			}
+		}
+	}
+}
+
+quarterly_playable_pulse = {
+	on_actions = {
+		rp_quarterly_merit_cleanup
+		rp_quarterly_campaign_incidents
+		rp_quarterly_war_service_merit
+		rp_quarterly_war_defection
+	}
+}
+
+yearly_playable_pulse = {
+	on_actions = {
+		rp_yearly_founding_followers
+		rp_yearly_founding_stories
+		rp_yearly_power_overshadow_story
+		rp_yearly_hanxin_ambition
+		rp_yearly_war_demand_event
+		rp_yearly_merit_atonement
+		rp_yearly_ai_retainer_recruitment
+		rp_yearly_ai_land_reward
+	}
+}
+
+rp_yearly_power_overshadow_story = {
+	trigger = {
+		root = {
+			rp_is_merit_system_enabled_trigger = yes
+			NOT = { has_character_flag = rp_power_story_start_cooldown }
+		}
+	}
+	effect = {
+		root = {
+			random = {
+				chance = 35
+				rp_try_start_power_overshadow_story_effect = yes
+			}
+		}
+	}
+}
+
+rp_yearly_ai_retainer_recruitment = {
+	trigger = {
+		root = {
+			rp_is_merit_activity_enabled_trigger = yes
+			is_ai = yes
+			NOT = { has_character_flag = rp_ai_yearly_activity_done }
+		}
+	}
+	effect = {
+		root = {
+			rp_mark_ai_yearly_activity_done_effect = yes
+			rp_ai_retainer_recruitment_effect = yes
+		}
+	}
+}
+
+rp_yearly_ai_land_reward = {
+	trigger = {
+		root = {
+			rp_is_merit_activity_enabled_trigger = yes
+			is_ai = yes
+			NOT = { has_character_flag = rp_ai_yearly_activity_done }
+			NOT = { has_character_flag = rp_ai_land_reward_cooldown }
+			rp_has_ai_merit_reward_candidate_trigger = yes
+		}
+	}
+	effect = {
+		root = {
+			rp_mark_ai_yearly_activity_done_effect = yes
+			random = {
+				chance = 10
+				trigger_event = rp_merit_ai.0006
+			}
+		}
+	}
+}
+
+rp_yearly_merit_atonement = {
+	trigger = {
+		root = {
+			rp_is_merit_activity_enabled_trigger = yes
+			NOT = { has_character_flag = rp_ai_yearly_activity_done }
+			rp_has_merit_atonement_candidate_trigger = yes
+		}
+	}
+	effect = {
+		root = {
+			if = {
+				limit = { is_ai = no }
+				random = {
+					chance = 20
+					trigger_event = {
+						id = rp_merit.1220
+						days = 3
+					}
+				}
+			}
+			else = {
+				rp_mark_ai_yearly_activity_done_effect = yes
+				random = {
+					chance = 20
+					trigger_event = rp_merit_ai.0007
+				}
+			}
+		}
+	}
+}
+
+rp_yearly_founding_followers = {
+	trigger = {
+		root = { rp_is_merit_activity_enabled_trigger = yes }
+	}
+	effect = {
+		root = { rp_yearly_founding_followers_effect = yes }
+	}
+}
+
+rp_yearly_founding_stories = {
+	trigger = {
+		root = {
+			rp_is_merit_activity_enabled_trigger = yes
+			NOT = { has_character_flag = rp_founding_story_cooldown }
+		}
+	}
+	effect = {
+		root = {
+			if = {
+				limit = { is_ai = no }
+				rp_founding_story_dispatch_effect = yes
+			}
+			else = {
+				add_character_flag = {
+					flag = rp_founding_story_cooldown
+					days = 720
+				}
+			}
+		}
+	}
+}
+
+rp_yearly_hanxin_ambition = {
+	trigger = {
+		root = {
+			rp_is_merit_activity_enabled_trigger = yes
+			NOT = { has_character_flag = rp_ai_yearly_activity_done }
+		}
+	}
+	effect = {
+		root = {
+			if = {
+				limit = { is_ai = no }
+				rp_hanxin_yearly_effect = yes
+			}
+			else = {
+				rp_mark_ai_yearly_activity_done_effect = yes
+				random = {
+					chance = 20
+					trigger_event = rp_merit_ai.0002
+				}
+			}
+		}
+	}
+}
+
+rp_yearly_war_demand_event = {
+	trigger = {
+		root = {
+			rp_can_fire_war_demand_event_trigger = yes
+			NOT = { has_character_flag = rp_ai_yearly_activity_done }
+		}
+	}
+	effect = {
+		root = {
+			if = {
+				limit = { is_ai = no }
+				random = {
+					chance = 20
+					trigger_event = rp_merit.2600
+				}
+			}
+			else = {
+				rp_mark_ai_yearly_activity_done_effect = yes
+				random = {
+					chance = 15
+					trigger_event = rp_merit_ai.0001
+				}
+			}
+		}
+	}
+}
+
+on_title_gain = {
+	on_actions = {
+		rp_on_title_gain_founding_followers
+	}
+}
+
+rp_on_title_gain_founding_followers = {
+	trigger = {
+		root = {
+			is_ruler = yes
+		}
+	}
+	effect = {
+		if = {
+			limit = {
+				root = {
+					rp_is_merit_activity_enabled_trigger = yes
+					highest_held_title_tier <= tier_duchy
+					NOT = { has_character_flag = rp_recorded_founding_followers }
+				}
+				scope:title.tier >= tier_duchy
+			}
+			root = { rp_record_founding_followers_effect = yes }
+		}
+		root = {
+			if = {
+				limit = {
+					has_character_flag = rp_founding_follower
+					scope:title.tier >= tier_county
+				}
+				rp_establish_founding_house_effect = yes
+			}
+		}
+	}
+}
+
+rp_quarterly_merit_cleanup = {
+	trigger = {
+		root = { rp_is_merit_activity_enabled_trigger = yes }
+	}
+	effect = {
+		root = { rp_cleanup_merit_roster_effect = yes }
+	}
+}
+
+rp_quarterly_campaign_incidents = {
+	trigger = {
+		root = {
+			rp_is_merit_system_enabled_trigger = yes
+			rp_can_fire_campaign_incident_trigger = yes
+		}
+	}
+	effect = {
+		root = {
+			trigger_event = rp_merit.2003
+		}
+	}
+}
+
+rp_quarterly_war_service_merit = {
+	trigger = {
+		root = {
+			rp_is_merit_activity_enabled_trigger = yes
+			is_at_war = yes
+		}
+	}
+	effect = {
+		root = { rp_half_year_war_service_merit_effect = yes }
+	}
+}
+
+rp_quarterly_war_defection = {
+	trigger = {
+		root = {
+			rp_is_merit_activity_enabled_trigger = yes
+			is_at_war = yes
+		}
+	}
+	effect = {
+		root = { rp_quarterly_war_defection_effect = yes }
+	}
+}
+
+on_death = {
+	on_actions = {
+		rp_on_death_clear_merit
+	}
+}
+
+rp_on_death_clear_merit = {
+	trigger = {
+		root = {
+			OR = {
+				has_variable = rp_merit_score
+				has_variable = rp_ai_merit_service_count
+				has_character_flag = rp_ai_merit_qualified
+				has_character_modifier = rp_danshu_tiequan_modifier
+			}
+		}
+	}
+	effect = {
+		root = {
+			rp_inherit_danshu_tiequan_effect = yes
+			rp_clear_merit_effect = yes
+		}
+	}
+}
+
+on_leave_court = {
+	on_actions = {
+		rp_on_leave_court_clear_merit
+	}
+}
+
+rp_on_leave_court_clear_merit = {
+	trigger = {
+		root = { has_variable = rp_merit_score }
+		exists = scope:old_employer
+		root = { var:rp_merit_owner ?= scope:old_employer }
+	}
+	effect = {
+		root = { rp_clear_merit_effect = yes }
+	}
+}

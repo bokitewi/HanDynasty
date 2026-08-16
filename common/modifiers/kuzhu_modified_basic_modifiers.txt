@@ -1,0 +1,26 @@
+﻿
+diplomacy_modifier = {
+	ai_amenity_target_baseline = 0.01
+	#苦竹修改：贤能值加入能力影响
+	monthly_merit = 0.1
+}
+
+stewardship_modifier = {
+	character_travel_speed = 1
+	monthly_barter_goods_mult = 0.01
+	#苦竹修改：贤能值加入能力影响
+	monthly_merit = 0.1
+}
+
+martial_modifier = {
+	character_travel_safety = 1
+	knight_limit = 0.2
+	#苦竹修改：贤能值加入能力影响
+	monthly_merit = 0.1
+}
+
+learning_modifier = {
+	monthly_piety = 0.1
+	#苦竹修改：贤能值加入能力影响
+	monthly_merit = 0.1
+}

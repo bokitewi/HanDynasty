@@ -1,0 +1,122 @@
+bm_uuii_184 = {
+	start_date = 184.1.1
+	is_playable = yes
+	group = uuii_bm_group_184
+	recommended = yes
+
+	weight = {
+		value = 100
+	}
+
+	#character = {
+	#	name = "uuii_book_liu_hong_3_name"
+	#	dynasty_house = house_111010250025013
+	#	dynasty_splendor_level = 1
+	#	type = male
+	#	birth = 156.7.1
+	#	title = e_han
+	#	government = celestial_government
+	#	culture = jizhou
+	#	religion = jingxue
+	#	difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+	#	history_id = liu_hong_3
+	#	position = { 500 500 }
+	#	animation = personality_dishonorable
+	#}
+
+	character = {
+		name = "uuii_book_cao_cao_name"
+		dynasty_house = uuii_book_house_51e4d4ade4f3
+		dynasty_splendor_level = 1
+		type = male
+		birth = 155.7.1
+		title = c_hd_nf_peiguo_cao
+		government = celestial_government
+		culture = yuzhou
+		religion = mahayana
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = cao_cao
+		position = { 500 400 }
+		animation = personality_rational
+	}
+
+	character = {
+		name = "uuii_book_yuan_shao_name"
+		dynasty_house = house_111010059004013
+		dynasty_splendor_level = 1
+		type = male
+		birth = 154.7.1
+		title = c_hd_nf_runan_yuan
+		government = celestial_government
+		culture = yuzhou
+		religion = jingxue
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = yuan_shao
+		position = { 100 520 }
+		animation = personality_greedy
+	}
+
+	#character = {
+	#	name = "uuii_book_dong_zhuo_2_name"
+	#	dynasty_house = house_111010125004013
+	#	dynasty_splendor_level = 1
+	#	type = male
+	#	birth = 139.7.1
+	#	title = d_anding
+	#	government = celestial_government
+	#	culture = liangzhou
+	#	religion = shamanism
+	#	difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+	#	history_id = dong_zhuo_2
+	#	position = { 100 100 }
+	#	animation = personality_dishonorable
+	#}
+
+	character = {
+		name = "uuii_book_liu_bei_name"
+		dynasty_house = house_111010250025033
+		dynasty_splendor_level = 1
+		type = male
+		birth = 161.7.1
+		title = c_hd_nf_famous_h_house_111010250025033
+		government = celestial_government
+		culture = youzhou
+		religion = jingxue
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = liu_bei
+		position = { 1100 200 }
+		animation = personality_honorable
+	}
+
+	character = {
+		name = "uuii_book_sun_jian_name"
+		dynasty_house = house_111010003004013
+		dynasty_splendor_level = 1
+		type = male
+		birth = 155.7.1
+		title = d_changsha_jiangzhou
+		government = celestial_government
+		culture = yangzhou
+		religion = jingxue
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = sun_jian
+		position = { 1350 650 }
+		animation = frontend_left_idle
+	}
+
+	character = {
+		name = "uuii_book_zhang_jiao_name"
+		dynasty_house = house_111010024005013
+		dynasty_splendor_level = 1
+		type = male
+		birth = 132.7.1
+		title = d_hd_yellow_turbans
+		government = landless_adventurer_government
+		culture = jizhou
+		religion = taipingdao
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = zhang_jiao
+		position = { 800 500 }
+		animation = prayer
+	}
+}

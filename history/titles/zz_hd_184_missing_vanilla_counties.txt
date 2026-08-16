@@ -1,0 +1,44 @@
+# Generic first-pass holders for vanilla counties that have a map province but
+# no 184.1.1 title-history event after the total-conversion history replacement.
+
+c_chezier = {
+	184.1.1 = {
+		holder = hd_fallback_holder_c_chezier
+		government = tribal_government
+	}
+}
+
+c_eastjuyan = {
+	184.1.1 = {
+		holder = hd_fallback_holder_c_eastjuyan
+		government = tribal_government
+	}
+}
+
+c_fuqi = {
+	184.1.1 = {
+		holder = hd_fallback_holder_c_fuqi
+		government = tribal_government
+	}
+}
+
+c_gerqen = {
+	184.1.1 = {
+		holder = hd_fallback_holder_c_gerqen
+		government = tribal_government
+	}
+}
+
+c_xining = {
+	184.1.1 = {
+		holder = hd_fallback_holder_c_xining
+		government = tribal_government
+	}
+}
+
+c_xiningzhou = {
+	184.1.1 = {
+		holder = hd_fallback_holder_c_xiningzhou
+		government = celestial_government
+	}
+}

@@ -1,0 +1,249 @@
+﻿# Generated from 華陽國志、三國志、三國演義、後漢書 and 漢晉春秋.
+# Culture: fuyu
+# Time partition: 180_200 (death >= 180 and birth <= 200).
+# No title history is assigned. Dates marked in the evidence audit may be estimates.
+
+##### 【乙支莫离】
+yi_zhi_mo_li={
+	name="uuii_book_yi_zhi_mo_li_name" #支莫离
+	dynasty_house="house_123040037001013"
+	culture="fuyu"
+	faith="shamanism"
+	diplomacy="6"
+	martial="6"
+	stewardship="5"
+	intrigue="9"
+	learning="5"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_intrigue_2
+	trait=tk_historical_character01
+	trait=impatient
+	trait=calm
+	trait=arbitrary
+	155.7.1={
+		birth=yes
+	}
+	216.7.1={
+		death=yes
+	}
+}
+
+##### 【解尉仇台】
+jie_wei_chou_tai={
+	name="uuii_book_jie_wei_chou_tai_name" #尉仇台
+	dynasty_house="house_123040049001013"
+	culture="fuyu"
+	faith="shamanism"
+	diplomacy="6"
+	martial="6"
+	stewardship="9"
+	intrigue="8"
+	learning="6"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_2
+	trait=tk_historical_character01
+	trait=trusting
+	trait=zealous
+	trait=calm
+	110.7.1={
+		birth=yes
+	}
+	191.7.1={
+		death=yes
+	}
+}
+
+##### 【解简位居】
+jie_jian_wei_ju={
+	name="uuii_book_jie_jian_wei_ju_name" #简位居
+	dynasty_house="house_123040049001013"
+	father="jie_wei_chou_tai"
+	culture="fuyu"
+	faith="shamanism"
+	diplomacy="8"
+	martial="8"
+	stewardship="4"
+	intrigue="7"
+	learning="5"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_diplomacy_2
+	trait=tk_historical_character01
+	trait=shy
+	trait=generous
+	trait=cynical
+	148.7.1={
+		birth=yes
+	}
+	238.7.1={
+		death=yes
+	}
+}
+
+##### 【南沸扬】
+nan_fei_yang={
+	name="uuii_book_nan_fei_yang_name" #沸扬
+	dynasty_house="house_123040051001013"
+	culture="fuyu"
+	faith="shamanism"
+	diplomacy="6"
+	martial="6"
+	stewardship="5"
+	intrigue="9"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_intrigue_2
+	trait=tk_fictional_character02
+	trait=callous
+	trait=humble
+	trait=patient
+	150.7.1={
+		birth=yes
+	}
+	213.7.1={
+		death=yes
+	}
+}
+
+##### 【多拉尔海青东】
+duo_la_er_hai_qing_dong={
+	name="uuii_book_duo_la_er_hai_qing_dong_name" #拉尔海青东
+	dynasty_house="house_123040052001013"
+	culture="fuyu"
+	faith="shamanism"
+	diplomacy="7"
+	martial="7"
+	stewardship="5"
+	intrigue="5"
+	learning="7"
+	prowess="9"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_martial_2
+	trait=tk_fictional_character02
+	trait=wrathful
+	trait=honest
+	trait=vengeful
+	150.7.1={
+		birth=yes
+	}
+	213.7.1={
+		death=yes
+	}
+}
+
+##### 【涂克东博尔本察】
+tu_ke_dong_bo_er_ben_cha={
+	name="uuii_book_tu_ke_dong_bo_er_ben_cha_name" #克东博尔本察
+	dynasty_house="house_123040054001013"
+	culture="fuyu"
+	faith="shamanism"
+	diplomacy="7"
+	martial="5"
+	stewardship="6"
+	intrigue="7"
+	learning="9"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_learning_2
+	trait=tk_fictional_character02
+	trait=zealous
+	trait=calm
+	trait=stubborn
+	150.7.1={
+		birth=yes
+	}
+	213.7.1={
+		death=yes
+	}
+}
+
+##### 【段颎】
+duan_jiong={
+	name="uuii_book_duan_jiong_name" #颎
+	dynasty_house="uuii_book_house_7b1a2cb87b2e"
+	culture="fuyu"
+	faith="shamanism"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_martial_4
+	trait=tk_historical_character01
+	trait=brave
+	trait=diligent
+	trait=honest
+	158.7.1={
+		birth=yes
+	}
+	223.7.1={
+		death=yes
+	}
+}
+
+##### 【皇甫规】
+huang_fu_gui={
+	name="uuii_book_huang_fu_gui_name" #规
+	dynasty_house="uuii_book_house_6d8430734774"
+	father="huang_fu_qi"
+	culture="fuyu"
+	faith="shamanism"
+	diplomacy="5"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_martial_4
+	trait=tk_historical_character01
+	trait=brave
+	trait=honest
+	trait=ambitious
+	129.7.1={
+		birth=yes
+	}
+	194.7.1={
+		death=yes
+	}
+}
+
+##### 【公孙域】
+gong_sun_yu_2={
+	name="uuii_book_gong_sun_yu_2_name" #域
+	dynasty_house="uuii_book_house_0523f709b08b"
+	culture="fuyu"
+	faith="shamanism"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="6"
+	learning="6"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_martial_4
+	trait=tk_historical_character01
+	trait=paranoid
+	trait=generous
+	trait=stubborn
+	137.7.1={
+		birth=yes
+	}
+	202.7.1={
+		death=yes
+	}
+}

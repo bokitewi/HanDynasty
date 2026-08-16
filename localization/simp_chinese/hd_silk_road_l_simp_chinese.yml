@@ -1,0 +1,72 @@
+﻿l_simp_chinese:
+ # 汉帝国下辖的十五个有领土王国区域
+ uuii_han_yuzhou_region:0 "豫州区域"
+ uuii_han_xuzhou_region:0 "徐州区域"
+ uuii_han_yanzhou_region:0 "兖州区域"
+ uuii_han_qingzhou_region:0 "青州区域"
+ uuii_han_jizhou_region:0 "冀州区域"
+ uuii_han_youzhou_region:0 "幽州区域"
+ uuii_han_bingzhou_region:0 "并州区域"
+ uuii_han_sili_region:0 "司隶区域"
+ uuii_han_liangzhou_region:0 "凉州区域"
+ uuii_han_yizhou_region:0 "益州区域"
+ uuii_han_jingzhou_region:0 "荆州区域"
+ uuii_han_yangzhou_region:0 "扬州区域"
+ uuii_han_guangzhou_region:0 "广州区域"
+ uuii_han_jiaozhou_region:0 "交州区域"
+ uuii_han_ningzhou_region:0 "宁州区域"
+
+ # 四个有领土帝国区域
+ uuii_empire_han_region:0 "汉帝国区域"
+ uuii_empire_xiyu_region:0 "西域帝国区域"
+ uuii_empire_chaoxian_region:0 "朝鲜帝国区域"
+ uuii_empire_fusang_region:0 "扶桑帝国区域"
+
+ # 丝绸之路地理区域
+ uuii_silk_road_subregion_eastern:0 "丝绸之路东段"
+ uuii_silk_road_subregion_middle_north:0 "丝绸之路中段北道"
+ uuii_silk_road_subregion_middle_south:0 "丝绸之路中段南道"
+ uuii_silk_road_subregion_western:0 "丝绸之路西段"
+ uuii_silk_road_route_eastern:0 "丝绸之路东段路线"
+ uuii_silk_road_route_middle_north:0 "丝绸之路中段北道路线"
+ uuii_silk_road_route_middle_south:0 "丝绸之路中段南道路线"
+ uuii_silk_road_route_western:0 "丝绸之路西段路线"
+
+ # 四个实际局势子区域
+ silk_road_situation_sub_region_region_silk_road_eastern_section:0 "东段"
+ silk_road_situation_sub_region_region_silk_road_eastern_section_desc:0 "$SITUATION_SUB_REGION_TOOLTIP_DESC$\n\n#weak 商旅由长安出发，经河西走廊的武威、张掖、酒泉与敦煌，最终从玉门关或阳关进入西域。丝绸、马匹和新知在这条走廊上持续流动。#!"
+ silk_road_situation_sub_region_region_silk_road_middle_northern_route:0 "中段北道"
+ silk_road_situation_sub_region_region_silk_road_middle_northern_route_desc:0 "$SITUATION_SUB_REGION_TOOLTIP_DESC$\n\n#weak 北道从楼兰起行，沿塔里木盆地北缘穿越尉犁、乌垒、轮台、龟兹与姑墨，向疏勒汇合。#!"
+ silk_road_situation_sub_region_region_silk_road_middle_southern_route:0 "中段南道"
+ silk_road_situation_sub_region_region_silk_road_middle_southern_route_desc:0 "$SITUATION_SUB_REGION_TOOLTIP_DESC$\n\n#weak 南道自楼兰向西南延伸，经且末、精绝、扞弥、于阗、皮山与莎车，最终抵达疏勒。#!"
+ silk_road_situation_sub_region_region_silk_road_western_section:0 "西段"
+ silk_road_situation_sub_region_region_silk_road_western_section_desc:0 "$SITUATION_SUB_REGION_TOOLTIP_DESC$\n\n#weak 北、南两道在疏勒汇流后越过葱岭，商队由此进入大宛的绿洲与市镇。#!"
+
+ # 四座可访问市场
+ visit_silk_road_market_decision_loulan:0 "$building_uuii_loulan_market_01$ #weak （[GetSituation('silk_road_situation').GetSubRegionByKey('region_silk_road_middle_northern_route').MakeScope.Var('innovation').CultureInnovationType.GetName]）#!"
+ visit_silk_road_market_decision_khotan:0 "$building_uuii_khotan_market_01$ #weak （[GetSituation('silk_road_situation').GetSubRegionByKey('region_silk_road_middle_southern_route').MakeScope.Var('innovation').CultureInnovationType.GetName]）#!"
+ visit_silk_road_market_decision_dayuan:0 "$building_uuii_dayuan_market_01$ #weak （[GetSituation('silk_road_situation').GetSubRegionByKey('region_silk_road_western_section').MakeScope.Var('innovation').CultureInnovationType.GetName]）#!"
+
+ building_type_uuii_loulan_market_01:0 "$building_uuii_loulan_market_01$"
+ building_type_uuii_loulan_market_01_desc:0 "$building_uuii_loulan_market_01_desc$"
+ building_uuii_loulan_market_01:0 "楼兰市集"
+ building_uuii_loulan_market_01_desc:0 "楼兰扼守罗布泊西北的交通要冲。来自河西的驼队在此整备，并分别踏上塔里木盆地的北道与南道。"
+ building_uuii_loulan_market_02:0 "繁盛的楼兰市集"
+ building_uuii_loulan_market_02_desc:0 "东西商旅在楼兰城外绵延不绝，货栈、驿舍和水井围绕市集扩展成一片繁华商区。"
+ building_uuii_loulan_market_01_destination_desc:0 "[GetBuilding('uuii_loulan_market_01').GetName]汇集了准备走北道或南道的商队，驼铃、议价声与多种语言昼夜不息。"
+
+ building_type_uuii_khotan_market_01:0 "$building_uuii_khotan_market_01$"
+ building_type_uuii_khotan_market_01_desc:0 "$building_uuii_khotan_market_01_desc$"
+ building_uuii_khotan_market_01:0 "于阗市集"
+ building_uuii_khotan_market_01_desc:0 "于阗的绿洲因玉石、丝绸与南道贸易而闻名。来自昆仑山麓和远方诸国的商贾在此交换货物与见闻。"
+ building_uuii_khotan_market_02:0 "繁盛的于阗市集"
+ building_uuii_khotan_market_02_desc:0 "扩建后的于阗市集横跨数条街巷，玉石作坊、货栈和旅舍日夜迎接穿越沙漠的客商。"
+ building_uuii_khotan_market_01_destination_desc:0 "[GetBuilding('uuii_khotan_market_01').GetName]陈列着昆仑玉、丝织品与异域香料，是中段南道最耀眼的商贸中心。"
+
+ building_type_uuii_dayuan_market_01:0 "$building_uuii_dayuan_market_01$"
+ building_type_uuii_dayuan_market_01_desc:0 "$building_uuii_dayuan_market_01_desc$"
+ building_uuii_dayuan_market_01:0 "大宛市集"
+ building_uuii_dayuan_market_01_desc:0 "越过葱岭的商队在大宛重新集结。良马、金属器、葡萄酒和来自东方的丝绸在绿洲市镇中易手。"
+ building_uuii_dayuan_market_02:0 "繁盛的大宛市集"
+ building_uuii_dayuan_market_02_desc:0 "大宛市集已成为西段商路的繁华终点，宽阔货场上停满驮队，马商与远行客在此谈定下一段旅程。"
+ building_uuii_dayuan_market_01_destination_desc:0 "[GetBuilding('uuii_dayuan_market_01').GetName]以良马和跨越葱岭的远途贸易著称，东方与中亚的货物在此交汇。"

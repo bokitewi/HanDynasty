@@ -1,0 +1,566 @@
+﻿namespace = rp_hanxin
+
+rp_hanxin.0005 = {
+	type = character_event
+	title = rp_hanxin.0005.t
+	theme = intrigue
+	override_background = { reference = tgp_study_asia }
+	override_icon = { reference = "gfx/interface/icons/event_types/type_intrigue.dds" }
+	override_icon = { reference = "gfx/interface/icons/event_types/type_intrigue.dds" }
+	desc = rp_hanxin.0005.desc
+	right_portrait = scope:rp_hanxin_actor
+
+	trigger = {
+		exists = scope:rp_hanxin_actor
+		scope:rp_hanxin_actor = {
+			NOT = { has_character_flag = rp_hanxin_recent_rumor }
+			has_variable = hanxin_ambition
+			var:hanxin_ambition >= 40
+		}
+	}
+
+	immediate = {
+		scope:rp_hanxin_actor = {
+			add_character_flag = { flag = rp_hanxin_recent_rumor days = 1095 }
+		}
+	}
+
+	option = {
+		name = rp_hanxin.0005.a
+		scope:rp_hanxin_actor = {
+			change_variable = { name = hanxin_ambition add = -10 }
+			if = {
+				limit = { var:hanxin_ambition < 20 }
+				set_variable = { name = hanxin_ambition value = 20 }
+			}
+			add_character_modifier = { modifier = rp_power_under_suspicion_modifier years = 3 }
+			add_opinion = { target = root modifier = rp_merit_legal_rebuff_opinion }
+		}
+	}
+
+	option = {
+		name = rp_hanxin.0005.b
+		trigger = {
+			scope:rp_hanxin_actor = {
+				OR = {
+					rp_hanxin_child_ward_with_liege_trigger = { LIEGE = root }
+					rp_hanxin_close_family_at_liege_court_trigger = { LIEGE = root }
+				}
+			}
+		}
+		scope:rp_hanxin_actor = {
+			change_variable = { name = hanxin_ambition add = -15 }
+			if = {
+				limit = { var:hanxin_ambition < 20 }
+				set_variable = { name = hanxin_ambition value = 20 }
+			}
+			add_opinion = { target = root modifier = rp_merit_persuaded_opinion }
+		}
+	}
+
+	option = {
+		name = rp_hanxin.0005.c
+		scope:rp_hanxin_actor = {
+			rp_hanxin_add_ambition_effect = { LIEGE = root VALUE = 5 }
+		}
+	}
+
+	option = {
+		name = rp_hanxin.0005.d
+		trigger = {
+			gold >= 25
+			OR = {
+				rp_has_gentle_disposition_trigger = yes
+				scope:rp_hanxin_actor = {
+					rp_has_gentle_disposition_trigger = yes
+				}
+			}
+		}
+		remove_short_term_gold = 25
+		scope:rp_hanxin_actor = {
+			add_opinion = { target = root modifier = rp_merit_reward_honor_opinion }
+			add_character_modifier = { modifier = rp_merit_honored_modifier years = 3 }
+			rp_hanxin_add_ambition_effect = { LIEGE = root VALUE = -15 }
+		}
+	}
+
+	option = {
+		name = rp_hanxin.0005.e
+		trigger = {
+			OR = {
+				rp_has_cunning_disposition_trigger = yes
+				scope:rp_hanxin_actor = {
+					rp_has_cunning_disposition_trigger = yes
+				}
+			}
+		}
+		scope:rp_hanxin_actor = {
+			add_character_modifier = { modifier = rp_power_under_suspicion_modifier years = 3 }
+			random_list = {
+				70 = { rp_hanxin_add_ambition_effect = { LIEGE = root VALUE = -5 } }
+				30 = { rp_hanxin_add_ambition_effect = { LIEGE = root VALUE = 10 } }
+			}
+		}
+		add_prestige = 15
+	}
+
+	option = {
+		name = rp_hanxin.0005.f
+		trigger = {
+			rp_has_forceful_disposition_trigger = yes
+		}
+		add_dread = 10
+		scope:rp_hanxin_actor = {
+			add_opinion = { target = root modifier = rp_merit_refused_harsh_opinion }
+			random_list = {
+				60 = { rp_hanxin_add_ambition_effect = { LIEGE = root VALUE = -20 } }
+				40 = { rp_hanxin_add_ambition_effect = { LIEGE = root VALUE = 15 } }
+			}
+		}
+	}
+}
+
+rp_hanxin.0010 = {
+	type = character_event
+	title = rp_hanxin.0010.t
+	theme = diplomacy
+	override_background = { reference = tgp_chinese_corridor_day }
+	override_icon = { reference = "gfx/interface/icons/event_types/type_diplomacy.dds" }
+	override_icon = { reference = "gfx/interface/icons/event_types/type_internal_affairs.dds" }
+	desc = rp_hanxin.0010.desc
+	right_portrait = scope:rp_hanxin_actor
+
+	trigger = { exists = scope:rp_hanxin_actor }
+
+	immediate = {
+		scope:rp_hanxin_actor = {
+			add_character_flag = { flag = rp_hanxin_recent_event days = 730 }
+		}
+	}
+
+	option = {
+		name = rp_hanxin.0010.a
+		add_prestige = 75
+		scope:rp_hanxin_actor = {
+			add_opinion = { target = root modifier = rp_merit_reward_honor_opinion }
+			set_variable = { name = rp_hanxin_phase value = 2 }
+			rp_hanxin_add_ambition_effect = { LIEGE = root VALUE = 10 }
+		}
+	}
+
+	option = {
+		name = rp_hanxin.0010.b
+		remove_short_term_gold = 75
+		scope:rp_hanxin_actor = {
+			add_opinion = { target = root modifier = rp_merit_reward_gold_opinion }
+			set_variable = { name = rp_hanxin_phase value = 2 }
+			rp_hanxin_add_ambition_effect = { LIEGE = root VALUE = 5 }
+		}
+	}
+
+	option = {
+		name = rp_hanxin.0010.c
+		add_prestige = -50
+		scope:rp_hanxin_actor = {
+			add_opinion = { target = root modifier = rp_merit_refused_harsh_opinion }
+			set_variable = { name = rp_hanxin_phase value = 2 }
+			rp_hanxin_add_ambition_effect = { LIEGE = root VALUE = 20 }
+		}
+	}
+
+	option = {
+		name = rp_hanxin.0010.d
+		random_list = {
+			60 = {
+				scope:rp_hanxin_actor = {
+					add_character_flag = { flag = rp_hanxin_ambition_suppressed days = 3650 }
+					if = {
+						limit = { is_imprisoned = no }
+						root = {
+							imprison = {
+								target = scope:rp_hanxin_actor
+								type = house_arrest
+							}
+						}
+					}
+				}
+				add_dread = 15
+				rp_clear_hanxin_ambition_chain_effect = yes
+			}
+			40 = {
+				scope:rp_hanxin_actor = {
+					add_character_modifier = { modifier = rp_power_rebel_pressure_modifier years = 5 }
+					set_variable = { name = rp_hanxin_phase value = 3 }
+					rp_hanxin_add_ambition_effect = { LIEGE = root VALUE = 25 }
+				}
+			}
+		}
+	}
+
+	option = {
+		name = rp_hanxin.0010.e
+		trigger = {
+			gold >= 50
+			rp_has_gentle_disposition_trigger = yes
+		}
+		remove_short_term_gold = 50
+		add_prestige = 50
+		scope:rp_hanxin_actor = {
+			add_opinion = { target = root modifier = rp_merit_reward_gold_opinion }
+			rp_hanxin_add_ambition_effect = { LIEGE = root VALUE = -15 }
+		}
+	}
+
+	option = {
+		name = rp_hanxin.0010.f
+		trigger = {
+			rp_has_cunning_disposition_trigger = yes
+		}
+		scope:rp_hanxin_actor = {
+			add_character_modifier = { modifier = rp_power_under_suspicion_modifier years = 3 }
+			add_opinion = { target = root modifier = rp_merit_legal_rebuff_opinion }
+			random_list = {
+				65 = { rp_hanxin_add_ambition_effect = { LIEGE = root VALUE = -5 } }
+				35 = { rp_hanxin_add_ambition_effect = { LIEGE = root VALUE = 10 } }
+			}
+		}
+	}
+}
+
+rp_hanxin.0020 = {
+	type = character_event
+	title = rp_hanxin.0020.t
+	theme = stewardship
+	override_background = { reference = tgp_chinese_corridor_day }
+	override_icon = { reference = "gfx/interface/icons/event_types/type_stewardship.dds" }
+	override_icon = { reference = "gfx/interface/icons/event_types/type_domain.dds" }
+	desc = rp_hanxin.0020.desc
+	right_portrait = scope:rp_hanxin_actor
+
+	trigger = { exists = scope:rp_hanxin_actor }
+
+	immediate = {
+		scope:rp_hanxin_actor = {
+			add_character_flag = { flag = rp_hanxin_recent_event days = 730 }
+		}
+	}
+
+	option = {
+		name = rp_hanxin.0020.a
+		remove_short_term_gold = 100
+		scope:rp_hanxin_actor = {
+			add_opinion = { target = root modifier = rp_privilege_granted_opinion }
+			set_variable = { name = rp_hanxin_phase value = 3 }
+			rp_hanxin_add_ambition_effect = { LIEGE = root VALUE = 15 }
+		}
+	}
+
+	option = {
+		name = rp_hanxin.0020.b
+		add_prestige = 50
+		scope:rp_hanxin_actor = {
+			add_opinion = { target = root modifier = rp_merit_persuaded_opinion }
+			set_variable = { name = rp_hanxin_phase value = 3 }
+			rp_hanxin_add_ambition_effect = { LIEGE = root VALUE = 10 }
+		}
+	}
+
+	option = {
+		name = rp_hanxin.0020.c
+		scope:rp_hanxin_actor = {
+			add_opinion = { target = root modifier = rp_privilege_refused_opinion }
+			set_variable = { name = rp_hanxin_phase value = 3 }
+			rp_hanxin_add_ambition_effect = { LIEGE = root VALUE = 25 }
+		}
+	}
+
+	option = {
+		name = rp_hanxin.0020.d
+		random_list = {
+			50 = {
+				scope:rp_hanxin_actor = {
+					add_character_flag = { flag = rp_hanxin_ambition_suppressed days = 3650 }
+					if = {
+						limit = { is_imprisoned = no }
+						root = {
+							imprison = {
+								target = scope:rp_hanxin_actor
+								type = house_arrest
+							}
+						}
+					}
+				}
+				add_dread = 20
+				rp_clear_hanxin_ambition_chain_effect = yes
+			}
+			50 = {
+				scope:rp_hanxin_actor = {
+					add_character_modifier = { modifier = rp_power_rebel_pressure_modifier years = 8 }
+					set_variable = { name = rp_hanxin_phase value = 4 }
+					rp_hanxin_add_ambition_effect = { LIEGE = root VALUE = 30 }
+				}
+			}
+		}
+	}
+
+	option = {
+		name = rp_hanxin.0020.e
+		trigger = {
+			gold >= 50
+			scope:rp_hanxin_actor = {
+				OR = {
+					rp_hanxin_child_ward_with_liege_trigger = { LIEGE = root }
+					rp_hanxin_close_family_at_liege_court_trigger = { LIEGE = root }
+				}
+			}
+		}
+		remove_short_term_gold = 50
+		scope:rp_hanxin_actor = {
+			add_opinion = { target = root modifier = rp_privilege_granted_opinion }
+			rp_hanxin_add_ambition_effect = { LIEGE = root VALUE = -20 }
+		}
+	}
+
+	option = {
+		name = rp_hanxin.0020.f
+		trigger = {
+			rp_has_forceful_disposition_trigger = yes
+		}
+		add_dread = 15
+		scope:rp_hanxin_actor = {
+			add_character_modifier = { modifier = rp_power_under_suspicion_modifier years = 5 }
+			add_opinion = { target = root modifier = rp_merit_refused_harsh_opinion }
+			rp_hanxin_add_ambition_effect = { LIEGE = root VALUE = 15 }
+		}
+	}
+}
+
+rp_hanxin.0030 = {
+	type = character_event
+	title = rp_hanxin.0030.t
+	theme = martial
+	override_background = { reference = tgp_camp_asia }
+	override_icon = { reference = "gfx/interface/icons/event_types/type_war.dds" }
+	override_icon = { reference = "gfx/interface/icons/event_types/type_war.dds" }
+	desc = rp_hanxin.0030.desc
+	right_portrait = scope:rp_hanxin_actor
+
+	trigger = { exists = scope:rp_hanxin_actor }
+
+	immediate = {
+		scope:rp_hanxin_actor = {
+			add_character_flag = { flag = rp_hanxin_recent_event days = 730 }
+		}
+	}
+
+	option = {
+		name = rp_hanxin.0030.a
+		add_prestige = 100
+		scope:rp_hanxin_actor = {
+			add_opinion = { target = root modifier = rp_merit_reward_honor_opinion }
+			set_variable = { name = rp_hanxin_phase value = 4 }
+			rp_hanxin_add_ambition_effect = { LIEGE = root VALUE = 20 }
+		}
+	}
+
+	option = {
+		name = rp_hanxin.0030.b
+		scope:rp_hanxin_actor = {
+			add_opinion = { target = root modifier = rp_merit_refused_humble_opinion }
+			set_variable = { name = rp_hanxin_phase value = 4 }
+			rp_hanxin_add_ambition_effect = { LIEGE = root VALUE = 25 }
+		}
+	}
+
+	option = {
+		name = rp_hanxin.0030.c
+		scope:rp_hanxin_actor = {
+			add_character_modifier = { modifier = rp_power_under_suspicion_modifier years = 5 }
+			set_variable = { name = rp_hanxin_phase value = 4 }
+			rp_hanxin_add_ambition_effect = { LIEGE = root VALUE = 15 }
+		}
+		add_dread = 10
+	}
+}
+
+rp_hanxin.0040 = {
+	type = character_event
+	title = rp_hanxin.0040.t
+	theme = intrigue
+	override_background = { reference = tgp_study_asia }
+	override_icon = { reference = "gfx/interface/icons/event_types/type_intrigue.dds" }
+	override_icon = { reference = "gfx/interface/icons/event_types/type_intrigue.dds" }
+	desc = rp_hanxin.0040.desc
+	right_portrait = scope:rp_hanxin_actor
+
+	trigger = { exists = scope:rp_hanxin_actor }
+
+	immediate = {
+		scope:rp_hanxin_actor = {
+			add_character_flag = { flag = rp_hanxin_recent_event days = 730 }
+		}
+	}
+
+	option = {
+		name = rp_hanxin.0040.a
+		scope:rp_hanxin_actor = {
+			rp_hanxin_add_ambition_effect = { LIEGE = root VALUE = 15 }
+		}
+	}
+
+	option = {
+		name = rp_hanxin.0040.b
+		add_dread = 15
+		scope:rp_hanxin_actor = {
+			add_character_modifier = { modifier = rp_power_under_suspicion_modifier years = 5 }
+			rp_hanxin_add_ambition_effect = { LIEGE = root VALUE = 10 }
+		}
+	}
+
+	option = {
+		name = rp_hanxin.0040.c
+		random_list = {
+			35 = {
+				scope:rp_hanxin_actor = {
+					add_character_flag = { flag = rp_hanxin_ambition_suppressed days = 3650 }
+					if = {
+						limit = { is_imprisoned = no }
+						root = {
+							imprison = {
+								target = scope:rp_hanxin_actor
+								type = house_arrest
+							}
+						}
+					}
+				}
+				add_dread = 25
+				rp_clear_hanxin_ambition_chain_effect = yes
+			}
+			65 = {
+				scope:rp_hanxin_actor = {
+					rp_hanxin_add_ambition_effect = { LIEGE = root VALUE = 35 }
+				}
+			}
+		}
+	}
+
+	option = {
+		name = rp_hanxin.0040.d
+		trigger = {
+			scope:rp_hanxin_actor = {
+				OR = {
+					rp_hanxin_child_ward_with_liege_trigger = { LIEGE = root }
+					rp_hanxin_close_family_at_liege_court_trigger = { LIEGE = root }
+				}
+			}
+		}
+		scope:rp_hanxin_actor = {
+			add_opinion = { target = root modifier = rp_merit_persuaded_opinion }
+			rp_hanxin_add_ambition_effect = { LIEGE = root VALUE = -20 }
+		}
+	}
+
+	option = {
+		name = rp_hanxin.0040.e
+		trigger = {
+			rp_has_forceful_disposition_trigger = yes
+		}
+		add_dread = 20
+		scope:rp_hanxin_actor = {
+			add_character_modifier = { modifier = rp_power_under_suspicion_modifier years = 5 }
+			add_opinion = { target = root modifier = rp_merit_refused_harsh_opinion }
+			rp_hanxin_add_ambition_effect = { LIEGE = root VALUE = 10 }
+		}
+	}
+}
+
+rp_hanxin.0100 = {
+	type = character_event
+	hidden = yes
+
+	immediate = {
+		if = {
+			limit = { exists = var:rp_hanxin_ambition_target }
+			var:rp_hanxin_ambition_target = { save_scope_as = rp_hanxin_actor }
+		}
+		if = {
+			limit = {
+				exists = scope:rp_hanxin_actor
+				scope:rp_hanxin_actor = {
+					rp_hanxin_ambition_actor_valid_trigger = { LIEGE = root }
+				}
+			}
+			random_list = {
+				35 = { trigger_event = rp_hanxin.0110 }
+				45 = { trigger_event = rp_hanxin.0120 }
+				20 = { trigger_event = rp_hanxin.0130 }
+			}
+		}
+		else = {
+			rp_clear_hanxin_ambition_chain_effect = yes
+		}
+	}
+}
+
+rp_hanxin.0110 = {
+	type = character_event
+	title = rp_hanxin.0110.t
+	theme = diplomacy
+	override_background = { reference = tgp_chinese_corridor_day }
+	override_icon = { reference = "gfx/interface/icons/event_types/type_diplomacy.dds" }
+	override_icon = { reference = "gfx/interface/icons/event_types/type_diplomacy.dds" }
+	desc = rp_hanxin.0110.desc
+	right_portrait = scope:rp_hanxin_actor
+
+	trigger = { exists = scope:rp_hanxin_actor }
+
+	immediate = {
+		rp_hanxin_grant_independence_effect = yes
+	}
+
+	option = {
+		name = rp_hanxin.0110.a
+	}
+}
+
+rp_hanxin.0120 = {
+	type = character_event
+	title = rp_hanxin.0120.t
+	theme = martial
+	override_background = { reference = tgp_camp_asia }
+	override_icon = { reference = "gfx/interface/icons/event_types/type_war.dds" }
+	override_icon = { reference = "gfx/interface/icons/event_types/type_war.dds" }
+	desc = rp_hanxin.0120.desc
+	right_portrait = scope:rp_hanxin_actor
+
+	trigger = { exists = scope:rp_hanxin_actor }
+
+	immediate = {
+		rp_hanxin_start_independence_war_effect = yes
+	}
+
+	option = {
+		name = rp_hanxin.0120.a
+	}
+}
+
+rp_hanxin.0130 = {
+	type = character_event
+	title = rp_hanxin.0130.t
+	theme = martial
+	override_background = { reference = tgp_camp_asia }
+	override_icon = { reference = "gfx/interface/icons/event_types/type_war.dds" }
+	override_icon = { reference = "gfx/interface/icons/event_types/type_war.dds" }
+	desc = rp_hanxin.0130.desc
+	right_portrait = scope:rp_hanxin_actor
+
+	trigger = { exists = scope:rp_hanxin_actor }
+
+	immediate = {
+		rp_hanxin_start_claim_war_effect = yes
+	}
+
+	option = {
+		name = rp_hanxin.0130.a
+	}
+}

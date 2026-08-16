@@ -1,0 +1,114 @@
+# Unsupported regional triggers disabled; public keys remain stable.
+
+any_descendants_are_governors = { always = no }
+any_liege_or_above_is_descendant = { always = no }
+can_change_japanese_appointment_succession_law_trigger = { always = no }
+can_have_japanese_appointment_succession_law_trigger = { always = no }
+can_have_japanese_regency_succession_law_trigger = { always = no }
+can_have_kampaku_acclamation_succession_law_trigger = { always = no }
+can_keep_japanese_appointment_succession_law_trigger = { always = no }
+can_keep_kampaku_acclamation_succession_law_trigger = { always = no }
+can_upgrade_house_aspiration_trigger = { always = no }
+ceremonial_claimant_faction_can_create_trigger = { always = no }
+government_is_japanese_trigger = { always = no }
+has_house_aspiration_trigger = { always = no }
+has_japanese_house_aspiration_trigger = { always = no }
+imperial_policy_faction_can_create_trigger = { always = no }
+is_a_previous_title_holder_trigger = {
+	trigger_if = { limit = { always = no } $TITLE$ = { always = yes } }
+	always = no
+}
+is_culture_or_descended_from_trigger = {
+	trigger_if = { limit = { always = no } $CULTURE$ = { always = yes } }
+	always = no
+}
+japan_castle_construction_trigger = { always = no }
+japan_faction_cohesion_hard_trigger = { always = no }
+japan_faction_cohesion_trigger = {
+	# Generic factions call this hook. With house blocs disabled it must be permissive.
+	always = yes
+}
+japan_government_japan_duchy_restriction_trigger = { always = no }
+japan_government_japan_kingdom_restriction_trigger = { always = no }
+japan_house_name_county_trigger = { always = no }
+japan_house_name_trigger = {
+	trigger_if = {
+		limit = { always = no }
+		is_target_in_variable_list = { name = japanese_house_names target = $FLAG$ }
+	}
+	always = no
+}
+japan_imperial_expansion_cb_allowed_against_character_trigger = { always = no }
+japan_imperial_expansion_cb_allowed_for_character_trigger = { always = no }
+japan_imperial_reconquest_cb_allowed_against_character_trigger = { always = no }
+japan_imperial_reconquest_cb_allowed_for_character_trigger = { always = no }
+realm_law_use_imperial_policy_trigger = { always = no }
+restore_ceremonial_liege_faction_can_create_trigger = { always = no }
+should_learn_chinese_trigger = { always = no }
+target_shares_nearest_related_title_holder_trigger = {
+	trigger_if = {
+		limit = { always = no }
+		is_child_of = $COMPARE$
+		$TITLE$ = { always = yes }
+	}
+	always = no
+}
+tgp_bloc_war_transfer_trigger = {
+	trigger_if = { limit = { always = no } $BLOC_LEADER$ = { always = yes } }
+	always = no
+}
+tgp_blocked_action_against_tenno_trigger = {
+	# Total-conversion compatibility shell: retain the public macro interface,
+	# but do not let the unsupported Tenno system block generic interactions.
+	$ACTOR$ = $ACTOR$
+	$TARGET$ = $TARGET$
+	always = yes
+}
+tgp_blocked_ruler_against_ceremonial_action_trigger = {
+	$REGENT$ = $REGENT$
+	$TENNO$ = $TENNO$
+	always = yes
+}
+tgp_ceremonial_candidacy_restriction_trigger = { always = yes }
+tgp_ceremonial_title_revoke_restriction_trigger = { always = yes }
+tgp_has_house_relation_level_trigger = {
+	trigger_if = { limit = { always = no } has_house_relation_level = $LEVEL$ }
+	always = no
+}
+tgp_house_bloc_interaction_valid_showing_failures_trigger = { always = no }
+tgp_house_bloc_interaction_valid_trigger = { always = no }
+tgp_house_bloc_inviter_or_leader_trigger = {
+	trigger_if = {
+		limit = { always = no }
+		$INVITER$ = { always = yes }
+		$JOINER$ = { always = yes }
+	}
+	always = no
+}
+tgp_install_regent_faction_can_create_trigger = { always = no }
+tgp_install_regent_faction_target_valid_trigger = { always = no }
+tgp_is_ceremonial_liege_or_direct_heir_trigger = { always = no }
+tgp_is_japanese_governor_trigger = { always = no }
+tgp_is_japanese_kampaku_trigger = { always = no }
+tgp_japan_cadet_creates_dynasty_trigger = { always = no }
+tgp_japan_defense_mobilization_valid_trigger = { always = no }
+tgp_japan_grant_titles_restriction_trigger = {
+	# The Japanese ceremonial-liege restriction is disabled; generic grants pass.
+	$GRANTER$ = $GRANTER$
+	$GRANTEE$ = $GRANTEE$
+	always = yes
+}
+tgp_japan_imperial_expansion_internal_peace_trigger = { always = no }
+tgp_japan_internal_soryo_war_is_crime_trigger = { always = no }
+tgp_japan_offensive_wars_ban_trigger = {
+	# Generic CBs call this hook. With Japan disabled it must not ban those CBs.
+	always = yes
+}
+tgp_japan_single_heir_succession_override_trigger = { always = no }
+tgp_japan_valid_restore_monarchy_scion_trigger = { always = no }
+tgp_ritsuryo_bloc_house_head_trigger = { always = no }
+tgp_should_join_house_bloc_trigger = {
+	trigger_if = { limit = { always = no } $BLOC$ = { always = yes } }
+	always = no
+}
+tgp_soryo_or_bushido_trigger = { always = no }

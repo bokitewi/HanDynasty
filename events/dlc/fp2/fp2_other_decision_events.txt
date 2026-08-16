@@ -1,0 +1,27 @@
+# Unsupported vanilla regional event chain retained only as inert public shells.
+namespace = fp2_other_decisions
+
+fp2_other_decisions.0001 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_other_decisions.0700 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_other_decisions.0701 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_other_decisions.0702 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_other_decisions.0703 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_other_decisions.0704 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_other_decisions.1000 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_other_decisions.1001 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_other_decisions.1100 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_other_decisions.1101 = { type = character_event hidden = yes trigger = { always = no } }
+
+scripted_trigger fp2_council_toledo_failure_regional_trigger = { always = no }
+scripted_trigger fp2_council_toledo_flavor_bishop_trigger = { always = no }
+scripted_trigger fp2_council_toledo_successful_regional_trigger = { always = no }
+
+scripted_effect fetch_council_toledo_priest_effect = { }
+scripted_effect fp2_council_modifier_effect = { }
+scripted_effect fp2_council_opinion_mozarabic_effect = { }
+scripted_effect fp2_council_opinion_other_effect = { }
+scripted_effect fp2_council_peace_catalyst_effect = { }
+scripted_effect fp2_council_strife_catalyst_effect = { }
+scripted_effect fp2_council_toledo_debate_bishop_effect = { }
+scripted_effect fp2_council_toledo_guest_populate_effect = { }
+scripted_effect fp2_struggle_council_toledo_attendee_effect = { }

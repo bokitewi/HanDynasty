@@ -1,0 +1,31 @@
+﻿# Generated from 華陽國志、三國志、三國演義、後漢書 and 漢晉春秋.
+# Culture: ryukyuan
+# Time partition: 180_200 (death >= 180 and birth <= 200).
+# No title history is assigned. Dates marked in the evidence audit may be estimates.
+
+##### 【琉球安知】
+liu_qiu_an_zhi={
+	name="uuii_book_liu_qiu_an_zhi_name" #球安知
+	dynasty_house="house_121020030001013"
+	culture="ryukyuan"
+	faith="utaki"
+	diplomacy="7"
+	martial="5"
+	stewardship="9"
+	intrigue="7"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_2
+	trait=tk_historical_character02
+	trait=vengeful
+	trait=gregarious
+	trait=temperate
+	166.7.1={
+		birth=yes
+	}
+	223.7.1={
+		death=yes
+	}
+}

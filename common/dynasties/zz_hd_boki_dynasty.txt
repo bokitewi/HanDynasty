@@ -1,0 +1,4 @@
+﻿dynasty_boki = {
+	name = "dynasty_boki_name"
+	culture = "dayuan"
+}

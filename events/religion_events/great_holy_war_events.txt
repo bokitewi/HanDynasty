@@ -1,0 +1,57 @@
+# Religious-head and great-holy-war event logic disabled; public IDs remain inert.
+namespace = great_holy_war
+
+great_holy_war.0001 = { type = character_event hidden = yes trigger = { always = no } }
+great_holy_war.0003 = { type = character_event hidden = yes trigger = { always = no } }
+great_holy_war.0004 = { type = character_event hidden = yes trigger = { always = no } }
+great_holy_war.0005 = { type = character_event hidden = yes trigger = { always = no } }
+great_holy_war.0010 = { type = character_event hidden = yes trigger = { always = no } }
+great_holy_war.0011 = { type = character_event hidden = yes trigger = { always = no } }
+great_holy_war.0015 = { type = character_event hidden = yes trigger = { always = no } }
+great_holy_war.0016 = { type = character_event hidden = yes trigger = { always = no } }
+great_holy_war.0017 = { type = character_event hidden = yes trigger = { always = no } }
+great_holy_war.0018 = { type = character_event hidden = yes trigger = { always = no } }
+great_holy_war.0020 = { type = character_event hidden = yes trigger = { always = no } }
+great_holy_war.0021 = { type = character_event hidden = yes trigger = { always = no } }
+great_holy_war.0022 = { type = character_event hidden = yes trigger = { always = no } }
+great_holy_war.0023 = { type = character_event hidden = yes trigger = { always = no } }
+great_holy_war.0024 = { type = character_event hidden = yes trigger = { always = no } }
+great_holy_war.0025 = { type = character_event hidden = yes trigger = { always = no } }
+great_holy_war.0026 = { type = character_event hidden = yes trigger = { always = no } }
+great_holy_war.0027 = { type = character_event hidden = yes trigger = { always = no } }
+great_holy_war.0028 = { type = character_event hidden = yes trigger = { always = no } }
+great_holy_war.0029 = { type = character_event hidden = yes trigger = { always = no } }
+great_holy_war.0030 = { type = character_event hidden = yes trigger = { always = no } }
+great_holy_war.0040 = { type = character_event hidden = yes trigger = { always = no } }
+great_holy_war.0050 = { type = character_event hidden = yes trigger = { always = no } }
+great_holy_war.0051 = { type = character_event hidden = yes trigger = { always = no } }
+great_holy_war.0052 = { type = character_event hidden = yes trigger = { always = no } }
+great_holy_war.0053 = { type = character_event hidden = yes trigger = { always = no } }
+great_holy_war.0055 = { type = character_event hidden = yes trigger = { always = no } }
+great_holy_war.0056 = { type = character_event hidden = yes trigger = { always = no } }
+great_holy_war.0057 = { type = character_event hidden = yes trigger = { always = no } }
+great_holy_war.0058 = { type = character_event hidden = yes trigger = { always = no } }
+great_holy_war.0059 = { type = character_event hidden = yes trigger = { always = no } }
+great_holy_war.0060 = { type = character_event hidden = yes trigger = { always = no } }
+great_holy_war.0061 = { type = character_event hidden = yes trigger = { always = no } }
+great_holy_war.0070 = { type = character_event hidden = yes trigger = { always = no } }
+great_holy_war.0071 = { type = character_event hidden = yes trigger = { always = no } }
+great_holy_war.0080 = { type = character_event hidden = yes trigger = { always = no } }
+great_holy_war.0081 = { type = character_event hidden = yes trigger = { always = no } }
+great_holy_war.0082 = { type = character_event hidden = yes trigger = { always = no } }
+great_holy_war.0083 = { type = character_event hidden = yes trigger = { always = no } }
+great_holy_war.0084 = { type = character_event hidden = yes trigger = { always = no } }
+great_holy_war.0085 = { type = character_event hidden = yes trigger = { always = no } }
+great_holy_war.0090 = { type = character_event hidden = yes trigger = { always = no } }
+great_holy_war.0091 = { type = character_event hidden = yes trigger = { always = no } }
+great_holy_war.0092 = { type = character_event hidden = yes trigger = { always = no } }
+great_holy_war.0093 = { type = character_event hidden = yes trigger = { always = no } }
+
+scripted_trigger great_holy_war_0010_africa_reason_trigger = { always = no }
+scripted_trigger great_holy_war_0010_byzantion_reason_trigger = { always = no }
+scripted_trigger great_holy_war_0010_centre_reason_trigger = { always = no }
+scripted_trigger great_holy_war_0010_europe_reason_trigger = { always = no }
+scripted_trigger great_holy_war_0010_jerusalem_reason_trigger = { always = no }
+scripted_trigger great_holy_war_0010_mecca_reason_trigger = { always = no }
+scripted_trigger great_holy_war_0010_rome_reason_trigger = { always = no }
+scripted_trigger great_holy_war_0026_valid_beneficiary_trigger = { always = no }

@@ -1,0 +1,168 @@
+heritage_baiyue = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_baiyue
+		}
+	}
+	audio_parameter = sea
+}
+
+heritage_baipu = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_baipu
+		}
+	}
+	audio_parameter = sea
+}
+
+
+# Project-owned heritage keys. They intentionally use the vanilla heritage
+# schema and a shared visibility trigger; culture definitions are hand-maintained.
+heritage_uuii_cheshi = {
+	type = heritage
+	is_shown = { heritage_is_shown_trigger = { HERITAGE = heritage_uuii_cheshi } }
+	audio_parameter = sea
+}
+heritage_uuii_di = {
+	type = heritage
+	is_shown = { heritage_is_shown_trigger = { HERITAGE = heritage_uuii_di } }
+	audio_parameter = sea
+}
+heritage_uuii_di_north = {
+	type = heritage
+	is_shown = { heritage_is_shown_trigger = { HERITAGE = heritage_uuii_di_north } }
+	audio_parameter = sea
+}
+heritage_donghu = {
+	type = heritage
+	is_shown = { heritage_is_shown_trigger = { HERITAGE = heritage_donghu } }
+	audio_parameter = sea
+}
+heritage_goguryeo = {
+	type = heritage
+	is_shown = { heritage_is_shown_trigger = { HERITAGE = heritage_goguryeo } }
+	audio_parameter = sea
+}
+heritage_uuii_juandu = {
+	type = heritage
+	is_shown = { heritage_is_shown_trigger = { HERITAGE = heritage_uuii_juandu } }
+	audio_parameter = sea
+}
+heritage_uuii_kangju = {
+	type = heritage
+	is_shown = { heritage_is_shown_trigger = { HERITAGE = heritage_uuii_kangju } }
+	audio_parameter = sea
+}
+heritage_uuii_khotan = {
+	type = heritage
+	is_shown = { heritage_is_shown_trigger = { HERITAGE = heritage_uuii_khotan } }
+	audio_parameter = sea
+}
+heritage_uuii_kucha = {
+	type = heritage
+	is_shown = { heritage_is_shown_trigger = { HERITAGE = heritage_uuii_kucha } }
+	audio_parameter = sea
+}
+heritage_uuii_nanman = {
+	type = heritage
+	is_shown = { heritage_is_shown_trigger = { HERITAGE = heritage_uuii_nanman } }
+	audio_parameter = sea
+}
+heritage_uuii_pishan = {
+	type = heritage
+	is_shown = { heritage_is_shown_trigger = { HERITAGE = heritage_uuii_pishan } }
+	audio_parameter = sea
+}
+heritage_uuii_pulei = {
+	type = heritage
+	is_shown = { heritage_is_shown_trigger = { HERITAGE = heritage_uuii_pulei } }
+	audio_parameter = sea
+}
+heritage_qiang = {
+	type = heritage
+	is_shown = { heritage_is_shown_trigger = { HERITAGE = heritage_qiang } }
+	audio_parameter = sea
+}
+heritage_uuii_qiemo = {
+	type = heritage
+	is_shown = { heritage_is_shown_trigger = { HERITAGE = heritage_uuii_qiemo } }
+	audio_parameter = sea
+}
+heritage_uuii_qule = {
+	type = heritage
+	is_shown = { heritage_is_shown_trigger = { HERITAGE = heritage_uuii_qule } }
+	audio_parameter = sea
+}
+heritage_uuii_qumi = {
+	type = heritage
+	is_shown = { heritage_is_shown_trigger = { HERITAGE = heritage_uuii_qumi } }
+	audio_parameter = sea
+}
+heritage_samhan = {
+	type = heritage
+	is_shown = { heritage_is_shown_trigger = { HERITAGE = heritage_samhan } }
+	audio_parameter = sea
+}
+heritage_uuii_shache = {
+	type = heritage
+	is_shown = { heritage_is_shown_trigger = { HERITAGE = heritage_uuii_shache } }
+	audio_parameter = sea
+}
+heritage_uuii_shanguo = {
+	type = heritage
+	is_shown = { heritage_is_shown_trigger = { HERITAGE = heritage_uuii_shanguo } }
+	audio_parameter = sea
+}
+heritage_uuii_shanshan = {
+	type = heritage
+	is_shown = { heritage_is_shown_trigger = { HERITAGE = heritage_uuii_shanshan } }
+	audio_parameter = sea
+}
+heritage_uuii_shule = {
+	type = heritage
+	is_shown = { heritage_is_shown_trigger = { HERITAGE = heritage_uuii_shule } }
+	audio_parameter = sea
+}
+heritage_uuii_sushen = {
+	type = heritage
+	is_shown = { heritage_is_shown_trigger = { HERITAGE = heritage_uuii_sushen } }
+	audio_parameter = sea
+}
+heritage_wa = {
+	type = heritage
+	is_shown = { heritage_is_shown_trigger = { HERITAGE = heritage_wa } }
+	audio_parameter = sea
+}
+heritage_uuii_weixu = {
+	type = heritage
+	is_shown = { heritage_is_shown_trigger = { HERITAGE = heritage_uuii_weixu } }
+	audio_parameter = sea
+}
+heritage_uuii_wusun = {
+	type = heritage
+	is_shown = { heritage_is_shown_trigger = { HERITAGE = heritage_uuii_wusun } }
+	audio_parameter = sea
+}
+heritage_uuii_xiaowan = {
+	type = heritage
+	is_shown = { heritage_is_shown_trigger = { HERITAGE = heritage_uuii_xiaowan } }
+	audio_parameter = sea
+}
+heritage_uuii_xinanman = {
+	type = heritage
+	is_shown = { heritage_is_shown_trigger = { HERITAGE = heritage_uuii_xinanman } }
+	audio_parameter = sea
+}
+heritage_uuii_xiongnu = {
+	type = heritage
+	is_shown = { heritage_is_shown_trigger = { HERITAGE = heritage_uuii_xiongnu } }
+	audio_parameter = sea
+}
+heritage_uuii_xiuxun = {
+	type = heritage
+	is_shown = { heritage_is_shown_trigger = { HERITAGE = heritage_uuii_xiuxun } }
+	audio_parameter = sea
+}

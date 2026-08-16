@@ -1,0 +1,53 @@
+### Repaired Confederations & Leagues Expanded triggers ###
+
+hd_uses_defensive_leagues = {
+	NOR = {
+		government_has_flag = government_is_nomadic
+		government_has_flag = government_is_herder
+	}
+}
+
+hd_valid_defensive_league_member_trigger = {
+	$CHARACTER$ = {
+		is_alive = yes
+		is_landed = yes
+		is_imprisoned = no
+		is_independent_ruler = yes
+		highest_held_title_tier <= tier_duchy
+		hd_uses_defensive_leagues = yes
+	}
+}
+
+hd_valid_anti_regent_member_trigger = {
+	$CHARACTER$ = {
+		is_alive = yes
+		is_landed = yes
+		is_imprisoned = no
+		highest_held_title_tier >= tier_duchy
+		NOT = { has_character_flag = hd_anti_regent_league_excluded }
+	}
+}
+
+hd_is_hd_defensive_league = {
+	exists = confederation
+	confederation = {
+		confederation_type = confederation_type:hd_defensive_league_type
+	}
+}
+
+hd_is_anti_regent_league_member = {
+	exists = confederation
+	confederation = {
+		confederation_type = confederation_type:hd_anti_regent_league_type
+	}
+}
+
+hd_can_call_league_member_to_war_trigger = {
+	exists = confederation
+	has_variable = hd_league_leader
+	var:hd_league_leader = root
+	is_at_war_as_attacker = yes
+	any_character_war = {
+		primary_attacker = root
+	}
+}

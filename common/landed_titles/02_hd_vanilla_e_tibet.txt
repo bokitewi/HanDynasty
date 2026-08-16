@@ -1,0 +1,9 @@
+﻿e_tibet = {
+	color = { 250 40 0 }
+	capital = c_xining
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+}
+

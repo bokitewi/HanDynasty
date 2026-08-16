@@ -1,0 +1,181 @@
+﻿namespace = kuzhu_dynastic_cycle
+
+#苦竹：进常世事件，没有实际效果，用于提示
+
+kuzhu_dynastic_cycle.0091 = {
+	type = character_event
+	title = kuzhu_dynastic_cycle.0091.t
+	window = fullscreen_event
+	desc = kuzhu_dynastic_cycle.0091.desc
+	theme = dynastic_cycle
+	override_background = { reference = kuzhu_DC_fullscreen_dynastic_cycle_normal }
+
+	widgets = {
+		widget = {
+ 			gui = "event_window_widget_situation_info_dynastic_cycle"
+ 			container = "dynamic_content_widget"
+ 			controller = situation_info
+ 			setup_scope = { situation:dynastic_cycle = { save_scope_as = situation } }
+		}
+	}
+	trigger = {
+		current_date_is_start_date_trigger = no
+	}
+
+	immediate = {
+		play_music_cue = mx_cue_tgp_dynastic_cycle_end
+		custom_tooltip = dynastic_cycle_kuzhu_entered_normal_tt
+		every_player = {
+			limit = { tgp_does_this_player_care_about_the_dynastic_cycle = yes } # Needs to be checked before the situation ends due to race condition issues
+			add_to_list = player_to_notify # Making a list so stuff is tiggered after the situation ends, to make extra sure I don't break anything.
+		}
+		every_in_list = { # Then we *actually* notify players, making sure the situation has already ended
+			list = player_to_notify
+			limit = {
+				NOT = { this = root }
+			}
+			trigger_event = kuzhu_dynastic_cycle.0092
+		}
+	}
+
+	option = {
+		name = kuzhu_dynastic_cycle.0091.a
+		clicksound = "event:/DLC/EP4/MX/CueTracks/mx_mtgp_dynastic_cycle_end"
+	}
+}
+
+kuzhu_dynastic_cycle.0092 = { # Notification for relevant people
+	type = character_event
+	window = fullscreen_event
+	title = kuzhu_dynastic_cycle.0091.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					tgp_is_hegemon_or_below_in_dynastic_cycle_trigger = yes
+				}
+				desc = kuzhu_dynastic_cycle.0092.desc.involved
+			}
+			triggered_desc = {
+				trigger = {
+					top_participant_group:dynastic_cycle ?= {
+						participant_group_type = other_rulers
+					}
+				}
+				desc = kuzhu_dynastic_cycle.0092.desc.interloper
+			}
+			desc = kuzhu_dynastic_cycle.0092.desc.uninvolved
+		}
+	}
+	theme = dynastic_cycle
+	override_background = { reference = kuzhu_DC_fullscreen_dynastic_cycle_normal }
+
+	widgets = {
+		widget = {
+ 			gui = "event_window_widget_situation_info_dynastic_cycle"
+ 			container = "dynamic_content_widget"
+ 			controller = situation_info
+ 			setup_scope = { situation:dynastic_cycle = { save_scope_as = situation } }
+		}
+	}
+
+	trigger = {
+		is_ai = no
+		NOT = { has_character_flag = situation_phase_notification }
+	}
+
+	immediate = {
+		add_character_flag = situation_phase_notification
+		show_as_tooltip = {
+			situation:dynastic_cycle = {
+				situation_top_sub_region = {
+					change_phase = { phase = kuzhu_situation_dynastic_cycle_phase_normal }
+				}
+			}
+		}
+		play_music_cue = mx_cue_tgp_dynastic_cycle_end
+	}
+
+	option = {
+		name = kuzhu_dynastic_cycle.0092.a
+
+		clicksound = "event:/DLC/FP3/SFX/UI/Notifications/Toasts/struggle_end_negative"
+	}
+
+	after = {
+		remove_character_flag = situation_phase_notification
+	}
+}
+
+#苦竹：新的进乱世事件，描述从旧
+
+kuzhu_dynastic_cycle.0081 = {
+	type = character_event
+	window = fullscreen_event
+	title = tgp_dynastic_cycle.0081.t
+	desc = tgp_dynastic_cycle.0081.desc
+	theme = dynastic_cycle
+	override_background = { reference = tgp_fullscreen_dynastic_cycle_chaos }
+
+	widgets = {
+		widget = {
+ 			gui = "event_window_widget_situation_info_dynastic_cycle"
+ 			container = "dynamic_content_widget"
+ 			controller = situation_info
+ 			setup_scope = { situation:dynastic_cycle = { save_scope_as = situation } }
+		}
+	}
+
+	trigger = {
+		current_date_is_start_date_trigger = no
+	}
+
+	immediate = {
+		play_music_cue = mx_cue_tgp_dynastic_cycle_end
+		custom_tooltip = dynastic_cycle_entered_chaos_tt
+		every_player = {
+			limit = { tgp_does_this_player_care_about_the_dynastic_cycle = yes } # Needs to be checked before the tgp_chaos_shattering_effect in case they get booted out of the Cycle from it
+			add_to_list = player_to_notify
+			# save variables to display correct desc in the follow up event
+			if = {
+				limit = {
+					tgp_is_hegemon_or_below_in_dynastic_cycle_trigger = yes
+				}
+				set_variable = {
+					name = involvement_in_cycle
+					value = flag:involved
+					days = 1
+				}
+			}
+			else_if = {
+				limit = {
+					top_participant_group:dynastic_cycle ?= {
+						participant_group_type = other_rulers
+					}
+				}
+				set_variable = {
+					name = involvement_in_cycle
+					value = flag:interloper
+					days = 1
+				}
+			}
+			else = {
+				# don't need to save anything, there is a fallback desc	for it	
+			}
+		}
+		#苦竹：此处改成我自己的效果
+		kuzhu_chaos_shattering_effect = yes
+		every_in_list = { # Then we *actually* notify players, making sure the Division already started
+			list = player_to_notify
+			limit = {
+				NOT = { this = root }
+			}
+			trigger_event = tgp_dynastic_cycle.0082
+		}
+	}
+
+	option = {
+		name = tgp_dynastic_cycle.0081.a
+		clicksound = "event:/DLC/EP4/MX/CueTracks/mx_mtgp_dynastic_cycle_end"
+	}
+}

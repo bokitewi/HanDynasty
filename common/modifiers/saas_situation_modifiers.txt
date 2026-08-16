@@ -1,0 +1,14 @@
+﻿saas_wangdao_war_criminal_modifier = {
+	monthly_prestige_gain_mult = -0.20
+	monthly_piety_gain_mult = -0.20
+	general_opinion = -10
+}
+
+saas_restoration_adventurer_restraint_modifier = {
+	ai_war_chance = -50
+}
+
+saas_warring_adventurer_impetus_modifier = {
+	ai_war_chance = 100
+	army_damage_mult = 0.05
+}

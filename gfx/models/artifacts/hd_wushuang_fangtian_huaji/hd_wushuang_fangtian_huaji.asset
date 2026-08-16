@@ -1,0 +1,37 @@
+pdxmesh = {
+	name = "hd_wushuang_fangtian_huaji_portrait_mesh"
+	file = "hd_wushuang_fangtian_huaji_portrait.mesh"
+	meshsettings = {
+		name = "hd_wushuang_fangtian_huaji_portrait_mainShape"
+		index = 0
+		texture_diffuse = "hd_wushuang_fangtian_huaji_main_diffuse.dds"
+		texture_normal = "hd_wushuang_fangtian_huaji_main_normal.dds"
+		texture_specular = "hd_wushuang_fangtian_huaji_main_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "hd_wushuang_fangtian_huaji_portrait_entity"
+	pdxmesh = "hd_wushuang_fangtian_huaji_portrait_mesh"
+}
+
+pdxmesh = {
+	name = "hd_wushuang_fangtian_huaji_court_mesh"
+	file = "hd_wushuang_fangtian_huaji_court.mesh"
+	meshsettings = {
+		name = "hd_wushuang_fangtian_huaji_court_mainShape"
+		index = 0
+		texture_diffuse = "hd_wushuang_fangtian_huaji_main_diffuse.dds"
+		texture_normal = "hd_wushuang_fangtian_huaji_main_normal.dds"
+		texture_specular = "hd_wushuang_fangtian_huaji_main_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+entity = {
+	name = "hd_wushuang_fangtian_huaji_court_entity"
+	pdxmesh = "hd_wushuang_fangtian_huaji_court_mesh"
+}

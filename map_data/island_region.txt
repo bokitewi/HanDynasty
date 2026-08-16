@@ -1,0 +1,1 @@
+# UUII total-conversion map does not use vanilla island-region county groups.

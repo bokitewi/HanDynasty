@@ -1,0 +1,12 @@
+﻿l_simp_chinese:
+ game_rule_category_bce_mod_series:0 "@bce_icon_rule! Better Chinese Emblems（BCE）"
+ rule_bce_noble_family_title:0 "@bce_icon_rule! #Clickable #Bold BCE中式纹章#!#!：贵族头衔"
+ setting_default_noble_family_title:0 "启用世族头衔与庄园机制"
+ setting_default_noble_family_title_desc:0 "允许行政制等相关入口创建世族头衔、庄园宅地和家族纹章。更改此设置后需要重新开局。"
+ setting_never_noble_family_title:0 "禁用世族头衔与庄园机制（默认）"
+ setting_never_noble_family_title_desc:0 "不创建动态世族头衔、庄园宅地或关联纹章；保留公共脚本接口以兼容旧调用。更改此设置后需要重新开局。"
+ rule_bce_create_cadet_branch:0 "@bce_icon_rule! #Clickable #Bold BCE中式纹章#!#!：分家支系"
+ setting_default_create_cadet_branch:0 "原版分家纹章（默认）"
+ setting_default_create_cadet_branch_desc:0 "沿用当前CK3分家逻辑，新支系生成有区别的BCE风格纹章。"
+ setting_always_bce_cadet_branch:0 "保留姓氏印章"
+ setting_always_bce_cadet_branch_desc:0 "创建分家时保留可识别的BCE姓氏印章，并由当前版本分家效果添加差异。"

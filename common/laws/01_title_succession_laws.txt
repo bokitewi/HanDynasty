@@ -1,0 +1,231 @@
+﻿title_succession_laws = {
+	# Default Feudal Elective
+	feudal_elective_succession_law = {
+		can_have = { always = no }
+		can_pass = { always = no }
+		can_title_have = { always = no }
+		succession = {
+			order_of_succession = election
+			election_type = feudal_elective
+		}
+		flag = elective_succession_law
+	}
+	princely_elective_succession_law = {
+		can_have = { always = no }
+		can_pass = { always = no }
+		can_title_have = { always = no }
+		succession = {
+			order_of_succession = election
+			election_type = princely_elective
+		}
+		flag = elective_succession_law
+	}
+	saxon_elective_succession_law = {
+		can_have = { always = no }
+		can_pass = { always = no }
+		can_title_have = { always = no }
+		succession = {
+			order_of_succession = election
+			election_type = saxon_elective
+		}
+		flag = elective_succession_law
+	}
+	scandinavian_elective_succession_law = {
+		can_have = { always = no }
+		can_pass = { always = no }
+		can_title_have = { always = no }
+		succession = {
+			order_of_succession = election
+			election_type = scandinavian_elective
+		}
+		flag = elective_succession_law
+	}
+	gaelic_elective_succession_law = {
+		can_have = { always = no }
+		can_pass = { always = no }
+		can_title_have = { always = no }
+		succession = {
+			order_of_succession = election
+			election_type = gaelic_elective
+		}
+		flag = elective_succession_law
+	}
+	tribal_elective_succession_law = {
+		can_have = { always = no }
+		can_pass = { always = no }
+		can_title_have = { always = no }
+		succession = {
+			order_of_succession = election
+			election_type = tribal_elective
+		}
+		flag = elective_succession_law
+	}
+	temporal_head_of_faith_succession_law = {
+		can_title_have = { always = no }
+		should_show_for_title = { # Never show this in the UI, just apply it through script
+			always = no
+		}
+		can_remove_from_title = { always = no }
+		succession = {
+			order_of_succession = player_heir
+		}
+	}
+
+	# Noble Family Succession
+	noble_family_succession_law = {
+		can_title_have = {
+			is_noble_family_title = yes
+		}
+		should_show_for_title = { # Never show this in the UI, just apply it through script
+			always = no
+		}
+		can_remove_from_title = {
+			always = no
+		}
+		succession = {
+			order_of_succession = noble_family
+			title_division = single_heir
+		}
+		flag = can_designate_heirs
+	}
+
+	# Law of the Land Title Succession
+	# Applied in on_title_gain when a county title's capital province has required heir government types defined and the new holder does not meet the requirement. 
+	law_of_the_land_succession_law = {
+		can_title_have = {
+			tier = tier_county
+			title_province = {
+				holding_type = {
+					has_required_heir_governments = yes
+					NOT = {
+						any_required_heir_government_type = {
+							this = root.holder.government_type
+						}
+					}
+				}
+			}
+		}
+		# Never show this in the UI, just apply it through script
+		should_show_for_title = { always = no }
+		can_remove_from_title = { always = no }
+		succession = {
+			order_of_succession = generate_from_template
+		}
+	}
+	#Confederation elective
+	confederation_elective_succession_law = {
+		can_title_have = {
+			tier >= tier_kingdom
+		}
+		should_show_for_title = {
+			has_variable = confederation_culture
+		}
+		succession = {
+			order_of_succession = election
+			election_type = confederation_elective
+		}
+		flag = elective_succession_law
+		title_allegiance_opinion = 10
+		revoke_cost = {
+			prestige = {
+				value = change_title_succession_law_prestige_cost
+				multiply = 8
+				if = {
+					limit = {
+						NOR = {
+							government_has_flag = government_is_tribal
+							government_has_flag = government_is_nomadic
+						}
+					}
+					multiply = 0.1
+				}
+			}
+		}
+		pass_cost = {
+			prestige = change_title_succession_law_prestige_cost
+		}
+	}
+	
+	# Celestial Ministry Succession
+	celestial_ministry_appointment_succession_law = {
+		can_have = {
+			government_has_flag = government_is_celestial
+		}
+		can_pass = {
+		}
+		can_title_have = {
+			tgp_is_civilian_minister_title = yes
+		}
+		can_realm_have = {
+			always = no
+		}
+		can_remove_from_title = {
+			custom_tooltip = {
+				text = celestial_ministry_appointment_cannot_remove_desc
+				always = no
+			}
+		}
+		succession = {
+			order_of_succession = appointment
+			appointment_type = celestial_minister
+		}
+		modifier = {
+			celestial_government_opinion = 5
+		}
+		flag = appointment_type_succession
+		flag = appointment_with_level_requirement
+	}
+	
+	# Celestial Grand Marshal Succession
+	celestial_grand_marshal_appointment_succession_law = {
+		can_have = {
+			government_has_flag = government_is_celestial
+		}
+		can_pass = {
+		}
+		can_title_have = {
+			this = title:e_minister_grand_marshal
+		}
+		can_realm_have = {
+			always = no
+		}
+		can_remove_from_title = {
+			custom_tooltip = {
+				text = celestial_ministry_appointment_cannot_remove_desc
+				always = no
+			}
+		}
+		succession = {
+			order_of_succession = appointment
+			appointment_type = celestial_military_governor
+		}
+		modifier = {
+			celestial_government_opinion = 5
+		}
+		flag = appointment_type_succession
+		flag = appointment_with_level_requirement
+	}
+
+	# AUH: election used on every non-titular warlord title of duchy rank or above.
+	kuzhu_warlord_appointment_title_law = {
+		can_have = { government_has_flag = government_is_kuzhu_warlord }
+		can_pass = { always = no }
+		can_title_have = {
+			tier >= tier_duchy
+			this.holder = {
+				has_realm_law = kuzhu_warlord_elective_succession_law
+			}
+		}
+		can_remove_from_title = { always = no }
+		succession = {
+			order_of_succession = election
+			election_type = kuzhu_warlord_elective
+		}
+		flag = elective_succession_law
+		pass_cost = { prestige = change_succession_law_prestige_cost }
+		revoke_cost = { prestige = change_succession_law_prestige_cost }
+		ai_will_do = { value = 0 }
+	}
+}
+
+

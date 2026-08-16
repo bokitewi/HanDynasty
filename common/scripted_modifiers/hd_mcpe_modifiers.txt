@@ -1,0 +1,71 @@
+﻿
+mcpe_trait_choice_modifier = {
+	modifier = {
+		add = 4
+		any_relation = {
+			type = guardian
+			has_trait = $TRAIT$
+		}
+	}
+	modifier = {
+		add = -0.5
+		any_relation = {
+			type = guardian
+			hd_mcpe_has_opposing_personality_trait_trigger = { TRAIT = $TRAIT$ }
+		}
+	}
+
+	modifier = {
+		add = 100
+		culture = {
+			has_cultural_parameter = $TRAIT$_trait_more_common
+		}
+	}
+}
+
+mcpe_weight_for_event_modifier = {
+	modifier = {
+		add = 5
+		any_relation = {
+			type = guardian
+			has_trait = $TRAIT_1$
+		}
+	}
+	modifier = {
+		add = 5
+		any_relation = {
+			type = guardian
+			has_trait = $TRAIT_2$
+		}
+	}
+	modifier = {
+		add = 5
+		any_relation = {
+			type = guardian
+			has_trait = $TRAIT_3$
+		}
+	}
+
+	modifier = {
+		add = 8
+		culture = {
+			has_cultural_parameter = $TRAIT_1$_trait_more_common
+		}
+	}
+	modifier = {
+		add = 8
+		culture = {
+			has_cultural_parameter = $TRAIT_2$_trait_more_common
+		}
+	}
+	modifier = {
+		add = 8
+		culture = {
+			has_cultural_parameter = $TRAIT_3$_trait_more_common
+		}
+	}
+}
+
+
+
+

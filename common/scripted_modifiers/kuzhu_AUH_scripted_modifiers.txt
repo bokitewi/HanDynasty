@@ -1,0 +1,100 @@
+﻿kuzhu_ai_want_be_warlord_modifier = {
+	#性格
+	ai_value_modifier = { # Personality
+		ai_boldness = 0.25
+		ai_honor = -0.25
+	}
+	#特质
+	modifier = {
+		desc = "KUZHU_TRAIT"
+		add = -20
+		has_trait = content
+	}
+	modifier = {
+		desc = "KUZHU_TRAIT"		
+		add = -20
+		has_trait = humble
+	}
+	modifier = {
+		desc = "KUZHU_TRAIT"		
+		add = -20
+		has_trait = loyal
+	}
+	modifier = {
+		desc = "KUZHU_TRAIT"		
+		add = -20
+		has_trait = just
+	}		
+	modifier = {
+		desc = "KUZHU_TRAIT"		
+		add = -20
+		has_trait = generous
+	}
+	modifier = {
+		desc = "KUZHU_TRAIT"		
+		add = -20
+		has_trait = honest
+	}						
+	#文化
+	modifier = { # Encouraged by tradition
+		desc = "KUZHU_CULTURE_TRADITION"
+		add = 20
+		culture = {
+			NOR = {
+				this = culture:han
+				any_parent_culture_or_above = { this = culture:han }
+			}
+		}
+	}
+	#军队实力
+	modifier = {
+		desc = "KUZHU_MILITARY_POWER"
+		add = {
+			value = military_power
+			multiply = 100
+			divide = top_liege.military_power
+		}
+	}
+	#非法理封臣
+	modifier = {
+		desc = "KUZHU_NOT_DEJURE_VASSAL"			
+		top_liege = { 
+			NOR = {	
+				government_has_flag = government_is_nomadic
+				government_has_flag = government_is_steppe_admin
+			}
+		}
+		primary_title = { 
+			NOT = {
+				target_is_de_jure_liege_or_above = prev.top_liege.primary_title 
+			} 
+		}
+		add = 50
+	}
+	#对家主好感度
+	opinion_modifier = { # Opinion of house head
+		desc = "KUZHU_HOUSE_HEAD_OPINION"
+		trigger = { is_house_head = no }
+		who = root
+		opinion_target = house.house_head
+		multiplier = -0.5
+	}
+
+	#王朝循环因素
+	modifier = {
+		desc = "KUZHU_advancement_phase"
+		top_liege = title:h_china.holder
+		situation:dynastic_cycle = {
+			situation_current_phase = situation_dynastic_cycle_phase_stability_advancement
+		}
+		add = -30
+	}
+	modifier = {
+		desc = "KUZHU_pro_hegemon"		
+		top_liege = title:h_china.holder
+		top_participant_group:dynastic_cycle ?= { 
+			participant_group_type = pro_hegemon_movement
+		}
+		add = -30
+	}
+}

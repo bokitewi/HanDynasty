@@ -1,0 +1,687 @@
+﻿# 苦竹：将政体转为warlord，参考转为总领制
+# Admin to Feudal
+kuzhu_admin_to_warlord_decision = {
+	decision_group_type = major
+	title = kuzhu_admin_to_warlord_decision
+	desc = kuzhu_admin_to_warlord_decision_desc
+	selection_tooltip = kuzhu_admin_to_warlord_decision_tooltip
+	picture = { reference = "gfx/interface/illustrations/event_scenes/dharma_asian_camp.dds" }
+	sort_order = 80
+
+	is_shown = {
+		is_independent_ruler = no
+		NOT = { has_character_flag = flag_kuzhu_new_governor }
+		OR = {
+			government_allows = administrative
+			government_has_flag = government_is_celestial
+			government_has_flag = government_is_meritocratic
+			government_has_flag = government_is_steppe_admin
+		}
+		tgp_has_ceremonial_liege_title_trigger = no
+	}
+
+	is_valid = {
+		kuzhu_can_be_warlord_trigger = yes
+		#苦竹：根据影响力
+		trigger_if = {
+			limit = { 
+				top_liege = { 
+					OR = {
+						has_realm_law = kuzhu_medium_government_size
+						has_realm_law = kuzhu_admin_recruit_balanced
+					}
+				}
+			} 
+			custom_tooltip = {
+				#prestige_level > kuzhu_liege_control_level
+				text = kuzhu_political_power_higher_than_medium
+				kuzhu_governor_political_power >= 25
+			}		
+		}
+		trigger_else_if = {
+			limit = { 
+				top_liege = { 
+					OR = {
+						has_realm_law = kuzhu_large_government_size
+						has_realm_law = kuzhu_admin_recruit_theme
+						has_realm_law = kuzhu_admin_recruit_legion
+					}
+				}
+			} 
+			custom_tooltip = {
+				#prestige_level > kuzhu_liege_control_level
+				text = kuzhu_political_power_higher_than_high
+				kuzhu_governor_political_power >= 50
+			}		
+		}		
+		trigger_else = {
+			custom_tooltip = {
+				text = kuzhu_political_power_higher_than_low
+				kuzhu_governor_political_power >= 0
+			}
+		}		
+	}
+
+	is_valid_showing_failures_only = {
+		is_adult = yes
+		# 不是礼仪君主家的人
+		tgp_is_in_ceremonial_house_trigger = no
+	}
+
+	cost = {
+		prestige = {
+			value = {
+				value = 200
+				every_vassal = {
+					limit = { 
+						highest_held_title_tier >= tier_duchy
+						has_treasury = yes 
+					}
+					add = 50
+				}
+				multiply = top_liege.governor_efficiency
+				if = {
+					limit = { is_ai = yes }
+					multiply = 0
+				}				
+			}				
+		}		
+		influence = {
+			value = {
+				value = 200
+				every_vassal = {
+					limit = { 
+						highest_held_title_tier >= tier_duchy
+						has_treasury = yes 
+					}
+					add = 50
+				}
+				multiply = top_liege.governor_efficiency
+				if = {
+					limit = { is_ai = yes }
+					multiply = 0
+				}
+			}	
+		}
+	}
+
+	effect = {		
+		#苦竹：国库变成钱		 
+		kuzhu_transfer_treasury_to_gold_effect = yes
+		#苦竹：用scripted_effect方便以后做互动引用
+		kuzhu_convert_to_warlord_from_admin_effect = yes
+		save_scope_as = new_warlord
+		hidden_effect = {
+			liege = {
+				send_interface_message = {
+					type = msg_admin_to_warlord_decision_notice
+					title = msg_admin_to_warlord_decision_notice.title
+					left_icon = scope:new_warlord
+					show_as_tooltip = {
+						custom_tooltip = kuzhu_warlord_decision_notice
+					}
+				}		
+			}
+		}
+		add_character_flag = {
+			flag = flag_kuzhu_new_warlord
+			years = 10
+		}
+	}
+	
+	ai_check_interval_by_tier = {
+		barony = 0
+		county = 0
+		duchy = 12
+		kingdom = 12
+		empire = 12
+		hegemony = 0
+	}
+	#家族中存在合法继承人
+	ai_potential = {
+		house ?= {
+			any_house_member = { 
+				count > 1
+				can_be_combatant_based_on_gender_trigger = { ARMY_OWNER = root }
+			}
+		}	
+	}
+	
+	ai_will_do = {		
+		base = 0
+		#该script_modifier适用于派系和决议
+		kuzhu_ai_want_be_warlord_modifier = yes
+
+		#对领主好感度		
+		opinion_modifier = { # Opinion of liege
+			who = root
+			opinion_target = top_liege
+			multiplier = -0.5
+		}		
+	}
+}
+
+#苦竹：再做军阀制转回行政制度，在原版采纳行政制决议上进行修改
+
+### Adopt Centralized Administration ###
+kuzhu_warlord_to_administrative_decision = {
+	picture = {
+		trigger = {
+			culture_has_asian_heritage_pillar_trigger = yes
+		}
+		reference = "gfx/interface/illustrations/event_scenes/dharma_asian_palace.dds"
+	}
+	picture = {
+		reference = "gfx/interface/illustrations/event_scenes/fp3_throneroom.dds"
+	}	
+	decision_group_type = major
+	title = {
+		desc = convert_to_administrative_decision_title_multiple
+	}
+	desc = convert_to_administrative_decision_desc
+	selection_tooltip = {
+		desc = convert_to_administrative_decision_tooltip_multiple
+	}
+	confirm_text = {
+		desc = convert_to_administrative_decision_confirm_multiple
+	}
+
+	ai_check_interval_by_tier = {
+		barony = 0
+		county = 0
+		duchy = 0
+		kingdom = 36
+		empire = 24
+		hegemony = 12
+	}
+
+	is_shown = {
+		#苦竹：加入我们的军阀制
+		government_has_flag = government_is_kuzhu_warlord
+		NOT = { has_character_flag = flag_kuzhu_new_warlord }
+	}
+
+	is_valid = {
+		#苦竹：加入我们的军阀制	
+		trigger_if = {
+			limit = { liege != this }
+			liege = { government_allows = administrative }
+		}
+		trigger_else_if = {
+			limit = {
+				culture = { 
+					OR = {
+						has_cultural_parameter = can_adopt_administrative_government_as_kingdom_tier 
+						this = culture:han
+						any_parent_culture_or_above = { this = culture:han }
+						has_cultural_tradition = tradition_kuzhu_minor_china
+					}
+				}
+			}
+			custom_tooltip = {
+				text = king_tier_tt
+				primary_title.tier >= tier_kingdom
+			}
+		}		
+		trigger_else = {
+			AND = { # To force the correct tooltip in loc
+				custom_tooltip = {
+					text = empire_tier_tt
+					primary_title.tier >= tier_empire
+				}
+				root = { save_temporary_scope_as = root_scope }
+				custom_tooltip = {
+					text = small_realm_size_tt
+				}
+			}
+		}
+		trigger_if = {
+			limit = {
+				top_liege = this
+				is_ai = no
+			}
+			prestige_level >= 3
+		}
+		trigger_if = {
+			limit = {
+				top_liege = this
+				is_ai = no
+			}
+			custom_tooltip = {
+				text = all_powerful_vassals_required_tt
+				NOT = {
+					any_powerful_vassal = {
+						NOT = { government_has_flag = government_is_kuzhu_warlord }
+						NOT = {
+							opinion = {
+								target = root
+								value >= 50
+							}
+						}	
+					}
+				}
+			}
+		}
+		trigger_if = {
+			limit = { is_ai = yes }
+			calc_true_if = {
+				amount >= 2
+				culture = { has_cultural_pillar = ethos_bureaucratic }
+				culture = { has_cultural_pillar = ethos_courtly }
+				culture = { has_cultural_pillar = ethos_egalitarian }
+				culture = { has_cultural_tradition = tradition_legalistic }
+				has_realm_law = crown_authority_3
+				capital_county = { development_level > medium_development_level }
+				faith = { has_doctrine = tenet_legalism }
+				dynasty = { has_dynasty_perk = erudition_legacy_5 }
+				dynasty = { has_dynasty_perk = law_legacy_5 }
+				#中华帝国
+				primary_title = { 
+					tier >= tier_empire
+					hegemony = title:h_china
+				}
+			}
+		}
+	}
+	
+	is_valid_showing_failures_only = {
+		custom_tooltip = {
+			text = kuzhu_warlord_to_administrative_eligibility_tt
+			OR = {
+				has_ep3_dlc_trigger = yes
+				tgp_should_become_meritocratic_trigger = yes
+			}
+		}
+		is_at_war = no
+	}
+
+	cost = {
+		prestige = {
+			value = 1000
+			#罗马和中华转行政制减费
+			if = {
+				limit = {
+					primary_title = { 
+						tier >= tier_empire
+						hegemony = title:h_china
+					}
+				}
+				multiply = 0.1
+			}			
+			else_if = { # Much cheaper for vassals wanting to adopt their admin liege's government
+				limit = { top_liege != this }
+				multiply = 0.1
+			}
+			#苦竹：恢复祖制
+			else_if = {
+				limit = {
+					culture = {
+						OR = {
+							#汉文化和希腊文化转行政制减费
+							this = culture:han
+							any_parent_culture_or_above = { this = culture:han }
+							has_cultural_tradition = tradition_kuzhu_minor_china
+						}
+					}
+				}
+				multiply = 0.1
+			}
+		}
+		gold = {
+			value = 800				
+			if = {
+				limit = { is_ai = no }
+				#Realm size
+				if = {
+					limit = { root.domain_size >= 7 }
+					multiply = 3.5
+				}
+				else_if = {
+					limit = { root.domain_size >= 6 }
+					multiply = 3
+				}
+				else_if = {
+					limit = { root.domain_size >= 5 }
+					multiply = 2.5
+				}
+				else_if = {
+					limit = { root.domain_size >= 4 }
+					multiply = 2
+				}
+				else_if = {
+					limit = { root.domain_size >= 3 }
+					multiply = 1.5
+				}
+			}
+			#Era
+			culture = {
+				if = {
+					limit = { has_cultural_era_or_later = culture_era_late_medieval }
+					multiply = 1.75
+				}
+				else_if = {
+					limit = { has_cultural_era_or_later = culture_era_high_medieval }
+					multiply = 1.25
+				}
+				else_if = {
+					limit = { has_cultural_era_or_later = culture_era_early_medieval }
+					multiply = 1
+				}
+				else = {
+					multiply = 0.75
+				}
+			}
+			#Income
+			if = {
+				limit = { root.monthly_character_income >= 100 }
+				multiply = 3
+			}
+			else_if = {
+				limit = { root.monthly_character_income >= 80 }
+				multiply = 2.5
+			}
+			else_if = {
+				limit = { root.monthly_character_income >= 60 }
+				multiply = 2
+			}
+			else_if = {
+				limit = { root.monthly_character_income >= 40 }
+				multiply = 1.5
+			}
+			else_if = {
+				limit = { root.monthly_character_income >= 20 }
+				multiply = 1.1
+			}
+			#罗马和中华转行政制减费
+			if = {
+				limit = {
+					primary_title = { 
+						tier >= tier_empire
+						hegemony = title:h_china
+					}
+				}
+				multiply = 0.1
+			}			
+			else_if = { # Much cheaper for vassals wanting to adopt their admin liege's government
+				limit = {
+					is_independent_ruler = no
+				}
+				multiply = 0.1
+			}
+			#苦竹：恢复祖制
+			else_if = {
+				limit = {
+					culture = {
+						OR = {
+							#汉文化和希腊文化转行政制减费
+							this = culture:han
+							any_parent_culture_or_above = { this = culture:han }
+							has_cultural_tradition = tradition_kuzhu_minor_china
+						}
+					}
+				}
+				multiply = 0.1
+			}
+		}
+	}
+	
+	widget = {
+		gui = "decision_view_widget_generic_multichoice_with_effects"
+		controller = decision_option_list_controller
+		decision_to_second_step_button = "SELECT_ACTION"
+		show_from_start = no
+
+		item = { # Administrative
+			value = go_administrative_government
+			is_shown = {
+				has_ep3_dlc_trigger = yes
+			}
+			is_valid = {
+				top_liege = {
+					NOR = {
+						has_government = celestial_government
+						has_government = meritocratic_government
+						has_government = japan_administrative_government
+					}
+				}
+				
+			}
+			current_description = go_administrative_government_desc
+			localization = go_administrative_government_name
+			icon = "gfx/interface/icons/government_types/administrative_government.dds"
+			ai_chance = {
+				value = 10
+			}
+		}
+		item = { # Celestial
+			value = go_celestial_government
+			is_shown = {
+				has_tgp_dlc_trigger = yes
+			}
+			is_valid = {
+				top_liege = {
+					NOR = {
+						has_government = administrative_government
+						has_government = meritocratic_government
+						has_government = japan_administrative_government
+					}
+				}
+				custom_tooltip = {
+					text = convert_to_administrative_celestial_desc
+					tgp_can_become_celestial_trigger = yes
+				}
+			}
+			current_description = go_celestial_government_desc
+			localization = go_celestial_government_name
+			icon = "gfx/interface/icons/government_types/celestial_government.dds"
+			ai_chance = {
+				value = 100
+			}
+		}
+		item = { # Meritocratic
+			value = go_meritocratic_government
+			is_shown = {
+				has_tgp_dlc_trigger = yes
+			}
+			is_valid = {
+				top_liege = {
+					NOR = {
+						has_government = administrative_government
+						has_government = celestial_government
+						has_government = japan_administrative_government
+					}
+				}
+				custom_tooltip = {
+					text = convert_to_administrative_meritocratic_desc
+					tgp_should_become_meritocratic_trigger = yes
+				}
+			}
+			current_description = go_meritocratic_government_desc
+			localization = go_meritocratic_government_name
+			icon = "gfx/interface/icons/government_types/meritocratic_government.dds"
+			ai_chance = {
+				value = 50
+			}
+		}
+		item = { # Ritsuryo / AKA Japan Administrative
+			value = go_japan_administrative_government
+			is_shown = {
+				has_tgp_dlc_trigger = yes
+			}
+			is_valid = {
+				top_liege = {
+					NOR = {
+						has_government = administrative_government
+						has_government = celestial_government
+						has_government = meritocratic_government
+					}
+				}
+				custom_tooltip = {
+					text = convert_to_administrative_japanese_desc
+					tgp_can_become_japan_administrative_trigger = yes
+				}
+			}
+			current_description = go_japan_administrative_government_desc
+			localization = go_japan_administrative_government_name
+			icon = "gfx/interface/icons/government_types/japan_administrative_government.dds"
+			ai_chance = {
+				value = 100
+			}
+		}
+	}
+
+	effect = {
+		# Change to your selected government
+		if = {
+			limit = {
+				scope:go_administrative_government = yes
+			}
+			convert_to_administrative_from_feudalism_effect = { GOVERNMENT_TO_ADOPT = flag:administrative }
+		}
+		else_if = {
+			limit = { scope:go_celestial_government = yes }
+			convert_to_administrative_from_feudalism_effect = { GOVERNMENT_TO_ADOPT = flag:celestial }
+		}
+		else_if = {
+			limit = { scope:go_meritocratic_government = yes }
+			convert_to_administrative_from_feudalism_effect = { GOVERNMENT_TO_ADOPT = flag:meritocratic }
+		}
+		else_if = {
+			limit = { scope:go_japan_administrative_government = yes }
+			convert_to_administrative_from_feudalism_effect = { GOVERNMENT_TO_ADOPT = flag:japan_administrative }
+		}
+		save_scope_as = actor
+		if = {
+			limit = {
+				is_independent_ruler = yes
+			}
+			add_legitimacy_effect = { LEGITIMACY = admin_convert_legitimacy_value } #One Time Legitimacy Boost
+		}
+		trigger_event = ep3_decisions_event.4060 #Also sends information event to human vassals
+		add_character_flag = {
+			flag = flag_kuzhu_new_governor
+			years = 10
+		}
+		#Letter event for the vassals
+	}
+
+	ai_potential = {
+		NOT = { has_realm_law = kuzhu_warlord_single_heir_succession_law }	
+	}
+
+	ai_will_do = {
+		base = 0
+		#性格
+		ai_value_modifier = { # Personality
+			ai_boldness = -0.25
+			ai_honor = 0.25
+		}
+		
+		#特质
+		modifier = {
+			add = -20
+			is_independent_ruler = no			
+			has_trait = ambitious
+		}
+		modifier = {
+			add = -20
+			is_independent_ruler = no			
+			has_trait = arrogant
+		}
+		modifier = {
+			add = -20
+			is_independent_ruler = no			
+			has_trait = disloyal
+		}
+		modifier = {
+			add = -20
+			is_independent_ruler = no			
+			has_trait = arbitrary
+		}		
+		modifier = {
+			add = -20
+			is_independent_ruler = no			
+			has_trait = greedy
+		}
+		modifier = {
+			add = -20
+			is_independent_ruler = no			
+			has_trait = deceitful
+		}
+		
+		#头衔因素
+		modifier = {
+			primary_title = {
+				tier >= tier_empire
+				hegemony = title:h_china
+			}
+			add = 200
+		}
+		modifier = {
+			any_owned_story = { story_type = story_take_mandate_of_heaven }
+			add = 100
+		}		
+		#文化因素
+		modifier = {
+			culture = {
+				OR = {
+					has_cultural_pillar = ethos_bureaucratic 
+					has_cultural_pillar = ethos_courtly 
+					has_cultural_pillar = ethos_egalitarian 
+				}
+			}
+			add = 50
+		}
+		modifier = {
+			culture = {
+				has_cultural_tradition = tradition_legalistic
+			}
+			add = 50
+		}
+		modifier = {
+			culture = {
+				OR = {
+					has_cultural_tradition = tradition_fp3_enlightened_magnates 
+					has_cultural_tradition = tradition_loyal_soldiers 
+				}
+			}
+			add = 20
+		}
+		modifier = {
+			culture = {
+				OR = {
+					has_cultural_tradition = tradition_staunch_traditionalists
+					has_cultural_tradition = tradition_ep3_audacious_cadets
+				}
+			}
+			add = -20
+		}
+		modifier = {
+			culture = {
+				has_cultural_tradition = tradition_hereditary_hierarchy
+			}
+			add = -20
+		}
+		modifier = {
+			culture = {
+				OR = {
+					has_cultural_tradition = tradition_ep3_indomitable_azatani
+					has_cultural_tradition = tradition_quarrelsome
+					has_cultural_tradition = tradition_warrior_culture
+					has_cultural_tradition = tradition_fp3_fierce_independence
+				}
+			}
+			add = -50
+		}
+		modifier = {
+			culture = {
+				OR = {
+					has_cultural_pillar = ethos_stoic
+					has_cultural_pillar = ethos_bellicose 
+					has_cultural_pillar = ethos_communal 
+				}
+			}
+			add = -50
+		}
+	}	
+}

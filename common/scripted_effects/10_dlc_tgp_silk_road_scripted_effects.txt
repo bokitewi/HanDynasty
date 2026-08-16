@@ -1,0 +1,680 @@
+﻿##################################################
+# Silk Road Scripted Effects
+##################################################
+
+tgp_silk_road_downstream_player_sub_region_effect = {
+	save_temporary_scope_as = player_temp
+	scope:origin_sub_region_temp = { 
+		if = {
+			limit = { any_situation_sub_region_participant = { this = scope:player_temp } }
+			save_temporary_scope_as = player_sub_region_temp
+		}
+	}
+	if = {
+		limit = { NOT = { exists = scope:player_sub_region_temp } }
+		random_in_list = {
+			list = second_sub_regions
+			limit = { any_situation_sub_region_participant = { this = scope:player_temp } }
+			save_temporary_scope_as = player_sub_region_temp
+		}
+	}
+	if = {
+		limit = { NOT = { exists = scope:player_sub_region_temp } }
+		random_in_list = {
+			list = third_sub_regions
+			limit = { any_situation_sub_region_participant = { this = scope:player_temp } }
+			save_temporary_scope_as = player_sub_region_temp
+		}
+	}
+}
+
+tgp_silk_road_downstream_effect = {
+	save_temporary_scope_as = origin_sub_region_temp
+	switch = {
+		trigger = scope:origin_sub_region_temp
+		# East branches into the two middle routes; the west is two steps away.
+		situation:silk_road_situation.situation_sub_region:region_silk_road_eastern_section = {
+			situation:silk_road_situation = {
+				situation_sub_region:region_silk_road_middle_northern_route = { add_to_temporary_list = second_sub_regions }
+				situation_sub_region:region_silk_road_middle_southern_route = { add_to_temporary_list = second_sub_regions }
+				situation_sub_region:region_silk_road_western_section = { add_to_temporary_list = third_sub_regions }
+			}
+		}
+		# Both middle routes converge on the west.
+		situation:silk_road_situation.situation_sub_region:region_silk_road_middle_northern_route = {
+			situation:silk_road_situation = {
+				situation_sub_region:region_silk_road_western_section = { add_to_temporary_list = second_sub_regions }
+			}
+		}
+		situation:silk_road_situation.situation_sub_region:region_silk_road_middle_southern_route = {
+			situation:silk_road_situation = {
+				situation_sub_region:region_silk_road_western_section = { add_to_temporary_list = second_sub_regions }
+			}
+		}
+		situation:silk_road_situation.situation_sub_region:region_silk_road_western_section = {} # Terminus
+	}
+	# Fire changes/messages
+	scope:origin_sub_region_temp ?= {
+		if = {
+			limit = { silk_road_sub_region_conflict_trigger = yes }
+			tgp_silk_road_downstream_war_effect = yes
+		}
+		else = { tgp_silk_road_downstream_peace_effect = yes }
+	}
+	# Cleanup
+	clear_saved_scope = origin_sub_region_temp
+	every_in_list = {
+		list = second_sub_regions
+		remove_from_list = second_sub_regions
+	}
+	every_in_list = {
+		list = third_sub_regions
+		remove_from_list = third_sub_regions
+	}
+}
+
+# Effects to move sub regions towards Hardship
+tgp_silk_road_downstream_war_effect = {
+	# Disabled for now
+	#tgp_silk_road_downstream_war_message_effect = yes
+	scope:origin_sub_region_temp ?= {
+		trigger_sub_region_catalyst = { catalyst = catalyst_silk_road_region_peace }
+	}
+	every_in_list = {
+		list = second_sub_regions
+		trigger_sub_region_catalyst = { catalyst = catalyst_silk_road_adjacent_upstream_region_peace }
+	}
+	every_in_list = {
+		list = third_sub_regions
+		trigger_sub_region_catalyst = { catalyst = catalyst_silk_road_distant_upstream_region_peace }
+	}
+}
+
+tgp_silk_road_downstream_war_message_effect = {
+	every_player = {
+		tgp_silk_road_downstream_player_sub_region_effect = yes
+		if = {
+			limit = { exists = scope:player_sub_region_temp }
+			send_interface_message = {
+				type = msg_silk_road_prosperity_war_bad
+				title = msg_silk_road_prosperity_upstream_war
+				desc = tgp_silk_road_move_sub_region_towards_hardship_tt
+				scope:player_sub_region_temp = {
+					if = {
+						limit = { sub_region_current_phase = phase_exceptional_bounty }
+						if = {
+							limit = { this = scope:origin_sub_region_temp }
+							custom_tooltip = tgp_silk_road_move_sub_region_towards_steady_trading_primary_tt
+						}
+						else_if = {
+							limit = { is_in_list = second_sub_regions }
+							custom_tooltip = tgp_silk_road_move_sub_region_towards_steady_trading_secondary_tt
+						}
+						else = { custom_tooltip = tgp_silk_road_move_sub_region_towards_steady_trading_tertiary_tt }
+					}
+					else_if = {
+						limit = {
+							NOT = { sub_region_current_phase = phase_hardship }
+						}
+						if = {
+							limit = { this = scope:origin_sub_region_temp }
+							custom_tooltip = tgp_silk_road_move_sub_region_towards_hardship_primary_tt
+						}
+						else_if = {
+							limit = { is_in_list = second_sub_regions }
+							custom_tooltip = tgp_silk_road_move_sub_region_towards_hardship_secondary_tt
+						}
+						else = { custom_tooltip = tgp_silk_road_move_sub_region_towards_hardship_tertiary_tt }
+					}
+				}
+			}
+		}
+	}
+}
+
+# Effects to move sub regions towards Prosperity
+tgp_silk_road_downstream_peace_effect = {
+	# Disabled for now
+	#tgp_silk_road_downstream_peace_message_effect = yes
+	scope:origin_sub_region_temp ?= {
+		trigger_sub_region_catalyst = { catalyst = catalyst_silk_road_region_war }
+	}
+	every_in_list = {
+		list = second_sub_regions
+		trigger_sub_region_catalyst = { catalyst = catalyst_silk_road_adjacent_upstream_region_war }
+	}
+	every_in_list = {
+		list = third_sub_regions
+		trigger_sub_region_catalyst = { catalyst = catalyst_silk_road_distant_upstream_region_war }
+	}
+}
+
+tgp_silk_road_downstream_peace_message_effect = {
+	every_player = {
+		tgp_silk_road_downstream_player_sub_region_effect = yes
+		if = {
+			limit = { exists = scope:player_sub_region_temp }
+			send_interface_message = {
+				type = msg_silk_road_prosperity_peace_good
+				title = msg_silk_road_prosperity_upstream_peace
+				desc = tgp_silk_road_move_sub_region_towards_exceptional_bounty_tt
+				scope:player_sub_region_temp = {
+					if = {
+						limit = { sub_region_current_phase = phase_hardship }
+						if = {
+							limit = { this = scope:origin_sub_region_temp }
+							custom_tooltip = tgp_silk_road_move_sub_region_towards_steady_trading_primary_tt
+						}
+						else_if = { 
+							limit = { is_in_list = second_sub_regions }
+							custom_tooltip = tgp_silk_road_move_sub_region_towards_steady_trading_secondary_tt
+						}
+						else = { custom_tooltip = tgp_silk_road_move_sub_region_towards_steady_trading_tertiary_tt }
+					}
+					else_if = {
+						limit = {
+							NOT = { sub_region_current_phase = phase_exceptional_bounty }
+						}
+						if = {
+							limit = { this = scope:origin_sub_region_temp }
+							custom_tooltip = tgp_silk_road_move_sub_region_towards_exceptional_bounty_primary_tt
+						}
+						else_if = {
+							limit = { is_in_list = second_sub_regions }
+							custom_tooltip = tgp_silk_road_move_sub_region_towards_exceptional_bounty_secondary_tt
+						}
+						else = { custom_tooltip = tgp_silk_road_move_sub_region_towards_exceptional_bounty_tertiary_tt }
+					}
+				}
+			}
+		}
+	}
+}
+
+tgp_silk_road_innovation_setup_add_effect = {
+	add_to_variable_list = { name = silk_road_unlocked_innovations target = culture_innovation:innovation_$INNOVATION$ }
+	add_innovation = innovation_$INNOVATION$
+}
+
+# Situation scope. This replaces neutral_situation.0007, whose six fixed
+# sub-region references are not valid for the four-section 184 map.
+tgp_silk_road_starting_innovations_effect = {
+	if = {
+		limit = { has_game_rule = silk_road_starting_innovations_random }
+		# Select three different innovations already known in Chang'an. Both middle
+		# routes deliberately share the second value from the first day onward.
+		random_culture_innovation = {
+			limit = {
+				has_innovation_parameter = silk_road_innovation_parameter
+				is_known_by_culture = title:c_uuii_p_867.culture
+			}
+			save_temporary_scope_as = innovation_1
+		}
+		random_culture_innovation = {
+			limit = {
+				has_innovation_parameter = silk_road_innovation_parameter
+				is_known_by_culture = title:c_uuii_p_867.culture
+				NOR = {
+					scope:innovation_1 ?= this
+				}
+			}
+			save_temporary_scope_as = innovation_2
+		}
+		random_culture_innovation = {
+			limit = {
+				has_innovation_parameter = silk_road_innovation_parameter
+				is_known_by_culture = title:c_uuii_p_867.culture
+				NOR = {
+					scope:innovation_1 ?= this
+					scope:innovation_2 ?= this
+				}
+			}
+			save_temporary_scope_as = innovation_3
+		}
+		if = {
+			limit = {
+				exists = scope:innovation_1
+				exists = scope:innovation_2
+				exists = scope:innovation_3
+			}
+			situation_sub_region:region_silk_road_eastern_section = {
+				set_variable = { name = innovation value = scope:innovation_1 }
+			}
+			situation_sub_region:region_silk_road_middle_northern_route = {
+				set_variable = { name = innovation value = scope:innovation_2 }
+			}
+			situation_sub_region:region_silk_road_middle_southern_route = {
+				set_variable = { name = innovation value = scope:innovation_2 }
+			}
+			situation_sub_region:region_silk_road_western_section = {
+				set_variable = { name = innovation value = scope:innovation_3 }
+			}
+		}
+		else = {
+			tgp_silk_road_set_184_preset_innovations_effect = yes
+		}
+	}
+	else = {
+		tgp_silk_road_set_184_preset_innovations_effect = yes
+	}
+}
+
+tgp_silk_road_set_184_preset_innovations_effect = {
+	situation_sub_region:region_silk_road_eastern_section = {
+		set_variable = { name = innovation value = culture_innovation:innovation_sericulture }
+	}
+	situation_sub_region:region_silk_road_middle_northern_route = {
+		set_variable = { name = innovation value = culture_innovation:innovation_dragon_kiln }
+	}
+	situation_sub_region:region_silk_road_middle_southern_route = {
+		set_variable = { name = innovation value = culture_innovation:innovation_dragon_kiln }
+	}
+	situation_sub_region:region_silk_road_western_section = {
+		set_variable = { name = innovation value = culture_innovation:innovation_cupellation }
+	}
+}
+
+tgp_silk_road_innovation_setup_effect = {
+	if = {
+		limit = { has_tgp_dlc_trigger = yes }
+		# CHAM
+		culture:cham = {
+			tgp_silk_road_innovation_setup_add_effect = { INNOVATION = champa_rice }
+		}
+		# VIET
+		culture:viet = {
+			if = {
+				limit = {
+					game_start_date >= 1066.1.1
+				}
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = champa_rice }
+			}
+		}
+		# JAPAN
+		culture:japanese = {
+			tgp_silk_road_innovation_setup_add_effect = { INNOVATION = lacquered_armor }
+		}
+		# KOREA
+		culture:baekje = {
+			tgp_silk_road_innovation_setup_add_effect = { INNOVATION = lacquered_armor }
+		}
+		culture:goguryeo = {
+			tgp_silk_road_innovation_setup_add_effect = { INNOVATION = lacquered_armor }
+		}
+		culture:silla = {
+			tgp_silk_road_innovation_setup_add_effect = { INNOVATION = lacquered_armor }
+		}
+		culture:goryeo = {
+			if = {
+				limit = {
+					game_start_date >= 1066.1.1
+				}
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = lacquered_armor }
+			}
+		}
+		# CHINA
+		culture:han = {
+			# Crossbows, metallurgy, ceramics, medicine, silk and water engineering
+			# are available to the Han culture in the 184 bookmark.
+			tgp_silk_road_innovation_setup_add_effect = { INNOVATION = composite_crossbow }
+			tgp_silk_road_innovation_setup_add_effect = { INNOVATION = cupellation }
+			tgp_silk_road_innovation_setup_add_effect = { INNOVATION = dragon_kiln }
+			tgp_silk_road_innovation_setup_add_effect = { INNOVATION = lacquered_armor }
+			tgp_silk_road_innovation_setup_add_effect = { INNOVATION = pharmacopoeia }
+			tgp_silk_road_innovation_setup_add_effect = { INNOVATION = sericulture }
+			tgp_silk_road_innovation_setup_add_effect = { INNOVATION = waterworks }
+			if = {
+				limit = { game_start_date >= 867.1.1 }
+				# Woodblock printing and coking are later developments and must not be
+				# granted retroactively in the 184 bookmark.
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = block_printing }
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = coking }
+			}
+			if = {
+				limit = {
+					game_start_date >= 1066.1.1
+				}
+				# Known by Song
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = bulkheads }
+				# Introduced to the Song court by 977
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = champa_rice }
+				# Lodestone compasses by 1088
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = compass }
+				# 10-11th century
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = double_entry_bookkeeping }
+				# First edition of the Wujing Zongyao and the first written formulation of weaponized gunpowder
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = fire_medicine }
+				# 震天雷 by 1044
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = grenades }
+			}
+		}
+		# Chinese heritage cultures without han.txt 1044 entry: match heritage_chinese history date
+		culture:yi = {
+			if = {
+				limit = {
+					game_start_date >= 1044.1.1
+				}
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = fire_medicine }
+			}
+		}
+		culture:bai = {
+			if = {
+				limit = {
+					game_start_date >= 1044.1.1
+				}
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = fire_medicine }
+			}
+		}
+	}
+}
+
+tgp_silk_road_movement_stream_effect = {
+	$SUB_REGION$ ?= {
+		save_temporary_scope_as = sub_region_temp
+		var:innovation ?= { save_temporary_scope_as = old_innovation_temp }
+	}
+	$UPSTREAM_SUB_REGION$ = {
+		save_temporary_scope_as = upstream_sub_region_temp
+		var:innovation ?= { save_temporary_scope_as = new_innovation_temp }
+	}
+	scope:sub_region_temp ?= {
+		if = {
+			limit = { exists = scope:new_innovation_temp }
+			every_player = {
+				limit = {
+					save_temporary_scope_as = player_temp
+					scope:sub_region_temp = { any_situation_sub_region_participant = { this = scope:player_temp } }
+				}
+				send_interface_message = {
+					type = msg_silk_road_innovation_movement
+					title = msg_silk_road_innovation_movement_stream_title
+					desc = msg_silk_road_innovation_movement_stream_desc
+					custom_tooltip = msg_silk_road_innovation_movement_tt
+				}
+			}
+			set_variable = {
+				name = innovation
+				value = scope:new_innovation_temp
+			}
+		}
+	}
+}
+
+tgp_silk_road_movement_china_effect = {
+	situation_sub_region:region_silk_road_eastern_section = { save_temporary_scope_as = sub_region_temp }
+	save_scope_as = silk_road
+	# The 184 map's Chang'an county replaces vanilla c_jingzhao.
+	title:c_uuii_p_867 = {
+		culture = {
+			save_temporary_scope_as = region_silk_road_eastern_market_culture
+			random_culture_innovation = {
+				limit = {
+					has_innovation_parameter = silk_road_innovation_parameter
+					is_known_by_culture = scope:region_silk_road_eastern_market_culture
+					NOR = {
+						this = scope:silk_road.situation_sub_region:region_silk_road_eastern_section.var:innovation
+						this = scope:silk_road.situation_sub_region:region_silk_road_middle_northern_route.var:innovation
+						this = scope:silk_road.situation_sub_region:region_silk_road_middle_southern_route.var:innovation
+						this = scope:silk_road.situation_sub_region:region_silk_road_western_section.var:innovation
+					}
+				}
+				save_scope_as = new_innovation_temp
+			}
+		}
+	}
+	scope:sub_region_temp = {
+		if = {
+			limit = { exists = scope:new_innovation_temp }
+			every_player = {
+				limit = {
+					save_temporary_scope_as = player_temp
+					scope:sub_region_temp = { any_situation_sub_region_participant = { this = scope:player_temp } }
+				}
+				send_interface_message = {
+					type = msg_silk_road_innovation_movement
+					title = msg_silk_road_innovation_movement_china_title
+					desc = msg_silk_road_innovation_movement_china_desc
+					custom_tooltip = msg_silk_road_innovation_movement_tt
+				}
+			}
+			set_variable = {
+				name = innovation
+				value = scope:new_innovation_temp
+			}
+		}
+	}
+}
+
+tgp_silk_road_decision_scope_effect = {
+	save_scope_as = market_temp
+	title_province = {
+		save_scope_as = destination_province
+		save_scope_as = background_market_scope
+		save_scope_as = silk_road_market_town
+	}
+	random_county_situation_sub_region = {
+		limit = {
+			situation_sub_region_has_county = scope:market_temp
+			OR = {
+				sub_region_current_phase = phase_exceptional_bounty
+				sub_region_current_phase = phase_steady_trading
+				sub_region_current_phase = phase_hardship
+			}
+		}
+		save_scope_as = sub_region_temp
+		var:innovation ?= { save_scope_as = innovation_temp }
+	}
+}
+
+tgp_silk_road_market_built_effect = {
+	if = {
+		limit = { NOT = { exists = global_var:hd_silk_road_installing_markets } }
+		county = {
+			save_temporary_scope_as = county_temp
+			random_county_situation = {
+				limit = {
+					situation_type = silk_road_situation
+					situation_has_catalyst = catalyst_silk_road_famous_market_built
+				}
+				trigger_situation_catalyst = {
+					catalyst = catalyst_silk_road_famous_market_built
+					county = scope:county_temp
+					character = scope:character
+				}
+			}
+		}
+	}
+}
+
+tgp_silk_road_canal_built_effect = {
+	situation:silk_road_situation ?= {
+		if = {
+			limit = { situation_has_catalyst = catalyst_silk_road_china_grand_canal_expanded }
+			situation_sub_region:region_silk_road_eastern_section ?= {
+				trigger_sub_region_catalyst = {
+					catalyst = catalyst_silk_road_china_grand_canal_expanded
+					character = scope:owner
+				}
+			}
+		}
+		if = {
+			limit = { situation_has_catalyst = catalyst_silk_road_china_grand_canal_expanded_secondary }
+			situation_sub_region:region_silk_road_middle_northern_route ?= {
+				trigger_sub_region_catalyst = {
+					catalyst = catalyst_silk_road_china_grand_canal_expanded_secondary
+					character = scope:owner
+				}
+			}
+			situation_sub_region:region_silk_road_middle_southern_route ?= {
+				trigger_sub_region_catalyst = {
+					catalyst = catalyst_silk_road_china_grand_canal_expanded_secondary
+					character = scope:owner
+				}
+			}
+		}
+		if = {
+			limit = { situation_has_catalyst = catalyst_silk_road_china_grand_canal_expanded_tertiary }
+			situation_sub_region:region_silk_road_western_section ?= {
+				trigger_sub_region_catalyst = {
+					catalyst = catalyst_silk_road_china_grand_canal_expanded_tertiary
+					character = scope:owner
+				}
+			}
+		}
+	}
+}
+
+tgp_silk_road_expand_steppe_effect = {
+	# Compatibility stub: vanilla callers pass removed six-region suffixes.
+	# Consume SUB_REGION in an unreachable debug string so post-validation
+	# accepts legacy callers without creating unused variables or resolving
+	# any removed geographic object.
+	if = {
+		limit = { always = no }
+		debug_log = "Ignored legacy Silk Road steppe expansion for $SUB_REGION$"
+	}
+}
+
+tgp_silk_road_raid_effect = { # county scope
+	if = {
+		limit = {
+			title_province = { geographical_region = dlc_tgp_silk_road_route_region } # the actual route
+		}
+		save_scope_as = county_temp
+		random_county_situation = {
+			limit = {
+				situation_type = silk_road_situation
+				situation_has_catalyst = catalyst_silk_road_raided
+			}
+			trigger_situation_catalyst = {
+				catalyst = catalyst_silk_road_raided
+				county = scope:county_temp
+				character = scope:raider
+			}
+		}
+	}
+}
+
+tgp_silk_road_mongol_devastation_effect = { # county scope
+	if = {
+		limit = {
+			title_province = { geographical_region = dlc_tgp_silk_road_route_region } # the actual route
+		}
+		save_temporary_scope_as = county_temp
+		random_county_situation = {
+			limit = {
+				situation_type = silk_road_situation
+				situation_has_catalyst = catalyst_silk_road_mongol_devastation
+			}
+			trigger_situation_catalyst = {
+				catalyst = catalyst_silk_road_mongol_devastation
+				county = scope:county_temp
+				character = scope:mongol_emperor
+			}
+		}
+	}
+}
+
+tgp_silk_road_iranian_intermezzo_yearly_effect = {
+	# Persia is outside this total-conversion map.
+}
+
+tgp_silk_road_iranian_intermezzo_ending_effect = {
+	# Persia is outside this total-conversion map.
+}
+
+tgp_silk_road_china_consolidation_effect = {
+	situation:silk_road_situation ?= {
+		if = {
+			limit = { situation_has_catalyst = catalyst_silk_road_china_consolidation }
+			every_situation_sub_region = {
+				trigger_sub_region_catalyst = {
+					catalyst = catalyst_silk_road_china_consolidation
+					character = scope:huangdi
+				}
+			}
+		}
+	}
+}
+
+tgp_silk_road_china_stability_effect = {
+	if = {
+		limit = {
+			situation:dynastic_cycle = {
+				OR = {
+					situation_current_phase = situation_dynastic_cycle_phase_stability
+					situation_current_phase = situation_dynastic_cycle_phase_stability_expansion
+					situation_current_phase = situation_dynastic_cycle_phase_stability_advancement
+				}
+			}
+		}
+		situation:silk_road_situation ?= {
+			if = {
+				limit = { situation_has_catalyst = catalyst_silk_road_china_stability }
+				every_situation_sub_region = {
+					trigger_sub_region_catalyst = {
+						catalyst = catalyst_silk_road_china_stability
+						character = scope:huangdi
+					}
+				}
+			}
+		}
+	}
+}
+
+tgp_silk_road_feudalize_holding_effect = {
+	save_temporary_scope_as = county_temp
+	random_county_situation = {
+		limit = {
+			situation_type = silk_road_situation
+			situation_has_catalyst = catalyst_silk_road_mpo_region_resettled
+		}
+		trigger_situation_catalyst = {
+			catalyst = catalyst_silk_road_mpo_region_resettled
+			county = scope:county_temp
+			character = scope:actor
+		}
+	}
+}
+
+tgp_silk_road_byzantium_destroyed_effect = {
+	# Byzantium is outside this total-conversion map.
+}
+
+tgp_silk_road_phase_message_effect = {
+	every_player = {
+		limit = {
+			save_temporary_scope_as = player_temp
+			scope:situation_sub_region ?= {
+				any_situation_sub_region_participant_group = { participant_group_has_character = scope:player_temp }
+			}
+		}
+		if = {
+			limit = {
+				scope:situation_sub_region = { sub_region_current_phase = phase_exceptional_bounty }
+			}
+			send_interface_message = {
+				type = msg_silk_road_good
+				title = msg_silk_road_phase_change_title
+				custom_tooltip = msg_silk_road_phase_change_tt
+			}
+		}
+		else_if = {
+			limit = {
+				scope:situation_sub_region = { sub_region_current_phase = phase_hardship}
+			}
+			send_interface_message = {
+				type = msg_silk_road_bad
+				title = msg_silk_road_phase_change_title
+				custom_tooltip = msg_silk_road_phase_change_tt
+			}
+		}
+		else = {
+			send_interface_message = {
+				type = msg_silk_road_neutral
+				title = msg_silk_road_phase_change_title
+				custom_tooltip = msg_silk_road_phase_change_tt
+			}
+		}
+	}
+}

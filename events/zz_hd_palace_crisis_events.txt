@@ -1,0 +1,264 @@
+namespace = hd_palace_crisis
+
+# The first player-facing palace event is scheduled by the Yellow Turban
+# failure effect roughly two years after the rebellion has ended.
+hd_palace_crisis.0001 = {
+	type = character_event
+	title = hd_palace_crisis.0001.t
+	desc = hd_palace_crisis.0001.desc
+	theme = intrigue
+	left_portrait = { character = root animation = personality_cynical }
+	trigger = {
+		exists = global_var:hd_palace_crisis_started
+		is_alive = yes
+		OR = { this = character:he_jin this = character:yuan_shao this = character:cao_cao }
+	}
+	immediate = { add_character_flag = hd_palace_crisis_controller }
+	option = {
+		name = hd_palace_crisis.0001.a
+		trigger_event = { id = hd_palace_crisis.0002 days = { 20 50 } }
+		ai_chance = { base = 100 }
+	}
+}
+
+hd_palace_crisis.0002 = {
+	type = character_event
+	title = hd_palace_crisis.0002.t
+	desc = hd_palace_crisis.0002.desc
+	theme = intrigue
+	left_portrait = { character = root animation = personality_rational }
+	trigger = {
+		exists = global_var:hd_palace_crisis_started
+		is_alive = yes
+		has_character_flag = hd_palace_crisis_controller
+	}
+	option = {
+		name = hd_palace_crisis.0002.a
+		if = {
+			limit = { title:k_uuii_liangzhou.holder ?= { is_alive = yes } }
+			title:k_uuii_liangzhou.holder = {
+				set_global_variable = { name = hd_palace_liangzhou_holder value = this }
+				trigger_event = { id = hd_palace_crisis.0003 days = { 20 50 } }
+			}
+		}
+		else = {
+			set_global_variable = { name = hd_palace_liangzhou_missing value = yes }
+			character:he_jin ?= { trigger_event = { id = hd_palace_crisis.0004 days = { 20 50 } } }
+		}
+		ai_chance = { base = 100 }
+	}
+}
+
+hd_palace_crisis.0003 = {
+	type = character_event
+	title = hd_palace_crisis.0003.t
+	desc = hd_palace_crisis.0003.desc
+	theme = diplomacy
+	left_portrait = { character = root animation = personality_rational }
+	trigger = {
+		exists = global_var:hd_palace_crisis_started
+		is_alive = yes
+		global_var:hd_palace_liangzhou_holder ?= { this = root }
+		character:he_jin ?= { is_alive = yes }
+	}
+	option = {
+		name = hd_palace_crisis.0003.a
+		set_global_variable = { name = hd_palace_liangzhou_accept value = yes }
+		character:he_jin = { trigger_event = { id = hd_palace_crisis.0004 days = { 20 50 } } }
+		ai_chance = { base = 100 }
+	}
+	option = {
+		name = hd_palace_crisis.0003.b
+		set_global_variable = { name = hd_palace_liangzhou_refused value = yes }
+		character:he_jin = { trigger_event = { id = hd_palace_crisis.0004 days = { 20 50 } } }
+		ai_chance = { base = 0 }
+	}
+}
+
+hd_palace_crisis.0004 = {
+	type = character_event
+	title = hd_palace_crisis.0004.t
+	desc = hd_palace_crisis.0004.desc
+	theme = intrigue
+	left_portrait = { character = root animation = personality_coward }
+	trigger = {
+		exists = global_var:hd_palace_crisis_started
+		this = character:he_jin
+		is_alive = yes
+		NOT = { exists = global_var:hd_palace_he_jin_killed }
+	}
+	immediate = {
+		character:zhang_rang ?= { if = { limit = { is_alive = yes } save_scope_as = hd_palace_killer } }
+		if = {
+			limit = { NOT = { exists = scope:hd_palace_killer } }
+			character:zhao_zhong ?= { if = { limit = { is_alive = yes } save_scope_as = hd_palace_killer } }
+		}
+	}
+	option = {
+		name = hd_palace_crisis.0004.a
+		set_global_variable = { name = hd_palace_he_jin_killed value = yes }
+		if = {
+			limit = { exists = scope:hd_palace_killer }
+			death = { death_reason = death_murder killer = scope:hd_palace_killer }
+		}
+		else = { death = { death_reason = death_murder } }
+		if = {
+			limit = { character:yuan_shao ?= { is_alive = yes is_local_player = yes } }
+			character:yuan_shao = { trigger_event = { id = hd_palace_crisis.0005 days = { 20 50 } } }
+		}
+		else_if = {
+			limit = { character:cao_cao ?= { is_alive = yes is_local_player = yes } }
+			character:cao_cao = { trigger_event = { id = hd_palace_crisis.0005 days = { 20 50 } } }
+		}
+		else_if = {
+			limit = { character:yuan_shao ?= { is_alive = yes } }
+			character:yuan_shao = { trigger_event = { id = hd_palace_crisis.0005 days = { 20 50 } } }
+		}
+		else_if = {
+			limit = { character:cao_cao ?= { is_alive = yes } }
+			character:cao_cao = { trigger_event = { id = hd_palace_crisis.0005 days = { 20 50 } } }
+		}
+		ai_chance = { base = 100 }
+	}
+}
+
+hd_palace_crisis.0005 = {
+	type = character_event
+	title = hd_palace_crisis.0005.t
+	desc = hd_palace_crisis.0005.desc
+	theme = war
+	left_portrait = { character = root animation = personality_bold }
+	trigger = {
+		exists = global_var:hd_palace_he_jin_killed
+		is_alive = yes
+		OR = { this = character:yuan_shao this = character:cao_cao }
+	}
+	immediate = { set_global_variable = { name = hd_palace_purge_leader value = this } }
+	option = {
+		name = hd_palace_crisis.0005.a
+		character:zhang_rang ?= { if = { limit = { is_alive = yes } death = { death_reason = death_execution killer = root } } }
+		character:zhao_zhong ?= { if = { limit = { is_alive = yes } death = { death_reason = death_execution killer = root } } }
+		character:duan_gui ?= { if = { limit = { is_alive = yes } death = { death_reason = death_execution killer = root } } }
+		character:guo_sheng ?= { if = { limit = { is_alive = yes } death = { death_reason = death_execution killer = root } } }
+		character:xia_yun ?= { if = { limit = { is_alive = yes } death = { death_reason = death_execution killer = root } } }
+		character:gao_wang ?= { if = { limit = { is_alive = yes } death = { death_reason = death_execution killer = root } } }
+		character:sun_zhang ?= { if = { limit = { is_alive = yes } death = { death_reason = death_execution killer = root } } }
+		character:li_song_4 ?= { if = { limit = { is_alive = yes } death = { death_reason = death_execution killer = root } } }
+		character:han_kui ?= { if = { limit = { is_alive = yes } death = { death_reason = death_execution killer = root } } }
+		character:zhang_gong ?= { if = { limit = { is_alive = yes } death = { death_reason = death_execution killer = root } } }
+		if = {
+			limit = { exists = global_var:hd_palace_liangzhou_accept }
+			if = {
+				limit = { global_var:hd_palace_liangzhou_holder ?= { is_alive = yes } }
+				global_var:hd_palace_liangzhou_holder = { trigger_event = { id = hd_palace_crisis.0006 months = 1 } }
+			}
+			else = { title:k_uuii_liangzhou.holder ?= { trigger_event = { id = hd_palace_crisis.0006 months = 1 } } }
+		}
+		else = { trigger_event = { id = hd_palace_crisis.0007 days = { 20 50 } } }
+		ai_chance = { base = 100 }
+	}
+}
+
+hd_palace_crisis.0006 = {
+	type = character_event
+	title = hd_palace_crisis.0006.t
+	desc = hd_palace_crisis.0006.desc
+	theme = war
+	left_portrait = { character = root animation = personality_bold }
+	trigger = { is_alive = yes exists = global_var:hd_palace_liangzhou_accept }
+	option = {
+		name = hd_palace_crisis.0006.a
+		create_title_and_vassal_change = { type = granted save_scope_as = hd_palace_sili_change add_claim_on_loss = no }
+		title:k_uuii_sili = { change_title_holder_include_vassals = { holder = root change = scope:hd_palace_sili_change } }
+		resolve_title_and_vassal_change = scope:hd_palace_sili_change
+		title:e_han.holder = {
+			if = { limit = { exists = diarch } diarch = { remove_character_flag = hd_current_han_regent } }
+			try_start_diarchy = regency
+			set_diarch = root
+			set_diarchy_swing = 20
+		}
+		add_character_flag = hd_current_han_regent
+		remove_global_variable = hd_palace_liangzhou_accept
+		remove_global_variable = hd_palace_liangzhou_holder
+		trigger_event = { id = hd_palace_crisis.0008 years = 1 }
+		ai_chance = { base = 100 }
+	}
+}
+
+# Stable alternate line: the commander who led the purge takes Sili and the
+# maximum regency, but no deposition or coalition is scheduled.
+hd_palace_crisis.0007 = {
+	type = character_event
+	title = hd_palace_crisis.0007.t
+	desc = hd_palace_crisis.0007.desc
+	theme = intrigue
+	left_portrait = { character = root animation = personality_rational }
+	trigger = { is_alive = yes exists = global_var:hd_palace_purge_leader }
+	option = {
+		name = hd_palace_crisis.0007.a
+		create_title_and_vassal_change = { type = granted save_scope_as = hd_stable_sili_change add_claim_on_loss = no }
+		title:k_uuii_sili = { change_title_holder_include_vassals = { holder = root change = scope:hd_stable_sili_change } }
+		resolve_title_and_vassal_change = scope:hd_stable_sili_change
+		title:e_han.holder = {
+			if = { limit = { exists = diarch } diarch = { remove_character_flag = hd_current_han_regent } }
+			try_start_diarchy = regency
+			set_diarch = root
+			set_diarchy_swing = 95
+		}
+		add_character_flag = hd_current_han_regent
+		set_global_variable = hd_palace_crisis_completed
+		remove_global_variable = hd_palace_liangzhou_refused
+		remove_global_variable = hd_palace_liangzhou_holder
+		remove_global_variable = hd_palace_crisis_started
+		ai_chance = { base = 100 }
+	}
+}
+
+# One year after becoming regent, the regent installs Liu Xie and Yuan Shao
+# leaves for Bohai.  The current holder of the regency is always used as the
+# political target; Dong Zhuo is only a special text branch.
+hd_palace_crisis.0008 = {
+	type = character_event
+	title = hd_palace_crisis.0008.t
+	desc = hd_palace_crisis.0008.desc
+	theme = crown
+	left_portrait = { character = root animation = personality_bold }
+	trigger = { is_alive = yes has_character_flag = hd_current_han_regent }
+	option = {
+		name = hd_palace_crisis.0008.a
+		if = {
+			limit = { character:liu_xie ?= { is_alive = yes } }
+			create_title_and_vassal_change = { type = usurped save_scope_as = hd_han_deposition_change add_claim_on_loss = no }
+			title:e_han = { change_title_holder = { holder = character:liu_xie change = scope:hd_han_deposition_change } }
+			resolve_title_and_vassal_change = scope:hd_han_deposition_change
+			character:liu_xie = { try_start_diarchy = regency set_diarch = root set_diarchy_swing = 20 }
+		}
+		else = {
+			character:liu_bian ?= { if = { limit = { is_alive = yes } save_scope_as = hd_fallback_han_emperor } }
+			if = {
+				limit = { NOT = { exists = scope:hd_fallback_han_emperor } }
+				character:liu_yun ?= { if = { limit = { is_alive = yes } save_scope_as = hd_fallback_han_emperor } }
+			}
+			if = {
+				limit = { exists = scope:hd_fallback_han_emperor }
+				create_title_and_vassal_change = { type = usurped save_scope_as = hd_han_fallback_change add_claim_on_loss = no }
+				title:e_han = { change_title_holder = { holder = scope:hd_fallback_han_emperor change = scope:hd_han_fallback_change } }
+				resolve_title_and_vassal_change = scope:hd_han_fallback_change
+				scope:hd_fallback_han_emperor = { try_start_diarchy = regency set_diarch = root set_diarchy_swing = 20 }
+			}
+		}
+		character:yuan_shao ?= {
+			if = {
+				limit = { is_alive = yes }
+				create_title_and_vassal_change = { type = granted save_scope_as = hd_bohai_change add_claim_on_loss = no }
+				title:d_bohai = { change_title_holder_include_vassals = { holder = character:yuan_shao change = scope:hd_bohai_change } }
+				resolve_title_and_vassal_change = scope:hd_bohai_change
+				trigger_event = { id = hd_anti_regent.0001 months = { 2 4 } }
+			}
+		}
+		character:cao_cao ?= { if = { limit = { is_alive = yes } trigger_event = { id = hd_cao_chain.0001 days = { 20 50 } } } }
+		set_global_variable = hd_palace_crisis_completed
+		remove_global_variable = hd_palace_crisis_started
+		ai_chance = { base = 100 }
+	}
+}

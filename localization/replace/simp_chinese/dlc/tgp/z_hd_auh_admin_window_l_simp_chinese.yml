@@ -1,0 +1,2 @@
+﻿l_simp_chinese:
+ ADMIN_WINDOW_THEME_GOVERNOR_EFFICIENCY_VALID_TT: "#T [governor_efficiency|E]：$ADMIN_WINDOW_THEME_GOVERNOR_EFFICIENCY_VALUE$#!\n#weak （最低：#N -50%#!；最高：#P +50%#!）#!\n\n基础：#N -100#!\n[Character.MakeScope().GetScriptValueDesc('governor_efficiency')]\n\n#T [kuzhu_governor_political_power|E]：[Character.MakeScope().ScriptValue('kuzhu_governor_political_power')]%#!\n[Character.MakeScope().GetScriptValueDesc('kuzhu_governor_political_power')]"

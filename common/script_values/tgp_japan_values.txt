@@ -1,0 +1,7 @@
+# UUII excludes the Japanese map, historical dynasties, houses and governments.
+#
+# The former file was an obsolete copy of TGP's Japan-only war, house aspiration
+# and bookmark scoring values.  Its static dynasty and house references no
+# longer exist in UUII's final database and produced a large PostValidate error
+# block.  Keep this same-name file intentionally empty so the vanilla copy is
+# not loaded back into the reduced map.

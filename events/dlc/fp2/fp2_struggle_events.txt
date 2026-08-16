@@ -1,0 +1,52 @@
+# Unsupported vanilla regional event chain retained only as inert public shells.
+namespace = fp2_struggle
+
+fp2_struggle.0003 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_struggle.004 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_struggle.0501 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_struggle.0900 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_struggle.0902 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_struggle.0910 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_struggle.0911 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_struggle.0912 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_struggle.1000 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_struggle.1001 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_struggle.1002 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_struggle.1010 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_struggle.1011 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_struggle.1012 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_struggle.1020 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_struggle.1050 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_struggle.2000 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_struggle.2001 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_struggle.2002 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_struggle.2003 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_struggle.2004 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_struggle.2005 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_struggle.2006 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_struggle.2007 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_struggle.2008 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_struggle.2009 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_struggle.2010 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_struggle.2011 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_struggle.2012 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_struggle.2013 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_struggle.2014 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_struggle.2015 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_struggle.2016 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_struggle.2021 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_struggle.2022 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_struggle.3001 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_struggle.3011 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_struggle.3021 = { type = character_event hidden = yes trigger = { always = no } }
+
+scripted_trigger fp2_event2006_check_if_right_vassal_target = { always = no }
+scripted_trigger fp2_struggle_1000_tension_councillor_trigger = { always = no }
+scripted_trigger fp2_struggle_1000_tension_county_trigger = { always = no }
+scripted_trigger fp2_struggle_2000_check_holds_city_scripted_trigger = { always = no }
+scripted_trigger fp2_struggle_2001_desperate_county_scripted_trigger = { always = no }
+scripted_trigger fp2_struggle_2003_check_has_city_scripted_trigger = { always = no }
+scripted_trigger fp2_struggle_2007_can_build_castle_trigger = { always = no }
+scripted_trigger fp2_struggle_2008_check_actor_eligibility_scripted_trigger = { always = no }
+scripted_trigger fp2_struggle_2015_vassal_check_trigger = { always = no }
+scripted_trigger neighboring_ruler_proper_culture_trigger = { always = no }

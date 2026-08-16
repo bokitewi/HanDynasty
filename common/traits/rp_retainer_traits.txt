@@ -1,0 +1,51 @@
+﻿rp_retainer_warrior = {
+	icon = gallant.dds
+	prowess = 4
+	martial = 1
+	ruler_designer_cost = 0
+	desc = rp_retainer_warrior_desc
+}
+
+rp_retainer_diplomat = {
+	icon = diplomat.dds
+	diplomacy = 3
+	monthly_prestige = 0.1
+	ruler_designer_cost = 0
+	desc = rp_retainer_diplomat_desc
+}
+
+rp_retainer_strategist = {
+	icon = strategist.dds
+	martial = 2
+	intrigue = 3
+	ruler_designer_cost = 0
+	desc = rp_retainer_strategist_desc
+}
+
+rp_retainer_steward = {
+	icon = overseer.dds
+	stewardship = 3
+	vassal_tax_contribution_mult = 0.02
+	ruler_designer_cost = 0
+	desc = rp_retainer_steward_desc
+}
+
+rp_retainer_spymaster = {
+	icon = schemer.dds
+	intrigue = 4
+	owned_hostile_scheme_success_chance_add = 5
+	ruler_designer_cost = 0
+	desc = rp_retainer_spymaster_desc
+}
+
+rp_retainer_prodigy = {
+	icon = scholar.dds
+	diplomacy = 2
+	martial = 2
+	stewardship = 2
+	intrigue = 2
+	learning = 2
+	monthly_prestige = 0.2
+	ruler_designer_cost = 0
+	desc = rp_retainer_prodigy_desc
+}

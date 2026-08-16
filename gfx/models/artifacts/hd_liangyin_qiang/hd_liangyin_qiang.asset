@@ -1,0 +1,37 @@
+pdxmesh = {
+	name = "hd_liangyin_qiang_portrait_mesh"
+	file = "hd_liangyin_qiang_portrait.mesh"
+	meshsettings = {
+		name = "hd_liangyin_qiang_portrait_mainShape"
+		index = 0
+		texture_diffuse = "hd_liangyin_qiang_main_diffuse.dds"
+		texture_normal = "hd_liangyin_qiang_main_normal.dds"
+		texture_specular = "hd_liangyin_qiang_main_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "hd_liangyin_qiang_portrait_entity"
+	pdxmesh = "hd_liangyin_qiang_portrait_mesh"
+}
+
+pdxmesh = {
+	name = "hd_liangyin_qiang_court_mesh"
+	file = "hd_liangyin_qiang_court.mesh"
+	meshsettings = {
+		name = "hd_liangyin_qiang_court_mainShape"
+		index = 0
+		texture_diffuse = "hd_liangyin_qiang_main_diffuse.dds"
+		texture_normal = "hd_liangyin_qiang_main_normal.dds"
+		texture_specular = "hd_liangyin_qiang_main_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+entity = {
+	name = "hd_liangyin_qiang_court_entity"
+	pdxmesh = "hd_liangyin_qiang_court_mesh"
+}

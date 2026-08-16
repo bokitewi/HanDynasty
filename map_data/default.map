@@ -1,0 +1,68 @@
+definitions = "definition.csv"
+provinces = "provinces.png"
+rivers = "rivers.png"
+topology = "heightmap.heightmap"
+continent = "continent.txt"
+adjacencies = "adjacencies.csv"
+island_region = "island_region.txt"
+seasons = "seasons.txt"
+
+
+#############
+# SEA ZONES
+#############
+
+sea_zones = RANGE { 4545 4549 }
+sea_zones = RANGE { 4551 4574 }
+sea_zones = RANGE { 4576 4579 }
+sea_zones = RANGE { 4584 4621 }
+sea_zones = RANGE { 4630 4635 }
+sea_zones = RANGE { 4637 4641 }
+sea_zones = RANGE { 4667 4712 }
+sea_zones = RANGE { 4714 4717 }
+sea_zones = LIST { 184 589 2118 2411 2424 2890 2930 2972 3535 4070 4091 4312 4392 4504 4540 4581 4582 4623 4627 4661 4662 4663 4721 6906 6914 6995 7003 7078 }
+
+#############
+# MAJOR RIVERS
+#############
+
+river_provinces = LIST { 724 741 743 2120 2186 2333 2334 2336 2429 2436 2441 2449 2480 2822 2823 2964 2966 2985 4103 4220 4311 4395 4583 4718 4729 4730 4731 4734 6867 6930 6949 7028 }
+
+#############
+# LAKES
+#############
+
+lakes = RANGE { 1327 1330 }
+lakes = LIST { 1006 1007 1008 2170 2171 2222 2284 2316 2335 2433 2459 4397 4624 4626 4927 }
+
+#############
+# IMPASSABLE TERRAIN
+#############
+
+impassable_mountains = RANGE { 2406 2410 }
+impassable_mountains = RANGE { 2412 2420 }
+impassable_mountains = RANGE { 2444 2447 }
+impassable_mountains = RANGE { 2520 2527 }
+impassable_mountains = RANGE { 2581 2594 }
+impassable_mountains = RANGE { 2619 2627 }
+impassable_mountains = RANGE { 2638 2647 }
+impassable_mountains = RANGE { 2679 2682 }
+impassable_mountains = RANGE { 2691 2697 }
+impassable_mountains = RANGE { 2722 2737 }
+impassable_mountains = RANGE { 2780 2783 }
+impassable_mountains = RANGE { 3575 3578 }
+impassable_mountains = RANGE { 3580 3583 }
+impassable_mountains = RANGE { 3585 3603 }
+impassable_mountains = RANGE { 3619 3628 }
+impassable_mountains = RANGE { 4735 4745 }
+impassable_mountains = RANGE { 7115 7235 }
+impassable_mountains = RANGE { 7237 7242 }
+impassable_mountains = RANGE { 7327 7333 }
+impassable_mountains = RANGE { 7352 7360 }
+impassable_mountains = LIST { 127 225 316 387 452 471 510 575 751 766 767 796 797 834 835 846 918 919 925 941 975 1019 1020 1122 1123 1124 1166 1408 2181 2204 2276 2285 2290 2293 2294 2298 2301 2302 2399 2403 2404 2422 2450 2451 2489 2490 2532 2572 2573 2574 2597 2632 2633 2634 2665 2666 2667 2778 2816 2825 2828 2851 2860 2897 2938 2944 2952 2963 2990 3511 3540 3554 3558 3961 4002 4016 4026 4102 4129 4149 4166 4200 4228 4233 4240 4287 4325 4330 4332 4363 4377 4399 4460 4476 4486 4489 4501 4525 4636 4664 4727 4728 4951 4952 4954 4962 4969 4970 5385 5386 5387 5389 5391 5436 5487 5505 5542 5547 5595 5622 5666 5670 5738 5790 5802 5803 5820 5835 5876 5899 5997 6044 6079 6121 6164 6282 6335 6350 6354 6484 6485 6495 6535 6573 6611 6644 6667 6686 6699 6700 6737 6742 6866 6868 6898 6932 6947 6981 7102 7348 7349 7467 7468 7471 }
+
+#############
+# IMPASSABLE SEA ZONES
+#############
+
+impassable_seas = LIST { 2411 2424 }

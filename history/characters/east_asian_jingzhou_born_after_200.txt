@@ -1,0 +1,221 @@
+﻿# Generated from 華陽國志、三國志、三國演義、後漢書 and 漢晉春秋.
+# Culture: jingzhou
+# Time partition: born_after_200 (birth > 200).
+# No title history is assigned. Dates marked in the evidence audit may be estimates.
+
+##### 【霍弋】
+huo_yi={
+	name="uuii_book_huo_yi_name" #弋
+	dynasty_house="house_111010158001013"
+	culture="jingzhou"
+	faith="jingxue"
+	diplomacy="7"
+	martial="9"
+	stewardship="2"
+	intrigue="9"
+	learning="9"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_intrigue_4
+	trait=tk_historical_character02
+	trait=generous
+	trait=deceitful
+	trait=stubborn
+	250.7.1={
+		birth=yes
+	}
+	276.7.1={
+		death=yes
+	}
+}
+
+##### 【刘曜】
+liu_yao={
+	name="uuii_book_liu_yao_name" #曜
+	dynasty_house="house_111010250025013"
+	culture="jingzhou"
+	faith="jingxue"
+	diplomacy="6"
+	martial="8"
+	stewardship="8"
+	intrigue="7"
+	learning="4"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_martial_4
+	trait=tk_historical_character01
+	trait=wrathful
+	trait=stubborn
+	trait=brave
+	275.7.1={
+		birth=yes
+	}
+	329.7.1={
+		death=yes
+	}
+}
+
+##### 【刘熙】
+liu_xi_2={
+	name="uuii_book_liu_xi_2_name" #熙
+	dynasty_house="house_111010250025013"
+	culture="jingzhou"
+	faith="jingxue"
+	diplomacy="7"
+	martial="6"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_learning_4
+	trait=tk_historical_character01
+	trait=honest
+	trait=cynical
+	trait=sadistic
+	315.7.1={
+		birth=yes
+	}
+	329.7.1={
+		death=yes
+	}
+}
+
+##### 【刘寔】
+liu_shi_3={
+	name="uuii_book_liu_shi_3_name" #寔
+	dynasty_house="house_111010250025013"
+	father="liu_guang_3"
+	culture="jingzhou"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="5"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_diplomacy_4
+	trait=tk_historical_character01
+	trait=honest
+	trait=wrathful
+	trait=sadistic
+	220.7.1={
+		birth=yes
+	}
+	310.7.1={
+		death=yes
+	}
+}
+
+##### 【刘曜】
+liu_yao_3={
+	name="uuii_book_liu_yao_3_name" #曜
+	dynasty_house="house_111010250030013"
+	culture="jingzhou"
+	faith="jingxue"
+	diplomacy="6"
+	martial="8"
+	stewardship="8"
+	intrigue="7"
+	learning="4"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_martial_4
+	trait=tk_historical_character02
+	trait=wrathful
+	trait=stubborn
+	trait=brave
+	275.7.1={
+		birth=yes
+	}
+	329.7.1={
+		death=yes
+	}
+}
+
+##### 【桓彝】
+huan_yi={
+	name="uuii_book_huan_yi_name" #彝
+	dynasty_house="house_111010405001013"
+	culture="jingzhou"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_martial_4
+	trait=tk_historical_character01
+	trait=generous
+	trait=wrathful
+	trait=stubborn
+	276.7.1={
+		birth=yes
+	}
+	328.7.1={
+		death=yes
+	}
+}
+
+##### 【宗预】
+zong_yu_2={
+	name="uuii_book_zong_yu_2_name" #预
+	dynasty_house="uuii_book_house_61da12e0d715"
+	culture="jingzhou"
+	faith="jingxue"
+	diplomacy="7"
+	martial="8"
+	stewardship="7"
+	intrigue="5"
+	learning="5"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_martial_4
+	trait=tk_historical_character01
+	trait=zealous
+	trait=callous
+	trait=honest
+	229.7.1={
+		birth=yes
+	}
+	294.7.1={
+		death=yes
+	}
+}
+
+##### 【王连】
+wang_lian_2={
+	name="uuii_book_wang_lian_2_name" #连
+	dynasty_house="uuii_book_house_89979d25d74e"
+	culture="jingzhou"
+	faith="jingxue"
+	diplomacy="4"
+	martial="8"
+	stewardship="8"
+	intrigue="7"
+	learning="6"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_4
+	trait=tk_historical_character01
+	trait=callous
+	trait=fickle
+	trait=stubborn
+	233.7.1={
+		birth=yes
+	}
+	298.7.1={
+		death=yes
+	}
+}

@@ -1,0 +1,10 @@
+# Unsupported vanilla regional event chain retained only as inert public shells.
+namespace = neutral_situation
+
+neutral_situation.0001 = { type = character_event hidden = yes trigger = { always = no } }
+neutral_situation.0002 = { type = character_event hidden = yes trigger = { always = no } }
+neutral_situation.0003 = { type = character_event hidden = yes trigger = { always = no } }
+neutral_situation.0007 = { type = character_event hidden = yes trigger = { always = no } }
+
+namespace = neutral_struggle
+neutral_struggle.0001 = { type = character_event hidden = yes trigger = { always = no } }

@@ -1,0 +1,91 @@
+namespace = hd_peach_garden
+
+hd_peach_garden.0001 = {
+	type = character_event
+	title = hd_peach_garden.0001.t
+	desc = hd_peach_garden.0001.desc
+	theme = alliance
+	override_background = {
+		reference = garden_location
+	}
+
+	left_portrait = {
+		character = root
+		animation = gongshou
+		camera = camera_event_left_away_3_4
+	}
+
+	right_portrait = {
+		character = scope:guan_yu
+		animation = gongshou
+		camera = camera_event_right_to_the_right
+	}
+
+	lower_center_portrait = {
+		character = scope:zhang_fei
+		animation = gongshou
+	}
+
+	trigger = {
+		this = character:liu_bei
+		is_alive = yes
+		game_start_date = 184.1.1
+		current_date = 184.1.1
+		has_title = title:c_hd_nf_famous_h_house_111010250025033
+		has_government = celestial_government
+		NOT = { has_character_flag = hd_peach_garden_oath_completed }
+		character:guan_yu ?= {
+			is_alive = yes
+			is_landed = no
+		}
+		character:zhang_fei ?= {
+			is_alive = yes
+			is_landed = no
+		}
+	}
+
+	immediate = {
+		character:guan_yu ?= {
+			save_scope_as = guan_yu
+		}
+		character:zhang_fei ?= {
+			save_scope_as = zhang_fei
+		}
+	}
+
+	option = {
+		name = hd_peach_garden.0001.a
+
+		character:guan_yu = {
+			if = {
+				limit = { employer != root }
+				set_employer = root
+			}
+			set_relation_blood_brother = {
+				target = root
+			}
+		}
+
+		character:zhang_fei = {
+			if = {
+				limit = { employer != root }
+				set_employer = root
+			}
+			set_relation_blood_brother = {
+				target = root
+			}
+		}
+
+		character:guan_yu = {
+			set_relation_blood_brother = {
+				target = character:zhang_fei
+			}
+		}
+
+		add_character_flag = hd_peach_garden_oath_completed
+
+		ai_chance = {
+			base = 100
+		}
+	}
+}

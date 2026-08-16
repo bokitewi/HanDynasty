@@ -1,0 +1,44 @@
+pdxmesh = {
+	name = "hd_qinglong_yanyuedao_portrait_mesh"
+	file = "hd_qinglong_yanyuedao_portrait.mesh"
+
+	meshsettings = {
+		name = "hd_qinglong_yanyuedao_portraitShape"
+		index = 0
+		texture_diffuse = "hd_qinglong_yanyuedao_diffuse.dds"
+		texture_normal = "hd_qinglong_yanyuedao_normal.dds"
+		texture_specular = "hd_qinglong_yanyuedao_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "hd_qinglong_yanyuedao_portrait_left_entity"
+	pdxmesh = "hd_qinglong_yanyuedao_portrait_mesh"
+}
+
+entity = {
+	name = "hd_qinglong_yanyuedao_portrait_right_entity"
+	pdxmesh = "hd_qinglong_yanyuedao_portrait_mesh"
+}
+
+pdxmesh = {
+	name = "hd_qinglong_yanyuedao_court_mesh"
+	file = "hd_qinglong_yanyuedao_court.mesh"
+
+	meshsettings = {
+		name = "hd_qinglong_yanyuedao_courtShape"
+		index = 0
+		texture_diffuse = "hd_qinglong_yanyuedao_diffuse.dds"
+		texture_normal = "hd_qinglong_yanyuedao_normal.dds"
+		texture_specular = "hd_qinglong_yanyuedao_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+entity = {
+	name = "hd_qinglong_yanyuedao_court_entity"
+	pdxmesh = "hd_qinglong_yanyuedao_court_mesh"
+}

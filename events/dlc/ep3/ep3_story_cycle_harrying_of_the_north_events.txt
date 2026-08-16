@@ -1,0 +1,38 @@
+# Unsupported vanilla regional event chain retained only as inert public shells.
+namespace = ep3_story_cycle_harrying
+
+ep3_story_cycle_harrying.0001 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_story_cycle_harrying.0002 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_story_cycle_harrying.0003 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_story_cycle_harrying.0004 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_story_cycle_harrying.1000 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_story_cycle_harrying.1005 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_story_cycle_harrying.1010 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_story_cycle_harrying.1011 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_story_cycle_harrying.1015 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_story_cycle_harrying.2000 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_story_cycle_harrying.2001 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_story_cycle_harrying.2005 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_story_cycle_harrying.2010 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_story_cycle_harrying.2015 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_story_cycle_harrying.3000 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_story_cycle_harrying.3005 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_story_cycle_harrying.3010 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_story_cycle_harrying.3011 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_story_cycle_harrying.3015 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_story_cycle_harrying.3020 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_story_cycle_harrying.3021 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_story_cycle_harrying.3022 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_story_cycle_harrying.3050 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_story_cycle_harrying.3051 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_story_cycle_harrying.3052 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_story_cycle_harrying.3053 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_story_cycle_harrying.3054 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_story_cycle_harrying.3055 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_story_cycle_harrying.3056 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_story_cycle_harrying.3057 = { type = character_event hidden = yes trigger = { always = no } }
+
+scripted_trigger ep3_story_cycle_harrying_3010_ambushable_noble_trigger = { always = no }
+scripted_trigger harrying_1015_trigger = { always = no }
+
+scripted_effect ep3_story_cycle_harrying_3053_process_vassalisation_effect = { }

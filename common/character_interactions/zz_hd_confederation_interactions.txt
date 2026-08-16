@@ -1,0 +1,161 @@
+### Self-contained settled defensive league interactions ###
+
+hd_offer_defensive_league_interaction = {
+	category = interaction_category_diplomacy
+	icon = alliance
+	desc = hd_offer_defensive_league_interaction_desc
+	popup_on_receive = yes
+	pause_on_receive = yes
+	common_interaction = yes
+	cooldown_against_recipient = { years = 3 }
+
+	is_shown = {
+		scope:actor = {
+			is_independent_ruler = yes
+			hd_valid_defensive_league_member_trigger = { CHARACTER = this }
+			is_confederation_member = no
+		}
+		scope:recipient = {
+			is_independent_ruler = yes
+			hd_valid_defensive_league_member_trigger = { CHARACTER = this }
+			this != scope:actor
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		scope:actor = { is_imprisoned = no is_at_war = no }
+		scope:recipient = { is_imprisoned = no is_at_war = no }
+	}
+
+	cost = { prestige = 100 }
+	greeting = positive
+	notification_text = hd_offer_defensive_league_interaction_notification
+
+	ai_accept = {
+	base = 0
+	modifier = { add = 50 scope:recipient = { opinion = { target = scope:actor value >= 50 } } }
+	modifier = { add = 40 scope:recipient = { is_at_war = no } }
+	modifier = { add = 30 scope:recipient = { has_trait = brave } }
+	modifier = { add = -50 scope:recipient = { has_trait = craven } }
+	modifier = { add = -100 scope:recipient = { opinion = { target = scope:actor value <= -50 } } }
+	}
+
+	on_accept = {
+		if = {
+			limit = { scope:actor = { is_confederation_member = no } }
+			scope:actor = {
+				create_confederation = {
+					name = HD_DEFENSIVE_LEAGUE_NAME
+					type = confederation_type:hd_defensive_league_type
+				}
+			}
+			scope:actor = {
+				confederation = {
+					add_confederation_member = scope:recipient
+				}
+			}
+		}
+		else = {
+			scope:actor.confederation = { add_confederation_member = scope:recipient }
+		}
+		scope:actor.confederation = {
+			scope:actor = { set_variable = { name = hd_league_vote value = scope:actor } }
+			scope:recipient = { set_variable = { name = hd_league_vote value = scope:recipient } }
+		}
+		scope:actor = { hd_update_league_votes_effect = yes }
+	}
+}
+
+hd_demand_defensive_league_vote_interaction = {
+	category = interaction_category_diplomacy
+	icon = hook
+	desc = hd_demand_defensive_league_vote_interaction_desc
+	auto_accept = yes
+
+	is_shown = {
+		scope:actor = { hd_is_hd_defensive_league = yes }
+		scope:recipient = {
+			is_ai = yes
+			exists = confederation
+			confederation = scope:actor.confederation
+			this != scope:actor
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		OR = {
+			scope:actor = { has_hook = scope:recipient }
+			scope:actor = { is_allied_to = scope:recipient }
+		}
+	}
+
+	on_accept = {
+		scope:recipient = {
+			set_variable = { name = hd_league_forced_vote value = scope:actor }
+			set_variable = { name = hd_league_vote value = scope:actor }
+		}
+		scope:actor = { hd_update_league_votes_effect = yes }
+	}
+}
+
+hd_call_defensive_league_to_war_interaction = {
+	category = interaction_category_diplomacy
+	icon = alliance
+	desc = hd_call_defensive_league_to_war_interaction_desc
+	auto_accept = yes
+	cost = { prestige = 300 }
+
+	is_shown = {
+		scope:actor = {
+			hd_is_hd_defensive_league = yes
+			has_variable = hd_league_leader
+			var:hd_league_leader = this
+		}
+		scope:recipient = {
+			exists = confederation
+			confederation = scope:actor.confederation
+			this != scope:actor
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		scope:actor = {
+			is_at_war_as_attacker = yes
+			any_character_war = { primary_attacker = scope:actor }
+		}
+	}
+
+	on_accept = {
+		scope:actor = { hd_call_league_members_to_all_offensive_wars_effect = yes }
+	}
+}
+
+hd_join_defensive_league_interaction = {
+	category = interaction_category_diplomacy
+	icon = alliance
+	desc = hd_join_defensive_league_interaction_desc
+	popup_on_receive = yes
+	pause_on_receive = yes
+	common_interaction = yes
+
+	is_shown = {
+		scope:recipient = {
+			hd_is_hd_defensive_league = yes
+			is_alive = yes
+		}
+		scope:actor = {
+			is_independent_ruler = yes
+			is_confederation_member = no
+			hd_valid_defensive_league_member_trigger = { CHARACTER = this }
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		scope:actor = { is_imprisoned = no is_at_war = no }
+	}
+
+	auto_accept = yes
+	on_accept = {
+		scope:recipient.confederation = { add_confederation_member = scope:actor }
+	}
+}

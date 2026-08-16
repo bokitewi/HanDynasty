@@ -1,0 +1,123 @@
+﻿# Shared triggers for the Spring and Autumn situation.
+
+saas_situation_active_trigger = {
+	exists = situation:dynastic_cycle
+}
+
+saas_is_ritual_restoration_phase_trigger = {
+	situation:dynastic_cycle ?= {
+		OR = {
+			situation_current_phase = situation_dynastic_cycle_phase_stability_advancement
+			situation_current_phase = situation_dynastic_cycle_phase_stability_expansion
+		}
+	}
+}
+
+saas_is_ritual_collapse_phase_trigger = {
+	situation:dynastic_cycle ?= {
+		OR = {
+			situation_current_phase = situation_dynastic_cycle_phase_instability
+			situation_current_phase = situation_dynastic_cycle_phase_chaos
+		}
+	}
+}
+
+saas_is_warring_states_phase_trigger = {
+	situation:dynastic_cycle ?= {
+		situation_current_phase = situation_dynastic_cycle_phase_instability_conquest
+	}
+}
+
+saas_is_lijiao_ruler_trigger = {
+	religion = religion:lijiao_religion
+}
+
+saas_capital_in_huaxia_trigger = {
+	capital_province = {
+		OR = {
+			geographical_region = world_huaxia_jingzhou
+			geographical_region = world_huaxia_yangzhou
+			geographical_region = world_huaxia_yongzhou
+			geographical_region = world_huaxia_bingzhou
+			geographical_region = world_huaxia_yizhou
+			geographical_region = world_huaxia_qingzhou
+			geographical_region = world_huaxia_yuzhou
+			geographical_region = world_huaxia_sili
+			geographical_region = world_huaxia_jizhou
+		}
+	}
+}
+
+saas_location_in_huaxia_trigger = {
+	exists = location
+	location = {
+		OR = {
+			geographical_region = world_huaxia_jingzhou
+			geographical_region = world_huaxia_yangzhou
+			geographical_region = world_huaxia_yongzhou
+			geographical_region = world_huaxia_bingzhou
+			geographical_region = world_huaxia_yizhou
+			geographical_region = world_huaxia_qingzhou
+			geographical_region = world_huaxia_yuzhou
+			geographical_region = world_huaxia_sili
+			geographical_region = world_huaxia_jizhou
+		}
+	}
+}
+
+saas_eligible_participant_trigger = {
+	is_landed = yes
+	highest_held_title_tier >= tier_duchy
+	saas_capital_in_huaxia_trigger = yes
+}
+
+saas_is_wangdao_trigger = {
+	OR = {
+		top_participant_group:dynastic_cycle ?= {
+			OR = {
+				participant_group_type = hegemon_ruler
+				participant_group_type = pro_hegemon_movement
+			}
+		}
+		has_trait = character_involve_supporters_of_zhou_dynasty
+	}
+}
+
+saas_is_badao_trigger = {
+	OR = {
+		top_participant_group:dynastic_cycle ?= {
+			participant_group_type = expansion_movement
+		}
+		has_trait = character_involve_opponents_of_zhou_dynasty
+	}
+}
+
+saas_is_neutral_trigger = {
+	OR = {
+		top_participant_group:dynastic_cycle ?= {
+			OR = {
+				participant_group_type = conservative_movement
+				participant_group_type = undecided_movement
+			}
+		}
+		has_trait = character_involve_neutral_of_zhou_dynasty
+	}
+}
+
+saas_is_siyi_trigger = {
+	OR = {
+		top_participant_group:dynastic_cycle ?= {
+			participant_group_type = other_rulers
+		}
+		has_trait = character_interloper_of_zhou_dynasty
+	}
+}
+
+saas_has_any_participant_stance_trigger = {
+	OR = {
+		saas_is_wangdao_trigger = yes
+		saas_is_badao_trigger = yes
+		saas_is_neutral_trigger = yes
+		saas_is_siyi_trigger = yes
+	}
+}

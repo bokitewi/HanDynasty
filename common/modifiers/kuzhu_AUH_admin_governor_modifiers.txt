@@ -1,0 +1,5 @@
+﻿#给换集权法用，来点惩罚
+kuzhu_realm_disorder_modifier = {
+	icon = social_negative
+	vassal_opinion = -25
+}

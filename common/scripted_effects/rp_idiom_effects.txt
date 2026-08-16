@@ -1,0 +1,65 @@
+﻿rp_idiom_check_revenge_success_effect = {
+	if = {
+		limit = {
+			has_variable = rp_idiom_revenge_target
+			var:rp_idiom_revenge_target ?= scope:rp_idiom_enemy
+		}
+		remove_variable = rp_idiom_revenge_target
+		remove_character_modifier = rp_idiom_enduring_revenge_modifier
+		trigger_event = rp_idiom.0051
+	}
+}
+
+rp_idiom_select_martial_family_effect = {
+	random_close_or_extended_family_member = {
+		limit = {
+			is_alive = yes
+			is_adult = yes
+			martial >= 12
+			NOT = { this = root }
+		}
+		save_scope_as = rp_idiom_actor
+	}
+}
+
+rp_idiom_select_court_actor_effect = {
+	random_courtier_or_guest = {
+		limit = {
+			is_adult = yes
+			OR = {
+				diplomacy >= 12
+				intrigue >= 12
+				martial >= 12
+				has_character_flag = rp_retainer
+			}
+		}
+		save_scope_as = rp_idiom_actor
+	}
+	if = {
+		limit = { NOT = { exists = scope:rp_idiom_actor } }
+		random_knight = {
+			limit = {
+				is_adult = yes
+				OR = {
+					age >= 50
+					martial >= 12
+					has_character_flag = rp_retainer
+				}
+			}
+			save_scope_as = rp_idiom_actor
+		}
+	}
+}
+
+rp_idiom_reward_actor_merit_effect = {
+	if = {
+		limit = {
+			exists = scope:rp_idiom_actor
+			scope:rp_idiom_actor = { rp_can_receive_merit_from_liege_trigger = { LIEGE = root } }
+		}
+		scope:rp_idiom_actor = {
+			rp_add_merit_effect = { LIEGE = root VALUE = $VALUE$ }
+			add_opinion = { target = root modifier = rp_idiom_ally_grateful_opinion }
+		}
+	}
+}

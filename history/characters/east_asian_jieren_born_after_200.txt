@@ -1,0 +1,88 @@
+﻿# Generated from 華陽國志、三國志、三國演義、後漢書 and 漢晉春秋.
+# Culture: jieren
+# Time partition: born_after_200 (birth > 200).
+# No title history is assigned. Dates marked in the evidence audit may be estimates.
+
+##### 【石邪弈于】
+shi_xie_yi_yu={
+	name="uuii_book_shi_xie_yi_yu_name" #邪弈于
+	dynasty_house="house_141210001001013"
+	father="shi_he_gu"
+	culture="jieren"
+	faith="mazdayasna"
+	diplomacy="5"
+	martial="6"
+	stewardship="9"
+	intrigue="6"
+	learning="6"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_2
+	trait=tk_historical_character01
+	trait=cynical
+	trait=humble
+	trait=temperate
+	225.7.1={
+		birth=yes
+	}
+	272.7.1={
+		death=yes
+	}
+}
+
+##### 【石周曷朱】
+shi_zhou_he_zhu={
+	name="uuii_book_shi_zhou_he_zhu_name" #周曷朱
+	dynasty_house="house_141210001001013"
+	father="shi_xie_yi_yu"
+	culture="jieren"
+	faith="mazdayasna"
+	diplomacy="9"
+	martial="8"
+	stewardship="4"
+	intrigue="8"
+	learning="6"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_diplomacy_2
+	trait=tk_historical_character01
+	trait=stubborn
+	trait=cynical
+	trait=content
+	250.7.1={
+		birth=yes
+	}
+	290.7.1={
+		death=yes
+	}
+}
+
+##### 【石勒】
+shi_lei={
+	name="uuii_book_shi_lei_name" #勒
+	dynasty_house="house_141210001001013"
+	father="shi_zhou_he_zhu"
+	culture="jieren"
+	faith="mazdayasna"
+	diplomacy="5"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_intrigue_4
+	trait=tk_historical_character03
+	trait=diligent
+	trait=just
+	trait=shy
+	274.7.1={
+		birth=yes
+	}
+	333.7.1={
+		death=yes
+	}
+}

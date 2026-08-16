@@ -1,0 +1,23 @@
+hd_create_qixing_baodao_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = hd_qixing_baodao_name
+		description = hd_qixing_baodao_description
+		type = sword
+		template = hd_legendary_weapon_template
+		visuals = hd_qixing_baodao
+		wealth = scope:wealth
+		quality = scope:quality
+		max_durability = 100
+		history = { type = created_before_history }
+		modifier = hd_qixing_baodao_weapon_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = hd_qixing_baodao
+		equip_artifact_to_owner_replace = yes
+	}
+}

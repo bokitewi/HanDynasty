@@ -1,0 +1,1393 @@
+﻿# Generated from 華陽國志、三國志、三國演義、後漢書 and 漢晉春秋.
+# Culture: yueren
+# Time partition: 180_200 (death >= 180 and birth <= 200).
+# No title history is assigned. Dates marked in the evidence audit may be estimates.
+
+##### 【郑虎】
+zheng_hu={
+	name="uuii_book_zheng_hu_name" #虎
+	dynasty_house="house_112010003001013"
+	culture="yueren"
+	faith="dab_qhuas"
+	diplomacy="7"
+	martial="7"
+	stewardship="8"
+	intrigue="7"
+	learning="7"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_2
+	trait=tk_historical_character01
+	trait=impatient
+	trait=zealous
+	trait=humble
+	166.7.1={
+		birth=yes
+	}
+	228.7.1={
+		death=yes
+	}
+}
+
+##### 【董璋】
+dong_zhang={
+	name="uuii_book_dong_zhang_name" #璋
+	dynasty_house="house_112010015001013"
+	culture="yueren"
+	faith="dab_qhuas"
+	diplomacy="8"
+	martial="4"
+	stewardship="8"
+	intrigue="5"
+	learning="7"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_diplomacy_2
+	trait=tk_historical_character01
+	trait=wrathful
+	trait=stubborn
+	trait=zealous
+	167.7.1={
+		birth=yes
+	}
+	216.7.1={
+		death=yes
+	}
+}
+
+##### 【董嗣】
+dong_si={
+	name="uuii_book_dong_si_name" #嗣
+	dynasty_house="house_112010015001013"
+	father="dong_zhang"
+	culture="yueren"
+	faith="dab_qhuas"
+	diplomacy="6"
+	martial="8"
+	stewardship="5"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_martial_4
+	trait=tk_historical_character01
+	trait=gregarious
+	trait=arbitrary
+	trait=stubborn
+	187.7.1={
+		birth=yes
+	}
+	236.7.1={
+		death=yes
+	}
+}
+
+##### 【施狼】
+shi_lang={
+	name="uuii_book_shi_lang_name" #狼
+	dynasty_house="house_112010017001013"
+	culture="yueren"
+	faith="dab_qhuas"
+	diplomacy="5"
+	martial="10"
+	stewardship="8"
+	intrigue="5"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_martial_2
+	trait=tk_historical_character01
+	trait=paranoid
+	trait=calm
+	trait=just
+	168.7.1={
+		birth=yes
+	}
+	199.7.1={
+		death=yes
+	}
+}
+
+##### 【施勇】
+shi_yong={
+	name="uuii_book_shi_yong_name" #勇
+	dynasty_house="house_112010017001013"
+	father="shi_lang"
+	culture="yueren"
+	faith="dab_qhuas"
+	diplomacy="4"
+	martial="9"
+	stewardship="8"
+	intrigue="5"
+	learning="6"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_martial_4
+	trait=tk_historical_character01
+	trait=brave
+	trait=generous
+	trait=wrathful
+	188.7.1={
+		birth=yes
+	}
+	248.7.1={
+		death=yes
+	}
+}
+
+##### 【施凤】
+shi_feng={
+	name="uuii_book_shi_feng_name" #凤
+	dynasty_house="house_112010017002013"
+	female=yes
+	culture="yueren"
+	faith="dab_qhuas"
+	diplomacy="7"
+	martial="5"
+	stewardship="6"
+	intrigue="6"
+	learning="10"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_learning_2
+	trait=tk_fictional_character02
+	trait=sadistic
+	trait=deceitful
+	trait=just
+	164.7.1={
+		birth=yes
+	}
+	230.7.1={
+		death=yes
+	}
+}
+
+##### 【秦狼】
+qin_lang_2={
+	name="uuii_book_qin_lang_2_name" #狼
+	dynasty_house="house_112010021001013"
+	culture="yueren"
+	faith="dab_qhuas"
+	diplomacy="5"
+	martial="8"
+	stewardship="7"
+	intrigue="5"
+	learning="7"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_martial_3
+	trait=tk_historical_character01
+	trait=honest
+	trait=forgiving
+	trait=sadistic
+	168.7.1={
+		birth=yes
+	}
+	199.7.1={
+		death=yes
+	}
+}
+
+##### 【秦虎】
+qin_hu={
+	name="uuii_book_qin_hu_name" #虎
+	dynasty_house="house_112010021002013"
+	culture="yueren"
+	faith="dab_qhuas"
+	diplomacy="5"
+	martial="5"
+	stewardship="5"
+	intrigue="8"
+	learning="9"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_learning_2
+	trait=tk_historical_character01
+	trait=paranoid
+	trait=diligent
+	trait=forgiving
+	168.7.1={
+		birth=yes
+	}
+	228.7.1={
+		death=yes
+	}
+}
+
+##### 【蒋豹】
+jiang_bao={
+	name="uuii_book_jiang_bao_name" #豹
+	dynasty_house="house_112010030001013"
+	culture="yueren"
+	faith="dab_qhuas"
+	diplomacy="9"
+	martial="8"
+	stewardship="7"
+	intrigue="5"
+	learning="5"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_diplomacy_2
+	trait=tk_fictional_character02
+	trait=cynical
+	trait=diligent
+	trait=shy
+	170.7.1={
+		birth=yes
+	}
+	232.7.1={
+		death=yes
+	}
+}
+
+##### 【乌浒突聆】
+wu_hu_tu_ling={
+	name="uuii_book_wu_hu_tu_ling_name" #浒突聆
+	dynasty_house="house_112010048001013"
+	culture="yueren"
+	faith="dab_qhuas"
+	diplomacy="5"
+	martial="7"
+	stewardship="9"
+	intrigue="7"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_2
+	trait=tk_fictional_character02
+	trait=shy
+	trait=trusting
+	trait=stubborn
+	145.7.1={
+		birth=yes
+	}
+	212.7.1={
+		death=yes
+	}
+}
+
+##### 【黎君】
+li_jun_2={
+	name="uuii_book_li_jun_2_name" #君
+	dynasty_house="house_112010049001013"
+	female=yes
+	culture="yueren"
+	faith="dab_qhuas"
+	diplomacy="7"
+	martial="7"
+	stewardship="6"
+	intrigue="9"
+	learning="5"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_intrigue_2
+	trait=tk_fictional_character02
+	trait=cynical
+	trait=greedy
+	trait=humble
+	169.7.1={
+		birth=yes
+	}
+	242.7.1={
+		death=yes
+	}
+}
+
+##### 【冼雪】
+xian_xue={
+	name="uuii_book_xian_xue_name" #雪
+	dynasty_house="house_112010050001013"
+	female=yes
+	culture="yueren"
+	faith="dab_qhuas"
+	diplomacy="6"
+	martial="8"
+	stewardship="8"
+	intrigue="6"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_martial_2
+	trait=tk_fictional_character02
+	trait=zealous
+	trait=calm
+	trait=ambitious
+	172.7.1={
+		birth=yes
+	}
+	245.7.1={
+		death=yes
+	}
+}
+
+##### 【梅敷】
+mei_fu={
+	name="uuii_book_mei_fu_name" #敷
+	dynasty_house="house_112010051001013"
+	culture="yueren"
+	faith="dab_qhuas"
+	diplomacy="7"
+	martial="5"
+	stewardship="9"
+	intrigue="6"
+	learning="8"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_3
+	trait=tk_fictional_character02
+	trait=ambitious
+	trait=temperate
+	trait=deceitful
+	168.7.1={
+		birth=yes
+	}
+	226.7.1={
+		death=yes
+	}
+}
+
+##### 【梅颐】
+mei_yi={
+	name="uuii_book_mei_yi_name" #颐
+	dynasty_house="house_112010051002013"
+	culture="yueren"
+	faith="dab_qhuas"
+	diplomacy="6"
+	martial="9"
+	stewardship="8"
+	intrigue="5"
+	learning="8"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_martial_2
+	trait=tk_fictional_character02
+	trait=patient
+	trait=fickle
+	trait=temperate
+	172.7.1={
+		birth=yes
+	}
+	246.7.1={
+		death=yes
+	}
+}
+
+##### 【季高】
+ji_gao={
+	name="uuii_book_ji_gao_name" #高
+	dynasty_house="house_112010052001013"
+	culture="yueren"
+	faith="dab_qhuas"
+	diplomacy="6"
+	martial="7"
+	stewardship="6"
+	intrigue="9"
+	learning="5"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_intrigue_2
+	trait=tk_historical_character01
+	trait=generous
+	trait=deceitful
+	trait=impatient
+	165.7.1={
+		birth=yes
+	}
+	224.7.1={
+		death=yes
+	}
+}
+
+##### 【沙摩柯】
+sha_mo_ke={
+	name="uuii_book_sha_mo_ke_name" #摩柯
+	dynasty_house="house_112010053001013"
+	culture="yueren"
+	faith="dab_qhuas"
+	diplomacy="4"
+	martial="8"
+	stewardship="8"
+	intrigue="8"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_intrigue_4
+	trait=tk_fictional_character02
+	trait=honest
+	trait=zealous
+	trait=brave
+	200.7.1={
+		birth=yes
+	}
+	222.7.1={
+		death=yes
+	}
+}
+
+##### 【辰霸】
+chen_ba={
+	name="uuii_book_chen_ba_name" #霸
+	dynasty_house="house_112010054001013"
+	culture="yueren"
+	faith="dab_qhuas"
+	diplomacy="7"
+	martial="4"
+	stewardship="7"
+	intrigue="6"
+	learning="8"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_learning_2
+	trait=tk_fictional_character01
+	trait=ambitious
+	trait=forgiving
+	trait=trusting
+	167.7.1={
+		birth=yes
+	}
+	222.7.1={
+		death=yes
+	}
+}
+
+##### 【熊开】
+xiong_kai={
+	name="uuii_book_xiong_kai_name" #开
+	dynasty_house="house_112010055001013"
+	culture="yueren"
+	faith="dab_qhuas"
+	diplomacy="7"
+	martial="7"
+	stewardship="8"
+	intrigue="6"
+	learning="4"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_2
+	trait=tk_fictional_character01
+	trait=arbitrary
+	trait=forgiving
+	trait=fickle
+	168.7.1={
+		birth=yes
+	}
+	222.7.1={
+		death=yes
+	}
+}
+
+##### 【羊淮】
+yang_huai_2={
+	name="uuii_book_yang_huai_2_name" #淮
+	dynasty_house="house_112010056001013"
+	father="yang_zhu"
+	culture="yueren"
+	faith="dab_qhuas"
+	diplomacy="9"
+	martial="8"
+	stewardship="6"
+	intrigue="5"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_diplomacy_2
+	trait=tk_historical_character01
+	trait=lustful
+	trait=impatient
+	trait=calm
+	138.7.1={
+		birth=yes
+	}
+	186.7.1={
+		death=yes
+	}
+}
+
+##### 【羊奎】
+yang_kui={
+	name="uuii_book_yang_kui_name" #奎
+	dynasty_house="house_112010056001013"
+	father="yang_huai_2"
+	culture="yueren"
+	faith="dab_qhuas"
+	diplomacy="4"
+	martial="9"
+	stewardship="7"
+	intrigue="8"
+	learning="8"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_martial_2
+	trait=tk_fictional_character01
+	trait=wrathful
+	trait=temperate
+	trait=paranoid
+	168.7.1={
+		birth=yes
+	}
+	211.7.1={
+		death=yes
+	}
+}
+
+##### 【陈仆】
+chen_pu={
+	name="uuii_book_chen_pu_name" #仆
+	dynasty_house="house_112010057001013"
+	culture="yueren"
+	faith="dab_qhuas"
+	diplomacy="8"
+	martial="7"
+	stewardship="8"
+	intrigue="4"
+	learning="5"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_diplomacy_2
+	trait=tk_historical_character01
+	trait=greedy
+	trait=stubborn
+	trait=paranoid
+	168.7.1={
+		birth=yes
+	}
+	208.7.1={
+		death=yes
+	}
+}
+
+##### 【陈侩】
+chen_kuai={
+	name="uuii_book_chen_kuai_name" #侩
+	dynasty_house="house_112010057002013"
+	father="chen_jun"
+	culture="yueren"
+	faith="dab_qhuas"
+	diplomacy="6"
+	martial="7"
+	stewardship="5"
+	intrigue="8"
+	learning="5"
+	prowess="9"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_intrigue_2
+	trait=tk_historical_character01
+	trait=paranoid
+	trait=vengeful
+	trait=generous
+	139.7.1={
+		birth=yes
+	}
+	187.7.1={
+		death=yes
+	}
+}
+
+##### 【陈龙】
+chen_long={
+	name="uuii_book_chen_long_name" #龙
+	dynasty_house="house_112010057002013"
+	father="chen_kuai"
+	culture="yueren"
+	faith="dab_qhuas"
+	diplomacy="8"
+	martial="7"
+	stewardship="8"
+	intrigue="7"
+	learning="6"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_2
+	trait=tk_historical_character01
+	trait=impatient
+	trait=fickle
+	trait=paranoid
+	169.7.1={
+		birth=yes
+	}
+	211.7.1={
+		death=yes
+	}
+}
+
+##### 【莫离】
+mo_li={
+	name="uuii_book_mo_li_name" #离
+	dynasty_house="house_112010059001013"
+	culture="yueren"
+	faith="dab_qhuas"
+	diplomacy="5"
+	martial="8"
+	stewardship="6"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_martial_2
+	trait=tk_fictional_character02
+	trait=patient
+	trait=just
+	trait=shy
+	164.7.1={
+		birth=yes
+	}
+	221.7.1={
+		death=yes
+	}
+}
+
+##### 【万图】
+wan_tu={
+	name="uuii_book_wan_tu_name" #图
+	dynasty_house="house_112010060001013"
+	culture="yueren"
+	faith="dab_qhuas"
+	diplomacy="7"
+	martial="4"
+	stewardship="9"
+	intrigue="8"
+	learning="4"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_2
+	trait=tk_fictional_character02
+	trait=gregarious
+	trait=fickle
+	trait=trusting
+	160.7.1={
+		birth=yes
+	}
+	225.7.1={
+		death=yes
+	}
+}
+
+##### 【飞并】
+fei_bing={
+	name="uuii_book_fei_bing_name" #并
+	dynasty_house="house_112010061001013"
+	culture="yueren"
+	faith="dab_qhuas"
+	diplomacy="9"
+	martial="7"
+	stewardship="7"
+	intrigue="5"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_diplomacy_2
+	trait=tk_fictional_character01
+	trait=impatient
+	trait=diligent
+	trait=paranoid
+	164.7.1={
+		birth=yes
+	}
+	228.7.1={
+		death=yes
+	}
+}
+
+##### 【祖朗】
+zu_lang={
+	name="uuii_book_zu_lang_name" #朗
+	dynasty_house="house_112010062001013"
+	culture="yueren"
+	faith="dab_qhuas"
+	diplomacy="8"
+	martial="5"
+	stewardship="8"
+	intrigue="8"
+	learning="6"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_diplomacy_2
+	trait=tk_fictional_character02
+	trait=brave
+	trait=impatient
+	trait=temperate
+	153.7.1={
+		birth=yes
+	}
+	198.7.1={
+		death=yes
+	}
+}
+
+##### 【祖山】
+zu_shan={
+	name="uuii_book_zu_shan_name" #山
+	dynasty_house="house_112010062001013"
+	father="zu_lang"
+	culture="yueren"
+	faith="dab_qhuas"
+	diplomacy="8"
+	martial="5"
+	stewardship="7"
+	intrigue="8"
+	learning="5"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_diplomacy_2
+	trait=tk_historical_character01
+	trait=humble
+	trait=sadistic
+	trait=ambitious
+	175.7.1={
+		birth=yes
+	}
+	208.7.1={
+		death=yes
+	}
+}
+
+##### 【焦己】
+jiao_ji={
+	name="uuii_book_jiao_ji_name" #己
+	dynasty_house="house_112010063001013"
+	culture="yueren"
+	faith="dab_qhuas"
+	diplomacy="8"
+	martial="6"
+	stewardship="4"
+	intrigue="8"
+	learning="6"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_diplomacy_2
+	trait=tk_historical_character01
+	trait=cynical
+	trait=paranoid
+	trait=callous
+	159.7.1={
+		birth=yes
+	}
+	198.7.1={
+		death=yes
+	}
+}
+
+##### 【金奇】
+jin_qi={
+	name="uuii_book_jin_qi_name" #奇
+	dynasty_house="house_112010064001013"
+	culture="yueren"
+	faith="dab_qhuas"
+	diplomacy="7"
+	martial="8"
+	stewardship="6"
+	intrigue="6"
+	learning="8"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_learning_2
+	trait=tk_historical_character02
+	trait=brave
+	trait=fickle
+	trait=arbitrary
+	168.7.1={
+		birth=yes
+	}
+	208.7.1={
+		death=yes
+	}
+}
+
+##### 【毛甘】
+mao_gan={
+	name="uuii_book_mao_gan_name" #甘
+	dynasty_house="house_112010065001013"
+	culture="yueren"
+	faith="dab_qhuas"
+	diplomacy="7"
+	martial="8"
+	stewardship="5"
+	intrigue="5"
+	learning="7"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_martial_2
+	trait=tk_historical_character01
+	trait=arbitrary
+	trait=content
+	trait=gregarious
+	159.7.1={
+		birth=yes
+	}
+	198.7.1={
+		death=yes
+	}
+}
+
+##### 【苑御】
+yuan_yu={
+	name="uuii_book_yuan_yu_name" #御
+	dynasty_house="house_112010066001013"
+	culture="yueren"
+	faith="dab_qhuas"
+	diplomacy="6"
+	martial="6"
+	stewardship="6"
+	intrigue="8"
+	learning="6"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_intrigue_2
+	trait=tk_historical_character01
+	trait=lustful
+	trait=arbitrary
+	trait=temperate
+	165.7.1={
+		birth=yes
+	}
+	198.7.1={
+		death=yes
+	}
+}
+
+##### 【潘临】
+pan_lin={
+	name="uuii_book_pan_lin_name" #临
+	dynasty_house="house_112010067001013"
+	culture="yueren"
+	faith="dab_qhuas"
+	diplomacy="8"
+	martial="7"
+	stewardship="8"
+	intrigue="4"
+	learning="7"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_3
+	trait=tk_historical_character02
+	trait=gregarious
+	trait=humble
+	trait=zealous
+	168.7.1={
+		birth=yes
+	}
+	198.7.1={
+		death=yes
+	}
+}
+
+##### 【洪免】
+hong_mian={
+	name="uuii_book_hong_mian_name" #免
+	dynasty_house="house_112010068001013"
+	culture="yueren"
+	faith="dab_qhuas"
+	diplomacy="8"
+	martial="5"
+	stewardship="8"
+	intrigue="7"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_diplomacy_2
+	trait=tk_historical_character01
+	trait=sadistic
+	trait=lustful
+	trait=calm
+	135.7.1={
+		birth=yes
+	}
+	184.7.1={
+		death=yes
+	}
+}
+
+##### 【洪明】
+hong_ming={
+	name="uuii_book_hong_ming_name" #明
+	dynasty_house="house_112010068001013"
+	father="hong_mian"
+	culture="yueren"
+	faith="dab_qhuas"
+	diplomacy="8"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_diplomacy_2
+	trait=tk_historical_character01
+	trait=greedy
+	trait=arbitrary
+	trait=wrathful
+	167.7.1={
+		birth=yes
+	}
+	198.7.1={
+		death=yes
+	}
+}
+
+##### 【洪进】
+hong_jin={
+	name="uuii_book_hong_jin_name" #进
+	dynasty_house="house_112010068001013"
+	father="hong_mian"
+	culture="yueren"
+	faith="dab_qhuas"
+	diplomacy="6"
+	martial="7"
+	stewardship="8"
+	intrigue="6"
+	learning="6"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_2
+	trait=tk_historical_character01
+	trait=shy
+	trait=zealous
+	trait=content
+	169.7.1={
+		birth=yes
+	}
+	198.7.1={
+		death=yes
+	}
+}
+
+##### 【吴免】
+wu_mian={
+	name="uuii_book_wu_mian_name" #免
+	dynasty_house="house_112010069001013"
+	culture="yueren"
+	faith="dab_qhuas"
+	diplomacy="7"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="4"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_martial_2
+	trait=tk_historical_character01
+	trait=ambitious
+	trait=temperate
+	trait=honest
+	160.7.1={
+		birth=yes
+	}
+	198.7.1={
+		death=yes
+	}
+}
+
+##### 【尤突】
+you_tu={
+	name="uuii_book_you_tu_name" #突
+	dynasty_house="house_112010071001013"
+	culture="yueren"
+	faith="dab_qhuas"
+	diplomacy="4"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_martial_4
+	trait=tk_historical_character02
+	trait=impatient
+	trait=wrathful
+	trait=cynical
+	170.7.1={
+		birth=yes
+	}
+	216.7.1={
+		death=yes
+	}
+}
+
+##### 【吕合】
+lv_he={
+	name="uuii_book_lv_he_name" #合
+	dynasty_house="house_112010072001013"
+	culture="yueren"
+	faith="dab_qhuas"
+	diplomacy="8"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_martial_4
+	trait=tk_historical_character01
+	trait=honest
+	trait=temperate
+	trait=paranoid
+	167.7.1={
+		birth=yes
+	}
+	199.7.1={
+		death=yes
+	}
+}
+
+##### 【沈龙】
+shen_long={
+	name="uuii_book_shen_long_name" #龙
+	dynasty_house="house_112010073001013"
+	culture="yueren"
+	faith="dab_qhuas"
+	diplomacy="7"
+	martial="8"
+	stewardship="7"
+	intrigue="6"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_martial_2
+	trait=tk_historical_character01
+	trait=cynical
+	trait=lustful
+	trait=lazy
+	164.7.1={
+		birth=yes
+	}
+	226.7.1={
+		death=yes
+	}
+}
+
+##### 【邹临】
+zou_lin={
+	name="uuii_book_zou_lin_name" #临
+	dynasty_house="house_112010074001013"
+	culture="yueren"
+	faith="dab_qhuas"
+	diplomacy="8"
+	martial="7"
+	stewardship="8"
+	intrigue="7"
+	learning="5"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_2
+	trait=tk_historical_character01
+	trait=impatient
+	trait=vengeful
+	trait=content
+	160.7.1={
+		birth=yes
+	}
+	198.7.1={
+		death=yes
+	}
+}
+
+##### 【费栈】
+fei_zhan={
+	name="uuii_book_fei_zhan_name" #栈
+	dynasty_house="house_112010075001013"
+	culture="yueren"
+	faith="dab_qhuas"
+	diplomacy="8"
+	martial="6"
+	stewardship="8"
+	intrigue="8"
+	learning="6"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_intrigue_3
+	trait=tk_historical_character01
+	trait=generous
+	trait=content
+	trait=vengeful
+	170.7.1={
+		birth=yes
+	}
+	214.7.1={
+		death=yes
+	}
+}
+
+##### 【黄龙罗】
+huang_long_luo={
+	name="uuii_book_huang_long_luo_name" #龙罗
+	dynasty_house="house_112010078001013"
+	culture="yueren"
+	faith="dab_qhuas"
+	diplomacy="6"
+	martial="9"
+	stewardship="8"
+	intrigue="4"
+	learning="4"
+	prowess="9"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_martial_3
+	trait=tk_historical_character01
+	trait=trusting
+	trait=lazy
+	trait=ambitious
+	158.7.1={
+		birth=yes
+	}
+	196.7.1={
+		death=yes
+	}
+}
+
+##### 【周勃】
+zhou_bo={
+	name="uuii_book_zhou_bo_name" #勃
+	dynasty_house="house_112010079001013"
+	culture="yueren"
+	faith="dab_qhuas"
+	diplomacy="5"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_martial_4
+	trait=tk_historical_character01
+	trait=honest
+	trait=just
+	trait=fickle
+	168.7.1={
+		birth=yes
+	}
+	196.7.1={
+		death=yes
+	}
+}
+
+##### 【朴胡】
+pu_hu={
+	name="uuii_book_pu_hu_name" #胡
+	dynasty_house="house_112030031001013"
+	culture="yueren"
+	faith="zhengyi"
+	diplomacy="4"
+	martial="8"
+	stewardship="8"
+	intrigue="8"
+	learning="8"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_4
+	trait=tk_historical_character01
+	trait=honest
+	trait=shy
+	trait=ambitious
+	168.7.1={
+		birth=yes
+	}
+	224.7.1={
+		death=yes
+	}
+}
+
+##### 【杜濩】
+du_huo={
+	name="uuii_book_du_huo_name" #濩
+	dynasty_house="house_112030032001013"
+	culture="yueren"
+	faith="zhengyi"
+	diplomacy="4"
+	martial="8"
+	stewardship="8"
+	intrigue="8"
+	learning="5"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_martial_3
+	trait=tk_historical_character01
+	trait=honest
+	trait=content
+	trait=diligent
+	166.7.1={
+		birth=yes
+	}
+	220.7.1={
+		death=yes
+	}
+}
+
+##### 【罗轲】
+luo_ke={
+	name="uuii_book_luo_ke_name" #轲
+	dynasty_house="house_112030033001013"
+	culture="yueren"
+	faith="zhengyi"
+	diplomacy="6"
+	martial="7"
+	stewardship="8"
+	intrigue="7"
+	learning="6"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_2
+	trait=tk_historical_character01
+	trait=content
+	trait=callous
+	trait=zealous
+	169.7.1={
+		birth=yes
+	}
+	226.7.1={
+		death=yes
+	}
+}
+
+##### 【昝据】
+zan_ju={
+	name="uuii_book_zan_ju_name" #据
+	dynasty_house="house_112030034001013"
+	culture="yueren"
+	faith="zhengyi"
+	diplomacy="5"
+	martial="8"
+	stewardship="8"
+	intrigue="7"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_martial_2
+	trait=tk_historical_character01
+	trait=greedy
+	trait=impatient
+	trait=shy
+	170.7.1={
+		birth=yes
+	}
+	230.7.1={
+		death=yes
+	}
+}
+
+##### 【鄂浣】
+e_huan_2={
+	name="uuii_book_e_huan_2_name" #浣
+	dynasty_house="house_112030035001013"
+	culture="yueren"
+	faith="zhengyi"
+	diplomacy="6"
+	martial="6"
+	stewardship="6"
+	intrigue="6"
+	learning="8"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_learning_2
+	trait=tk_historical_character01
+	trait=patient
+	trait=fickle
+	trait=honest
+	167.7.1={
+		birth=yes
+	}
+	227.7.1={
+		death=yes
+	}
+}
+
+##### 【夕平】
+xi_ping={
+	name="uuii_book_xi_ping_name" #平
+	dynasty_house="house_112030036001013"
+	culture="yueren"
+	faith="zhengyi"
+	diplomacy="6"
+	martial="5"
+	stewardship="6"
+	intrigue="9"
+	learning="5"
+	prowess="9"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_intrigue_2
+	trait=tk_historical_character01
+	trait=wrathful
+	trait=greedy
+	trait=gregarious
+	167.7.1={
+		birth=yes
+	}
+	228.7.1={
+		death=yes
+	}
+}
+
+##### 【龚展】
+gong_zhan={
+	name="uuii_book_gong_zhan_name" #展
+	dynasty_house="house_112030037001013"
+	culture="yueren"
+	faith="zhengyi"
+	diplomacy="5"
+	martial="6"
+	stewardship="5"
+	intrigue="5"
+	learning="9"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_learning_2
+	trait=tk_historical_character01
+	trait=callous
+	trait=arbitrary
+	trait=ambitious
+	171.7.1={
+		birth=yes
+	}
+	233.7.1={
+		death=yes
+	}
+}

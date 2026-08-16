@@ -1,0 +1,45 @@
+# Unsupported vanilla regional event chain retained only as inert public shells.
+namespace = fp2_yearly
+
+fp2_yearly.1001 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_yearly.1002 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_yearly.1003 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_yearly.1004 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_yearly.1005 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_yearly.1006 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_yearly.1007 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_yearly.1008 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_yearly.2020 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_yearly.2025 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_yearly.3000 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_yearly.3001 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_yearly.3002 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_yearly.3003 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_yearly.4001 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_yearly.4002 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_yearly.4003 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_yearly.4004 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_yearly.4005 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_yearly.4006 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_yearly.4007 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_yearly.4008 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_yearly.4009 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_yearly.4010 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_yearly.8000 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_yearly.8001 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_yearly.8002 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_yearly.8003 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_yearly.8004 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_yearly.8005 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_yearly.8006 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_yearly.9000 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_yearly.9001 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_yearly.9002 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_yearly.9005 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_yearly.9006 = { type = character_event hidden = yes trigger = { always = no } }
+
+scripted_trigger people_loving_councillor_trigger = { always = no }
+scripted_trigger rice_field_potential = { always = no }
+scripted_trigger valid_grantable_county_barony = { always = no }
+
+scripted_effect fp2_polish_should_heritage_israelite_get_upset_effect = { }

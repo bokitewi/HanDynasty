@@ -1,0 +1,71 @@
+hd_cixiong_shuanggujian = {
+	default_type = sword
+	icon = "artifact_sword.dds"
+	asset = hd_cixiong_shuanggujian_portrait_entity
+}
+
+hd_cixiong_shuanggujian_court = {
+	default_type = pedestal
+	icon = "artifact_sword.dds"
+	asset = hd_cixiong_shuanggujian_court_entity
+}
+
+hd_zhangba_shemao = {
+	default_type = spear
+	icon = "artifact_spear.dds"
+	asset = hd_zhangba_shemao_portrait_entity
+}
+
+hd_zhangba_shemao_court = {
+	default_type = pedestal
+	icon = "artifact_spear.dds"
+	asset = hd_zhangba_shemao_court_entity
+}
+
+hd_liangyin_qiang = {
+	default_type = spear
+	icon = "artifact_spear.dds"
+	asset = hd_liangyin_qiang_portrait_entity
+}
+
+hd_liangyin_qiang_court = {
+	default_type = pedestal
+	icon = "artifact_spear.dds"
+	asset = hd_liangyin_qiang_court_entity
+}
+
+hd_shenwei_longdan_qiang = {
+	default_type = spear
+	icon = "artifact_spear.dds"
+	asset = hd_shenwei_longdan_qiang_portrait_entity
+}
+
+hd_shenwei_longdan_qiang_court = {
+	default_type = pedestal
+	icon = "artifact_spear.dds"
+	asset = hd_shenwei_longdan_qiang_court_entity
+}
+
+hd_hao_longdan = {
+	default_type = spear
+	icon = "artifact_spear.dds"
+	asset = hd_hao_longdan_portrait_entity
+}
+
+hd_hao_longdan_court = {
+	default_type = pedestal
+	icon = "artifact_spear.dds"
+	asset = hd_hao_longdan_court_entity
+}
+
+hd_wushuang_fangtian_huaji = {
+	default_type = spear
+	icon = "artifact_spear.dds"
+	asset = hd_wushuang_fangtian_huaji_portrait_entity
+}
+
+hd_wushuang_fangtian_huaji_court = {
+	default_type = pedestal
+	icon = "artifact_spear.dds"
+	asset = hd_wushuang_fangtian_huaji_court_entity
+}
