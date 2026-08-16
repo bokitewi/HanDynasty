@@ -29,6 +29,7 @@ kuzhu_convert_to_warlord_from_admin_effect = {
 		every_vassal_or_below = {
 			#苦竹：保证被收头衔的家主是有庄园的世家族长
 			limit = {
+				is_ai = yes
 				is_ruler = yes
 				government_allows = administrative
 				any_held_title = { is_noble_family_title = yes }						
@@ -84,6 +85,7 @@ kuzhu_convert_to_warlord_from_admin_effect = {
 			limit = {
 				is_landed = yes
 				government_allows = administrative
+				NOT = { any_held_title = { is_noble_family_title = yes } }
 			}
 			change_government = kuzhu_warlord_government				
 			kuzhu_warlord_trait_xp_initialize_effect = yes			
@@ -162,7 +164,6 @@ kuzhu_warlord_succession_law_setup_effect = {
 				is_titular = no
 				NOT = { has_title_law = kuzhu_warlord_appointment_title_law }
 			}
-			clear_title_laws = yes
 			add_title_law = kuzhu_warlord_appointment_title_law
 		}
 	}

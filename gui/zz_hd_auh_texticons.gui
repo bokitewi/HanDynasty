@@ -1,0 +1,19 @@
+texticon = {
+	icon = government_type_kuzhu_warlord
+	iconsize = {
+		texture = "gfx/interface/icons/government_types/kuzhu_warlord_government.dds"
+		size = { 28 28 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = kuzhu_dynastic_cycle_instability_icon
+	iconsize = {
+		texture = "gfx/interface/icons/dynastic_cycle/kuzhu_dynastic_cycle_phase_instability.dds"
+		size = { 28 28 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}

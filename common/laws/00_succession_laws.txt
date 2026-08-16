@@ -1608,6 +1608,56 @@
 			tgp_realm_has_ceremonial_liege_trigger = yes
 		}
 	}
+
+	# AUH: warlord realm succession marker. Duchy-and-above titles receive
+	# kuzhu_warlord_appointment_title_law through the title on_action.
+	kuzhu_warlord_elective_succession_law = {
+		can_have = { government_has_flag = government_is_kuzhu_warlord }
+		can_pass = { government_has_flag = government_is_kuzhu_warlord }
+		can_keep = { government_has_flag = government_is_kuzhu_warlord }
+		should_start_with = { government_has_flag = government_is_kuzhu_warlord }
+		succession = {
+			order_of_succession = inheritance
+			traversal_order = children
+			rank = oldest
+			title_division = single_heir
+		}
+		flag = advanced_succession_law
+		flag = can_designate_heirs
+		pass_cost = { prestige = change_succession_law_prestige_cost }
+		revoke_cost = { prestige = change_succession_law_prestige_cost }
+		ai_will_do = { value = 0 }
+		potential = { government_has_flag = government_is_kuzhu_warlord }
+	}
+
+	kuzhu_warlord_single_heir_succession_law = {
+		can_have = { government_has_flag = government_is_kuzhu_warlord }
+		can_pass = {
+			government_has_flag = government_is_kuzhu_warlord
+			NOT = { vassal_contract_has_flag = kuzhu_warlord_is_general_type }
+			has_trait_xp = {
+				trait = kuzhu_warlord_trait
+				value >= 90
+			}
+		}
+		can_keep = {
+			government_has_flag = government_is_kuzhu_warlord
+			NOT = { vassal_contract_has_flag = kuzhu_warlord_is_general_type }
+		}
+		should_start_with = { always = no }
+		succession = {
+			order_of_succession = inheritance
+			traversal_order = children
+			rank = oldest
+			title_division = single_heir
+		}
+		flag = advanced_succession_law
+		flag = can_designate_heirs
+		pass_cost = { prestige = change_succession_law_prestige_cost }
+		revoke_cost = { prestige = change_succession_law_prestige_cost }
+		ai_will_do = { value = 3 }
+		potential = { government_has_flag = government_is_kuzhu_warlord }
+	}
 }
 
 succession_gender_laws = {

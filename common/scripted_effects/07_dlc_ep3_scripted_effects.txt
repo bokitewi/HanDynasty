@@ -4024,6 +4024,24 @@ admin_change_government_effect = {
 		}
 		change_government = feudal_government
 	}
+	# HD/AUH: an independent ruler in the Chinese administrative sphere becomes a
+	# warlord when an administrative realm is dismantled. Minor-China cultures are
+	# included, but no tradition is assigned automatically.
+	else_if = {
+		limit = {
+			top_liege = this
+			culture = {
+				OR = {
+					this = culture:han
+					any_parent_culture_or_above = { this = culture:han }
+					has_cultural_tradition = tradition_kuzhu_minor_china
+				}
+			}
+		}
+		change_government = kuzhu_warlord_government
+		kuzhu_warlord_trait_xp_initialize_effect = yes
+		kuzhu_warlord_succession_law_setup_effect = yes
+	}
 	# If you're an independent Muslim ruler - Become clan!
 	else_if = {
 		limit = {

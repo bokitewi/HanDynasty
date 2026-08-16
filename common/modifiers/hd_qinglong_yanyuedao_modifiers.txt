@@ -1,0 +1,13 @@
+hd_qinglong_yanyuedao_weapon_modifier = {
+	prowess = 8
+	martial = 3
+	knight_effectiveness_mult = 0.20
+	monthly_prestige = 0.5
+	enemy_hard_casualty_modifier = 0.10
+}
+
+hd_qinglong_yanyuedao_court_modifier = {
+	court_grandeur_baseline_add = 8
+	monthly_prestige = 0.5
+	monthly_dynasty_prestige = 0.15
+}

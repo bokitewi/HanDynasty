@@ -170,6 +170,10 @@ kuzhu_admin_recruit_laws = {
 				OR = {
 					has_realm_law = imperial_bureaucracy_2
 					has_realm_law = imperial_bureaucracy_3
+					has_realm_law = celestial_bureaucracy_2
+					has_realm_law = celestial_bureaucracy_3
+					has_realm_law = meritocratic_bureaucracy_2
+					has_realm_law = meritocratic_bureaucracy_3
 				}
 			}
 			custom_tooltip = {
@@ -213,7 +217,7 @@ kuzhu_admin_recruit_laws = {
 		}
 	}			
 	
-	#军团制法案
+	#禁军制法案
 	kuzhu_admin_recruit_legion = {
 		can_keep = {
 			is_independent_ruler = yes
@@ -241,6 +245,10 @@ kuzhu_admin_recruit_laws = {
 				OR = {
 					has_realm_law = imperial_bureaucracy_2
 					has_realm_law = imperial_bureaucracy_3
+					has_realm_law = celestial_bureaucracy_2
+					has_realm_law = celestial_bureaucracy_3
+					has_realm_law = meritocratic_bureaucracy_2
+					has_realm_law = meritocratic_bureaucracy_3
 				}
 			}
 			custom_tooltip = {
@@ -248,11 +256,8 @@ kuzhu_admin_recruit_laws = {
 				NOT = { has_variable = admin_law_cooldown }
 			}
 			custom_tooltip = {
-				text = kuzhu_need_roman_empire
-				OR = {
-					has_title = title:h_roman_empire
-					has_title = title:h_eastern_roman_empire
-				}
+				text = kuzhu_need_china_hegemon
+				has_title = title:h_china
 			}
 		}
 		pass_cost = {
@@ -279,11 +284,7 @@ kuzhu_admin_recruit_laws = {
 			}
 			if = {
 				limit = {
-					OR = {
-						has_title = title:h_roman_empire
-						has_title = title:h_eastern_roman_empire
-						has_title = title:h_western_roman_empire
-					}	
+					has_title = title:h_china
 				}
 				add = 3
 			}					

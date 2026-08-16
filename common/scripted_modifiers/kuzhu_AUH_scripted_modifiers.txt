@@ -44,8 +44,6 @@
 			NOR = {
 				this = culture:han
 				any_parent_culture_or_above = { this = culture:han }
-				this = culture:greek
-				any_parent_culture_or_above = { this = culture:greek }
 			}
 		}
 	}

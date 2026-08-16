@@ -1,0 +1,93 @@
+hd_auh_dynastic_cycle_yearly_on_action = {
+	effect = {
+		# A missing Son of Heaven always means that China has entered Chaos.
+		if = {
+			limit = {
+				exists = situation:dynastic_cycle
+				NOT = { exists = title:h_china.holder }
+				situation:dynastic_cycle = {
+					NOT = { situation_current_phase = situation_dynastic_cycle_phase_chaos }
+				}
+			}
+			situation:dynastic_cycle = {
+				situation_top_sub_region = {
+					change_phase = { phase = situation_dynastic_cycle_phase_chaos }
+				}
+			}
+		}
+
+		# Imperial grace erodes faster during the new intermediate phase.
+		every_hegemony = {
+			holder ?= {
+				if = {
+					limit = {
+						has_title = title:h_china
+						exists = top_participant_group:dynastic_cycle
+						situation:dynastic_cycle = {
+							situation_current_phase = kuzhu_situation_dynastic_cycle_phase_normal
+						}
+					}
+					every_tributary = {
+						limit = { subject_standing >= 1 }
+						add_subject_standing = {
+							value = {
+								value = -2
+								min = {
+									value = subject_standing
+									multiply = -1
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+kuzhu_warlord_on_yearly_check = {
+	effect = {
+		if = {
+			limit = {
+				highest_held_title_tier >= tier_duchy
+				has_realm_law = kuzhu_warlord_elective_succession_law
+			}
+			every_held_title = {
+				limit = {
+					tier >= tier_duchy
+					is_titular = no
+					NOT = { has_title_law = kuzhu_warlord_appointment_title_law }
+				}
+				add_title_law = kuzhu_warlord_appointment_title_law
+			}
+		}
+		else_if = {
+			limit = {
+				highest_held_title_tier >= tier_duchy
+				NOT = { has_realm_law = kuzhu_warlord_elective_succession_law }
+			}
+			every_held_title = {
+				limit = {
+					tier >= tier_duchy
+					has_title_law = kuzhu_warlord_appointment_title_law
+				}
+				remove_title_law = kuzhu_warlord_appointment_title_law
+			}
+		}
+	}
+}
+
+hd_auh_puppet_diarchy_cleanup = {
+	effect = {
+		if = {
+			limit = { has_trait = kuzhu_puppet_ruler }
+			remove_trait = kuzhu_puppet_ruler
+		}
+		scope:old_diarch ?= {
+			if = {
+				limit = { has_trait = kuzhu_empire_overseer }
+				remove_trait = kuzhu_empire_overseer
+			}
+		}
+	}
+}

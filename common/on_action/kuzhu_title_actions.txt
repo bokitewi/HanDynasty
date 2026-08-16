@@ -17,7 +17,6 @@ kuzhu_warlord_on_title_gain = {
 				}
 			}
 			scope:title = {
-				clear_title_laws = yes
 				add_title_law = kuzhu_warlord_appointment_title_law
 			}
 		}

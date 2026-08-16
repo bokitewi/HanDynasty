@@ -38,7 +38,10 @@ kuzhu_admin_faction_demand.0001 = {
 			every_faction_member = {
 				#苦竹：简单转为军阀
 				kuzhu_convert_to_warlord_from_admin_effect = yes
-				add_character_flag = flag_kuzhu_new_warlord
+				add_character_flag = {
+					flag = flag_kuzhu_new_warlord
+					years = 10
+				}
 				trigger_event = kuzhu_admin_faction_demand.0002
 			}
 		}
@@ -94,18 +97,6 @@ kuzhu_admin_faction_demand.0001 = {
 				add = -5000
 				OR = {
 					mpo_has_gok_mongol_empire_trigger = yes
-					has_title = title:e_ilkhanate
-					has_title = title:e_golden_horde
-					has_title = title:e_chagatai
-					has_title = title:e_red_horde
-					has_title = title:e_white_horde
-					has_title = title:e_aarlud_khanate
-					has_title = title:e_togskol_khanate
-					has_title = title:e_baruun_khanate
-					has_title = title:e_great_yuan
-					has_title = title:e_blue_horde
-					has_title = title:e_omnod_dalai_khanate
-					has_title = title:e_byzantium
 					has_variable = conqueror
 				}
 			}
@@ -147,18 +138,6 @@ kuzhu_admin_faction_demand.0001 = {
 				add = 5000
 				OR = {
 					mpo_has_gok_mongol_empire_trigger = yes
-					has_title = title:e_ilkhanate
-					has_title = title:e_golden_horde
-					has_title = title:e_chagatai
-					has_title = title:e_red_horde
-					has_title = title:e_white_horde
-					has_title = title:e_aarlud_khanate
-					has_title = title:e_togskol_khanate
-					has_title = title:e_baruun_khanate
-					has_title = title:e_great_yuan
-					has_title = title:e_blue_horde
-					has_title = title:e_omnod_dalai_khanate
-					has_title = title:e_byzantium
 					has_variable = conqueror
 				}
 			}
@@ -350,18 +329,6 @@ kuzhu_admin_faction_demand.1001 = {
 				add = -5000
 				OR = {
 					mpo_has_gok_mongol_empire_trigger = yes
-					has_title = title:e_ilkhanate
-					has_title = title:e_golden_horde
-					has_title = title:e_chagatai
-					has_title = title:e_red_horde
-					has_title = title:e_white_horde
-					has_title = title:e_aarlud_khanate
-					has_title = title:e_togskol_khanate
-					has_title = title:e_baruun_khanate
-					has_title = title:e_great_yuan
-					has_title = title:e_blue_horde
-					has_title = title:e_omnod_dalai_khanate
-					has_title = title:e_byzantium
 					has_variable = conqueror
 				}
 			}
@@ -403,18 +370,6 @@ kuzhu_admin_faction_demand.1001 = {
 				add = 5000
 				OR = {
 					mpo_has_gok_mongol_empire_trigger = yes
-					has_title = title:e_ilkhanate
-					has_title = title:e_golden_horde
-					has_title = title:e_chagatai
-					has_title = title:e_red_horde
-					has_title = title:e_white_horde
-					has_title = title:e_aarlud_khanate
-					has_title = title:e_togskol_khanate
-					has_title = title:e_baruun_khanate
-					has_title = title:e_great_yuan
-					has_title = title:e_blue_horde
-					has_title = title:e_omnod_dalai_khanate
-					has_title = title:e_byzantium
 					has_variable = conqueror
 				}
 			}

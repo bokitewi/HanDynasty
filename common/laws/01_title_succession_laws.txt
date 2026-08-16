@@ -205,6 +205,27 @@
 		flag = appointment_type_succession
 		flag = appointment_with_level_requirement
 	}
+
+	# AUH: election used on every non-titular warlord title of duchy rank or above.
+	kuzhu_warlord_appointment_title_law = {
+		can_have = { government_has_flag = government_is_kuzhu_warlord }
+		can_pass = { always = no }
+		can_title_have = {
+			tier >= tier_duchy
+			this.holder = {
+				has_realm_law = kuzhu_warlord_elective_succession_law
+			}
+		}
+		can_remove_from_title = { always = no }
+		succession = {
+			order_of_succession = election
+			election_type = kuzhu_warlord_elective
+		}
+		flag = elective_succession_law
+		pass_cost = { prestige = change_succession_law_prestige_cost }
+		revoke_cost = { prestige = change_succession_law_prestige_cost }
+		ai_will_do = { value = 0 }
+	}
 }
 
 

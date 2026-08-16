@@ -12,18 +12,3 @@ kuzhu_warlord_vassal = {
 		#kuzhu_close_follower #牙将
 	}
 }
-
-#宫帐制封臣契约
-kuzhu_steppe_admin_vassal = {
-	admin_province_contract = kuzhu_steppe_admin_provinces
-
-	contracts = {
-		meritocratic_obligations
-		kuzhu_steppe_admin_provinces
-		meritocratic_treasury
-		meritocratic_salary
-		meritocratic_salary_rank
-	}
-
-	modify_contract_layout = eastern_admin
-}

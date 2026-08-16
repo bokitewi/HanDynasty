@@ -18,7 +18,6 @@ kuzhu_tradition_mengan_mouke = {
 
 	parameters = {		
 		harder_to_convert_county_culture = yes
-		kuzhu_banner_contract_bonus = yes
 	}
 
 	character_modifier = {
@@ -68,7 +67,7 @@ kuzhu_tradition_mengan_mouke = {
 }
 
 #苦竹：新增帝国武库传统，金属工人上位
-tradition_kuzhu_chinese_armoury = {
+hd_auh_disabled_chinese_armoury = {
 	category = regional
 	
 	layers = {
@@ -77,14 +76,7 @@ tradition_kuzhu_chinese_armoury = {
 		4 = marching_soldiers.dds 
 	}
 
-	is_shown = {
-		OR = {
-			this = culture:han
-			any_parent_culture_or_above = { this = culture:han }
-		}
-		# DLC check.
-		has_tgp_dlc_trigger = yes
-	}
+	is_shown = { always = no }
 	can_pick = {
 		#苦竹：和金属工人分开
 		custom_tooltip = {

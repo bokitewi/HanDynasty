@@ -123,7 +123,10 @@ kuzhu_admin_to_warlord_decision = {
 				}		
 			}
 		}
-		add_character_flag = flag_kuzhu_new_warlord	
+		add_character_flag = {
+			flag = flag_kuzhu_new_warlord
+			years = 10
+		}
 	}
 	
 	ai_check_interval_by_tier = {
@@ -211,8 +214,6 @@ kuzhu_warlord_to_administrative_decision = {
 						has_cultural_parameter = can_adopt_administrative_government_as_kingdom_tier 
 						this = culture:han
 						any_parent_culture_or_above = { this = culture:han }
-						this = culture:greek
-						any_parent_culture_or_above = { this = culture:greek }
 						has_cultural_tradition = tradition_kuzhu_minor_china
 					}
 				}
@@ -274,7 +275,6 @@ kuzhu_warlord_to_administrative_decision = {
 				dynasty = { has_dynasty_perk = law_legacy_5 }
 				#持有罗马或中华帝国
 				OR = {						
-					is_roman_emperor_primary_title_trigger = yes
 					primary_title = { 
 						tier >= tier_empire
 						hegemony = title:h_china
@@ -299,7 +299,6 @@ kuzhu_warlord_to_administrative_decision = {
 			if = {
 				limit = {
 					OR = {						
-						is_roman_emperor_primary_title_trigger = yes
 						primary_title = { 
 							tier >= tier_empire
 							hegemony = title:h_china
@@ -320,8 +319,6 @@ kuzhu_warlord_to_administrative_decision = {
 							#汉文化和希腊文化转行政制减费
 							this = culture:han
 							any_parent_culture_or_above = { this = culture:han }
-							this = culture:greek
-							any_parent_culture_or_above = { this = culture:greek }
 							has_cultural_tradition = tradition_kuzhu_minor_china
 						}
 					}
@@ -398,7 +395,6 @@ kuzhu_warlord_to_administrative_decision = {
 			if = {
 				limit = {
 					OR = {						
-						is_roman_emperor_primary_title_trigger = yes
 						primary_title = { 
 							tier >= tier_empire
 							hegemony = title:h_china
@@ -421,8 +417,6 @@ kuzhu_warlord_to_administrative_decision = {
 							#汉文化和希腊文化转行政制减费
 							this = culture:han
 							any_parent_culture_or_above = { this = culture:han }
-							this = culture:greek
-							any_parent_culture_or_above = { this = culture:greek }
 							has_cultural_tradition = tradition_kuzhu_minor_china
 						}
 					}
@@ -565,7 +559,10 @@ kuzhu_warlord_to_administrative_decision = {
 			add_legitimacy_effect = { LEGITIMACY = admin_convert_legitimacy_value } #One Time Legitimacy Boost
 		}
 		trigger_event = ep3_decisions_event.4060 #Also sends information event to human vassals
-		add_character_flag = flag_kuzhu_new_governor
+		add_character_flag = {
+			flag = flag_kuzhu_new_governor
+			years = 10
+		}
 		#Letter event for the vassals
 	}
 
@@ -616,7 +613,6 @@ kuzhu_warlord_to_administrative_decision = {
 		#头衔因素
 		modifier = {
 			OR = {
-				is_roman_emperor_primary_title_trigger = yes
 				primary_title = {
 					tier >= tier_empire
 					hegemony = title:h_china

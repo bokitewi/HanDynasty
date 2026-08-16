@@ -90,6 +90,10 @@
 			every_faction_member = {
 				#苦竹：简单转为军阀
 				kuzhu_convert_to_warlord_from_admin_effect = yes
+				add_character_flag = {
+					flag = flag_kuzhu_new_warlord
+					years = 10
+				}
 				hidden_effect = {
 					add_truce_both_ways = {
 						character = scope:defender
@@ -265,7 +269,7 @@ kuzhu_install_puppet_faction_war = {
 
 	allowed_for_character = {
 		scope:attacker = {
-			is_ai = no
+			is_leading_faction_type = kuzhu_install_puppet_faction
 		}
 	}
 
@@ -363,7 +367,7 @@ kuzhu_install_puppet_faction_war = {
 				hidden_effect = {
 					scope:attacker = {
 						force_step_down_landed_titles = yes
-						block_firing_councillor_effect = { COURT_OWNER = scope:recipient }
+						block_firing_councillor_effect = { COURT_OWNER = scope:defender }
 					}
 				}	
 			}
@@ -391,7 +395,7 @@ kuzhu_install_puppet_faction_war = {
 				hidden_effect = {
 					scope:attacker = {
 						force_step_down_landed_titles = yes
-						block_firing_councillor_effect = { COURT_OWNER = scope:recipient }
+						block_firing_councillor_effect = { COURT_OWNER = scope:defender }
 					}
 				}	
 			}
@@ -419,7 +423,7 @@ kuzhu_install_puppet_faction_war = {
 				hidden_effect = {
 					scope:attacker = {
 						force_step_down_landed_titles = yes
-						block_firing_councillor_effect = { COURT_OWNER = scope:recipient }
+						block_firing_councillor_effect = { COURT_OWNER = scope:defender }
 					}
 				}				
 			}			

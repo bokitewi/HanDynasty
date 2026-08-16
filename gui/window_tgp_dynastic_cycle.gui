@@ -423,7 +423,7 @@ window = {
 										future_era_button = {
 											datacontext = "[FutureSituationPhase.GetType]"
 											datacontext = "[SituationDynasticCycleWindow.GetHegemonOrTopCandidate]"
-											visible = "[SituationDynasticCycleWindow.IsEraTypeForward( SituationPhase.GetType, FutureSituationPhase.GetType )]"
+											visible = "[Or( SituationDynasticCycleWindow.IsEraTypeForward( SituationPhase.GetType, FutureSituationPhase.GetType ), And( EqualTo_string( SituationPhase.GetType.GetKey, 'kuzhu_situation_dynastic_cycle_phase_normal' ), EqualTo_string( FutureSituationPhase.GetType.GetKey, 'situation_dynastic_cycle_phase_instability' ) ) )]"
 										}
 									}
 								}
@@ -2185,7 +2185,7 @@ types DynasticCycleTypes
 
 		progresspie = {
 
-			visible = "[SituationDynasticCycleWindow.IsEraTypeForward( SituationPhase.GetType, FutureSituationPhase.GetType )]"
+		visible = "[Or( SituationDynasticCycleWindow.IsEraTypeForward( SituationPhase.GetType, FutureSituationPhase.GetType ), And( EqualTo_string( SituationPhase.GetType.GetKey, 'kuzhu_situation_dynastic_cycle_phase_normal' ), EqualTo_string( FutureSituationPhase.GetType.GetKey, 'situation_dynastic_cycle_phase_instability' ) ) )]"
 			size = { 64 64 }
 			texture = "gfx/interface/progressbars/action_progress_thin_red.dds"
 			framesize = { 128 128 }

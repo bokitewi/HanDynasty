@@ -1,0 +1,23 @@
+on_game_start_after_lobby = {
+	on_actions = {
+		hd_qinglong_yanyuedao_after_lobby
+	}
+}
+
+hd_qinglong_yanyuedao_after_lobby = {
+	effect = {
+		if = {
+			limit = {
+				NOT = { exists = global_var:hd_qinglong_yanyuedao_initialized }
+				exists = character:guan_yu
+				character:guan_yu = {
+					is_alive = yes
+				}
+			}
+			character:guan_yu = {
+				hd_create_qinglong_yanyuedao_effect = { OWNER = this }
+			}
+			set_global_variable = hd_qinglong_yanyuedao_initialized
+		}
+	}
+}

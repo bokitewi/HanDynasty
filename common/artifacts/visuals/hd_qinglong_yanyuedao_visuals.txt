@@ -1,0 +1,11 @@
+hd_qinglong_yanyuedao = {
+	default_type = spear
+	icon = "artifact_spear.dds"
+	asset = hd_qinglong_yanyuedao_portrait_left_entity
+}
+
+hd_qinglong_yanyuedao_court = {
+	default_type = pedestal
+	icon = "artifact_spear.dds"
+	asset = hd_qinglong_yanyuedao_court_entity
+}

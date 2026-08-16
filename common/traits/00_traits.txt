@@ -364,6 +364,10 @@ education_stewardship_2 = { #Thrifty clerk
 	level = 2
 	flag = level_2_education
 	flag = civilian_province
+	culture_modifier = {
+		parameter = kuzhu_stewardship_logistics_bonus
+		martial = 1
+	}
 }
 education_stewardship_3 = {	#Fortune builder
 	minimum_age = 16
@@ -390,6 +394,10 @@ education_stewardship_3 = {	#Fortune builder
 	level = 3
 	flag = level_3_education
 	flag = civilian_province
+	culture_modifier = {
+		parameter = kuzhu_stewardship_logistics_bonus
+		martial = 3
+	}
 }
 education_stewardship_4 = {
 	minimum_age = 16
@@ -423,6 +431,10 @@ education_stewardship_4 = {
 	level = 4
 	flag = level_4_education
 	flag = civilian_province
+	culture_modifier = {
+		parameter = kuzhu_stewardship_logistics_bonus
+		martial = 5
+	}
 }
 education_stewardship_5 = {
 	minimum_age = 16
@@ -460,6 +472,10 @@ education_stewardship_5 = {
 	level = 5
 	flag = level_5_education
 	flag = civilian_province
+	culture_modifier = {
+		parameter = kuzhu_stewardship_logistics_bonus
+		martial = 7
+	}
 }
 
 # MARTIAL OUTCOMES
@@ -16290,6 +16306,10 @@ confucian_education = {
 			ai_compassion = 5
 		}
 		40 = {
+			culture_modifier = {
+				parameter = kuzhu_confucian_education_add_merit_level
+				character_max_merit_level_add = 1
+			}
 			stewardship = 1
 			monthly_lifestyle_xp_gain_mult = 0.04
 			ai_sociability = 5
@@ -16303,6 +16323,10 @@ confucian_education = {
 			ai_compassion = 5
 		}
 		80 = {
+			culture_modifier = {
+				parameter = kuzhu_confucian_education_add_merit_level
+				character_max_merit_level_add = 1
+			}
 			stewardship = 1
 			monthly_lifestyle_xp_gain_mult = 0.04
 			ai_sociability = 5
