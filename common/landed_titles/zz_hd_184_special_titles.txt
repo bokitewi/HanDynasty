@@ -223,6 +223,9 @@ d_hd_zhuojun_rangers = {
 	color = { 110 85 55 }
 	capital = c_uuii_p_3562
 	landless = yes
+	# The Liu Bei camp is represented as a hereditary noble-family title in
+	# this bookmark, so the house survives the adventurer branch as a lineage.
+	noble_family = yes
 
 	definite_form = yes
 	require_landless = yes
@@ -233,4 +236,3 @@ d_hd_zhuojun_rangers = {
 		add = @hd_never_primary_score
 	}
 }
-

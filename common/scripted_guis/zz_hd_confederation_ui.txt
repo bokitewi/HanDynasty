@@ -1,0 +1,60 @@
+### Scripted GUI actions for Han Dynasty settled defensive leagues ###
+
+hd_cast_defensive_league_vote = {
+	scope = character
+
+	is_valid = {
+		is_alive = yes
+		scope:candidate = { is_alive = yes }
+		exists = confederation
+		confederation = { confederation_type = confederation_type:hd_defensive_league_type }
+	}
+
+	effect = {
+		set_variable = {
+			name = hd_league_vote
+			value = scope:candidate
+		}
+		hd_update_league_votes_effect = yes
+	}
+}
+
+hd_init_defensive_league_window = {
+	scope = character
+
+	is_valid = {
+		is_alive = yes
+		exists = confederation
+	}
+
+	effect = {
+		hd_update_league_votes_effect = yes
+	}
+}
+
+hd_unify_defensive_league_action = {
+	scope = character
+
+	is_valid = {
+		is_alive = yes
+		has_raised_armies = no
+		hd_is_hd_defensive_league = yes
+		prestige_level >= 3
+		gold >= 300
+		prestige >= 500
+		has_variable = hd_league_leader
+		var:hd_league_leader = root
+		confederation = {
+			NOT = { any_confederation_member = { is_at_war = yes } }
+			has_variable = hd_league_unification_year
+			current_year >= var:hd_league_unification_year
+		}
+		hd_league_capital_kingdom_control_ratio >= 0.80
+	}
+
+	effect = {
+		remove_short_term_gold = 300
+		add_prestige = -500
+		trigger_event = { id = hd_confederation.0500 }
+	}
+}

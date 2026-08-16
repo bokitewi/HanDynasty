@@ -11385,6 +11385,11 @@
 						province = 563
 					}
 
+					b_uuii_p_546 = {
+						color = { 76 14 253 }
+						province = 546
+					}
+
 				}
 
 				c_uuii_p_6954 = {
@@ -13831,11 +13836,6 @@
 					b_uuii_p_2882 = {
 						color = { 16 207 84 }
 						province = 2882
-					}
-
-					b_uuii_p_546 = {
-						color = { 76 14 253 }
-						province = 546
 					}
 
 				}
@@ -38788,3 +38788,4 @@
 	}
 
 }
+

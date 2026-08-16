@@ -1,0 +1,87 @@
+### Script values used by the settled defensive-league window ###
+
+hd_league_years_existed = {
+	value = 0
+	if = {
+		limit = {
+			exists = confederation
+			confederation = { has_variable = hd_league_creation_year }
+		}
+		value = current_year
+		subtract = confederation.var:hd_league_creation_year
+	}
+}
+
+hd_league_voting_support_ratio = {
+	value = 0
+	if = {
+		limit = { exists = confederation }
+		confederation = {
+			every_confederation_member = {
+				limit = {
+					has_variable = hd_league_vote
+					var:hd_league_vote = root
+				}
+				add = 1
+			}
+			divide = {
+				value = 0
+				every_confederation_member = { add = 1 }
+				min = 1
+			}
+		}
+	}
+}
+
+hd_league_capital_kingdom_control_ratio = {
+	value = 0
+	if = {
+		limit = { exists = confederation }
+		if = {
+			limit = {
+				has_variable = hd_league_leader
+				var:hd_league_leader = {
+					exists = capital_county.de_jure_liege.de_jure_liege
+				}
+			}
+			var:hd_league_leader.capital_county.de_jure_liege.de_jure_liege = {
+				save_temporary_scope_as = hd_target_kingdom
+			}
+		}
+		else_if = {
+			limit = { exists = capital_county.de_jure_liege.de_jure_liege }
+			capital_county.de_jure_liege.de_jure_liege = {
+				save_temporary_scope_as = hd_target_kingdom
+			}
+		}
+
+		if = {
+			limit = { exists = scope:hd_target_kingdom }
+			confederation = { save_temporary_scope_as = hd_control_league }
+			scope:hd_target_kingdom = {
+				every_de_jure_county = {
+					limit = {
+						exists = holder
+						holder = { save_temporary_scope_as = hd_county_holder }
+						scope:hd_control_league = {
+							any_confederation_member = {
+								OR = {
+									this = scope:hd_county_holder
+									is_liege_or_above_of = scope:hd_county_holder
+								}
+							}
+						}
+					}
+					add = 1
+				}
+			}
+			divide = {
+				value = 0
+				scope:hd_target_kingdom = {
+					every_de_jure_county = { add = 1 }
+				}
+				min = 1
+			}
+		}
+	}
+}

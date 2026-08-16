@@ -12,6 +12,11 @@ hd_anti_regent.0001 = {
 		is_alive = yes
 		is_landed = yes
 		OR = { this = character:yuan_shao has_character_flag = hd_anti_regent_league_founder }
+		NOR = {
+			has_character_flag = hd_anti_regent_league_leader
+			has_variable = hd_anti_regent_target
+		}
+		title:e_han.holder = { exists = diarch }
 	}
 
 	immediate = {
@@ -35,6 +40,7 @@ hd_anti_regent.0001 = {
 				set_variable = { name = hd_anti_regent_leader value = root }
 				set_variable = { name = hd_anti_regent_invites_open value = yes }
 			}
+			set_variable = { name = hd_anti_regent_target value = scope:hd_anti_regent_target }
 			add_character_flag = hd_anti_regent_league_leader
 			add_character_modifier = { modifier = hd_anti_regent_league_modifier years = 5 }
 		}
@@ -57,6 +63,7 @@ hd_anti_regent.0002 = {
 		save_scope_as = hd_inviting_leader
 		confederation = { save_scope_as = hd_inviting_league }
 		title:e_han.holder = {
+			save_scope_as = hd_han_holder
 			every_vassal_or_below = {
 				limit = {
 					is_alive = yes
@@ -76,13 +83,14 @@ hd_anti_regent.0002 = {
 				NOT = { this = scope:hd_inviting_leader }
 				NOT = { this = scope:hd_inviting_league.var:hd_anti_regent_target }
 				OR = {
-					top_liege = { this = title:e_han.holder }
-					any_held_title = { hegemony = title:h_china }
+					top_liege = { this = scope:hd_han_holder }
+					any_held_title = { is_de_jure_liege_or_above_target = title:h_china }
 				}
 			}
 			set_variable = { name = hd_anti_regent_inviter value = scope:hd_inviting_leader }
 			trigger_event = { id = hd_anti_regent.0003 days = 1 }
 		}
+		trigger_event = { id = hd_anti_regent.0004 months = 11 }
 	}
 }
 
@@ -123,6 +131,28 @@ hd_anti_regent.0003 = {
 	}
 }
 
+# One year after the invitation month, Yuan Shao formally opens the first war.
+hd_anti_regent.0004 = {
+	type = character_event
+	title = hd_anti_regent.0004.t
+	desc = hd_anti_regent.0004.desc
+	theme = war
+	left_portrait = { character = root animation = personality_bold }
+	trigger = {
+		is_alive = yes
+		has_character_flag = hd_anti_regent_league_leader
+		has_variable = hd_anti_regent_target
+		var:hd_anti_regent_target = { is_alive = yes has_character_flag = hd_current_han_regent }
+	}
+	option = {
+		name = hd_anti_regent.0004.a
+		confederation = { every_confederation_member = { set_variable = { name = hd_enter_contribution value = 0 } } }
+		start_war = { cb = hd_anti_regent_punitive_cb target = var:hd_anti_regent_target }
+		hd_call_league_members_to_all_offensive_wars_effect = yes
+		ai_chance = { base = 100 }
+	}
+}
+
 # The first war ended in victory or white peace.  The player-controlled Yuan
 # receives the decision; AI Yuan follows the historical choice to continue.
 hd_anti_regent.0100 = {
@@ -141,13 +171,16 @@ hd_anti_regent.0100 = {
 
 	option = {
 		name = hd_anti_regent.0100.a
+		confederation = { every_confederation_member = { set_variable = { name = hd_enter_contribution value = 0 } } }
 		start_war = { cb = hd_enter_the_passes_cb target = var:hd_anti_regent_target }
+		hd_call_league_members_to_all_offensive_wars_effect = yes
 		ai_chance = { base = 35 }
 	}
 	option = {
 		name = hd_anti_regent.0100.b
 		hd_disband_league_effect = yes
 		remove_character_flag = hd_anti_regent_league_leader
+		remove_variable = hd_anti_regent_target
 		hd_enter_dynastic_chaos_effect = yes
 		ai_chance = { base = 65 }
 	}
@@ -160,6 +193,7 @@ hd_anti_regent.0101 = {
 	immediate = {
 		hd_disband_league_effect = yes
 		remove_character_flag = hd_anti_regent_league_leader
+		remove_variable = hd_anti_regent_target
 	}
 }
 
@@ -179,7 +213,10 @@ hd_anti_regent.0200 = {
 	}
 
 	immediate = {
+		set_variable = { name = hd_spoils_weight value = 0 }
+		remove_variable = hd_anti_regent_spoils
 		var:hd_anti_regent_target = {
+			save_scope_as = hd_spoils_target
 			every_held_title = {
 				limit = {
 					is_landless_type_title = no
@@ -187,7 +224,7 @@ hd_anti_regent.0200 = {
 					NOT = { this = title:e_han }
 					NOT = { this = title:h_china }
 					NOT = { is_noble_family_title = yes }
-					NOT = { de_jure_liege = { holder = root.var:hd_anti_regent_target } }
+					NOT = { de_jure_liege = { holder = scope:hd_spoils_target } }
 				}
 				add_to_list = hd_anti_regent_spoils
 				if = {
@@ -203,26 +240,43 @@ hd_anti_regent.0200 = {
 		}
 		if = { limit = { NOT = { has_variable = hd_spoils_weight } } set_variable = { name = hd_spoils_weight value = 0 } }
 
-		# Prepare contribution shares.  A zero-contribution member remains in the
+		# Prepare contribution shares. A zero-contribution member remains in the
 		# alliance UI but cannot receive a package.
 		confederation = {
 			set_variable = { name = hd_total_enter_contribution value = 0 }
+			var:hd_anti_regent_leader = { set_variable = { name = hd_enter_contribution value = 1 } }
 			every_confederation_member = {
 				if = { limit = { NOT = { has_variable = hd_enter_contribution } } set_variable = { name = hd_enter_contribution value = 0 } }
 				change_variable = { name = hd_total_enter_contribution add = var:hd_enter_contribution }
 				set_variable = { name = hd_received_spoils_weight value = 0 }
+				set_variable = { name = hd_spoils_quota value = 0 }
+			}
+		}
+		confederation = { save_scope_as = hd_spoils_league }
+		confederation = {
+			every_confederation_member = {
+				set_variable = { name = hd_spoils_quota value = var:hd_enter_contribution }
+				change_variable = { name = hd_spoils_quota multiply = root.var:hd_spoils_weight }
+				change_variable = { name = hd_spoils_quota divide = scope:hd_spoils_league.var:hd_total_enter_contribution }
 			}
 		}
 
 		ordered_in_list = {
 			list = hd_anti_regent_spoils
-			order_by = tier
+			order_by = { value = tier }
 			save_temporary_scope_as = hd_spoils_title
+			if = { limit = { tier >= tier_kingdom } set_variable = { name = hd_current_spoils_weight value = 9 } }
+			else_if = { limit = { tier = tier_duchy } set_variable = { name = hd_current_spoils_weight value = 3 } }
+			else = { set_variable = { name = hd_current_spoils_weight value = 1 } }
 			# The highest remaining contribution quota receives this package.
 			confederation = {
+				every_confederation_member = {
+					set_variable = { name = hd_spoils_need value = var:hd_spoils_quota }
+					change_variable = { name = hd_spoils_need subtract = var:hd_received_spoils_weight }
+				}
 				ordered_confederation_member = {
-					order_by = var:hd_enter_contribution
-					limit = { var:hd_enter_contribution > 0 }
+					order_by = { value = var:hd_spoils_need }
+					limit = { var:hd_enter_contribution > 0 is_alive = yes }
 					save_temporary_scope_as = hd_spoils_recipient
 				}
 			}
@@ -237,24 +291,28 @@ hd_anti_regent.0200 = {
 					}
 				}
 				resolve_title_and_vassal_change = scope:hd_spoils_change
+				scope:hd_spoils_recipient = { change_variable = { name = hd_received_spoils_weight add = scope:hd_spoils_title.var:hd_current_spoils_weight } }
 			}
 		}
 
 		if = {
 			limit = { character:yuan_shao ?= { is_alive = yes } }
-			character:yuan_shao = {
-				set_variable = { name = hd_current_han_regent value = yes }
-				add_character_flag = hd_current_han_regent
+			var:hd_anti_regent_target = { remove_character_flag = hd_current_han_regent }
+			title:e_han.holder = {
+				if = { limit = { exists = diarch } diarch = { remove_character_flag = hd_current_han_regent } }
 				try_start_diarchy = regency
-				set_diarch = this
+				set_diarch = character:yuan_shao
 				set_diarchy_swing = 95
+			}
+			character:yuan_shao = {
+				add_character_flag = hd_current_han_regent
 			}
 		}
 		hd_disband_league_effect = yes
 		remove_character_flag = hd_anti_regent_league_leader
 		remove_variable = hd_anti_regent_target
 		remove_variable = hd_spoils_weight
-		hd_disband_league_effect = yes
+		remove_variable = hd_anti_regent_spoils
 	}
 
 	option = { name = hd_anti_regent.0200.a }
@@ -269,11 +327,12 @@ hd_anti_regent.0201 = {
 	immediate = {
 		hd_disband_league_effect = yes
 		remove_character_flag = hd_anti_regent_league_leader
+		remove_variable = hd_anti_regent_target
 		hd_enter_dynastic_chaos_effect = yes
 	}
 }
 
-hd_confederation.0600 = {
+hd_anti_regent.0600 = {
 	type = character_event
 	hidden = yes
 	trigger = { is_alive = yes has_variable = hd_subjugated_league_target }
