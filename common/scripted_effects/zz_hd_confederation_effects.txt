@@ -26,61 +26,106 @@ hd_mark_league_leader_effect = {
 }
 
 hd_update_league_votes_effect = {
+	save_temporary_scope_as = hd_vote_root
 	if = {
 		limit = {
 			exists = confederation
-			confederation = {
-				OR = {
-					confederation_type = confederation_type:hd_defensive_league_type
-					confederation_type = confederation_type:hd_anti_regent_league_type
-				}
-			}
+			confederation = { confederation_type = confederation_type:hd_defensive_league_type }
 		}
 		confederation = {
-			save_scope_as = hd_current_league
+			save_temporary_scope_as = hd_current_league
 			if = {
 				limit = { NOT = { has_variable = hd_league_creation_year } }
 				set_variable = { name = hd_league_creation_year value = current_year }
+				set_variable = { name = hd_league_next_election_year value = current_year }
+				change_variable = { name = hd_league_next_election_year add = 5 }
 			}
-			# The event alliance is intentionally excluded from the election loop.
+
+			# AI votes are recomputed from forced votes, friendship, then opinion.
+			every_confederation_member = {
+				limit = { is_ai = yes }
+				save_temporary_scope_as = hd_voter
 			if = {
-				limit = { confederation_type = confederation_type:hd_defensive_league_type }
-				every_confederation_member = {
-					if = {
-						limit = { is_ai = yes }
-						set_variable = { name = hd_best_league_candidate value = this }
-						set_variable = { name = hd_best_league_score value = 0 }
-						scope:hd_current_league = {
-							every_confederation_member = {
-								limit = { this != prev }
+					limit = {
+						has_variable = hd_league_forced_vote
+						var:hd_league_forced_vote = {
+							is_alive = yes
+						exists = confederation
+							confederation = scope:hd_current_league
+						}
+					}
+					set_variable = { name = hd_league_vote value = var:hd_league_forced_vote }
+				}
+				else = {
+					set_variable = { name = hd_best_league_candidate value = scope:hd_voter }
+					set_variable = { name = hd_best_league_score value = 29 }
+					scope:hd_current_league = {
+						every_confederation_member = {
+							save_temporary_scope_as = hd_candidate
+							if = {
+								limit = { scope:hd_candidate != scope:hd_voter }
 								if = {
-									limit = { opinion = { target = prev value >= 80 } }
-									prev = { change_variable = { name = hd_best_league_score add = 80 } }
+									limit = { scope:hd_candidate = { has_relation_friend = scope:hd_voter } }
+									scope:hd_voter = {
+										set_variable = { name = hd_best_league_candidate value = scope:hd_candidate }
+										set_variable = { name = hd_best_league_score value = 999 }
+									}
 								}
-								if = {
-									limit = { opinion = { target = prev value >= 30 } }
-									prev = { change_variable = { name = hd_best_league_score add = 30 } }
+								else_if = {
+									limit = {
+										scope:hd_voter.var:hd_best_league_score < 80
+										scope:hd_voter = { opinion = { target = scope:hd_candidate value >= 80 } }
+									}
+									scope:hd_voter = {
+										set_variable = { name = hd_best_league_candidate value = scope:hd_candidate }
+										set_variable = { name = hd_best_league_score value = 80 }
+									}
+								}
+								else_if = {
+									limit = {
+										scope:hd_voter.var:hd_best_league_score < 50
+										scope:hd_voter = { opinion = { target = scope:hd_candidate value >= 50 } }
+									}
+									scope:hd_voter = {
+										set_variable = { name = hd_best_league_candidate value = scope:hd_candidate }
+										set_variable = { name = hd_best_league_score value = 50 }
+									}
+								}
+								else_if = {
+									limit = {
+										scope:hd_voter.var:hd_best_league_score < 30
+										scope:hd_voter = { opinion = { target = scope:hd_candidate value >= 30 } }
+									}
+									scope:hd_voter = {
+										set_variable = { name = hd_best_league_candidate value = scope:hd_candidate }
+										set_variable = { name = hd_best_league_score value = 30 }
+									}
 								}
 							}
 						}
-						# AI votes for the highest visible candidate; the initial default
-						# remains self if no relationship provides a stronger preference.
-						set_variable = { name = hd_league_vote value = var:hd_best_league_candidate }
-						remove_variable = hd_best_league_candidate
-						remove_variable = hd_best_league_score
 					}
-					if = {
-						limit = { NOT = { has_variable = hd_league_vote } }
-						set_variable = { name = hd_league_vote value = this }
-					}
+					set_variable = { name = hd_league_vote value = var:hd_best_league_candidate }
+					remove_variable = hd_best_league_candidate
+					remove_variable = hd_best_league_score
+				}
+			}
+			# Players default to their own vote until they use the vote button.
+			scope:hd_vote_root = {
+				if = {
+					limit = { NOT = { has_variable = hd_league_vote } }
+					set_variable = { name = hd_league_vote value = scope:hd_vote_root }
+				}
+			}
+			if = {
+				limit = { NOT = { has_variable = hd_league_setup_done } }
+				set_variable = { name = hd_league_setup_done value = yes }
+				every_confederation_member = {
+					set_variable = { name = hd_league_leader value = scope:hd_vote_root }
 				}
 			}
 			every_confederation_member = {
 				if = {
-					limit = {
-						has_variable = hd_league_leader
-						var:hd_league_leader = { is_alive = no }
-					}
+					limit = { has_variable = hd_league_leader var:hd_league_leader = { is_alive = no } }
 					remove_variable = hd_league_leader
 				}
 			}
@@ -95,46 +140,50 @@ hd_finalize_league_election_effect = {
 			confederation = { confederation_type = confederation_type:hd_defensive_league_type }
 		}
 		confederation = {
-			save_scope_as = hd_election_league
+			save_temporary_scope_as = hd_election_league
 			set_variable = { name = hd_total_voters value = 0 }
-			every_confederation_member = {
-				change_variable = { name = hd_total_voters add = 1 }
-			}
-			# One pass per candidate; a candidate must receive 60% of votes.
+			every_confederation_member = { change_variable = { name = hd_total_voters add = 1 } }
 			every_confederation_member = {
 				save_temporary_scope_as = hd_candidate
 				set_variable = { name = hd_candidate_votes value = 0 }
 				scope:hd_election_league = {
 					every_confederation_member = {
-						limit = {
-							has_variable = hd_league_vote
-							var:hd_league_vote = scope:hd_candidate
-						}
+						limit = { has_variable = hd_league_vote var:hd_league_vote = scope:hd_candidate }
 						scope:hd_candidate = { change_variable = { name = hd_candidate_votes add = 1 } }
 					}
 				}
+				set_variable = { name = hd_vote_threshold value = scope:hd_election_league.var:hd_total_voters }
+				change_variable = { name = hd_vote_threshold multiply = 60 }
+				set_variable = { name = hd_candidate_score value = var:hd_candidate_votes }
+				change_variable = { name = hd_candidate_score multiply = 100 }
 				if = {
-					limit = {
-						var:hd_candidate_votes >= 1
-						var:hd_candidate_votes * 100 >= scope:hd_election_league.var:hd_total_voters * 60
-					}
+					limit = { var:hd_candidate_votes >= 1 var:hd_candidate_score >= var:hd_vote_threshold }
 					scope:hd_election_league = { set_variable = { name = hd_winning_candidate value = scope:hd_candidate } }
 				}
-				scope:hd_candidate = { remove_variable = hd_candidate_votes }
+				scope:hd_candidate = {
+					remove_variable = hd_candidate_votes
+					remove_variable = hd_vote_threshold
+					remove_variable = hd_candidate_score
+				}
 			}
 			if = {
 				limit = { has_variable = hd_winning_candidate }
-				hd_mark_league_leader_effect = { LEADER = var:hd_winning_candidate }
 				every_confederation_member = {
+					set_variable = { name = hd_league_leader value = scope:hd_election_league.var:hd_winning_candidate }
 					if = {
-						limit = { has_character_modifier = hd_league_disorganized_modifier }
-						remove_character_modifier = hd_league_disorganized_modifier
+						limit = { this = scope:hd_election_league.var:hd_winning_candidate }
+						if = { limit = { NOT = { has_character_modifier = hd_league_leader_modifier } } add_character_modifier = { modifier = hd_league_leader_modifier } }
 					}
+					else_if = { limit = { has_character_modifier = hd_league_leader_modifier } remove_character_modifier = hd_league_leader_modifier }
+					if = { limit = { has_character_modifier = hd_league_disorganized_modifier } remove_character_modifier = hd_league_disorganized_modifier }
 					remove_variable = hd_league_vote
 				}
 			}
 			else = {
 				every_confederation_member = {
+					remove_variable = hd_league_leader
+					remove_variable = hd_league_vote
+					if = { limit = { has_character_modifier = hd_league_leader_modifier } remove_character_modifier = hd_league_leader_modifier }
 					if = { limit = { NOT = { has_character_modifier = hd_league_disorganized_modifier } } add_character_modifier = { modifier = hd_league_disorganized_modifier } }
 				}
 			}
@@ -148,38 +197,38 @@ hd_disband_league_effect = {
 	if = {
 		limit = { exists = confederation }
 		confederation = {
-			save_scope_as = hd_disbanding_league
 			every_confederation_member = {
-				save_temporary_scope_as = hd_leaving_member
 				remove_variable = hd_league_leader
 				remove_variable = hd_anti_regent_league_target
 				remove_variable = hd_league_vote
+				remove_variable = hd_league_forced_vote
 				if = { limit = { has_character_modifier = hd_league_leader_modifier } remove_character_modifier = hd_league_leader_modifier }
-			if = { limit = { has_character_modifier = hd_league_disorganized_modifier } remove_character_modifier = hd_league_disorganized_modifier }
-			confederation = { remove_confederation_member = scope:hd_leaving_member }
+				if = { limit = { has_character_modifier = hd_league_disorganized_modifier } remove_character_modifier = hd_league_disorganized_modifier }
 			}
 		}
+		disband_confederation = yes
 	}
 }
 
 hd_call_league_members_to_all_offensive_wars_effect = {
+	save_temporary_scope_as = hd_calling_leader
 	if = {
 		limit = { exists = confederation }
 		confederation = {
-			save_scope_as = hd_calling_league
 			every_confederation_member = {
 				limit = {
-					this != root
+					this != scope:hd_calling_leader
 					is_alive = yes
 					is_imprisoned = no
 				}
-				root = {
+				save_temporary_scope_as = hd_calling_member
+				scope:hd_calling_leader = {
 					every_character_war = {
 						limit = {
-							primary_attacker = root
-							NOT = { is_attacker_in_war = prev }
+							primary_attacker = scope:hd_calling_leader
+							NOT = { is_attacker_in_war = scope:hd_calling_member }
 						}
-						add_attacker = prev
+						add_attacker = scope:hd_calling_member
 					}
 				}
 			}

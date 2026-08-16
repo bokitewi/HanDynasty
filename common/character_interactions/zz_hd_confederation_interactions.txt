@@ -11,13 +11,11 @@ hd_offer_defensive_league_interaction = {
 
 	is_shown = {
 		scope:actor = {
-			is_playable_character = yes
 			is_independent_ruler = yes
 			hd_valid_defensive_league_member_trigger = { CHARACTER = this }
 			is_confederation_member = no
 		}
 		scope:recipient = {
-			is_playable_character = yes
 			is_independent_ruler = yes
 			hd_valid_defensive_league_member_trigger = { CHARACTER = this }
 			this != scope:actor
@@ -121,7 +119,10 @@ hd_call_defensive_league_to_war_interaction = {
 	}
 
 	is_valid_showing_failures_only = {
-		scope:actor = { is_at_war_as_attacker = yes any_character_war = { primary_attacker = scope:actor } }
+		scope:actor = {
+			is_at_war_as_attacker = yes
+			any_character_war = { primary_attacker = scope:actor }
+		}
 	}
 
 	on_accept = {

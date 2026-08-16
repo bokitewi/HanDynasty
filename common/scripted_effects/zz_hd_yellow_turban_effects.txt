@@ -301,7 +301,7 @@ hd_yellow_turban_war_failed_effect = {
 			character:he_jin = {
 				trigger_event = {
 					id = hd_palace_crisis.0001
-					months = 6
+					months = { 22 26 }
 				}
 			}
 		}
@@ -311,7 +311,7 @@ hd_yellow_turban_war_failed_effect = {
 			character:yuan_shao = {
 				trigger_event = {
 					id = hd_palace_crisis.0001
-					months = 6
+					months = { 22 26 }
 				}
 			}
 		}
@@ -321,7 +321,7 @@ hd_yellow_turban_war_failed_effect = {
 			character:cao_cao = {
 				trigger_event = {
 					id = hd_palace_crisis.0001
-					months = 6
+					months = { 22 26 }
 				}
 			}
 		}
@@ -331,7 +331,7 @@ hd_yellow_turban_war_failed_effect = {
 			character:he_jin = {
 				trigger_event = {
 					id = hd_palace_crisis.0001
-					months = 6
+					months = { 22 26 }
 				}
 			}
 		}
@@ -341,7 +341,7 @@ hd_yellow_turban_war_failed_effect = {
 			character:yuan_shao = {
 				trigger_event = {
 					id = hd_palace_crisis.0001
-					months = 6
+					months = { 22 26 }
 				}
 			}
 		}
@@ -351,7 +351,7 @@ hd_yellow_turban_war_failed_effect = {
 			character:cao_cao = {
 				trigger_event = {
 					id = hd_palace_crisis.0001
-					months = 6
+					months = { 22 26 }
 				}
 			}
 		}

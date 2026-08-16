@@ -1,0 +1,175 @@
+namespace = hd_cao_chain
+
+hd_cao_chain.0001 = {
+	type = character_event
+	title = hd_cao_chain.0001.t
+	desc = hd_cao_chain.0001.desc
+	theme = intrigue
+	left_portrait = { character = root animation = personality_shocked }
+	trigger = { this = character:cao_cao is_alive = yes }
+	immediate = {
+		character:wu_fu ?= {
+			if = {
+				limit = { is_alive = yes }
+				death = { death_reason = death_murder killer = root }
+			}
+		}
+		title:e_han.holder = { if = { limit = { exists = diarch } diarch = { save_scope_as = hd_cao_chain_target } } }
+		if = {
+			limit = { exists = scope:hd_cao_chain_target }
+			set_variable = { name = hd_cao_chain_target value = scope:hd_cao_chain_target }
+		}
+	}
+	option = {
+		name = hd_cao_chain.0001.a
+		trigger_event = { id = hd_cao_chain.0002 months = 1 }
+		ai_chance = { base = 100 }
+	}
+}
+
+hd_cao_chain.0002 = {
+	type = character_event
+	title = hd_cao_chain.0002.t
+	desc = hd_cao_chain.0002.desc
+	theme = intrigue
+	left_portrait = { character = root animation = personality_rational }
+	trigger = { this = character:cao_cao is_alive = yes }
+	option = {
+		name = hd_cao_chain.0002.a
+		trigger_event = { id = hd_cao_chain.0003 days = { 1 3 } }
+		ai_chance = { base = 100 }
+	}
+}
+
+hd_cao_chain.0003 = {
+	type = character_event
+	title = hd_cao_chain.0003.t
+	desc = hd_cao_chain.0003.desc
+	theme = intrigue
+	left_portrait = { character = root animation = personality_bold }
+	trigger = { this = character:cao_cao is_alive = yes }
+	immediate = {
+		# The project already provides this artifact template; the event is the
+		# historical point at which Cao Cao receives it.  If the startup
+		# compatibility hook already created it for Wang Yun, transfer that unique
+		# artifact instead of creating a duplicate.
+		character:wang_yun ?= {
+			any_character_artifact = {
+				limit = { has_variable = hd_qixing_baodao }
+				save_scope_as = hd_existing_qixing_baodao
+			}
+		}
+		if = {
+			limit = { exists = scope:hd_existing_qixing_baodao }
+			scope:hd_existing_qixing_baodao = {
+				set_owner = root
+				equip_artifact_to_owner_replace = yes
+			}
+		}
+		else = { hd_create_qixing_baodao_effect = { OWNER = root } }
+	}
+	option = {
+		name = hd_cao_chain.0003.a
+		trigger_event = { id = hd_cao_chain.0004 days = 7 }
+		ai_chance = { base = 100 }
+	}
+}
+
+hd_cao_chain.0004 = {
+	type = character_event
+	title = hd_cao_chain.0004.t
+	desc = hd_cao_chain.0004.desc
+	theme = intrigue
+	left_portrait = { character = root animation = personality_bold }
+	right_portrait = { character = scope:hd_cao_chain_target_portrait animation = personality_furious }
+	trigger = {
+		this = character:cao_cao
+		is_alive = yes
+		has_variable = hd_cao_chain_target
+		var:hd_cao_chain_target = { is_alive = yes }
+	}
+	immediate = {
+		var:hd_cao_chain_target = { save_scope_as = hd_cao_chain_target_portrait }
+	}
+	option = {
+		name = hd_cao_chain.0004.a
+		var:hd_cao_chain_target = {
+			add_opinion = { target = root modifier = attempted_murder_opinion }
+			if = {
+				limit = { can_set_relation_nemesis_trigger = { CHARACTER = root } }
+				set_relation_nemesis = root
+			}
+		}
+		add_character_flag = hd_cao_fled_from_regent
+		if = {
+			limit = { title:c_uuii_p_637.holder ?= { this = character:chen_gong is_alive = yes } }
+			trigger_event = { id = hd_cao_chain.0005 days = 1 }
+		}
+		else = { trigger_event = { id = hd_cao_chain.0007 days = 1 } }
+		ai_chance = { base = 100 }
+	}
+}
+
+hd_cao_chain.0005 = {
+	type = character_event
+	title = hd_cao_chain.0005.t
+	desc = hd_cao_chain.0005.desc
+	theme = intrigue
+	left_portrait = { character = root animation = personality_bold }
+	right_portrait = { character = character:chen_gong animation = personality_rational }
+	trigger = { this = character:cao_cao is_alive = yes character:chen_gong ?= { is_alive = yes } }
+	option = {
+		name = hd_cao_chain.0005.a
+		character:chen_gong = {
+			if = { limit = { can_set_relation_friend_trigger = { CHARACTER = root } } set_relation_friend = root }
+			hd_chen_gong_leave_office_effect = yes
+			set_employer = root
+		}
+		trigger_event = { id = hd_cao_chain.0007 days = { 3 7 } }
+		ai_chance = { base = 100 }
+	}
+}
+
+hd_cao_chain.0007 = {
+	type = character_event
+	title = hd_cao_chain.0007.t
+	desc = hd_cao_chain.0007.desc
+	theme = intrigue
+	left_portrait = { character = root animation = personality_bold }
+	right_portrait = { character = character:lv_bo_she animation = personality_rational }
+	trigger = { this = character:cao_cao is_alive = yes }
+	immediate = {
+		character:lv_bo_she ?= {
+			if = { limit = { is_alive = yes } death = { death_reason = death_murder killer = root } }
+		}
+		create_character = {
+			location = root.location
+			template = new_commander_character
+			culture = root.culture
+			faith = root.faith
+			gender_female_chance = 0
+			save_temporary_scope_as = hd_lv_household_1
+		}
+		create_character = {
+			location = root.location
+			template = new_commander_character
+			culture = root.culture
+			faith = root.faith
+			gender_female_chance = 50
+			save_temporary_scope_as = hd_lv_household_2
+		}
+		scope:hd_lv_household_1 = { death = { death_reason = death_murder killer = root } }
+		scope:hd_lv_household_2 = { death = { death_reason = death_murder killer = root } }
+		character:chen_gong ?= {
+			if = {
+				limit = { is_alive = yes }
+				if = { limit = { can_set_relation_nemesis_trigger = { CHARACTER = root } } set_relation_nemesis = root }
+			}
+		}
+		domicile ?= { move_domicile = title:d_chenliu.capital_province }
+	}
+	option = {
+		name = hd_cao_chain.0007.a
+		ai_chance = { base = 100 }
+	}
+}

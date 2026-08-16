@@ -11,13 +11,15 @@ hd_confederation_yearly_pulse = {
 				limit = {
 					hd_is_hd_defensive_league = yes
 					confederation = {
-						NOT = {
-							has_variable = hd_last_election_year
-							var:hd_last_election_year = current_year
-						}
+						has_variable = hd_league_next_election_year
+						current_year >= var:hd_league_next_election_year
 					}
 				}
-				confederation = { set_variable = { name = hd_last_election_year value = current_year } }
+				confederation = {
+					set_variable = { name = hd_last_election_year value = current_year }
+					set_variable = { name = hd_league_next_election_year value = current_year }
+					change_variable = { name = hd_league_next_election_year add = 5 }
+				}
 				trigger_event = { id = hd_confederation.0400 days = 1 }
 			}
 		}

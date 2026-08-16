@@ -35,8 +35,10 @@ hd_unify_defensive_league_decision = {
 		gold >= 300
 		prestige >= 500
 		confederation = { NOT = { any_confederation_member = { is_at_war = yes } } }
-		confederation = { has_variable = hd_league_creation_year }
-		current_year >= var:hd_league_creation_year + 15
+		confederation = {
+			has_variable = hd_league_unification_year
+			current_year >= var:hd_league_unification_year
+		}
 	}
 
 	cost = { gold = 300 prestige = 500 }

@@ -7,11 +7,18 @@ hd_defensive_league_type = {
 	on_member_character_joined = {
 		save_scope_as = hd_joined_league
 		scope:character = {
-			set_variable = { name = hd_league_creation_year value = current_year }
 			if = {
 				limit = { NOT = { has_character_modifier = hd_league_member_modifier } }
 				add_character_modifier = { modifier = hd_league_member_modifier years = 5 }
 			}
+		}
+		if = {
+			limit = { NOT = { has_variable = hd_league_creation_year } }
+			set_variable = { name = hd_league_creation_year value = current_year }
+			set_variable = { name = hd_league_next_election_year value = current_year }
+			change_variable = { name = hd_league_next_election_year add = 5 }
+			set_variable = { name = hd_league_unification_year value = current_year }
+			change_variable = { name = hd_league_unification_year add = 15 }
 		}
 		every_player = {
 			limit = { confederation = scope:hd_joined_league }
@@ -56,10 +63,7 @@ hd_anti_regent_league_type = {
 	on_member_character_joined = {
 		save_scope_as = hd_joined_league
 		scope:character = {
-			add_character_flag = {
-				flag = hd_anti_regent_league_member
-				years = 20
-			}
+			add_character_flag = hd_anti_regent_league_member
 		}
 		every_player = {
 			limit = { confederation = scope:hd_joined_league }

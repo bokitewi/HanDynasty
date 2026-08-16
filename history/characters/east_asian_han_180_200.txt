@@ -32099,7 +32099,7 @@ wu_fu={
 	trait=honest
 	trait=wrathful
 	trait=sadistic
-	195.7.1={
+	155.7.1={
 		birth=yes
 	}
 	260.7.1={
@@ -53357,7 +53357,7 @@ lv_bo_she={
 	trait=stubborn
 	trait=calm
 	trait=cynical
-	195.7.1={
+	145.7.1={
 		birth=yes
 	}
 	260.7.1={
