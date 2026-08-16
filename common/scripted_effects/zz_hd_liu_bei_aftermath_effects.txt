@@ -65,19 +65,20 @@ hd_liu_bei_become_adventurer_effect = {
 			resolve_title_and_vassal_change = scope:hd_liu_bei_return_change
 		}
 
-		# The noble-family title is the pre-uprising Liu Bei start.  Destroying
-		# it after returning landed holdings prevents two simultaneous careers.
-		if = {
-			limit = { has_title = title:c_hd_nf_famous_h_house_111010250025033 }
-			destroy_title = title:c_hd_nf_famous_h_house_111010250025033
-		}
-
 		create_landless_adventurer_title_effect = {
 			REASON = flag:voluntary
 			FLAVOR_CHAR = root
 		}
 		scope:new_landless_adventurer_title ?= {
 			set_title_name = hd_zhuojun_rangers
+		}
+
+		# The noble-family title is the pre-uprising Liu Bei start.  Destroy it
+		# only after the new camp exists, so a player never briefly loses their
+		# sole title and trips a game-over check during the conversion.
+		if = {
+			limit = { has_title = title:c_hd_nf_famous_h_house_111010250025033 }
+			destroy_title = title:c_hd_nf_famous_h_house_111010250025033
 		}
 		add_realm_law_skip_effects = camp_purpose_mercenaries
 		add_character_flag = hd_liu_bei_adventurer_path

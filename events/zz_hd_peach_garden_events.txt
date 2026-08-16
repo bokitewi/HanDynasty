@@ -31,7 +31,7 @@ hd_peach_garden.0001 = {
 		is_alive = yes
 		game_start_date = 184.1.1
 		current_date = 184.1.1
-		primary_title = title:c_hd_nf_famous_h_house_111010250025033
+		has_title = title:c_hd_nf_famous_h_house_111010250025033
 		has_government = celestial_government
 		NOT = { has_character_flag = hd_peach_garden_oath_completed }
 		character:guan_yu ?= {

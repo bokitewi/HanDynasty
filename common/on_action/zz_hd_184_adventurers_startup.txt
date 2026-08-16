@@ -53,7 +53,7 @@ hd_setup_184_special_adventurers = {
 				limit = {
 					is_alive = yes
 					has_government = celestial_government
-					primary_title = title:c_hd_nf_famous_h_house_111010250025033
+					has_title = title:c_hd_nf_famous_h_house_111010250025033
 				}
 				trigger_event = hd_peach_garden.0001
 			}
