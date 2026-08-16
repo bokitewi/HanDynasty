@@ -6,8 +6,9 @@
 ##### 【杨封】
 yang_feng_6={
 	name="uuii_book_yang_feng_6_name" #封
+	dynasty_house="uuii_book_house_dfdc12edafc9"
 	culture="diren"
-	faith="guiwu"
+	faith="shamanism"
 	diplomacy="7"
 	martial="5"
 	stewardship="9"
@@ -15,7 +16,12 @@ yang_feng_6={
 	learning="5"
 	prowess="7"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_stewardship_4
+	trait=tk_historical_character01
+	trait=greedy
+	trait=trusting
+	trait=wrathful
 	110.7.1={
 		birth=yes
 	}
@@ -27,8 +33,9 @@ yang_feng_6={
 ##### 【韩增】
 han_zeng={
 	name="uuii_book_han_zeng_name" #增
+	dynasty_house="uuii_book_house_1fd70e68ffde"
 	culture="diren"
-	faith="guiwu"
+	faith="shamanism"
 	diplomacy="8"
 	martial="5"
 	stewardship="8"
@@ -36,7 +43,12 @@ han_zeng={
 	learning="6"
 	prowess="5"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_diplomacy_2
+	trait=tk_historical_character01
+	trait=sadistic
+	trait=brave
+	trait=generous
 	110.7.1={
 		birth=yes
 	}

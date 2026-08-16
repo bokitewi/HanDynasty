@@ -1,0 +1,110 @@
+﻿#摄政相关
+kuzhu_puppet_ruler = {
+	category = fame
+	icon = kuzhu_puppet_ruler.dds
+	desc = trait_kuzhu_puppet_ruler_desc
+
+	incapacitating = yes
+	disables_combat_leadership = yes
+	monthly_influence = -2
+	monthly_prestige = -2
+	dread_baseline_add = -25
+	dread_loss_mult = 1
+	
+	shown_in_ruler_designer = no	
+}
+kuzhu_empire_overseer = {
+	category = fame
+	icon = kuzhu_empire_overseer.dds
+	desc = trait_kuzhu_empire_overseer_desc
+
+	monthly_influence = 2
+	monthly_prestige = 2	
+	dread_baseline_add = 25
+	dread_loss_mult = -0.5
+	
+	shown_in_ruler_designer = no	
+}
+
+# WARLORD TRAIT
+kuzhu_warlord_trait = {
+	category = fame
+	icon = kuzhu_warlord.dds
+
+	# Modifiers
+	track = {
+		25 = {
+			monthly_income = 0.5
+			monthly_prestige = 0.5
+			martial = 1
+			prowess = 1
+		}
+		50 = {
+			monthly_income = 0.5
+			monthly_prestige = 0.5
+			stewardship = 1
+			prowess = 1
+		}
+		75 = {
+			monthly_income = 0.5
+			monthly_prestige = 0.5
+			diplomacy = 1
+			prowess = 1
+		}
+		100 = {
+			monthly_income = 1
+			monthly_prestige = 1
+			diplomacy = 1			
+			martial = 1
+			stewardship = 1			
+			prowess = 1
+			men_at_arms_cap = 1
+			men_at_arms_limit = 1
+		}
+	}
+	
+	ruler_designer_cost = 40
+	
+	# AI Values
+	ai_rationality = 10
+
+	desc = {
+		first_valid = {
+			#The trait can never go higher than the first level if it's not assigned to a character
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = kuzhu_warlord_trait_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = kuzhu_warlord_trait
+						value >= 100
+					}
+				}
+				desc = kuzhu_warlord_trait_4_character_desc
+			}			
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = kuzhu_warlord_trait
+						value >= 75
+					}
+				}
+				desc = kuzhu_warlord_trait_3_character_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = kuzhu_warlord_trait
+						value >= 25
+					}
+				}
+				desc = kuzhu_warlord_trait_2_character_desc
+			}
+			desc = kuzhu_warlord_trait_1_character_desc
+		}
+	}
+}

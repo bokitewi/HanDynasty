@@ -1,0 +1,11 @@
+﻿### CHINA ###
+kuzhu_dynastic_cycle = {
+	icon = {
+		trigger = {
+			situation:dynastic_cycle = {
+				situation_current_phase = kuzhu_situation_dynastic_cycle_phase_normal
+			}
+		}
+		reference = "gfx/interface/icons/event_types/type_dynastic_cycle_instability.dds"
+	}
+}

@@ -3,36 +3,13 @@
 # Time partition: dead_before_180 (death < 180).
 # No title history is assigned. Dates marked in the evidence audit may be estimates.
 
-##### 【马续】
-ma_xu={
-	name="uuii_book_ma_xu_name" #续
-	dynasty_house="house_111010052004013"
-	father="ma_yan_2"
-	culture="xianbei"
-	faith="xianbei_polytheism"
-	diplomacy="5"
-	martial="7"
-	stewardship="7"
-	intrigue="7"
-	learning="7"
-	prowess="7"
-	health=5.5
-	disallow_random_traits=no
-	82.7.1={
-		birth=yes
-	}
-	145.7.1={
-		death=yes
-	}
-}
-
 ##### 【拓拔折苴】
 tuo_ba_zhe_ju={
 	name="uuii_book_tuo_ba_zhe_ju_name" #拔折苴
 	dynasty_house="house_131100002001013"
 	father="tuo_ba_tan_shi_huai"
 	culture="xianbei"
-	faith="xianbei_polytheism"
+	faith="tengri_pagan"
 	diplomacy="6"
 	martial="9"
 	stewardship="7"
@@ -40,7 +17,12 @@ tuo_ba_zhe_ju={
 	learning="8"
 	prowess="5"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_martial_2
+	trait=tk_historical_character01
+	trait=cynical
+	trait=just
+	trait=wrathful
 	154.7.1={
 		birth=yes
 	}
@@ -52,8 +34,9 @@ tuo_ba_zhe_ju={
 ##### 【耿夔】
 geng_kui={
 	name="uuii_book_geng_kui_name" #夔
+	dynasty_house="uuii_book_house_951604f50123"
 	culture="xianbei"
-	faith="xianbei_polytheism"
+	faith="shamanism"
 	diplomacy="5"
 	martial="8"
 	stewardship="7"
@@ -61,7 +44,12 @@ geng_kui={
 	learning="6"
 	prowess="7"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_stewardship_4
+	trait=tk_historical_character01
+	trait=brave
+	trait=honest
+	trait=ambitious
 	82.7.1={
 		birth=yes
 	}
@@ -73,8 +61,9 @@ geng_kui={
 ##### 【邓遵】
 deng_zun={
 	name="uuii_book_deng_zun_name" #遵
+	dynasty_house="uuii_book_house_9d021088fd55"
 	culture="xianbei"
-	faith="xianbei_polytheism"
+	faith="shamanism"
 	diplomacy="4"
 	martial="8"
 	stewardship="7"
@@ -82,7 +71,12 @@ deng_zun={
 	learning="7"
 	prowess="7"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_learning_4
+	trait=tk_historical_character01
+	trait=deceitful
+	trait=just
+	trait=cynical
 	82.7.1={
 		birth=yes
 	}
@@ -94,8 +88,9 @@ deng_zun={
 ##### 【张显】
 zhang_xian_4={
 	name="uuii_book_zhang_xian_4_name" #显
+	dynasty_house="uuii_book_house_75097e5e3a41"
 	culture="xianbei"
-	faith="xianbei_polytheism"
+	faith="shamanism"
 	diplomacy="4"
 	martial="8"
 	stewardship="7"
@@ -103,7 +98,12 @@ zhang_xian_4={
 	learning="7"
 	prowess="7"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_martial_4
+	trait=tk_historical_character01
+	trait=wrathful
+	trait=zealous
+	trait=arbitrary
 	76.7.1={
 		birth=yes
 	}
@@ -115,8 +115,9 @@ zhang_xian_4={
 ##### 【乌伦】
 wu_lun={
 	name="uuii_book_wu_lun_name" #伦
+	dynasty_house="uuii_book_house_76c035d8e202"
 	culture="xianbei"
-	faith="xianbei_polytheism"
+	faith="shamanism"
 	diplomacy="5"
 	martial="9"
 	stewardship="8"
@@ -124,7 +125,12 @@ wu_lun={
 	learning="6"
 	prowess="5"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_martial_4
+	trait=tk_historical_character01
+	trait=sadistic
+	trait=wrathful
+	trait=patient
 	90.7.1={
 		birth=yes
 	}
@@ -136,8 +142,9 @@ wu_lun={
 ##### 【于仇贲】
 yu_chou_ben={
 	name="uuii_book_yu_chou_ben_name" #仇贲
+	dynasty_house="uuii_book_house_bddda3d5549a"
 	culture="xianbei"
-	faith="xianbei_polytheism"
+	faith="shamanism"
 	diplomacy="7"
 	martial="7"
 	stewardship="8"
@@ -145,7 +152,12 @@ yu_chou_ben={
 	learning="5"
 	prowess="8"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_stewardship_3
+	trait=tk_historical_character01
+	trait=callous
+	trait=vengeful
+	trait=honest
 	24.7.1={
 		birth=yes
 	}
@@ -157,8 +169,9 @@ yu_chou_ben={
 ##### 【邓太】
 deng_tai={
 	name="uuii_book_deng_tai_name" #太
+	dynasty_house="uuii_book_house_07bda2b07d5f"
 	culture="xianbei"
-	faith="xianbei_polytheism"
+	faith="shamanism"
 	diplomacy="6"
 	martial="8"
 	stewardship="4"
@@ -166,7 +179,12 @@ deng_tai={
 	learning="6"
 	prowess="8"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_martial_4
+	trait=tk_historical_character01
+	trait=vengeful
+	trait=stubborn
+	trait=patient
 	83.7.1={
 		birth=yes
 	}
@@ -178,8 +196,9 @@ deng_tai={
 ##### 【满头】
 man_tou={
 	name="uuii_book_man_tou_name" #头
+	dynasty_house="uuii_book_house_e279840693b5"
 	culture="xianbei"
-	faith="xianbei_polytheism"
+	faith="shamanism"
 	diplomacy="8"
 	martial="4"
 	stewardship="8"
@@ -187,7 +206,12 @@ man_tou={
 	learning="4"
 	prowess="8"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_stewardship_3
+	trait=tk_historical_character01
+	trait=lazy
+	trait=fickle
+	trait=generous
 	28.7.1={
 		birth=yes
 	}
@@ -199,8 +223,9 @@ man_tou={
 ##### 【丘伦】
 qiu_lun={
 	name="uuii_book_qiu_lun_name" #伦
+	dynasty_house="uuii_book_house_f80a72139f13"
 	culture="xianbei"
-	faith="xianbei_polytheism"
+	faith="shamanism"
 	diplomacy="7"
 	martial="9"
 	stewardship="8"
@@ -208,7 +233,12 @@ qiu_lun={
 	learning="4"
 	prowess="7"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_stewardship_4
+	trait=tk_historical_character01
+	trait=cynical
+	trait=vengeful
+	trait=generous
 	79.7.1={
 		birth=yes
 	}

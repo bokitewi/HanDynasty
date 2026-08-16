@@ -1,0 +1,87 @@
+﻿# Generated from 華陽國志、三國志、三國演義、後漢書 and 漢晉春秋.
+# Culture: liangzhou
+# Time partition: born_after_200 (birth > 200).
+# No title history is assigned. Dates marked in the evidence audit may be estimates.
+
+##### 【姜维】
+jiang_wei={
+	name="uuii_book_jiang_wei_name" #维
+	dynasty_house="house_111010032001013"
+	father="jiang_jiong"
+	culture="liangzhou"
+	faith="jingxue"
+	diplomacy="15"
+	martial="2"
+	stewardship="0"
+	intrigue="7"
+	learning="6"
+	prowess="0"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_diplomacy_4
+	trait=tk_historical_character03
+	trait=brave
+	trait=diligent
+	trait=honest
+	202.7.1={
+		birth=yes
+	}
+	264.7.1={
+		death=yes
+	}
+}
+
+##### 【傅嘏】
+fu_gu={
+	name="uuii_book_fu_gu_name" #嘏
+	dynasty_house="house_111010082001013"
+	father="fu_yun"
+	culture="liangzhou"
+	faith="jingxue"
+	diplomacy="4"
+	martial="8"
+	stewardship="8"
+	intrigue="8"
+	learning="8"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_intrigue_4
+	trait=tk_historical_character01
+	trait=honest
+	trait=wrathful
+	trait=temperate
+	209.7.1={
+		birth=yes
+	}
+	255.7.1={
+		death=yes
+	}
+}
+
+##### 【侯瑾】
+hou_jin_2={
+	name="uuii_book_hou_jin_2_name" #瑾
+	dynasty_house="uuii_book_house_800ab6ee6dc0"
+	culture="liangzhou"
+	faith="jingxue"
+	diplomacy="7"
+	martial="6"
+	stewardship="9"
+	intrigue="7"
+	learning="6"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_2
+	trait=tk_historical_character01
+	trait=wrathful
+	trait=ambitious
+	trait=fickle
+	224.7.1={
+		birth=yes
+	}
+	289.7.1={
+		death=yes
+	}
+}

@@ -1,0 +1,187 @@
+﻿##########
+# Duchy Capital Buildings
+# These are built in the first barony of the first county of any duchy
+# Holding the associated duchy is required both to build, and for the buildings to be enabled
+##########
+
+#苦竹新增宫帐制公国建筑：
+
+kuzhu_chiliarch_department_01 = {
+	construction_time = slow_construction_time
+	effect_desc = kuzhu_chiliarch_department_effects_desc
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+		building_requirement_castle_city_church = { LEVEL = 01 }
+	}
+
+	is_enabled = {
+		scope:holder = {
+			has_government = kuzhu_warlord_government
+		} 	
+	}
+	show_disabled = yes
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+		county = { NOT = { has_county_modifier = backwater_county_modifier } }
+	}
+
+	can_construct = {
+		scope:holder = {
+			highest_held_title_tier >= tier_duchy
+		}
+	}
+
+	cost_gold = expensive_building_tier_3_cost
+
+	duchy_capital_county_modifier = {
+		monthly_county_control_growth_factor = 0.2
+		levy_size = 0.2
+		levy_reinforcement_rate = 0.2
+	}
+
+	character_modifier = {		
+		men_at_arms_maintenance = -0.06
+		men_at_arms_recruitment_cost = -0.06
+		men_at_arms_limit = 1
+	}
+
+	type_icon = "icon_building_warcamps.dds"
+
+	next_building = kuzhu_chiliarch_department_02
+
+	type = duchy_capital
+	
+	flag = duchy_building
+
+	ai_value = {
+		base = 22
+		modifier = {
+			factor = 2
+			scope:holder.capital_province = this
+		}
+		modifier = { # Fill all building slots before going for duchy buildings
+			factor = 0
+			free_building_slots > 0
+		}
+		modifier = { # Less likely when the AI should build regular buildings first
+			factor = 0.1
+			scope:holder = { ai_should_focus_on_building_in_their_capital = yes }
+		}
+	}
+}
+
+kuzhu_chiliarch_department_02 = {
+	construction_time = slow_construction_time
+	effect_desc = kuzhu_chiliarch_department_effects_desc
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+		building_requirement_castle_city_church = { LEVEL = 01 }
+	}
+
+	is_enabled = {
+		scope:holder = {
+			has_government = kuzhu_warlord_government
+		} 	
+	}
+	show_disabled = yes
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+		county = { NOT = { has_county_modifier = backwater_county_modifier } }
+	}
+
+	can_construct = {
+		scope:holder = {
+			highest_held_title_tier >= tier_duchy
+		}
+	}
+
+	cost_gold = expensive_building_tier_3_cost
+
+	duchy_capital_county_modifier = {
+		monthly_county_control_growth_factor = 0.3
+		levy_size = 0.3
+		levy_reinforcement_rate = 0.3
+	}
+
+	character_modifier = {		
+		men_at_arms_maintenance = -0.09
+		men_at_arms_recruitment_cost = -0.09
+		men_at_arms_limit = 2
+	}
+
+	type_icon = "icon_building_warcamps.dds"
+
+	next_building = kuzhu_chiliarch_department_03
+
+	type = duchy_capital
+	
+	flag = duchy_building
+
+	ai_value = {
+		base = 22
+		modifier = {
+			factor = 2
+			scope:holder.capital_province = this
+		}
+	}
+}
+
+kuzhu_chiliarch_department_03 = {
+	construction_time = slow_construction_time
+	effect_desc = kuzhu_chiliarch_department_effects_desc
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+		building_requirement_castle_city_church = { LEVEL = 02 }
+	}
+
+	is_enabled = {
+		scope:holder = {
+			has_government = kuzhu_warlord_government
+		} 	
+	}
+	show_disabled = yes
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+		county = { NOT = { has_county_modifier = backwater_county_modifier } }
+	}
+
+	can_construct = {
+		scope:holder = {
+			highest_held_title_tier >= tier_duchy
+		}
+	}
+
+	cost_gold = expensive_building_tier_3_cost
+
+	duchy_capital_county_modifier = {
+		monthly_county_control_growth_factor = 0.4
+		levy_size = 0.4
+		levy_reinforcement_rate = 0.4
+	}
+
+	character_modifier = {		
+		men_at_arms_maintenance = -0.12
+		men_at_arms_recruitment_cost = -0.12
+		men_at_arms_limit = 3
+	}
+
+	type_icon = "icon_building_warcamps.dds"
+
+	type = duchy_capital
+	
+	flag = duchy_building
+
+	ai_value = {
+		base = 22
+		modifier = {
+			factor = 2
+			scope:holder.capital_province = this
+		}
+	}
+}

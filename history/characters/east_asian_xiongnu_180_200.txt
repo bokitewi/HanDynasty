@@ -1,152 +1,7 @@
-# Generated from 華陽國志、三國志、三國演義、後漢書 and 漢晉春秋.
+﻿# Generated from 華陽國志、三國志、三國演義、後漢書 and 漢晉春秋.
 # Culture: xiongnu
 # Time partition: 180_200 (death >= 180 and birth <= 200).
 # No title history is assigned. Dates marked in the evidence audit may be estimates.
-
-##### 【秦朗】
-qin_lang={
-	name="uuii_book_qin_lang_name" #朗
-	dynasty_house="house_111010018001013"
-	father="qin_lu"
-	mother="du_hui_lan"
-	culture="xiongnu"
-	faith="tengri_pagan"
-	diplomacy="7"
-	martial="7"
-	stewardship="7"
-	intrigue="7"
-	learning="6"
-	prowess="6"
-	health=5.5
-	disallow_random_traits=no
-	150.7.1={
-		birth=yes
-	}
-	253.7.1={
-		death=yes
-	}
-}
-
-##### 【马腾】
-ma_teng={
-	name="uuii_book_ma_teng_name" #腾
-	dynasty_house="house_111010052004013"
-	father="ma_ping"
-	culture="liangzhou"
-	faith="jingxue"
-	diplomacy="10"
-	martial="2"
-	stewardship="15"
-	intrigue="7"
-	learning="5"
-	prowess="11"
-	health=5.5
-	disallow_random_traits=no
-	148.7.1={
-		birth=yes
-	}
-	184.1.1={
-		effect={
-			set_location={
-				location=province:1545
-				stick_to_location=yes
-			}
-		}
-	}
-	212.7.1={
-		death=yes
-	}
-}
-
-##### 【袁尚】
-yuan_shang={
-	name="uuii_book_yuan_shang_name" #尚
-	dynasty_house="house_111010059004013"
-	father="yuan_shao"
-	mother="liu_yan_ru"
-	culture="xiongnu"
-	faith="tengri_pagan"
-	diplomacy="11"
-	martial="8"
-	stewardship="9"
-	intrigue="5"
-	learning="15"
-	prowess="2"
-	health=5.5
-	disallow_random_traits=no
-	177.7.1={
-		birth=yes
-	}
-	207.7.1={
-		death=yes
-	}
-}
-
-##### 【钟繇】
-zhong_yao={
-	name="uuii_book_zhong_yao_name" #繇
-	dynasty_house="house_111010147001013"
-	culture="xiongnu"
-	faith="tengri_pagan"
-	diplomacy="15"
-	martial="7"
-	stewardship="6"
-	intrigue="2"
-	learning="1"
-	prowess="9"
-	health=5.5
-	disallow_random_traits=no
-	151.7.1={
-		birth=yes
-	}
-	230.7.1={
-		death=yes
-	}
-}
-
-##### 【夏昭】
-xia_zhao={
-	name="uuii_book_xia_zhao_name" #昭
-	dynasty_house="house_111010152001013"
-	culture="xiongnu"
-	faith="tengri_pagan"
-	diplomacy="7"
-	martial="8"
-	stewardship="8"
-	intrigue="5"
-	learning="4"
-	prowess="8"
-	health=5.5
-	disallow_random_traits=no
-	162.7.1={
-		birth=yes
-	}
-	205.7.1={
-		death=yes
-	}
-}
-
-##### 【邓升】
-deng_sheng={
-	name="uuii_book_deng_sheng_name" #升
-	dynasty_house="house_111010178001013"
-	culture="xiongnu"
-	faith="tengri_pagan"
-	diplomacy="8"
-	martial="8"
-	stewardship="7"
-	intrigue="4"
-	learning="6"
-	prowess="7"
-	health=5.5
-	disallow_random_traits=no
-	162.7.1={
-		birth=yes
-	}
-	205.7.1={
-		death=yes
-	}
-}
 
 ##### 【蹋顿】
 ta_dun={
@@ -161,7 +16,12 @@ ta_dun={
 	learning="6"
 	prowess="6"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_martial_4
+	trait=tk_historical_character02
+	trait=brave
+	trait=honest
+	trait=stubborn
 	165.7.1={
 		birth=yes
 	}
@@ -183,7 +43,12 @@ xu_bo_hu_jie={
 	learning="6"
 	prowess="5"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_stewardship_2
+	trait=tk_fictional_character02
+	trait=just
+	trait=temperate
+	trait=trusting
 	166.7.1={
 		birth=yes
 	}
@@ -205,7 +70,12 @@ lan_lu_a={
 	learning="5"
 	prowess="6"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_stewardship_2
+	trait=tk_fictional_character01
+	trait=impatient
+	trait=calm
+	trait=cynical
 	167.7.1={
 		birth=yes
 	}
@@ -227,7 +97,12 @@ qi_wu_de_mi_er={
 	learning="5"
 	prowess="7"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_diplomacy_2
+	trait=tk_fictional_character02
+	trait=impatient
+	trait=content
+	trait=trusting
 	166.7.1={
 		birth=yes
 	}
@@ -249,7 +124,12 @@ jin_ka_ge_li={
 	learning="5"
 	prowess="9"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_stewardship_2
+	trait=tk_fictional_character01
+	trait=diligent
+	trait=deceitful
+	trait=sadistic
 	160.7.1={
 		birth=yes
 	}
@@ -271,7 +151,12 @@ dou_mu_sai_er={
 	learning="5"
 	prowess="5"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_martial_2
+	trait=tk_fictional_character01
+	trait=diligent
+	trait=shy
+	trait=just
 	159.7.1={
 		birth=yes
 	}
@@ -293,7 +178,12 @@ ma_ha_sang={
 	learning="7"
 	prowess="8"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_stewardship_2
+	trait=tk_fictional_character01
+	trait=deceitful
+	trait=forgiving
+	trait=greedy
 	163.7.1={
 		birth=yes
 	}
@@ -316,7 +206,12 @@ liu_qu_bei={
 	learning="6"
 	prowess="6"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_diplomacy_2
+	trait=tk_fictional_character02
+	trait=patient
+	trait=wrathful
+	trait=just
 	168.7.1={
 		birth=yes
 	}
@@ -339,7 +234,12 @@ liu_bao_2={
 	learning="7"
 	prowess="4"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_intrigue_4
+	trait=tk_fictional_character01
+	trait=trusting
+	trait=callous
+	trait=temperate
 	174.7.1={
 		birth=yes
 	}
@@ -362,7 +262,12 @@ liu_meng={
 	learning="6"
 	prowess="6"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_intrigue_4
+	trait=tk_fictional_character01
+	trait=brave
+	trait=honest
+	trait=wrathful
 	189.7.1={
 		birth=yes
 	}
@@ -384,7 +289,12 @@ he_shu_qi_li_fu={
 	learning="8"
 	prowess="8"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_martial_2
+	trait=tk_fictional_character02
+	trait=temperate
+	trait=wrathful
+	trait=callous
 	164.7.1={
 		birth=yes
 	}
@@ -406,7 +316,12 @@ fu_ai_er_tan={
 	learning="8"
 	prowess="7"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_intrigue_2
+	trait=tk_fictional_character01
+	trait=just
+	trait=cynical
+	trait=honest
 	159.7.1={
 		birth=yes
 	}
@@ -428,7 +343,12 @@ zhi_yuan_duo={
 	learning="4"
 	prowess="7"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_martial_4
+	trait=tk_historical_character02
+	trait=diligent
+	trait=humble
+	trait=temperate
 	189.7.1={
 		birth=yes
 	}
@@ -450,7 +370,12 @@ zhi_bei_lei_ke={
 	learning="6"
 	prowess="8"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_martial_2
+	trait=tk_historical_character01
+	trait=ambitious
+	trait=lazy
+	trait=zealous
 	162.7.1={
 		birth=yes
 	}
@@ -472,7 +397,12 @@ feng_bu_lun_de={
 	learning="7"
 	prowess="7"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_diplomacy_2
+	trait=tk_historical_character01
+	trait=stubborn
+	trait=fickle
+	trait=lazy
 	158.7.1={
 		birth=yes
 	}
@@ -495,7 +425,12 @@ luan_ti_wu_li={
 	learning="6"
 	prowess="5"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_diplomacy_2
+	trait=tk_historical_character01
+	trait=impatient
+	trait=deceitful
+	trait=humble
 	130.7.1={
 		birth=yes
 	}
@@ -518,7 +453,12 @@ luan_ti_qiang_qu={
 	learning="9"
 	prowess="9"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_learning_2
+	trait=tk_historical_character02
+	trait=zealous
+	trait=vengeful
+	trait=sadistic
 	130.7.1={
 		birth=yes
 	}
@@ -541,7 +481,12 @@ luan_ti_yu_fu_luo={
 	learning="5"
 	prowess="7"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_intrigue_2
+	trait=tk_historical_character02
+	trait=gregarious
+	trait=wrathful
+	trait=stubborn
 	150.7.1={
 		birth=yes
 	}
@@ -564,7 +509,12 @@ luan_ti_hu_chu_quan={
 	learning="7"
 	prowess="7"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_diplomacy_2
+	trait=tk_historical_character02
+	trait=lazy
+	trait=wrathful
+	trait=arbitrary
 	172.7.1={
 		birth=yes
 	}
@@ -586,7 +536,12 @@ tan_tuo={
 	learning="9"
 	prowess="6"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_martial_2
+	trait=tk_historical_character02
+	trait=sadistic
+	trait=brave
+	trait=lazy
 	162.7.1={
 		birth=yes
 	}
@@ -608,7 +563,12 @@ tu_gui_lai={
 	learning="8"
 	prowess="8"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_stewardship_2
+	trait=tk_historical_character01
+	trait=humble
+	trait=paranoid
+	trait=lazy
 	170.7.1={
 		birth=yes
 	}
@@ -630,7 +590,12 @@ liang_bi_yuan={
 	learning="7"
 	prowess="9"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_learning_2
+	trait=tk_historical_character02
+	trait=diligent
+	trait=arbitrary
+	trait=vengeful
 	173.7.1={
 		birth=yes
 	}
@@ -652,7 +617,12 @@ he_lai_wu_da_ti={
 	learning="7"
 	prowess="7"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_martial_2
+	trait=tk_historical_character01
+	trait=lustful
+	trait=sadistic
+	trait=honest
 	165.7.1={
 		birth=yes
 	}
@@ -674,7 +644,12 @@ qiu_lin_qie_mo_che={
 	learning="6"
 	prowess="9"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_stewardship_2
+	trait=tk_historical_character01
+	trait=vengeful
+	trait=greedy
+	trait=calm
 	170.7.1={
 		birth=yes
 	}
@@ -696,7 +671,12 @@ po_liu_han_qie_mi_xu={
 	learning="7"
 	prowess="9"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_learning_2
+	trait=tk_historical_character01
+	trait=arbitrary
+	trait=trusting
+	trait=humble
 	164.7.1={
 		birth=yes
 	}
@@ -718,7 +698,12 @@ su_liu_jin_tu_te={
 	learning="7"
 	prowess="7"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_learning_2
+	trait=tk_historical_character01
+	trait=callous
+	trait=sadistic
+	trait=gregarious
 	167.7.1={
 		birth=yes
 	}
@@ -740,7 +725,12 @@ luan_di_ka_ya={
 	learning="8"
 	prowess="9"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_learning_2
+	trait=tk_fictional_character02
+	trait=calm
+	trait=callous
+	trait=sadistic
 	164.7.1={
 		birth=yes
 	}
@@ -762,7 +752,12 @@ zhang_shui_run_zhen={
 	learning="8"
 	prowess="6"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_learning_2
+	trait=tk_fictional_character01
+	trait=paranoid
+	trait=sadistic
+	trait=deceitful
 	161.7.1={
 		birth=yes
 	}
@@ -784,7 +779,12 @@ xi_he_sou_xie={
 	learning="4"
 	prowess="9"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_diplomacy_2
+	trait=tk_fictional_character01
+	trait=just
+	trait=lustful
+	trait=vengeful
 	166.7.1={
 		birth=yes
 	}
@@ -806,7 +806,12 @@ pan_xi_tuo_lun={
 	learning="5"
 	prowess="9"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_diplomacy_2
+	trait=tk_fictional_character01
+	trait=sadistic
+	trait=deceitful
+	trait=wrathful
 	163.7.1={
 		birth=yes
 	}
@@ -828,7 +833,12 @@ chu_da_han_xi_zi_er={
 	learning="10"
 	prowess="5"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_learning_2
+	trait=tk_fictional_character01
+	trait=humble
+	trait=greedy
+	trait=content
 	158.7.1={
 		birth=yes
 	}
@@ -850,7 +860,12 @@ su_ji_ya_man={
 	learning="6"
 	prowess="7"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_diplomacy_2
+	trait=tk_fictional_character01
+	trait=impatient
+	trait=paranoid
+	trait=arbitrary
 	159.7.1={
 		birth=yes
 	}
@@ -872,7 +887,12 @@ duo_da_han_you_liu={
 	learning="8"
 	prowess="5"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_intrigue_2
+	trait=tk_fictional_character01
+	trait=arbitrary
+	trait=lazy
+	trait=shy
 	161.7.1={
 		birth=yes
 	}
@@ -894,7 +914,12 @@ chi_lei_tian_mu={
 	learning="9"
 	prowess="6"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_intrigue_2
+	trait=tk_fictional_character02
+	trait=greedy
+	trait=wrathful
+	trait=humble
 	162.7.1={
 		birth=yes
 	}
@@ -916,7 +941,12 @@ hu_lv_luo_zhou={
 	learning="9"
 	prowess="7"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_stewardship_2
+	trait=tk_fictional_character01
+	trait=temperate
+	trait=vengeful
+	trait=generous
 	165.7.1={
 		birth=yes
 	}
@@ -938,7 +968,12 @@ qi_fu_lu_gu={
 	learning="6"
 	prowess="6"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_martial_2
+	trait=tk_fictional_character01
+	trait=brave
+	trait=deceitful
+	trait=impatient
 	159.7.1={
 		birth=yes
 	}
@@ -960,7 +995,12 @@ wan_yu_pu_nu={
 	learning="5"
 	prowess="8"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_stewardship_2
+	trait=tk_fictional_character01
+	trait=patient
+	trait=shy
+	trait=wrathful
 	162.7.1={
 		birth=yes
 	}
@@ -982,7 +1022,12 @@ er_zhu_rong={
 	learning="5"
 	prowess="8"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_intrigue_2
+	trait=tk_fictional_character01
+	trait=temperate
+	trait=ambitious
+	trait=honest
 	165.7.1={
 		birth=yes
 	}
@@ -1004,7 +1049,12 @@ yuan_zi_yan={
 	learning="6"
 	prowess="6"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_stewardship_2
+	trait=tk_fictional_character01
+	trait=brave
+	trait=honest
+	trait=fickle
 	166.7.1={
 		birth=yes
 	}
@@ -1026,7 +1076,12 @@ yi_jian_ji_qie={
 	learning="7"
 	prowess="7"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_stewardship_4
+	trait=tk_historical_character01
+	trait=content
+	trait=vengeful
+	trait=arbitrary
 	169.7.1={
 		birth=yes
 	}
@@ -1040,7 +1095,7 @@ hu_zun={
 	name="uuii_book_hu_zun_name" #遵
 	dynasty_house="uuii_book_house_6717ade0290a"
 	culture="xiongnu"
-	faith="tengri_pagan"
+	faith="shamanism"
 	diplomacy="7"
 	martial="7"
 	stewardship="7"
@@ -1048,7 +1103,12 @@ hu_zun={
 	learning="6"
 	prowess="6"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_diplomacy_4
+	trait=tk_historical_character01
+	trait=temperate
+	trait=calm
+	trait=shy
 	193.7.1={
 		birth=yes
 	}
@@ -1062,7 +1122,7 @@ ji_bu={
 	name="uuii_book_ji_bu_name" #布
 	dynasty_house="uuii_book_house_e31b105b8f27"
 	culture="xiongnu"
-	faith="tengri_pagan"
+	faith="shamanism"
 	diplomacy="6"
 	martial="7"
 	stewardship="7"
@@ -1070,7 +1130,12 @@ ji_bu={
 	learning="7"
 	prowess="6"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_stewardship_4
+	trait=tk_historical_character01
+	trait=brave
+	trait=honest
+	trait=wrathful
 	195.7.1={
 		birth=yes
 	}
@@ -1084,7 +1149,7 @@ guo_yuan_2={
 	name="uuii_book_guo_yuan_2_name" #援
 	dynasty_house="uuii_book_house_12d3f32ea342"
 	culture="xiongnu"
-	faith="tengri_pagan"
+	faith="shamanism"
 	diplomacy="5"
 	martial="7"
 	stewardship="7"
@@ -1092,7 +1157,12 @@ guo_yuan_2={
 	learning="7"
 	prowess="7"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_martial_4
+	trait=tk_historical_character01
+	trait=brave
+	trait=honest
+	trait=zealous
 	101.7.1={
 		birth=yes
 	}
@@ -1106,7 +1176,7 @@ wan_sui={
 	name="uuii_book_wan_sui_name" #岁
 	dynasty_house="uuii_book_house_71536eaeb53a"
 	culture="xiongnu"
-	faith="tengri_pagan"
+	faith="shamanism"
 	diplomacy="8"
 	martial="7"
 	stewardship="7"
@@ -1114,7 +1184,12 @@ wan_sui={
 	learning="7"
 	prowess="4"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_stewardship_4
+	trait=tk_historical_character01
+	trait=generous
+	trait=content
+	trait=gregarious
 	194.7.1={
 		birth=yes
 	}
@@ -1128,7 +1203,7 @@ yu_fu_luo={
 	name="uuii_book_yu_fu_luo_name" #夫罗
 	dynasty_house="uuii_book_house_155c41aa48fe"
 	culture="xiongnu"
-	faith="tengri_pagan"
+	faith="shamanism"
 	diplomacy="8"
 	martial="7"
 	stewardship="7"
@@ -1136,7 +1211,12 @@ yu_fu_luo={
 	learning="7"
 	prowess="4"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_stewardship_4
+	trait=tk_historical_character01
+	trait=stubborn
+	trait=sadistic
+	trait=lustful
 	195.7.1={
 		birth=yes
 	}
@@ -1150,7 +1230,7 @@ fu_gan={
 	name="uuii_book_fu_gan_name" #干
 	dynasty_house="uuii_book_house_4e0f54dbd0ee"
 	culture="xiongnu"
-	faith="tengri_pagan"
+	faith="shamanism"
 	diplomacy="6"
 	martial="7"
 	stewardship="6"
@@ -1158,7 +1238,12 @@ fu_gan={
 	learning="7"
 	prowess="7"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_intrigue_4
+	trait=tk_historical_character01
+	trait=brave
+	trait=shy
+	trait=cynical
 	195.7.1={
 		birth=yes
 	}
@@ -1172,7 +1257,7 @@ liu_jing_3={
 	name="uuii_book_liu_jing_3_name" #靖
 	dynasty_house="uuii_book_house_619c962d0309"
 	culture="xiongnu"
-	faith="tengri_pagan"
+	faith="shamanism"
 	diplomacy="7"
 	martial="8"
 	stewardship="7"
@@ -1180,7 +1265,12 @@ liu_jing_3={
 	learning="7"
 	prowess="5"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_learning_4
+	trait=tk_historical_character01
+	trait=generous
+	trait=wrathful
+	trait=callous
 	196.7.1={
 		birth=yes
 	}
@@ -1194,7 +1284,7 @@ hu_bao_ju_zi_zhi={
 	name="uuii_book_hu_bao_ju_zi_zhi_name" #薄居姿职
 	dynasty_house="uuii_book_house_c99dc423dae5"
 	culture="xiongnu"
-	faith="tengri_pagan"
+	faith="shamanism"
 	diplomacy="9"
 	martial="8"
 	stewardship="4"
@@ -1202,7 +1292,12 @@ hu_bao_ju_zi_zhi={
 	learning="5"
 	prowess="8"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_martial_3
+	trait=tk_historical_character01
+	trait=brave
+	trait=trusting
+	trait=diligent
 	195.7.1={
 		birth=yes
 	}

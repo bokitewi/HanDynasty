@@ -547,6 +547,7 @@ NCharacterInteraction = {
 
 NGovernment = {
 	GOVERNMENT_TYPES = {
+		"feudal_government"
 		"republic_government"
 		"theocracy_government"
 		"clan_government"

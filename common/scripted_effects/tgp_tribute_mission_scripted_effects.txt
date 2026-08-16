@@ -275,18 +275,21 @@ tribute_mission_decision_effect = {
 						save_scope_as = decision_predetermined_concubine_tribute
 					}
 				}
-				scope:decision_predetermined_concubine_tribute = {
-					add_character_flag = {
-						flag = cannot_be_diarch # just enough to make sure they don't succeed to the diarchy while en route
-						years = 2
+				if = {
+					limit = { exists = scope:decision_predetermined_concubine_tribute }
+					scope:decision_predetermined_concubine_tribute = {
+						add_character_flag = {
+							flag = cannot_be_diarch # just enough to make sure they don't succeed to the diarchy while en route
+							years = 2
+						}
 					}
-				}
-				run_interaction = {
-					interaction = tribute_mission_concubine_interaction
-					actor = root
-					recipient = scope:tribute_mission_target
-					secondary_recipient = scope:decision_predetermined_concubine_tribute
-					execute_threshold = accept
+					run_interaction = {
+						interaction = tribute_mission_concubine_interaction
+						actor = root
+						recipient = scope:tribute_mission_target
+						secondary_recipient = scope:decision_predetermined_concubine_tribute
+						execute_threshold = accept
+					}
 				}
 			}
 
@@ -339,12 +342,15 @@ tribute_mission_decision_effect = {
 						save_scope_as = decision_predetermined_eunuch_tribute
 					}
 				}
-				run_interaction = {
-					interaction = tribute_mission_eunuch_interaction
-					actor = root
-					recipient = scope:tribute_mission_target
-					secondary_recipient = scope:decision_predetermined_eunuch_tribute
-					execute_threshold = accept
+				if = {
+					limit = { exists = scope:decision_predetermined_eunuch_tribute }
+					run_interaction = {
+						interaction = tribute_mission_eunuch_interaction
+						actor = root
+						recipient = scope:tribute_mission_target
+						secondary_recipient = scope:decision_predetermined_eunuch_tribute
+						execute_threshold = accept
+					}
 				}
 			}
 

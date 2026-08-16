@@ -3,30 +3,6 @@
 # Time partition: 180_200 (death >= 180 and birth <= 200).
 # No title history is assigned. Dates marked in the evidence audit may be estimates.
 
-##### 【张奂】
-zhang_huan_2={
-	name="uuii_book_zhang_huan_2_name" #奂
-	dynasty_house="house_111010024047013"
-	father="zhang_dun"
-	culture="wuhuan"
-	faith="jingxue"
-	diplomacy="8"
-	martial="7"
-	stewardship="7"
-	intrigue="7"
-	learning="4"
-	prowess="7"
-	health=5.5
-	disallow_random_traits=no
-	trait=education_martial_3
-	103.7.1={
-		birth=yes
-	}
-	181.7.1={
-		death=yes
-	}
-}
-
 ##### 【丘力居】
 qiu_li_ju={
 	name="uuii_book_qiu_li_ju_name" #力居
@@ -40,7 +16,12 @@ qiu_li_ju={
 	learning="6"
 	prowess="6"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_learning_3
+	trait=tk_historical_character02
+	trait=brave
+	trait=honest
+	trait=sadistic
 	140.7.1={
 		birth=yes
 	}
@@ -63,7 +44,12 @@ qiu_lou_ban={
 	learning="5"
 	prowess="8"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_stewardship_2
+	trait=tk_historical_character01
+	trait=callous
+	trait=humble
+	trait=brave
 	182.7.1={
 		birth=yes
 	}
@@ -85,7 +71,12 @@ su_pu_yan={
 	learning="5"
 	prowess="7"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_intrigue_4
+	trait=tk_historical_character02
+	trait=brave
+	trait=honest
+	trait=vengeful
 	159.7.1={
 		birth=yes
 	}
@@ -107,7 +98,12 @@ lu_xi={
 	learning="7"
 	prowess="7"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_intrigue_3
+	trait=tk_historical_character01
+	trait=greedy
+	trait=temperate
+	trait=honest
 	166.7.1={
 		birth=yes
 	}
@@ -129,7 +125,12 @@ wu_yan_2={
 	learning="6"
 	prowess="7"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_intrigue_4
+	trait=tk_historical_character02
+	trait=brave
+	trait=gregarious
+	trait=callous
 	154.7.1={
 		birth=yes
 	}
@@ -151,7 +152,12 @@ wang_lu_luo={
 	learning="9"
 	prowess="6"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_learning_2
+	trait=tk_historical_character01
+	trait=temperate
+	trait=sadistic
+	trait=patient
 	132.7.1={
 		birth=yes
 	}
@@ -174,7 +180,12 @@ wang_ji_2={
 	learning="6"
 	prowess="6"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_stewardship_3
+	trait=tk_historical_character01
+	trait=shy
+	trait=callous
+	trait=deceitful
 	152.7.1={
 		birth=yes
 	}
@@ -197,7 +208,12 @@ wang_tong={
 	learning="7"
 	prowess="7"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_stewardship_4
+	trait=tk_historical_character01
+	trait=wrathful
+	trait=content
+	trait=honest
 	154.7.1={
 		birth=yes
 	}
@@ -219,7 +235,12 @@ nan_lou={
 	learning="5"
 	prowess="7"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_martial_4
+	trait=tk_historical_character02
+	trait=brave
+	trait=honest
+	trait=wrathful
 	154.7.1={
 		birth=yes
 	}
@@ -241,7 +262,12 @@ zhang_dan={
 	learning="7"
 	prowess="7"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_stewardship_4
+	trait=tk_historical_character01
+	trait=brave
+	trait=temperate
+	trait=patient
 	123.7.1={
 		birth=yes
 	}
@@ -263,7 +289,12 @@ wu_huan_chu={
 	learning="4"
 	prowess="7"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_stewardship_4
+	trait=tk_historical_character01
+	trait=brave
+	trait=forgiving
+	trait=content
 	190.7.1={
 		birth=yes
 	}

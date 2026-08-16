@@ -1,0 +1,102 @@
+﻿#给军阀做兵役法
+
+kuzhu_warlord_recruit_laws = {
+	default = kuzhu_warlord_recruit_balanced
+	cumulative = no
+	flag = realm_law
+
+	#苦竹：平衡
+	kuzhu_warlord_recruit_balanced = {
+		can_keep = { government_has_flag = government_is_kuzhu_warlord }
+		can_have = { government_has_flag = government_is_kuzhu_warlord }
+		on_pass = {
+			## Set cooldown
+			set_variable = {
+				name = admin_law_cooldown
+				years = 10
+			}
+		}
+		can_pass = {
+			custom_tooltip = {
+				text = admin_law_cooldown_desc
+				NOT = { has_variable = admin_law_cooldown }
+			}			
+		}
+		pass_cost = {
+			prestige = 200
+		}		
+		modifier = {
+			men_at_arms_maintenance = -0.1
+			men_at_arms_recruitment_cost = 0.2
+		}	
+		
+		#苦竹：暂定ai不会改
+		ai_will_do = {
+			value = 0
+		}
+	}	
+
+	#苦竹：偏重兵士上限
+	kuzhu_warlord_recruit_maa = {
+		can_keep = { government_has_flag = government_is_kuzhu_warlord }
+		can_have = { government_has_flag = government_is_kuzhu_warlord }
+		on_pass = {
+			## Set cooldown
+			set_variable = {
+				name = admin_law_cooldown
+				years = 10
+			}
+		}
+		can_pass = {
+			custom_tooltip = {
+				text = admin_law_cooldown_desc
+				NOT = { has_variable = admin_law_cooldown }
+			}			
+		}
+		pass_cost = {
+			prestige = 200
+		}		
+		modifier = {		
+			domain_limit_max = -1
+			men_at_arms_cap = 1
+			men_at_arms_maintenance = 0.05
+			men_at_arms_recruitment_cost = -0.1	
+		}
+		#苦竹：暂定ai不会改
+		ai_will_do = {
+			value = 0
+		}
+	}		
+	
+	#苦竹：偏重直辖上限
+	kuzhu_warlord_recruit_domain = {
+		can_keep = { government_has_flag = government_is_kuzhu_warlord }
+		can_have = { government_has_flag = government_is_kuzhu_warlord }
+		on_pass = {
+			## Set cooldown
+			set_variable = {
+				name = admin_law_cooldown
+				years = 10
+			}
+		}
+		can_pass = {
+			custom_tooltip = {
+				text = admin_law_cooldown_desc
+				NOT = { has_variable = admin_law_cooldown }
+			}			
+		}
+		pass_cost = {
+			prestige = 200
+		}		
+		modifier = {
+			men_at_arms_maintenance = -0.05
+			men_at_arms_recruitment_cost = 0.1		
+			domain_limit_max = 1
+			men_at_arms_cap = -1
+		}
+		#苦竹：暂定ai不会改
+		ai_will_do = {
+			value = 0
+		}
+	}
+}

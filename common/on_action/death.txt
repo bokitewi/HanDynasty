@@ -1318,12 +1318,6 @@ on_death = {
 			}
 		}
 
-		# EP3 - Become Adventurer - Succession
-		trigger_event = ep3_laamps.0012
-
-		# EP3 - Adventurer support invalidation
-		ep3_laamp_supporter_invalidated_effect = yes
-
 		# EP3 - Varangian Palace Pillaging
 		if = {
 			limit = {

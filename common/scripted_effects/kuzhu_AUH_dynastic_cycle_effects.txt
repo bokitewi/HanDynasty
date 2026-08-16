@@ -1,0 +1,669 @@
+﻿#危世效果
+kuzhu_entering_instability_effect = {
+	#苦竹：不是开局
+	if = {
+		limit = {
+			current_date_is_start_date_trigger = no
+		}
+		#苦竹：封臣独立条件	
+		every_vassal = {
+			limit = {
+				is_landed = yes
+				OR = {
+					#非法理封臣
+					primary_title = {
+						NOT = { hegemony = title:h_china }
+					}
+					#非天朝制封臣
+					NOT = { government_has_flag = government_is_celestial }				
+				} 
+			}
+			#封臣独立
+			create_title_and_vassal_change = {
+				type = independency
+				save_scope_as = change
+				add_claim_on_loss = yes
+			}
+			becomes_independent = {
+				change = scope:change
+			}
+			resolve_title_and_vassal_change = scope:change
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = title:h_china.holder TRIBUTARY = this }
+		}
+		#苦竹：封臣变藩镇条件		
+		every_vassal = {
+			limit = {
+				is_ai = yes
+				NOT = { has_character_flag = flag_kuzhu_new_governor }
+				#忠诚相关
+				OR = { 
+					has_trait = ambitious
+					has_trait = disloyal
+					has_trait = arrogant
+					has_trait = arbitrary
+					has_trait = greedy
+					has_trait = deceitful
+				}
+				OR = {
+					#不满的守旧派封臣
+					AND = {
+						opinion = {
+							target = liege
+							value <= -20
+						}
+						top_participant_group:dynastic_cycle ?= { participant_group_type = conservative_movement }
+					}					
+					#不满的野心封臣
+					AND = {
+						opinion = {
+							target = liege
+							value <= -40
+						}
+						has_trait = ambitious
+					}
+					#非常不满的封臣
+					opinion = {
+						target = liege
+						value <= -60
+					}
+				}
+			}
+			kuzhu_convert_to_warlord_from_admin_effect = yes
+			add_character_flag = flag_kuzhu_new_warlord
+		}		
+	}
+}
+
+#乱世效果
+kuzhu_chaos_shattering_effect = {
+	hidden_effect = {
+		title:h_china = {
+			holder = { save_temporary_scope_as = old_emperor_temp }
+			# Reset imperial examination activity
+			set_variable = {
+				name = years_since_imperial_examination
+				value = 0
+			}
+		}
+		#苦竹：避免裂得过细		
+		scope:old_emperor_temp = {
+			#将各未创建公国分给领地内派系力量最强者
+			every_sub_realm_county = {
+				if = {
+					limit = {
+						this = duchy.title_capital_county
+						NOT = { this = scope:old_emperor_temp.capital_county }
+						NOT = { exists = duchy.holder }
+					}
+					duchy = { save_scope_as = kuzhu_duchy_to_diliver }
+					scope:old_emperor_temp = {
+						ordered_vassal_or_below = {
+							limit = {
+								#占有该公国伯爵领的封臣都来竞争
+								any_held_title = { 
+									#de_jure_liege = scope:kuzhu_duchy_to_diliver
+									target_is_de_jure_liege_or_above = scope:kuzhu_duchy_to_diliver
+								}
+								NOR = {
+									government_has_flag = government_is_republic
+									government_has_flag = government_is_theocracy
+								}
+								#highest_held_title_tier < tier_duchy
+							}
+							order_by = var:movement_power_individual
+							#order_by = current_military_strength
+							save_scope_as = kuzhu_new_governor
+						}
+						create_title_and_vassal_change = {
+							type = swear_fealty
+							save_scope_as = deliver_empty_duchy
+							add_claim_on_loss = no
+						}	
+						scope:kuzhu_duchy_to_diliver = {
+							change_title_holder_include_vassals = {
+								holder = scope:kuzhu_new_governor
+								change = scope:deliver_empty_duchy
+							}
+						}
+						resolve_title_and_vassal_change = scope:deliver_empty_duchy
+					}					
+				}
+			}
+			#将手中所有王国分给领地内派系力量最强者
+			every_sub_realm_county = {
+				if = {
+					limit = {
+						this = kingdom.title_capital_county
+					}
+					kingdom = { save_scope_as = kuzhu_kingdom_to_deliver }
+					scope:old_emperor_temp = {
+						ordered_vassal = {
+							limit = {
+								NOR = {
+									government_has_flag = government_is_republic
+									government_has_flag = government_is_theocracy
+								}
+								primary_title.kingdom = scope:kuzhu_kingdom_to_deliver
+							}
+							order_by = var:movement_power_individual
+							#order_by = current_military_strength
+							save_scope_as = kuzhu_new_kings
+						}
+						create_title_and_vassal_change = {
+							type = swear_fealty
+							save_scope_as = vassal_get_kingdom
+							add_claim_on_loss = no
+						}	
+						every_held_title = {
+							limit = { 
+								kingdom = scope:kuzhu_kingdom_to_deliver
+								NOT = { this = scope:old_emperor_temp.capital_county }
+							}
+							change_title_holder_include_vassals = {
+								holder = scope:kuzhu_new_kings
+								change = scope:vassal_get_kingdom
+							}
+						}
+						resolve_title_and_vassal_change = scope:vassal_get_kingdom
+					}									
+				}				
+			}
+			#发完王国之后销毁剩余的王国
+			every_held_title = {
+				limit = { tier = tier_kingdom }
+				prev = { destroy_title = prev }
+			}			
+			#创建自己首都地区的公国
+			create_title_and_vassal_change = {
+				type = swear_fealty
+				save_scope_as = huangdi_get_duchy
+				add_claim_on_loss = no
+			}
+			#把首都公国和所有法理伯爵领给君主
+			capital_county.duchy = {
+				change_title_holder_include_vassals = {
+					holder = scope:old_emperor_temp
+					change = scope:huangdi_get_duchy
+				}
+				every_de_jure_county = {
+					change_title_holder_include_vassals = {
+						holder = scope:old_emperor_temp
+						change = scope:huangdi_get_duchy
+					}
+				}
+			}
+			resolve_title_and_vassal_change = scope:huangdi_get_duchy
+			domicile ?= {
+				move_domicile = prev.capital_province
+			}
+		}
+		#苦竹：现在加入多种判断
+		situation:dynastic_cycle = {
+			if = {
+				limit = {
+					scope:old_emperor_temp = {
+						kuzhu_governor_political_power > 35
+						legitimacy_level > 5
+					}
+				}
+				#皇帝仍然掌权
+				scope:old_emperor_temp = {
+					#创建自己首都地区的王国
+					create_title_and_vassal_change = {
+						type = swear_fealty
+						save_scope_as = huangdi_get_kingdom
+						add_claim_on_loss = no
+					}
+					capital_county.kingdom = {
+						change_title_holder_include_vassals = {
+							holder = scope:old_emperor_temp
+							change = scope:huangdi_get_kingdom
+						}
+					}
+					resolve_title_and_vassal_change = scope:huangdi_get_kingdom		
+					title:h_china = { 
+						move_title_name_to = scope:old_emperor_temp.capital_county.kingdom
+					}
+					create_story = story_take_mandate_of_heaven
+				}
+				every_situation_participant = {
+					limit = {
+						this != top_liege #皇帝自己不加入封臣列表
+						top_liege = scope:old_emperor_temp
+					}
+					add_to_list = former_vassals
+				}
+			}		
+			else_if = {
+				limit = {
+					scope:old_emperor_temp = {
+						kuzhu_governor_political_power > -15
+						legitimacy_level > 2
+					}
+				}
+				#皇帝被迫退位
+				scope:old_emperor_temp = {
+					add_character_flag = kuzhu_abdicated_huangdi_flag
+				}
+				every_situation_participant = {
+					limit = {
+						top_liege = scope:old_emperor_temp
+					}
+					add_to_list = former_vassals
+				}
+			}
+			else = {			
+				every_situation_participant = {
+					limit = {
+						top_liege = scope:old_emperor_temp
+					}
+					add_to_list = former_vassals
+				}
+				#皇帝被叛军废黜
+				scope:old_emperor_temp = {
+					add_character_flag = kuzhu_dethroned_huangdi_flag
+				}				
+			}
+		}
+		scope:old_emperor_temp = {
+			#destroy the title of china and all Empires that the Hegemon holds
+			every_held_title = {
+				limit = {
+					tier > tier_kingdom
+				}
+				scope:old_emperor_temp = {
+					destroy_title = prev
+				}
+			}
+			create_title_and_vassal_change = {
+				type = independency
+				save_scope_as = chaos_change
+				add_claim_on_loss = yes
+			}
+			every_vassal = {
+				limit = {
+					#breakaway all non-dejure vassals
+					primary_title = {
+						NOT = { target_is_de_jure_liege_or_above = scope:old_emperor_temp.primary_title }
+					}
+				}
+				becomes_independent = { change = scope:chaos_change }
+			}
+			resolve_title_and_vassal_change = scope:chaos_change
+		}
+		#苦竹：下面代码已被大幅度修改
+		# destroy all empire and king level titles if holders have not enough power
+		every_in_list = {
+			list = former_vassals
+			limit = {
+				#仅限天朝制
+				government_has_flag = government_is_celestial
+				is_landed = yes
+				is_ai = yes
+				OR = {
+					AND = {
+						highest_held_title_tier = tier_empire
+						var:movement_power_individual < high_movement_power_value
+					}
+					AND = {
+						highest_held_title_tier = tier_kingdom
+						var:movement_power_individual < decent_movement_power_value
+					}
+				}
+			}
+			tgp_fire_china_realm_name_event_for_vassals_effect = yes
+			every_held_title = {
+				limit = {
+					tier > tier_duchy
+				}
+				prev = {
+					destroy_title = prev
+				}
+			}
+		}
+		#摧毁伯爵领不到3的小公爵
+		every_in_list = {
+			list = former_vassals
+			limit = {
+				sub_realm_size <= 3
+				is_landed = yes
+				is_ai = yes				
+			}
+			every_held_title = {
+				limit = {
+					is_noble_family_title = no
+					tier > tier_county
+				}
+				prev = {
+					destroy_title = prev
+				}
+			}
+		}		
+		every_in_list = {
+			list = former_vassals
+			# Destroy any held minister title
+			destroy_held_ministry_titles_effect = yes
+		}
+		every_in_list = {
+			list = former_vassals
+			# let the former vassals of the hegemon become regular conquerors
+			ai_chance_to_become_conqueror_effect = yes
+			# put movement leaders and elders into a list
+			if = {
+				limit = {
+					OR = {
+						num_of_relation_disciple > 0
+						has_variable = former_movement_leader
+						#苦竹：增添条件使领地够大的也成为liege
+						sub_realm_size >= 6
+					}
+					is_independent_ruler = yes
+					is_landed = yes
+				}
+				add_to_list = new_lieges
+			}
+		}		
+		# remake the hierarchy by vassalizing or tributarizing non-leader movement members and disciples
+		every_in_list = {
+			list = new_lieges
+			save_scope_as = new_liege
+			every_in_list = {
+				list = former_vassals
+				limit = {
+					OR = {
+						scope:new_liege.var:former_movement_leader ?= var:former_movement_member
+						has_relation_elder = scope:new_liege
+						#苦竹：以上两条都不满足的小诸侯
+						AND = {
+							is_independent_ruler = yes
+							sub_realm_size <= 3
+						}
+					}
+					this != scope:new_liege
+				}
+				save_scope_as = member
+				# if lower tier than the potential new liege and is neighboring them
+				if = {
+					limit = {
+						highest_held_title_tier < scope:new_liege.highest_held_title_tier
+						primary_title ?= { is_neighbor_to_realm = scope:new_liege }
+					}
+					create_title_and_vassal_change = {
+						type = swear_fealty
+						save_scope_as = elder_hierarchy_change
+						add_claim_on_loss = no
+					}
+					change_liege = {
+						liege = scope:new_liege
+						change = scope:elder_hierarchy_change
+					}
+					resolve_title_and_vassal_change = scope:elder_hierarchy_change
+					scope:new_liege = {
+						add_to_variable_list = {
+							name = chaos_new_vassals
+							target = scope:member
+						}
+					}
+				}
+				# otherwise turn into tributary
+				else_if = {
+					limit = {
+						top_liege = scope:member
+						is_landed = yes
+					}
+					start_tributary_interaction_effect = {
+						TRIBUTARY = scope:member
+						SUZERAIN = scope:new_liege
+					}
+					scope:new_liege = {
+						add_to_variable_list = {
+							name = chaos_new_tributaries
+							target = scope:member
+						}
+					}
+				}
+			}
+		}
+		# Assign unlanded family heads to a suitable realm
+		every_in_list = {
+			list = former_vassals
+			if = {
+				limit = {
+					any_held_title = { is_noble_family_title = yes }
+					is_landed = no
+					this = top_liege
+				}
+				create_title_and_vassal_change = {
+					type = swear_fealty
+					save_scope_as = unlanded_liege_change
+					add_claim_on_loss = no
+				}
+				# Save the top liege of the domicile's location - If ruler's tier is above county
+				if = {
+					limit = {
+						domicile.domicile_location.county.holder.top_liege = {
+							highest_held_title_tier > tier_county
+						}
+					}
+					domicile.domicile_location.county.holder.top_liege = {
+						save_temporary_scope_as = unlanded_new_liege
+					}
+				}
+				# Otherwise - Try and find a neighboring ruler
+				else_if = {
+					limit = {
+						domicile.domicile_location.county.holder = {
+							any_neighboring_top_liege_realm_owner = {
+								highest_held_title_tier > tier_county
+							}
+						}
+					}
+					domicile.domicile_location.county.holder = {
+						random_neighboring_top_liege_realm_owner = {
+							limit = {
+								highest_held_title_tier > tier_county
+							}
+							save_temporary_scope_as = unlanded_new_liege
+						}
+					}
+				}
+				change_liege = {
+					liege = scope:unlanded_new_liege
+					change = scope:unlanded_liege_change
+				}
+				resolve_title_and_vassal_change = scope:unlanded_liege_change
+			}
+		}
+		# create a story that will make characters pursue taking the mandate
+		situation:dynastic_cycle = {
+			every_situation_participant = {
+				if = {
+					limit = {
+						NOR = {
+							has_trait = conqueror
+							any_owned_story = {
+								story_type = story_conqueror
+							}
+							any_owned_story = {
+								story_type = story_greatest_of_khans
+							}
+							any_owned_story = {
+								story_type = story_mongol_invasion
+							}
+						}
+						is_landed = yes
+						highest_held_title_tier >= tier_duchy
+						is_tributary = no
+						is_adult = yes
+						is_incapable = no
+						# run the ai personality triggers only for non elders and non movement leaders
+						trigger_if = {
+							limit = {
+								NOT = {
+									is_in_list = new_lieges
+								}
+							}
+							ai_has_cautious_personality = no
+							ai_boldness >= 0
+							ai_greed >= 0
+						}
+					}
+					create_story = story_take_mandate_of_heaven
+				}
+			}
+		}
+	}
+	
+	#depose the previous hegemon from all landed titles	
+	scope:old_emperor_temp = {
+		if = {
+			#被迫退位
+			limit = { has_character_flag = kuzhu_abdicated_huangdi_flag }
+			force_step_down_landed_titles = yes
+			#退位后效忠当地领主
+			create_title_and_vassal_change = {
+				type = swear_fealty
+				save_scope_as = liege_change
+			}
+			change_liege = {
+				liege = domicile.domicile_location.county.holder.top_liege
+				change = scope:liege_change
+			}
+			resolve_title_and_vassal_change = scope:liege_change
+			#退位后领主成立新家族
+			if = {
+				limit = { 
+					house = liege.house
+				}
+				liege = { 
+					found_cadet_house_decision_effect = {
+						CHARACTER = this
+						PRESTIGE = 0
+					} 
+				}
+			}
+			remove_character_flag = kuzhu_abdicated_huangdi_flag
+		}
+		if = {
+			#被叛军废黜
+			limit = { has_character_flag = kuzhu_dethroned_huangdi_flag }
+			ordered_vassal = {
+				limit = {
+					is_landed = yes
+					NOR = {
+						government_has_flag = government_is_theocracy
+						government_has_flag = government_is_republic						
+					}
+				}
+				order_by = current_military_strength
+				position = 0			
+				save_scope_as = new_capital_holder
+			}
+			create_title_and_vassal_change = {
+				type = conquest
+				save_scope_as = huangdi_dethrone
+				add_claim_on_loss = no
+			}
+			every_held_title = {
+				limit = {
+					is_noble_family_title = no
+				}
+				change_title_holder_include_vassals = {
+					holder = scope:new_capital_holder
+					change = scope:huangdi_dethrone
+				}
+			}
+			change_liege = {
+				liege = scope:new_capital_holder
+				change = scope:huangdi_dethrone
+			}
+			resolve_title_and_vassal_change = scope:huangdi_dethrone
+		}		
+		#如果暴政高，则失去世族头衔
+		if = {
+			limit = {
+				is_landed = no
+				any_held_title = { is_noble_family_title = yes }
+				tyranny > 30
+			}
+			every_held_title = {
+				limit = { 
+					is_noble_family_title = yes 
+				}
+				scope:old_emperor_temp = { 
+					destroy_title = prev 
+				}
+			}
+		}
+		#如果没有世族头衔，则成为冒险者
+		if = {
+			limit = {
+				is_landed = no
+				NOT = { 
+					any_held_title = { is_noble_family_title = yes } 
+				}
+			}
+			create_landless_adventurer_title_effect = {
+				REASON = flag:deposition
+				FLAVOR_CHAR = top_liege
+			}
+			#苦竹：搬运adventurer_prestige_reset_effect
+			hidden_effect = {
+				#Save Prestige
+				save_scope_value_as = {
+					name = prestige_amount
+					value = {
+						value = prestige
+						add = -100
+					}
+				}
+				#Invert it, then take it away
+				add_prestige = {
+					value = scope:prestige_amount
+					multiply = -1
+				}
+				#Take away 3 prestige levels
+				add_prestige_level = -3
+			}
+			# Tooltips
+			custom_tooltip = lose_all_prestige_tt
+			custom_tooltip = lose_all_prestige_level_tt
+		}
+		#如果是被废黜的皇帝，则有可能被抓
+		if = {
+			limit = {
+				has_character_flag = kuzhu_dethroned_huangdi_flag
+				intrigue < scope:new_capital_holder.intrigue				
+			}
+			pay_short_term_gold = {
+				target = top_liege
+				gold = { 
+					value = scope:old_emperor_temp.gold
+					multiply = 0.8
+				}
+			}			
+			top_liege = {
+				imprison = {
+					target = scope:old_emperor_temp
+					type = house_arrest
+				}
+			}
+		}
+		#最后去掉flag
+		if = {
+			limit = { has_character_flag = kuzhu_dethroned_huangdi_flag  }
+			add_prestige = -2000
+			remove_character_flag = kuzhu_dethroned_huangdi_flag
+		}
+	}	
+	
+	hidden_effect = {	
+		situation:dynastic_cycle = {
+			every_situation_participant = {
+				remove_variable = movement_member
+				recalculate_participant_group = situation:dynastic_cycle
+			}
+		}
+	}	
+}
+

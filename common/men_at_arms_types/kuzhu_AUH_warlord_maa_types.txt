@@ -1,0 +1,85 @@
+﻿# standard costs
+@maa_buy_cost = 150
+@maa_low_maintenance_cost = 1.0
+@maa_high_maintenance_cost = 5.0
+@cultural_maa_extra_ai_score = 80 # Equivalent to having 8 extra regiments beyond what the code scoring would indicate (see NEGATIVE_SCORE_PER_EXISTING_REGIMENT)
+
+# Must be synced between files with the values located at "# Provisions Costs #".
+@provisions_cost_infantry_cheap = 3
+@provisions_cost_infantry_moderate = 7
+@provisions_cost_infantry_expensive = 12
+@provisions_cost_infantry_bankrupting = 15
+
+@provisions_cost_cavalry_cheap = 7
+@provisions_cost_cavalry_moderate = 15
+@provisions_cost_cavalry_expensive = 21
+@provisions_cost_cavalry_bankrupting = 30
+
+@provisions_cost_special_cheap = 6
+@provisions_cost_special_moderate = 12
+@provisions_cost_special_expensive = 18
+@provisions_cost_special_bankrupting = 24
+
+kuzhu_warlord_bodyguard = {
+	type = pikemen
+	
+	damage = 22
+	toughness = 40
+	pursuit = 0
+	screen = 20
+
+	siege_tier = 4
+	siege_value = 0.16
+
+	can_recruit = {
+		government_has_flag = government_is_kuzhu_warlord
+	}
+	
+	terrain_bonus = {
+		mountains = { damage = 5 toughness = 12 }
+		desert_mountains = { damage = 5 toughness = 12 }
+		hills = { damage = 3 toughness = 8 }
+	}
+	holding_bonus = {
+		castle_holding = {
+			damage = 10
+		}
+	}
+
+	counters = {
+		archers = 1
+		skirmishers = 1
+		archer_cavalry = 1
+	}
+	
+	max_regiments = 1
+
+	buy_cost = { 
+		gold = landsknecht_recruitment_cost
+		prestige = 60
+	}
+	
+	low_maintenance_cost = { 
+		prestige = 0.2
+	}
+	high_maintenance_cost = { 
+		gold = heavy_infantry_high_maint_cost
+		prestige = 0.6
+	}
+	provision_cost = @provisions_cost_infantry_expensive
+	
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	
+	illustration = {
+		trigger = {
+			should_use_asian_maa_graphics = yes
+		}
+
+		reference = pikemen_asia
+	}
+
+	illustration = {
+		reference = pikemen
+	}
+}

@@ -1,0 +1,681 @@
+﻿#以下是给君主新增的
+@east_asian_estate_upgrade_construction_time_1 = 180
+@east_asian_estate_upgrade_construction_time_2 = 240
+@east_asian_estate_upgrade_construction_time_3 = 300
+@east_asian_estate_upgrade_construction_time_4 = 360
+@east_asian_manor_monthly_influence_add_1 = 0.1
+@east_asian_manor_monthly_influence_add_2 = 0.25
+@east_asian_manor_monthly_influence_add_3 = 0.5
+@east_asian_manor_monthly_influence_mult_1 = 0.025
+
+
+kuzhu_asian_lifestyle_xp_room_01 = {
+	construction_time = 360
+	allowed_domicile_types = { east_asian_estate }
+	slot_type = internal
+	previous_building = east_asian_estate_main_01
+
+	can_construct = {
+		this = top_liege
+		highest_held_title_tier >= tier_empire
+	}
+
+	cost = {
+		gold =  estate_internal_building_normal_cost_tier_1_value
+	}
+
+	character_modifier = {
+		monthly_lifestyle_xp_gain_mult = 0.03
+	}
+
+	ai_value = {
+		value = nomadic_capital_interior_building_1
+	}
+
+	asset = {
+		icon = "gfx/interface/icons/domicile_building/domicile_lifestyle_xp_yurt.dds"
+		texture = "gfx/interface/window_domiciles/estate_building_villa_byzantine.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/main_yurt_01_mask.png"
+		soundeffect = "event:/DLC/CE2/UI/camp_buildings/ce2_ui_domicile_buildings_mainYurt"
+	}
+}
+kuzhu_asian_lifestyle_xp_room_02 = {
+	construction_time = 420
+	allowed_domicile_types = { east_asian_estate }
+	slot_type = internal
+	previous_building = kuzhu_asian_lifestyle_xp_room_01
+
+	can_construct = {
+		this = top_liege
+		highest_held_title_tier >= tier_empire
+	}
+
+	cost = {
+		gold =  estate_internal_building_normal_cost_tier_2_value
+	}
+
+	character_modifier = {
+		monthly_lifestyle_xp_gain_mult = 0.03
+	}
+
+	ai_value = {
+		value = nomadic_capital_interior_building_2
+	}
+
+	asset = {
+		icon = "gfx/interface/icons/domicile_building/domicile_lifestyle_xp_yurt.dds"
+		texture = "gfx/interface/window_domiciles/estate_building_villa_byzantine.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/main_yurt_01_mask.png"
+		soundeffect = "event:/DLC/CE2/UI/camp_buildings/ce2_ui_domicile_buildings_mainYurt"
+	}
+}
+kuzhu_asian_lifestyle_xp_room_03 = {
+	construction_time = 480
+	allowed_domicile_types = { east_asian_estate }
+	slot_type = internal
+	previous_building = kuzhu_asian_lifestyle_xp_room_02
+
+	can_construct = {
+		this = top_liege
+		highest_held_title_tier >= tier_empire
+		domicile ?= { has_domicile_building_or_higher = east_asian_estate_main_02 }
+	}
+
+	cost = {
+		gold =  estate_internal_building_normal_cost_tier_3_value
+	}
+
+	character_modifier = {
+		monthly_lifestyle_xp_gain_mult = 0.03
+		learning = 1
+	}
+
+	parameters = {
+		nomad_yurt_better_children_education_outcomes_lvl_1 = yes
+	}
+
+	ai_value = {
+		value = nomadic_capital_interior_building_3
+		
+	}
+
+	asset = {
+		icon = "gfx/interface/icons/domicile_building/domicile_lifestyle_xp_yurt.dds"
+		texture = "gfx/interface/window_domiciles/estate_building_villa_byzantine.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/main_yurt_02_mask.png"
+		soundeffect = "event:/DLC/CE2/UI/camp_buildings/ce2_ui_domicile_buildings_mainYurt"
+	}
+}
+kuzhu_asian_lifestyle_xp_room_04 = {
+	construction_time = 540
+	allowed_domicile_types = { east_asian_estate }
+	slot_type = internal
+	previous_building = kuzhu_asian_lifestyle_xp_room_03
+
+	can_construct = {
+		this = top_liege
+		highest_held_title_tier >= tier_empire
+		domicile ?= { has_domicile_building_or_higher = east_asian_estate_main_02 }
+	}
+
+	cost = {
+		gold =  estate_internal_building_normal_cost_tier_4_value
+	}
+
+	character_modifier = {
+		monthly_lifestyle_xp_gain_mult = 0.03
+	}
+
+	parameters = {
+		nomad_yurt_better_children_education_outcomes_lvl_1 = yes
+	}
+
+	ai_value = {
+		value = nomadic_capital_interior_building_4
+		
+	}
+
+	asset = {
+		icon = "gfx/interface/icons/domicile_building/domicile_lifestyle_xp_yurt.dds"
+		texture = "gfx/interface/window_domiciles/estate_building_villa_byzantine.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/main_yurt_02_mask.png"
+		soundeffect = "event:/DLC/CE2/UI/camp_buildings/ce2_ui_domicile_buildings_mainYurt"
+	}
+}
+kuzhu_asian_lifestyle_xp_room_05 = {
+	construction_time = 600
+	allowed_domicile_types = { east_asian_estate }
+	slot_type = internal
+	previous_building = kuzhu_asian_lifestyle_xp_room_04
+
+	can_construct = {
+		this = top_liege
+		highest_held_title_tier >= tier_empire
+		domicile ?= { has_domicile_building_or_higher = east_asian_estate_main_04 }
+	}
+
+	cost = {
+		gold =  estate_internal_building_normal_cost_tier_5_value
+	}
+
+	character_modifier = {
+		monthly_lifestyle_xp_gain_mult = 0.03
+	}
+
+	parameters = {
+		nomad_yurt_better_children_education_outcomes_lvl_2 = yes
+	}
+
+	ai_value = {
+		value = nomadic_capital_interior_building_5
+		
+	}
+
+	asset = {
+		icon = "gfx/interface/icons/domicile_building/domicile_lifestyle_xp_yurt.dds"
+		texture = "gfx/interface/window_domiciles/estate_building_villa_byzantine.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/main_yurt_03_mask.png"
+		soundeffect = "event:/DLC/CE2/UI/camp_buildings/ce2_ui_domicile_buildings_mainYurt"
+	}
+}
+kuzhu_asian_lifestyle_xp_room_06 = {
+	construction_time = 660
+	allowed_domicile_types = { east_asian_estate }
+	slot_type = internal
+	previous_building = kuzhu_asian_lifestyle_xp_room_05
+
+	can_construct = {
+		this = top_liege
+		highest_held_title_tier >= tier_empire
+		domicile ?= { has_domicile_building_or_higher = east_asian_estate_main_04 }
+	}
+
+	cost = {
+		gold =  estate_internal_building_normal_cost_tier_6_value
+	}
+
+	character_modifier = {
+		diplomacy = 1
+		stewardship = 1
+		intrigue = 1		
+		knight_effectiveness_per_learning = 0.001
+	}
+
+	parameters = {
+		nomad_yurt_better_children_education_outcomes_lvl_2 = yes
+	}
+
+	ai_value = {
+		value = 4
+		
+	}
+
+	asset = {
+		icon = "gfx/interface/icons/domicile_building/domicile_lifestyle_xp_yurt.dds"
+		texture = "gfx/interface/window_domiciles/estate_building_villa_byzantine.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/main_yurt_03_mask.png"
+		soundeffect = "event:/DLC/CE2/UI/camp_buildings/ce2_ui_domicile_buildings_mainYurt"
+	}
+}
+
+kuzhu_asian_estate_meeting_houses_01 = {
+	construction_time = @east_asian_estate_upgrade_construction_time_1
+	allowed_domicile_types = { east_asian_estate }
+	slot_type = internal
+	previous_building = east_asian_estate_market_01
+	
+	can_construct = {
+		this = top_liege
+		highest_held_title_tier >= tier_empire
+	}
+
+	cost = {
+		gold = {
+			value = estate_internal_building_normal_cost_tier_1_value
+		}
+	}
+	character_modifier = {
+		domicile_monthly_influence_add = @east_asian_manor_monthly_influence_add_1
+		owned_legend_spread_mult = 0.08
+		legitimacy_gain_mult = 0.04
+	}
+	province_modifier = {
+	}
+	ai_value = {
+		value = 10
+		add = estate_building_ai_modifier_value
+	}
+	asset = {
+		icon = "gfx/interface/icons/domicile_building/domicile_trade_yurt.dds"
+		texture = "gfx/interface/window_domiciles/estate_building_villa_chinese.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/estate_building_villa_chinese_mask.png"
+	}
+}
+kuzhu_asian_estate_meeting_houses_02 = {
+	construction_time = @east_asian_estate_upgrade_construction_time_2
+	allowed_domicile_types = { east_asian_estate }
+	slot_type = internal
+	previous_building = kuzhu_asian_estate_meeting_houses_01
+
+	can_construct = {
+		this = top_liege
+		highest_held_title_tier >= tier_empire
+	}
+
+	cost = {
+		gold = {
+			value = estate_internal_building_normal_cost_tier_2_value
+		}
+	}
+
+	character_modifier = {
+		owned_legend_spread_mult = 0.08
+		legitimacy_gain_mult = 0.04
+	}
+	province_modifier = {
+	}
+	ai_value = {
+		value = 9
+		add = estate_building_ai_modifier_value
+	}
+	asset = {
+		icon = "gfx/interface/icons/domicile_building/domicile_trade_yurt.dds"
+		texture = "gfx/interface/window_domiciles/estate_building_villa_chinese.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/estate_building_villa_chinese_mask.png"
+	}
+}
+kuzhu_asian_estate_meeting_houses_03 = {
+	construction_time = @east_asian_estate_upgrade_construction_time_3
+	allowed_domicile_types = { east_asian_estate }
+	slot_type = internal
+	previous_building = kuzhu_asian_estate_meeting_houses_02
+
+	can_construct = {
+		this = top_liege
+		highest_held_title_tier >= tier_empire		
+		domicile ?= { has_domicile_building_or_higher = east_asian_estate_main_02 }
+	}
+
+	cost = {
+		gold = {
+			value = estate_internal_building_normal_cost_tier_3_value
+		}
+	}
+	parameters = {
+		celestial_bonus_movement_power_3 = yes
+	}
+	character_modifier = {
+		domicile_monthly_influence_add = @east_asian_manor_monthly_influence_add_1
+		owned_legend_spread_mult = 0.08
+		legitimacy_gain_mult = 0.04
+	}
+	province_modifier = {
+	}
+	ai_value = {
+		value = 8
+		add = estate_building_ai_modifier_value
+	}
+	asset = {
+		icon = "gfx/interface/icons/domicile_building/domicile_trade_yurt.dds"
+		texture = "gfx/interface/window_domiciles/estate_building_villa_chinese.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/estate_building_villa_chinese_mask.png"
+	}
+}
+kuzhu_asian_estate_meeting_houses_04 = {
+	construction_time = @east_asian_estate_upgrade_construction_time_4
+	allowed_domicile_types = { east_asian_estate }
+	slot_type = internal
+	previous_building = kuzhu_asian_estate_meeting_houses_03
+
+	can_construct = {
+		this = top_liege
+		highest_held_title_tier >= tier_empire		
+		domicile ?= { has_domicile_building_or_higher = east_asian_estate_main_03 }
+	}
+
+	cost = {
+		gold = {
+			value = estate_internal_building_normal_cost_tier_4_value
+		}
+	}
+	character_modifier = {
+		domicile_monthly_influence_add = @east_asian_manor_monthly_influence_add_1
+		owned_legend_spread_mult = 0.08
+		legitimacy_gain_mult = 0.04
+	}
+	province_modifier = {
+	}
+	ai_value = {
+		value = 7
+		add = estate_building_ai_modifier_value
+	}
+	asset = {
+		icon = "gfx/interface/icons/domicile_building/domicile_trade_yurt.dds"
+		texture = "gfx/interface/window_domiciles/estate_building_villa_chinese.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/estate_building_villa_chinese_mask.png"
+	}
+}
+
+kuzhu_asian_estate_teahouse_01 = {
+	construction_time = @east_asian_estate_upgrade_construction_time_1
+	allowed_domicile_types = { east_asian_estate }
+	slot_type = internal
+	previous_building = east_asian_estate_tea_01
+	
+	can_construct = {
+		this = top_liege
+		highest_held_title_tier >= tier_empire	
+	}
+
+	cost = {
+		gold = {
+			value = estate_internal_building_normal_cost_tier_1_value
+		}
+	}
+	parameters = {
+		celestial_bonus_movement_power_1 = yes
+	}
+	character_modifier = {
+		elderly_health = 0.1
+		monthly_legitimacy_add = 0.2
+	}
+	province_modifier = {
+	}
+	ai_value = {
+		value = 10
+		add = estate_building_ai_modifier_value
+	}
+	asset = {
+		icon = "gfx/interface/icons/domicile_building/domicile_diplomacy_yurt.dds"
+		texture = "gfx/interface/window_domiciles/estate_building_villa_chinese.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/estate_building_villa_chinese_mask.png"
+	}
+}
+kuzhu_asian_estate_teahouse_02 = {
+	construction_time = @east_asian_estate_upgrade_construction_time_2
+	allowed_domicile_types = { east_asian_estate }
+	slot_type = internal
+	previous_building = kuzhu_asian_estate_teahouse_01
+
+	can_construct = {
+		this = top_liege
+		highest_held_title_tier >= tier_empire			
+	}
+
+	cost = {
+		gold = {
+			value = estate_internal_building_normal_cost_tier_2_value
+		}
+	}
+	parameters = {
+		celestial_bonus_movement_power_2 = yes
+	}
+	character_modifier = {
+		elderly_health = 0.1
+		monthly_legitimacy_add = 0.2
+	}
+	province_modifier = {
+	}
+	ai_value = {
+		value = 9
+		add = estate_building_ai_modifier_value
+	}
+	asset = {
+		icon = "gfx/interface/icons/domicile_building/domicile_diplomacy_yurt.dds"
+		texture = "gfx/interface/window_domiciles/estate_building_villa_chinese.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/estate_building_villa_chinese_mask.png"
+	}
+}
+kuzhu_asian_estate_teahouse_03 = {
+	construction_time = @east_asian_estate_upgrade_construction_time_3
+	allowed_domicile_types = { east_asian_estate }
+	slot_type = internal
+	previous_building = kuzhu_asian_estate_teahouse_02
+
+	can_construct = {
+		this = top_liege
+		highest_held_title_tier >= tier_empire			
+		domicile ?= { has_domicile_building_or_higher = east_asian_estate_main_02 }		
+	}
+
+	cost = {
+		gold = {
+			value = estate_internal_building_normal_cost_tier_3_value
+		}
+	}
+	parameters = {
+		celestial_bonus_movement_power_3 = yes
+	}
+	character_modifier = {
+		elderly_health = 0.1
+		monthly_legitimacy_add = 0.2
+	}
+	province_modifier = {
+	}
+	ai_value = {
+		value = 8
+		add = estate_building_ai_modifier_value
+	}
+	asset = {
+		icon = "gfx/interface/icons/domicile_building/domicile_diplomacy_yurt.dds"
+		texture = "gfx/interface/window_domiciles/estate_building_villa_chinese.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/estate_building_villa_chinese_mask.png"
+	}
+}
+kuzhu_asian_estate_teahouse_04 = {
+	construction_time = @east_asian_estate_upgrade_construction_time_4
+	allowed_domicile_types = { east_asian_estate }
+	slot_type = internal
+	previous_building = kuzhu_asian_estate_teahouse_03
+
+	can_construct = {
+		this = top_liege
+		highest_held_title_tier >= tier_empire			
+		domicile ?= { has_domicile_building_or_higher = east_asian_estate_main_03 }
+	}
+
+	cost = {
+		gold = {
+			value = estate_internal_building_normal_cost_tier_4_value
+		}
+	}
+	parameters = {
+		celestial_bonus_movement_power_4 = yes
+	}
+	character_modifier = {
+		elderly_health = 0.1
+		monthly_legitimacy_add = 0.2
+	}
+	province_modifier = {
+	}
+	ai_value = {
+		value = 7
+		add = estate_building_ai_modifier_value
+	}
+	asset = {
+		icon = "gfx/interface/icons/domicile_building/domicile_diplomacy_yurt.dds"
+		texture = "gfx/interface/window_domiciles/estate_building_villa_chinese.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/estate_building_villa_chinese_mask.png"
+	}
+}
+
+kuzhu_asian_estate_knight_room_01 = {
+	construction_time = 360
+	allowed_domicile_types = { east_asian_estate }
+	slot_type = internal
+	previous_building = east_asian_estate_gate_01
+
+	cost = {
+		gold =  estate_internal_building_normal_cost_tier_1_value
+	}
+	
+	can_construct = {
+		this = top_liege
+		highest_held_title_tier >= tier_empire
+	}	
+
+	character_modifier = {
+		knight_limit = 1
+		knight_effectiveness_mult = 0.02
+	}
+
+	ai_value = {
+		value = nomadic_capital_interior_building_1
+	}
+
+	asset = {
+		icon = "gfx/interface/icons/domicile_building/domicile_building_bodyguard_drills.dds"
+		texture = "gfx/interface/window_domiciles/estate_building_villa_chinese.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/character_focused_warfare_yurt_mask.png"
+	}
+}
+kuzhu_asian_estate_knight_room_02 = {
+	construction_time = 420
+	allowed_domicile_types = { east_asian_estate }
+	slot_type = internal
+	previous_building = kuzhu_asian_estate_knight_room_01
+
+	cost = {
+		gold =  estate_internal_building_normal_cost_tier_2_value
+	}
+
+	can_construct = {
+		this = top_liege
+		highest_held_title_tier >= tier_empire
+	}
+
+	character_modifier = {
+		knight_effectiveness_mult = 0.02
+	}
+
+	ai_value = {
+		value = nomadic_capital_interior_building_2
+	}
+
+	asset = {
+		icon = "gfx/interface/icons/domicile_building/domicile_building_bodyguard_drills.dds"
+		texture = "gfx/interface/window_domiciles/estate_building_villa_chinese.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/character_focused_warfare_yurt_mask.png"
+	}
+}
+kuzhu_asian_estate_knight_room_03 = {
+	construction_time = 480
+	allowed_domicile_types = { east_asian_estate }
+	slot_type = internal
+	previous_building = kuzhu_asian_estate_knight_room_02
+
+	cost = {
+		gold =  estate_internal_building_normal_cost_tier_3_value
+	}
+
+	can_construct = {
+		this = top_liege
+		highest_held_title_tier >= tier_empire
+		domicile ?= { has_domicile_building_or_higher = east_asian_estate_gate_03 }		
+	}
+
+	character_modifier = {
+		knight_effectiveness_mult = 0.02
+		knight_limit = 1
+	}
+
+	ai_value = {
+		value = nomadic_capital_interior_building_3
+	}
+
+	asset = {
+		icon = "gfx/interface/icons/domicile_building/domicile_building_bodyguard_drills.dds"
+		texture = "gfx/interface/window_domiciles/estate_building_villa_chinese.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/character_focused_warfare_yurt_mask.png"
+	}
+}
+kuzhu_asian_estate_knight_room_04 = {
+	construction_time = 540
+	allowed_domicile_types = { east_asian_estate }
+	slot_type = internal
+	previous_building = kuzhu_asian_estate_knight_room_03
+
+	cost = {
+		gold =  estate_internal_building_normal_cost_tier_4_value
+	}
+
+	can_construct = {
+		this = top_liege
+		highest_held_title_tier >= tier_empire
+	}
+
+	character_modifier = {
+		knight_effectiveness_mult = 0.02
+	}
+
+	ai_value = {
+		value = nomadic_capital_interior_building_4
+	}
+
+	asset = {
+		icon = "gfx/interface/icons/domicile_building/domicile_building_bodyguard_drills.dds"
+		texture = "gfx/interface/window_domiciles/estate_building_villa_chinese.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/character_focused_warfare_yurt_mask.png"
+	}
+}
+kuzhu_asian_estate_knight_room_05 = {
+	construction_time = 600
+	allowed_domicile_types = { east_asian_estate }
+	slot_type = internal
+	previous_building = kuzhu_asian_estate_knight_room_04
+
+	cost = {
+		gold =  estate_internal_building_normal_cost_tier_5_value
+	}
+
+	can_construct = {
+		this = top_liege
+		highest_held_title_tier >= tier_empire
+		domicile ?= { has_domicile_building_or_higher = east_asian_estate_gate_05 }
+	}
+
+	character_modifier = {
+		knight_effectiveness_mult = 0.02
+		knight_limit = 1
+	}
+
+	ai_value = {
+		value = nomadic_capital_interior_building_5
+	}
+
+	asset = {
+		icon = "gfx/interface/icons/domicile_building/domicile_building_bodyguard_drills.dds"
+		texture = "gfx/interface/window_domiciles/estate_building_villa_chinese.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/character_focused_warfare_yurt_mask.png"
+	}
+}
+kuzhu_asian_estate_knight_room_06 = {
+	construction_time = 660
+	allowed_domicile_types = { east_asian_estate }
+	slot_type = internal
+	previous_building = kuzhu_asian_estate_knight_room_05
+
+	cost = {
+		gold =  estate_internal_building_normal_cost_tier_6_value
+	}
+
+	can_construct = {
+		this = top_liege
+		highest_held_title_tier >= tier_empire
+	}
+
+	character_modifier = {
+		knight_effectiveness_mult = 0.02
+		martial = 3
+	}
+
+	ai_value = {
+		value = nomadic_capital_interior_building_6
+	}
+
+	asset = {
+		icon = "gfx/interface/icons/domicile_building/domicile_building_bodyguard_drills.dds"
+		texture = "gfx/interface/window_domiciles/estate_building_villa_chinese.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/character_focused_warfare_yurt_mask.png"
+	}
+}

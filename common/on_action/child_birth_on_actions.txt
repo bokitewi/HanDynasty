@@ -23,10 +23,6 @@ on_birth_mother = {
 					exists = scope:child.location
 					scope:mother.location = scope:child.location
 				}
-				trigger_event = {
-					id = bp2_yearly.4000
- 	  				days = 3
-				}
 				# If you have a legend maybe we change it?
 				if = {
 					limit = {
@@ -297,10 +293,6 @@ on_birth_father = {
 					exists = scope:child.location
 					scope:father.location = scope:child.location
 				}
-				trigger_event = {
-					id = bp2_yearly.4000
- 	  				days = 3
-				}
 				# If you have a legend maybe we change it?
 				if = {
 					limit = {
@@ -521,37 +513,6 @@ on_birth_child = {
 		debug.0010 # Disease data tracking
 	}
 	effect = {
-		# MPO: Nomadic Philosophy Inheritance
-		if = {
-			limit = {
-				NOT = { has_trait = nomadic_philosophy }
-				OR = {
-					scope:mother = {
-						has_trait = nomadic_philosophy
-						NOT = { has_character_flag = nomphil_exodus_first_gen }
-					}
-					scope:father ?= {
-						has_trait = nomadic_philosophy
-						NOT = { has_character_flag = nomphil_exodus_first_gen }
-					}
-				}
-			}
-			add_trait = nomadic_philosophy
-			if = {
-				limit = {
-					NOR = {
-						location.county ?= {
-							any_county_situation = { this = situation:the_great_steppe }
-						}
-						top_liege ?= {
-							government_has_flag = government_is_nomadic
-							government_has_flag = government_is_steppe_admin
-						}
-					}
-				}
-				add_character_flag = nomphil_exodus_first_gen
-			}
-		}
 		if = {
 			limit = {
 				scope:mother = {
@@ -994,30 +955,6 @@ on_birth_child = {
 					}
 				}
 				mpo_blood_brother_new_family_member_opinion_effect = yes
-			}
-		}
-		if = {
-			limit = {
-				any_parent ?= {
-					culture = {
-						has_cultural_tradition = tradition_stratified_society
-					}
-					merit_level >= 5
-				}
-				is_faith_dominant_gender = yes
-			}
-			change_merit_level = 1
-			if = {
-				limit = {
-					NOR = { 
-						has_character_modifier = tgp_passed_provincial_exam_modifier
-						has_character_modifier = tgp_bypassed_provincial_exam_modifier
-						has_character_modifier = tgp_nepotism_bypass_exams_modifier
-					}
-				}
-				add_character_modifier = {
-					modifier = tgp_nepotism_bypass_exams_modifier
-				}
 			}
 		}
 	}

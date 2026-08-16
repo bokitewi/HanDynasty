@@ -343,6 +343,9 @@ scripted_effect imperial_examination_fetch_examiner_effect = {
 			location = root.location
 			save_scope_as = examiner
 		}
+		scope:activity.activity_host = {
+			add_courtier = scope:examiner
+		}
 		scope:examiner = {
 			add_to_activity = scope:activity
 		}

@@ -1,0 +1,20 @@
+﻿#给换集权法用，来点惩罚
+kuzhu_realm_disorder_modifier = {
+	icon = social_negative
+	vassal_opinion = -25
+}
+
+#海外建国相关
+kuzhu_chinese_state_founder_modifier = {
+	icon = byzantine_crown_positive	
+	monthly_legitimacy_add = 1
+	vassal_opinion = 20
+	independent_ruler_opinion = -20	
+}
+
+kuzhu_outside_state_founder_modifier = {
+	icon = byzantine_crown_positive
+	monthly_influence = 1
+	vassal_opinion = -20	
+	independent_ruler_opinion = 20
+}

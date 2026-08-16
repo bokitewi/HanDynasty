@@ -1,0 +1,301 @@
+﻿# Generated from 華陽國志、三國志、三國演義、後漢書 and 漢晉春秋.
+# Culture: qingzhou
+# Time partition: dead_before_180 (death < 180).
+# No title history is assigned. Dates marked in the evidence audit may be estimates.
+
+##### 【欧阳歙】
+ou_yang_she={
+	name="uuii_book_ou_yang_she_name" #阳歙
+	dynasty_house="uuii_book_house_683d996c121e"
+	culture="qingzhou"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_intrigue_4
+	trait=tk_historical_character01
+	trait=diligent
+	trait=honest
+	trait=stubborn
+	110.7.1={
+		birth=yes
+	}
+	175.7.1={
+		death=yes
+	}
+}
+
+##### 【吴良】
+wu_liang={
+	name="uuii_book_wu_liang_name" #良
+	dynasty_house="uuii_book_house_bc35ed2e4df7"
+	culture="qingzhou"
+	faith="jingxue"
+	diplomacy="9"
+	martial="5"
+	stewardship="8"
+	intrigue="4"
+	learning="8"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_3
+	trait=tk_historical_character01
+	trait=deceitful
+	trait=gregarious
+	trait=cynical
+	110.7.1={
+		birth=yes
+	}
+	175.7.1={
+		death=yes
+	}
+}
+
+##### 【周泽】
+zhou_ze_2={
+	name="uuii_book_zhou_ze_2_name" #泽
+	dynasty_house="uuii_book_house_f057a3c08677"
+	culture="qingzhou"
+	faith="jingxue"
+	diplomacy="5"
+	martial="8"
+	stewardship="4"
+	intrigue="8"
+	learning="8"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_martial_2
+	trait=tk_historical_character01
+	trait=greedy
+	trait=vengeful
+	trait=gregarious
+	110.7.1={
+		birth=yes
+	}
+	175.7.1={
+		death=yes
+	}
+}
+
+##### 【李忠】
+li_zhong_2={
+	name="uuii_book_li_zhong_2_name" #忠
+	dynasty_house="uuii_book_house_6791dba36e57"
+	culture="qingzhou"
+	faith="jingxue"
+	diplomacy="8"
+	martial="8"
+	stewardship="6"
+	intrigue="6"
+	learning="4"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_diplomacy_2
+	trait=tk_historical_character01
+	trait=honest
+	trait=paranoid
+	trait=calm
+	62.7.1={
+		birth=yes
+	}
+	127.7.1={
+		death=yes
+	}
+}
+
+##### 【江革】
+jiang_ge_2={
+	name="uuii_book_jiang_ge_2_name" #革
+	dynasty_house="uuii_book_house_cfa52dd1511a"
+	culture="qingzhou"
+	faith="jingxue"
+	diplomacy="9"
+	martial="5"
+	stewardship="5"
+	intrigue="7"
+	learning="8"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_diplomacy_4
+	trait=tk_historical_character01
+	trait=patient
+	trait=shy
+	trait=wrathful
+	110.7.1={
+		birth=yes
+	}
+	175.7.1={
+		death=yes
+	}
+}
+
+##### 【沙穆】
+sha_mu={
+	name="uuii_book_sha_mu_name" #穆
+	dynasty_house="uuii_book_house_981b29fd12c0"
+	culture="qingzhou"
+	faith="jingxue"
+	diplomacy="6"
+	martial="5"
+	stewardship="8"
+	intrigue="6"
+	learning="8"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_learning_3
+	trait=tk_historical_character01
+	trait=humble
+	trait=temperate
+	trait=lustful
+	100.7.1={
+		birth=yes
+	}
+	165.7.1={
+		death=yes
+	}
+}
+
+##### 【淳于恭】
+chun_yu_gong_2={
+	name="uuii_book_chun_yu_gong_2_name" #恭
+	dynasty_house="uuii_book_house_e8d10fe86354"
+	culture="qingzhou"
+	faith="jingxue"
+	diplomacy="6"
+	martial="5"
+	stewardship="9"
+	intrigue="6"
+	learning="5"
+	prowess="9"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_3
+	trait=tk_historical_character01
+	trait=calm
+	trait=shy
+	trait=zealous
+	50.7.1={
+		birth=yes
+	}
+	80.7.1={
+		death=yes
+	}
+}
+
+##### 【滕抚】
+teng_fu_2={
+	name="uuii_book_teng_fu_2_name" #抚
+	dynasty_house="uuii_book_house_cdd985e20ee4"
+	culture="qingzhou"
+	faith="jingxue"
+	diplomacy="6"
+	martial="6"
+	stewardship="8"
+	intrigue="4"
+	learning="8"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_3
+	trait=tk_historical_character01
+	trait=callous
+	trait=wrathful
+	trait=brave
+	110.7.1={
+		birth=yes
+	}
+	175.7.1={
+		death=yes
+	}
+}
+
+##### 【甄宇】
+zhen_yu={
+	name="uuii_book_zhen_yu_name" #宇
+	dynasty_house="uuii_book_house_013bad609458"
+	culture="qingzhou"
+	faith="jingxue"
+	diplomacy="5"
+	martial="5"
+	stewardship="5"
+	intrigue="8"
+	learning="9"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_learning_3
+	trait=tk_historical_character01
+	trait=just
+	trait=impatient
+	trait=calm
+	110.7.1={
+		birth=yes
+	}
+	175.7.1={
+		death=yes
+	}
+}
+
+##### 【高诩】
+gao_xu={
+	name="uuii_book_gao_xu_name" #诩
+	dynasty_house="uuii_book_house_a5861d5e7010"
+	culture="qingzhou"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="5"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_4
+	trait=tk_historical_character01
+	trait=lazy
+	trait=sadistic
+	trait=calm
+	110.7.1={
+		birth=yes
+	}
+	175.7.1={
+		death=yes
+	}
+}
+
+##### 【王璋】
+wang_zhang_2={
+	name="uuii_book_wang_zhang_2_name" #璋
+	dynasty_house="uuii_book_house_70737c025b44"
+	culture="qingzhou"
+	faith="jingxue"
+	diplomacy="4"
+	martial="4"
+	stewardship="8"
+	intrigue="8"
+	learning="8"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=yes
+	trait=education_stewardship_3
+	trait=tk_historical_character01
+	trait=callous
+	trait=gregarious
+	trait=honest
+	110.7.1={
+		birth=yes
+	}
+	175.7.1={
+		death=yes
+	}
+}

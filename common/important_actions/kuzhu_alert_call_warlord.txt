@@ -1,0 +1,33 @@
+﻿kuzhu_warlord_general = {
+	priority = 1000
+	combine_into_one = yes
+
+	check_create_action = {
+		every_vassal = {
+			limit = {
+				root = {
+					is_character_interaction_valid = {
+						recipient = prev
+						interaction = kuzhu_call_warlord_to_war_interaction
+					}
+				}
+			}
+			try_create_important_action = {
+				important_action_type = kuzhu_warlord_general
+				actor = root
+				recipient = this
+				secondary_recipient = this
+			}
+		}
+	}
+
+	effect = {
+		open_interaction_window = {
+			interaction = kuzhu_call_warlord_to_war_interaction 
+			actor = scope:actor
+			recipient = scope:recipient
+			secondary_recipient = scope:secondary_recipient
+		}
+	}
+}
+

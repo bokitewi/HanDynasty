@@ -1,0 +1,83 @@
+﻿@ai_standard_liege_desire = 2
+@ai_standard_vassal_desire = 1
+
+### brief: administrative_themes
+# This is referenced in code. 
+#
+kuzhu_warlord_types = {
+	#display_mode = tree
+	display_mode = radiobutton		
+	icon = military_administration
+	is_shown = {
+		scope:subject.primary_title.tier >= tier_duchy
+	}
+	obligation_levels = {
+		#苦竹：藩镇类型
+		kuzhu_warlord_general_type = {
+			#is_valid = {
+			#	scope:liege = {
+			#	}
+			#}
+			default = yes
+			position = { 0 0 }
+			
+			subject_opinion = 0
+			
+			ai_liege_desire = @ai_standard_liege_desire
+			ai_subject_desire = 0
+			
+			score = -2
+			
+			subject_modifier = {				
+			}
+			#苦竹：flag用于限制切继承法
+			flag = kuzhu_warlord_is_general_type
+		}
+		#苦竹：藩王类型
+		kuzhu_warlord_prince_type = {
+			#is_valid = {
+			#	scope:liege = {
+			#	}
+			#}
+			parent = kuzhu_warlord_general_type
+			position = { 1 0 }
+	
+			subject_opinion = 15
+	
+			ai_liege_desire = 0
+			ai_subject_desire = 10
+			
+			score = 0
+			
+			subject_modifier = {				
+			}
+			#苦竹：flag用于限制切继承法			
+			flag = kuzhu_warlord_is_prince_type
+		}		
+	}
+}
+
+kuzhu_vassal_war_participation_obligation = {
+	display_mode = checkbox
+	obligation_levels = {
+		kuzhu_vassal_war_participation_obligation_blocked = {
+			default = yes			
+			position = { 0 0 }
+
+			ai_liege_desire = 0
+			ai_subject_desire = @ai_standard_vassal_desire
+		}
+		kuzhu_vassal_war_participation_obligation_allowed = {
+			parent = kuzhu_vassal_war_participation_obligation_blocked				
+			position = { 1 0 }
+
+			subject_opinion = -10
+			score = -2			
+
+			flag = kuzhu_warlord_war_duty
+
+			ai_liege_desire = @ai_standard_liege_desire
+			ai_subject_desire = 0
+		}
+	}
+}

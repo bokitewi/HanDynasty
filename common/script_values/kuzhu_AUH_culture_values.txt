@@ -1,0 +1,26 @@
+﻿#root = culture is considered
+
+kuzhu_culture_era_value = {
+	value = 0
+	if = {
+		limit = {
+			has_cultural_era_or_later = culture_era_late_medieval
+		}
+		add = 4
+	}
+	else_if = {
+		limit = {
+			has_cultural_era_or_later = culture_era_high_medieval
+		}
+		add = 3
+	}
+	else_if = {
+		limit = {
+			has_cultural_era_or_later = culture_era_early_medieval
+		}
+		add = 2
+	}
+	else = {
+		add = 1
+	}
+}

@@ -6,6 +6,7 @@
 ##### 【马贤】
 ma_xian={
 	name="uuii_book_ma_xian_name" #贤
+	dynasty_house="uuii_book_house_987a2f90702e"
 	culture="qiang"
 	faith="shamanism"
 	diplomacy="7"
@@ -15,7 +16,12 @@ ma_xian={
 	learning="5"
 	prowess="7"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_martial_3
+	trait=tk_historical_character01
+	trait=brave
+	trait=honest
+	trait=generous
 	93.7.1={
 		birth=yes
 	}
@@ -27,6 +33,7 @@ ma_xian={
 ##### 【狼莫】
 lang_mo={
 	name="uuii_book_lang_mo_name" #莫
+	dynasty_house="uuii_book_house_e4fa2d385584"
 	culture="qiang"
 	faith="shamanism"
 	diplomacy="6"
@@ -36,7 +43,12 @@ lang_mo={
 	learning="6"
 	prowess="7"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_intrigue_3
+	trait=tk_historical_character01
+	trait=deceitful
+	trait=shy
+	trait=impatient
 	110.7.1={
 		birth=yes
 	}
@@ -48,6 +60,7 @@ lang_mo={
 ##### 【吕羌】
 lv_qiang_3={
 	name="uuii_book_lv_qiang_3_name" #羌
+	dynasty_house="uuii_book_house_3d82200ae4ef"
 	culture="qiang"
 	faith="shamanism"
 	diplomacy="6"
@@ -57,7 +70,12 @@ lv_qiang_3={
 	learning="6"
 	prowess="6"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_stewardship_4
+	trait=tk_historical_character01
+	trait=lazy
+	trait=humble
+	trait=greedy
 	1.7.1={
 		birth=yes
 	}
@@ -69,6 +87,7 @@ lv_qiang_3={
 ##### 【唐羌】
 tang_qiang={
 	name="uuii_book_tang_qiang_name" #羌
+	dynasty_house="uuii_book_house_12c4f832e129"
 	culture="qiang"
 	faith="shamanism"
 	diplomacy="8"
@@ -78,7 +97,12 @@ tang_qiang={
 	learning="7"
 	prowess="6"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_diplomacy_2
+	trait=tk_historical_character01
+	trait=ambitious
+	trait=greedy
+	trait=diligent
 	110.7.1={
 		birth=yes
 	}

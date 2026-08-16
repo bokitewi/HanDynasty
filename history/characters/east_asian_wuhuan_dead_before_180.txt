@@ -6,6 +6,7 @@
 ##### 【庞雄】
 pang_xiong={
 	name="uuii_book_pang_xiong_name" #雄
+	dynasty_house="uuii_book_house_6265d5473c6e"
 	culture="wuhuan"
 	faith="shamanism"
 	diplomacy="7"
@@ -15,7 +16,12 @@ pang_xiong={
 	learning="7"
 	prowess="7"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_diplomacy_4
+	trait=tk_historical_character01
+	trait=brave
+	trait=honest
+	trait=ambitious
 	79.7.1={
 		birth=yes
 	}
@@ -27,6 +33,7 @@ pang_xiong={
 ##### 【何熙】
 he_xi_2={
 	name="uuii_book_he_xi_2_name" #熙
+	dynasty_house="uuii_book_house_57c413def7b9"
 	culture="wuhuan"
 	faith="shamanism"
 	diplomacy="7"
@@ -36,7 +43,12 @@ he_xi_2={
 	learning="4"
 	prowess="7"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_martial_3
+	trait=tk_historical_character01
+	trait=honest
+	trait=temperate
+	trait=stubborn
 	50.7.1={
 		birth=yes
 	}
@@ -48,6 +60,7 @@ he_xi_2={
 ##### 【乌桓】
 wu_huan={
 	name="uuii_book_wu_huan_name" #桓
+	dynasty_house="uuii_book_house_6708ba6b496e"
 	culture="wuhuan"
 	faith="shamanism"
 	diplomacy="5"
@@ -57,7 +70,12 @@ wu_huan={
 	learning="7"
 	prowess="7"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_learning_4
+	trait=tk_historical_character01
+	trait=brave
+	trait=callous
+	trait=cynical
 	79.7.1={
 		birth=yes
 	}
@@ -69,6 +87,7 @@ wu_huan={
 ##### 【句龙吾斯】
 ju_long_wu_si={
 	name="uuii_book_ju_long_wu_si_name" #龙吾斯
+	dynasty_house="uuii_book_house_7b08d622acd5"
 	culture="wuhuan"
 	faith="shamanism"
 	diplomacy="6"
@@ -78,7 +97,12 @@ ju_long_wu_si={
 	learning="7"
 	prowess="7"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_learning_4
+	trait=tk_historical_character01
+	trait=deceitful
+	trait=trusting
+	trait=patient
 	114.7.1={
 		birth=yes
 	}
@@ -90,6 +114,7 @@ ju_long_wu_si={
 ##### 【苏拔廆】
 su_ba_gui={
 	name="uuii_book_su_ba_gui_name" #拔廆
+	dynasty_house="uuii_book_house_9cc7e7e43322"
 	culture="wuhuan"
 	faith="shamanism"
 	diplomacy="4"
@@ -99,7 +124,12 @@ su_ba_gui={
 	learning="5"
 	prowess="9"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_stewardship_3
+	trait=tk_historical_character01
+	trait=temperate
+	trait=impatient
+	trait=shy
 	110.7.1={
 		birth=yes
 	}
@@ -111,6 +141,7 @@ su_ba_gui={
 ##### 【郝旦】
 hao_dan={
 	name="uuii_book_hao_dan_name" #旦
+	dynasty_house="uuii_book_house_3b18435af25f"
 	culture="wuhuan"
 	faith="shamanism"
 	diplomacy="8"
@@ -120,7 +151,12 @@ hao_dan={
 	learning="8"
 	prowess="5"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_learning_2
+	trait=tk_historical_character01
+	trait=just
+	trait=forgiving
+	trait=trusting
 	19.7.1={
 		birth=yes
 	}
@@ -132,6 +168,7 @@ hao_dan={
 ##### 【于秩居】
 yu_zhi_ju={
 	name="uuii_book_yu_zhi_ju_name" #秩居
+	dynasty_house="uuii_book_house_c789fdb1a725"
 	culture="wuhuan"
 	faith="shamanism"
 	diplomacy="7"
@@ -141,7 +178,12 @@ yu_zhi_ju={
 	learning="7"
 	prowess="7"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_diplomacy_2
+	trait=tk_historical_character01
+	trait=gregarious
+	trait=diligent
+	trait=greedy
 	110.7.1={
 		birth=yes
 	}

@@ -16,7 +16,12 @@ tang_ming_kan_long={
 	learning="8"
 	prowess="8"
 	health=5.5
-	disallow_random_traits=no
+	disallow_random_traits=yes
+	trait=education_stewardship_2
+	trait=tk_historical_character01
+	trait=fickle
+	trait=diligent
+	trait=honest
 	162.7.1={
 		birth=yes
 	}

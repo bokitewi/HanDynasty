@@ -1,0 +1,212 @@
+﻿#苦竹：行政转藩镇
+kuzhu_convert_to_warlord_from_admin_effect = {
+	#苦竹：先销毁家族头衔
+	every_held_title = {
+		limit = {
+			is_noble_family_title = yes
+		}
+		prev = { destroy_title = prev }
+	}
+	
+	#Then change government
+	change_government = kuzhu_warlord_government
+	
+	custom_tooltip = {
+		text = kuzhu_trait_governor_to_warlord
+		kuzhu_warlord_trait_xp_initialize_effect = yes		
+	}	
+	#苦竹：给有地头衔挨个添加选举继承法
+	kuzhu_warlord_succession_law_setup_effect = yes
+	#下面是给封臣转
+	custom_tooltip = {
+		text = kuzhu_overthrew_noble_househead		
+		#苦竹：首先剥夺所有世家族长的头衔，免得玩家被强行改政体，失去世家身份
+		create_title_and_vassal_change = {
+			type = conquest
+			save_scope_as = replace_noble
+			add_claim_on_loss = no
+		}
+		every_vassal_or_below = {
+			#苦竹：保证被收头衔的家主是有庄园的世家族长
+			limit = {
+				is_ruler = yes
+				government_allows = administrative
+				any_held_title = { is_noble_family_title = yes }						
+			}
+			#苦竹：尝试用新人物代替
+			create_character = {
+				template = new_commander_character
+				culture = prev.capital_county.holder.culture
+				faith = prev.capital_county.holder.faith
+				dynasty = generate
+				location = prev.capital_province
+				after_creation = {
+					save_scope_as = kuzhu_new_warlord
+				}
+			}			
+			#将所有有地头衔转给新人
+			every_held_title = {
+				limit = {
+					is_titular = no	
+					tier >= tier_county
+				}
+				change_title_holder = {
+					holder = scope:kuzhu_new_warlord
+					change = scope:replace_noble
+					take_baronies = yes
+				}
+			}
+		}	
+		resolve_title_and_vassal_change = scope:replace_noble
+	
+		#然后，将所有世家族长转给领主
+		create_title_and_vassal_change = {
+			type = swear_fealty
+			save_scope_as = transfer_noble
+		}
+		every_vassal_or_below = {
+			limit = {
+				is_landed = no
+				any_held_title = { is_noble_family_title = yes }						
+			}
+			change_liege = {
+				liege = this.top_liege
+				change = scope:transfer_noble
+			}		
+		}
+		resolve_title_and_vassal_change = scope:transfer_noble
+	}	
+	
+	custom_tooltip = {
+		text = kuzhu_turn_others_warlord
+		#让所有剩下的非世家行政制封臣跟着转换政体，注意不要让其他制度封臣一起转了
+		every_vassal_or_below = {
+			limit = {
+				is_landed = yes
+				government_allows = administrative
+			}
+			change_government = kuzhu_warlord_government				
+			kuzhu_warlord_trait_xp_initialize_effect = yes			
+			kuzhu_warlord_succession_law_setup_effect = yes
+		}		
+	}	
+}
+
+#军阀经验初始化
+kuzhu_warlord_trait_xp_initialize_effect = {
+	#root = warlord	
+	if = {
+		limit = {
+			NOT = { has_trait = kuzhu_warlord_trait }
+		}
+		add_trait = kuzhu_warlord_trait	
+		every_held_title = {
+			if = { 
+				limit = { tier = tier_county }
+				prev = {
+					add_trait_xp = {
+						trait = kuzhu_warlord_trait
+						value = 4
+					}					
+				}
+			}
+			else_if = {
+				limit = { tier = tier_duchy }
+				prev = {
+					add_trait_xp = {
+						trait = kuzhu_warlord_trait
+						value = 8
+					}					
+				}				
+			}
+			else_if = {
+				limit = { tier = tier_kingdom }
+				prev = {
+					add_trait_xp = {
+						trait = kuzhu_warlord_trait
+						value = 12
+					}					
+				}				
+			}
+			else_if = {
+				limit = { tier >= tier_empire }
+				prev = {
+					add_trait_xp = {
+						trait = kuzhu_warlord_trait
+						value = 16
+					}					
+				}				
+			}			
+		}
+	}
+	if = {
+		limit = { has_trait = governor }
+		add_trait_xp = {
+			trait = kuzhu_warlord_trait
+			value = "has_trait_xp(governor)"
+		}
+		remove_trait = governor
+	}	
+}			
+
+#设置军阀继承法
+kuzhu_warlord_succession_law_setup_effect = {
+	if = {
+		limit = {
+			has_realm_law = kuzhu_warlord_elective_succession_law
+		}
+		#苦竹：给有地头衔挨个添加选举继承法
+		every_held_title = {
+			limit = {
+				tier >= tier_duchy
+				is_titular = no
+				NOT = { has_title_law = kuzhu_warlord_appointment_title_law }
+			}
+			clear_title_laws = yes
+			add_title_law = kuzhu_warlord_appointment_title_law
+		}
+	}
+}
+
+#苦竹：国库和庄园都变成钱,scope = character,即换钱者
+kuzhu_transfer_treasury_to_gold_effect = {
+	save_scope_as = kuzhu_treasury_seller
+	#Gain some gold for selling off your estates
+	if = {
+		limit = {
+			any_vassal = {
+				any_held_title = { is_noble_family_title = yes }
+				exists = domicile
+			}
+		}
+		custom_tooltip = estates_get_bought
+		every_vassal = {
+			limit = { 
+				any_held_title = { is_noble_family_title = yes }
+				exists = domicile
+			}
+			hidden_effect = {
+				add_gold = {
+					value = {
+						value = major_gold_value
+						switch = {
+							trigger = domicile.num_domicile_buildings
+							7 = { multiply = 7 }
+							6 = { multiply = 6 }
+							5 = { multiply = 5 }
+							4 = { multiply = 4 }
+							3 = { multiply = 3 }
+							2 = { multiply = 2 }
+						}
+					}
+				}
+			}	
+		}
+	}	
+	add_gold = {
+		value = { 
+			value = scope:kuzhu_treasury_seller.treasury
+		}
+	}
+	empty_treasury_when_abandoning_landed_life_effect = yes
+}

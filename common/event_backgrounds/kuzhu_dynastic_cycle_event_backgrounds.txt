@@ -1,0 +1,8 @@
+﻿
+kuzhu_DC_fullscreen_dynastic_cycle_normal = {
+	background = {
+		reference = "gfx/interface/illustrations/event_story/kuzhu_dynastic_cycle_normal.dds"
+		environment = "environment_jerusalem"
+		ambience = "event:/DLC/EP4/SFX/Events/Story_Events/tgp_dynastic_cycle_stability"
+	}
+}

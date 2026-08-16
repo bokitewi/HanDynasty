@@ -1,0 +1,339 @@
+﻿#苦竹：行政制的官僚规模法
+
+kuzhu_government_size_laws = {
+	default = kuzhu_small_government_size
+	cumulative = no
+	flag = realm_law
+
+	kuzhu_small_government_size = {
+		can_keep = {
+			is_independent_ruler = yes
+			highest_held_title_tier >= tier_kingdom				
+			OR = { 			
+				government_has_flag = government_is_celestial
+				government_has_flag = government_is_steppe_admin
+				government_has_flag = government_is_meritocratic 
+			}
+		}
+		on_pass = {
+			## Set cooldown
+			set_variable = {
+				name = admin_law_cooldown
+				years = 20
+			}
+			add_character_modifier = {
+				modifier = kuzhu_realm_disorder_modifier
+				years = 5
+			}
+		}
+		can_pass = {
+			custom_tooltip = {
+				text = kuzhu_need_enough_authority
+				OR = {
+					has_realm_law = celestial_bureaucracy_2
+					has_realm_law = celestial_bureaucracy_3
+					has_realm_law = meritocratic_bureaucracy_2
+					has_realm_law = meritocratic_bureaucracy_3
+				}
+			}
+			custom_tooltip = {
+				text = admin_law_cooldown_desc
+				NOT = { has_variable = admin_law_cooldown }
+			}			
+		}
+		pass_cost = {
+			prestige = {
+				add = increase_crown_authority_prestige_cost
+			}
+		}	
+		modifier = {
+			diplomacy = 1
+			stewardship = 1
+			intrigue = 1
+			maa_toughness_mult = -0.05
+			maa_damage_mult = -0.05			
+		}
+		ai_will_do = {
+			value = 0
+		}
+	}	
+
+	kuzhu_medium_government_size = {
+		can_keep = {
+			is_independent_ruler = yes
+			highest_held_title_tier >= tier_kingdom
+			OR = {
+				government_has_flag = government_is_celestial
+				government_has_flag = government_is_steppe_admin
+				government_has_flag = government_is_meritocratic	 
+			}
+			OR = {
+				monthly_character_treasury_income > 0
+				treasury > 0 
+			}
+		}
+		on_pass = {
+			## Set cooldown
+			set_variable = {
+				name = admin_law_cooldown
+				years = 20
+			}
+			add_character_modifier = {
+				modifier = kuzhu_realm_disorder_modifier
+				years = 5
+			}
+		}
+		can_pass = {
+			custom_tooltip = {
+				text = kuzhu_need_enough_authority
+				OR = {
+					has_realm_law = celestial_bureaucracy_2
+					has_realm_law = celestial_bureaucracy_3
+					has_realm_law = meritocratic_bureaucracy_2
+					has_realm_law = meritocratic_bureaucracy_3
+				}
+			}			
+			custom_tooltip = {
+				text = admin_law_cooldown_desc
+				NOT = { has_variable = admin_law_cooldown }
+			}			
+		}
+		pass_cost = {
+			prestige = {
+				add = increase_crown_authority_prestige_cost
+			}
+		}		
+		modifier = {		
+			diplomacy = 2
+			stewardship = 2
+			intrigue = 2
+			maa_toughness_mult = -0.10
+			maa_damage_mult = -0.10
+			movement_speed = -0.05
+		}
+	
+		ai_will_do = {
+			#苦竹：如果可能，ai总是想要这种法律	
+			value = 1
+		}
+	}	
+	
+	kuzhu_large_government_size = {
+		can_keep = {
+			is_independent_ruler = yes
+			highest_held_title_tier >= tier_kingdom				
+			has_government = celestial_government
+			OR = {
+				monthly_character_treasury_income > 0
+				treasury > 0 
+			}		
+		}
+		on_pass = {
+			## Set cooldown
+			set_variable = {
+				name = admin_law_cooldown
+				years = 20
+			}
+			add_character_modifier = {
+				modifier = kuzhu_realm_disorder_modifier
+				years = 5
+			}
+		}		
+		can_pass = {
+			custom_tooltip = {
+				text = kuzhu_need_enough_authority
+				OR = {
+					has_realm_law = celestial_bureaucracy_2
+					has_realm_law = celestial_bureaucracy_3
+				}
+			}				
+			custom_tooltip = {
+				text = admin_law_cooldown_desc
+				NOT = { has_variable = admin_law_cooldown }
+			}
+		}
+		pass_cost = {
+			prestige = {
+				add = increase_crown_authority_prestige_cost
+			}
+		}
+		modifier = {
+			diplomacy = 3
+			stewardship = 3
+			intrigue = 3
+			maa_toughness_mult = -0.15
+			maa_damage_mult = -0.15
+			movement_speed = -0.10
+		}
+	
+		ai_will_do = {
+			#苦竹：根据国家军事情况更改
+			if = {
+				limit = {
+					military_power > 10000
+					maa_regiments_count > 10
+				}
+				value = 3
+			}			
+		}
+	}
+}
+
+#封臣文官法
+kuzhu_government_size_vassal_laws = {
+	default = kuzhu_small_government_size_vassal
+	cumulative = no
+	flag = realm_law
+	
+	kuzhu_small_government_size_vassal = {
+		can_keep = {
+			government_allows = administrative
+			is_independent_ruler = no
+			highest_held_title_tier >= tier_duchy
+			trigger_if = {
+				limit = {
+					liege = { is_independent_ruler = yes }
+				}
+				liege = { has_realm_law = kuzhu_small_government_size }
+			}
+			trigger_else = {
+				liege = { has_realm_law = kuzhu_small_government_size_vassal }
+			}
+		}
+		can_pass = {
+			trigger_if = {
+				limit = {
+					liege = {
+						OR = {
+							has_realm_law = kuzhu_small_government_size
+							has_realm_law = kuzhu_small_government_size_vassal
+						}
+					}
+				}
+				custom_tooltip = {
+					text = imperial_bureaucracy_pending_law_change
+					always = no
+				}
+			}
+		}
+		on_pass = {
+			## Set cooldown
+			set_variable = {
+				name = admin_law_cooldown
+				years = 20
+			}
+		}
+		modifier = {
+			diplomacy = 1
+			stewardship = 1
+			intrigue = 1
+			maa_toughness_mult = -0.05
+			maa_damage_mult = -0.05				
+		}
+		ai_will_do = {
+			value = 0
+		}
+	}	
+
+	kuzhu_medium_government_size_vassal = {
+		can_keep = {
+			government_allows = administrative
+			is_independent_ruler = no
+			highest_held_title_tier >= tier_duchy
+			trigger_if = {
+				limit = {
+					liege = { is_independent_ruler = yes }
+				}
+				liege = { has_realm_law = kuzhu_medium_government_size }
+			}
+			trigger_else = {
+				liege = { has_realm_law = kuzhu_medium_government_size_vassal }
+			}
+		}
+		can_pass = {
+			trigger_if = {
+				limit = {
+					liege = {
+						OR = {
+							has_realm_law = kuzhu_medium_government_size
+							has_realm_law = kuzhu_medium_government_size_vassal
+						}
+					}
+				}
+				custom_tooltip = {
+					text = imperial_bureaucracy_pending_law_change
+					always = no
+				}
+			}
+		}
+		on_pass = {
+			## Set cooldown
+			set_variable = {
+				name = admin_law_cooldown
+				years = 20
+			}
+		}		
+		modifier = {
+			diplomacy = 2
+			stewardship = 2
+			intrigue = 2	
+			maa_toughness_mult = -0.10
+			maa_damage_mult = -0.10
+			movement_speed = -0.05	
+		}
+		ai_will_do = {
+			value = 0
+		}
+	}	
+	
+	kuzhu_large_government_size_vassal = {
+		can_keep = {
+			government_allows = administrative
+			is_independent_ruler = no
+			highest_held_title_tier >= tier_duchy
+			trigger_if = {
+				limit = {
+					liege = { is_independent_ruler = yes }
+				}
+				liege = { has_realm_law = kuzhu_large_government_size }
+			}
+			trigger_else = {
+				liege = { has_realm_law = kuzhu_large_government_size_vassal }
+			}
+		}
+		can_pass = {
+			trigger_if = {
+				limit = {
+					liege = {
+						OR = {
+							has_realm_law = kuzhu_large_government_size
+							has_realm_law = kuzhu_large_government_size_vassal
+						}
+					}
+				}
+				custom_tooltip = {
+					text = imperial_bureaucracy_pending_law_change
+					always = no
+				}
+			}
+		}
+		on_pass = {
+			## Set cooldown
+			set_variable = {
+				name = admin_law_cooldown
+				years = 20
+			}
+		}		
+		modifier = {
+			diplomacy = 3
+			stewardship = 3
+			intrigue = 3
+			maa_toughness_mult = -0.15
+			maa_damage_mult = -0.15
+			movement_speed = -0.10
+		}
+		ai_will_do = {
+			value = 0
+		}
+	}
+}
