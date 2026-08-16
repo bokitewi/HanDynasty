@@ -1,0 +1,54 @@
+﻿# More Childhood Personality Events (Workshop 2545836661)
+# Only the project event list is appended; CK3 1.19 vanilla trigger/effects remain authoritative.
+# User-selected balance: 50% of the original MCPE event weights.
+child_personality_gain = {
+	random_events = {
+		50 = mcpe.1
+		50 = mcpe.2
+		50 = mcpe.3
+		50 = mcpe.4
+		50 = mcpe.5
+		150 = mcpe.6
+		50 = mcpe.7
+		150 = mcpe.8
+		50 = mcpe.9
+		50 = mcpe.10
+		50 = mcpe.11
+		50 = mcpe.12
+		50 = mcpe.13
+		150 = mcpe.14
+		50 = mcpe.15
+		150 = mcpe.16
+		50 = mcpe.17
+		50 = mcpe.18
+		50 = mcpe.19
+		50 = mcpe.20
+		50 = mcpe.21
+		50 = mcpe.22
+		50 = mcpe.23
+		50 = mcpe.24
+		150 = mcpe.25
+		50 = mcpe.26
+		50 = mcpe.27
+		50 = mcpe.28
+		50 = mcpe.29
+		50 = mcpe.30
+		50 = mcpe.31
+		50 = mcpe.32
+		50 = mcpe.33
+		50 = mcpe.34
+		50 = mcpe.35
+		50 = mcpe.36
+		50 = mcpe.37
+		50 = mcpe.38
+		50 = mcpe.39
+		300 = mcpe.40
+		50 = mcpe.41
+		50 = mcpe.42
+		50 = mcpe.43
+		50 = mcpe.44
+		50 = mcpe.45
+		50 = mcpe.46
+		50 = mcpe.47
+	}
+}

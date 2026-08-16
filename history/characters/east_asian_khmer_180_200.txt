@@ -1,0 +1,293 @@
+﻿# Generated from 華陽國志、三國志、三國演義、後漢書 and 漢晉春秋.
+# Culture: khmer
+# Time partition: 180_200 (death >= 180 and birth <= 200).
+# No title history is assigned. Dates marked in the evidence audit may be estimates.
+
+##### 【刹利阿朗罗】
+sha_li_a_lang_luo={
+	name="uuii_book_sha_li_a_lang_luo_name" #利阿朗罗
+	dynasty_house="house_176010001001013"
+	culture="khmer"
+	faith="theravada"
+	diplomacy="4"
+	martial="5"
+	stewardship="9"
+	intrigue="5"
+	learning="9"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	158.7.1={
+		birth=yes
+	}
+	226.7.1={
+		death=yes
+	}
+}
+
+##### 【诺罗敦汉达瓦底】
+nuo_luo_dun_han_da_wa_di={
+	name="uuii_book_nuo_luo_dun_han_da_wa_di_name" #罗敦汉达瓦底
+	dynasty_house="house_176010002001013"
+	culture="khmer"
+	faith="theravada"
+	diplomacy="4"
+	martial="8"
+	stewardship="7"
+	intrigue="6"
+	learning="8"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	167.7.1={
+		birth=yes
+	}
+	238.7.1={
+		death=yes
+	}
+}
+
+##### 【范坚峻】
+fan_jian_jun={
+	name="uuii_book_fan_jian_jun_name" #坚峻
+	dynasty_house="house_176010004001013"
+	culture="khmer"
+	faith="theravada"
+	diplomacy="8"
+	martial="8"
+	stewardship="8"
+	intrigue="4"
+	learning="8"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=no
+	145.7.1={
+		birth=yes
+	}
+	188.7.1={
+		death=yes
+	}
+}
+
+##### 【范叶茹】
+fan_ye_ru={
+	name="uuii_book_fan_ye_ru_name" #叶茹
+	dynasty_house="house_176010004001013"
+	female=yes
+	father="fan_jian_jun"
+	culture="khmer"
+	faith="theravada"
+	diplomacy="7"
+	martial="5"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	168.7.1={
+		birth=yes
+	}
+	235.7.1={
+		death=yes
+	}
+}
+
+##### 【范师蔓】
+fan_shi_man={
+	name="uuii_book_fan_shi_man_name" #师蔓
+	dynasty_house="house_176010004001013"
+	father="fan_jian_jun"
+	culture="khmer"
+	faith="theravada"
+	diplomacy="8"
+	martial="7"
+	stewardship="7"
+	intrigue="6"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	170.7.1={
+		birth=yes
+	}
+	222.7.1={
+		death=yes
+	}
+}
+
+##### 【西索瓦沙林伽都】
+xi_suo_wa_sha_lin_ga_dou={
+	name="uuii_book_xi_suo_wa_sha_lin_ga_dou_name" #索瓦沙林伽都
+	dynasty_house="house_176010007001013"
+	culture="khmer"
+	faith="theravada"
+	diplomacy="9"
+	martial="7"
+	stewardship="6"
+	intrigue="5"
+	learning="6"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	163.7.1={
+		birth=yes
+	}
+	239.7.1={
+		death=yes
+	}
+}
+
+##### 【沈英】
+shen_ying={
+	name="uuii_book_shen_ying_name" #英
+	dynasty_house="house_176010008001013"
+	culture="khmer"
+	faith="theravada"
+	diplomacy="8"
+	martial="5"
+	stewardship="7"
+	intrigue="5"
+	learning="6"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	165.7.1={
+		birth=yes
+	}
+	235.7.1={
+		death=yes
+	}
+}
+
+##### 【波伦罗阇达摩】
+bo_lun_luo_du_da_mo={
+	name="uuii_book_bo_lun_luo_du_da_mo_name" #伦罗阇达摩
+	dynasty_house="house_176010009001013"
+	culture="khmer"
+	faith="theravada"
+	diplomacy="7"
+	martial="10"
+	stewardship="6"
+	intrigue="7"
+	learning="5"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	161.7.1={
+		birth=yes
+	}
+	245.7.1={
+		death=yes
+	}
+}
+
+##### 【宋桑云】
+song_sang_yun={
+	name="uuii_book_song_sang_yun_name" #桑云
+	dynasty_house="house_176010012001013"
+	culture="khmer"
+	faith="theravada"
+	diplomacy="7"
+	martial="6"
+	stewardship="6"
+	intrigue="9"
+	learning="4"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	164.7.1={
+		birth=yes
+	}
+	243.7.1={
+		death=yes
+	}
+}
+
+##### 【韩朗诺】
+han_lang_nuo={
+	name="uuii_book_han_lang_nuo_name" #朗诺
+	dynasty_house="house_176010013001013"
+	culture="khmer"
+	faith="theravada"
+	diplomacy="5"
+	martial="9"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	160.7.1={
+		birth=yes
+	}
+	232.7.1={
+		death=yes
+	}
+}
+
+##### 【符琨】
+fu_kun={
+	name="uuii_book_fu_kun_name" #琨
+	dynasty_house="house_176010016001013"
+	culture="khmer"
+	faith="theravada"
+	diplomacy="4"
+	martial="8"
+	stewardship="8"
+	intrigue="7"
+	learning="8"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	163.7.1={
+		birth=yes
+	}
+	244.7.1={
+		death=yes
+	}
+}
+
+##### 【罗尚】
+luo_shang={
+	name="uuii_book_luo_shang_name" #尚
+	dynasty_house="house_176010021001013"
+	culture="khmer"
+	faith="theravada"
+	diplomacy="4"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	162.7.1={
+		birth=yes
+	}
+	237.7.1={
+		death=yes
+	}
+}
+
+##### 【吴哥巴隆】
+wu_ge_ba_long={
+	name="uuii_book_wu_ge_ba_long_name" #哥巴隆
+	dynasty_house="house_176010023001013"
+	culture="khmer"
+	faith="theravada"
+	diplomacy="5"
+	martial="8"
+	stewardship="4"
+	intrigue="6"
+	learning="9"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	161.7.1={
+		birth=yes
+	}
+	232.7.1={
+		death=yes
+	}
+}

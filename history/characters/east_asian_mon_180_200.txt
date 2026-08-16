@@ -1,0 +1,26 @@
+﻿# Generated from 華陽國志、三國志、三國演義、後漢書 and 漢晉春秋.
+# Culture: mon
+# Time partition: 180_200 (death >= 180 and birth <= 200).
+# No title history is assigned. Dates marked in the evidence audit may be estimates.
+
+##### 【堂明坎隆】
+tang_ming_kan_long={
+	name="uuii_book_tang_ming_kan_long_name" #明坎隆
+	dynasty_house="house_176030026001013"
+	culture="mon"
+	faith="theravada"
+	diplomacy="5"
+	martial="7"
+	stewardship="8"
+	intrigue="4"
+	learning="8"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	162.7.1={
+		birth=yes
+	}
+	224.7.1={
+		death=yes
+	}
+}

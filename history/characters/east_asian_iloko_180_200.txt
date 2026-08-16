@@ -1,0 +1,70 @@
+﻿# Generated from 華陽國志、三國志、三國演義、後漢書 and 漢晉春秋.
+# Culture: iloko
+# Time partition: 180_200 (death >= 180 and birth <= 200).
+# No title history is assigned. Dates marked in the evidence audit may be estimates.
+
+##### 【阿库纳丹尼斯】
+a_ku_na_dan_ni_si={
+	name="uuii_book_a_ku_na_dan_ni_si_name" #库纳丹尼斯
+	dynasty_house="house_174090001001013"
+	culture="iloko"
+	faith="dayawism"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	162.7.1={
+		birth=yes
+	}
+	235.7.1={
+		death=yes
+	}
+}
+
+##### 【克鲁兹菲德尔】
+ke_lu_zi_fei_de_er={
+	name="uuii_book_ke_lu_zi_fei_de_er_name" #鲁兹菲德尔
+	dynasty_house="house_174090002001013"
+	culture="iloko"
+	faith="dayawism"
+	diplomacy="9"
+	martial="8"
+	stewardship="7"
+	intrigue="6"
+	learning="5"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	165.7.1={
+		birth=yes
+	}
+	231.7.1={
+		death=yes
+	}
+}
+
+##### 【维甘卡洛斯】
+wei_gan_ka_luo_si={
+	name="uuii_book_wei_gan_ka_luo_si_name" #甘卡洛斯
+	dynasty_house="house_174090025001013"
+	culture="iloko"
+	faith="dayawism"
+	diplomacy="8"
+	martial="8"
+	stewardship="5"
+	intrigue="5"
+	learning="6"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	165.7.1={
+		birth=yes
+	}
+	231.7.1={
+		death=yes
+	}
+}

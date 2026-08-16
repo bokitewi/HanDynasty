@@ -1,0 +1,218 @@
+﻿# Generated from 華陽國志、三國志、三國演義、後漢書 and 漢晉春秋.
+# Culture: xianbei
+# Time partition: dead_before_180 (death < 180).
+# No title history is assigned. Dates marked in the evidence audit may be estimates.
+
+##### 【马续】
+ma_xu={
+	name="uuii_book_ma_xu_name" #续
+	dynasty_house="house_111010052004013"
+	father="ma_yan_2"
+	culture="xianbei"
+	faith="xianbei_polytheism"
+	diplomacy="5"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	82.7.1={
+		birth=yes
+	}
+	145.7.1={
+		death=yes
+	}
+}
+
+##### 【拓拔折苴】
+tuo_ba_zhe_ju={
+	name="uuii_book_tuo_ba_zhe_ju_name" #拔折苴
+	dynasty_house="house_131100002001013"
+	father="tuo_ba_tan_shi_huai"
+	culture="xianbei"
+	faith="xianbei_polytheism"
+	diplomacy="6"
+	martial="9"
+	stewardship="7"
+	intrigue="5"
+	learning="8"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	154.7.1={
+		birth=yes
+	}
+	179.7.1={
+		death=yes
+	}
+}
+
+##### 【耿夔】
+geng_kui={
+	name="uuii_book_geng_kui_name" #夔
+	culture="xianbei"
+	faith="xianbei_polytheism"
+	diplomacy="5"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	82.7.1={
+		birth=yes
+	}
+	147.7.1={
+		death=yes
+	}
+}
+
+##### 【邓遵】
+deng_zun={
+	name="uuii_book_deng_zun_name" #遵
+	culture="xianbei"
+	faith="xianbei_polytheism"
+	diplomacy="4"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	82.7.1={
+		birth=yes
+	}
+	147.7.1={
+		death=yes
+	}
+}
+
+##### 【张显】
+zhang_xian_4={
+	name="uuii_book_zhang_xian_4_name" #显
+	culture="xianbei"
+	faith="xianbei_polytheism"
+	diplomacy="4"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	76.7.1={
+		birth=yes
+	}
+	141.7.1={
+		death=yes
+	}
+}
+
+##### 【乌伦】
+wu_lun={
+	name="uuii_book_wu_lun_name" #伦
+	culture="xianbei"
+	faith="xianbei_polytheism"
+	diplomacy="5"
+	martial="9"
+	stewardship="8"
+	intrigue="7"
+	learning="6"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	90.7.1={
+		birth=yes
+	}
+	155.7.1={
+		death=yes
+	}
+}
+
+##### 【于仇贲】
+yu_chou_ben={
+	name="uuii_book_yu_chou_ben_name" #仇贲
+	culture="xianbei"
+	faith="xianbei_polytheism"
+	diplomacy="7"
+	martial="7"
+	stewardship="8"
+	intrigue="5"
+	learning="5"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	24.7.1={
+		birth=yes
+	}
+	89.7.1={
+		death=yes
+	}
+}
+
+##### 【邓太】
+deng_tai={
+	name="uuii_book_deng_tai_name" #太
+	culture="xianbei"
+	faith="xianbei_polytheism"
+	diplomacy="6"
+	martial="8"
+	stewardship="4"
+	intrigue="8"
+	learning="6"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	83.7.1={
+		birth=yes
+	}
+	148.7.1={
+		death=yes
+	}
+}
+
+##### 【满头】
+man_tou={
+	name="uuii_book_man_tou_name" #头
+	culture="xianbei"
+	faith="xianbei_polytheism"
+	diplomacy="8"
+	martial="4"
+	stewardship="8"
+	intrigue="8"
+	learning="4"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	28.7.1={
+		birth=yes
+	}
+	93.7.1={
+		death=yes
+	}
+}
+
+##### 【丘伦】
+qiu_lun={
+	name="uuii_book_qiu_lun_name" #伦
+	culture="xianbei"
+	faith="xianbei_polytheism"
+	diplomacy="7"
+	martial="9"
+	stewardship="8"
+	intrigue="5"
+	learning="4"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	79.7.1={
+		birth=yes
+	}
+	144.7.1={
+		death=yes
+	}
+}

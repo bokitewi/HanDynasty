@@ -1,0 +1,3 @@
+# Unsupported regional triggers disabled; public keys remain stable.
+
+tgp_korea_single_heir_succession_override_trigger = { always = no }

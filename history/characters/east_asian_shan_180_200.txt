@@ -1,0 +1,225 @@
+﻿# Generated from 華陽國志、三國志、三國演義、後漢書 and 漢晉春秋.
+# Culture: shan
+# Time partition: 180_200 (death >= 180 and birth <= 200).
+# No title history is assigned. Dates marked in the evidence audit may be estimates.
+
+##### 【孟发】
+meng_fa={
+	name="uuii_book_meng_fa_name" #发
+	dynasty_house="house_176040003001013"
+	culture="shan"
+	faith="theravada"
+	diplomacy="5"
+	martial="8"
+	stewardship="5"
+	intrigue="8"
+	learning="6"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	158.7.1={
+		birth=yes
+	}
+	228.7.1={
+		death=yes
+	}
+}
+
+##### 【丁奎】
+ding_kui={
+	name="uuii_book_ding_kui_name" #奎
+	dynasty_house="house_176040004001013"
+	culture="shan"
+	faith="theravada"
+	diplomacy="7"
+	martial="7"
+	stewardship="6"
+	intrigue="8"
+	learning="4"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	166.7.1={
+		birth=yes
+	}
+	234.7.1={
+		death=yes
+	}
+}
+
+##### 【班达诺卡奇】
+ban_da_nuo_ka_qi={
+	name="uuii_book_ban_da_nuo_ka_qi_name" #达诺卡奇
+	dynasty_house="house_176040005001013"
+	culture="shan"
+	faith="theravada"
+	diplomacy="8"
+	martial="6"
+	stewardship="5"
+	intrigue="5"
+	learning="9"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	163.7.1={
+		birth=yes
+	}
+	238.7.1={
+		death=yes
+	}
+}
+
+##### 【吴丁旺】
+wu_ding_wang={
+	name="uuii_book_wu_ding_wang_name" #丁旺
+	dynasty_house="house_176040006001013"
+	culture="shan"
+	faith="theravada"
+	diplomacy="6"
+	martial="6"
+	stewardship="9"
+	intrigue="8"
+	learning="6"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	161.7.1={
+		birth=yes
+	}
+	235.7.1={
+		death=yes
+	}
+}
+
+##### 【薛嘉兴】
+xue_jia_xing={
+	name="uuii_book_xue_jia_xing_name" #嘉兴
+	dynasty_house="house_176040007001013"
+	culture="shan"
+	faith="theravada"
+	diplomacy="7"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="4"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	162.7.1={
+		birth=yes
+	}
+	236.7.1={
+		death=yes
+	}
+}
+
+##### 【翁山凯特】
+weng_shan_kai_te={
+	name="uuii_book_weng_shan_kai_te_name" #山凯特
+	dynasty_house="house_176040008001013"
+	culture="shan"
+	faith="theravada"
+	diplomacy="6"
+	martial="8"
+	stewardship="9"
+	intrigue="5"
+	learning="5"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	160.7.1={
+		birth=yes
+	}
+	235.7.1={
+		death=yes
+	}
+}
+
+##### 【昂山素清】
+ang_shan_su_qing={
+	name="uuii_book_ang_shan_su_qing_name" #山素清
+	dynasty_house="house_176040009001013"
+	culture="shan"
+	faith="theravada"
+	diplomacy="6"
+	martial="6"
+	stewardship="8"
+	intrigue="9"
+	learning="6"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	157.7.1={
+		birth=yes
+	}
+	228.7.1={
+		death=yes
+	}
+}
+
+##### 【张光宪】
+zhang_guang_xian={
+	name="uuii_book_zhang_guang_xian_name" #光宪
+	dynasty_house="house_176040010001013"
+	culture="shan"
+	faith="theravada"
+	diplomacy="7"
+	martial="8"
+	stewardship="6"
+	intrigue="8"
+	learning="4"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	163.7.1={
+		birth=yes
+	}
+	241.7.1={
+		death=yes
+	}
+}
+
+##### 【雍玛展】
+yong_ma_zhan={
+	name="uuii_book_yong_ma_zhan_name" #玛展
+	dynasty_house="house_176040022001013"
+	father="yong_bo_dao_pa_ye"
+	culture="shan"
+	faith="theravada"
+	diplomacy="6"
+	martial="7"
+	stewardship="8"
+	intrigue="7"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	165.7.1={
+		birth=yes
+	}
+	234.7.1={
+		death=yes
+	}
+}
+
+##### 【顶兑敏伽那】
+ding_dui_min_ga_na={
+	name="uuii_book_ding_dui_min_ga_na_name" #兑敏伽那
+	dynasty_house="house_176040023001013"
+	culture="shan"
+	faith="theravada"
+	diplomacy="7"
+	martial="8"
+	stewardship="4"
+	intrigue="5"
+	learning="8"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	167.7.1={
+		birth=yes
+	}
+	232.7.1={
+		death=yes
+	}
+}

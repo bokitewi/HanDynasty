@@ -1,0 +1,36 @@
+# Unsupported vanilla regional decisions are disabled for the total conversion.
+
+favour_skilled_outsiders_decision = {
+	is_shown = { always = no }
+	is_valid = { always = no }
+	effect = { }
+	ai_potential = { always = no }
+}
+
+fp3_become_clan_government_decision = {
+	is_shown = { always = no }
+	is_valid = { always = no }
+	effect = { }
+	ai_potential = { always = no }
+}
+
+struggle_persia_ending_assertion_decision = {
+	is_shown = { always = no }
+	is_valid = { always = no }
+	effect = { }
+	ai_potential = { always = no }
+}
+
+struggle_persia_ending_foundation_decision = {
+	is_shown = { always = no }
+	is_valid = { always = no }
+	effect = { }
+	ai_potential = { always = no }
+}
+
+struggle_persia_ending_rekindle_iran_decision = {
+	is_shown = { always = no }
+	is_valid = { always = no }
+	effect = { }
+	ai_potential = { always = no }
+}

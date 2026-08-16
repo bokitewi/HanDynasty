@@ -1,0 +1,9 @@
+﻿# HanDyansty owns common/culture/creation_names.
+#
+# Vanilla creation-name entries are intentionally excluded because this mod
+# replaces common/landed_titles with the Han-Jin map. The vanilla entries
+# reference out-of-map titles and can enter invalid title/primary-title scopes.
+#
+# No project-specific entries are defined in the first fallback-only pass.
+# Culture creation, hybridization, and divergence remain enabled; when no
+# project-specific name is available, CK3 uses its generic name formats.

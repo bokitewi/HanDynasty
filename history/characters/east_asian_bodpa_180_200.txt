@@ -1,0 +1,422 @@
+﻿# Generated from 華陽國志、三國志、三國演義、後漢書 and 漢晉春秋.
+# Culture: bodpa
+# Time partition: 180_200 (death >= 180 and birth <= 200).
+# No title history is assigned. Dates marked in the evidence audit may be estimates.
+
+##### 【工杰噶波敦巴】
+gong_jie_ga_bo_dun_ba={
+	name="uuii_book_gong_jie_ga_bo_dun_ba_name" #杰噶波敦巴
+	dynasty_house="house_114010001001013"
+	culture="bodpa"
+	faith="old_bon"
+	diplomacy="8"
+	martial="8"
+	stewardship="8"
+	intrigue="4"
+	learning="8"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=no
+	162.7.1={
+		birth=yes
+	}
+	231.7.1={
+		death=yes
+	}
+}
+
+##### 【喀尔聂赤】
+ka_er_nie_chi={
+	name="uuii_book_ka_er_nie_chi_name" #尔聂赤
+	dynasty_house="house_114010002001013"
+	culture="bodpa"
+	faith="old_bon"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="5"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	165.7.1={
+		birth=yes
+	}
+	234.7.1={
+		death=yes
+	}
+}
+
+##### 【帕珠嘎玛】
+pa_zhu_ga_ma={
+	name="uuii_book_pa_zhu_ga_ma_name" #珠嘎玛
+	dynasty_house="house_114010003001013"
+	culture="bodpa"
+	faith="old_bon"
+	diplomacy="5"
+	martial="5"
+	stewardship="7"
+	intrigue="8"
+	learning="8"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	157.7.1={
+		birth=yes
+	}
+	222.7.1={
+		death=yes
+	}
+}
+
+##### 【琛阿木达孜】
+chen_a_mu_da_zi={
+	name="uuii_book_chen_a_mu_da_zi_name" #阿木达孜
+	dynasty_house="house_114010004001013"
+	culture="bodpa"
+	faith="old_bon"
+	diplomacy="6"
+	martial="5"
+	stewardship="5"
+	intrigue="9"
+	learning="8"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	160.7.1={
+		birth=yes
+	}
+	236.7.1={
+		death=yes
+	}
+}
+
+##### 【悉勃野囊日】
+xi_bo_ye_nang_ri={
+	name="uuii_book_xi_bo_ye_nang_ri_name" #勃野囊日
+	dynasty_house="house_114010005001013"
+	culture="bodpa"
+	faith="old_bon"
+	diplomacy="5"
+	martial="7"
+	stewardship="8"
+	intrigue="8"
+	learning="5"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	159.7.1={
+		birth=yes
+	}
+	232.7.1={
+		death=yes
+	}
+}
+
+##### 【娘阿木达孜】
+niang_a_mu_da_zi={
+	name="uuii_book_niang_a_mu_da_zi_name" #阿木达孜
+	dynasty_house="house_114010006001013"
+	culture="bodpa"
+	faith="old_bon"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="8"
+	learning="5"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	160.7.1={
+		birth=yes
+	}
+	230.7.1={
+		death=yes
+	}
+}
+
+##### 【韦尼玛】
+wei_ni_ma={
+	name="uuii_book_wei_ni_ma_name" #尼玛
+	dynasty_house="house_114010007001013"
+	culture="bodpa"
+	faith="old_bon"
+	diplomacy="8"
+	martial="9"
+	stewardship="6"
+	intrigue="5"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	158.7.1={
+		birth=yes
+	}
+	229.7.1={
+		death=yes
+	}
+}
+
+##### 【嫩达娃】
+nen_da_wa={
+	name="uuii_book_nen_da_wa_name" #达娃
+	dynasty_house="house_114010008001013"
+	culture="bodpa"
+	faith="old_bon"
+	diplomacy="7"
+	martial="5"
+	stewardship="7"
+	intrigue="5"
+	learning="8"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	156.7.1={
+		birth=yes
+	}
+	228.7.1={
+		death=yes
+	}
+}
+
+##### 【迤北仓木】
+yi_bei_cang_mu={
+	name="uuii_book_yi_bei_cang_mu_name" #北仓木
+	dynasty_house="house_114010009001013"
+	culture="bodpa"
+	faith="old_bon"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	166.7.1={
+		birth=yes
+	}
+	234.7.1={
+		death=yes
+	}
+}
+
+##### 【侧绷布赤】
+ce_beng_bu_chi={
+	name="uuii_book_ce_beng_bu_chi_name" #绷布赤
+	dynasty_house="house_114010010001013"
+	culture="bodpa"
+	faith="old_bon"
+	diplomacy="8"
+	martial="6"
+	stewardship="9"
+	intrigue="6"
+	learning="6"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	166.7.1={
+		birth=yes
+	}
+	234.7.1={
+		death=yes
+	}
+}
+
+##### 【昆芒松】
+kun_mang_song={
+	name="uuii_book_kun_mang_song_name" #芒松
+	dynasty_house="house_114010011001013"
+	culture="bodpa"
+	faith="old_bon"
+	diplomacy="8"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="4"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	158.7.1={
+		birth=yes
+	}
+	229.7.1={
+		death=yes
+	}
+}
+
+##### 【宗喀普回】
+zong_ka_pu_hui={
+	name="uuii_book_zong_ka_pu_hui_name" #喀普回
+	dynasty_house="house_114010012001013"
+	culture="bodpa"
+	faith="old_bon"
+	diplomacy="6"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	162.7.1={
+		birth=yes
+	}
+	229.7.1={
+		death=yes
+	}
+}
+
+##### 【克珠杰摩哆】
+ke_zhu_jie_mo_duo={
+	name="uuii_book_ke_zhu_jie_mo_duo_name" #珠杰摩哆
+	dynasty_house="house_114010013001013"
+	culture="bodpa"
+	faith="old_bon"
+	diplomacy="6"
+	martial="5"
+	stewardship="5"
+	intrigue="5"
+	learning="6"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	161.7.1={
+		birth=yes
+	}
+	241.7.1={
+		death=yes
+	}
+}
+
+##### 【没庐克钦】
+mei_lu_ke_qin={
+	name="uuii_book_mei_lu_ke_qin_name" #庐克钦
+	dynasty_house="house_114010014001013"
+	culture="bodpa"
+	faith="old_bon"
+	diplomacy="6"
+	martial="5"
+	stewardship="8"
+	intrigue="8"
+	learning="8"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	163.7.1={
+		birth=yes
+	}
+	236.7.1={
+		death=yes
+	}
+}
+
+##### 【蔡邦达尔巴】
+cai_bang_da_er_ba={
+	name="uuii_book_cai_bang_da_er_ba_name" #邦达尔巴
+	dynasty_house="house_114010015001013"
+	culture="bodpa"
+	faith="old_bon"
+	diplomacy="5"
+	martial="7"
+	stewardship="9"
+	intrigue="5"
+	learning="5"
+	prowess="9"
+	health=5.5
+	disallow_random_traits=no
+	160.7.1={
+		birth=yes
+	}
+	234.7.1={
+		death=yes
+	}
+}
+
+##### 【纳囊芒布】
+na_nang_mang_bu={
+	name="uuii_book_na_nang_mang_bu_name" #囊芒布
+	dynasty_house="house_114010016001013"
+	culture="bodpa"
+	faith="old_bon"
+	diplomacy="6"
+	martial="7"
+	stewardship="8"
+	intrigue="6"
+	learning="5"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	159.7.1={
+		birth=yes
+	}
+	233.7.1={
+		death=yes
+	}
+}
+
+##### 【恩兰达嘎】
+en_lan_da_ga={
+	name="uuii_book_en_lan_da_ga_name" #兰达嘎
+	dynasty_house="house_114010017001013"
+	culture="bodpa"
+	faith="old_bon"
+	diplomacy="6"
+	martial="5"
+	stewardship="7"
+	intrigue="6"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	161.7.1={
+		birth=yes
+	}
+	232.7.1={
+		death=yes
+	}
+}
+
+##### 【卓萨尚赞】
+zhuo_sa_shang_zan={
+	name="uuii_book_zhuo_sa_shang_zan_name" #萨尚赞
+	dynasty_house="house_114010018001013"
+	culture="bodpa"
+	faith="old_bon"
+	diplomacy="5"
+	martial="5"
+	stewardship="8"
+	intrigue="8"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	163.7.1={
+		birth=yes
+	}
+	243.7.1={
+		death=yes
+	}
+}
+
+##### 【嘉让仁青】
+jia_rang_ren_qing={
+	name="uuii_book_jia_rang_ren_qing_name" #让仁青
+	dynasty_house="house_114010023001013"
+	culture="bodpa"
+	faith="old_bon"
+	diplomacy="6"
+	martial="8"
+	stewardship="6"
+	intrigue="6"
+	learning="9"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	165.7.1={
+		birth=yes
+	}
+	238.7.1={
+		death=yes
+	}
+}

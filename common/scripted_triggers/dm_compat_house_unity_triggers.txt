@@ -1,0 +1,6 @@
+﻿# Character scope. Keep House Unity compatibility separate from clan-only mechanics.
+dm_compat_uses_house_unity_trigger = {
+	OR = {
+		government_has_flag = government_is_clan
+	}
+}

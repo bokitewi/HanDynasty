@@ -1,0 +1,16 @@
+namespace = tgp_faction_events
+
+# UUII has no playable Japanese or Mandala realm. Keep stable event IDs for
+# references inherited from the engine, but prevent the out-of-map faction
+# chains from constructing regencies, wars, or administrative domiciles.
+tgp_faction_events.0101 = { type = character_event hidden = yes trigger = { always = no } }
+tgp_faction_events.0102 = { type = character_event hidden = yes trigger = { always = no } }
+tgp_faction_events.0103 = { type = character_event hidden = yes trigger = { always = no } }
+tgp_faction_events.0104 = { type = character_event hidden = yes trigger = { always = no } }
+tgp_faction_events.0105 = { type = character_event hidden = yes trigger = { always = no } }
+tgp_faction_events.0201 = { type = character_event hidden = yes trigger = { always = no } }
+tgp_faction_events.0202 = { type = character_event hidden = yes trigger = { always = no } }
+tgp_faction_events.0203 = { type = character_event hidden = yes trigger = { always = no } }
+tgp_faction_events.0204 = { type = character_event hidden = yes trigger = { always = no } }
+tgp_faction_events.0205 = { type = character_event hidden = yes trigger = { always = no } }
+tgp_faction_events.0206 = { type = character_event hidden = yes trigger = { always = no } }

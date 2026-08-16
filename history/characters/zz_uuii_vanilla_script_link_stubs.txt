@@ -1,0 +1,3890 @@
+﻿# Minimal dead compatibility characters for vanilla/DLC script links.
+
+easteregg_joe_parkin = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+41702 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+107590 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+466517 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+34281 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+215009 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+6878 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+japanese_minamoto_seiwa_10 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+easteregg_alessandro_bragalini = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+159137 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+109607 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+easteregg_daan_broekhof = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+33922 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+120 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+90028 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+112 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+124 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+140 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+dynamic_mongol_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+dynamic_mongol_2 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+223523 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+animation_test_female_pregnant = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+83355 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+1128 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+easteregg_henry_of_skalitz = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+easteregg_henry_kobyla = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+easteregg_henry_kobyla_late = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+3924 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+7757 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+125501 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+214000 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+mpo_mongol_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+122 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+33911 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+205072 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+6392 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+easteregg_veronica_pazos = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+90107 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+3096 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+andalusian_0003 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+74025 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+33358 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+7627 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+251187 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+251180 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+251181 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+bookmark_huang_chao = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+223522 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+223541 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+tangut_liang_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+206651 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+st_amand_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+231000 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+214 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+364 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+208 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+40905 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+40376 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+additional_fatimids_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+110550 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+110514 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+106520 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+368 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+100530 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+100529 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+476 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+637 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+9957 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+9956 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+3040 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+3050 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+1732 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+1736 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+205730 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+204510 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+144056 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+144052 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+215530 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+215531 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+204500 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+204508 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+209503 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+209510 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+188912 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+188909 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+viet_ly_2 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+viet_to_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+1700 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+1316 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+906 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+922 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+108501 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+107500 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+107501 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+108500 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+109500 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+163108 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+163110 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+163111 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+163112 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+163119 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+6448 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+522 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+40605 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+73683 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+90160 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+71391 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+castilian0248 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+castilian0249 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+norman_crispin_06 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+3046 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+232504 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+danishmendid_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+japanese_yamato_181 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+japanese_lowborn_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+japanese_lowborn_2 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+japanese_lowborn_3 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+ding_hui_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+zhu_quanzhong_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+japanese_miyoshi_4 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+ki_hwon_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+toson_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+ly_do_doc_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+song_jiang_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+yang_zongbao_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+furong_daokai_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+jojin_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+isawa_no_saburo_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+tsukushi_no_koretaka_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+kim_mu_che_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+baekho_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+khong_lo_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+nga_yamankan_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+mpu_bharada_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+wang_chuyi_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+jiang_kui_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+lembong_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+zhu_zhongba_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+quach_boc_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+il_eom_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+gochi_in_no_tajima_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+shin_capata_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+japanese_minamoto_seiwa_139 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+japanese_musashibo_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+japanese_ise_2_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+japanese_minamoto_seiwa_207 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+japanese_taira_kanmu_34 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+japanese_fujiwara_511 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+japanese_fujiwara_497 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+japanese_yamato_51 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+144133 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+144141 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+175080 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+226000 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+144000 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+159835 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+82233 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+159058 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+168345 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+303250 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+7255 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+180637 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+180645 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+188637 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+163109 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+168130 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+99 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+han_30000 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+japanese_yamato_54 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_mogyers_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+34872 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+188834 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+188852 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_karluks_16 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_karluks_18 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+74031 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_turkish_5 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_turkish_7 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_turkish_9 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_turkish_10 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_turkish_11 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_turkish_13 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_turkish_31 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_turkish_33 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_turkish_34 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_turkish_8 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_turkish_12 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_turkish_32 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+180236 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+159128 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+160111 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+160112 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+6860 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+6834 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+302238 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+302235 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+159708 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+302276 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+163118 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_khazars_11 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_khazars_12 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_khazars_14 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_pechenegs_2 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_pechenegs_10 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_alans_3 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+303238 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+302426 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+303104 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+303009 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+303288 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+303295 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+303308 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+302958 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+302952 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+303301 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+303220 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+303189 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+303180 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+302995 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+303255 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+303123 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kirghiz_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kirghiz_2 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_uriankhais_11 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_uriankhais_12 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_buryats_2 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_buryats_3 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_buryats_7 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kirghiz_12 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kirghiz_13 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kirghiz_14 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kirghiz_16 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kirghiz_18 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kirghiz_19 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_laktans_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_ostyaks_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_ostyaks_2 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_ostyaks_3 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_naimans_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kirghiz_15 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_uriankhais_13 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kirghiz_3 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kirghiz_4 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kirghiz_11 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_mongols_11 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_keraits_5 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_mongols_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_mongols_10 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_naimans_12 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_mongols_12 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+balhae_dae_12 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+jurchen_tieli_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+jurchen_odoli_01_fic = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+jurchen_tuowen_01_fic = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+mohe_funie_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+mohe_yuexi_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+mohe_yulou_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+mohe_suhemo_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+mohe_a_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+194333 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+303309 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+303226 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_naimans_4 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_naimans_5 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_naimans_11 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+303013 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+303083 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+303296 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+303062 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_uriankhais_2 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_uriankhais_4 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_mongols_2 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_mongols_7 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_mongols_8 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+ruzhe_8 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+nn_yelu_zongyuan = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+303303 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+303314 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+303267 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+303289 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+303131 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+nn_yelu_tieli_LUF = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+nn_xiao_yangliu = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+balhae_go_8 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+jurchen_wanyan_6 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+jurchen_jiagu_10_fic = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+jurchen_adian_10_fic = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+jurchen_tangkuo_10_fic = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+jurchen_nipanggu_10_fic = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+jurchen_tudan_10_fic = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+jurchen_yulou_8 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+jurchen_yuexi_8 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+jurchen_hesheli_10_fic = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+jurchen_boli_10_fic = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+jurchen_boli_11_fic = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+jurchen_boli_12_fic = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_uriankhais_10 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_uriankhais_3 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_mongols_9 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_uriankhais_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_oirats_2 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_buryats_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+144107 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_karluks_12 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_karluks_15 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+302790 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+188843 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+3022 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_karluks_5 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+188844 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_karluks_11 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+20641 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_pechenegs_8 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_pechenegs_9 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+806 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+302765 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+302584 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+302575 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+302596 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+302621 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+302762 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+228058 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+194447 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kimeks_14 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kimeks_18 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kimeks_19 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kimeks_21 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kimeks_23 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kimeks_25 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kimeks_27 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kimeks_28 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_turkish_16 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_turkish_17 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_turkish_18 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_turkish_19 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_turkish_20 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_cumans_15 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_cumans_16 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kipchaks_4 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kipchaks_28 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kipchaks_7 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kipchaks_27 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kimeks_24 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kimeks_54 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kimeks_26 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kimeks_22 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kimeks_30 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kimeks_53 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kipchaks_11 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kimeks_29 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kipchaks_9 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kimeks_13 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kimeks_17 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_bashkirs_7 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_ostyaks_4 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kipchaks_10 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kipchaks_25 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_turkish_27 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_turkish_15 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_turkish_28 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+303046 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_uriankhais_14 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+jurchen_yalu_10_fic = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+163103 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+228030 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+302579 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+302606 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+302627 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+302782 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kipchaks_16 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kipchaks_17 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kimeks_34 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kimeks_35 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kimeks_42 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_cumans_9 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_cumans_10 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_cumans_11 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_cumans_12 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_cumans_13 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_cumans_14 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kipchaks_13 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kipchaks_14 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kipchaks_19 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kipchaks_20 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_bolghars_7 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_khazars_9 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_turkish_21 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kipchaks_15 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kipchaks_21 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kimeks_51 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kipchaks_18 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kimeks_32 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kimeks_41 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kimeks_33 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kimeks_37 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kimeks_38 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kimeks_39 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kimeks_40 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+144122 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+302983 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+188855 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+karakhanid_4 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_karluks_7 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_karluks_8 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_karluks_22 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kimeks_48 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kimeks_52 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kipchaks_22 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+naiman_guchugud_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_naimans_6 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_naimans_7 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_naimans_8 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_naimans_9 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kimeks_44 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kimeks_45 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kimeks_46 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kimeks_49 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kimeks_50 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+303249 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_kirghiz_28 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+303211 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_keraits_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_keraits_2 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+303019 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+303022 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_oirats_1 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+303142 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+fictional_mongols_5 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+jurchen_wanyan_14 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+jurchen_yulou_12 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+jurchen_yuexi_11 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+mohe_molihewen_20_fic = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+mohe_choripi_20_fic = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+mohe_wuguihai_20_fic = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+mohe_heishuiyang_20_fic = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+mohe_beihean_20_fic = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+mohe_vanda_20_fic = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+mohe_nimen_20_fic = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+34014 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+41505 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+163115 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+31720 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+184026 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+303450 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+303449 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+303447 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+303448 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+145120 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+184001 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+168582 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+45016 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+3900 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+3212 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+110500 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+3934 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+3938 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+20572 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+202999 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+201510 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+221735 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+31729 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+218500 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+223750 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+1282 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+70512 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+70523 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+7893 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+190171 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+6394 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+6396 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+90095 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+71901 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+167969 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+167970 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+167971 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+167972 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+167973 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+7727 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+7728 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+7729 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+6018 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+30227 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+163064 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+33350 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+114 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+
+viet_ly_10 = {
+	name = "uuii_compatibility_character"
+	culture = han
+	faith = mahayana
+	500.1.1 = { birth = yes }
+	501.1.1 = { death = yes }
+}
+

@@ -1,0 +1,2547 @@
+# WUMING_MOUNT
+2520 = {
+	holding = none
+}
+# PROVINCE_6557
+6485 = {
+	holding = none
+}
+# WUMING_MOUNT
+2490 = {
+	holding = none
+}
+# PROVINCE_3542
+3535 = {
+	holding = none
+}
+# PROVINCE_4009
+4002 = {
+	holding = none
+}
+# WUMING_MOUNT
+2489 = {
+	holding = none
+}
+# YICHENG5
+4016 = {
+	holding = none
+}
+# PROVINCE_3517
+3511 = {
+	holding = none
+}
+# river_heshui
+2480 = {
+	holding = none
+}
+# PROVINCE_4033
+4026 = {
+	holding = none
+}
+# PROVINCE_4077
+4070 = {
+	holding = none
+}
+# sea_bohai_bay_160
+4706 = {
+	holding = none
+}
+# PROVINCE_4099
+4091 = {
+	holding = none
+}
+# ZHIFU
+4102 = {
+	holding = none
+}
+# PROVINCE_4111
+4103 = {
+	holding = none
+}
+# PROVINCE_4137
+4129 = {
+	holding = none
+}
+# PROVINCE_4157
+4149 = {
+	holding = none
+}
+# PROVINCE_4174
+4166 = {
+	holding = none
+}
+# WUMING_MOUNT
+2627 = {
+	holding = none
+}
+# WUMING_MOUNT
+2626 = {
+	holding = none
+}
+# PROVINCE_6567
+6495 = {
+	holding = none
+}
+# PROVINCE_4208
+4200 = {
+	holding = none
+}
+# PROVINCE_4228
+4220 = {
+	holding = none
+}
+# PROVINCE_5925
+5876 = {
+	holding = none
+}
+# PROVINCE_4236
+4228 = {
+	holding = none
+}
+# PROVINCE_4248
+4240 = {
+	holding = none
+}
+# PROVINCE_4296
+4287 = {
+	holding = none
+}
+# PROVINCE_4320
+4311 = {
+	holding = none
+}
+# WUMING_MOUNT
+2642 = {
+	holding = none
+}
+# PROVINCE_4321
+4312 = {
+	holding = none
+}
+# PROVINCE_4334
+4325 = {
+	holding = none
+}
+# PROVINCE_4339
+4330 = {
+	holding = none
+}
+# PROVINCE_5662
+5622 = {
+	holding = none
+}
+# PROVINCE_4341
+4332 = {
+	holding = none
+}
+# WUMING_MOUNT
+2625 = {
+	holding = none
+}
+# WUMING_MOUNT
+3624 = {
+	holding = none
+}
+# PROVINCE_4372
+4363 = {
+	holding = none
+}
+# PROVINCE_4386
+4377 = {
+	holding = none
+}
+# PROVINCE_4401
+4392 = {
+	holding = none
+}
+# WUMING_MOUNT
+2624 = {
+	holding = none
+}
+# PROVINCE_4404
+4395 = {
+	holding = none
+}
+# PROVINCE_4406
+4397 = {
+	holding = none
+}
+# PROVINCE_4408
+4399 = {
+	holding = none
+}
+# PROVINCE_4469
+4460 = {
+	holding = none
+}
+# HEHEJUN
+4476 = {
+	holding = none
+}
+# YIHU
+4486 = {
+	holding = none
+}
+# PROVINCE_6960
+6866 = {
+	holding = none
+}
+# PROVINCE_6961
+6867 = {
+	holding = none
+}
+# PROVINCE_6962
+6868 = {
+	holding = none
+}
+# LIUHU
+4489 = {
+	holding = none
+}
+# TIANCHI
+4501 = {
+	culture = yelang
+	holding = none
+}
+# PROVINCE_4513
+4504 = {
+	holding = none
+}
+# river_jishui
+2436 = {
+	holding = none
+}
+# sea_bohai_bay_137
+4683 = {
+	holding = none
+}
+# PROVINCE_6342
+6282 = {
+	culture = nanyue
+	holding = none
+}
+# lake_leixiaze
+2433 = {
+	holding = none
+}
+# river_hangou
+2429 = {
+	holding = none
+}
+# TAO2
+2276 = {
+	holding = none
+}
+# sea_bohai_bay_95
+4641 = {
+	holding = none
+}
+# PROVINCE_7219
+2665 = {
+	holding = none
+}
+# sea_bohai_bay_94
+4640 = {
+	holding = none
+}
+# PROVINCE_5466
+5436 = {
+	holding = none
+}
+# PROVINCE_2427
+2424 = {
+	holding = none
+}
+# lake_zhaoyuqize
+2459 = {
+	holding = none
+}
+# PROVINCE_2425
+2422 = {
+	holding = none
+}
+# PROVINCE_2996
+2990 = {
+	holding = none
+}
+# PROVINCE_2423
+2420 = {
+	holding = none
+}
+# sea_bohai_bay_93
+4639 = {
+	holding = none
+}
+# sea_bohai_bay_92
+4638 = {
+	holding = none
+}
+# sea_bohai_bay_91
+4637 = {
+	holding = none
+}
+# sea_bohai_bay_90
+4636 = {
+	holding = none
+}
+# PROVINCE_2422
+2419 = {
+	holding = none
+}
+# LINLE_MOUNT
+2418 = {
+	holding = none
+}
+# PROVINCE_6417
+6350 = {
+	culture = wuling
+	holding = none
+}
+# JU_MOUNT
+2417 = {
+	holding = none
+}
+# AO_MOUNT
+2416 = {
+	holding = none
+}
+# TAI_MOUNT
+2415 = {
+	holding = none
+}
+# sea_bohai_bay_89
+4635 = {
+	holding = none
+}
+# PROVINCE_6992
+6898 = {
+	culture = shanyue
+	holding = none
+}
+# YUAN_MOUNT
+2414 = {
+	holding = none
+}
+# sea_bohai_bay_88
+4634 = {
+	holding = none
+}
+# WUMING_MOUNT
+2623 = {
+	holding = none
+}
+# LIANGFU_MOUNT
+2413 = {
+	holding = none
+}
+# MOU_MOUNT
+2412 = {
+	holding = none
+}
+# sea_bohai_bay_87
+4633 = {
+	holding = none
+}
+# sea_bohai_bay_86
+4632 = {
+	holding = none
+}
+# PROVINCE_7000
+6906 = {
+	holding = none
+}
+# sea_bohai_bay_85
+4631 = {
+	holding = none
+}
+# PROVINCE_7218
+2411 = {
+	holding = none
+}
+# WULIANG_MOUNT
+2410 = {
+	holding = none
+}
+# sea_bohai_bay_84
+4630 = {
+	holding = none
+}
+# GU_MOUNT
+2409 = {
+	holding = none
+}
+# FENG_MOUNT
+2408 = {
+	holding = none
+}
+# SHIGAO_MOUNT
+2407 = {
+	holding = none
+}
+# PROVINCE_6421
+6354 = {
+	holding = none
+}
+# WUMING_MOUNT
+2622 = {
+	holding = none
+}
+# sea_bohai_bay_81
+4627 = {
+	holding = none
+}
+# NIU_MOUNT
+2406 = {
+	holding = none
+}
+# MENG_MOUNT
+2404 = {
+	holding = none
+}
+# sea_bohai_bay_80
+4626 = {
+	holding = none
+}
+# FUFU_MOUNT
+2403 = {
+	holding = none
+}
+# WEIZHIWUMING_MOUNT
+2666 = {
+	holding = none
+}
+# TIANSHI_MOUNT
+2399 = {
+	holding = none
+}
+# sea_bohai_bay_159
+4705 = {
+	holding = none
+}
+# PROVINCE_6050
+5997 = {
+	culture = shanyue
+	holding = none
+}
+# WUMING_MOUNT
+2451 = {
+	holding = none
+}
+# sea_bohai_bay_77
+4624 = {
+	holding = none
+}
+# sea_bohai_bay_76
+4623 = {
+	holding = none
+}
+# DUDAO
+2828 = {
+	holding = none
+}
+# PROVINCE_2828
+2825 = {
+	holding = none
+}
+# PROVINCE_7024
+6930 = {
+	holding = none
+}
+# WUMING_MOUNT
+2450 = {
+	holding = none
+}
+# PROVINCE_7026
+6932 = {
+	holding = none
+}
+# sea_bohai_bay_74
+4621 = {
+	holding = none
+}
+# WEIZHIWUMING_MOUNT
+2667 = {
+	holding = none
+}
+# PROVINCE_7275
+2823 = {
+	holding = none
+}
+# PROVINCE_2825
+2822 = {
+	holding = none
+}
+# PROVINCE_2949
+2944 = {
+	holding = none
+}
+# PROVINCE_2991
+2985 = {
+	holding = none
+}
+# sea_bohai_bay_73
+4620 = {
+	holding = none
+}
+# sea_bohai_bay_72
+4619 = {
+	holding = none
+}
+# sea_bohai_bay_71
+4618 = {
+	holding = none
+}
+# sea_bohai_bay_70
+4617 = {
+	holding = none
+}
+# HOUZHI
+2816 = {
+	holding = none
+}
+# PROVINCE_5581
+5547 = {
+	holding = none
+}
+# lake_juyeze
+2284 = {
+	holding = none
+}
+# PROVINCE_2901
+2897 = {
+	holding = none
+}
+# PROVINCE_7041
+6947 = {
+	holding = none
+}
+# PROVINCE_6100
+6044 = {
+	holding = none
+}
+# PROVINCE_7043
+6949 = {
+	holding = none
+}
+# sea_bohai_bay_69
+4616 = {
+	holding = none
+}
+# WUMING_MOUNT
+2783 = {
+	holding = none
+}
+# WUMING_MOUNT
+2782 = {
+	holding = none
+}
+# WUMING_MOUNT
+2781 = {
+	holding = none
+}
+# PROVINCE_2894
+2890 = {
+	holding = none
+}
+# river_jushui
+2449 = {
+	holding = none
+}
+# sea_bohai_bay_68
+4615 = {
+	holding = none
+}
+# PROVINCE_5948
+5899 = {
+	culture = shanyue
+	holding = none
+}
+# LVLIANG_MOUNT
+2285 = {
+	holding = none
+}
+# WUMING_MOUNT
+2780 = {
+	holding = none
+}
+# Mu_Us_Desert
+2778 = {
+	holding = none
+}
+# WUMING_MOUNT
+2737 = {
+	holding = none
+}
+# WUMING_MOUNT
+2679 = {
+	holding = none
+}
+# WUMING_MOUNT
+2621 = {
+	holding = none
+}
+# sea_bohai_bay_67
+4614 = {
+	holding = none
+}
+# PROVINCE_5520
+5487 = {
+	culture = shanyue
+	holding = none
+}
+# WUMING_MOUNT
+2736 = {
+	holding = none
+}
+# sea_bohai_bay_66
+4613 = {
+	holding = none
+}
+# sea_bohai_bay_65
+4612 = {
+	holding = none
+}
+# FAN_MOUNT
+2290 = {
+	holding = none
+}
+# WUMING_MOUNT
+2735 = {
+	holding = none
+}
+# WUMING_MOUNT
+2734 = {
+	holding = none
+}
+# WUMING_MOUNT
+2733 = {
+	holding = none
+}
+# sea_bohai_bay_64
+4611 = {
+	holding = none
+}
+# WUMING_MOUNT
+2732 = {
+	holding = none
+}
+# LI_MOUNT
+2447 = {
+	holding = none
+}
+# sea_bohai_bay_63
+4610 = {
+	holding = none
+}
+# WUMING_MOUNT
+2731 = {
+	holding = none
+}
+# sea_bohai_bay_62
+4609 = {
+	holding = none
+}
+# WUMING_MOUNT
+2730 = {
+	holding = none
+}
+# PROVINCE_7075
+6981 = {
+	holding = none
+}
+# PROVINCE_6178
+6121 = {
+	holding = none
+}
+# WUMING_MOUNT
+2729 = {
+	holding = none
+}
+# WUMING_MOUNT
+2728 = {
+	holding = none
+}
+# WUMING_MOUNT
+2726 = {
+	holding = none
+}
+# PROVINCE_5538
+5505 = {
+	holding = none
+}
+# sea_bohai_bay_61
+4608 = {
+	holding = none
+}
+# WUMING_MOUNT
+2725 = {
+	holding = none
+}
+# sea_bohai_bay_60
+4607 = {
+	holding = none
+}
+# WUMING_MOUNT
+2724 = {
+	holding = none
+}
+# WUMING_MOUNT
+2723 = {
+	holding = none
+}
+# river_langtangqu
+2336 = {
+	holding = none
+}
+# WUMING_MOUNT
+2722 = {
+	holding = none
+}
+# SHAOXING_MOUNT
+2446 = {
+	holding = none
+}
+# PROVINCE_7089
+6995 = {
+	holding = none
+}
+# sea_bohai_bay_59
+4606 = {
+	holding = none
+}
+# sea_bohai_bay_158
+4704 = {
+	holding = none
+}
+# lake_fengze
+2335 = {
+	holding = none
+}
+# sea_bohai_bay_58
+4605 = {
+	holding = none
+}
+# river_honggou
+2334 = {
+	holding = none
+}
+# river_huishui
+2333 = {
+	holding = none
+}
+# sea_bohai_bay_57
+4604 = {
+	holding = none
+}
+# PROVINCE_7097
+7003 = {
+	holding = none
+}
+# WUMING_MOUNT
+2697 = {
+	holding = none
+}
+# PROVINCE_6222
+6164 = {
+	culture = nanyue
+	holding = none
+}
+# WUMING_MOUNT
+2620 = {
+	holding = none
+}
+# WUMING_MOUNT
+2696 = {
+	holding = none
+}
+# WUMING_MOUNT
+2695 = {
+	holding = none
+}
+# sea_bohai_bay_56
+4603 = {
+	holding = none
+}
+# WUMING_MOUNT
+2619 = {
+	holding = none
+}
+# sea_bohai_bay_55
+4602 = {
+	holding = none
+}
+# sea_bohai_bay_54
+4601 = {
+	holding = none
+}
+# WUMING_MOUNT
+2694 = {
+	holding = none
+}
+# lake_kongze
+2316 = {
+	holding = none
+}
+# sea_bohai_bay_53
+4600 = {
+	holding = none
+}
+# WUMING_MOUNT
+2693 = {
+	holding = none
+}
+# sea_bohai_bay_52
+4599 = {
+	holding = none
+}
+# sea_bohai_bay_51
+4598 = {
+	holding = none
+}
+# sea_bohai_bay_50
+4597 = {
+	holding = none
+}
+# WUMING_MOUNT
+2692 = {
+	holding = none
+}
+# sea_bohai_bay_49
+4596 = {
+	holding = none
+}
+# WUMING_MOUNT
+2691 = {
+	holding = none
+}
+# PROVINCE_2957
+2952 = {
+	holding = none
+}
+# WAIFANG_MOUNT
+2445 = {
+	holding = none
+}
+# sea_bohai_bay_48
+4595 = {
+	holding = none
+}
+# WUMING_MOUNT
+2682 = {
+	holding = none
+}
+# sea_bohai_bay_47
+4594 = {
+	holding = none
+}
+# PROVINCE_7122
+7028 = {
+	holding = none
+}
+# TIEJIAO_MOUNT
+2302 = {
+	holding = none
+}
+# sea_bohai_bay_46
+4593 = {
+	holding = none
+}
+# sea_bohai_bay_45
+4592 = {
+	holding = none
+}
+# PANSHI_MOUNT
+2301 = {
+	holding = none
+}
+# WUMING_MOUNT
+2681 = {
+	holding = none
+}
+# WUMING_MOUNT
+4745 = {
+	holding = none
+}
+# WUMING_MOUNT
+4744 = {
+	holding = none
+}
+# sea_bohai_bay_44
+4591 = {
+	holding = none
+}
+# sea_bohai_bay_43
+4590 = {
+	holding = none
+}
+# PROVINCE_6608
+6535 = {
+	holding = none
+}
+# Desert
+4743 = {
+	holding = none
+}
+# sea_bohai_bay_42
+4589 = {
+	holding = none
+}
+# sea_bohai_bay_156
+4702 = {
+	holding = none
+}
+# sea_bohai_bay_41
+4588 = {
+	holding = none
+}
+# sea_bohai_bay_40
+4587 = {
+	holding = none
+}
+# PINGWANG
+2204 = {
+	holding = none
+}
+# sea_bohai_bay_39
+4586 = {
+	holding = none
+}
+# sea_bohai_bay_155
+4701 = {
+	holding = none
+}
+# sea_bohai_bay_38
+4585 = {
+	holding = none
+}
+# sea_bohai_bay_37
+4584 = {
+	holding = none
+}
+# PROVINCE_4592
+4583 = {
+	holding = none
+}
+# SONGYUE_MOUNT
+2444 = {
+	holding = none
+}
+# sea_bohai_bay_154
+4700 = {
+	holding = none
+}
+# sea_bohai_bay_35
+4582 = {
+	holding = none
+}
+# sea_bohai_bay_34
+4581 = {
+	holding = none
+}
+# PROVINCE_2864
+2860 = {
+	holding = none
+}
+# sea_bohai_bay_153
+4699 = {
+	holding = none
+}
+# PROVINCE_5708
+5666 = {
+	holding = none
+}
+# WUMING_MOUNT
+4742 = {
+	holding = none
+}
+# sea_bohai_bay_32
+4579 = {
+	holding = none
+}
+# sea_bohai_bay_31
+4578 = {
+	holding = none
+}
+# WUMING_MOUNT
+4741 = {
+	holding = none
+}
+# sea_bohai_bay_30
+4577 = {
+	holding = none
+}
+# sea_bohai_bay_29
+4576 = {
+	holding = none
+}
+# PROVINCE_5712
+5670 = {
+	holding = none
+}
+# WUMING_MOUNT
+2597 = {
+	holding = none
+}
+# WUMING_MOUNT
+2641 = {
+	holding = none
+}
+# WUMING_MOUNT
+4740 = {
+	holding = none
+}
+# PROVINCE_5576
+5542 = {
+	culture = shanyue
+	holding = none
+}
+# WUMING_MOUNT
+2594 = {
+	holding = none
+}
+# sea_bohai_bay_27
+4574 = {
+	holding = none
+}
+# sea_bohai_bay_157
+4703 = {
+	holding = none
+}
+# sea_bohai_bay_26
+4573 = {
+	holding = none
+}
+# sea_bohai_bay_25
+4572 = {
+	holding = none
+}
+# PROVINCE_6646
+6573 = {
+	holding = none
+}
+# WUMING_MOUNT
+2593 = {
+	holding = none
+}
+# WUMING_MOUNT
+2640 = {
+	holding = none
+}
+# WUMING_MOUNT
+4739 = {
+	holding = none
+}
+# sea_bohai_bay_24
+4571 = {
+	holding = none
+}
+# PROVINCE_7172
+7078 = {
+	holding = none
+}
+# sea_bohai_bay_23
+4570 = {
+	holding = none
+}
+# WUMING_MOUNT
+2592 = {
+	holding = none
+}
+# PROVINCE_2943
+2938 = {
+	holding = none
+}
+# WUMING_MOUNT
+2591 = {
+	holding = none
+}
+# WUMING_MOUNT
+2590 = {
+	holding = none
+}
+# WUMING_MOUNT
+2589 = {
+	holding = none
+}
+# sea_bohai_bay_22
+4569 = {
+	holding = none
+}
+# PROVINCE_7266
+2120 = {
+	holding = none
+}
+# WANNIAN
+4962 = {
+	culture = pulei
+	holding = none
+}
+# PROVINCE_7264
+2118 = {
+	holding = none
+}
+# sea_bohai_bay_21
+4568 = {
+	holding = none
+}
+# REN_MOUNT
+2293 = {
+	holding = none
+}
+# sea_bohai_bay_20
+4567 = {
+	holding = none
+}
+# sea_bohai_bay_152
+4698 = {
+	holding = none
+}
+# WUMING_MOUNT
+4738 = {
+	holding = none
+}
+# sea_bohai_bay_151
+4697 = {
+	holding = none
+}
+# sea_bohai_bay_19
+4566 = {
+	holding = none
+}
+# sea_bohai_bay_18
+4565 = {
+	holding = none
+}
+# WUMING_MOUNT
+2588 = {
+	holding = none
+}
+# sea_bohai_bay_150
+4696 = {
+	holding = none
+}
+# WUMING_MOUNT
+4737 = {
+	holding = none
+}
+# PROVINCE_5633
+5595 = {
+	holding = none
+}
+# sea_bohai_bay_17
+4564 = {
+	holding = none
+}
+# PROVINCE_7196
+7102 = {
+	holding = none
+}
+# sea_bohai_bay_16
+4563 = {
+	holding = none
+}
+# WUMING_MOUNT
+4736 = {
+	holding = none
+}
+# sea_bohai_bay_149
+4695 = {
+	holding = none
+}
+# river_heshui
+2441 = {
+	holding = none
+}
+# FUZI_MOUNT
+2294 = {
+	holding = none
+}
+# WUMING_MOUNT
+4735 = {
+	holding = none
+}
+# river_hanshui
+4734 = {
+	holding = none
+}
+# WUMING_MOUNT
+2587 = {
+	holding = none
+}
+# sea_bohai_bay_148
+4694 = {
+	holding = none
+}
+# sea_bohai_bay_15
+4562 = {
+	holding = none
+}
+# sea_bohai_bay_147
+4693 = {
+	holding = none
+}
+# PROVINCE_6687
+6611 = {
+	holding = none
+}
+# 1x
+7115 = {
+	holding = none
+}
+# 2x
+7116 = {
+	holding = none
+}
+# 3x
+7117 = {
+	holding = none
+}
+# province_7118
+7118 = {
+	holding = none
+}
+# province_7119
+7119 = {
+	holding = none
+}
+# province_7120
+7120 = {
+	holding = none
+}
+# province_7121
+7121 = {
+	holding = none
+}
+# province_7122
+7122 = {
+	holding = none
+}
+# province_7123
+7123 = {
+	holding = none
+}
+# province_7124
+7124 = {
+	holding = none
+}
+# province_7125
+7125 = {
+	holding = none
+}
+# province_7126
+7126 = {
+	holding = none
+}
+# province_7127
+7127 = {
+	holding = none
+}
+# province_7128
+7128 = {
+	holding = none
+}
+# province_7129
+7129 = {
+	holding = none
+}
+# province_7130
+7130 = {
+	holding = none
+}
+# province_7131
+7131 = {
+	holding = none
+}
+# province_7132
+7132 = {
+	holding = none
+}
+# province_7133
+7133 = {
+	holding = none
+}
+# province_7134
+7134 = {
+	holding = none
+}
+# province_7135
+7135 = {
+	holding = none
+}
+# province_7136
+7136 = {
+	holding = none
+}
+# province_7137
+7137 = {
+	holding = none
+}
+# province_7138
+7138 = {
+	holding = none
+}
+# province_7139
+7139 = {
+	holding = none
+}
+# province_7140
+7140 = {
+	holding = none
+}
+# province_7141
+7141 = {
+	holding = none
+}
+# province_7142
+7142 = {
+	holding = none
+}
+# province_7143
+7143 = {
+	holding = none
+}
+# province_7144
+7144 = {
+	holding = none
+}
+# province_7145
+7145 = {
+	holding = none
+}
+# province_7146
+7146 = {
+	holding = none
+}
+# province_7147
+7147 = {
+	holding = none
+}
+# province_7148
+7148 = {
+	holding = none
+}
+# province_7149
+7149 = {
+	holding = none
+}
+# province_7150
+7150 = {
+	holding = none
+}
+# province_7151
+7151 = {
+	holding = none
+}
+# province_7152
+7152 = {
+	holding = none
+}
+# province_7153
+7153 = {
+	holding = none
+}
+# province_7154
+7154 = {
+	holding = none
+}
+# province_7155
+7155 = {
+	holding = none
+}
+# province_7156
+7156 = {
+	holding = none
+}
+# province_7157
+7157 = {
+	holding = none
+}
+# province_7158
+7158 = {
+	holding = none
+}
+# province_7159
+7159 = {
+	holding = none
+}
+# province_7160
+7160 = {
+	holding = none
+}
+# province_7161
+7161 = {
+	holding = none
+}
+# province_7162
+7162 = {
+	holding = none
+}
+# province_7163
+7163 = {
+	holding = none
+}
+# province_7164
+7164 = {
+	holding = none
+}
+# province_7165
+7165 = {
+	holding = none
+}
+# province_7166
+7166 = {
+	holding = none
+}
+# province_7167
+7167 = {
+	holding = none
+}
+# province_7168
+7168 = {
+	holding = none
+}
+# province_7169
+7169 = {
+	holding = none
+}
+# province_7170
+7170 = {
+	holding = none
+}
+# province_7171
+7171 = {
+	holding = none
+}
+# province_7172
+7172 = {
+	holding = none
+}
+# province_7173
+7173 = {
+	holding = none
+}
+# province_7174
+7174 = {
+	holding = none
+}
+# province_7175
+7175 = {
+	holding = none
+}
+# province_7176
+7176 = {
+	holding = none
+}
+# province_7177
+7177 = {
+	holding = none
+}
+# province_7178
+7178 = {
+	holding = none
+}
+# province_7179
+7179 = {
+	holding = none
+}
+# province_7180
+7180 = {
+	holding = none
+}
+# province_7181
+7181 = {
+	holding = none
+}
+# province_7182
+7182 = {
+	holding = none
+}
+# province_7183
+7183 = {
+	holding = none
+}
+# province_7184
+7184 = {
+	holding = none
+}
+# province_7185
+7185 = {
+	holding = none
+}
+# province_7186
+7186 = {
+	holding = none
+}
+# province_7187
+7187 = {
+	holding = none
+}
+# province_7188
+7188 = {
+	holding = none
+}
+# province_7189
+7189 = {
+	holding = none
+}
+# province_7190
+7190 = {
+	holding = none
+}
+# province_7191
+7191 = {
+	holding = none
+}
+# province_7192
+7192 = {
+	holding = none
+}
+# province_7193
+7193 = {
+	holding = none
+}
+# province_7194
+7194 = {
+	holding = none
+}
+# province_7195
+7195 = {
+	holding = none
+}
+# province_7196
+7196 = {
+	holding = none
+}
+# province_7197
+7197 = {
+	holding = none
+}
+# province_7198
+7198 = {
+	holding = none
+}
+# province_7199
+7199 = {
+	holding = none
+}
+# province_7200
+7200 = {
+	holding = none
+}
+# province_7201
+7201 = {
+	holding = none
+}
+# province_7202
+7202 = {
+	holding = none
+}
+# province_7203
+7203 = {
+	holding = none
+}
+# province_7204
+7204 = {
+	holding = none
+}
+# province_7205
+7205 = {
+	holding = none
+}
+# province_7206
+7206 = {
+	holding = none
+}
+# province_7207
+7207 = {
+	holding = none
+}
+# province_7208
+7208 = {
+	holding = none
+}
+# province_7209
+7209 = {
+	holding = none
+}
+# province_7210
+7210 = {
+	holding = none
+}
+# province_7211
+7211 = {
+	holding = none
+}
+# province_7212
+7212 = {
+	holding = none
+}
+# province_7213
+7213 = {
+	holding = none
+}
+# province_7214
+7214 = {
+	holding = none
+}
+# province_7215
+7215 = {
+	holding = none
+}
+# province_7216
+7216 = {
+	holding = none
+}
+# province_7217
+7217 = {
+	holding = none
+}
+# province_7218
+7218 = {
+	holding = none
+}
+# province_7219
+7219 = {
+	holding = none
+}
+# province_7220
+7220 = {
+	holding = none
+}
+# province_7221
+7221 = {
+	holding = none
+}
+# province_7222
+7222 = {
+	holding = none
+}
+# province_7223
+7223 = {
+	holding = none
+}
+# province_7224
+7224 = {
+	holding = none
+}
+# province_7225
+7225 = {
+	holding = none
+}
+# province_7226
+7226 = {
+	holding = none
+}
+# province_7227
+7227 = {
+	holding = none
+}
+# province_7228
+7228 = {
+	holding = none
+}
+# province_7229
+7229 = {
+	holding = none
+}
+# province_7230
+7230 = {
+	holding = none
+}
+# province_7231
+7231 = {
+	holding = none
+}
+# province_7232
+7232 = {
+	holding = none
+}
+# province_7233
+7233 = {
+	holding = none
+}
+# province_7234
+7234 = {
+	holding = none
+}
+# province_7235
+7235 = {
+	holding = none
+}
+# WUMING_MOUNT
+2586 = {
+	holding = none
+}
+# province_7237
+7237 = {
+	holding = none
+}
+# province_7238
+7238 = {
+	holding = none
+}
+# province_7239
+7239 = {
+	holding = none
+}
+# province_7240
+7240 = {
+	holding = none
+}
+# province_7241
+7241 = {
+	holding = none
+}
+# province_7242
+7242 = {
+	holding = none
+}
+# lake_xiyangzi
+2222 = {
+	holding = none
+}
+# river_heshui
+4731 = {
+	holding = none
+}
+# river_heshui
+4730 = {
+	holding = none
+}
+# river_heshui
+4729 = {
+	holding = none
+}
+# sea_bohai_bay_146
+4692 = {
+	holding = none
+}
+# WUMING_MOUNT
+2585 = {
+	holding = none
+}
+# WUMING_MOUNT
+2639 = {
+	holding = none
+}
+# sea_bohai_bay_145
+4691 = {
+	holding = none
+}
+# sea_bohai_bay_144
+4690 = {
+	holding = none
+}
+# WUMING_MOUNT
+4728 = {
+	holding = none
+}
+# sea_bohai_bay_143
+4689 = {
+	holding = none
+}
+# WUMING_MOUNT
+2584 = {
+	holding = none
+}
+# WUMING_MOUNT
+4727 = {
+	holding = none
+}
+# WUMING_MOUNT
+2583 = {
+	holding = none
+}
+# river_jishui
+2186 = {
+	holding = none
+}
+# ANREN_RAOZHOU
+4952 = {
+	holding = none
+}
+# sea_bohai_bay_142
+4688 = {
+	holding = none
+}
+# WUMING_MOUNT
+2638 = {
+	holding = none
+}
+# PROVINCE_6722
+6644 = {
+	holding = none
+}
+# WUMING_MOUNT
+2582 = {
+	holding = none
+}
+# sea_bohai_bay_141
+4687 = {
+	holding = none
+}
+# YUSHAN_GUANGXIN
+4954 = {
+	holding = none
+}
+# sea_bohai_bay_140
+4686 = {
+	holding = none
+}
+# sea_bohai_bay_139
+4685 = {
+	holding = none
+}
+# sea_bohai_bay_175
+4721 = {
+	holding = none
+}
+# AN2
+2181 = {
+	holding = none
+}
+# PROVINCE_5783
+5738 = {
+	holding = none
+}
+# WUMING_MOUNT
+2581 = {
+	holding = none
+}
+# WUMING_MOUNT
+2574 = {
+	holding = none
+}
+# sea_bohai_bay_138
+4684 = {
+	holding = none
+}
+# PROVINCE_6745
+6667 = {
+	holding = none
+}
+# WUMING_MOUNT
+2727 = {
+	holding = none
+}
+# WUMING_MOUNT
+2573 = {
+	holding = none
+}
+# WUMING_MOUNT
+2572 = {
+	holding = none
+}
+# sea_bohai_bay_172
+4718 = {
+	holding = none
+}
+# LINQU
+127 = {
+	holding = none
+}
+# sea_bohai_bay_171
+4717 = {
+	holding = none
+}
+# PROVINCE_7260
+184 = {
+	holding = none
+}
+# sea_bohai_bay_170
+4716 = {
+	holding = none
+}
+# sea_bohai_bay_136
+4682 = {
+	holding = none
+}
+# GENG
+225 = {
+	holding = none
+}
+# sea_bohai_bay_135
+4681 = {
+	holding = none
+}
+# sea_bohai_bay_169
+4715 = {
+	holding = none
+}
+# FENGLONG
+316 = {
+	holding = none
+}
+# sea_bohai_bay_168
+4714 = {
+	holding = none
+}
+# WUCHENG
+387 = {
+	holding = none
+}
+# ZHONGDU
+452 = {
+	holding = none
+}
+# CUISUI
+471 = {
+	holding = none
+}
+# PROVINCE_6765
+6686 = {
+	culture = nanyue
+	holding = none
+}
+# FEI2
+510 = {
+	holding = none
+}
+# PROVINCE_7263
+575 = {
+	holding = none
+}
+# lake_weiding
+589 = {
+	holding = none
+}
+# sea_bohai_bay_14
+4561 = {
+	holding = none
+}
+# sea_bohai_bay_13
+4560 = {
+	holding = none
+}
+# sea_bohai_bay_12
+4559 = {
+	holding = none
+}
+# sea_bohai_bay_11
+4558 = {
+	holding = none
+}
+# sea_bohai_bay_10
+4557 = {
+	holding = none
+}
+# sea_bohai_bay_9
+4556 = {
+	holding = none
+}
+# sea_bohai_bay_166
+4712 = {
+	holding = none
+}
+# river_heshui
+724 = {
+	holding = none
+}
+# river_yingshui
+741 = {
+	holding = none
+}
+# sea_bohai_bay_165
+4711 = {
+	holding = none
+}
+# lake_beihai
+1330 = {
+	holding = none
+}
+# lake_daluze
+1329 = {
+	holding = none
+}
+# lake_zhuwenze
+1328 = {
+	holding = none
+}
+# lake_yanze
+1327 = {
+	holding = none
+}
+# lake_shepi
+2171 = {
+	holding = none
+}
+# sea_bohai_bay_134
+4680 = {
+	holding = none
+}
+# sea_bohai_bay_133
+4679 = {
+	holding = none
+}
+# sea_bohai_bay_132
+4678 = {
+	holding = none
+}
+# river_yinshui
+743 = {
+	holding = none
+}
+# PROVINCE_6779
+6699 = {
+	culture = nanyue
+	holding = none
+}
+# PROVINCE_6780
+6700 = {
+	holding = none
+}
+# sea_bohai_bay_131
+4677 = {
+	holding = none
+}
+# lake_qingqiupo
+2170 = {
+	holding = none
+}
+# sea_bohai_bay_130
+4676 = {
+	holding = none
+}
+# PROVINCE_5402
+5385 = {
+	holding = none
+}
+# DAGUI_MOUNT
+751 = {
+	holding = none
+}
+# sea_bohai_bay_128
+4674 = {
+	holding = none
+}
+# PROVINCE_5404
+5386 = {
+	holding = none
+}
+# TAISHI_MOUNT
+766 = {
+	holding = none
+}
+# DAKU_MOUNT
+767 = {
+	holding = none
+}
+# PROVINCE_5405
+5387 = {
+	holding = none
+}
+# WUMING_MOUNT
+796 = {
+	holding = none
+}
+# PROVINCE_5408
+5389 = {
+	holding = none
+}
+# WUMING_MOUNT
+797 = {
+	holding = none
+}
+# WUMING_MOUNT
+834 = {
+	holding = none
+}
+# PROVINCE_5411
+5391 = {
+	holding = none
+}
+# sea_bohai_bay_164
+4710 = {
+	holding = none
+}
+# WUMING_MOUNT
+835 = {
+	holding = none
+}
+# WUMING_MOUNT
+846 = {
+	holding = none
+}
+# PROVINCE_2855
+2851 = {
+	holding = none
+}
+# WUMING_MOUNT
+2647 = {
+	holding = none
+}
+# QI_MOUNT
+918 = {
+	holding = none
+}
+# LIANG_MOUNT
+919 = {
+	holding = none
+}
+# ZHONG_MOUNT
+925 = {
+	holding = none
+}
+# WUMING_MOUNT
+941 = {
+	holding = none
+}
+# sea_bohai_bay_127
+4673 = {
+	holding = none
+}
+# sea_bohai_bay_126
+4672 = {
+	holding = none
+}
+# WUMING_MOUNT
+975 = {
+	holding = none
+}
+# lake_nvyanchi
+1006 = {
+	holding = none
+}
+# sea_bohai_bay_163
+4709 = {
+	holding = none
+}
+# sea_bohai_bay_125
+4671 = {
+	holding = none
+}
+# PROVINCE_5836
+5790 = {
+	culture = shanyue
+	holding = none
+}
+# sea_bohai_bay_124
+4670 = {
+	holding = none
+}
+# WUMING_MOUNT
+2634 = {
+	holding = none
+}
+# lake_yanchi
+1007 = {
+	holding = none
+}
+# sea_bohai_bay_123
+4669 = {
+	holding = none
+}
+# lake_zhuozee
+1008 = {
+	holding = none
+}
+# PROVINCE_6821
+6737 = {
+	culture = shanyue
+	holding = none
+}
+# WUMING_MOUNT
+2633 = {
+	holding = none
+}
+# WUMING_MOUNT
+1019 = {
+	holding = none
+}
+# WUMING_MOUNT
+2632 = {
+	holding = none
+}
+# sea_bohai_bay_129
+4675 = {
+	holding = none
+}
+# PROVINCE_6826
+6742 = {
+	culture = pulei
+	holding = none
+}
+# WUMING_MOUNT
+1020 = {
+	holding = none
+}
+# WUMING_MOUNT
+3628 = {
+	holding = none
+}
+# WUMING_MOUNT
+3627 = {
+	holding = none
+}
+# WUMING_MOUNT
+3626 = {
+	holding = none
+}
+# PROVINCE_2968
+2963 = {
+	holding = none
+}
+# sea_bohai_bay_122
+4668 = {
+	holding = none
+}
+# WUMING_MOUNT
+2646 = {
+	holding = none
+}
+# PROVINCE_6400
+6335 = {
+	culture = shanyue
+	holding = none
+}
+# PROVINCE_5848
+5802 = {
+	holding = none
+}
+# PROVINCE_5850
+5803 = {
+	holding = none
+}
+# sea_bohai_bay_162
+4708 = {
+	holding = none
+}
+# WUMING_MOUNT
+3625 = {
+	holding = none
+}
+# WUMING_MOUNT
+3623 = {
+	holding = none
+}
+# WUMING_MOUNT
+3622 = {
+	holding = none
+}
+# WUMING_MOUNT
+3621 = {
+	holding = none
+}
+# WUMING_MOUNT
+3620 = {
+	holding = none
+}
+# sea_bohai_bay_121
+4667 = {
+	holding = none
+}
+# WUMING_MOUNT
+3619 = {
+	holding = none
+}
+# CHONGYI
+4927 = {
+	holding = none
+}
+# WUMING_MOUNT
+2645 = {
+	holding = none
+}
+# WUMING_MOUNT
+3603 = {
+	holding = none
+}
+# WUMING_MOUNT
+3602 = {
+	holding = none
+}
+# WUMING_MOUNT
+3601 = {
+	holding = none
+}
+# WUMING_MOUNT
+3600 = {
+	holding = none
+}
+# WUMING_MOUNT
+3599 = {
+	holding = none
+}
+# PROVINCE_2935
+2930 = {
+	holding = none
+}
+# PROVINCE_2969
+2964 = {
+	holding = none
+}
+# WUMING_MOUNT
+3598 = {
+	holding = none
+}
+# WEIYONGWUMING_MOUNT
+3597 = {
+	holding = none
+}
+# PROVINCE_5868
+5820 = {
+	holding = none
+}
+# GAOAN
+4969 = {
+	culture = shanyue
+	holding = none
+}
+# PROVINCE_2971
+2966 = {
+	holding = none
+}
+# PROVINCE_4674
+4664 = {
+	holding = none
+}
+# WUMING_MOUNT
+3596 = {
+	holding = none
+}
+# WUMING_MOUNT
+3595 = {
+	holding = none
+}
+# sea_bohai_bay_117
+4663 = {
+	holding = none
+}
+# LEPING
+4951 = {
+	culture = shanyue
+	holding = none
+}
+# WUMING_MOUNT
+3594 = {
+	holding = none
+}
+# WUMING_MOUNT
+3593 = {
+	holding = none
+}
+# sea_bohai_bay_8
+4555 = {
+	holding = none
+}
+# sea_bohai_bay_7
+4554 = {
+	holding = none
+}
+# sea_bohai_bay_6
+4553 = {
+	holding = none
+}
+# SHE1
+1166 = {
+	culture = jieren
+	holding = none
+}
+# sea_bohai_bay_5
+4552 = {
+	holding = none
+}
+# sea_bohai_bay_4
+4551 = {
+	holding = none
+}
+# WUMING_MOUNT
+3592 = {
+	holding = none
+}
+# sea_bohai_bay_2
+4549 = {
+	holding = none
+}
+# sea_bohai_bay_1
+4548 = {
+	holding = none
+}
+# sea_laizhou_bay
+4547 = {
+	holding = none
+}
+# sea_bohai_bay
+4546 = {
+	holding = none
+}
+# sea_liaodong_bay
+4545 = {
+	holding = none
+}
+# sea_bohai_bay_116
+4662 = {
+	holding = none
+}
+# PROVINCE_4549
+4540 = {
+	holding = none
+}
+# WUMING_MOUNT
+3591 = {
+	holding = none
+}
+# WUMING_MOUNT
+1124 = {
+	holding = none
+}
+# WUMING_MOUNT
+1123 = {
+	holding = none
+}
+# WUMING_MOUNT
+1122 = {
+	holding = none
+}
+# WUMING_MOUNT
+3590 = {
+	holding = none
+}
+# WUMING_MOUNT
+3589 = {
+	holding = none
+}
+# PROVINCE_2978
+2972 = {
+	holding = none
+}
+# sea_bohai_bay_115
+4661 = {
+	holding = none
+}
+# WUMING_MOUNT
+3588 = {
+	holding = none
+}
+# WUMING_MOUNT
+3587 = {
+	holding = none
+}
+# WO2
+2532 = {
+	holding = none
+}
+# WUMING_MOUNT
+3586 = {
+	holding = none
+}
+# GUYU
+4525 = {
+	holding = none
+}
+# WUMING_MOUNT
+2680 = {
+	holding = none
+}
+# MANG_MOUNT
+2298 = {
+	holding = none
+}
+# PROVINCE_5883
+5835 = {
+	culture = wuling
+	holding = none
+}
+# WUMING_MOUNT
+3585 = {
+	holding = none
+}
+# WUMING_MOUNT
+2644 = {
+	holding = none
+}
+# WANZAI
+4970 = {
+	culture = shanyue
+	holding = none
+}
+# WUMING_MOUNT
+3583 = {
+	holding = none
+}
+# WUMING_MOUNT
+3582 = {
+	holding = none
+}
+# WUMING_MOUNT
+3581 = {
+	holding = none
+}
+# WUMING_MOUNT
+3580 = {
+	holding = none
+}
+# WUMING_MOUNT
+2643 = {
+	holding = none
+}
+# WUMING_MOUNT
+3578 = {
+	holding = none
+}
+# WUMING_MOUNT
+3577 = {
+	holding = none
+}
+# WUMING_MOUNT
+3576 = {
+	holding = none
+}
+# WUMING_MOUNT
+2527 = {
+	holding = none
+}
+# Desert
+3575 = {
+	holding = none
+}
+# PROVINCE_3968
+3961 = {
+	holding = none
+}
+# MENYI
+3558 = {
+	culture = wuling
+	holding = none
+}
+# WUMING_MOUNT
+2526 = {
+	holding = none
+}
+# WUMING_MOUNT
+2525 = {
+	holding = none
+}
+# WUMING_MOUNT
+2524 = {
+	holding = none
+}
+# WUMING_MOUNT
+2523 = {
+	holding = none
+}
+# WUMING_MOUNT
+2522 = {
+	holding = none
+}
+# sea_bohai_bay_161
+4707 = {
+	holding = none
+}
+# PROVINCE_6556
+6484 = {
+	culture = nanyue
+	holding = none
+}
+# PROVINCE_3547
+3540 = {
+	holding = none
+}
+# WUMING_MOUNT
+2521 = {
+	holding = none
+}
+# PROVINCE_7008
+6914 = {
+	holding = none
+}

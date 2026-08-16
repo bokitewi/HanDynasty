@@ -1,0 +1,109 @@
+﻿rp_banquet_cooldown_modifier = {
+	icon = feast_positive
+	monthly_prestige = 0.05
+}
+
+rp_idiom_retreat_righteous_modifier = {
+	icon = diplomacy_positive
+	diplomacy = 1
+	monthly_prestige = 0.3
+	army_damage_mult = -0.05
+}
+
+rp_idiom_battle_resolve_modifier = {
+	icon = martial_positive
+	martial = 1
+	army_damage_mult = 0.05
+}
+
+rp_idiom_ambush_success_modifier = {
+	icon = martial_positive
+	attacker_advantage = 5
+	army_damage_mult = 0.05
+}
+
+rp_idiom_ambush_failure_modifier = {
+	icon = martial_negative
+	martial = -1
+	army_damage_mult = -0.1
+}
+
+rp_idiom_tuibi_sanshe_permanent_modifier = {
+	icon = diplomacy_positive
+	diplomacy = 3
+	monthly_prestige = 0.5
+}
+
+rp_idiom_old_horse_modifier = {
+	icon = travel_speed_positive
+	movement_speed = 0.15
+	martial = 1
+}
+
+rp_idiom_tally_saved_ally_modifier = {
+	icon = diplomacy_positive
+	direct_vassal_opinion = 5
+	monthly_prestige = 0.3
+}
+
+rp_idiom_enduring_revenge_modifier = {
+	icon = martial_positive
+	martial = 2
+	intrigue = 2
+	monthly_prestige = 0.5
+}
+
+rp_idiom_hidden_preparation_modifier = {
+	icon = economy_positive
+	vassal_tax_contribution_mult = 0.08
+	levy_reinforcement_rate = 0.15
+}
+
+rp_idiom_returned_jade_modifier = {
+	icon = diplomacy_positive
+	diplomacy = 2
+	dread_gain_mult = 0.15
+}
+
+rp_idiom_strike_capital_modifier = {
+	icon = martial_positive
+	movement_speed = 0.1
+	attacker_advantage = 3
+}
+
+rp_idiom_balancing_powers_modifier = {
+	icon = diplomacy_negative
+	diplomacy = 1
+	monthly_prestige = 0.2
+}
+
+rp_idiom_lips_teeth_alarm_modifier = {
+	icon = dread_negative
+	direct_vassal_opinion = -5
+	monthly_prestige = -0.2
+}
+
+rp_idiom_rare_commodity_modifier = {
+	icon = diplomacy_positive
+	diplomacy = 1
+	monthly_prestige = 0.3
+}
+
+rp_idiom_startling_reform_modifier = {
+	icon = stewardship_positive
+	stewardship = 2
+	development_growth_factor = 0.1
+	vassal_tax_contribution_mult = 0.05
+}
+
+rp_idiom_startling_military_modifier = {
+	icon = martial_positive
+	martial = 2
+	army_damage_mult = 0.1
+}
+
+rp_idiom_startling_law_modifier = {
+	icon = diplomacy_positive
+	diplomacy = 2
+	intrigue = 2
+}

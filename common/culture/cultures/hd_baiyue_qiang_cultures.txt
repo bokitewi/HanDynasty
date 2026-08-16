@@ -1,0 +1,254 @@
+# Project-owned regional cultures. These definitions reuse the established
+# Baiyue and Qiang heritage/language profiles without changing province history.
+
+baima = {
+	color = { 88 177 172 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_bellicose
+	heritage = heritage_qiang
+	language = language_qiangic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_mountaineers
+		tradition_pastoralists
+		tradition_caravaneers
+	}
+
+	name_list = name_list_diren
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+dongou = {
+	color = { 66 119 188 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_communal
+	heritage = heritage_baiyue
+	language = language_baiyue
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_seafaring
+		tradition_fishermen
+		tradition_jungle_dwellers
+	}
+
+	name_list = name_list_han
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+dongqiang = {
+	color = { 174 150 91 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_bellicose
+	heritage = heritage_qiang
+	language = language_qiangic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_mountaineers
+		tradition_pastoralists
+		tradition_caravaneers
+	}
+
+	name_list = name_list_diren
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+ganyue = {
+	color = { 122 74 63 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_communal
+	heritage = heritage_baiyue
+	language = language_baiyue
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_seafaring
+		tradition_fishermen
+		tradition_jungle_dwellers
+	}
+
+	name_list = name_list_han
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+liaoren = {
+	color = { 84 181 71 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_communal
+	heritage = heritage_baiyue
+	language = language_baiyue
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_seafaring
+		tradition_fishermen
+		tradition_jungle_dwellers
+	}
+
+	name_list = name_list_han
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+minyue = {
+	color = { 142 122 205 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_communal
+	heritage = heritage_baiyue
+	language = language_baiyue
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_seafaring
+		tradition_fishermen
+		tradition_jungle_dwellers
+	}
+
+	name_list = name_list_han
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+qingyi = {
+	color = { 130 58 138 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_bellicose
+	heritage = heritage_qiang
+	language = language_qiangic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_mountaineers
+		tradition_pastoralists
+		tradition_caravaneers
+	}
+
+	name_list = name_list_diren
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+souyi = {
+	color = { 117 195 144 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_bellicose
+	heritage = heritage_qiang
+	language = language_qiangic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_mountaineers
+		tradition_pastoralists
+		tradition_caravaneers
+	}
+
+	name_list = name_list_diren
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+xiou = {
+	color = { 52 113 142 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_communal
+	heritage = heritage_baiyue
+	language = language_baiyue
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_seafaring
+		tradition_fishermen
+		tradition_jungle_dwellers
+	}
+
+	name_list = name_list_han
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}

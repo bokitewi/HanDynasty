@@ -1,0 +1,598 @@
+﻿# Generated from 華陽國志、三國志、三國演義、後漢書 and 漢晉春秋.
+# Culture: japanese
+# Time partition: 180_200 (death >= 180 and birth <= 200).
+# No title history is assigned. Dates marked in the evidence audit may be estimates.
+
+##### 【弓遵】
+gong_zun={
+	name="uuii_book_gong_zun_name" #遵
+	dynasty_house="house_111010222001013"
+	father="gong_qi"
+	culture="japanese"
+	faith="fusang_pagan"
+	diplomacy="8"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="4"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	200.7.1={
+		birth=yes
+	}
+	266.7.1={
+		death=yes
+	}
+}
+
+##### 【大和稚足彦】
+da_he_zhi_zu_yan={
+	name="uuii_book_da_he_zhi_zu_yan_name" #和稚足彦
+	dynasty_house="house_121010001001013"
+	father="da_he_da_zu_yan_ren_dai_bie"
+	culture="japanese"
+	faith="fusang_pagan"
+	diplomacy="5"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="5"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	84.7.1={
+		birth=yes
+	}
+	190.7.1={
+		death=yes
+	}
+}
+
+##### 【大和足仲彦】
+da_he_zu_zhong_yan={
+	name="uuii_book_da_he_zu_zhong_yan_name" #和足仲彦
+	dynasty_house="house_121010001001013"
+	father="da_he_xiao_dui_ming"
+	culture="japanese"
+	faith="fusang_pagan"
+	diplomacy="7"
+	martial="7"
+	stewardship="8"
+	intrigue="7"
+	learning="5"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	148.7.1={
+		birth=yes
+	}
+	200.7.1={
+		death=yes
+	}
+}
+
+##### 【大和大中姫】
+da_he_da_zhong_ji={
+	name="uuii_book_da_he_da_zhong_ji_name" #和大中姫
+	dynasty_house="house_121010001001013"
+	female=yes
+	father="da_he_yu_jin_bie_zi"
+	culture="japanese"
+	faith="fusang_pagan"
+	diplomacy="5"
+	martial="7"
+	stewardship="9"
+	intrigue="5"
+	learning="6"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	150.7.1={
+		birth=yes
+	}
+	199.7.1={
+		death=yes
+	}
+}
+
+##### 【大和弟媛】
+da_he_di_yuan={
+	name="uuii_book_da_he_di_yuan_name" #和弟媛
+	dynasty_house="house_121010001001013"
+	female=yes
+	father="da_he_yu_jin_bie_zi"
+	culture="japanese"
+	faith="fusang_pagan"
+	diplomacy="8"
+	martial="5"
+	stewardship="7"
+	intrigue="6"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	150.7.1={
+		birth=yes
+	}
+	199.7.1={
+		death=yes
+	}
+}
+
+##### 【大和麑阪】
+da_he_ni_ban={
+	name="uuii_book_da_he_ni_ban_name" #和麑阪
+	dynasty_house="house_121010001001013"
+	father="da_he_zu_zhong_yan"
+	mother="da_he_da_zhong_ji"
+	culture="japanese"
+	faith="fusang_pagan"
+	diplomacy="4"
+	martial="4"
+	stewardship="9"
+	intrigue="9"
+	learning="8"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	168.7.1={
+		birth=yes
+	}
+	199.7.1={
+		death=yes
+	}
+}
+
+##### 【大和誉屋别】
+da_he_yu_wu_bie={
+	name="uuii_book_da_he_yu_wu_bie_name" #和誉屋别
+	dynasty_house="house_121010001001013"
+	father="da_he_zu_zhong_yan"
+	mother="da_he_di_yuan"
+	culture="japanese"
+	faith="fusang_pagan"
+	diplomacy="7"
+	martial="7"
+	stewardship="8"
+	intrigue="4"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	168.7.1={
+		birth=yes
+	}
+	199.7.1={
+		death=yes
+	}
+}
+
+##### 【大和熊忍】
+da_he_xiong_ren={
+	name="uuii_book_da_he_xiong_ren_name" #和熊忍
+	dynasty_house="house_121010001001013"
+	father="da_he_zu_zhong_yan"
+	mother="da_he_da_zhong_ji"
+	culture="japanese"
+	faith="fusang_pagan"
+	diplomacy="5"
+	martial="6"
+	stewardship="8"
+	intrigue="8"
+	learning="7"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	169.7.1={
+		birth=yes
+	}
+	199.7.1={
+		death=yes
+	}
+}
+
+##### 【大和誉田别】
+da_he_yu_tian_bie={
+	name="uuii_book_da_he_yu_tian_bie_name" #和誉田别
+	dynasty_house="house_121010001001013"
+	father="da_he_zu_zhong_yan"
+	mother="xie_ma_tai_xi_zhang_dai"
+	culture="japanese"
+	faith="fusang_pagan"
+	diplomacy="8"
+	martial="4"
+	stewardship="8"
+	intrigue="7"
+	learning="6"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	200.7.1={
+		birth=yes
+	}
+	313.7.1={
+		death=yes
+	}
+}
+
+##### 【石川忠仁】
+shi_chuan_zhong_ren={
+	name="uuii_book_shi_chuan_zhong_ren_name" #川忠仁
+	dynasty_house="house_121010022001013"
+	culture="japanese"
+	faith="fusang_pagan"
+	diplomacy="8"
+	martial="7"
+	stewardship="5"
+	intrigue="7"
+	learning="5"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	168.7.1={
+		birth=yes
+	}
+	241.7.1={
+		death=yes
+	}
+}
+
+##### 【织田孝真】
+zhi_tian_xiao_zhen={
+	name="uuii_book_zhi_tian_xiao_zhen_name" #田孝真
+	dynasty_house="house_121010029001013"
+	father="zhi_tian_yi_sheng"
+	culture="japanese"
+	faith="fusang_pagan"
+	diplomacy="7"
+	martial="5"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	112.7.1={
+		birth=yes
+	}
+	183.7.1={
+		death=yes
+	}
+}
+
+##### 【织田加宗】
+zhi_tian_jia_zong={
+	name="uuii_book_zhi_tian_jia_zong_name" #田加宗
+	dynasty_house="house_121010029001013"
+	father="zhi_tian_xiao_zhen"
+	culture="japanese"
+	faith="fusang_pagan"
+	diplomacy="7"
+	martial="9"
+	stewardship="5"
+	intrigue="6"
+	learning="5"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	165.7.1={
+		birth=yes
+	}
+	252.7.1={
+		death=yes
+	}
+}
+
+##### 【上杉宪信】
+shang_shan_xian_xin={
+	name="uuii_book_shang_shan_xian_xin_name" #杉宪信
+	dynasty_house="house_121010035001013"
+	culture="japanese"
+	faith="fusang_pagan"
+	diplomacy="5"
+	martial="10"
+	stewardship="5"
+	intrigue="8"
+	learning="6"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	171.7.1={
+		birth=yes
+	}
+	267.7.1={
+		death=yes
+	}
+}
+
+##### 【邪马台肖古】
+xie_ma_tai_xiao_gu={
+	name="uuii_book_xie_ma_tai_xiao_gu_name" #马台肖古
+	dynasty_house="house_121010049001013"
+	culture="japanese"
+	faith="fusang_pagan"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="6"
+	learning="6"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	150.7.1={
+		birth=yes
+	}
+	188.7.1={
+		death=yes
+	}
+}
+
+##### 【邪马台卑弥呼】
+xie_ma_tai_bei_mi_hu={
+	name="uuii_book_xie_ma_tai_bei_mi_hu_name" #马台卑弥呼
+	dynasty_house="house_121010049001013"
+	female=yes
+	father="xie_ma_tai_xiao_gu"
+	culture="japanese"
+	faith="fusang_pagan"
+	diplomacy="6"
+	martial="5"
+	stewardship="6"
+	intrigue="6"
+	learning="8"
+	prowess="9"
+	health=5.5
+	disallow_random_traits=no
+	170.7.1={
+		birth=yes
+	}
+	248.7.1={
+		death=yes
+	}
+}
+
+##### 【邪马台息长带】
+xie_ma_tai_xi_zhang_dai={
+	name="uuii_book_xie_ma_tai_xi_zhang_dai_name" #马台息长带
+	dynasty_house="house_121010049001013"
+	female=yes
+	father="xie_ma_tai_xiao_gu"
+	culture="japanese"
+	faith="fusang_pagan"
+	diplomacy="5"
+	martial="6"
+	stewardship="6"
+	intrigue="9"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	170.7.1={
+		birth=yes
+	}
+	270.7.1={
+		death=yes
+	}
+}
+
+##### 【邪马台佐治】
+xie_ma_tai_zuo_zhi={
+	name="uuii_book_xie_ma_tai_zuo_zhi_name" #马台佐治
+	dynasty_house="house_121010049001013"
+	father="xie_ma_tai_xiao_gu"
+	culture="japanese"
+	faith="fusang_pagan"
+	diplomacy="5"
+	martial="8"
+	stewardship="7"
+	intrigue="8"
+	learning="5"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	185.7.1={
+		birth=yes
+	}
+	250.7.1={
+		death=yes
+	}
+}
+
+##### 【伊都尔支】
+yi_dou_er_zhi={
+	name="uuii_book_yi_dou_er_zhi_name" #都尔支
+	dynasty_house="house_121010050001013"
+	culture="japanese"
+	faith="fusang_pagan"
+	diplomacy="7"
+	martial="7"
+	stewardship="8"
+	intrigue="7"
+	learning="6"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	165.7.1={
+		birth=yes
+	}
+	234.7.1={
+		death=yes
+	}
+}
+
+##### 【奴国兕马】
+nu_guo_si_ma={
+	name="uuii_book_nu_guo_si_ma_name" #国兕马
+	dynasty_house="house_121010051001013"
+	culture="japanese"
+	faith="fusang_pagan"
+	diplomacy="5"
+	martial="6"
+	stewardship="6"
+	intrigue="5"
+	learning="5"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	165.7.1={
+		birth=yes
+	}
+	234.7.1={
+		death=yes
+	}
+}
+
+##### 【不弥多模】
+bu_mi_duo_mo={
+	name="uuii_book_bu_mi_duo_mo_name" #弥多模
+	dynasty_house="house_121010052001013"
+	culture="japanese"
+	faith="fusang_pagan"
+	diplomacy="6"
+	martial="6"
+	stewardship="7"
+	intrigue="6"
+	learning="6"
+	prowess="9"
+	health=5.5
+	disallow_random_traits=no
+	165.7.1={
+		birth=yes
+	}
+	234.7.1={
+		death=yes
+	}
+}
+
+##### 【投马弥弥】
+tou_ma_mi_mi={
+	name="uuii_book_tou_ma_mi_mi_name" #马弥弥
+	dynasty_house="house_121010053001013"
+	culture="japanese"
+	faith="fusang_pagan"
+	diplomacy="4"
+	martial="9"
+	stewardship="4"
+	intrigue="8"
+	learning="7"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	165.7.1={
+		birth=yes
+	}
+	234.7.1={
+		death=yes
+	}
+}
+
+##### 【瀚海卑奴毋离】
+han_hai_bei_nu_wu_li={
+	name="uuii_book_han_hai_bei_nu_wu_li_name" #海卑奴毋离
+	dynasty_house="house_121010054001013"
+	culture="japanese"
+	faith="fusang_pagan"
+	diplomacy="4"
+	martial="7"
+	stewardship="7"
+	intrigue="8"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	165.7.1={
+		birth=yes
+	}
+	234.7.1={
+		death=yes
+	}
+}
+
+##### 【对马卑狗】
+dui_ma_bei_gou={
+	name="uuii_book_dui_ma_bei_gou_name" #马卑狗
+	dynasty_house="house_121010055001013"
+	culture="japanese"
+	faith="fusang_pagan"
+	diplomacy="7"
+	martial="6"
+	stewardship="8"
+	intrigue="5"
+	learning="6"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	165.7.1={
+		birth=yes
+	}
+	234.7.1={
+		death=yes
+	}
+}
+
+##### 【狗奴狗古智卑狗】
+gou_nu_gou_gu_zhi_bei_gou={
+	name="uuii_book_gou_nu_gou_gu_zhi_bei_gou_name" #奴狗古智卑狗
+	dynasty_house="house_121010056001013"
+	culture="japanese"
+	faith="fusang_pagan"
+	diplomacy="7"
+	martial="8"
+	stewardship="4"
+	intrigue="8"
+	learning="5"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	165.7.1={
+		birth=yes
+	}
+	234.7.1={
+		death=yes
+	}
+}
+
+##### 【出云本章】
+chu_yun_ben_zhang={
+	name="uuii_book_chu_yun_ben_zhang_name" #云本章
+	dynasty_house="house_121010057001013"
+	culture="japanese"
+	faith="fusang_pagan"
+	diplomacy="4"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	171.7.1={
+		birth=yes
+	}
+	234.7.1={
+		death=yes
+	}
+}
+
+##### 【长宗我部元初】
+zhang_zong_wo_bu_yuan_chu={
+	name="uuii_book_zhang_zong_wo_bu_yuan_chu_name" #宗我部元初
+	dynasty_house="house_121010058001013"
+	culture="japanese"
+	faith="fusang_pagan"
+	diplomacy="6"
+	martial="9"
+	stewardship="5"
+	intrigue="6"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	168.7.1={
+		birth=yes
+	}
+	241.7.1={
+		death=yes
+	}
+}

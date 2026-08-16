@@ -1,0 +1,5 @@
+﻿# Deliberate total-conversion override.
+# The only bookmark in this project begins in 184, so the dynastic cycle is
+# created by the project-owned on_game_start hook in its unstable phase.
+# Keeping this history file empty avoids replaying vanilla dates outside the
+# project's 184 start while retaining the vanilla situation definition/UI.

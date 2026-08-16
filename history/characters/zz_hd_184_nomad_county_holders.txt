@@ -1,0 +1,1150 @@
+# Fictional local-culture nomad county holders for the 184 start.
+# One lowborn holder is generated for each previously empty target county.
+
+hd_nomad_holder_c_BAL_changchun = {
+	name = "mongolic_xianbei_nn_0"
+	culture = "xianbei"
+	faith = "xianbei_polytheism"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_BAL_xinzhou = {
+	name = "mongolic_xianbei_nn_1"
+	culture = "xianbei"
+	faith = "xianbei_polytheism"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_BAL_yizhou = {
+	name = "mongolic_xianbei_nn_2"
+	culture = "xianbei"
+	faith = "xianbei_polytheism"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_em_akhulun = {
+	name = "mongolic_xianbei_nn_3"
+	culture = "xianbei"
+	faith = "xianbei_polytheism"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_em_hepung = {
+	name = "mongolic_xianbei_nn_4"
+	culture = "xianbei"
+	faith = "xianbei_polytheism"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_em_karakopi = {
+	name = "qiang_diren_nn_1_a_wang_qi_li"
+	culture = "zhongqiang"
+	faith = "jingxue"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_em_khartereg = {
+	name = "mongolic_xianbei_nn_5"
+	culture = "xianbei"
+	faith = "xianbei_polytheism"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_em_kherulendada = {
+	name = "qiang_diren_nn_2_an_duo_er"
+	culture = "zhongqiang"
+	faith = "jingxue"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_gobi_abakhai = {
+	name = "mongolic_xianbei_nn_6"
+	culture = "xianbei"
+	faith = "xianbei_polytheism"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_gobi_abga = {
+	name = "mongolic_xianbei_nn_7"
+	culture = "xianbei"
+	faith = "xianbei_polytheism"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_gobi_dorngovi = {
+	name = "mongolic_xianbei_nn_8"
+	culture = "xianbei"
+	faith = "xianbei_polytheism"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_gobi_maominggan = {
+	name = "turkic_xiongnu_nn_1"
+	culture = "xiongnu"
+	faith = "tengri_pagan"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_gobi_ongi_gol = {
+	name = "turkic_xiongnu_nn_2"
+	culture = "xiongnu"
+	faith = "tengri_pagan"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_gobi_sonkhot = {
+	name = "mongolic_xianbei_nn_9"
+	culture = "xianbei"
+	faith = "xianbei_polytheism"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_gobi_ulaan_govi = {
+	name = "turkic_xiongnu_nn_3"
+	culture = "xiongnu"
+	faith = "tengri_pagan"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_gobi_ulaan_nuur = {
+	name = "turkic_xiongnu_nn_4"
+	culture = "xiongnu"
+	faith = "tengri_pagan"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_gobi_ulaantatar = {
+	name = "mongolic_xianbei_nn_10"
+	culture = "xianbei"
+	faith = "xianbei_polytheism"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_kkhuoer = {
+	name = "turkic_xiongnu_nn_5"
+	culture = "xiongnu"
+	faith = "tengri_pagan"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_LIAO_changchun = {
+	name = "mongolic_xianbei_nn_11"
+	culture = "xianbei"
+	faith = "xianbei_polytheism"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_LIAO_heicaoan = {
+	name = "mongolic_xianbei_nn_12"
+	culture = "xianbei"
+	faith = "xianbei_polytheism"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_LIAO_horqinan = {
+	name = "mongolic_xianbei_nn_13"
+	culture = "xianbei"
+	faith = "xianbei_polytheism"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_LIAO_linhuang = {
+	name = "mongolic_xianbei_nn_14"
+	culture = "xianbei"
+	faith = "xianbei_polytheism"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_LIAO_raozhou = {
+	name = "mongolic_xianbei_nn_15"
+	culture = "xianbei"
+	faith = "xianbei_polytheism"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_LIAO_ulagaian = {
+	name = "mongolic_xianbei_nn_16"
+	culture = "xianbei"
+	faith = "xianbei_polytheism"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_shifen = {
+	name = "mongolic_xianbei_nn_17"
+	culture = "xianbei"
+	faith = "xianbei_polytheism"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_SW_dongcheziguo = {
+	name = "mongolic_xianbei_nn_18"
+	culture = "xianbei"
+	faith = "xianbei_polytheism"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_SW_ergunia = {
+	name = "mongolic_xianbei_nn_19"
+	culture = "xianbei"
+	faith = "xianbei_polytheism"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_SW_hailar = {
+	name = "mongolic_xianbei_nn_20"
+	culture = "xianbei"
+	faith = "xianbei_polytheism"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_SW_hongxingan = {
+	name = "mongolic_xianbei_nn_21"
+	culture = "xianbei"
+	faith = "xianbei_polytheism"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_SW_hulunbuir = {
+	name = "mongolic_xianbei_nn_22"
+	culture = "xianbei"
+	faith = "xianbei_polytheism"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_SW_pibeihe = {
+	name = "mongolic_xianbei_nn_23"
+	culture = "xianbei"
+	faith = "xianbei_polytheism"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_SW_zhongcheziguo = {
+	name = "mongolic_xianbei_nn_24"
+	culture = "xianbei"
+	faith = "xianbei_polytheism"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_wlhld = {
+	name = "mongolic_xianbei_nn_25"
+	culture = "xianbei"
+	faith = "xianbei_polytheism"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_bahantu = {
+	name = "qiang_diren_nn_3_ba_ji"
+	culture = "zhongqiang"
+	faith = "jingxue"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_bombogor = {
+	name = "turkic_xiongnu_nn_6"
+	culture = "xiongnu"
+	faith = "tengri_pagan"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_chamil = {
+	name = "turkic_xiongnu_nn_7"
+	culture = "xiongnu"
+	faith = "tengri_pagan"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_em_dadaels = {
+	name = "qiang_diren_nn_4_bei_ji"
+	culture = "zhongqiang"
+	faith = "jingxue"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_em_dutulun = {
+	name = "turkic_xiongnu_nn_8"
+	culture = "xiongnu"
+	faith = "tengri_pagan"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_em_gobidada = {
+	name = "turkic_xiongnu_nn_9"
+	culture = "xiongnu"
+	faith = "tengri_pagan"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_EM_jiangbian = {
+	name = "turkic_xiongnu_nn_10"
+	culture = "xiongnu"
+	faith = "tengri_pagan"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_EM_khaldun = {
+	name = "turkic_xiongnu_nn_11"
+	culture = "xiongnu"
+	faith = "tengri_pagan"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_EM_ononum = {
+	name = "turkic_xiongnu_nn_12"
+	culture = "xiongnu"
+	faith = "tengri_pagan"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_EM_tsetsen = {
+	name = "turkic_xiongnu_nn_13"
+	culture = "xiongnu"
+	faith = "tengri_pagan"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_EM_yujuelu = {
+	name = "mongolic_xianbei_nn_26"
+	culture = "xianbei"
+	faith = "xianbei_polytheism"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_em_zhen = {
+	name = "turkic_xiongnu_nn_14"
+	culture = "xiongnu"
+	faith = "tengri_pagan"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_gobi_gurvan_saikhan = {
+	name = "turkic_xiongnu_nn_15"
+	culture = "xiongnu"
+	faith = "tengri_pagan"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_hanhai = {
+	name = "qiang_diren_nn_5_bi_da_ji"
+	culture = "zhongqiang"
+	faith = "jingxue"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_husutai = {
+	name = "qiang_diren_nn_6_bi_jia_ji"
+	culture = "zhongqiang"
+	faith = "jingxue"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_ikh_bogd = {
+	name = "turkic_xiongnu_nn_16"
+	culture = "xiongnu"
+	faith = "tengri_pagan"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_karabalgasun = {
+	name = "turkic_xiongnu_nn_17"
+	culture = "xiongnu"
+	faith = "tengri_pagan"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_karakorum = {
+	name = "turkic_xiongnu_nn_18"
+	culture = "xiongnu"
+	faith = "tengri_pagan"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_karepuri = {
+	name = "qiang_diren_nn_7_bian_mu_xi"
+	culture = "zhongqiang"
+	faith = "jingxue"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_khanjargalant = {
+	name = "turkic_xiongnu_nn_19"
+	culture = "xiongnu"
+	faith = "tengri_pagan"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_khar_us = {
+	name = "turkic_xiongnu_nn_20"
+	culture = "xiongnu"
+	faith = "tengri_pagan"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_khasagt_khairkhan = {
+	name = "turkic_xiongnu_nn_21"
+	culture = "xiongnu"
+	faith = "tengri_pagan"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_khentii = {
+	name = "turkic_xiongnu_nn_22"
+	culture = "xiongnu"
+	faith = "tengri_pagan"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_longcheng = {
+	name = "qiang_diren_nn_8_bie_lu_mu"
+	culture = "zhongqiang"
+	faith = "jingxue"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_mazongshan = {
+	name = "turkic_xiongnu_nn_23"
+	culture = "xiongnu"
+	faith = "tengri_pagan"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_mumo = {
+	name = "turkic_xiongnu_nn_24"
+	culture = "xiongnu"
+	faith = "tengri_pagan"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_naushki = {
+	name = "turkic_xiongnu_nn_25"
+	culture = "xiongnu"
+	faith = "tengri_pagan"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_ongi = {
+	name = "turkic_xiongnu_nn_26"
+	culture = "xiongnu"
+	faith = "tengri_pagan"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_sharga = {
+	name = "turkic_xiongnu_nn_27"
+	culture = "xiongnu"
+	faith = "tengri_pagan"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_tarhanalin = {
+	name = "turkic_xiongnu_nn_28"
+	culture = "xiongnu"
+	faith = "tengri_pagan"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_tovkhon = {
+	name = "turkic_xiongnu_nn_29"
+	culture = "xiongnu"
+	faith = "tengri_pagan"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_tsambagarau = {
+	name = "turkic_xiongnu_nn_30"
+	culture = "xiongnu"
+	faith = "tengri_pagan"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_tseel = {
+	name = "turkic_xiongnu_nn_31"
+	culture = "xiongnu"
+	faith = "tengri_pagan"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_ulaanbaatar = {
+	name = "turkic_xiongnu_nn_32"
+	culture = "xiongnu"
+	faith = "tengri_pagan"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_ulaangom = {
+	name = "turkic_xiongnu_nn_33"
+	culture = "xiongnu"
+	faith = "tengri_pagan"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_uliastai = {
+	name = "turkic_xiongnu_nn_34"
+	culture = "xiongnu"
+	faith = "tengri_pagan"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_urgamal = {
+	name = "turkic_xiongnu_nn_35"
+	culture = "xiongnu"
+	faith = "tengri_pagan"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_zarman = {
+	name = "turkic_xiongnu_nn_36"
+	culture = "xiongnu"
+	faith = "tengri_pagan"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_balgun = {
+	name = "turkic_xiongnu_nn_37"
+	culture = "xiongnu"
+	faith = "tengri_pagan"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_barkul = {
+	name = "turkic_xiongnu_nn_38"
+	culture = "xiongnu"
+	faith = "tengri_pagan"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_beshbalik = {
+	name = "turkic_xiongnu_nn_39"
+	culture = "xiongnu"
+	faith = "tengri_pagan"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_boro_burgasu = {
+	name = "turkic_xiongnu_nn_40"
+	culture = "xiongnu"
+	faith = "tengri_pagan"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_jimsar = {
+	name = "turkic_xiongnu_nn_41"
+	culture = "xiongnu"
+	faith = "tengri_pagan"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_kara_asirgan = {
+	name = "turkic_xiongnu_nn_42"
+	culture = "xiongnu"
+	faith = "tengri_pagan"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_uuii_p_3347 = {
+	name = "Bo_dang"
+	culture = "goguryeo"
+	faith = "jingxue"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_uuii_p_3348 = {
+	name = "Bo_go"
+	culture = "goguryeo"
+	faith = "jingxue"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_uuii_p_3407 = {
+	name = "Bo_jeon"
+	culture = "goguryeo"
+	faith = "jingxue"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_uuii_p_3408 = {
+	name = "Cheon_sang"
+	culture = "goguryeo"
+	faith = "jingxue"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}
+
+hd_nomad_holder_c_uuii_p_3886 = {
+	name = "Cheon_won"
+	culture = "goguryeo"
+	faith = "jingxue"
+	disallow_random_traits = no
+
+	154.1.1 = {
+		birth = yes
+	}
+	225.1.1 = {
+		death = yes
+	}
+}

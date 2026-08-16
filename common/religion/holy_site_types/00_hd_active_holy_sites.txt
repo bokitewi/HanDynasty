@@ -1,0 +1,656 @@
+# HanDyansty active holy-site registry.
+# Legacy project sites are remapped by their former barony province ID.
+
+dm_compat_registry = {
+	county = c_uuii_p_793
+	barony = b_uuii_p_793
+}
+
+feng = {
+	county = c_uuii_p_873
+	barony = b_uuii_p_870
+
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+}
+
+hao = {
+	county = c_uuii_p_867
+	barony = b_uuii_p_868
+
+	character_modifier = {
+		name = holy_site_rome_effect_name
+		monthly_prestige = 0.1
+		monthly_dread = 0.01
+	}
+}
+
+luo = {
+	county = c_uuii_p_786
+	barony = b_uuii_p_786
+
+	character_modifier = {
+		name = holy_site_cologne_effect_name
+		monthly_tyranny = 0.01
+		monthly_county_control_growth_factor = 0.05
+	}
+}
+
+bin = {
+	county = c_uuii_p_951
+	barony = b_uuii_p_952
+
+	character_modifier = {
+		name = holy_site_santiago_effect_name
+		supply_duration = 0.2
+		holy_order_hire_cost_mult = -0.1
+	}
+}
+
+quanqiu = {
+	county = c_uuii_p_895
+	barony = b_uuii_p_895
+
+	character_modifier = {
+		name = holy_site_kent_effect_name
+		stewardship = 1
+		martial = 1
+	}
+}
+
+shangqiu = {
+	county = c_uuii_p_562
+	barony = b_uuii_p_533
+
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+}
+
+chaoge = {
+	county = c_uuii_p_1109
+	barony = b_uuii_p_1109
+
+	character_modifier = {
+		name = holy_site_rome_effect_name
+		development_growth_factor = 0.1
+		stewardship = 1
+	}
+}
+
+xing = {
+	county = c_uuii_p_1201
+	barony = b_uuii_p_1202
+
+	character_modifier = {
+		name = holy_site_cologne_effect_name
+		cultural_head_fascination_mult = 0.05
+		monthly_county_control_growth_factor = 0.05
+	}
+}
+
+bo = {
+	county = c_uuii_p_556
+	barony = b_uuii_p_536
+
+	character_modifier = {
+		name = holy_site_cologne_effect_name
+		cultural_head_fascination_mult = 0.05
+		monthly_county_control_growth_factor = 0.05
+	}
+}
+
+guzhu = {
+	county = c_uuii_p_3492
+	barony = b_uuii_p_3493
+
+	character_modifier = {
+		name = holy_site_kent_effect_name
+		religious_vassal_opinion = 5
+		monthly_lifestyle_xp_gain_mult = 0.1
+	}
+}
+
+diqiu = {
+	county = c_uuii_p_686
+	barony = b_uuii_p_686
+
+	character_modifier = {
+		monthly_piety_gain_mult = 0.1
+		health = 3
+	}
+}
+
+yuan = {
+	county = c_uuii_p_2474
+	barony = b_uuii_p_1084
+
+	character_modifier = {
+		name = holy_site_rome_effect_name
+		development_growth_factor = 0.1
+		diplomacy = 1
+	}
+}
+
+pingyang = {
+	county = c_uuii_p_1372
+	barony = b_uuii_p_2703
+
+	character_modifier = {
+		name = holy_site_cologne_effect_name
+		domain_limit = 2
+		build_gold_cost = -0.1
+	}
+}
+
+an = {
+	county = c_uuii_p_644
+	barony = b_uuii_p_577
+
+	character_modifier = {
+		name = holy_site_cologne_effect_name
+		cultural_head_fascination_mult = 0.05
+		monthly_county_control_growth_factor = 0.05
+	}
+}
+
+linzi = {
+	county = c_uuii_p_2221
+	barony = b_uuii_p_8
+
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+	parameters = {
+		jerusalem_conversion_bonus
+	}
+}
+
+qufu = {
+	county = c_qufu
+	barony = b_uuii_p_444
+
+	character_modifier = {
+		name = holy_site_rome_effect_name
+		development_growth_factor = 0.1
+		knight_limit = 2
+	}
+}
+
+xu = {
+	county = c_uuii_p_4009
+	barony = b_uuii_p_292
+
+	character_modifier = {
+		name = holy_site_cologne_effect_name
+		cultural_head_fascination_mult = 0.05
+		stress_loss_mult = -0.05
+	}
+}
+
+liu = {
+	county = c_uuii_p_1967
+	barony = b_uuii_p_1967
+
+	character_modifier = {
+		name = holy_site_santiago_effect_name
+		learning = 2
+		holy_order_hire_cost_mult = -0.1
+	}
+}
+
+lai = {
+	county = c_uuii_p_6916
+	barony = b_uuii_p_171
+
+	character_modifier = {
+		name = holy_site_kent_effect_name
+		religious_vassal_opinion = 5
+		monthly_lifestyle_xp_gain_mult = 0.1
+	}
+}
+
+lushi = {
+	county = c_uuii_p_1163
+	barony = b_uuii_p_1163
+
+	character_modifier = {
+		name = holy_site_rome_effect_name
+		development_growth_factor = 0.1
+		stewardship = 1
+	}
+}
+
+lingshou = {
+	county = c_uuii_p_367
+	barony = b_uuii_p_361
+
+	character_modifier = {
+		name = holy_site_cologne_effect_name
+		cultural_head_fascination_mult = 0.05
+		monthly_county_control_growth_factor = 0.05
+	}
+}
+
+fushi = {
+	county = c_uuii_p_1434
+	barony = b_uuii_p_1434
+
+	character_modifier = {
+		name = holy_site_santiago_effect_name
+		supply_duration = 0.2
+		holy_order_hire_cost_mult = -0.1
+	}
+}
+
+luo1 = {
+	county = c_uuii_p_1024
+	barony = b_uuii_p_1062
+
+	character_modifier = {
+		name = holy_site_kent_effect_name
+		religious_vassal_opinion = 5
+		sway_scheme_phase_duration_add = minor_scheme_phase_duration_bonus_value
+	}
+}
+
+gaowang = {
+	county = c_uuii_p_2762
+	barony = b_uuii_p_1603
+
+	character_modifier = {
+		name = holy_site_dwin_effect_name
+		monthly_piety_gain_mult = 0.05
+		learning = 1
+	}
+}
+
+xiquanqiu = {
+	county = c_uuii_p_3609
+	barony = b_uuii_p_1523
+
+	character_modifier = {
+		name = holy_site_koloneia_effect_name
+		direct_vassal_opinion = 5
+	}
+}
+
+yiqu = {
+	county = c_uuii_p_1478
+	barony = b_uuii_p_1478
+
+	character_modifier = {
+		name = holy_site_beirut_effect_name
+		councillor_opinion = 5
+	}
+}
+
+zhangye = {
+	county = c_zhangye
+	barony = b_uuii_p_1566
+
+	character_modifier = {
+		name = holy_site_baghdad_effect_name
+		development_growth_factor = 0.1
+		church_holding_build_gold_cost = -0.1
+	}
+}
+
+bajiao = {
+	county = c_uuii_p_1445
+	barony = b_uuii_p_1445
+
+	character_modifier = {
+		name = holy_site_farz_effect_name
+		diplomacy_per_piety_level = 1
+	}
+}
+
+xaunwei = {
+	county = c_uuii_p_1561
+	barony = b_uuii_p_1561
+
+	character_modifier = {
+		name = holy_site_mecca_effect_name
+		monthly_piety_gain_per_knight_mult = 0.02
+		knight_effectiveness_mult = 0.1
+	}
+}
+
+yiwulv = {
+	county = c_uuii_p_3877
+	barony = b_uuii_p_3475
+
+	character_modifier = {
+		name = holy_site_armagh_effect_name
+		monthly_piety_gain_mult = 0.05
+		learning_per_piety_level = 1
+	}
+}
+
+tuhe = {
+	county = c_uuii_p_3488
+	barony = b_uuii_p_3488
+
+	character_modifier = {
+		name = holy_site_medina_effect_name
+		diplomacy_per_piety_level = 1
+	}
+}
+
+bailang = {
+	county = c_uuii_p_3488
+	barony = b_uuii_p_3491
+
+	character_modifier = {
+		name = holy_site_sinai_effect_name
+		desert_mountains_advantage = 5
+		learning = 1
+	}
+}
+
+gangcheng = {
+	county = c_uuii_p_1340
+	barony = b_uuii_p_2652
+
+	character_modifier = {
+		name = holy_site_ragusa_effect_name
+		diplomacy = 1
+	}
+}
+
+yilou = {
+	county = c_uuii_p_2616
+	barony = b_uuii_p_2616
+
+	character_modifier = {
+		name = holy_site_esztergom_effect_name
+		county_opinion_add = 10
+	}
+}
+
+ying = {
+	county = c_uuii_p_1755
+	barony = b_uuii_p_1756
+
+	character_modifier = {
+		name = holy_site_kufa_effect_name
+		intrigue_per_piety_level = 1
+	}
+}
+
+e = {
+	county = c_uuii_p_1825
+	barony = b_uuii_p_1819
+
+	character_modifier = {
+		name = holy_site_basra_effect_name
+		learning = 2
+	}
+}
+
+kui = {
+	county = c_uuii_p_1813
+	barony = b_uuii_p_1811
+
+	character_modifier = {
+		name = holy_site_nizwa_effect_name
+		stewardship_per_piety_level = 1
+	}
+}
+
+# Shared Taoist sites: effects follow Zhengyi's five vanilla slots.
+
+uuii_hs_tao_longhushan = {
+	county = c_uuii_p_6516
+	barony = b_uuii_p_6705
+
+	character_modifier = {
+		name = holy_site_uuii_hs_tao_longhushan_effect_name
+		clergy_opinion = 5
+		personal_scheme_phase_duration_add = minor_scheme_phase_duration_bonus_value
+	}
+}
+
+uuii_hs_tao_wudang = {
+	county = c_uuii_p_1782
+
+	character_modifier = {
+		name = holy_site_uuii_hs_tao_wudang_effect_name
+		martial = 1
+		prowess_per_prestige_level = 1
+	}
+}
+
+uuii_hs_tao_qingcheng = {
+	county = c_uuii_p_4282
+
+	character_modifier = {
+		name = holy_site_uuii_hs_tao_qingcheng_effect_name
+		life_expectancy = 1
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.15
+	}
+}
+
+uuii_hs_tao_taishan = {
+	county = c_uuii_p_6934
+
+	character_modifier = {
+		name = holy_site_uuii_hs_tao_taishan_effect_name
+		monthly_piety_gain_mult = 0.05
+		learning = 1
+	}
+}
+
+uuii_hs_tao_luyi = {
+	county = c_uuii_p_599
+	barony = b_uuii_p_6991
+
+	character_modifier = {
+		name = holy_site_uuii_hs_tao_luyi_effect_name
+		learning = 1
+		monthly_piety = 1
+	}
+}
+
+# Shared Fusang sites: effects follow Shinto's five vanilla slots.
+
+uuii_hs_fusang_kaga = {
+	county = c_uuii_p_2880
+
+	character_modifier = {
+		name = holy_site_uuii_hs_fusang_kaga_effect_name
+		learning_per_piety_level = 1
+	}
+}
+
+uuii_hs_fusang_weibei = {
+	county = c_uuii_p_2931
+
+	character_modifier = {
+		name = holy_site_uuii_hs_fusang_weibei_effect_name
+		knight_effectiveness_mult = 0.2
+	}
+}
+
+uuii_hs_fusang_ohno = {
+	county = c_uuii_p_2829
+
+	character_modifier = {
+		name = holy_site_uuii_hs_fusang_ohno_effect_name
+		men_at_arms_maintenance = -0.05
+	}
+}
+
+uuii_hs_fusang_aki = {
+	county = c_uuii_p_4039
+
+	character_modifier = {
+		name = holy_site_uuii_hs_fusang_aki_effect_name
+		clergy_opinion = 5
+	}
+}
+
+uuii_hs_fusang_kanpai = {
+	county = c_uuii_p_3514
+
+	character_modifier = {
+		name = holy_site_uuii_hs_fusang_kanpai_effect_name
+		tax_mult = 0.05
+	}
+}
+
+# Shared Korean sites: effects follow Muism's five vanilla slots.
+
+uuii_hs_korean_gungnae = {
+	county = c_uuii_p_3883
+
+	character_modifier = {
+		name = holy_site_uuii_hs_korean_gungnae_effect_name
+		mountains_tax_mult = 0.15
+		stress_loss_mult = 0.1
+	}
+}
+
+uuii_hs_korean_huimo = {
+	county = c_uuii_p_3429
+
+	character_modifier = {
+		name = holy_site_uuii_hs_korean_huimo_effect_name
+		monthly_prestige_gain_mult = 0.2
+		same_faith_opinion = 5
+	}
+}
+
+uuii_hs_korean_saro = {
+	county = c_uuii_p_3378
+
+	character_modifier = {
+		name = holy_site_uuii_hs_korean_saro_effect_name
+		fertility = 0.10
+		monthly_lifestyle_xp_gain_mult = 0.15
+	}
+}
+
+uuii_hs_korean_tamna = {
+	county = c_uuii_p_3322
+
+	character_modifier = {
+		name = holy_site_uuii_hs_korean_tamna_effect_name
+		legitimacy_gain_mult = 0.1
+		county_opinion_add = 5
+	}
+}
+
+uuii_hs_korean_lelang = {
+	county = c_uuii_p_3373
+
+	character_modifier = {
+		name = holy_site_uuii_hs_korean_lelang_effect_name
+		different_faith_opinion = 10
+	}
+}
+
+# Shared steppe sites: effects follow Tengrism's five vanilla slots.
+
+uuii_hs_steppe_meiji = {
+	county = c_uuii_p_1589
+
+	character_modifier = {
+		name = holy_site_uuii_hs_steppe_meiji_effect_name
+		knight_effectiveness_mult = 0.2
+		prowess_per_prestige_level = 1
+	}
+}
+
+uuii_hs_steppe_jiuyuan = {
+	county = c_uuii_p_1407
+
+	character_modifier = {
+		name = holy_site_uuii_hs_steppe_jiuyuan_effect_name
+		skirmishers_damage_mult = 0.1
+		light_cavalry_damage_mult = 0.1
+		archer_cavalry_damage_mult = 0.1
+	}
+}
+
+uuii_hs_steppe_tanhanshan = {
+	county = c_uuii_p_1340
+
+	character_modifier = {
+		name = holy_site_uuii_hs_steppe_tanhanshan_effect_name
+		prowess_per_piety_level = 1
+		clergy_opinion = 5
+	}
+}
+
+uuii_hs_steppe_chifeng = {
+	county = c_uuii_p_2637
+
+	character_modifier = {
+		name = holy_site_uuii_hs_steppe_chifeng_effect_name
+		levy_size = 0.1
+	}
+}
+
+uuii_hs_steppe_yunzhong = {
+	county = c_uuii_p_2595
+
+	character_modifier = {
+		name = holy_site_uuii_hs_steppe_yunzhong_effect_name
+		army_maintenance_mult = -0.05
+		martial_per_prestige_level = 1
+	}
+}
+
+# Shared southern sites: effects follow Muism's five vanilla slots.
+
+uuii_hs_nanfang_kuaiji = {
+	county = c_uuii_p_6413
+
+	character_modifier = {
+		name = holy_site_uuii_hs_nanfang_kuaiji_effect_name
+		mountains_tax_mult = 0.15
+		stress_loss_mult = 0.1
+	}
+}
+
+uuii_hs_nanfang_panyu = {
+	county = c_uuii_p_6157
+
+	character_modifier = {
+		name = holy_site_uuii_hs_nanfang_panyu_effect_name
+		monthly_prestige_gain_mult = 0.2
+		same_faith_opinion = 5
+	}
+}
+
+uuii_hs_nanfang_jiangzhou = {
+	county = c_uuii_p_4401
+
+	character_modifier = {
+		name = holy_site_uuii_hs_nanfang_jiangzhou_effect_name
+		fertility = 0.10
+		monthly_lifestyle_xp_gain_mult = 0.15
+	}
+}
+
+uuii_hs_nanfang_hanyang = {
+	county = c_uuii_p_4788
+
+	character_modifier = {
+		name = holy_site_uuii_hs_nanfang_hanyang_effect_name
+		legitimacy_gain_mult = 0.1
+		county_opinion_add = 5
+	}
+}
+
+uuii_hs_nanfang_yongchang = {
+	county = c_uuii_p_6162
+
+	character_modifier = {
+		name = holy_site_uuii_hs_nanfang_yongchang_effect_name
+		different_faith_opinion = 10
+	}
+}

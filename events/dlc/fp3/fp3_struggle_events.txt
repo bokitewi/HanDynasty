@@ -1,0 +1,27 @@
+# Unsupported vanilla regional event chain retained only as inert public shells.
+namespace = fp3_struggle
+
+fp3_struggle.0001 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_struggle.0051 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_struggle.0071 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_struggle.0072 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_struggle.0081 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_struggle.0082 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_struggle.0091 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_struggle.0092 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_struggle.0095 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_struggle.0096 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_struggle.0100 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_struggle.0101 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_struggle.0191 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_struggle.0192 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_struggle.8000 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_struggle.8001 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_struggle.8002 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_struggle.9981 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_struggle.9982 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_struggle.9983 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_struggle.9984 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_struggle.9985 = { type = character_event hidden = yes trigger = { always = no } }
+
+scripted_trigger fp3_struggle_0001_valid_ai_struggle_char_trigger = { always = no }

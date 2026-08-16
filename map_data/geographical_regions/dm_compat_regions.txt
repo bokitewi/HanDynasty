@@ -1,0 +1,532 @@
+﻿world_asia_japan = { }
+
+aarlud_khanate_de_jure_region = { }
+
+central_asian_earthquake_region = { }
+
+po_river_region = { }
+
+tgp_yong_region = { }
+
+amur_river_region = { }
+
+danube_river_region = { }
+
+black_sea_coast_region = { }
+
+custom_carthago_nova = { }
+
+arab_nomad_area = { }
+
+baruun_khanate_de_jure_region = { }
+
+dlc_fp3_seljuk_birth_region = { }
+
+custom_mauretania = { }
+
+tgp_song_region = { }
+
+blue_horde_de_jure_region = { }
+
+chagatai_de_jure_region = { }
+
+cp4_music_area = { }
+
+custom_brunei_region = { }
+
+greek_backwater_modifier_region = { }
+
+himalaya_earthquake_region = { }
+
+dlc_fp3_greater_persian_frontier_regions = { }
+
+dlc_mpo_867_herders = { }
+
+dlc_tgp_great_wall_shanhai = { }
+
+global_flood_region = { }
+
+custom_arakan_mountains = { }
+
+eastern_plateau_nomad_area = { }
+
+custom_beth_nahrain = { }
+
+tgp_han_region = { }
+
+tgp_shen_region = { }
+
+tgp_chu_region = { }
+
+material_woods_asia_northeast = { }
+
+custom_carthage = { }
+
+tgp_wei_region = { }
+
+custom_carthaginian_empire = { }
+
+custom_cumbria = { }
+
+material_woods_hickory = { }
+
+custom_eastern_balkans = { }
+
+special_mongol_empire_red_horde_region = { }
+
+custom_dynastic_cycle = { }
+
+custom_ep3_restore_rome_eastern_empire = { }
+
+lovat_river_region = { }
+
+custom_ryukyu = { }
+
+guadalquivir_river_region = { }
+
+custom_gotland = { }
+
+custom_lanka = { }
+
+custom_majapahit = { }
+
+guadiana_river_region = { }
+
+sahel_north_africa_nomad_area = { }
+
+tgp_yang_region = { }
+
+tgp_e_region = { }
+
+golden_horde_de_jure_region = { }
+
+custom_panda_region = { }
+
+custom_polabia = { }
+
+tgp_huai_region = { }
+
+dlc_mpo_steppe_north_china_expansion = { }
+
+special_mongol_empire_conquest_region_bonus = { }
+
+seasonal_region_west_africa = { }
+
+world_asia_cambodia = { }
+
+tgp_han_henan_region = { }
+
+tgp_dian_region = { }
+
+dlc_mpo_steppe_caucasus_expansion = { }
+
+custom_tai_migration_origin = { }
+
+custom_tai_migration_target = { }
+
+custom_theodosian_ere = { }
+
+custom_tripolitania = { }
+
+custom_viet_lands = { }
+
+tgp_xu_region = { }
+
+daugava_river_region = { }
+
+dlc_ep1_arthurian_heartlands_region = { }
+
+tgp_cheng_region = { }
+
+tgp_yue_2_region = { }
+
+heritage_area_volga_bulgaria = { }
+
+tgp_ji_hebei_region = { }
+
+tgp_chen_region = { }
+
+south_china_coastaline_earthquake_region = { }
+
+dlc_mpo_steppe_e_amur_expansion = { }
+
+dniester_river_region = { }
+
+tigris_river_region = { }
+
+dlc_fp3_eastern_persian_frontier_regions = { }
+
+sahel_sub_saharan_africa_nomad_area = { }
+
+tgp_zou_region = { }
+
+dlc_mpo_1066_herders = { }
+
+dlc_mpo_1066_nomads = { }
+
+tgp_yu_region = { }
+
+dlc_mpo_1178_herders = { }
+
+tgp_yan_region = { }
+
+dlc_mpo_1178_nomads = { }
+
+troy_region = { }
+
+dlc_mpo_867_nomads = { }
+
+tgp_bao_region = { }
+
+dlc_tgp_silk_road_route_tibet = { }
+
+dlc_tgp_silk_road_route_central_asia = { }
+
+dlc_mpo_steppe_central_china_expansion = { }
+
+heritage_area_pontic_steppe = { }
+
+dlc_mpo_steppe_central_siberia_addon = { }
+
+great_yuan_de_jure_region = { }
+
+world_siberia = { }
+
+dlc_mpo_steppe_east_andong_addon = { }
+
+dlc_mpo_steppe_east_buryatia_addon = { }
+
+dlc_mpo_steppe_east_china_addon = { }
+
+tgp_lai_region = { }
+
+dlc_mpo_steppe_hexi_tarim_expansion = { }
+
+dlc_mpo_steppe_persia_expansion = { }
+
+dlc_mpo_steppe_siberia_further_expansion = { }
+
+seasonal_region_east_africa = { }
+
+dlc_tgp_grand_canal_1_region = { }
+
+dlc_tgp_grand_canal_2_region = { }
+
+dlc_tgp_grand_canal_3_region = { }
+
+dlc_tgp_grand_canal_4_region = { }
+
+dlc_tgp_grand_canal_region = { }
+
+dlc_tgp_great_wall_liaodong = { }
+
+ghw_region_jerusalem = { }
+
+dlc_tgp_mainland_southeast_asia_region = { }
+
+dlc_tgp_silk_road_route_china = { }
+
+dlc_tgp_silk_road_route_india = { }
+
+dlc_tgp_silk_road_route_occident = { }
+
+material_woods_asia_east = { }
+
+dlc_tgp_silk_road_route_transcaspia = { }
+
+dlc_tgp_swahili_coast_region = { }
+
+dnieper_river_region = { }
+
+don_river_region = { }
+
+tgp_di_region = { }
+
+seine_river_region = { }
+
+world_asia_khitan_steppe = { }
+
+egypt_nomad_area = { }
+
+material_woods_bamboo = { }
+
+elbe_river_region = { }
+
+tgp_liang_west_region = { }
+
+ganges_river_region = { }
+
+special_mongol_empire_omnod_dalai_khanate_region = { }
+
+garonne_river_region = { }
+
+tgp_huo_region = { }
+
+ilkhanate_de_jure_region = { }
+
+tgp_xi_region = { }
+
+sami_nomad_area = { }
+
+tgp_gan_region = { }
+
+tgp_lu_region = { }
+
+tgp_silk_road_india_region = { }
+
+seasonal_region_deccan = { }
+
+tgp_huang_region = { }
+
+tgp_deng_region = { }
+
+red_horde_de_jure_region = { }
+
+israel_region = { }
+
+mongolia_baikal_earthquake_region = { }
+
+material_woods_palm = { }
+
+tgp_yue_region = { }
+
+godavari_river_region = { }
+
+mpo_region_permafrost = { }
+
+material_woods_yew = { }
+
+world_asia_southeast_islands = { }
+
+world_asia_malaysia = { }
+
+sea_swahili_coast = { }
+
+yangtze_river_region = { }
+
+tgp_duchy_chinese_naming_region = { }
+
+tgp_min_region = { }
+
+heritage_area_cumania = { }
+
+tgp_silk_road_tibet_region = { }
+
+world_asia_sakhalin_hokkaido = { }
+
+heritage_area_perm = { }
+
+heritage_area_turkestan = { }
+
+tgp_jiao_region = { }
+
+horn_of_africa_nomad_area = { }
+
+tgp_qi_region = { }
+
+indus_river_region = { }
+
+irrawaddy_river_region = { }
+
+karelia_nomad_area = { }
+
+kaveri_river_region = { }
+
+kirghiz_homelands = { }
+
+loire_river_region = { }
+
+mahanadi_river_region = { }
+
+tgp_ba_region = { }
+
+tgp_shang_region = { }
+
+seasonal_region_bengal = { }
+
+special_mongol_empire_conquest_region_prio_1_alpha = { }
+
+material_woods_asia_southeast = { }
+
+material_woods_cherry = { }
+
+material_woods_dogwood = { }
+
+paddy_fields_region = { }
+
+material_woods_hazel = { }
+
+material_woods_mulberry = { }
+
+mediteranean_coast = { }
+
+mekong_river_region = { }
+
+niger_river_region = { }
+
+nile_river_region = { }
+
+north_china_earthquake_region = { }
+
+tgp_shu_region = { }
+
+north_pacific_earthquake_region = { }
+
+tgp_dai_region = { }
+
+nubia_nomad_area = { }
+
+omnod_dalai_khanate_de_jure_region = { }
+
+pearl_river_region = { }
+
+rhine_river_region = { }
+
+rhone_river_region = { }
+
+river_valley_nomad_area = { }
+
+tgp_silk_road_asia_minor_minus_georgia = { }
+
+sahel_desert_nomad_area = { }
+
+tapti_river_region = { }
+
+tgp_hua_region = { }
+
+special_mongol_empire_great_yuan_region = { }
+
+tgp_yuan_ferghana_region = { }
+
+tgp_jin_region = { }
+
+seasonal_region_maritime_southeast_asia = { }
+
+seasonal_region_peninsular_southeast_asia = { }
+
+seasonal_region_rajasthan = { }
+
+sichuan_myanmar_earthquake_region = { }
+
+special_mongol_empire_blue_horde_region = { }
+
+vistula_river_region = { }
+
+tgp_bi_region = { }
+
+tgp_cai_region = { }
+
+tgp_cao_region = { }
+
+tgp_wey_region = { }
+
+tgp_county_chinese_naming_region = { }
+
+tgp_dao_region = { }
+
+tgp_qin_region = { }
+
+tgp_gui_region = { }
+
+tgp_guo_region = { }
+
+tgp_ji_region = { }
+
+tgp_jing_region = { }
+
+tgp_qian_region = { }
+
+tgp_ju_region = { }
+
+tgp_kang_region = { }
+
+tgp_liang_region = { }
+
+tgp_liao_region = { }
+
+tgp_ou_region = { }
+
+tgp_peng_region = { }
+
+tgp_qi_guannei_region = { }
+
+tgp_qiong_region = { }
+
+tgp_silk_road_central_asia_region = { }
+
+tgp_silk_road_occident_region = { }
+
+tgp_silk_road_transcaspia_region = { }
+
+tgp_sui_region = { }
+
+tgp_tan_region = { }
+
+tgp_tang_region = { }
+
+tgp_teng_region = { }
+
+tgp_you_region = { }
+
+tgp_wu_region = { }
+
+tgp_xia_region = { }
+
+world_asia_shiwei_steppe = { }
+
+tgp_xiang_region = { }
+
+tgp_xing_region = { }
+
+tgp_xu_shandong_region = { }
+
+world_asia_korea = { }
+
+tgp_yin_region = { }
+
+tgp_ying_region = { }
+
+tgp_zhao_region = { }
+
+tgp_zheng_region = { }
+
+tgp_zhou_region = { }
+
+togskol_khanatede_jure_region = { }
+
+volga_river_region = { }
+
+western_plateau_nomad_area = { }
+
+white_horde_de_jure_region = { }
+
+world_asia_and_india = { }
+
+world_asia_borneo = { }
+
+world_asia_indonesia = { }
+
+world_asia_north_east_and_korea = { }
+
+world_asia_north_east_and_korea_weak_earthquake_region = { }
+
+world_asia_philippines = { }
+
+world_asia_southeast = { }
+
+world_asia_southeast_islands_weak_earthquake_region = { }
+
+world_asia_southeast_mainland = { }
+
+world_asia_sulawesi_maluku = { }
+
+world_asia_thailand = { }
+
+world_asia_vietnam = { }
+
+world_atlantic = { }
+
+world_central_asia = { }
+
+yellow_river_region = { }
+

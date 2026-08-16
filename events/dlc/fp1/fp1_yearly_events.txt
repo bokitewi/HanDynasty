@@ -1,0 +1,127 @@
+# Unsupported vanilla regional event chain retained only as inert public shells.
+namespace = fp1_yearly
+
+fp1_yearly.0001 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.0011 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.0021 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.0031 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.0041 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.0042 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.0051 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.0052 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.0061 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.0062 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.0063 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.0064 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.0065 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.0071 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.0081 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.0082 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.0083 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.0084 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.0085 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.0091 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.0101 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.0111 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.0501 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.0511 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.0521 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.0531 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.0541 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.0551 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.0561 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.0571 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.0581 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.0591 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.0601 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.0611 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.0621 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.0622 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.0631 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.0632 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.0641 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.0651 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.0661 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.0671 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.0681 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.0691 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.0692 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.1001 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.1011 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.1012 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.1013 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.1014 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.1015 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.1061 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.1062 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.1063 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.1071 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_yearly.1081 = { type = character_event hidden = yes trigger = { always = no } }
+
+scripted_trigger deviant_knight_trigger = { always = no }
+scripted_trigger fp1_0031_any_valid_king_trigger = { always = no }
+scripted_trigger fp1_0071_loveli_lakes_trigger = { always = no }
+scripted_trigger fp1_0071_valid_marshal_for_delegation_trigger = { always = no }
+scripted_trigger fp1_0111_discountable_courtier_trigger = { always = no }
+scripted_trigger fp1_0111_superstitious_courtier_trigger = { always = no }
+scripted_trigger fp1_0111_suspicious_courtier_trigger = { always = no }
+scripted_trigger fp1_0541_valid_child_prankster_trigger = { always = no }
+scripted_trigger fp1_0541_valid_courtier_victim_trigger = { always = no }
+scripted_trigger fp1_0551_appropriately_smelly_courtier_trigger = { always = no }
+scripted_trigger fp1_0561_is_friendly_knight_trigger = { always = no }
+scripted_trigger fp1_0571_suitable_annoyed_courtier_trigger = { always = no }
+scripted_trigger fp1_0571_suitable_vandal_child_available_trigger = { always = no }
+scripted_trigger fp1_0571_suitable_vandal_site_trigger = { always = no }
+scripted_trigger fp1_0581_valid_courtier_to_bully_trigger = { always = no }
+scripted_trigger fp1_0581_wrong_gender_child_wishes_to_fight_trigger = { always = no }
+scripted_trigger fp1_0591_fighting_counties_at_thing_trigger = { always = no }
+scripted_trigger fp1_0591_secondary_county_trigger = { always = no }
+scripted_trigger fp1_0601_valid_county_for_things_trigger = { always = no }
+scripted_trigger fp1_0611_aggressive_child_candidate_trigger = { always = no }
+scripted_trigger fp1_0611_victim_child_candidate_trigger = { always = no }
+scripted_trigger fp1_0621_valid_child_wants_loot_trigger = { always = no }
+scripted_trigger fp1_0631_suitable_cynical_knight_trigger = { always = no }
+scripted_trigger fp1_0641_neighbouring_ruler_with_stealable_ships_trigger = { always = no }
+scripted_trigger fp1_0641_raider_with_longships_trigger = { always = no }
+scripted_trigger fp1_0661_knight_appropriate_for_skiing_trigger = { always = no }
+scripted_trigger fp1_0671_available_older_sibling_trigger = { always = no }
+scripted_trigger fp1_0681_child_that_might_like_raiding_trigger = { always = no }
+scripted_trigger fp1_0681_haughty_knights_trigger = { always = no }
+scripted_trigger fp1_0691_knight_still_valid_convertable_trigger = { always = no }
+scripted_trigger fp1_0692_valid_convertable_knight_trigger = { always = no }
+scripted_trigger fp1_child_not_had_decisive_skating_lessons_trigger = { always = no }
+scripted_trigger fp1_funeral_longship_generic_mourner_trigger = { always = no }
+scripted_trigger fp1_funeral_longship_likes_duels = { always = no }
+scripted_trigger fp1_funeral_longship_likes_hunting = { always = no }
+scripted_trigger fp1_funeral_longship_likes_magic = { always = no }
+scripted_trigger fp1_funeral_longship_likes_parties = { always = no }
+scripted_trigger fp1_keeps_stinking_hunting_trophy = { always = no }
+scripted_trigger fp1_valid_riddler_at_court_trigger = { always = no }
+scripted_trigger mysterious_stranger_godi_same_faith_trigger = { always = no }
+scripted_trigger mysterious_stranger_godi_same_religion_trigger = { always = no }
+scripted_trigger offensive_courtier_candidate_trigger = { always = no }
+scripted_trigger suitable_islamic_realm_trigger = { always = no }
+scripted_trigger suitable_knight_for_dispute_trigger = { always = no }
+scripted_trigger suitably_terrible_knight_trigger = { always = no }
+scripted_trigger valid_germanic_faith_trigger = { always = no }
+scripted_trigger valid_non_germanic_reformed_faith_trigger = { always = no }
+
+scripted_effect agree_to_courtier_becoming_nithing_effect = { }
+scripted_effect fp1_0071_apply_hungry_troll_modifier_effect = { }
+scripted_effect fp1_0081_flee_option_effect = { }
+scripted_effect fp1_0081_invalidation_toast_effect = { }
+scripted_effect fp1_0081_troll_duel_alternate_effect = { }
+scripted_effect fp1_0081_troll_duel_effect = { }
+scripted_effect fp1_0081_troll_duel_victory_effect = { }
+scripted_effect fp1_0111_accursed_receives_curse_effect = { }
+scripted_effect fp1_0111_correct_accusation_effect = { }
+scripted_effect fp1_0111_false_accusation_effect = { }
+scripted_effect fp1_0111_randomise_sorcerer_identity_effect = { }
+scripted_effect fp1_0111_select_accusation_effect = { }
+scripted_effect fp1_funeral_longship_clear_variables_effect = { }
+scripted_effect fp1_mysterious_stranger_follow_up_event_picker_effect = { }
+scripted_effect fp1_pick_outdoorsy_child_for_winter_effect = { }
+scripted_effect holmgang_results_effect = { }
+scripted_effect mysterious_stranger_add_possible_converts_to_specific_list_effect = { }
+scripted_effect mysterious_stranger_different_religion_convert_courtiers_effect = { }
+scripted_effect mysterious_stranger_disappears_effect = { }

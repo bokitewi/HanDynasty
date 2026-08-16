@@ -1,0 +1,24 @@
+# Unsupported vanilla regional event chain retained only as inert public shells.
+namespace = fp1_major_decisions
+
+fp1_major_decisions.0001 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_major_decisions.0002 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_major_decisions.0003 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_major_decisions.0011 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_major_decisions.0012 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_major_decisions.0013 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_major_decisions.0021 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_major_decisions.0022 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_major_decisions.0023 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_major_decisions.0031 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_major_decisions.0032 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_major_decisions.0033 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_major_decisions.1001 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_major_decisions.1002 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_major_decisions.1011 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_major_decisions.1012 = { type = character_event hidden = yes trigger = { always = no } }
+
+scripted_trigger fp1_major_decisions_1001_valid_sycophant_trigger = { always = no }
+
+scripted_effect fp1_1011_gib_pretty_hair_effect = { }
+scripted_effect fp1_major_decisions_1002_courtiers_terrified_effect = { }

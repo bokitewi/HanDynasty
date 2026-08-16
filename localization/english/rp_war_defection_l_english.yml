@@ -1,0 +1,10 @@
+﻿l_english:
+ rp_war_defection.0001.t: "Defection in the Field"
+ rp_war_defection.0001.desc: "[rp_defector.GetTitledFirstName] sends envoys into your camp, claiming that [rp_defection_old_liege.GetTitledFirstNamePossessive] rule has become unbearable and offering [rp_defector.GetHerHis] lands and followers to your cause.\n\nWord spreads quickly through the ranks: the banners of [rp_defector.GetPrimaryTitle.GetNameNoTier] have turned against their former lord."
+ rp_war_defection.0001.a: "A wise choice."
+ rp_war_defection.0002.t: "A Vassal Defects"
+ rp_war_defection.0002.desc: "Disaster! [rp_defector.GetTitledFirstName] has defected to [rp_defection_new_liege.GetTitledFirstName]!\n\nThe troops of [rp_defector.GetHerHis] lands have turned their spears, and every familiar banner now feels like an insult."
+ rp_war_defection.0002.desc.founding: "Disaster! [rp_defector.GetTitledFirstName] has defected to [rp_defection_new_liege.GetTitledFirstName]!\n\nWorse still, this was one of the old founding followers, long favored by your house. Court and camp alike are shaken by the betrayal."
+ rp_war_defection.0002.a: "Traitor!"
+ rp_defected_to_us_opinion: "Defected in War"
+ rp_defected_from_me_opinion: "Defected in Battle"

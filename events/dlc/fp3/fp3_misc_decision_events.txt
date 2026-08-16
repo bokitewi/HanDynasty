@@ -1,0 +1,35 @@
+# Unsupported vanilla regional event chain retained only as inert public shells.
+namespace = fp3_misc_decisions
+
+fp3_misc_decisions.0005 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_misc_decisions.0006 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_misc_decisions.0010 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_misc_decisions.0011 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_misc_decisions.0015 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_misc_decisions.0020 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_misc_decisions.0021 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_misc_decisions.0022 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_misc_decisions.0023 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_misc_decisions.0025 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_misc_decisions.0026 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_misc_decisions.0027 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_misc_decisions.0028 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_misc_decisions.0029 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_misc_decisions.0030 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_misc_decisions.0031 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_misc_decisions.0032 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_misc_decisions.0041 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_misc_decisions.0042 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_misc_decisions.0043 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_misc_decisions.0051 = { type = character_event hidden = yes trigger = { always = no } }
+
+scripted_trigger fp3_clan_challenge_negotiate_age_health_trigger = { always = no }
+scripted_trigger fp3_misc_decisions_0031_preferred_ethoses_trigger = { always = no }
+
+scripted_effect fp3_clan_challenge_negotiate_bargain_effect = { }
+scripted_effect fp3_clan_challenge_negotiate_fail_effect = { }
+scripted_effect fp3_clan_challenge_negotiate_success_effect = { }
+scripted_effect fp3_misc_decisions_0031_apply_opinion_to_batch_effect = { }
+scripted_effect fp3_misc_decisions_0031_create_char_no_dynasty_effect = { }
+scripted_effect fp3_misc_decisions_0031_create_char_with_dynasty_effect = { }
+scripted_effect fp3_misc_decisions_0031_pick_best_appropriate_char_effect = { }

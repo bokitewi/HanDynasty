@@ -1,0 +1,9 @@
+﻿# The vanilla game_start.txt is shadowed by this total conversion because
+# its fixed-object setup touches titles and provinces removed by the map.
+# Keep the project-owned Dynastic Cycle startup as a child on_action, matching
+# the existing UUII startup pattern.
+on_game_start = {
+	on_actions = {
+		saas_start_dynastic_cycle
+	}
+}

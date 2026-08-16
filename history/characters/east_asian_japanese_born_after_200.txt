@@ -1,0 +1,116 @@
+﻿# Generated from 華陽國志、三國志、三國演義、後漢書 and 漢晉春秋.
+# Culture: japanese
+# Time partition: born_after_200 (birth > 200).
+# No title history is assigned. Dates marked in the evidence audit may be estimates.
+
+##### 【邪马台台与】
+xie_ma_tai_tai_yu={
+	name="uuii_book_xie_ma_tai_tai_yu_name" #马台台与
+	dynasty_house="house_121010049001013"
+	female=yes
+	father="xie_ma_tai_zuo_zhi"
+	culture="japanese"
+	faith="fusang_pagan"
+	diplomacy="8"
+	martial="6"
+	stewardship="6"
+	intrigue="5"
+	learning="6"
+	prowess="9"
+	health=5.5
+	disallow_random_traits=no
+	235.7.1={
+		birth=yes
+	}
+	305.7.1={
+		death=yes
+	}
+}
+
+##### 【卑弥呼】
+bei_mi_hu={
+	name="uuii_book_bei_mi_hu_name" #弥呼
+	dynasty_house="uuii_book_house_78e180389242"
+	culture="japanese"
+	faith="fusang_pagan"
+	diplomacy="6"
+	martial="6"
+	stewardship="8"
+	intrigue="8"
+	learning="4"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	208.7.1={
+		birth=yes
+	}
+	248.7.1={
+		death=yes
+	}
+}
+
+##### 【牛利】
+niu_li={
+	name="uuii_book_niu_li_name" #利
+	dynasty_house="uuii_book_house_22b1d280e340"
+	culture="japanese"
+	faith="fusang_pagan"
+	diplomacy="5"
+	martial="8"
+	stewardship="8"
+	intrigue="6"
+	learning="8"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	210.7.1={
+		birth=yes
+	}
+	275.7.1={
+		death=yes
+	}
+}
+
+##### 【难升米】
+nan_sheng_mi={
+	name="uuii_book_nan_sheng_mi_name" #升米
+	dynasty_house="uuii_book_house_43625acb637f"
+	culture="japanese"
+	faith="fusang_pagan"
+	diplomacy="8"
+	martial="4"
+	stewardship="8"
+	intrigue="7"
+	learning="6"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	208.7.1={
+		birth=yes
+	}
+	273.7.1={
+		death=yes
+	}
+}
+
+##### 【刘夏】
+liu_xia_2={
+	name="uuii_book_liu_xia_2_name" #夏
+	dynasty_house="uuii_book_house_6880ca464f2b"
+	culture="japanese"
+	faith="fusang_pagan"
+	diplomacy="8"
+	martial="7"
+	stewardship="9"
+	intrigue="6"
+	learning="5"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	208.7.1={
+		birth=yes
+	}
+	273.7.1={
+		death=yes
+	}
+}

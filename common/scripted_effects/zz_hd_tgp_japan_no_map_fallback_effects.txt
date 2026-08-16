@@ -1,0 +1,14 @@
+﻿# The Han Dynasty map intentionally has no vanilla Japan title tree. Keep
+# TGP Japan callbacks harmless instead of letting vanilla house-name and
+# restoration effects dereference absent c_* / k_chrysanthemum_throne titles.
+assign_japanese_house_name_options_effect = {
+}
+
+assign_japanese_house_name_options_kyoto_effect = {
+}
+
+tgp_restore_japanese_monarchy_yamato_scion_effect = {
+}
+
+tgp_restore_japanese_monarchy_yamato_restoration_effect = {
+}

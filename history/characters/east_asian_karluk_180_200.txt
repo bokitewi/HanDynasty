@@ -1,0 +1,202 @@
+﻿# Generated from 華陽國志、三國志、三國演義、後漢書 and 漢晉春秋.
+# Culture: karluk
+# Time partition: 180_200 (death >= 180 and birth <= 200).
+# No title history is assigned. Dates marked in the evidence audit may be estimates.
+
+##### 【车师迦南】
+che_shi_jia_nan={
+	name="uuii_book_che_shi_jia_nan_name" #师迦南
+	dynasty_house="house_141080001001013"
+	culture="karluk"
+	faith="tengri_pagan"
+	diplomacy="5"
+	martial="6"
+	stewardship="6"
+	intrigue="5"
+	learning="9"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	159.7.1={
+		birth=yes
+	}
+	247.7.1={
+		death=yes
+	}
+}
+
+##### 【弥窴】
+mi_tian={
+	name="uuii_book_mi_tian_name" #窴
+	dynasty_house="house_141080002001013"
+	culture="karluk"
+	faith="tengri_pagan"
+	diplomacy="6"
+	martial="8"
+	stewardship="8"
+	intrigue="6"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	166.7.1={
+		birth=yes
+	}
+	242.7.1={
+		death=yes
+	}
+}
+
+##### 【龙上千】
+long_shang_qian={
+	name="uuii_book_long_shang_qian_name" #上千
+	dynasty_house="house_141080003001013"
+	culture="karluk"
+	faith="tengri_pagan"
+	diplomacy="5"
+	martial="5"
+	stewardship="9"
+	intrigue="5"
+	learning="7"
+	prowess="9"
+	health=5.5
+	disallow_random_traits=no
+	169.7.1={
+		birth=yes
+	}
+	241.7.1={
+		death=yes
+	}
+}
+
+##### 【白自在】
+bai_zi_zai={
+	name="uuii_book_bai_zi_zai_name" #自在
+	dynasty_house="house_141080004001013"
+	culture="karluk"
+	faith="tengri_pagan"
+	diplomacy="6"
+	martial="9"
+	stewardship="7"
+	intrigue="6"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	157.7.1={
+		birth=yes
+	}
+	246.7.1={
+		death=yes
+	}
+}
+
+##### 【卑陆苏特尼】
+bei_lu_su_te_ni={
+	name="uuii_book_bei_lu_su_te_ni_name" #陆苏特尼
+	dynasty_house="house_141080005001013"
+	culture="karluk"
+	faith="tengri_pagan"
+	diplomacy="6"
+	martial="4"
+	stewardship="7"
+	intrigue="7"
+	learning="8"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	163.7.1={
+		birth=yes
+	}
+	241.7.1={
+		death=yes
+	}
+}
+
+##### 【且弥默哆】
+qie_mi_mo_duo={
+	name="uuii_book_qie_mi_mo_duo_name" #弥默哆
+	dynasty_house="house_141080006001013"
+	culture="karluk"
+	faith="tengri_pagan"
+	diplomacy="6"
+	martial="7"
+	stewardship="9"
+	intrigue="7"
+	learning="5"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	167.7.1={
+		birth=yes
+	}
+	245.7.1={
+		death=yes
+	}
+}
+
+##### 【乌贪訾离尤利】
+wu_tan_zi_li_you_li={
+	name="uuii_book_wu_tan_zi_li_you_li_name" #贪訾离尤利
+	dynasty_house="house_141080007001013"
+	culture="karluk"
+	faith="tengri_pagan"
+	diplomacy="6"
+	martial="7"
+	stewardship="9"
+	intrigue="5"
+	learning="5"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	168.7.1={
+		birth=yes
+	}
+	239.7.1={
+		death=yes
+	}
+}
+
+##### 【乌垒尸梨蜜】
+wu_lei_shi_li_mi={
+	name="uuii_book_wu_lei_shi_li_mi_name" #垒尸梨蜜
+	dynasty_house="house_141080008001013"
+	culture="karluk"
+	faith="theravada"
+	diplomacy="5"
+	martial="7"
+	stewardship="8"
+	intrigue="6"
+	learning="6"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	170.7.1={
+		birth=yes
+	}
+	250.7.1={
+		death=yes
+	}
+}
+
+##### 【且弥克孜尔】
+qie_mi_ke_zi_er={
+	name="uuii_book_qie_mi_ke_zi_er_name" #弥克孜尔
+	dynasty_house="house_141080009001013"
+	culture="karluk"
+	faith="tengri_pagan"
+	diplomacy="6"
+	martial="6"
+	stewardship="9"
+	intrigue="8"
+	learning="6"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	170.7.1={
+		birth=yes
+	}
+	250.7.1={
+		death=yes
+	}
+}

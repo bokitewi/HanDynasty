@@ -1,0 +1,21 @@
+﻿bokitewi = {
+	name = "bokitewi_name"
+	dynasty_house = "house_boki"
+	culture = "greek"
+	faith = "hellenic_pagan"
+	diplomacy = 7
+	martial = 7
+	stewardship = 7
+	intrigue = 7
+	learning = 7
+	prowess = 5
+	trait = calm
+	trait = temperate
+	trait = ambitious
+	trait = education_learning_4
+	disallow_random_traits = yes
+
+	165.1.1 = {
+		birth = yes
+	}
+}

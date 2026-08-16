@@ -1,0 +1,71 @@
+﻿# Generated from 華陽國志、三國志、三國演義、後漢書 and 漢晉春秋.
+# Culture: fuyu
+# Time partition: dead_before_180 (death < 180).
+# No title history is assigned. Dates marked in the evidence audit may be estimates.
+
+##### 【杨震】
+yang_zhen={
+	name="uuii_book_yang_zhen_name" #震
+	dynasty_house="house_111010016007013"
+	culture="fuyu"
+	faith="yemaek_shamanism"
+	diplomacy="4"
+	martial="8"
+	stewardship="8"
+	intrigue="8"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	trait=education_intrigue_4
+	65.7.1={
+		birth=yes
+	}
+	124.7.1={
+		death=yes
+	}
+}
+
+##### 【马援】
+ma_yuan={
+	name="uuii_book_ma_yuan_name" #援
+	dynasty_house="house_111010052004013"
+	culture="fuyu"
+	faith="yemaek_shamanism"
+	diplomacy="3"
+	martial="5"
+	stewardship="4"
+	intrigue="8"
+	learning="15"
+	prowess="2"
+	health=5.5
+	disallow_random_traits=no
+	trait=education_learning_3
+	1.7.1={
+		birth=yes
+	}
+	49.7.1={
+		death=yes
+	}
+}
+
+##### 【冯焕】
+feng_huan={
+	name="uuii_book_feng_huan_name" #焕
+	culture="fuyu"
+	faith="yemaek_shamanism"
+	diplomacy="5"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	89.7.1={
+		birth=yes
+	}
+	154.7.1={
+		death=yes
+	}
+}

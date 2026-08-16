@@ -1,0 +1,136 @@
+﻿# Generated from 華陽國志、三國志、三國演義、後漢書 and 漢晉春秋.
+# Culture: buryat
+# Time partition: 180_200 (death >= 180 and birth <= 200).
+# No title history is assigned. Dates marked in the evidence audit may be estimates.
+
+##### 【蔑儿乞帖木儿】
+mie_er_qi_tie_mu_er={
+	name="uuii_book_mie_er_qi_tie_mu_er_name" #儿乞帖木儿
+	dynasty_house="house_131020001001013"
+	culture="buryat"
+	faith="tengri_pagan"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="8"
+	learning="6"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	162.7.1={
+		birth=yes
+	}
+	228.7.1={
+		death=yes
+	}
+}
+
+##### 【八剌忽僧格尔】
+ba_la_hu_seng_ge_er={
+	name="uuii_book_ba_la_hu_seng_ge_er_name" #剌忽僧格尔
+	dynasty_house="house_131020002001013"
+	culture="buryat"
+	faith="tengri_pagan"
+	diplomacy="5"
+	martial="6"
+	stewardship="5"
+	intrigue="5"
+	learning="9"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	164.7.1={
+		birth=yes
+	}
+	231.7.1={
+		death=yes
+	}
+}
+
+##### 【朗改部噶林】
+lang_gai_bu_ga_lin={
+	name="uuii_book_lang_gai_bu_ga_lin_name" #改部噶林
+	dynasty_house="house_131020003001013"
+	culture="buryat"
+	faith="tengri_pagan"
+	diplomacy="6"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	160.7.1={
+		birth=yes
+	}
+	229.7.1={
+		death=yes
+	}
+}
+
+##### 【札只剌乌日塔】
+zha_zhi_la_wu_ri_ta={
+	name="uuii_book_zha_zhi_la_wu_ri_ta_name" #只剌乌日塔
+	dynasty_house="house_131020004001013"
+	culture="buryat"
+	faith="tengri_pagan"
+	diplomacy="6"
+	martial="7"
+	stewardship="6"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	160.7.1={
+		birth=yes
+	}
+	229.7.1={
+		death=yes
+	}
+}
+
+##### 【泰赤乌腾格尔】
+tai_chi_wu_teng_ge_er={
+	name="uuii_book_tai_chi_wu_teng_ge_er_name" #赤乌腾格尔
+	dynasty_house="house_131020005001013"
+	culture="buryat"
+	faith="tengri_pagan"
+	diplomacy="6"
+	martial="8"
+	stewardship="8"
+	intrigue="7"
+	learning="7"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=no
+	160.7.1={
+		birth=yes
+	}
+	229.7.1={
+		death=yes
+	}
+}
+
+##### 【鞠乌兰托噶】
+ju_wu_lan_tuo_ga={
+	name="uuii_book_ju_wu_lan_tuo_ga_name" #乌兰托噶
+	dynasty_house="house_131020006001013"
+	culture="buryat"
+	faith="tengri_pagan"
+	diplomacy="9"
+	martial="7"
+	stewardship="6"
+	intrigue="5"
+	learning="6"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	160.7.1={
+		birth=yes
+	}
+	229.7.1={
+		death=yes
+	}
+}

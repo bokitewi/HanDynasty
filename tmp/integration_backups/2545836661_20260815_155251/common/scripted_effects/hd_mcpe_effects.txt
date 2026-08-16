@@ -1,0 +1,1183 @@
+﻿
+mcpe_save_bully_effect = {
+	if = {
+		limit = {
+			any_relation = { type = bully count >= 1 }
+		}
+		random_relation = {
+			type = bully
+			save_scope_as = bully
+		}
+	}
+	else = {
+		every_vassal = {
+			limit = {
+				save_good_bully_character_trigger_check = yes
+				is_ai = yes
+			}
+			add_to_list = bullies
+		}
+		every_vassal = {
+			every_child = {
+				limit = {
+					save_good_bully_character_trigger_check = yes
+					is_ai = yes
+				}
+				add_to_list = bullies
+			}
+		}
+		every_courtier_or_guest = {
+			limit = {
+				save_good_bully_character_trigger_check = yes
+				is_ai = yes
+			}
+			add_to_list = bullies
+		}
+		if = {
+			limit = {
+				is_independent_ruler = no
+				exists = liege
+				liege = {
+					save_good_bully_character_trigger_check = yes
+					is_ai = yes
+				}
+			}
+			liege = {
+				add_to_list = bullies
+			}
+		}
+		if = {
+			limit = {
+				is_independent_ruler = no
+				exists = liege
+				liege = {
+					any_vassal = {
+						save_good_bully_character_trigger_check = yes
+						is_ai = yes
+					}
+				}
+			}
+			liege = {
+				every_vassal = {
+					limit = {
+						save_good_bully_character_trigger_check = yes
+						is_ai = yes
+					}
+					add_to_list = bullies
+				}
+			}
+		}
+		if = {
+			limit = {
+				is_independent_ruler = no
+				exists = liege
+				liege = {
+					any_vassal = {
+						any_child = {
+							save_good_bully_character_trigger_check = yes
+							is_ai = yes
+						}
+					}
+				}
+			}
+			liege = {
+				every_vassal = {
+					every_child = {
+						limit = {
+							save_good_bully_character_trigger_check = yes
+							is_ai = yes
+						}
+						add_to_list = bullies
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				is_independent_ruler = no
+				exists = liege
+				liege = {
+					any_courtier_or_guest = {
+						save_good_bully_character_trigger_check = yes
+						is_ai = yes
+					}
+				}
+			}
+			liege = {
+				every_courtier_or_guest = {
+					limit = {
+						save_good_bully_character_trigger_check = yes
+						is_ai = yes
+					}
+					add_to_list = bullies
+				}
+			}
+		}
+		if = {
+			limit = {
+				exists = host
+				host = {
+					save_good_bully_character_trigger_check = yes
+					is_ai = yes
+				}
+			}
+			host = {
+				add_to_list = bullies
+			}
+		}
+		if = {
+			limit = {
+				exists = host
+				host = {
+					any_vassal = {
+						save_good_bully_character_trigger_check = yes
+						is_ai = yes
+					}
+				}
+			}
+			host = {
+				every_vassal = {
+					limit = {
+						save_good_bully_character_trigger_check = yes
+						is_ai = yes
+					}
+					add_to_list = bullies
+				}
+			}
+		}
+		if = {
+			limit = {
+				exists = host
+				host = {
+					any_vassal = {
+						any_child = {
+							save_good_bully_character_trigger_check = yes
+							is_ai = yes
+						}
+					}
+				}
+			}
+			host = {
+				every_vassal = {
+					every_child = {
+						limit = {
+							save_good_bully_character_trigger_check = yes
+							is_ai = yes
+						}
+						add_to_list = bullies
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				exists = host
+				host = {
+					any_courtier_or_guest = {
+						save_good_bully_character_trigger_check = yes
+						is_ai = yes
+					}
+				}
+			}
+			host = {
+				every_courtier_or_guest = {
+					limit = {
+						save_good_bully_character_trigger_check = yes
+						is_ai = yes
+					}
+					add_to_list = bullies
+				}
+			}
+		}
+		
+		random_in_list = {
+			list = bullies
+			weight = {
+				base = 1
+				modifier = {
+					add = 10
+					is_of_major_interest_to_root_trigger = yes
+				}
+				modifier = {
+					add = 5
+					is_of_minor_interest_to_root_trigger = yes
+				}
+				modifier = {
+					add = 5
+					number_of_opposing_personality_traits = {
+						target = root
+						value >= 1
+					}
+				}
+				modifier = {
+					add = 5
+					number_of_opposing_personality_traits = {
+						target = root
+						value >= 2
+					}
+				}
+				modifier = {
+					add = 5
+					number_of_opposing_personality_traits = {
+						target = root
+						value >= 3
+					}
+				}
+				modifier = {
+					add = 5
+					has_trait = wrathful
+				}
+				modifier = {
+					add = 10
+					has_trait = sadistic
+				}
+			}
+			save_scope_as = bully
+		}
+	}
+
+	# If there is no bully, then create one.
+	if = {
+		limit = {
+			NOT = { exists = scope:bully }
+		}
+
+		create_character = {
+			age = {13 15}
+			dynasty = none
+			trait = rowdy
+			trait = sadistic
+			random_traits_list = {
+				count = 2
+				wrathful = {}
+				ambitious = {}
+				stubborn = {}
+				vengeful = {}
+				greedy = {}
+				deceitful = {}
+				arrogant = {}
+				arbitrary = {}
+				impatient = {}
+			}
+			faith = this.faith
+			culture = this.culture
+			location = location.county.holder.capital_province
+			gender_female_chance = 50
+			save_scope_as = bully
+		}
+	}
+
+	scope:bully = {
+		save_scope_as = doing_push
+	}
+}
+
+
+
+mcpe_notify_bully_effect = {
+	if = {
+		limit = {
+			exists = scope:bully
+		}
+		
+		if = {
+			limit = {
+				NOT = { has_relation_bully = scope:bully }
+			}
+			show_as_tooltip = { set_relation_bully = scope:bully }
+		}
+
+		scope:bully = { trigger_event = child_personality.$EVENT_ID$ }
+	}
+}
+
+
+
+mcpe_inform_guardian_effect = {
+	if = {
+		limit = {
+			is_ai = yes
+			any_relation = {
+				type = guardian
+				is_ai = no
+			}
+		}
+
+		random_relation = {
+			type = guardian
+			trigger_event = mcpegr.$GR_ID$
+		}
+	}
+}
+
+
+
+mcpe_trigger_basegame_guardian_response = {
+	if = {
+		limit = {
+			is_ai = yes
+		}
+		add_character_flag = $TRAIT$
+		random_relation = {
+			type = guardian
+			trigger_event = child_personality.$GR_ID$
+		}
+	}
+}
+
+
+
+mcpe_save_scopes_for_desc = {
+	save_scope_as = child
+	get_guardian_scope_effect = yes
+}
+
+
+
+mcpe_save_robbed_guest_effect = {
+	random_vassal = {
+		limit = {
+			is_adult = yes
+			is_imprisoned = no
+			NOT = { has_trait = incapable }
+			NOT = { this = root }
+			NOT = {
+				any_relation = {
+					type = ward
+					this = root
+				}
+			}
+		}
+		save_scope_as = robbed_guest
+	}
+
+	if = {
+		limit = {
+			NOT = {
+				exists = scope:robbed_guest
+			}
+			exists = host
+		}
+
+		host = {
+			random_vassal = {
+				limit = {
+					is_adult = yes
+					is_imprisoned = no
+					NOT = { has_trait = incapable }
+					NOT = { this = root }
+					NOT = {
+						any_relation = {
+							type = ward
+							this = root
+						}
+					}
+				}
+				save_scope_as = robbed_guest
+			}
+		}
+	}
+
+	if = {
+		limit = {
+			NOT = {
+				exists = scope:robbed_guest
+			}
+		}
+
+		random_courtier_or_guest = {
+			limit = {
+				is_adult = yes
+				is_imprisoned = no
+				NOT = { has_trait = incapable }
+				NOT = { this = root }
+				NOT = {
+					any_relation = {
+						type = ward
+						this = root
+					}
+				}
+			}
+			save_scope_as = robbed_guest
+		}
+	}
+
+	if = {
+		limit = {
+			NOT = {
+				exists = scope:robbed_guest
+			}
+			exists = host
+		}
+
+		host = {
+			random_courtier_or_guest = {
+				limit = {
+					is_adult = yes
+					is_imprisoned = no
+					NOT = { has_trait = incapable }
+					NOT = { this = root }
+					NOT = {
+						any_relation = {
+							type = ward
+							this = root
+						}
+					}
+				}
+				save_scope_as = robbed_guest
+			}
+		}
+	}
+
+	# If there still isn't a robbed guest, create one.
+	if = {
+		limit = {
+			NOT = {
+				exists = scope:robbed_guest
+			}
+		}
+
+		create_character = {
+			template = merchant_template
+			location = location.county.holder.capital_province
+			save_scope_as = robbed_guest
+		}
+	}
+}
+
+
+
+mcpe_save_child_preacher_effect = {
+
+	random_courtier_or_guest = {
+		limit = {
+			mcpe_child_personality_0009_child_preacher_trigger = yes
+			has_trait = zealous
+		}
+		alternative_limit = {
+			mcpe_child_personality_0009_child_preacher_trigger = yes
+		}
+		save_scope_as = child_preacher
+	}
+
+	if = {
+		limit = {
+			NOT = { exists = scope:child_preacher }
+			exists = host
+		}
+
+		host = {
+			random_courtier_or_guest = {
+				limit = {
+					mcpe_child_personality_0009_child_preacher_trigger = yes
+					has_trait = zealous
+				}
+				alternative_limit = {
+					mcpe_child_personality_0009_child_preacher_trigger = yes
+				}
+				save_scope_as = child_preacher
+			}
+		}
+	}
+
+	if = {
+		limit = {
+			NOT = { exists = scope:child_preacher }
+		}
+
+		random_vassal = {
+			limit = {
+				mcpe_child_personality_0009_child_preacher_trigger = yes
+				has_trait = zealous
+			}
+			alternative_limit = {
+				mcpe_child_personality_0009_child_preacher_trigger = yes
+			}
+			save_scope_as = child_preacher
+		}
+	}
+
+	if = {
+		limit = {
+			NOT = { exists = scope:child_preacher }
+			exists = host
+		}
+
+		host = {
+			random_vassal = {
+				limit = {
+					mcpe_child_personality_0009_child_preacher_trigger = yes
+					has_trait = zealous
+				}
+				alternative_limit = {
+					mcpe_child_personality_0009_child_preacher_trigger = yes
+				}
+				save_scope_as = child_preacher
+			}
+		}
+	}
+
+	if = {
+		limit = {
+			NOT = { exists = scope:child_preacher }
+		}
+
+		random_vassal = {
+			limit = {
+				any_courtier_or_guest = {
+					mcpe_child_personality_0009_child_preacher_trigger = yes
+				}	
+			}
+			random_courtier_or_guest = {
+				limit = {
+					mcpe_child_personality_0009_child_preacher_trigger = yes
+					has_trait = zealous
+				}
+				alternative_limit = {
+					mcpe_child_personality_0009_child_preacher_trigger = yes
+				}
+				save_scope_as = child_preacher
+			}
+		}
+	}
+
+	if = {
+		limit = {
+			NOT = { exists = scope:child_preacher }
+			exists = host
+		}
+
+		host = {
+			random_vassal = {
+				limit = {
+					any_courtier_or_guest = {
+						mcpe_child_personality_0009_child_preacher_trigger = yes
+					}	
+				}
+				random_courtier_or_guest = {
+					limit = {
+						mcpe_child_personality_0009_child_preacher_trigger = yes
+						has_trait = zealous
+					}
+					alternative_limit = {
+						mcpe_child_personality_0009_child_preacher_trigger = yes
+					}
+					save_scope_as = child_preacher
+				}
+			}
+		}
+	}
+
+	# If there still isn't a child preacher, create one
+	if = {
+		limit = {
+			NOT = { exists = scope:child_preacher }
+		}
+
+		create_character = {
+			age = {9 10}
+			dynasty = none
+			trait = pensive
+			trait = zealous
+			faith = this.faith
+			culture = this.culture
+			location = location.county.holder.capital_province
+			gender_female_chance = 50
+			save_scope_as = child_preacher
+		}
+	}
+}
+
+
+
+mcpe_befriend_child_preacher_effect = {
+	if = {
+		limit = {
+			has_relation_bully = scope:child_preacher
+		}
+		show_as_tooltip = {
+			remove_relation_bully = scope:child_preacher
+		}
+	}
+	if = {
+		limit = {
+			has_relation_victim = scope:child_preacher
+		}
+		show_as_tooltip = {
+			remove_relation_victim = scope:child_preacher
+		}
+	}
+	show_as_tooltip = {
+		set_relation_friend = { reason = friend_saved_as_children target = scope:child_preacher }
+	}
+}
+
+
+
+mcpe_save_unrequited_crush_effect = {
+	if = {
+		limit = {
+			any_relation = {
+				type = crush
+				is_available_child = yes
+			}
+			NOT = { #Not a crush who crushes on you!
+				any_relation = {
+					type = crush
+					is_available_child = yes
+					any_relation = {
+						type = crush
+						this = root
+					}
+				}
+			}
+		}
+		random_relation = {
+			type = crush
+			limit = {
+				is_available_child = yes
+				NOT = {
+					any_relation = {
+						type = crush
+						this = root
+					}
+				}
+			}
+			save_scope_as = crush
+		}
+	}
+	else = {
+		every_vassal = {
+			limit = {
+				save_good_crush_character_trigger_check = yes
+			}
+			add_to_list = crushes
+		}
+		every_vassal = {
+			every_child = {
+				limit = {
+					save_good_crush_character_trigger_check = yes
+				}
+				add_to_list = crushes
+			}
+		}
+		every_courtier_or_guest = {
+			limit = {
+				save_good_crush_character_trigger_check = yes
+			}
+			add_to_list = crushes
+		}
+		if = {
+			limit = {
+				is_independent_ruler = no
+				exists = liege
+				liege = {
+					save_good_crush_character_trigger_check = yes
+				}
+			}
+			liege = {
+				add_to_list = crushes
+			}
+		}
+		if = {
+			limit = {
+				is_independent_ruler = no
+				exists = liege
+				liege = {
+					any_vassal = {
+						save_good_crush_character_trigger_check = yes
+					}
+				}
+			}
+			liege = {
+				every_vassal = {
+					limit = {
+						save_good_crush_character_trigger_check = yes
+					}
+					add_to_list = crushes
+				}
+			}
+		}
+		if = {
+			limit = {
+				is_independent_ruler = no
+				exists = liege
+				liege = {
+					any_vassal = {
+						any_child = {
+							save_good_crush_character_trigger_check = yes
+						}
+					}
+				}
+			}
+			liege = {
+				every_vassal = {
+					every_child = {
+						limit = {
+							save_good_crush_character_trigger_check = yes
+						}
+						add_to_list = crushes
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				is_independent_ruler = no
+				exists = liege
+				liege = {
+					any_courtier_or_guest = {
+						save_good_crush_character_trigger_check = yes
+					}
+				}
+			}
+			liege = {
+				every_courtier_or_guest = {
+					limit = {
+						save_good_crush_character_trigger_check = yes
+					}
+					add_to_list = crushes
+				}
+			}
+		}
+		
+		random_in_list = {
+			list = crushes
+			weight = {
+				base = 1
+				modifier = {
+					add = 10
+					is_independent_ruler = no
+					exists = liege
+					is_primary_heir_of = liege
+				}
+				modifier = {
+					add = 5
+					is_independent_ruler = no
+					exists = liege
+					is_heir_of = liege
+				}
+				modifier = {
+					add = 10
+					any_parent = {
+						is_powerful_vassal_of = root
+					}
+				}
+				modifier = {
+					add = 5
+					any_parent = {
+						is_vassal_of = root
+					}
+				}
+				modifier = {
+					add = 10
+					is_of_major_interest_to_root_trigger = yes
+				}
+				modifier = {
+					add = 5
+					is_of_minor_interest_to_root_trigger = yes
+				}
+			}
+			save_scope_as = crush
+		}
+	}
+	if = {
+		limit = {
+			exists = scope:crush
+			NOT = { has_relation_crush = scope:crush }
+		}
+		set_relation_crush = scope:crush
+	}
+	if = {
+		limit = {
+			NOT = {
+				exists = scope:crush
+			}
+		}
+		pick_servant_romance_target_effect = yes
+	}
+
+	# This event is ok with no crush being found, so no need to create one.
+}
+
+
+
+mcpe_save_knight_effect = {
+	if = {
+		limit = {
+			exists = host
+			host = {
+				any_knight = {
+					is_available_ai_adult = yes
+					NOR = {
+						has_trait = greedy
+						has_trait = lazy
+						has_trait = impatient
+					}
+				}
+			}
+		}
+		host = {
+			random_knight = {
+				limit = {
+					is_available_ai_adult = yes
+					NOR = {
+						has_trait = greedy
+						has_trait = lazy
+						has_trait = impatient
+					}
+				}
+				save_scope_as = knight
+			}
+		}
+	}
+
+	# This event is ok with no knight existing, so no need to create one.
+}
+
+
+
+mcpe_save_sermon_priest = {
+	location.county.holder = {
+		every_courtier = {
+			limit = {
+				mcpe_appropriate_priest = yes
+			}
+			add_to_list = potential_priests
+		}
+		every_vassal = {
+			limit = {
+				mcpe_appropriate_priest = yes
+			}
+			add_to_list = potential_priests
+		}
+	}
+	random_in_list = {
+		list = potential_priests
+		weight = {
+			base = 1
+			modifier = {
+				add = 10
+				is_of_major_interest_to_root_trigger = yes
+			}
+			modifier = {
+				add = 5
+				is_of_minor_interest_to_root_trigger = yes
+			}
+		}
+		save_scope_as = sermon_priest
+	}
+
+	# If no sermon priest could be found, create one
+	if = {
+		limit = {
+			NOT = { exists = scope:sermon_priest }
+		}
+
+		create_character = {
+			template = priest_character_template
+			location = location.county.holder.capital_province
+			save_scope_as = sermon_priest
+		}
+	}
+}
+
+
+
+mcpe_add_suitable_same_realm_children_to_list = {
+	location.county.holder.top_liege = {
+		if = {
+			limit = {
+				is_ai = yes
+				is_available_child = yes
+				NOT = { this = root }
+				age >= 6
+			}
+			add_to_list = suitable_same_realm_children
+		}
+		if = {
+			limit = {
+				any_courtier_or_guest = {
+					is_ai = yes
+					is_available_child = yes
+					NOT = { this = root }
+					age >= 6
+				}
+			}
+			every_courtier_or_guest = {
+				limit = {
+					is_ai = yes
+					is_available_child = yes
+					NOT = { this = root }
+					age >= 6
+				}
+				add_to_list = suitable_same_realm_children
+			}
+		}
+		if = {
+			limit = {
+				any_vassal_or_below = {
+					is_ai = yes
+					is_available_child = yes
+					NOT = { this = root }
+					age >= 6
+				}
+			}
+			every_vassal_or_below = {
+				limit = {
+					is_ai = yes
+					is_available_child = yes
+					NOT = { this = root }
+					age >= 6
+				}
+				add_to_list = suitable_same_realm_children
+			}
+		}
+		if = {
+			limit = {
+				any_vassal_or_below = {
+					any_courtier_or_guest = {
+						is_ai = yes
+						is_available_child = yes
+						NOT = { this = root }
+						age >= 6
+					}
+				}
+			}
+			every_vassal_or_below = {
+				limit = {
+					any_courtier_or_guest = {
+						is_ai = yes
+						is_available_child = yes
+						NOT = { this = root }
+						age >= 6
+					}
+				}
+				every_courtier_or_guest = {
+					limit = {
+						is_ai = yes
+						is_available_child = yes
+						NOT = { this = root }
+						age >= 6
+					}
+					add_to_list = suitable_same_realm_children
+				}
+			}
+		}
+	}
+
+	# If the list is empty, generate a generic 6 to 8 year old child and add it to the list.
+	if = {
+		limit = {
+			list_size = { name = suitable_same_realm_children value = 0 }
+		}
+
+		create_character = {
+			age = {6 8}
+			dynasty = none
+			trait = pensive
+			faith = this.faith
+			culture = this.culture
+			location = location.county.holder.capital_province
+			gender_female_chance = 50
+			save_temporary_scope_as = fallback_child
+		}
+
+		scope:fallback_child = {
+			add_to_list = suitable_same_realm_children
+		}
+	}
+}
+
+
+
+mcpe_save_evil_person = {
+	location.county.holder = {
+		every_courtier_or_guest = {
+			limit = {
+				mcpe_sutiably_evil_person = yes
+			}
+			add_to_list = potential_evil_people
+		}
+		every_vassal = {
+			limit = {
+				mcpe_sutiably_evil_person = yes
+			}
+			add_to_list = potential_evil_people
+		}
+	}
+	random_in_list = {
+		list = potential_evil_people
+		weight = {
+			base = 1
+			modifier = {
+				add = 100
+				has_relation_bully = root
+			}
+			modifier = {
+				add = 10
+				has_trait = sadistic
+			}
+			modifier = {
+				add = 10
+				has_relation_rival = root
+			}
+			modifier = {
+				add = 10
+				has_relation_potential_rival = root
+			}
+			modifier = {
+				add = 10
+				is_adult = no
+			}
+			modifier = {
+				add = 10
+				is_of_major_interest_to_root_trigger = yes
+			}
+			modifier = {
+				add = 5
+				is_of_minor_interest_to_root_trigger = yes
+			}
+		}
+		save_scope_as = evil_person
+	}
+
+	# If there is no evil person, then create one.
+	if = {
+		limit = {
+			NOT = { exists = scope:evil_person }
+		}
+
+		create_character = {
+			age = {13 15}
+			dynasty = none
+			trait = rowdy
+			trait = sadistic
+			random_traits_list = {
+				count = 2
+				wrathful = {}
+				ambitious = {}
+				stubborn = {}
+				vengeful = {}
+				greedy = {}
+				deceitful = {}
+				arrogant = {}
+				arbitrary = {}
+				impatient = {}
+			}
+			faith = this.faith
+			culture = this.culture
+			location = location.county.holder.capital_province
+			gender_female_chance = 50
+			save_scope_as = evil_person
+		}
+	}
+}
+
+
+
+mcpe_save_cook_effect = {
+	location.county.holder = {
+		if = {
+			limit = {
+				any_courtier = {
+					is_available_ai_adult = yes
+					has_character_flag = cook
+				}
+			}
+			random_courtier = {
+				limit = {
+					is_available_ai_adult = yes
+					has_character_flag = cook
+				}
+				save_scope_as = cook
+			}
+		}
+		else_if = {
+			limit = {
+				exists = location.county.holder.capital_province
+				any_pool_character = {
+					province = location.county.holder.capital_province
+					is_available_ai_adult = yes
+					has_no_particular_noble_roots_trigger = yes
+				}
+			}
+			random_pool_character = {
+				province = location.county.holder.capital_province
+				limit = {
+					is_available_ai_adult = yes
+					has_no_particular_noble_roots_trigger = yes
+				}
+				location.county.holder = {
+					add_courtier = prev
+				}
+				add_trait = peasant_leader
+				add_character_flag = cook
+				save_scope_as = cook
+			}
+		}
+		else_if = {
+			limit = {
+				exists = location.county.holder.capital_province
+			}
+			create_character = {
+				template = servant_character
+				dynasty = none
+				location = location.county.holder.capital_province
+				gender_female_chance = 50
+				save_scope_as = cook
+			}
+			scope:cook = {
+				add_trait = peasant_leader
+				add_character_flag = cook
+				change_current_weight = 60
+			}
+		}
+	}
+}
+
+
+
+mcpe_save_teacher_effect = {
+	location.county.holder = {
+		if = {
+			limit = {
+				employs_court_position = court_tutor_court_position
+			}
+			random_court_position_holder = {
+				type = court_tutor_court_position
+				save_scope_as = teacher
+			}
+		}
+		else_if = {
+			limit = {
+				exists = cp:councillor_steward
+			}
+			cp:councillor_steward = {
+				save_scope_as = teacher
+			}
+		}
+		else_if = {
+			limit = {
+				exists = cp:councillor_chancellor
+			}
+			cp:councillor_chancellor = {
+				save_scope_as = teacher
+			}
+		}
+		else = {
+			# I think that priests can fill in as teachers too.
+			mcpe_save_sermon_priest = yes
+
+			scope:sermon_priest = {
+				save_scope_as = teacher
+			}
+		}
+	}
+	scope:teacher = {
+		assign_quirk_effect = yes
+	}
+}
+
+
+

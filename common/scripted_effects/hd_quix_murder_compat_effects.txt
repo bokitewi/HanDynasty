@@ -1,0 +1,20 @@
+﻿#############################################
+# HanDyansty - Quixotic Murder Compatibility
+#############################################
+
+# CK3 1.19 has already resolved the murder scheme before the result pool is
+# entered. This effect preserves the old preparation scene without rerolling.
+hd_quix_execute_murder_setup_effect = {
+	if = {
+		limit = { scope:scheme.var:hd_quix_murder_result_success = yes }
+		trigger_event = { on_action = hd_quix_murder_success_resolution }
+	}
+	else = {
+		trigger_event = { on_action = hd_quix_murder_failure_resolution }
+	}
+}
+
+# The old "do not execute" option becomes the native 1.19 scheme restart.
+hd_quix_defer_murder_setup_effect = {
+	restart_murder_scheme_effect = yes
+}

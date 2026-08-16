@@ -1,0 +1,51 @@
+# Generated from 華陽國志、三國志、三國演義、後漢書 and 漢晉春秋.
+# Culture: bingzhou
+# Time partition: born_after_200 (birth > 200).
+# No title history is assigned. Dates marked in the evidence audit may be estimates.
+
+##### 【温碧霞】
+wen_bi_xia={
+	name="uuii_book_wen_bi_xia_name" #碧霞
+	dynasty_house="house_111010319001013"
+	female=yes
+	father="wen_hui"
+	culture="bingzhou"
+	faith="jingxue"
+	diplomacy="7"
+	martial="6"
+	stewardship="8"
+	intrigue="7"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	202.7.1={
+		birth=yes
+	}
+	258.7.1={
+		death=yes
+	}
+}
+
+##### 【温恭】
+wen_gong={
+	name="uuii_book_wen_gong_name" #恭
+	dynasty_house="house_111010319001013"
+	father="wen_hui"
+	culture="bingzhou"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	204.7.1={
+		birth=yes
+	}
+	276.7.1={
+		death=yes
+	}
+}

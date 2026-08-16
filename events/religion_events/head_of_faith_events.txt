@@ -1,0 +1,16 @@
+# Religious-head and great-holy-war event logic disabled; public IDs remain inert.
+namespace = head_of_faith
+
+head_of_faith.0001 = { type = character_event hidden = yes trigger = { always = no } }
+head_of_faith.0011 = { type = character_event hidden = yes trigger = { always = no } }
+head_of_faith.0021 = { type = character_event hidden = yes trigger = { always = no } }
+head_of_faith.0031 = { type = character_event hidden = yes trigger = { always = no } }
+head_of_faith.0032 = { type = character_event hidden = yes trigger = { always = no } }
+
+scripted_trigger valid_prior_caliph_available_trigger = { always = no }
+
+scripted_effect decide_if_worthy_of_consideration_for_new_hof_effect = { }
+scripted_effect grab_existing_caliph_effect = { }
+scripted_effect set_default_caliph_effect = { }
+scripted_effect set_religious_head_title_to_and_gain_hook_effect = { }
+scripted_effect set_religious_head_title_to_and_give_hook_effect = { }

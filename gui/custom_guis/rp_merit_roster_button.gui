@@ -1,0 +1,23 @@
+﻿widget = {
+	name = "rp_merit_roster_button_widget"
+	size = { 100% 100% }
+	layer = hud_layer
+
+	visible = "[And( Not( IsPauseMenuShown ), And( GetPlayer.IsValid, IsDefaultGUIMode ) )]"
+
+	widget_hud_main_tab = {
+		parentanchor = top|right
+		widgetanchor = top|right
+		position = { -5 652 }
+		visible = "[GetScriptedGui('rp_merit_roster_open_effect').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+
+		blockoverride "maintab_button"
+		{
+			texture = "gfx/interface/skinned/hud_maintab/maintab_decisions.dds"
+			tooltip = rp_merit_roster_button_tt
+			onclick = "[GetScriptedGui('rp_merit_roster_open_effect').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+			onclick = "[GetVariableSystem.Toggle( 'rp_merit_roster_visibility_toggle' )]"
+		}
+	}
+}
+

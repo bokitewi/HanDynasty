@@ -1,0 +1,86 @@
+﻿# Shared triggers for the uprising wars' six-month occupation checks.
+
+hd_uprising_war_for_primary_attacker_trigger = {
+	OR = {
+		using_cb = peasant_war
+		using_cb = populist_war
+		using_cb = hd_yellow_turban_rebellion_war
+	}
+	primary_attacker = {
+		this = $ATTACKER$
+		is_alive = yes
+	}
+	primary_defender = {
+		is_alive = yes
+	}
+}
+
+hd_uprising_attacker_cannot_continue_trigger = {
+	# The historical Yellow Turban attacker is deliberately allowed to remain landless.
+	$WAR$ = {
+		NOT = { using_cb = hd_yellow_turban_rebellion_war }
+	}
+	$ATTACKER$ = {
+		is_landed = no
+	}
+}
+
+hd_uprising_defender_cannot_continue_trigger = {
+	$DEFENDER$ = {
+		is_landed = no
+	}
+}
+
+hd_uprising_duchy_fully_occupied_by_attacker_trigger = {
+	# A duchy must have at least one de jure county and every county must qualify.
+	any_de_jure_county = {
+		always = yes
+	}
+	NOT = {
+		any_de_jure_county = {
+			OR = {
+				NOT = { exists = holder }
+				NOT = {
+					holder ?= {
+						OR = {
+							this = $ENEMY$
+							is_vassal_or_below_of = $ENEMY$
+						}
+					}
+				}
+				NOT = {
+					county_controller ?= {
+						is_attacker_in_war = $WAR$
+					}
+				}
+			}
+		}
+	}
+}
+
+hd_uprising_duchy_fully_occupied_by_defender_trigger = {
+	# A duchy must have at least one de jure county and every county must qualify.
+	any_de_jure_county = {
+		always = yes
+	}
+	NOT = {
+		any_de_jure_county = {
+			OR = {
+				NOT = { exists = holder }
+				NOT = {
+					holder ?= {
+						OR = {
+							this = $ENEMY$
+							is_vassal_or_below_of = $ENEMY$
+						}
+					}
+				}
+				NOT = {
+					county_controller ?= {
+						is_defender_in_war = $WAR$
+					}
+				}
+			}
+		}
+	}
+}

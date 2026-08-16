@@ -1,0 +1,185 @@
+﻿# Generated from 華陽國志、三國志、三國演義、後漢書 and 漢晉春秋.
+# Culture: japanese
+# Time partition: dead_before_180 (death < 180).
+# No title history is assigned. Dates marked in the evidence audit may be estimates.
+
+##### 【大和活目入彦五十狭茅】
+da_he_huo_mu_ru_yan_wu_shi_xia_mao={
+	name="uuii_book_da_he_huo_mu_ru_yan_wu_shi_xia_mao_name" #和活目入彦五十狭茅
+	dynasty_house="house_121010001001013"
+	culture="japanese"
+	faith="fusang_pagan"
+	diplomacy="8"
+	martial="5"
+	stewardship="7"
+	intrigue="6"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	1.7.1={
+		birth=yes
+	}
+	70.7.1={
+		death=yes
+	}
+}
+
+##### 【大和誉津别命】
+da_he_yu_jin_bie_ming={
+	name="uuii_book_da_he_yu_jin_bie_ming_name" #和誉津别命
+	dynasty_house="house_121010001001013"
+	culture="japanese"
+	faith="fusang_pagan"
+	diplomacy="8"
+	martial="8"
+	stewardship="4"
+	intrigue="6"
+	learning="8"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	16.7.1={
+		birth=yes
+	}
+	68.7.1={
+		death=yes
+	}
+}
+
+##### 【大和大足彦忍代别】
+da_he_da_zu_yan_ren_dai_bie={
+	name="uuii_book_da_he_da_zu_yan_ren_dai_bie_name" #和大足彦忍代别
+	dynasty_house="house_121010001001013"
+	culture="japanese"
+	faith="fusang_pagan"
+	diplomacy="6"
+	martial="7"
+	stewardship="5"
+	intrigue="8"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	18.7.1={
+		birth=yes
+	}
+	130.7.1={
+		death=yes
+	}
+}
+
+##### 【大和誉津别子】
+da_he_yu_jin_bie_zi={
+	name="uuii_book_da_he_yu_jin_bie_zi_name" #和誉津别子
+	dynasty_house="house_121010001001013"
+	father="da_he_yu_jin_bie_ming"
+	culture="japanese"
+	faith="fusang_pagan"
+	diplomacy="5"
+	martial="5"
+	stewardship="8"
+	intrigue="6"
+	learning="9"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	67.7.1={
+		birth=yes
+	}
+	153.7.1={
+		death=yes
+	}
+}
+
+##### 【大和大碓命】
+da_he_da_dui_ming={
+	name="uuii_book_da_he_da_dui_ming_name" #和大碓命
+	dynasty_house="house_121010001001013"
+	father="da_he_da_zu_yan_ren_dai_bie"
+	culture="japanese"
+	faith="fusang_pagan"
+	diplomacy="6"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	68.7.1={
+		birth=yes
+	}
+	105.7.1={
+		death=yes
+	}
+}
+
+##### 【大和小碓命】
+da_he_xiao_dui_ming={
+	name="uuii_book_da_he_xiao_dui_ming_name" #和小碓命
+	dynasty_house="house_121010001001013"
+	father="da_he_da_zu_yan_ren_dai_bie"
+	culture="japanese"
+	faith="fusang_pagan"
+	diplomacy="4"
+	martial="8"
+	stewardship="7"
+	intrigue="8"
+	learning="5"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	68.7.1={
+		birth=yes
+	}
+	150.7.1={
+		death=yes
+	}
+}
+
+##### 【织田义盛】
+zhi_tian_yi_sheng={
+	name="uuii_book_zhi_tian_yi_sheng_name" #田义盛
+	dynasty_house="house_121010029001013"
+	culture="japanese"
+	faith="fusang_pagan"
+	diplomacy="8"
+	martial="8"
+	stewardship="5"
+	intrigue="4"
+	learning="7"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	69.7.1={
+		birth=yes
+	}
+	136.7.1={
+		death=yes
+	}
+}
+
+##### 【织田美夜受姬】
+zhi_tian_mei_ye_shou_ji={
+	name="uuii_book_zhi_tian_mei_ye_shou_ji_name" #田美夜受姬
+	dynasty_house="house_121010029001013"
+	female=yes
+	father="zhi_tian_yi_sheng"
+	culture="japanese"
+	faith="fusang_pagan"
+	diplomacy="7"
+	martial="7"
+	stewardship="6"
+	intrigue="7"
+	learning="7"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	115.7.1={
+		birth=yes
+	}
+	175.7.1={
+		death=yes
+	}
+}

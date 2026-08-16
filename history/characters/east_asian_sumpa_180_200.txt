@@ -1,0 +1,142 @@
+﻿# Generated from 華陽國志、三國志、三國演義、後漢書 and 漢晉春秋.
+# Culture: sumpa
+# Time partition: 180_200 (death >= 180 and birth <= 200).
+# No title history is assigned. Dates marked in the evidence audit may be estimates.
+
+##### 【苏毗杰布拥青】
+su_pi_jie_bu_yong_qing={
+	name="uuii_book_su_pi_jie_bu_yong_qing_name" #毗杰布拥青
+	dynasty_house="house_114030001001013"
+	female=yes
+	culture="sumpa"
+	faith="dab_qhuas"
+	diplomacy="4"
+	martial="6"
+	stewardship="8"
+	intrigue="6"
+	learning="8"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	170.7.1={
+		birth=yes
+	}
+	245.7.1={
+		death=yes
+	}
+}
+
+##### 【媚麻卓玛曲珍】
+mei_ma_zhuo_ma_qu_zhen={
+	name="uuii_book_mei_ma_zhuo_ma_qu_zhen_name" #麻卓玛曲珍
+	dynasty_house="house_114030052001013"
+	female=yes
+	culture="sumpa"
+	faith="dab_qhuas"
+	diplomacy="5"
+	martial="9"
+	stewardship="6"
+	intrigue="5"
+	learning="9"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	168.7.1={
+		birth=yes
+	}
+	225.7.1={
+		death=yes
+	}
+}
+
+##### 【汤滂青蓬】
+tang_pang_qing_peng={
+	name="uuii_book_tang_pang_qing_peng_name" #滂青蓬
+	dynasty_house="house_114030053001013"
+	female=yes
+	culture="sumpa"
+	faith="dab_qhuas"
+	diplomacy="7"
+	martial="7"
+	stewardship="5"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	171.7.1={
+		birth=yes
+	}
+	245.7.1={
+		death=yes
+	}
+}
+
+##### 【敛奚赞】
+lian_xi_zan={
+	name="uuii_book_lian_xi_zan_name" #奚赞
+	dynasty_house="house_114030054001013"
+	female=yes
+	culture="sumpa"
+	faith="dab_qhuas"
+	diplomacy="6"
+	martial="5"
+	stewardship="6"
+	intrigue="7"
+	learning="6"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	169.7.1={
+		birth=yes
+	}
+	235.7.1={
+		death=yes
+	}
+}
+
+##### 【嘉戎屑木】
+jia_rong_xie_mu={
+	name="uuii_book_jia_rong_xie_mu_name" #戎屑木
+	dynasty_house="house_114030055001013"
+	female=yes
+	culture="sumpa"
+	faith="dab_qhuas"
+	diplomacy="5"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="5"
+	prowess="9"
+	health=5.5
+	disallow_random_traits=no
+	170.7.1={
+		birth=yes
+	}
+	242.7.1={
+		death=yes
+	}
+}
+
+##### 【立悉乞悉漫】
+li_xi_qi_xi_man={
+	name="uuii_book_li_xi_qi_xi_man_name" #悉乞悉漫
+	dynasty_house="house_114030056001013"
+	female=yes
+	culture="sumpa"
+	faith="dab_qhuas"
+	diplomacy="7"
+	martial="6"
+	stewardship="5"
+	intrigue="5"
+	learning="9"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	161.7.1={
+		birth=yes
+	}
+	233.7.1={
+		death=yes
+	}
+}

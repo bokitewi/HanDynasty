@@ -1,0 +1,56 @@
+﻿# Connection arrows are visual only. The ordered county regions define the
+# gameplay route; these project province IDs draw the four requested sections.
+
+eastern = {
+	is_primary = yes
+	arrow_type = "silkRoadArrow"
+	provinces = {
+		867  # Chang'an
+		1560 # Wuwei
+		1566 # Zhangye
+		6780 # Jiuquan
+		5007 # Dunhuang
+	}
+}
+
+eastern_yumen_branch = {
+	arrow_type = "silkRoadArrow"
+	provinces = {
+		5007 # Dunhuang
+		6769 # Yumen Pass
+		6454 # Loulan
+	}
+}
+
+eastern_yangguan_branch = {
+	arrow_type = "silkRoadArrow"
+	provinces = {
+		5007 # Dunhuang
+		5097 # Yang Pass
+		6454 # Loulan
+	}
+}
+
+middle_north = {
+	is_primary = yes
+	arrow_type = "silkRoadArrow"
+	provinces = {
+		6454 6288 6063 6128 6775 6695 6550 2109 6117 6420 6627 6461 6778
+	}
+}
+
+middle_south = {
+	is_primary = yes
+	arrow_type = "silkRoadArrow"
+	provinces = {
+		6454 6726 5814 5152 6653 6766 5874 6152 5548 6026 6243 6361 6778
+	}
+}
+
+western = {
+	is_primary = yes
+	arrow_type = "silkRoadArrow"
+	provinces = {
+		6778 6844 5806 5474 5024
+	}
+}

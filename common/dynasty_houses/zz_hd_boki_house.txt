@@ -1,0 +1,4 @@
+﻿house_boki = {
+	name = "house_boki_name"
+	dynasty = "dynasty_boki"
+}

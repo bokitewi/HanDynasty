@@ -1,0 +1,3 @@
+﻿l_simp_chinese:
+ hd_chinese_consolidation_cb_victory_desc_attacker:0 "你将获得[defender.GetShortUINamePossessive]领内由进攻方阵营控制的所有伯爵领头衔；其中的男爵级头衔及其持有者保持不变。"
+ hd_chinese_consolidation_cb_victory_desc:0 "[attacker.GetShortUIName|U]将获得[defender.GetShortUIName|U]领内由进攻方阵营控制的所有伯爵领头衔；其中的男爵级头衔及其持有者保持不变。"

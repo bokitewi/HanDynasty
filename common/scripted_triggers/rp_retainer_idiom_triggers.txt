@@ -1,0 +1,60 @@
+﻿rp_has_any_retainer_trigger = {
+	OR = {
+		any_courtier_or_guest = {
+			has_character_flag = rp_retainer
+		}
+		any_knight = {
+			has_character_flag = rp_retainer
+		}
+	}
+}
+
+rp_has_senior_war_adviser_trigger = {
+	OR = {
+		any_courtier_or_guest = {
+			is_adult = yes
+			OR = {
+				age >= 50
+				martial >= 14
+				has_trait = rp_retainer_strategist
+				has_trait = rp_retainer_warrior
+			}
+		}
+		any_knight = {
+			is_adult = yes
+			OR = {
+				age >= 50
+				martial >= 14
+				has_trait = rp_retainer_strategist
+				has_trait = rp_retainer_warrior
+			}
+		}
+	}
+}
+
+rp_has_diplomatic_retainer_trigger = {
+	any_courtier_or_guest = {
+		is_adult = yes
+		OR = {
+			diplomacy >= 12
+			intrigue >= 12
+			has_trait = rp_retainer_diplomat
+			has_trait = rp_retainer_spymaster
+			has_trait = rp_retainer_prodigy
+		}
+	}
+}
+
+rp_has_martial_family_member_trigger = {
+	any_close_or_extended_family_member = {
+		is_alive = yes
+		is_adult = yes
+		martial >= 12
+		NOT = { this = root }
+	}
+}
+
+rp_can_fire_yearly_idiom_trigger = {
+	rp_is_merit_activity_enabled_trigger = yes
+	NOT = { has_character_flag = rp_yearly_idiom_recently_checked }
+}

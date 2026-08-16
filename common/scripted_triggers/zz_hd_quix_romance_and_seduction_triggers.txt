@@ -1,0 +1,46 @@
+﻿#############################################
+# HanDyansty - Quixotic Romance Compatibility
+#############################################
+
+# User-selected behavior: AI close/extended family members below 16 are still
+# hard-rejected, while 16-19 year olds use the normal acceptance calculation.
+guaranteed_under_20_incest_rejection_trigger = {
+	$TARGET$ = {
+		NOT = { is_consort_of = $SEDUCER$ }
+		is_close_or_extended_family_of = $SEDUCER$
+		age < 16
+		age < $SEDUCER$.age
+		is_ai = yes
+	}
+}
+
+# These triggers are scoped inside the vanilla seduction outcome event file in
+# current CK3 builds.  The imported outcome events are a separate file, so
+# provide global copies for their checks.
+hd_quix_seduce_outcome_become_lovers_trigger = {
+	OR = {
+		scope:scheme = { exists = scope:continued_relationship }
+		scope:target = { is_ai = yes }
+	}
+	matching_gender_and_sexuality_trigger = {
+		CHARACTER_1 = scope:owner
+		CHARACTER_2 = scope:target
+	}
+}
+
+hd_quix_seduce_outcome_just_sex_trigger = {
+	OR = {
+		scope:target = { is_ai = yes }
+		scope:owner = { is_ai = yes }
+		AND = {
+			scope:target = { is_ai = no }
+			scope:scheme = { NOT = { exists = scope:continued_relationship } }
+		}
+		NOT = {
+			matching_gender_and_sexuality_trigger = {
+				CHARACTER_1 = scope:owner
+				CHARACTER_2 = scope:target
+			}
+		}
+	}
+}

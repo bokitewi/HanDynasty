@@ -1,0 +1,20 @@
+# Unsupported vanilla regional event chain retained only as inert public shells.
+namespace = bookmark
+
+bookmark.0001 = { type = character_event hidden = yes trigger = { always = no } }
+bookmark.0002 = { type = character_event hidden = yes trigger = { always = no } }
+bookmark.0003 = { type = character_event hidden = yes trigger = { always = no } }
+bookmark.0004 = { type = character_event hidden = yes trigger = { always = no } }
+bookmark.0101 = { type = character_event hidden = yes trigger = { always = no } }
+bookmark.0211 = { type = character_event hidden = yes trigger = { always = no } }
+bookmark.0300 = { type = character_event hidden = yes trigger = { always = no } }
+bookmark.0400 = { type = character_event hidden = yes trigger = { always = no } }
+bookmark.0500 = { type = character_event hidden = yes trigger = { always = no } }
+bookmark.1066 = { type = character_event hidden = yes trigger = { always = no } }
+bookmark.1067 = { type = character_event hidden = yes trigger = { always = no } }
+bookmark.1068 = { type = character_event hidden = yes trigger = { always = no } }
+bookmark.1069 = { type = character_event hidden = yes trigger = { always = no } }
+bookmark.1070 = { type = character_event hidden = yes trigger = { always = no } }
+bookmark.1071 = { type = character_event hidden = yes trigger = { always = no } }
+bookmark.1072 = { type = character_event hidden = yes trigger = { always = no } }
+bookmark.1073 = { type = character_event hidden = yes trigger = { always = no } }

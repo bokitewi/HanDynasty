@@ -1,0 +1,8 @@
+# Unsupported vanilla regional decisions are disabled for the total conversion.
+
+pledge_loyalty_to_liege_decision = {
+	is_shown = { always = no }
+	is_valid = { always = no }
+	effect = { }
+	ai_potential = { always = no }
+}

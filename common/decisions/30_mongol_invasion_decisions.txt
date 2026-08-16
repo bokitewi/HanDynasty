@@ -1,0 +1,8 @@
+# Unsupported vanilla regional decisions are disabled for the total conversion.
+
+submit_to_the_great_khan_decision = {
+	is_shown = { always = no }
+	is_valid = { always = no }
+	effect = { }
+	ai_potential = { always = no }
+}

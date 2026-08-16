@@ -1,0 +1,220 @@
+# Project-owned Silk Road markets for the Han 184 map.
+
+uuii_loulan_market_01 = {
+	construction_time = slow_construction_time
+	type_icon = "icon_structure_special_silk_road_market.dds"
+	can_construct_potential = { }
+	cost_gold = 400
+
+	province_modifier = {
+		monthly_income = 2
+		travel_danger = -10
+	}
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.2
+		development_growth = 0.15
+	}
+
+	on_complete = {
+		tgp_silk_road_market_built_effect = yes
+	}
+	next_building = uuii_loulan_market_02
+
+	ai_value = {
+		base = 12
+		directive_to_build_economy_modifier = yes
+		modifier = {
+			factor = 3
+			scope:holder.capital_province = this
+		}
+	}
+
+	type = special
+	flag = travel_point_of_interest_economic
+	flag = silk_road_node
+}
+
+uuii_loulan_market_02 = {
+	construction_time = slow_construction_time
+	type_icon = "icon_structure_special_silk_road_market.dds"
+	can_construct_potential = { }
+	can_construct = { }
+	cost_gold = 800
+
+	province_modifier = {
+		monthly_income = 2
+		travel_danger = -15
+	}
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.2
+		development_growth = 0.25
+	}
+	character_modifier = {
+		cultural_head_fascination_mult = 0.05
+	}
+
+	on_complete = {
+		tgp_silk_road_market_built_effect = yes
+	}
+
+	ai_value = {
+		base = 12
+		directive_to_build_economy_modifier = yes
+		modifier = {
+			factor = 3
+			scope:holder.capital_province = this
+		}
+	}
+
+	type = special
+	flag = travel_point_of_interest_economic
+	flag = silk_road_node
+}
+
+khotan_market_01 = {
+	construction_time = slow_construction_time
+	type_icon = "icon_structure_special_silk_road_market.dds"
+	can_construct_potential = { }
+	cost_gold = 400
+
+	province_modifier = {
+		monthly_income = 2
+		travel_danger = -10
+	}
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.2
+		development_growth = 0.15
+	}
+
+	on_complete = {
+		tgp_silk_road_market_built_effect = yes
+	}
+	next_building = khotan_market_02
+
+	ai_value = {
+		base = 12
+		directive_to_build_economy_modifier = yes
+		modifier = {
+			factor = 3
+			scope:holder.capital_province = this
+		}
+	}
+
+	type = special
+	flag = travel_point_of_interest_economic
+	flag = silk_road_node
+}
+
+khotan_market_02 = {
+	construction_time = slow_construction_time
+	type_icon = "icon_structure_special_silk_road_market.dds"
+	can_construct_potential = { }
+	can_construct = { }
+	cost_gold = 800
+
+	province_modifier = {
+		monthly_income = 2
+		travel_danger = -15
+	}
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.2
+		development_growth = 0.25
+	}
+	character_modifier = {
+		cultural_head_fascination_mult = 0.05
+	}
+
+	on_complete = {
+		tgp_silk_road_market_built_effect = yes
+	}
+
+	ai_value = {
+		base = 12
+		directive_to_build_economy_modifier = yes
+		modifier = {
+			factor = 3
+			scope:holder.capital_province = this
+		}
+	}
+
+	type = special
+	flag = travel_point_of_interest_economic
+	flag = silk_road_node
+}
+
+uuii_dayuan_market_01 = {
+	construction_time = slow_construction_time
+	type_icon = "icon_structure_special_silk_road_market.dds"
+	can_construct_potential = { }
+	cost_gold = 400
+
+	province_modifier = {
+		monthly_income = 2
+		travel_danger = -10
+	}
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.2
+		development_growth = 0.15
+	}
+
+	on_complete = {
+		tgp_silk_road_market_built_effect = yes
+	}
+	next_building = uuii_dayuan_market_02
+
+	ai_value = {
+		base = 12
+		directive_to_build_economy_modifier = yes
+		modifier = {
+			factor = 3
+			scope:holder.capital_province = this
+		}
+	}
+
+	type = special
+	flag = travel_point_of_interest_economic
+	flag = silk_road_node
+}
+
+uuii_dayuan_market_02 = {
+	construction_time = slow_construction_time
+	type_icon = "icon_structure_special_silk_road_market.dds"
+	can_construct_potential = { }
+	can_construct = { }
+	cost_gold = 800
+
+	province_modifier = {
+		monthly_income = 2
+		travel_danger = -15
+	}
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.2
+		development_growth = 0.25
+	}
+	character_modifier = {
+		cultural_head_fascination_mult = 0.05
+	}
+
+	on_complete = {
+		tgp_silk_road_market_built_effect = yes
+	}
+
+	ai_value = {
+		base = 12
+		directive_to_build_economy_modifier = yes
+		modifier = {
+			factor = 3
+			scope:holder.capital_province = this
+		}
+	}
+
+	type = special
+	flag = travel_point_of_interest_economic
+	flag = silk_road_node
+}

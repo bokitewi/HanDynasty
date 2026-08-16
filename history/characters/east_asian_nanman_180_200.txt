@@ -1,0 +1,516 @@
+﻿# Generated from 華陽國志、三國志、三國演義、後漢書 and 漢晉春秋.
+# Culture: nanman
+# Time partition: 180_200 (death >= 180 and birth <= 200).
+# No title history is assigned. Dates marked in the evidence audit may be estimates.
+
+##### 【高定】
+gao_ding={
+	name="uuii_book_gao_ding_name" #定
+	dynasty_house="house_112020002001013"
+	culture="nanman"
+	faith="guiwu"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	168.7.1={
+		birth=yes
+	}
+	225.7.1={
+		death=yes
+	}
+}
+
+##### 【杨锋】
+yang_feng_3={
+	name="uuii_book_yang_feng_3_name" #锋
+	dynasty_house="house_112020004001013"
+	culture="nanman"
+	faith="guiwu"
+	diplomacy="5"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	173.7.1={
+		birth=yes
+	}
+	225.7.1={
+		death=yes
+	}
+}
+
+##### 【爨习】
+cuan_xi={
+	name="uuii_book_cuan_xi_name" #习
+	dynasty_house="house_112020011001013"
+	culture="nanman"
+	faith="guiwu"
+	diplomacy="4"
+	martial="8"
+	stewardship="8"
+	intrigue="4"
+	learning="8"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	166.7.1={
+		birth=yes
+	}
+	223.7.1={
+		death=yes
+	}
+}
+
+##### 【蒙放】
+meng_fang={
+	name="uuii_book_meng_fang_name" #放
+	dynasty_house="house_112020012001013"
+	culture="nanman"
+	faith="guiwu"
+	diplomacy="6"
+	martial="6"
+	stewardship="9"
+	intrigue="7"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	160.7.1={
+		birth=yes
+	}
+	221.7.1={
+		death=yes
+	}
+}
+
+##### 【李求承】
+li_qiu_cheng={
+	name="uuii_book_li_qiu_cheng_name" #求承
+	dynasty_house="house_112020014001013"
+	culture="nanman"
+	faith="guiwu"
+	diplomacy="6"
+	martial="8"
+	stewardship="4"
+	intrigue="8"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	170.7.1={
+		birth=yes
+	}
+	225.7.1={
+		death=yes
+	}
+}
+
+##### 【董荼那】
+dong_tu_na={
+	name="uuii_book_dong_tu_na_name" #荼那
+	dynasty_house="house_112020015001013"
+	culture="nanman"
+	faith="guiwu"
+	diplomacy="4"
+	martial="8"
+	stewardship="8"
+	intrigue="7"
+	learning="6"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	172.7.1={
+		birth=yes
+	}
+	225.7.1={
+		death=yes
+	}
+}
+
+##### 【鄂焕】
+e_huan={
+	name="uuii_book_e_huan_name" #焕
+	dynasty_house="house_112020035001013"
+	culture="nanman"
+	faith="guiwu"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	171.7.1={
+		birth=yes
+	}
+	225.7.1={
+		death=yes
+	}
+}
+
+##### 【苴蛰】
+ju_zhe={
+	name="uuii_book_ju_zhe_name" #蛰
+	dynasty_house="house_112020038001013"
+	culture="nanman"
+	faith="guiwu"
+	diplomacy="7"
+	martial="7"
+	stewardship="8"
+	intrigue="5"
+	learning="8"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	165.7.1={
+		birth=yes
+	}
+	225.7.1={
+		death=yes
+	}
+}
+
+##### 【句驹】
+ju_ju={
+	name="uuii_book_ju_ju_name" #驹
+	dynasty_house="house_112020039001013"
+	culture="nanman"
+	faith="guiwu"
+	diplomacy="5"
+	martial="6"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	164.7.1={
+		birth=yes
+	}
+	227.7.1={
+		death=yes
+	}
+}
+
+##### 【刘胄】
+liu_zhou={
+	name="uuii_book_liu_zhou_name" #胄
+	dynasty_house="house_112020041001013"
+	culture="nanman"
+	faith="guiwu"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="5"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	168.7.1={
+		birth=yes
+	}
+	233.7.1={
+		death=yes
+	}
+}
+
+##### 【孟飞廉】
+meng_fei_lian={
+	name="uuii_book_meng_fei_lian_name" #飞廉
+	dynasty_house="house_112020042001013"
+	culture="nanman"
+	faith="guiwu"
+	diplomacy="6"
+	martial="5"
+	stewardship="7"
+	intrigue="9"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	145.7.1={
+		birth=yes
+	}
+	196.7.1={
+		death=yes
+	}
+}
+
+##### 【孟优】
+meng_you={
+	name="uuii_book_meng_you_name" #优
+	dynasty_house="house_112020042001013"
+	father="meng_fei_lian"
+	culture="nanman"
+	faith="guiwu"
+	diplomacy="6"
+	martial="8"
+	stewardship="8"
+	intrigue="8"
+	learning="4"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	188.7.1={
+		birth=yes
+	}
+	236.7.1={
+		death=yes
+	}
+}
+
+##### 【祝融烈焰】
+zhu_rong_lie_yan={
+	name="uuii_book_zhu_rong_lie_yan_name" #融烈焰
+	dynasty_house="house_112020043001013"
+	culture="nanman"
+	faith="guiwu"
+	diplomacy="8"
+	martial="5"
+	stewardship="6"
+	intrigue="5"
+	learning="9"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	165.7.1={
+		birth=yes
+	}
+	214.7.1={
+		death=yes
+	}
+}
+
+##### 【祝融夫人】
+zhu_rong_fu_ren={
+	name="uuii_book_zhu_rong_fu_ren_name" #融夫人
+	dynasty_house="house_112020043001013"
+	female=yes
+	father="zhu_rong_lie_yan"
+	culture="nanman"
+	faith="guiwu"
+	diplomacy="7"
+	martial="7"
+	stewardship="8"
+	intrigue="4"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	187.7.1={
+		birth=yes
+	}
+	254.7.1={
+		death=yes
+	}
+}
+
+##### 【祝融带来洞主】
+zhu_rong_dai_lai_dong_zhu={
+	name="uuii_book_zhu_rong_dai_lai_dong_zhu_name" #融带来洞主
+	dynasty_house="house_112020043001013"
+	father="zhu_rong_lie_yan"
+	culture="nanman"
+	faith="guiwu"
+	diplomacy="7"
+	martial="8"
+	stewardship="7"
+	intrigue="6"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	189.7.1={
+		birth=yes
+	}
+	234.7.1={
+		death=yes
+	}
+}
+
+##### 【朵思大王】
+duo_si_da_wang={
+	name="uuii_book_duo_si_da_wang_name" #思大王
+	dynasty_house="house_112020044001013"
+	culture="nanman"
+	faith="guiwu"
+	diplomacy="8"
+	martial="8"
+	stewardship="8"
+	intrigue="7"
+	learning="5"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=no
+	173.7.1={
+		birth=yes
+	}
+	225.7.1={
+		death=yes
+	}
+}
+
+##### 【木鹿大王】
+mu_lu_da_wang={
+	name="uuii_book_mu_lu_da_wang_name" #鹿大王
+	dynasty_house="house_112020045001013"
+	culture="nanman"
+	faith="guiwu"
+	diplomacy="6"
+	martial="6"
+	stewardship="8"
+	intrigue="6"
+	learning="6"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	172.7.1={
+		birth=yes
+	}
+	225.7.1={
+		death=yes
+	}
+}
+
+##### 【金环三结】
+jin_huan_san_jie={
+	name="uuii_book_jin_huan_san_jie_name" #环三结
+	dynasty_house="house_112020046001013"
+	culture="nanman"
+	faith="guiwu"
+	diplomacy="5"
+	martial="8"
+	stewardship="8"
+	intrigue="7"
+	learning="5"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	172.7.1={
+		birth=yes
+	}
+	225.7.1={
+		death=yes
+	}
+}
+
+##### 【乌戈兀突骨】
+wu_ge_wu_tu_gu={
+	name="uuii_book_wu_ge_wu_tu_gu_name" #戈兀突骨
+	dynasty_house="house_112020047001013"
+	culture="nanman"
+	faith="guiwu"
+	diplomacy="5"
+	martial="8"
+	stewardship="8"
+	intrigue="5"
+	learning="8"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	173.7.1={
+		birth=yes
+	}
+	225.7.1={
+		death=yes
+	}
+}
+
+##### 【冬榆】
+dong_yu={
+	name="uuii_book_dong_yu_name" #榆
+	dynasty_house="house_112020076001013"
+	culture="nanman"
+	faith="guiwu"
+	diplomacy="7"
+	martial="9"
+	stewardship="6"
+	intrigue="7"
+	learning="5"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	145.7.1={
+		birth=yes
+	}
+	188.7.1={
+		death=yes
+	}
+}
+
+##### 【冬逢】
+dong_feng={
+	name="uuii_book_dong_feng_name" #逢
+	dynasty_house="house_112020076001013"
+	father="dong_yu"
+	culture="nanman"
+	faith="guiwu"
+	diplomacy="5"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	172.7.1={
+		birth=yes
+	}
+	233.7.1={
+		death=yes
+	}
+}
+
+##### 【冬隗渠】
+dong_kui_qu={
+	name="uuii_book_dong_kui_qu_name" #隗渠
+	dynasty_house="house_112020076001013"
+	father="dong_yu"
+	culture="nanman"
+	faith="guiwu"
+	diplomacy="5"
+	martial="6"
+	stewardship="7"
+	intrigue="10"
+	learning="5"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	173.7.1={
+		birth=yes
+	}
+	234.7.1={
+		death=yes
+	}
+}
+
+##### 【魏狼】
+wei_lang={
+	name="uuii_book_wei_lang_name" #狼
+	dynasty_house="house_112020077001013"
+	culture="nanman"
+	faith="guiwu"
+	diplomacy="6"
+	martial="4"
+	stewardship="8"
+	intrigue="8"
+	learning="8"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	172.7.1={
+		birth=yes
+	}
+	233.7.1={
+		death=yes
+	}
+}

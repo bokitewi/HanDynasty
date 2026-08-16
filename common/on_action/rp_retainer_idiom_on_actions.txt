@@ -1,0 +1,373 @@
+﻿on_travel_plan_arrival = {
+	on_actions = {
+		rp_retainer_on_travel_plan_arrival
+		rp_idiom_on_travel_plan_arrival
+		rp_retainer_on_travel_plan_arrival_ai
+		rp_idiom_on_travel_plan_arrival_ai
+	}
+}
+
+rp_retainer_on_travel_plan_arrival = {
+	trigger = {
+		root = {
+			rp_is_merit_activity_enabled_trigger = yes
+			is_ai = no
+			is_travelling = yes
+			NOT = { has_character_flag = rp_travel_retainer_recently_checked }
+		}
+	}
+	random_events = {
+		chance_of_no_event = 97
+		3 = rp_retainer.0100
+	}
+}
+
+rp_idiom_on_travel_plan_arrival = {
+	trigger = {
+		root = {
+			rp_is_merit_activity_enabled_trigger = yes
+			is_ai = no
+			is_travelling = yes
+			NOT = { has_character_flag = rp_idiom_travel_recently_checked }
+			NOT = { has_character_flag = rp_common_flavor_event_cooldown }
+		}
+	}
+	effect = {
+		root = { rp_mark_common_flavor_event_cooldown_effect = yes }
+	}
+	random_events = {
+		chance_of_no_event = 95
+		3 = rp_idiom.0010
+		2 = rp_idiom.0020
+	}
+}
+
+on_war_started = {
+	on_actions = {
+		rp_idiom_on_war_started
+		rp_idiom_on_war_started_ai
+	}
+}
+
+rp_idiom_on_war_started = {
+	effect = {
+		scope:attacker = {
+			if = {
+				limit = {
+					rp_is_merit_activity_enabled_trigger = yes
+					is_ai = no
+					NOT = { has_character_flag = rp_idiom_war_started_recently_checked }
+					NOT = { has_character_flag = rp_common_flavor_event_cooldown }
+					OR = {
+						has_relation_friend = scope:defender
+						has_relation_best_friend = scope:defender
+					}
+				}
+				scope:defender = { save_scope_as = rp_idiom_enemy }
+				rp_mark_common_flavor_event_cooldown_effect = yes
+				add_character_flag = { flag = rp_idiom_war_started_recently_checked days = 365 }
+				random = { chance = 8 trigger_event = rp_idiom.0001 }
+			}
+		}
+		scope:defender = {
+			if = {
+				limit = {
+					rp_is_merit_activity_enabled_trigger = yes
+					is_ai = no
+					NOT = { has_character_flag = rp_idiom_war_started_recently_checked }
+					NOT = { has_character_flag = rp_common_flavor_event_cooldown }
+					OR = {
+						has_relation_friend = scope:attacker
+						has_relation_best_friend = scope:attacker
+					}
+				}
+				scope:attacker = { save_scope_as = rp_idiom_enemy }
+				rp_mark_common_flavor_event_cooldown_effect = yes
+				add_character_flag = { flag = rp_idiom_war_started_recently_checked days = 365 }
+				random = { chance = 8 trigger_event = rp_idiom.0001 }
+			}
+		}
+	}
+}
+
+rp_idiom_on_war_started_ai = {
+	effect = {
+		scope:attacker = {
+			if = {
+				limit = {
+					rp_is_merit_activity_enabled_trigger = yes
+					is_ai = yes
+					NOT = { has_character_flag = rp_idiom_war_started_recently_checked }
+					OR = {
+						has_relation_friend = scope:defender
+						has_relation_best_friend = scope:defender
+					}
+				}
+				add_character_flag = { flag = rp_idiom_war_started_recently_checked days = 365 }
+				random = { chance = 4 trigger_event = rp_merit_ai.0005 }
+			}
+		}
+		scope:defender = {
+			if = {
+				limit = {
+					rp_is_merit_activity_enabled_trigger = yes
+					is_ai = yes
+					NOT = { has_character_flag = rp_idiom_war_started_recently_checked }
+					OR = {
+						has_relation_friend = scope:attacker
+						has_relation_best_friend = scope:attacker
+					}
+				}
+				add_character_flag = { flag = rp_idiom_war_started_recently_checked days = 365 }
+				random = { chance = 4 trigger_event = rp_merit_ai.0005 }
+			}
+		}
+	}
+}
+
+on_combat_end_winner = {
+	on_actions = {
+		rp_idiom_on_combat_end_winner
+		rp_idiom_on_combat_end_winner_ai
+	}
+}
+
+rp_idiom_on_combat_end_winner = {
+	trigger = {
+		exists = combat.combat_war
+		side_primary_participant = {
+			rp_is_merit_activity_enabled_trigger = yes
+			is_ai = no
+			NOT = { has_character_flag = rp_idiom_combat_recently_checked }
+			NOT = { has_character_flag = rp_common_flavor_event_cooldown }
+		}
+	}
+	effect = {
+		side_primary_participant = {
+			rp_mark_common_flavor_event_cooldown_effect = yes
+			add_character_flag = { flag = rp_idiom_combat_recently_checked days = 180 }
+			random_list = {
+				3 = { trigger_event = rp_idiom.0030 }
+				3 = { trigger_event = rp_idiom.0060 }
+				94 = { }
+			}
+		}
+	}
+}
+
+rp_idiom_on_combat_end_winner_ai = {
+	trigger = {
+		exists = combat.combat_war
+		side_primary_participant = {
+			rp_is_merit_activity_enabled_trigger = yes
+			is_ai = yes
+			NOT = { has_character_flag = rp_idiom_combat_recently_checked }
+		}
+	}
+	effect = {
+		side_primary_participant = {
+			add_character_flag = { flag = rp_idiom_combat_recently_checked days = 180 }
+			random = { chance = 2 trigger_event = rp_merit_ai.0005 }
+		}
+	}
+}
+
+on_siege_completion = {
+	on_actions = {
+		rp_idiom_on_siege_completion
+		rp_idiom_on_siege_completion_ai
+	}
+}
+
+rp_idiom_on_siege_completion = {
+	trigger = {
+		exists = root
+		exists = scope:war
+		root = {
+			rp_is_merit_activity_enabled_trigger = yes
+			is_ai = no
+			NOT = { has_character_flag = rp_idiom_siege_recently_checked }
+			NOT = { has_character_flag = rp_idiom_qiefu_rescue_cooldown }
+			NOT = { has_character_flag = rp_common_flavor_event_cooldown }
+		}
+	}
+	effect = {
+		root = {
+			rp_mark_common_flavor_event_cooldown_effect = yes
+			add_character_flag = { flag = rp_idiom_siege_recently_checked days = 180 }
+		}
+	}
+	random_events = {
+		chance_of_no_event = 97
+		1 = rp_idiom.0040
+		2 = rp_idiom.0060
+	}
+}
+
+rp_idiom_on_siege_completion_ai = {
+	trigger = {
+		exists = root
+		exists = scope:war
+		root = {
+			rp_is_merit_activity_enabled_trigger = yes
+			is_ai = yes
+			NOT = { has_character_flag = rp_idiom_siege_recently_checked }
+		}
+	}
+	effect = {
+		root = {
+			add_character_flag = { flag = rp_idiom_siege_recently_checked days = 180 }
+			random = { chance = 2 trigger_event = rp_merit_ai.0005 }
+		}
+	}
+}
+
+on_war_won_attacker = {
+	on_actions = {
+		rp_idiom_on_war_won_attacker
+	}
+}
+
+rp_idiom_on_war_won_attacker = {
+	effect = {
+		scope:attacker = {
+			if = {
+				limit = { rp_is_merit_activity_enabled_trigger = yes }
+				scope:defender = { save_scope_as = rp_idiom_enemy }
+				rp_idiom_check_revenge_success_effect = yes
+				if = {
+					limit = { has_character_modifier = rp_idiom_retreat_righteous_modifier }
+					remove_character_modifier = rp_idiom_retreat_righteous_modifier
+					add_character_modifier = { modifier = rp_idiom_tuibi_sanshe_permanent_modifier years = 100 }
+				}
+			}
+		}
+		scope:defender = {
+			if = {
+				limit = {
+					rp_is_merit_activity_enabled_trigger = yes
+					is_ai = no
+					NOT = { has_character_flag = rp_idiom_defeat_recently_checked }
+					NOT = { has_character_flag = rp_common_flavor_event_cooldown }
+				}
+				scope:attacker = { save_scope_as = rp_idiom_enemy }
+				rp_mark_common_flavor_event_cooldown_effect = yes
+				add_character_flag = { flag = rp_idiom_defeat_recently_checked days = 365 }
+				random = { chance = 15 trigger_event = rp_idiom.0050 }
+			}
+		}
+	}
+}
+
+on_war_won_defender = {
+	on_actions = {
+		rp_idiom_on_war_won_defender
+	}
+}
+
+rp_idiom_on_war_won_defender = {
+	effect = {
+		scope:defender = {
+			if = {
+				limit = { rp_is_merit_activity_enabled_trigger = yes }
+				scope:attacker = { save_scope_as = rp_idiom_enemy }
+				rp_idiom_check_revenge_success_effect = yes
+				if = {
+					limit = { has_character_modifier = rp_idiom_retreat_righteous_modifier }
+					remove_character_modifier = rp_idiom_retreat_righteous_modifier
+					add_character_modifier = { modifier = rp_idiom_tuibi_sanshe_permanent_modifier years = 100 }
+				}
+			}
+		}
+		scope:attacker = {
+			if = {
+				limit = {
+					rp_is_merit_activity_enabled_trigger = yes
+					is_ai = no
+					NOT = { has_character_flag = rp_idiom_defeat_recently_checked }
+					NOT = { has_character_flag = rp_common_flavor_event_cooldown }
+				}
+				scope:defender = { save_scope_as = rp_idiom_enemy }
+				rp_mark_common_flavor_event_cooldown_effect = yes
+				add_character_flag = { flag = rp_idiom_defeat_recently_checked days = 365 }
+				random = { chance = 15 trigger_event = rp_idiom.0050 }
+			}
+		}
+	}
+}
+
+yearly_playable_pulse = {
+	on_actions = {
+		rp_idiom_yearly_pulse
+		rp_idiom_yearly_pulse_ai
+	}
+}
+
+rp_idiom_yearly_pulse = {
+	trigger = {
+		root = {
+			rp_can_fire_yearly_idiom_trigger = yes
+			is_ai = no
+			NOT = { has_character_flag = rp_common_flavor_event_cooldown }
+		}
+	}
+	effect = {
+		root = {
+			rp_mark_common_flavor_event_cooldown_effect = yes
+			add_character_flag = { flag = rp_yearly_idiom_recently_checked days = 365 }
+			random_list = {
+				10 = { trigger_event = rp_idiom.0070 }
+				10 = { trigger_event = rp_idiom.0080 }
+				10 = { trigger_event = rp_idiom.0090 }
+				10 = { trigger_event = rp_idiom.0100 }
+				60 = { }
+			}
+		}
+	}
+}
+
+rp_idiom_yearly_pulse_ai = {
+	trigger = {
+		root = {
+			rp_can_fire_yearly_idiom_trigger = yes
+			is_ai = yes
+			NOT = { has_character_flag = rp_ai_yearly_activity_done }
+		}
+	}
+	effect = {
+		root = {
+			rp_mark_ai_yearly_activity_done_effect = yes
+			trigger_event = rp_merit_ai.0004
+		}
+	}
+}
+
+rp_retainer_on_travel_plan_arrival_ai = {
+	trigger = {
+		root = {
+			rp_is_merit_activity_enabled_trigger = yes
+			is_ai = yes
+			is_travelling = yes
+			NOT = { has_character_flag = rp_travel_retainer_recently_checked }
+		}
+	}
+	random_events = {
+		chance_of_no_event = 99
+		1 = rp_merit_ai.0003
+	}
+}
+
+rp_idiom_on_travel_plan_arrival_ai = {
+	trigger = {
+		root = {
+			rp_is_merit_activity_enabled_trigger = yes
+			is_ai = yes
+			is_travelling = yes
+			NOT = { has_character_flag = rp_idiom_travel_recently_checked }
+		}
+	}
+	random_events = {
+		chance_of_no_event = 99
+		1 = rp_merit_ai.0005
+	}
+}

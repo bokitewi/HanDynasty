@@ -1,0 +1,19 @@
+# Japan is outside the UUII China-Hexi-Xiyu game world.  The engine queries
+# these two stable DLC keys during database setup, so keep inert definitions
+# while removing every active Japanese war branch.
+
+japan_imperial_expansion_cb = {
+	group = conquest
+	icon = celestial
+	allowed_for_character = { always = no }
+	allowed_against_character = { always = no }
+	valid_to_start = { always = no }
+}
+
+japan_imperial_reconquest_cb = {
+	group = de_jure
+	icon = celestial
+	allowed_for_character = { always = no }
+	allowed_against_character = { always = no }
+	valid_to_start = { always = no }
+}

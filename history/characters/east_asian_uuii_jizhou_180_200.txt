@@ -1,0 +1,381 @@
+# Generated from 華陽國志、三國志、三國演義、後漢書 and 漢晉春秋.
+# Culture: jizhou
+# Time partition: 180_200 (death >= 180 and birth <= 200).
+# No title history is assigned. Dates marked in the evidence audit may be estimates.
+
+##### 【赵云】
+zhao_yun={
+	name="uuii_book_zhao_yun_name" #云
+	dynasty_house="house_111010001001013"
+	culture="jizhou"
+	faith="jingxue"
+	diplomacy="9"
+	martial="5"
+	stewardship="12"
+	intrigue="5"
+	learning="15"
+	prowess="3"
+	health=5.5
+	disallow_random_traits=no
+	168.7.1={
+		birth=yes
+	}
+	229.7.1={
+		death=yes
+	}
+}
+
+##### 【赵统】
+zhao_tong={
+	name="uuii_book_zhao_tong_name" #统
+	dynasty_house="house_111010001001013"
+	father="zhao_yun"
+	culture="jizhou"
+	faith="jingxue"
+	diplomacy="7"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="4"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	200.7.1={
+		birth=yes
+	}
+	275.7.1={
+		death=yes
+	}
+}
+
+##### 【张角】
+zhang_jiao={
+	name="uuii_book_zhang_jiao_name" #角
+	dynasty_house="house_111010024005013"
+	father="zhang_tong"
+	culture="jizhou"
+	faith="taipingdao"
+	diplomacy="3"
+	martial="9"
+	stewardship="6"
+	intrigue="5"
+	learning="15"
+	prowess="0"
+	health=5.5
+	disallow_random_traits=no
+	trait=education_learning_4
+	132.7.1={
+		birth=yes
+	}
+}
+
+##### 【张梁】
+zhang_liang={
+	name="uuii_book_zhang_liang_name" #梁
+	dynasty_house="house_111010024005013"
+	father="zhang_tong"
+	culture="jizhou"
+	faith="taipingdao"
+	diplomacy="5"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	150.7.1={
+		birth=yes
+	}
+	184.7.1={
+		death=yes
+	}
+}
+
+##### 【张宝】
+zhang_bao={
+	name="uuii_book_zhang_bao_name" #宝
+	dynasty_house="house_111010024005013"
+	father="zhang_tong"
+	culture="jizhou"
+	faith="taipingdao"
+	diplomacy="5"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	140.7.1={
+		birth=yes
+	}
+	184.7.1={
+		death=yes
+	}
+}
+
+##### 【张灵】
+zhang_ling={
+	name="uuii_book_zhang_ling_name" #灵
+	dynasty_house="house_111010024005013"
+	female=yes
+	father="zhang_jiao"
+	culture="jizhou"
+	faith="taipingdao"
+	diplomacy="6"
+	martial="7"
+	stewardship="6"
+	intrigue="7"
+	learning="9"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	170.7.1={
+		birth=yes
+	}
+	250.7.1={
+		death=yes
+	}
+}
+
+##### 【张超】
+zhang_chao={
+	name="uuii_book_zhang_chao_name" #超
+	dynasty_house="house_111010024023013"
+	father="zhang_yue"
+	culture="jizhou"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	trait=education_intrigue_3
+	158.7.1={
+		birth=yes
+	}
+	195.7.1={
+		death=yes
+	}
+}
+
+##### 【邢颙】
+xing_yong={
+	name="uuii_book_xing_yong_name" #颙
+	dynasty_house="house_111010193002013"
+	culture="jizhou"
+	faith="jingxue"
+	diplomacy="6"
+	martial="5"
+	stewardship="9"
+	intrigue="9"
+	learning="6"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	169.7.1={
+		birth=yes
+	}
+	184.1.1={
+		effect={
+			set_location={
+				location=province:6954
+				stick_to_location=yes
+			}
+		}
+	}
+	223.7.1={
+		death=yes
+	}
+}
+
+##### 【刘宏】
+liu_hong_3={
+	name="uuii_book_liu_hong_3_name" #宏
+	dynasty_house="house_111010250025013"
+	father="liu_chang_3"
+	culture="jizhou"
+	faith="jingxue"
+	diplomacy="6"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	trait=education_intrigue_4
+	156.7.1={
+		birth=yes
+	}
+	189.7.1={
+		death=yes
+	}
+}
+
+##### 【牵招】
+qian_zhao={
+	name="uuii_book_qian_zhao_name" #招
+	dynasty_house="house_111010471001013"
+	culture="jizhou"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="6"
+	intrigue="7"
+	learning="7"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	173.7.1={
+		birth=yes
+	}
+	231.7.1={
+		death=yes
+	}
+}
+
+##### 【牵嘉】
+qian_jia={
+	name="uuii_book_qian_jia_name" #嘉
+	dynasty_house="house_111010471001013"
+	father="qian_zhao"
+	culture="jizhou"
+	faith="jingxue"
+	diplomacy="6"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="5"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	194.7.1={
+		birth=yes
+	}
+	226.7.1={
+		death=yes
+	}
+}
+
+##### 【张燕】
+zhang_yan_7={
+	name="uuii_book_zhang_yan_7_name" #燕
+	dynasty_house="uuii_book_house_8196577769da"
+	culture="jizhou"
+	faith="jingxue"
+	diplomacy="7"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="4"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	159.7.1={
+		birth=yes
+	}
+	184.1.1={
+		effect={
+			set_location={
+				location=province:2942
+				stick_to_location=yes
+			}
+		}
+	}
+	224.7.1={
+		death=yes
+	}
+}
+
+##### 【韩宣】
+han_xuan_3={
+	name="uuii_book_han_xuan_3_name" #宣
+	dynasty_house="uuii_book_house_369f2da2303d"
+	culture="jizhou"
+	faith="jingxue"
+	diplomacy="5"
+	martial="7"
+	stewardship="5"
+	intrigue="9"
+	learning="6"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	195.7.1={
+		birth=yes
+	}
+	260.7.1={
+		death=yes
+	}
+}
+
+##### 【张宝】
+zhang_bao_3={
+	name="uuii_book_zhang_bao_3_name" #张宝
+	dynasty_house="uuii_book_house_183c89ca97dd"
+	culture="jizhou"
+	faith="zhengyi"
+	diplomacy="9"
+	martial="5"
+	stewardship="8"
+	intrigue="5"
+	learning="5"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	190.7.1={
+		birth=yes
+	}
+	255.7.1={
+		death=yes
+	}
+}
+
+##### 【张梁】
+zhang_liang_3={
+	name="uuii_book_zhang_liang_3_name" #张梁
+	dynasty_house="uuii_book_house_13cd13684d62"
+	culture="jizhou"
+	faith="zhengyi"
+	diplomacy="8"
+	martial="7"
+	stewardship="5"
+	intrigue="8"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	150.7.1={
+		birth=yes
+	}
+	184.7.1={
+		death=yes
+	}
+}
+
+##### 【德胄】
+de_zhou={
+	name="uuii_book_de_zhou_name" #德胄
+	dynasty_house="uuii_book_house_bfdbd1ef8000"
+	culture="jizhou"
+	faith="jingxue"
+	diplomacy="6"
+	martial="5"
+	stewardship="9"
+	intrigue="5"
+	learning="6"
+	prowess="9"
+	health=5.5
+	disallow_random_traits=no
+	195.7.1={
+		birth=yes
+	}
+	260.7.1={
+		death=yes
+	}
+}

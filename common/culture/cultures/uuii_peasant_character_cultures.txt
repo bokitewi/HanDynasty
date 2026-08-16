@@ -1,0 +1,383 @@
+# Hand-maintained PeasantAnnal cultures required by imported characters.
+
+diren = { #113003	diren	 氐 	heritage_qiang|diren	氐羌| 氐
+	color = { 0.34 0.8 0.82 }
+	
+	name_order_convention = dynasty_always_first
+	ethos = ethos_bureaucratic
+	heritage = heritage_uuii_di
+	language = language_qiangic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_caravaneers
+		tradition_religion_blending
+		tradition_religious_patronage
+		tradition_court_eunuchs
+		tradition_himalayan_settlers
+	}
+
+	dlc_tradition = {
+		trait = tradition_mpo_iron_cavalry
+		requires_dlc_flag = khans_of_the_steppe
+	}
+	
+	name_list = name_list_diren
+	
+	coa_gfx = { mongol_coa_gfx steppe_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { tangut_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	coa_gfx = { chinese_group_coa_gfx }
+	house_coa_frame = house_frame_11
+	house_coa_mask_offset = { 0.0 0.0 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		100 = asian_tibetan
+	}
+}
+
+fuyu = { #12304	fuyu	扶余	buyeo_fuyu	heritage_goguryeo|fuyu	扶余|扶余
+	color = { 0.355 0.1 0.85 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_bellicose
+	heritage = heritage_goguryeo
+	language = language_korean
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_martial_admiration
+		tradition_castle_keepers
+		tradition_warriors_by_merit
+		tradition_cultural_primacy
+	}
+	
+	dlc_tradition = {
+		trait = tradition_sinophilic
+		requires_dlc_flag = all_under_heaven
+	}
+
+	name_list = name_list_korean
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { korean_clothing_gfx chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+	house_coa_frame = house_frame_09
+
+	ethnicities = {
+		100 = asian_manchu_korean
+	}
+}
+
+jieren = { #141021	jieren	 羯 	heritage_turkic|jieren	突厥| 羯 
+	color = { 0.25 0.95 0.45 }
+	
+	ethos = ethos_communal
+	heritage = heritage_uuii_di_north
+	language = language_turkic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		#tradition_steppe_tolerance
+		#tradition_horse_lords
+		tradition_horse_breeder
+		tradition_sacred_mountains
+		tradition_dryland_dwellers
+		tradition_mountain_homes
+	}
+	
+	dlc_tradition = {
+		trait = tradition_mpo_iron_cavalry
+		requires_dlc_flag = khans_of_the_steppe
+	}
+	
+	name_list = name_list_xiongnu
+
+	coa_gfx = { mongol_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { tangut_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		100 = turkic_west
+	}
+}
+
+nanman = { #11202	nanman	南蛮	hmongic_nanman	heritage_hmongic|nanman	苗越|南蛮
+	color = { 0.74 0.11 0.79 }
+
+	#道德观念
+	ethos = ethos_egalitarian
+	#传承文化
+	heritage = heritage_uuii_nanman
+	#语言文化
+	language = language_hmongic
+	#军事习俗
+	martial_custom = martial_custom_equal
+	#文化领袖判定方式
+	head_determination = head_determination_domain #最大领地数
+	#姓名的排序约定
+	name_order_convention = dynasty_always_first
+
+	#传统
+	traditions = {
+		tradition_agrarian
+		tradition_medicinal_plants
+	}
+	#DLC传统
+	dlc_tradition = {
+		trait = tradition_artisans
+		requires_dlc_flag = royal_court
+	}
+	#DLC传统
+	dlc_tradition = {
+		trait = tradition_fp2_malleable_subjects
+		requires_dlc_flag = the_fate_of_iberia
+		fallback = tradition_xenophilic
+	}
+
+	#名字使用列表
+	name_list = name_list_nanman
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+	house_coa_frame = house_frame_26
+	house_coa_mask_offset = { 0.0 0.0 }
+	house_coa_mask_scale = { 0.85 0.85 }
+
+	ethnicities = {
+		100 = asian_malay
+	}
+}
+
+shan = { #17604	shan	 掸 	mon_khmer_shan	heritage_mon_khmer|shan	孟寮| 掸  
+	color = { 0.3 0.2 0.8 }
+
+	ethos = ethos_spiritual
+	heritage = heritage_uuii_xinanman
+	language = language_mon_khmer
+	martial_custom = martial_custom_male_only
+
+	name_list = name_list_mon
+
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_agrarian
+		tradition_religious_patronage
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp2_malleable_subjects
+		requires_dlc_flag = the_fate_of_iberia
+		fallback = tradition_xenophilic
+	}
+
+	dlc_tradition = {
+		trait = tradition_culture_blending
+		requires_dlc_flag = hybridize_culture
+	}
+
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { malay_clothing_gfx southeast_asian_clothing_gfx }
+	unit_gfx = { southeast_asian_unit_gfx indian_unit_gfx }
+	house_coa_frame = house_frame_26
+	house_coa_mask_offset = { 0.0 0.0 }
+	house_coa_mask_scale = { 0.85 0.85 }
+
+	ethnicities = {
+		100 = asian_malay
+	}
+}
+
+sushen = { #134003	sushen	肃慎	heritage_tungusic|sushen	通古斯|肃慎
+
+	color = { 0.95 0.99 0.12 }
+
+	ethos = ethos_egalitarian
+	heritage = heritage_uuii_sushen
+	language = language_tungusic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_pastoralists
+		tradition_hunters
+		tradition_forest_folk
+		tradition_sacred_hunts
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp2_malleable_subjects
+		requires_dlc_flag = the_fate_of_iberia
+		fallback = tradition_xenophilic
+	}
+
+	name_list = name_list_jurchen
+
+	coa_gfx = { mongol_coa_gfx steppe_coa_gfx }
+	building_gfx = { amuric_building_gfx steppe_building_gfx }
+	clothing_gfx = { nivkh_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	house_coa_frame = house_frame_14
+
+	ethnicities = {
+		100 = asian_manchu_korean
+	}
+}
+
+wuhuan = { #131009	wuhuan	乌桓	heritage_donghu|wuhuan	东胡|乌桓
+	color = { 0.775 1.5 1.15 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_bellicose
+	heritage = heritage_donghu
+	language = language_khitan
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+
+	traditions = {
+		#tradition_horse_lords
+		tradition_horse_breeder
+		tradition_pastoralists
+		tradition_dryland_dwellers
+	}
+
+	dlc_tradition = {
+		trait = tradition_mpo_iron_cavalry
+		requires_dlc_flag = khans_of_the_steppe
+	}
+	
+	name_list = name_list_wuhuan
+
+	coa_gfx = { mongol_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { khitan_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	house_coa_frame = house_frame_14
+
+	ethnicities = {
+		100 = asian_mongol
+	}
+}
+
+xianbei = { #131010	xianbei	鲜卑	heritage_donghu|xianbei	东胡|鲜卑
+	color = { 0.15 0.60 0.20 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_bellicose
+	heritage = heritage_donghu
+	language = language_khitan
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+
+	traditions = {
+		#tradition_horse_lords
+		tradition_horse_breeder
+		tradition_pastoralists
+		tradition_dryland_dwellers
+	}
+
+	dlc_tradition = {
+		trait = tradition_mpo_iron_cavalry
+		requires_dlc_flag = khans_of_the_steppe
+	}
+	
+	name_list = name_list_xianbei
+
+	coa_gfx = { mongol_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { khitan_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	house_coa_frame = house_frame_14
+
+	ethnicities = {
+		100 = asian_mongol
+	}
+}
+
+xiongnu = { #141020	xiongnu	匈奴	heritage_turkic|xiongnu	突厥|匈奴
+	color = { 0.85 0.55 0.15 }
+	
+	ethos = ethos_communal
+	heritage = heritage_uuii_xiongnu
+	language = language_turkic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	name_order_convention = dynasty_always_first
+	traditions = {
+		tradition_horse_breeder
+		tradition_sacred_mountains
+		tradition_dryland_dwellers
+		tradition_mountain_homes
+	}
+	
+	
+	name_list = name_list_xiongnu
+
+	coa_gfx = { mongol_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	house_coa_frame = house_frame_14
+
+	ethnicities = {
+		100 = asian_mongol
+	}
+}
+
+yueren = { #11201	yueren	 越 	hmongic_yueren	heritage_hmongic|yueren	苗越| 越 
+	color = { 0.12 0.23 0.95 }
+
+	#道德观念
+	ethos = ethos_egalitarian
+	#传承文化
+	heritage = heritage_baiyue
+	#语言文化
+	language = language_hmongic
+	#军事习俗
+	martial_custom = martial_custom_male_only
+	#文化领袖判定方式
+	head_determination = head_determination_domain #最大领地数
+	#姓名的排序约定
+	name_order_convention = dynasty_always_first
+
+	#传统
+	traditions = {
+		tradition_agrarian
+		tradition_medicinal_plants
+	}
+	#DLC传统
+	dlc_tradition = {
+		trait = tradition_artisans
+		requires_dlc_flag = royal_court
+	}
+	#DLC传统
+	dlc_tradition = {
+		trait = tradition_fp2_malleable_subjects
+		requires_dlc_flag = the_fate_of_iberia
+		fallback = tradition_xenophilic
+	}
+
+	#名字使用列表
+	name_list = name_list_nanman
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+	house_coa_frame = house_frame_26
+	house_coa_mask_offset = { 0.0 0.0 }
+	house_coa_mask_scale = { 0.85 0.85 }
+
+	ethnicities = {
+		100 = asian_malay
+	}
+}

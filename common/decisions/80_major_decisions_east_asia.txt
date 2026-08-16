@@ -1,0 +1,43 @@
+# Unsupported vanilla regional decisions are disabled for the total conversion.
+
+form_brunei_empire_decision = {
+	is_shown = { always = no }
+	is_valid = { always = no }
+	effect = { }
+	ai_potential = { always = no }
+}
+
+form_brunei_kingdom_decision = {
+	is_shown = { always = no }
+	is_valid = { always = no }
+	effect = { }
+	ai_potential = { always = no }
+}
+
+form_dai_viet_empire_decision = {
+	is_shown = { always = no }
+	is_valid = { always = no }
+	effect = { }
+	ai_potential = { always = no }
+}
+
+form_majapahit_empire_decision = {
+	is_shown = { always = no }
+	is_valid = { always = no }
+	effect = { }
+	ai_potential = { always = no }
+}
+
+form_ryukyu_empire_decision = {
+	is_shown = { always = no }
+	is_valid = { always = no }
+	effect = { }
+	ai_potential = { always = no }
+}
+
+form_siam_kingdom_decision = {
+	is_shown = { always = no }
+	is_valid = { always = no }
+	effect = { }
+	ai_potential = { always = no }
+}

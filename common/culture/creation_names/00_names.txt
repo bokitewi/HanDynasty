@@ -1,0 +1,1432 @@
+# Used in definition order
+
+nomadic_house_name = {
+	trigger = {
+		government_has_flag = government_is_nomadic
+	}
+}
+
+scanian = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+		}
+		any_sub_realm_county = {
+			culture = { has_cultural_pillar = heritage_north_germanic }
+			always = no # UUII: absent vanilla title condition
+		}
+		scope:culture = { has_cultural_pillar = heritage_north_germanic }
+	}
+}
+
+beta_israeli = {
+	trigger = {
+		faith.religion = religion:judaism_religion
+		scope:culture = { has_cultural_pillar = heritage_east_african }
+	}
+}
+
+avadhi = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+		}
+		culture = { has_cultural_pillar = heritage_indo_aryan }
+		any_sub_realm_county = {
+			culture = scope:culture
+			always = no # UUII: absent vanilla title condition
+		}
+	}
+}
+
+malayali = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+		}
+		culture = culture:tamil
+		any_sub_realm_county = {
+			culture = culture:tamil
+			always = no # UUII: absent vanilla title condition
+		}
+	}
+}
+
+hejazi = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+			always = no # UUII: absent vanilla title condition
+		}
+		culture = culture:bedouin
+		any_sub_realm_county = {
+			culture = culture:bedouin
+			OR = {
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+			}
+		}
+	}
+}
+
+szekely = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+			always = no # UUII: absent vanilla title condition
+		}
+		culture = culture:hungarian
+		any_sub_realm_county = {
+			culture = culture:hungarian
+			OR = {
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+			}
+		}
+	}
+}
+maithili = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+		}
+		OR = {
+			culture = culture:bengali
+			culture = culture:nepali
+		}
+		any_sub_realm_county = {
+			OR = {
+				culture = culture:bengali
+				culture = culture:nepali
+			}
+			always = no # UUII: absent vanilla title condition
+		}
+	}
+}
+
+bihari = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+			always = no # UUII: absent vanilla title condition
+			always = no # UUII: absent vanilla title condition
+		}
+		scope:culture = { has_cultural_pillar = heritage_indo_aryan }
+		any_sub_realm_county = {
+			culture = scope:culture
+			or = {
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+			}
+		}
+	}
+}
+
+
+azeri = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+			always = no # UUII: absent vanilla title condition
+		}
+		scope:culture = { has_cultural_pillar = heritage_turkic }
+		any_sub_realm_county = {
+			culture = scope:culture
+			OR = {
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+			}
+		}
+	}
+}
+
+dhundari = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+		}
+		culture = culture:rajput
+		any_sub_realm_county = {
+			culture = culture:rajput
+			always = no # UUII: absent vanilla title condition
+		}
+	}
+}
+
+mewari = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+		}
+		culture = culture:rajput
+		any_sub_realm_county = {
+			culture = culture:rajput
+			always = no # UUII: absent vanilla title condition
+		}
+	}
+}
+
+marwari = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+			always = no # UUII: absent vanilla title condition
+		}
+		culture = culture:rajput
+		any_sub_realm_county = {
+			culture = culture:rajput
+			OR = {
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+			}
+		}
+	}
+}
+
+nimadi = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+		}
+		OR ={
+			culture = culture:marathi
+			culture = culture:malvi
+		}
+		any_sub_realm_county = {
+			OR ={
+				culture = culture:marathi
+				culture = culture:malvi
+			}
+			always = no # UUII: absent vanilla title condition
+		}
+	}
+}
+
+kathiawari = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+			always = no # UUII: absent vanilla title condition
+		}
+		culture = culture:gujarati
+		any_sub_realm_county = {
+			culture = culture:gujarati
+			OR = {
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+			}
+		}
+	}
+}
+
+kabylian = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+			always = no # UUII: absent vanilla title condition
+			always = no # UUII: absent vanilla title condition
+		}
+		OR = {
+			culture = culture:butr
+			culture = culture:baranis
+		}
+		any_sub_realm_county = {
+			OR ={
+				culture = culture:butr
+				culture = culture:baranis
+			}
+			OR = {
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+			}
+		}
+	}
+}
+
+austrian = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+			always = no # UUII: absent vanilla title condition
+			always = no # UUII: absent vanilla title condition
+			always = no # UUII: absent vanilla title condition
+			always = no # UUII: absent vanilla title condition
+		}
+		culture = { has_cultural_pillar = heritage_central_germanic }
+		any_sub_realm_county = {
+			culture = { has_cultural_pillar = heritage_central_germanic }
+			OR = {
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+			}
+		}
+	}
+}
+
+burgundian = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+			always = no # UUII: absent vanilla title condition
+		}
+		culture = { has_cultural_pillar = heritage_frankish }
+		any_sub_realm_county = {
+			culture = { has_cultural_pillar = heritage_frankish }
+			OR = {
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+			}
+		}
+	}
+}
+
+arpitan = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+			always = no # UUII: absent vanilla title condition
+			always = no # UUII: absent vanilla title condition
+		}
+		culture = { has_cultural_pillar = heritage_frankish }
+		any_sub_realm_county = {
+			culture = { has_cultural_pillar = heritage_frankish }
+			OR = {
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+			}
+		}
+	}
+}
+
+lothringian = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+			always = no # UUII: absent vanilla title condition
+		}
+		culture = { has_cultural_pillar = heritage_central_germanic }
+		any_sub_realm_county = {
+			culture = { has_cultural_pillar = heritage_central_germanic }
+			OR = {
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+			}
+		}
+	}
+}
+
+lorrainian = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+			always = no # UUII: absent vanilla title condition
+		}
+		any_sub_realm_county = {
+			OR = {
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+			}
+		}
+	}
+}
+
+angevin = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+		}
+		culture = culture:french
+		any_sub_realm_county = {
+			culture = culture:french
+			always = no # UUII: absent vanilla title condition
+		}
+	}
+}
+
+provancale = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+		}
+		OR = {
+			culture = culture:occitan
+			culture = culture:french
+		}
+		any_sub_realm_county = {
+			OR = {
+				culture = culture:occitan
+				culture = culture:french
+			}
+			always = no # UUII: absent vanilla title condition
+		}
+	}
+}
+
+walloon = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+			always = no # UUII: absent vanilla title condition
+			always = no # UUII: absent vanilla title condition
+			always = no # UUII: absent vanilla title condition
+			always = no # UUII: absent vanilla title condition
+		}
+		culture = { has_cultural_pillar = heritage_frankish }
+		any_sub_realm_county = {
+			culture = { has_cultural_pillar = heritage_frankish }
+			OR ={
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+			}
+		}
+	}
+}
+
+flemish = {
+	trigger = {
+		culture = culture:dutch
+		any_sub_realm_county = {
+			culture = culture:dutch
+			OR ={
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+			}
+		}
+	}
+}
+
+aquitanian = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+			always = no # UUII: absent vanilla title condition
+			always = no # UUII: absent vanilla title condition
+		}
+		culture = culture:occitan
+		any_sub_realm_county = {
+			culture = culture:occitan
+			OR ={
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+			}
+		}
+	}
+}
+
+poitevin = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+		}
+		culture = culture:french
+		any_sub_realm_county = {
+			culture = culture:french
+			always = no # UUII: absent vanilla title condition
+		}
+	}
+}
+
+auvergnat = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+			always = no # UUII: absent vanilla title condition
+		}
+		culture = culture:occitan
+		any_sub_realm_county = {
+			culture = culture:occitan
+			OR = {
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+			}
+		}
+	}
+}
+
+lengadocian = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+			always = no # UUII: absent vanilla title condition
+		}
+		culture = culture:occitan
+		any_sub_realm_county = {
+			culture = culture:occitan
+			OR = {
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+			}
+		}
+	}
+}
+
+mercian = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+		}
+		culture = culture:anglo_saxon
+		any_sub_realm_county = {
+			culture = culture:anglo_saxon
+			always = no # UUII: absent vanilla title condition
+		}
+	}
+}
+
+northumbrian = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+			always = no # UUII: absent vanilla title condition
+			always = no # UUII: absent vanilla title condition
+		}
+		culture = culture:anglo_saxon
+		any_sub_realm_county = {
+			culture = culture:anglo_saxon
+			OR = {
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+			}
+		}
+	}
+}
+
+northerner = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+			always = no # UUII: absent vanilla title condition
+			always = no # UUII: absent vanilla title condition
+		}
+		culture = culture:english
+		any_sub_realm_county = {
+			culture = culture:english
+			OR = {
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+			}
+		}
+	}
+}
+
+silesian = {
+	trigger = {
+		OR = {
+			culture = culture:polish
+			culture = culture:czech
+		}
+		any_sub_realm_county = {
+			OR = {
+				culture = culture:polish
+				culture = culture:czech
+			}
+			OR = {
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+			}
+		}
+	}
+}
+
+
+ruthenian = {
+	trigger = {
+		culture = culture:russian
+		any_sub_realm_county = {
+			culture = culture:russian
+			OR = {
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+			}
+		}
+	}
+}
+
+belarusian = { #Aka white ruthenian
+	trigger = {
+		culture = culture:russian
+		any_sub_realm_county = {
+			culture = culture:russian
+			OR = {
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+			}
+		}
+	}
+}
+
+red_ruthenian = {
+	trigger = {
+		culture = culture:russian
+		any_sub_realm_county = {
+			culture = culture:russian
+			OR = {
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+			}
+		}
+	}
+}
+
+munda = {
+	trigger = {
+		culture = culture:bengali
+		any_sub_realm_county = {
+			culture = culture:bengali
+			always = no # UUII: absent vanilla title condition
+		}
+	}
+}
+
+shirvani = {
+	trigger = {
+		culture = culture:persian
+		any_sub_realm_county = {
+			culture = culture:persian
+			always = no # UUII: absent vanilla title condition
+		}
+	}
+}
+
+pontic = {
+	trigger = {
+		OR = {
+			culture = culture:greek
+			culture = { any_parent_culture_or_above = { this = culture:greek } }
+		}
+		OR = {
+			capital_county = {
+				title_province = { geographical_region = world_steppe }
+			}
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+		}
+	}
+}
+
+novgorodian = {
+	trigger = {
+		culture = culture:russian
+		any_sub_realm_county = {
+			culture = culture:russian
+			always = no # UUII: absent vanilla title condition
+		}
+	}
+}
+
+geatish = {
+	trigger = {
+		culture = culture:swedish
+		any_sub_realm_county = {
+			culture = culture:swedish
+			OR = {
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+			}
+		}
+	}
+}
+
+gutish = {
+	trigger = {
+		culture = culture:swedish
+		any_sub_realm_county = {
+			culture = culture:swedish
+			always = no # UUII: absent vanilla title condition
+		}
+	}
+}
+
+venetian = {
+	trigger = {
+		culture = { has_cultural_pillar = heritage_latin }
+		any_sub_realm_county = {
+			culture = { has_cultural_pillar = heritage_latin }
+			always = no # UUII: absent vanilla title condition
+		}
+	}
+}
+
+mervi = {
+	trigger = {
+		culture = { has_cultural_pillar = heritage_iranian }
+		any_sub_realm_county = {
+			culture = { has_cultural_pillar = heritage_iranian }
+			always = no # UUII: absent vanilla title condition
+		}
+	}
+}
+
+parsi = {
+	trigger = {
+		capital_county = {
+			always = no # UUII: out-of-map geographical branch
+		}
+		faith = { religion_tag = zoroastrianism_religion }
+		any_sub_realm_county = {
+			faith = { religion_tag = zoroastrianism_religion }
+			always = no # UUII: out-of-map geographical branch
+		}
+	}
+}
+
+icelandic = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+		}
+		culture = { has_cultural_pillar = heritage_north_germanic }
+		any_sub_realm_county = {
+			culture = { has_cultural_pillar = heritage_north_germanic }
+			always = no # UUII: absent vanilla title condition
+		}
+	}
+}
+
+omani = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+		}
+		culture = { has_cultural_pillar = heritage_arabic }
+		any_sub_realm_county = {
+			culture = { has_cultural_pillar = heritage_arabic }
+			always = no # UUII: absent vanilla title condition
+		}
+	}
+}
+
+khaleeji = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+			always = no # UUII: absent vanilla title condition
+			always = no # UUII: absent vanilla title condition
+			always = no # UUII: absent vanilla title condition
+			always = no # UUII: absent vanilla title condition
+		}
+		culture = { has_cultural_pillar = heritage_arabic }
+		any_sub_realm_county = {
+			culture = { has_cultural_pillar = heritage_arabic }
+			OR = {
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+			}
+		}
+	}
+}
+
+mahri = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+		}
+		culture = { has_cultural_pillar = heritage_arabic }
+		any_sub_realm_county = {
+			culture = { has_cultural_pillar = heritage_arabic }
+			always = no # UUII: absent vanilla title condition
+		}
+	}
+}
+
+gorani = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+		}
+		culture = culture:kurdish
+		any_sub_realm_county = {
+			culture = culture:kurdish
+			culture = culture:kurdish
+		}
+	}
+}
+
+luri = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+			always = no # UUII: absent vanilla title condition
+		}
+		culture = { has_cultural_pillar = heritage_iranian }
+		any_sub_realm_county = {
+			culture = { has_cultural_pillar = heritage_iranian }
+			OR ={
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+			}
+		}
+	}
+}
+
+tabari = { #or Mazandarani
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+			always = no # UUII: absent vanilla title condition
+		}
+		culture = { has_cultural_pillar = heritage_iranian }
+		any_sub_realm_county = {
+			culture = { has_cultural_pillar = heritage_iranian }
+			OR ={
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+			}
+		}
+	}
+}
+
+ligurian = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+		}
+		culture = { has_cultural_pillar = heritage_latin }
+		any_sub_realm_county = {
+			culture = { has_cultural_pillar = heritage_latin }
+			always = no # UUII: absent vanilla title condition
+		}
+	}
+}
+
+romagnol = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+			always = no # UUII: absent vanilla title condition
+		}
+		culture = { has_cultural_pillar = heritage_latin }
+		any_sub_realm_county = {
+			culture = { has_cultural_pillar = heritage_latin }
+			OR = {
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+			}
+		}
+	}
+}
+
+tuscan = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+			always = no # UUII: absent vanilla title condition
+		}
+		culture = { has_cultural_pillar = heritage_latin }
+		any_sub_realm_county = {
+			culture = { has_cultural_pillar = heritage_latin }
+			OR = {
+				always = no # UUII: absent vanilla title condition
+				always = no # UUII: absent vanilla title condition
+			}
+		}
+	}
+}
+
+umbrian = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+		}
+		culture = { has_cultural_pillar = heritage_latin }
+		any_sub_realm_county = {
+			culture = { has_cultural_pillar = heritage_latin }
+			always = no # UUII: absent vanilla title condition
+		}
+	}
+}
+
+new_english = {
+	trigger = {
+		capital_county = {
+			title_province = {
+				geographical_region = world_steppe
+			}
+		}
+		culture = { has_cultural_pillar = heritage_west_germanic }
+		any_sub_realm_county = {
+			title_province = {
+				geographical_region = world_steppe
+			}
+		}
+	}
+}
+
+moroccan = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+		}
+		any_sub_realm_county = {
+			# UUII: absent vanilla title scope removed.
+		}
+	}
+}
+
+algerian = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+		}
+		any_sub_realm_county = {
+			# UUII: absent vanilla title scope removed.
+		}
+	}
+}
+
+tripolitanian = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+			always = no # UUII: absent vanilla title condition
+			always = no # UUII: absent vanilla title condition
+		}
+		any_sub_realm_county = {
+			OR = {
+				# UUII: absent vanilla title scope removed.
+				# UUII: absent vanilla title scope removed.
+				# UUII: absent vanilla title scope removed.
+			}
+		}
+	}
+}
+
+tunisian = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+		}
+		any_sub_realm_county = {
+			# UUII: absent vanilla title scope removed.
+		}
+	}
+}
+
+lebanese = {
+	trigger = {
+		capital_county = {
+			is_coastal_county = yes
+		}
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+		}
+		culture = { has_cultural_pillar = heritage_arabic }
+		any_sub_realm_county = {
+			# UUII: absent vanilla title scope removed.
+		}
+	}
+}
+
+syrian = {
+	trigger = {
+		capital_county = {
+			is_coastal_county = no
+		}
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+		}
+		culture = { has_cultural_pillar = heritage_arabic }
+		any_sub_realm_county = {
+			# UUII: absent vanilla title scope removed.
+		}
+	}
+}
+
+iraqi = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+			always = no # UUII: absent vanilla title condition
+		}
+		culture = { has_cultural_pillar = heritage_arabic }
+		any_sub_realm_county = {
+			OR = {
+				# UUII: absent vanilla title scope removed.
+				# UUII: absent vanilla title scope removed.
+			}
+		}
+	}
+}
+
+soqotri = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+		}
+		culture = { has_cultural_pillar = heritage_arabic }
+		any_sub_realm_county = {
+			# UUII: absent vanilla title scope removed.
+		}
+	}
+}
+
+palestinian = {
+	trigger = {
+		OR = {
+			capital_county = {
+				always = no # UUII: out-of-map geographical branch
+			}
+			always = no # UUII: absent vanilla title condition
+			always = no # UUII: absent vanilla title condition
+		}
+		faith.religion = religion:islam_religion
+		culture = { has_cultural_pillar = heritage_arabic }
+		any_sub_realm_county = {
+			always = no # UUII: out-of-map geographical branch
+		}
+	}
+}
+
+upper_saxon = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+			always = no # UUII: absent vanilla title condition
+			always = no # UUII: absent vanilla title condition
+			always = no # UUII: absent vanilla title condition
+		}
+		culture = culture:saxon
+	}
+}
+
+dalmatian = {
+	trigger = {
+		capital_county = {
+			# UUII: absent vanilla title scope removed.
+			has_coastal_province = yes
+		}
+		culture = {
+			OR = {
+				has_cultural_pillar = heritage_south_slavic
+				has_cultural_pillar = heritage_byzantine
+				has_cultural_pillar = heritage_latin
+			}
+		}
+	}
+}
+
+neapolitan = {
+	trigger = {
+		capital_county = {
+			# UUII: absent vanilla title scope removed.
+			NOT = {
+				# UUII: absent vanilla title scope removed.
+			}
+		}
+		culture = {
+			OR = {
+				has_cultural_pillar = heritage_berber
+				has_cultural_pillar = heritage_byzantine
+				has_cultural_pillar = heritage_latin
+			}
+		}
+		any_sub_realm_county = {
+			# UUII: absent vanilla title scope removed.
+		}
+	}
+}
+
+arvanite = {
+	trigger = {
+		scope:culture = { has_cultural_pillar = heritage_albanian }
+		any_sub_realm_county = {
+			OR = {
+				culture = culture:greek
+
+				# UUII: absent vanilla title scope removed.
+			}
+		}
+	}
+}
+
+griko = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+		}
+		culture = culture:greek
+		any_sub_realm_county = {
+			culture = culture:greek
+			always = no # UUII: absent vanilla title condition
+		}
+	}
+}
+
+egyptiote = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+		}
+		culture = culture:greek
+		any_sub_realm_county = {
+			culture = culture:greek
+			always = no # UUII: absent vanilla title condition
+		}
+	}
+}
+
+cappadocian = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+		}
+		culture = culture:greek
+		any_sub_realm_county = {
+			culture = culture:greek
+			always = no # UUII: absent vanilla title condition
+		}
+	}
+}
+
+cypriot = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+		}
+		culture = culture:greek
+		any_sub_realm_county = {
+			culture = culture:greek
+			always = no # UUII: absent vanilla title condition
+		}
+	}
+}
+
+wamvita = {
+	trigger = {
+		OR = {
+			capital_county = {
+				# UUII: absent vanilla title scope removed.
+			}
+			always = no # UUII: absent vanilla title condition
+		}
+		any_sub_realm_county = {
+			culture = { has_cultural_pillar = heritage_bantu }
+			always = no # UUII: absent vanilla title condition
+		}
+		scope:culture = { has_cultural_pillar = heritage_bantu }
+	}
+}

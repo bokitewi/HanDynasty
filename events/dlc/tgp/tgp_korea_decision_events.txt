@@ -1,0 +1,5 @@
+# Unsupported vanilla regional event chain retained only as inert public shells.
+namespace = tgp_korea_decision
+
+tgp_korea_decision.9101 = { type = character_event hidden = yes trigger = { always = no } }
+tgp_korea_decision.9102 = { type = character_event hidden = yes trigger = { always = no } }

@@ -1,0 +1,57 @@
+﻿namespace = rp_war_defection
+
+rp_war_defection.0001 = {
+	type = character_event
+	title = rp_war_defection.0001.t
+	theme = war
+	right_portrait = scope:rp_defector
+	override_background = { reference = battlefield }
+	override_icon = { reference = "gfx/interface/icons/event_types/type_generic.dds" }
+	desc = rp_war_defection.0001.desc
+
+	trigger = {
+		exists = scope:rp_defector
+		exists = scope:rp_defection_old_liege
+		exists = scope:rp_defection_new_liege
+	}
+
+	option = {
+		name = rp_war_defection.0001.a
+	}
+}
+
+rp_war_defection.0002 = {
+	type = character_event
+	title = rp_war_defection.0002.t
+	theme = war
+	right_portrait = scope:rp_defector
+	override_background = { reference = battlefield }
+	override_icon = { reference = "gfx/interface/icons/event_types/type_generic.dds" }
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					scope:rp_defector = {
+						OR = {
+							has_trait = rp_founding_follower_trait
+							has_trait = rp_core_follower_trait
+							has_trait = rp_pillar_follower_trait
+						}
+					}
+				}
+				desc = rp_war_defection.0002.desc.founding
+			}
+			desc = rp_war_defection.0002.desc
+		}
+	}
+
+	trigger = {
+		exists = scope:rp_defector
+		exists = scope:rp_defection_old_liege
+		exists = scope:rp_defection_new_liege
+	}
+
+	option = {
+		name = rp_war_defection.0002.a
+	}
+}

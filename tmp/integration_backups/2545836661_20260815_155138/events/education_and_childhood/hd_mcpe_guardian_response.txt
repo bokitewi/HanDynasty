@@ -1,0 +1,4680 @@
+﻿namespace = mcpegr
+
+
+
+mcpegr.11 = {
+	type = character_event
+	title = child_personality.1011.t
+	desc = {
+		desc = my_ward_or_child
+		first_valid = {
+			triggered_desc = {
+			    trigger = {
+					exists = scope:bully
+			    }
+			    desc = {
+			    	desc = child_personality.101.desc
+			    }
+			}
+			desc = child_personality.101.desc_no_bully
+		}
+		desc = child_personality.101.craven
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = sadness
+	}
+	right_portrait = {
+		character = scope:bully
+		animation = anger
+	}
+
+	option = {
+		name = child_personality.101.confirm_craven
+		custom_tooltip = child_personality.keeps_craven_tt
+	}
+
+	option = {
+		name = child_personality.101.lazy_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = craven
+			add_trait_force_tooltip = lazy
+		}
+	}
+
+	option = {
+		name = child_personality.101.arbitrary_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = craven
+			add_trait_force_tooltip = arbitrary
+		}
+	}
+}
+
+mcpegr.12 = {
+	type = character_event
+	title = child_personality.1012.t
+	desc = {
+		desc = my_ward_or_child
+		first_valid = {
+			triggered_desc = {
+			    trigger = {
+					exists = scope:bully
+			    }
+			    desc = {
+			    	desc = child_personality.101.desc
+			    }
+			}
+			desc = child_personality.101.desc_no_bully
+		}
+		desc = child_personality.101.lazy
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = shame
+	}
+	right_portrait = {
+		character = scope:bully
+		animation = anger
+	}
+
+	option = {
+		name = child_personality.101.confirm_lazy
+		custom_tooltip = child_personality.keeps_lazy_tt
+	}
+
+	option = {
+		name = child_personality.101.craven_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = lazy
+			add_trait_force_tooltip = craven
+		}
+	}
+
+	option = {
+		name = child_personality.101.arbitrary_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = lazy
+			add_trait_force_tooltip = arbitrary
+		}
+	}
+}
+
+mcpegr.13 = {
+	type = character_event
+	title = child_personality.1013.t
+	desc = {
+		desc = my_ward_or_child
+		first_valid = {
+			triggered_desc = {
+			    trigger = {
+					exists = scope:bully
+			    }
+			    desc = {
+			    	desc = child_personality.101.desc
+			    }
+			}
+			desc = child_personality.101.desc_no_bully
+		}
+		desc = child_personality.101.arbitrary
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_cynical
+	}
+	right_portrait = {
+		character = scope:bully
+		animation = anger
+	}
+
+	option = {
+		name = child_personality.1013.confirm_arbitrary
+		custom_tooltip = child_personality.keeps_arbitrary_tt
+	}
+
+	option = {
+		name = child_personality.101.craven_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = arbitrary
+			add_trait_force_tooltip = craven
+		}
+	}
+
+	option = {
+		name = child_personality.101.lazy_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = arbitrary
+			add_trait_force_tooltip = lazy
+		}
+	}
+}
+
+
+
+mcpegr.21 = {
+	type = character_event
+	title = child_personality.1021.t
+	desc = {
+		desc = {
+			first_valid = {
+				triggered_desc = {
+					trigger = {
+						exists = scope:court_location
+					}
+					desc = child_personality.102.desc_court_location
+				}
+				desc = child_personality.102.desc
+			}
+		}
+		desc = child_personality.102.arrogant
+	}
+	theme = education
+	override_background = {
+		reference = gallows
+	}
+	left_portrait = {
+		character = scope:child
+		animation = dismissal
+	}
+	right_portrait = {
+		character = root
+		animation = worry
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				exists = court_owner
+				court_owner = {
+					exists = capital_province
+				}
+			}
+			court_owner = {
+				capital_province = {
+					barony = { save_scope_as = court_location }
+				}
+			}
+		}
+	}
+
+	option = {
+		name = child_personality.102.confirm_arrogant
+		custom_tooltip = child_personality.keeps_arrogant_tt
+	}
+
+	option = {
+		name = child_personality.102.compassionate_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = arrogant
+			add_trait_force_tooltip = compassionate
+		}
+	}
+
+	option = {
+		name = child_personality.102.callous_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = arrogant
+			add_trait_force_tooltip = callous
+		}
+	}
+}
+
+mcpegr.22 = {
+	type = character_event
+	title = child_personality.1022.t
+	desc = {
+		desc = child_personality.102.desc
+		desc = child_personality.102.compassionate
+	}
+	theme = education
+	override_background = {
+		reference = gallows
+	}
+	left_portrait = {
+		character = scope:child
+		animation = personality_compassionate
+	}
+	right_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	option = {
+		name = child_personality.102.confirm_compassionate
+		custom_tooltip = child_personality.keeps_compassionate_tt
+	}
+
+	option = {
+		name = child_personality.102.arrogant_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = compassionate
+			add_trait_force_tooltip = arrogant
+		}
+	}
+
+	option = {
+		name = child_personality.102.callous_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = compassionate
+			add_trait_force_tooltip = callous
+		}
+	}
+}
+
+mcpegr.23 = {
+	type = character_event
+	title = child_personality.1023.t
+	desc = {
+		desc = child_personality.102.desc
+		desc = child_personality.102.callous
+	}
+	theme = education
+	override_background = {
+		reference = gallows
+	}
+	left_portrait = {
+		character = scope:child
+		animation = personality_callous
+	}
+	right_portrait = {
+		character = root
+		animation = worry
+	}
+
+	option = {
+		name = child_personality.102.confirm_callous
+		custom_tooltip = child_personality.keeps_callous_tt
+	}
+
+	option = {
+		name = child_personality.102.arrogant_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = callous
+			add_trait_force_tooltip = arrogant
+		}
+	}
+
+	option = {
+		name = child_personality.102.compassionate_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = callous
+			add_trait_force_tooltip = compassionate
+		}
+	}
+}
+
+
+
+mcpegr.31 = {
+	type = character_event
+	title = child_personality.1031.t
+	desc = {
+		desc = child_personality.103.desc
+		desc = child_personality.103.deceitful
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_dishonorable
+	}
+	right_portrait = {
+		character = scope:robbed_guest
+		animation = anger
+	}
+
+	option = {
+		name = child_personality.103.confirm_deceitful
+		custom_tooltip = child_personality.keeps_deceitful_tt
+	}
+
+	option = {
+		name = child_personality.103.honest_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = deceitful
+			add_trait_force_tooltip = honest
+		}
+	}
+
+	option = {
+		name = child_personality.103.humble_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = deceitful
+			add_trait_force_tooltip = humble
+		}
+	}
+}
+
+mcpegr.32 = {
+	type = character_event
+	title = child_personality.1032.t
+	desc = {
+		desc = child_personality.103.desc
+		desc = child_personality.103.honest
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_honorable
+	}
+	right_portrait = {
+		character = scope:robbed_guest
+		animation = anger
+	}
+
+	option = {
+		name = child_personality.103.confirm_honest
+		custom_tooltip = child_personality.keeps_honest_tt
+	}
+
+	option = {
+		name = child_personality.103.deceitful_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = honest
+			add_trait_force_tooltip = deceitful
+		}
+	}
+
+	option = {
+		name = child_personality.103.humble_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = honest
+			add_trait_force_tooltip = humble
+		}
+	}
+}
+
+mcpegr.33 = {
+	type = character_event
+	title = child_personality.1033.t
+	desc = {
+		desc = child_personality.103.desc
+		desc = child_personality.103.humble
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_forgiving
+	}
+	right_portrait = {
+		character = scope:robbed_guest
+		animation = anger
+	}
+
+	option = {
+		name = child_personality.103.confirm_humble
+		custom_tooltip = child_personality.keeps_humble_tt
+	}
+
+	option = {
+		name = child_personality.103.deceitful_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = humble
+			add_trait_force_tooltip = deceitful
+		}
+	}
+
+	option = {
+		name = child_personality.103.honest_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = humble
+			add_trait_force_tooltip = honest
+		}
+	}
+}
+
+
+
+mcpegr.41 = {
+	type = character_event
+	title = child_personality.1041.t
+	desc = {
+		desc = child_personality.104.desc
+		desc = child_personality.104.generous
+	}
+	theme = education
+	override_background = {
+		reference = armory
+	}
+	left_portrait = {
+		character = scope:child
+		animation = personality_honorable
+	}
+	right_portrait = {
+		character = scope:knight
+		animation = marshal
+	}
+
+	option = {
+		name = child_personality.104.confirm_generous
+		custom_tooltip = child_personality.keeps_generous_tt
+	}
+
+	option = {
+		name = child_personality.104.diligent_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = generous
+			add_trait_force_tooltip = diligent
+		}
+	}
+
+	option = {
+		name = child_personality.104.patient_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = generous
+			add_trait_force_tooltip = patient
+		}
+	}
+}
+
+mcpegr.42 = {
+	type = character_event
+	title = child_personality.1042.t
+	desc = {
+		desc = child_personality.104.desc
+		desc = child_personality.104.diligent
+	}
+	theme = education
+	override_background = {
+		reference = armory
+	}
+	left_portrait = {
+		character = scope:child
+		animation = personality_honorable
+	}
+	right_portrait = {
+		character = scope:knight
+		animation = marshal
+	}
+
+	option = {
+		name = child_personality.104.confirm_diligent
+		custom_tooltip = child_personality.keeps_diligent_tt
+	}
+
+	option = {
+		name = child_personality.104.generous_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = diligent
+			add_trait_force_tooltip = generous
+		}
+	}
+
+	option = {
+		name = child_personality.104.patient_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = diligent
+			add_trait_force_tooltip = patient
+		}
+	}
+}
+
+mcpegr.43 = {
+	type = character_event
+	title = child_personality.1043.t
+	desc = {
+		desc = child_personality.104.desc
+		desc = child_personality.104.patient
+	}
+	theme = education
+	override_background = {
+		reference = armory
+	}
+	left_portrait = {
+		character = scope:child
+		animation = personality_honorable
+	}
+	right_portrait = {
+		character = scope:knight
+		animation = marshal
+	}
+
+	option = {
+		name = child_personality.104.confirm_patient
+		custom_tooltip = child_personality.keeps_patient_tt
+	}
+
+	option = {
+		name = child_personality.104.generous_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = patient
+			add_trait_force_tooltip = generous
+		}
+	}
+
+	option = {
+		name = child_personality.104.diligent_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = patient
+			add_trait_force_tooltip = diligent
+		}
+	}
+}
+
+
+
+mcpegr.51 = {
+	type = character_event
+	title = child_personality.1051.t
+	desc = {
+		desc = child_personality.105.desc
+		desc = child_personality.105.wrathful
+	}
+	theme = education
+	override_background = {
+		reference = courtyard
+	}
+	left_portrait = {
+		character = scope:child
+		animation = anger
+	}
+	right_portrait = {
+		character = scope:doing_push
+		animation = personality_vengeful
+	}
+
+	option = {
+		name = child_personality.105.confirm_wrathful
+		custom_tooltip = child_personality.keeps_wrathful_tt
+	}
+
+	option = {
+		name = child_personality.105.forgiving_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = wrathful
+			add_trait_force_tooltip = forgiving
+		}
+	}
+
+	option = {
+		name = child_personality.105.fickle_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = wrathful
+			add_trait_force_tooltip = fickle
+		}
+	}
+}
+
+mcpegr.52 = {
+	type = character_event
+	title = child_personality.1052.t
+	desc = {
+		desc = child_personality.105.desc
+		desc = child_personality.105.forgiving
+	}
+	theme = education
+	override_background = {
+		reference = courtyard
+	}
+	left_portrait = {
+		character = scope:child
+		animation = personality_forgiving
+	}
+	right_portrait = {
+		character = scope:doing_push
+		animation = personality_vengeful
+	}
+
+	option = {
+		name = child_personality.105.confirm_forgiving
+		custom_tooltip = child_personality.keeps_forgiving_tt
+	}
+
+	option = {
+		name = child_personality.105.wrathful_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = forgiving
+			add_trait_force_tooltip = wrathful
+		}
+	}
+
+	option = {
+		name = child_personality.105.fickle_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = forgiving
+			add_trait_force_tooltip = fickle
+		}
+	}
+}
+
+mcpegr.53 = {
+	type = character_event
+	title = child_personality.1053.t
+	desc = {
+		desc = child_personality.105.desc
+		desc = child_personality.105.fickle
+	}
+	theme = education
+	override_background = {
+		reference = courtyard
+	}
+	left_portrait = {
+		character = scope:child
+		animation = personality_irrational
+	}
+	right_portrait = {
+		character = scope:doing_push
+		animation = personality_vengeful
+	}
+
+	option = {
+		name = child_personality.105.confirm_fickle
+		custom_tooltip = child_personality.keeps_fickle_tt
+	}
+
+	option = {
+		name = child_personality.105.wrathful_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = fickle
+			add_trait_force_tooltip = wrathful
+		}
+	}
+
+	option = {
+		name = child_personality.105.forgiving_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = fickle
+			add_trait_force_tooltip = forgiving
+		}
+	}
+}
+
+
+
+mcpegr.61 = {
+	type = character_event
+	title = child_personality.1061.t
+	desc = {
+		desc = my_ward_or_child
+		desc = child_personality.106.desc
+		desc = child_personality.106.vengeful
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_vengeful
+	}
+	right_portrait = {
+		character = scope:crush
+		animation = dismissal
+	}
+
+	option = {
+		name = child_personality.106.confirm_vengeful
+		custom_tooltip = child_personality.keeps_vengeful_tt
+	}
+
+	option = {
+		name = child_personality.106.chaste_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = vengeful
+			add_trait_force_tooltip = chaste
+		}
+	}
+
+	option = {
+		name = child_personality.106.vengeful_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = vengeful
+			add_trait_force_tooltip = stubborn
+		}
+	}
+}
+
+mcpegr.62 = {
+	type = character_event
+	title = child_personality.1062.t
+	desc = {
+		desc = my_ward_or_child
+		desc = child_personality.106.desc
+		desc = child_personality.106.chaste
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_coward
+	}
+	right_portrait = {
+		character = scope:crush
+		animation = dismissal
+	}
+
+	option = {
+		name = child_personality.106.confirm_chaste
+		custom_tooltip = child_personality.keeps_chaste_tt
+	}
+
+	option = {
+		name = child_personality.106.vengeful_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = chaste
+			add_trait_force_tooltip = vengeful
+		}
+	}
+
+	option = {
+		name = child_personality.106.stubborn_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = chaste
+			add_trait_force_tooltip = stubborn
+		}
+	}
+}
+
+mcpegr.63 = {
+	type = character_event
+	title = child_personality.1063.t
+	desc = {
+		desc = my_ward_or_child
+		desc = child_personality.106.desc
+		desc = child_personality.106.stubborn
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_irrational
+	}
+	right_portrait = {
+		character = scope:crush
+		animation = dismissal
+	}
+
+	option = {
+		name = child_personality.106.confirm_stubborn
+		custom_tooltip = child_personality.keeps_stubborn_tt
+	}
+
+	option = {
+		name = child_personality.106.vengeful_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = stubborn
+			add_trait_force_tooltip = vengeful
+		}
+	}
+
+	option = {
+		name = child_personality.106.chaste_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = stubborn
+			add_trait_force_tooltip = chaste
+		}
+	}
+}
+
+
+
+mcpegr.71 = {
+	type = character_event
+	title = child_personality.1071.t
+	desc = {
+		desc = child_personality.107.desc
+		desc = child_personality.107.just
+	}
+	theme = education
+	override_background = { reference = gallows }
+	left_portrait = {
+		character = scope:child
+		animation = disapproval
+	}
+	right_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	option = {
+		name = child_personality.107.confirm_just
+		custom_tooltip = child_personality.keeps_just_tt
+	}
+
+	option = {
+		name = child_personality.107.cynical_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = just
+			add_trait_force_tooltip = cynical
+		}
+	}
+
+	option = {
+		name = child_personality.107.temperate_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = just
+			add_trait_force_tooltip = temperate
+		}
+	}
+}
+
+mcpegr.72 = {
+	type = character_event
+	title = child_personality.1072.t
+	desc = {
+		desc = child_personality.107.desc
+		desc = child_personality.107.cynical
+	}
+	theme = education
+	override_background = { reference = gallows }
+	left_portrait = {
+		character = scope:child
+		animation = personality_cynical
+	}
+	right_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	option = {
+		name = child_personality.107.confirm_cynical
+		custom_tooltip = child_personality.keeps_cynical_tt
+	}
+
+	option = {
+		name = child_personality.107.just_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = cynical
+			add_trait_force_tooltip = just
+		}
+	}
+
+	option = {
+		name = child_personality.107.temperate_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = cynical
+			add_trait_force_tooltip = temperate
+		}
+	}
+}
+
+mcpegr.73 = {
+	type = character_event
+	title = child_personality.1073.t
+	desc = {
+		desc = child_personality.107.desc
+		desc = child_personality.107.temperate
+	}
+	theme = education
+	override_background = { reference = gallows }
+	left_portrait = {
+		character = scope:child
+		animation = personality_compassionate
+	}
+	right_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	option = {
+		name = child_personality.107.confirm_temperate
+		custom_tooltip = child_personality.keeps_temperate_tt
+	}
+
+	option = {
+		name = child_personality.107.just_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = temperate
+			add_trait_force_tooltip = just
+		}
+	}
+
+	option = {
+		name = child_personality.107.cynical_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = temperate
+			add_trait_force_tooltip = cynical
+		}
+	}
+}
+
+
+
+mcpegr.81 = {
+	type = character_event
+	title = child_personality.1081.t
+	desc = {
+		desc = my_ward_or_child
+		desc = child_personality.108.desc
+		desc = child_personality.108.greedy
+	}
+	theme = education
+	override_background = { reference = feast }
+	left_portrait = {
+		character = scope:child
+		animation = personality_greedy
+	}
+	right_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {
+		name = child_personality.108.confirm_greedy
+		custom_tooltip = child_personality.keeps_greedy_tt
+	}
+
+	option = {
+		name = child_personality.108.gregarious_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = greedy
+			add_trait_force_tooltip = gregarious
+		}
+	}
+
+	option = {
+		name = child_personality.108.lustful_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = greedy
+			add_trait_force_tooltip = lustful
+		}
+	}
+}
+
+mcpegr.82 = {
+	type = character_event
+	title = child_personality.1082.t
+	desc = {
+		desc = my_ward_or_child
+		desc = child_personality.108.desc
+		desc = child_personality.108.gregarious
+	}
+	theme = education
+	override_background = { reference = feast }
+	left_portrait = {
+		character = scope:child
+		animation = personality_compassionate
+	}
+	right_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {
+		name = child_personality.108.confirm_gregarious
+		custom_tooltip = child_personality.keeps_gregarious_tt
+	}
+
+	option = {
+		name = child_personality.108.greedy_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = gregarious
+			add_trait_force_tooltip = greedy
+		}
+	}
+
+	option = {
+		name = child_personality.108.lustful_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = gregarious
+			add_trait_force_tooltip = lustful
+		}
+	}
+}
+
+mcpegr.83 = {
+	type = character_event
+	title = child_personality.1083.t
+	desc = {
+		desc = my_ward_or_child
+		desc = child_personality.108.desc
+		desc = child_personality.108.lustful
+	}
+	theme = education
+	override_background = { reference = feast }
+	left_portrait = {
+		character = scope:child
+		animation = personality_irrational
+	}
+	right_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {
+		name = child_personality.108.confirm_lustful
+		custom_tooltip = child_personality.keeps_lustful_tt
+	}
+
+	option = {
+		name = child_personality.108.greedy_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = lustful
+			add_trait_force_tooltip = greedy
+		}
+	}
+
+	option = {
+		name = child_personality.108.gregarious_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = lustful
+			add_trait_force_tooltip = gregarious
+		}
+	}
+}
+
+
+
+mcpegr.91 = {
+	type = character_event
+	title = child_personality.1091.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					exists = scope:child_preacher
+				}
+				desc = child_personality.109.desc
+			}
+			desc = child_personality.109.desc_fallback
+		}
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					exists = scope:child_preacher
+				}
+				desc = child_personality.109.brave
+			}
+			desc = child_personality.109.brave_fallback
+		}
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_bold
+	}
+	right_portrait = {
+		character = scope:child_preacher
+		animation = personality_coward
+	}
+
+	option = {
+		name = child_personality.109.confirm_brave
+		custom_tooltip = child_personality.keeps_brave_tt
+	}
+
+	option = {
+		name = child_personality.109.calm_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = brave
+			add_trait_force_tooltip = calm
+		}
+	}
+
+	option = {
+		name = child_personality.109.zealous_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = brave
+			add_trait_force_tooltip = zealous
+		}
+	}
+}
+
+mcpegr.92 = {
+	type = character_event
+	title = child_personality.1092.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					exists = scope:child_preacher
+				}
+				desc = child_personality.109.desc
+			}
+			desc = child_personality.109.desc_fallback
+		}
+		desc = child_personality.109.calm
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_compassionate
+	}
+	right_portrait = {
+		character = scope:child_preacher
+		animation = personality_coward
+	}
+
+	option = {
+		name = child_personality.109.confirm_calm
+		custom_tooltip = child_personality.keeps_calm_tt
+	}
+
+	option = {
+		name = child_personality.109.brave_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = calm
+			add_trait_force_tooltip = brave
+		}
+	}
+
+	option = {
+		name = child_personality.109.zealous_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = calm
+			add_trait_force_tooltip = zealous
+		}
+	}
+}
+
+mcpegr.93 = {
+	type = character_event
+	title = child_personality.1093.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					exists = scope:child_preacher
+				}
+				desc = child_personality.109.desc
+			}
+			desc = child_personality.109.desc_fallback
+		}
+		desc = child_personality.109.zealous
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = rage
+	}
+	right_portrait = {
+		character = scope:child_preacher
+		animation = personality_coward
+	}
+
+	option = {
+		name = child_personality.109.confirm_zealous
+		custom_tooltip = child_personality.keeps_zealous_tt
+	}
+
+	option = {
+		name = child_personality.109.brave_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = zealous
+			add_trait_force_tooltip = brave
+		}
+	}
+
+	option = {
+		name = child_personality.109.calm_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = zealous
+			add_trait_force_tooltip = calm
+		}
+	}
+}
+
+
+
+mcpegr.101 = {
+	type = character_event
+	title = child_personality.1101.t
+	desc = {
+		desc = child_personality.110.desc
+		desc = child_personality.110.ambitious
+	}
+	theme = education
+	override_background = {
+		reference = terrain
+	}
+	left_portrait = {
+		character = scope:child
+		animation = personality_bold
+	}
+	right_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	option = {
+		name = child_personality.110.confirm_ambitious
+		custom_tooltip = child_personality.keeps_ambitious_tt
+	}
+
+	option = {
+		name = child_personality.110.sadistic_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = ambitious
+			add_trait_force_tooltip = sadistic
+		}
+	}
+
+	option = {
+		name = child_personality.110.paranoid_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = ambitious
+			add_trait_force_tooltip = paranoid
+		}
+	}
+}
+
+mcpegr.102 = {
+	type = character_event
+	title = child_personality.1102.t
+	desc = {
+		desc = child_personality.110.desc
+		desc = child_personality.110.sadistic
+	}
+	theme = education
+	override_background = {
+		reference = terrain
+	}
+	left_portrait = {
+		character = scope:child
+		animation = happiness
+	}
+	right_portrait = {
+		character = root
+		animation = worry
+	}
+
+	option = {
+		name = child_personality.110.confirm_sadistic
+		custom_tooltip = child_personality.keeps_sadistic_tt
+	}
+
+	option = {
+		name = child_personality.110.ambitious_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = sadistic
+			add_trait_force_tooltip = ambitious
+		}
+	}
+
+	option = {
+		name = child_personality.110.paranoid_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = sadistic
+			add_trait_force_tooltip = paranoid
+		}
+	}
+}
+
+mcpegr.103 = {
+	type = character_event
+	title = child_personality.1103.t
+	desc = {
+		desc = child_personality.110.desc
+		desc = child_personality.110.paranoid
+	}
+	theme = education
+	override_background = {
+		reference = terrain
+	}
+	left_portrait = {
+		character = scope:child
+		animation = paranoia
+	}
+	right_portrait = {
+		character = root
+		animation = worry
+	}
+
+	option = {
+		name = child_personality.110.confirm_paranoid
+		custom_tooltip = child_personality.keeps_paranoid_tt
+	}
+
+	option = {
+		name = child_personality.110.ambitious_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = paranoid
+			add_trait_force_tooltip = ambitious
+		}
+	}
+
+	option = {
+		name = child_personality.110.sadistic_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = paranoid
+			add_trait_force_tooltip = sadistic
+		}
+	}
+}
+
+
+
+mcpegr.111 = {
+	type = character_event
+	title = child_personality.1111.t
+	desc = {
+		desc = my_ward_or_child
+		desc = child_personality.111.desc
+		desc = child_personality.111.content
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_content
+	}
+	right_portrait = {
+		character = root
+		animation = stress
+	}
+
+	option = {
+		name = child_personality.111.confirm_content
+		custom_tooltip = child_personality.keeps_content_tt
+	}
+
+	option = {
+		name = child_personality.111.fickle_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = content
+			add_trait_force_tooltip = fickle
+		}
+	}
+
+	option = {
+		name = child_personality.111.trusting_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = content
+			add_trait_force_tooltip = trusting
+		}
+	}
+}
+
+mcpegr.112 = {
+	type = character_event
+	title = child_personality.1112.t
+	desc = {
+		desc = my_ward_or_child
+		desc = child_personality.111.desc
+		desc = child_personality.111.fickle
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_irrational
+	}
+	right_portrait = {
+		character = root
+		animation = stress
+	}
+
+	option = {
+		name = child_personality.111.confirm_fickle
+		custom_tooltip = child_personality.keeps_fickle_tt
+	}
+
+	option = {
+		name = child_personality.111.content_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = fickle
+			add_trait_force_tooltip = content
+		}
+	}
+
+	option = {
+		name = child_personality.111.trusting_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = fickle
+			add_trait_force_tooltip = trusting
+		}
+	}
+}
+
+mcpegr.113 = {
+	type = character_event
+	title = child_personality.1113.t
+	desc = {
+		desc = my_ward_or_child
+		desc = child_personality.111.desc
+		desc = child_personality.111.trusting
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_content
+	}
+	right_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {
+		name = child_personality.111.confirm_trusting
+		custom_tooltip = child_personality.keeps_trusting_tt
+	}
+
+	option = {
+		name = child_personality.111.content_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = trusting
+			add_trait_force_tooltip = content
+		}
+	}
+
+	option = {
+		name = child_personality.111.fickle_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = trusting
+			add_trait_force_tooltip = fickle
+		}
+	}
+}
+
+
+
+mcpegr.121 = {
+	type = character_event
+	title = child_personality.1121.t
+	desc = {
+		desc = my_ward_or_child
+		desc = child_personality.112.desc
+		desc = child_personality.112.impatient
+	}
+	theme = education
+	override_background = { reference = feast }
+	left_portrait = {
+		character = scope:child
+		animation = personality_callous
+	}
+	right_portrait = {
+		character = root
+		animation = disapproval
+	}
+
+	option = {
+		name = child_personality.112.confirm_impatient
+		custom_tooltip = child_personality.keeps_impatient_tt
+	}
+
+	option = {
+		name = child_personality.112.shy_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = impatient
+			add_trait_force_tooltip = shy
+		}
+	}
+
+	option = {
+		name = child_personality.112.gluttonous_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = impatient
+			add_trait_force_tooltip = gluttonous
+		}
+	}
+}
+
+mcpegr.122 = {
+	type = character_event
+	title = child_personality.1122.t
+	desc = {
+		desc = my_ward_or_child
+		desc = child_personality.112.desc
+		desc = child_personality.112.shy
+	}
+	theme = education
+	override_background = { reference = feast }
+	left_portrait = {
+		character = scope:child
+		animation = worry
+	}
+	right_portrait = {
+		character = root
+		animation = disapproval
+	}
+
+	option = {
+		name = child_personality.112.confirm_shy
+		custom_tooltip = child_personality.keeps_shy_tt
+	}
+
+	option = {
+		name = child_personality.112.impatient_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = shy
+			add_trait_force_tooltip = impatient
+		}
+	}
+
+	option = {
+		name = child_personality.112.gluttonous_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = shy
+			add_trait_force_tooltip = gluttonous
+		}
+	}
+}
+
+mcpegr.123 = {
+	type = character_event
+	title = child_personality.1123.t
+	desc = {
+		desc = my_ward_or_child
+		desc = child_personality.112.desc
+		desc = child_personality.112.gluttonous
+	}
+	theme = education
+	override_background = { reference = feast }
+	left_portrait = {
+		character = scope:child
+		animation = personality_greedy
+	}
+	right_portrait = {
+		character = root
+		animation = disapproval
+	}
+
+	option = {
+		name = child_personality.112.confirm_gluttonous
+		custom_tooltip = child_personality.keeps_gluttonous_tt
+	}
+
+	option = {
+		name = child_personality.112.impatient_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = gluttonous
+			add_trait_force_tooltip = impatient
+		}
+	}
+
+	option = {
+		name = child_personality.112.shy_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = gluttonous
+			add_trait_force_tooltip = shy
+		}
+	}
+}
+
+
+
+mcpegr.131 = {
+	type = character_event
+	title = mcpe.13.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					exists = scope:bully
+				}
+				desc = mcpegr.13.d_bully
+			}
+			desc = mcpegr.13.d_no_bully_fallback
+		}
+		desc = mcpegr.13.d_wrathful
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = rage
+	}
+	override_background = {
+		reference = courtyard
+	}
+	right_portrait = {
+		character = scope:bully
+		animation = rage
+	}
+
+	option = {
+		name = mcpegr.13.confirm_wrathful
+		custom_tooltip = child_personality.keeps_wrathful_tt
+	}
+
+	option = {
+		name = mcpegr.13.vengeful_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = wrathful
+			add_trait_force_tooltip = vengeful
+		}
+	}
+
+	option = {
+		name = mcpegr.13.calm_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = wrathful
+			add_trait_force_tooltip = calm
+		}
+	}
+}
+
+mcpegr.132 = {
+	type = character_event
+	title = mcpe.13.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					exists = scope:bully
+				}
+				desc = mcpegr.13.d_bully
+			}
+			desc = mcpegr.13.d_no_bully_fallback
+		}
+		desc = mcpegr.13.d_vengeful
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_vengeful
+	}
+	override_background = {
+		reference = courtyard
+	}
+	right_portrait = {
+		character = scope:bully
+		animation = schadenfreude
+	}
+
+	option = {
+		name = mcpegr.13.confirm_vengeful
+		custom_tooltip = child_personality.keeps_vengeful_tt
+	}
+
+	option = {
+		name = mcpegr.13.wrathful_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = vengeful
+			add_trait_force_tooltip = wrathful
+		}
+	}
+
+	option = {
+		name = mcpegr.13.calm_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = vengeful
+			add_trait_force_tooltip = calm
+		}
+	}
+}
+
+mcpegr.133 = {
+	type = character_event
+	title = mcpe.13.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					exists = scope:bully
+				}
+				desc = mcpegr.13.d_bully
+			}
+			desc = mcpegr.13.d_no_bully_fallback
+		}
+		desc = mcpegr.13.d_calm
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_rational
+	}
+	override_background = {
+		reference = courtyard
+	}
+	right_portrait = {
+		character = scope:bully
+		animation = schadenfreude
+	}
+
+	option = {
+		name = mcpegr.13.confirm_calm
+		custom_tooltip = child_personality.keeps_calm_tt
+	}
+
+	option = {
+		name = mcpegr.13.wrathful_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = calm
+			add_trait_force_tooltip = wrathful
+		}
+	}
+
+	option = {
+		name = mcpegr.13.vengeful_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = calm
+			add_trait_force_tooltip = vengeful
+		}
+	}
+}
+
+
+
+mcpegr.141 = {
+	type = character_event
+	title = mcpe.14.t
+	desc = {
+		desc = mcpegr.14.d
+		desc = mcpegr.14.d_chaste
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = sadness
+	}
+
+	option = {
+		name = mcpegr.14.confirm_chaste
+		custom_tooltip = child_personality.keeps_chaste_tt
+	}
+
+	option = {
+		name = mcpegr.14.cynical_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = chaste
+			add_trait_force_tooltip = cynical
+		}
+	}
+
+	option = {
+		name = mcpegr.14.patient_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = chaste
+			add_trait_force_tooltip = patient
+		}
+	}
+}
+
+mcpegr.142 = {
+	type = character_event
+	title = mcpe.14.t
+	desc = {
+		desc = mcpegr.14.d
+		desc = mcpegr.14.d_cynical
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_cynical
+	}
+
+	option = {
+		name = mcpegr.14.confirm_cynical
+		custom_tooltip = child_personality.keeps_cynical_tt
+	}
+
+	option = {
+		name = mcpegr.14.chaste_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = cynical
+			add_trait_force_tooltip = chaste
+		}
+	}
+
+	option = {
+		name = mcpegr.14.patient_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = cynical
+			add_trait_force_tooltip = patient
+		}
+	}
+}
+
+mcpegr.143 = {
+	type = character_event
+	title = mcpe.14.t
+	desc = {
+		desc = mcpegr.14.d
+		desc = mcpegr.14.d_patient
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_rational
+	}
+
+	option = {
+		name = mcpegr.14.confirm_patient
+		custom_tooltip = child_personality.keeps_patient_tt
+	}
+
+	option = {
+		name = mcpegr.14.chaste_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = patient
+			add_trait_force_tooltip = chaste
+		}
+	}
+
+	option = {
+		name = mcpegr.14.cynical_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = patient
+			add_trait_force_tooltip = cynical
+		}
+	}
+}
+
+
+
+mcpegr.151 = {
+	type = character_event
+	title = mcpe.15.t
+	desc = {
+		desc = mcpegr.15.d
+		desc = mcpegr.15.d_impatient
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = anger
+	}
+
+	option = {
+		name = mcpegr.15.confirm_impatient
+		custom_tooltip = child_personality.keeps_impatient_tt
+	}
+
+	option = {
+		name = mcpegr.15.diligent_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = impatient
+			add_trait_force_tooltip = diligent
+		}
+	}
+
+	option = {
+		name = mcpegr.15.deceitful_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = impatient
+			add_trait_force_tooltip = deceitful
+		}
+	}
+}
+
+mcpegr.152 = {
+	type = character_event
+	title = mcpe.15.t
+	desc = {
+		desc = mcpegr.15.d
+		desc = mcpegr.15.d_diligent
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_honorable
+	}
+
+	option = {
+		name = mcpegr.15.confirm_diligent
+		custom_tooltip = child_personality.keeps_diligent_tt
+	}
+
+	option = {
+		name = mcpegr.15.impatient_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = diligent
+			add_trait_force_tooltip = impatient
+		}
+	}
+
+	option = {
+		name = mcpegr.15.deceitful_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = diligent
+			add_trait_force_tooltip = deceitful
+		}
+	}
+}
+
+mcpegr.153 = {
+	type = character_event
+	title = mcpe.15.t
+	desc = {
+		desc = mcpegr.15.d
+		desc = mcpegr.15.d_deceitful
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_dishonorable
+	}
+
+	option = {
+		name = mcpegr.15.confirm_deceitful
+		custom_tooltip = child_personality.keeps_deceitful_tt
+	}
+
+	option = {
+		name = mcpegr.15.impatient_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = deceitful
+			add_trait_force_tooltip = impatient
+		}
+	}
+
+	option = {
+		name = mcpegr.15.diligent_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = deceitful
+			add_trait_force_tooltip = diligent
+		}
+	}
+}
+
+
+
+mcpegr.161 = {
+	type = character_event
+	title = mcpe.16.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					exists = scope:crush
+				}
+				desc = mcpegr.16.d
+			}
+			desc = mcpegr.16.d.no_crush
+		}
+		desc = mcpegr.16.d_brave
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = flirtation_left
+	}
+	right_portrait = scope:crush
+
+	option = {
+		name = mcpegr.16.confirm_brave
+		custom_tooltip = child_personality.keeps_brave_tt
+	}
+
+	option = {
+		name = mcpegr.16.lustful_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = brave
+			add_trait_force_tooltip = lustful
+		}
+	}
+
+	option = {
+		name = mcpegr.16.shy_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = brave
+			add_trait_force_tooltip = shy
+		}
+	}
+}
+
+mcpegr.162 = {
+	type = character_event
+	title = mcpe.16.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					exists = scope:crush
+				}
+				desc = mcpegr.16.d
+			}
+			desc = mcpegr.16.d.no_crush
+		}
+		desc = mcpegr.16.d_lustful
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = flirtation_left
+	}
+	right_portrait = scope:crush
+
+	option = {
+		name = mcpegr.16.confirm_lustful
+		custom_tooltip = child_personality.keeps_lustful_tt
+	}
+
+	option = {
+		name = mcpegr.16.brave_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = lustful
+			add_trait_force_tooltip = brave
+		}
+	}
+
+	option = {
+		name = mcpegr.16.shy_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = lustful
+			add_trait_force_tooltip = shy
+		}
+	}
+}
+
+mcpegr.163 = {
+	type = character_event
+	title = mcpe.16.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					exists = scope:crush
+				}
+				desc = mcpegr.16.d
+			}
+			desc = mcpegr.16.d.no_crush
+		}
+		desc = mcpegr.16.d_shy
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_coward
+	}
+	right_portrait = scope:crush
+
+	option = {
+		name = mcpegr.16.confirm_shy
+		custom_tooltip = child_personality.keeps_shy_tt
+	}
+
+	option = {
+		name = mcpegr.16.brave_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = shy
+			add_trait_force_tooltip = brave
+		}
+	}
+
+	option = {
+		name = mcpegr.16.lustful_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = shy
+			add_trait_force_tooltip = lustful
+		}
+	}
+}
+
+
+
+mcpegr.171 = {
+	type = character_event
+	title = mcpe.17.t
+	desc = {
+		desc = mcpegr.17.d
+		desc = mcpegr.17.d_craven
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_coward
+	}
+
+	option = {
+		name = mcpegr.17.confirm_craven
+		custom_tooltip = child_personality.keeps_craven_tt
+	}
+
+	option = {
+		name = mcpegr.17.callous_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = craven
+			add_trait_force_tooltip = callous
+		}
+	}
+
+	option = {
+		name = mcpegr.17.generous_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = craven
+			add_trait_force_tooltip = generous
+		}
+	}
+}
+
+mcpegr.172 = {
+	type = character_event
+	title = mcpe.17.t
+	desc = {
+		desc = mcpegr.17.d
+		desc = mcpegr.17.d_callous
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_callous
+	}
+
+	option = {
+		name = mcpegr.17.confirm_callous
+		custom_tooltip = child_personality.keeps_callous_tt
+	}
+
+	option = {
+		name = mcpegr.17.craven_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = callous
+			add_trait_force_tooltip = craven
+		}
+	}
+
+	option = {
+		name = mcpegr.17.generous_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = callous
+			add_trait_force_tooltip = generous
+		}
+	}
+}
+
+mcpegr.173 = {
+	type = character_event
+	title = mcpe.17.t
+	desc = {
+		desc = mcpegr.17.d
+		desc = mcpegr.17.d_generous
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_compassionate
+	}
+
+	option = {
+		name = mcpegr.17.confirm_generous
+		custom_tooltip = child_personality.keeps_generous_tt
+	}
+
+	option = {
+		name = mcpegr.17.craven_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = generous
+			add_trait_force_tooltip = craven
+		}
+	}
+
+	option = {
+		name = mcpegr.17.callous_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = generous
+			add_trait_force_tooltip = callous
+		}
+	}
+}
+
+
+
+mcpegr.181 = {
+	type = character_event
+	title = mcpe.18.t
+	desc = {
+		desc = mcpegr.18.d
+		desc = mcpegr.18.d_gluttonous
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_content
+	}
+	override_background = {
+		reference = feast
+	}
+
+	option = {
+		name = mcpegr.18.confirm_gluttonous
+		custom_tooltip = child_personality.keeps_gluttonous_tt
+	}
+
+	option = {
+		name = mcpegr.18.honest_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = gluttonous
+			add_trait_force_tooltip = honest
+		}
+	}
+
+	option = {
+		name = mcpegr.18.temperate_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = gluttonous
+			add_trait_force_tooltip = temperate
+		}
+	}
+}
+
+mcpegr.182 = {
+	type = character_event
+	title = mcpe.18.t
+	desc = {
+		desc = mcpegr.18.d
+		desc = mcpegr.18.d_honest
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = dismissal
+	}
+	override_background = {
+		reference = feast
+	}
+
+	option = {
+		name = mcpegr.18.confirm_honest
+		custom_tooltip = child_personality.keeps_honest_tt
+	}
+
+	option = {
+		name = mcpegr.18.gluttonous_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = honest
+			add_trait_force_tooltip = gluttonous
+		}
+	}
+
+	option = {
+		name = mcpegr.18.temperate_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = honest
+			add_trait_force_tooltip = temperate
+		}
+	}
+}
+
+mcpegr.183 = {
+	type = character_event
+	title = mcpe.18.t
+	desc = {
+		desc = mcpegr.18.d
+		desc = mcpegr.18.d_temperate
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = dismissal
+	}
+	override_background = {
+		reference = feast
+	}
+
+	option = {
+		name = mcpegr.18.confirm_temperate
+		custom_tooltip = child_personality.keeps_temperate_tt
+	}
+
+	option = {
+		name = mcpegr.18.gluttonous_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = temperate
+			add_trait_force_tooltip = gluttonous
+		}
+	}
+
+	option = {
+		name = mcpegr.18.honest_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = temperate
+			add_trait_force_tooltip = honest
+		}
+	}
+}
+
+
+
+mcpegr.191 = {
+	type = character_event
+	title = mcpe.19.t
+	desc = {
+		desc = mcpegr.19.d
+		desc = mcpegr.19.d_just
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_honorable
+	}
+	override_background = {
+		reference = corridor_night
+	}
+
+	option = {
+		name = mcpegr.19.confirm_just
+		custom_tooltip = child_personality.keeps_just_tt
+	}
+
+	option = {
+		name = mcpegr.19.sadistic_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = just
+			add_trait_force_tooltip = sadistic
+		}
+	}
+
+	option = {
+		name = mcpegr.19.forgiving_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = just
+			add_trait_force_tooltip = forgiving
+		}
+	}
+}
+
+mcpegr.192 = {
+	type = character_event
+	title = mcpe.19.t
+	desc = {
+		desc = mcpegr.19.d
+		desc = mcpegr.19.d_sadistic
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = schadenfreude
+	}
+	override_background = {
+		reference = corridor_night
+	}
+
+	option = {
+		name = mcpegr.19.confirm_sadistic
+		custom_tooltip = child_personality.keeps_sadistic_tt
+	}
+
+	option = {
+		name = mcpegr.19.just_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = sadistic
+			add_trait_force_tooltip = just
+		}
+	}
+
+	option = {
+		name = mcpegr.19.forgiving_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = sadistic
+			add_trait_force_tooltip = forgiving
+		}
+	}
+}
+
+mcpegr.193 = {
+	type = character_event
+	title = mcpe.19.t
+	desc = {
+		desc = mcpegr.19.d
+		desc = mcpegr.19.d_forgiving
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_forgiving
+	}
+	override_background = {
+		reference = corridor_night
+	}
+
+	option = {
+		name = mcpegr.19.confirm_forgiving
+		custom_tooltip = child_personality.keeps_forgiving_tt
+	}
+
+	option = {
+		name = mcpegr.19.just_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = forgiving
+			add_trait_force_tooltip = just
+		}
+	}
+
+	option = {
+		name = mcpegr.19.sadistic_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = forgiving
+			add_trait_force_tooltip = sadistic
+		}
+	}
+}
+
+
+
+mcpegr.201 = {
+	type = character_event
+	title = mcpe.20.t
+	desc = {
+		desc = mcpegr.20.d
+		desc = mcpegr.20.d_arrogant
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = pride
+	}
+	override_background = {
+		reference = market
+	}
+
+	option = {
+		name = mcpegr.20.confirm_arrogant
+		custom_tooltip = child_personality.keeps_arrogant_tt
+	}
+
+	option = {
+		name = mcpegr.20.greedy_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = arrogant
+			add_trait_force_tooltip = greedy
+		}
+	}
+
+	option = {
+		name = mcpegr.20.fickle_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = arrogant
+			add_trait_force_tooltip = fickle
+		}
+	}
+}
+
+mcpegr.202 = {
+	type = character_event
+	title = mcpe.20.t
+	desc = {
+		desc = mcpegr.20.d
+		desc = mcpegr.20.d_greedy
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_greedy
+	}
+	override_background = {
+		reference = market
+	}
+
+	option = {
+		name = mcpegr.20.confirm_greedy
+		custom_tooltip = child_personality.keeps_greedy_tt
+	}
+
+	option = {
+		name = mcpegr.20.arrogant_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = greedy
+			add_trait_force_tooltip = arrogant
+		}
+	}
+
+	option = {
+		name = mcpegr.20.fickle_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = greedy
+			add_trait_force_tooltip = fickle
+		}
+	}
+}
+
+mcpegr.203 = {
+	type = character_event
+	title = mcpe.20.t
+	desc = {
+		desc = mcpegr.20.d
+		desc = mcpegr.20.d_fickle
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = happiness
+	}
+	override_background = {
+		reference = market
+	}
+
+	option = {
+		name = mcpegr.20.confirm_fickle
+		custom_tooltip = child_personality.keeps_fickle_tt
+	}
+
+	option = {
+		name = mcpegr.20.arrogant_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = fickle
+			add_trait_force_tooltip = arrogant
+		}
+	}
+
+	option = {
+		name = mcpegr.20.greedy_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = fickle
+			add_trait_force_tooltip = greedy
+		}
+	}
+}
+
+
+
+mcpegr.211 = {
+	type = character_event
+	title = mcpe.21.t
+	desc = {
+		desc = mcpegr.21.d
+		desc = mcpegr.21.d_gregarious
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = happiness
+	}
+	override_background = {
+		reference = terrain
+	}
+
+	option = {
+		name = mcpegr.21.confirm_gregarious
+		custom_tooltip = child_personality.keeps_gregarious_tt
+	}
+
+	option = {
+		name = mcpegr.21.paranoid_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = gregarious
+			add_trait_force_tooltip = paranoid
+		}
+	}
+
+	option = {
+		name = mcpegr.21.lazy_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = gregarious
+			add_trait_force_tooltip = lazy
+		}
+	}
+}
+
+mcpegr.212 = {
+	type = character_event
+	title = mcpe.21.t
+	desc = {
+		desc = mcpegr.21.d
+		desc = mcpegr.21.d_paranoid
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = paranoia
+	}
+	override_background = {
+		reference = terrain
+	}
+
+	option = {
+		name = mcpegr.21.confirm_paranoid
+		custom_tooltip = child_personality.keeps_paranoid_tt
+	}
+
+	option = {
+		name = mcpegr.21.gregarious_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = paranoid
+			add_trait_force_tooltip = gregarious
+		}
+	}
+
+	option = {
+		name = mcpegr.21.lazy_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = paranoid
+			add_trait_force_tooltip = lazy
+		}
+	}
+}
+
+mcpegr.213 = {
+	type = character_event
+	title = mcpe.21.t
+	desc = {
+		desc = mcpegr.21.d
+		desc = mcpegr.21.d_lazy
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_content
+	}
+	override_background = {
+		reference = terrain
+	}
+
+	option = {
+		name = mcpegr.21.confirm_lazy
+		custom_tooltip = child_personality.keeps_lazy_tt
+	}
+
+	option = {
+		name = mcpegr.21.gregarious_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = lazy
+			add_trait_force_tooltip = gregarious
+		}
+	}
+
+	option = {
+		name = mcpegr.21.paranoid_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = lazy
+			add_trait_force_tooltip = paranoid
+		}
+	}
+}
+
+
+
+mcpegr.221 = {
+	type = character_event
+	title = mcpe.22.t
+	desc = {
+		desc = mcpegr.22.d
+		desc = mcpegr.22.d_zealous
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_zealous
+	}
+	override_background = {
+		reference = temple
+	}
+
+	option = {
+		name = mcpegr.22.confirm_zealous
+		custom_tooltip = child_personality.keeps_zealous_tt
+	}
+
+	option = {
+		name = mcpegr.22.humble_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = zealous
+			add_trait_force_tooltip = humble
+		}
+	}
+
+	option = {
+		name = mcpegr.22.compassionate_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = zealous
+			add_trait_force_tooltip = compassionate
+		}
+	}
+}
+
+mcpegr.222 = {
+	type = character_event
+	title = mcpe.22.t
+	desc = {
+		desc = mcpegr.22.d
+		desc = mcpegr.22.d_humble
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_content
+	}
+	override_background = {
+		reference = temple
+	}
+
+	option = {
+		name = mcpegr.22.confirm_humble
+		custom_tooltip = child_personality.keeps_humble_tt
+	}
+
+	option = {
+		name = mcpegr.22.zealous_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = humble
+			add_trait_force_tooltip = zealous
+		}
+	}
+
+	option = {
+		name = mcpegr.22.compassionate_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = humble
+			add_trait_force_tooltip = compassionate
+		}
+	}
+}
+
+mcpegr.223 = {
+	type = character_event
+	title = mcpe.22.t
+	desc = {
+		desc = mcpegr.22.d
+		desc = mcpegr.22.d_compassionate
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_compassionate
+	}
+	override_background = {
+		reference = temple
+	}
+
+	option = {
+		name = mcpegr.22.confirm_compassionate
+		custom_tooltip = child_personality.keeps_compassionate_tt
+	}
+
+	option = {
+		name = mcpegr.22.zealous_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = compassionate
+			add_trait_force_tooltip = zealous
+		}
+	}
+
+	option = {
+		name = mcpegr.22.humble_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = compassionate
+			add_trait_force_tooltip = humble
+		}
+	}
+}
+
+
+
+mcpegr.231 = {
+	type = character_event
+	title = mcpe.23.t
+	desc = {
+		desc = mcpegr.23.d
+		desc = mcpegr.23.d_trusting
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_content
+	}
+
+	option = {
+		name = mcpegr.23.confirm_trusting
+		custom_tooltip = child_personality.keeps_trusting_tt
+	}
+
+	option = {
+		name = mcpegr.23.stubborn_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = trusting
+			add_trait_force_tooltip = stubborn
+		}
+	}
+
+	option = {
+		name = mcpegr.23.arbitrary_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = trusting
+			add_trait_force_tooltip = arbitrary
+		}
+	}
+}
+
+mcpegr.232 = {
+	type = character_event
+	title = mcpe.23.t
+	desc = {
+		desc = mcpegr.23.d
+		desc = mcpegr.23.d_stubborn
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = disapproval
+	}
+
+	option = {
+		name = mcpegr.23.confirm_stubborn
+		custom_tooltip = child_personality.keeps_stubborn_tt
+	}
+
+	option = {
+		name = mcpegr.23.trusting_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = stubborn
+			add_trait_force_tooltip = trusting
+		}
+	}
+
+	option = {
+		name = mcpegr.23.arbitrary_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = stubborn
+			add_trait_force_tooltip = arbitrary
+		}
+	}
+}
+
+mcpegr.233 = {
+	type = character_event
+	title = mcpe.23.t
+	desc = {
+		desc = mcpegr.23.d
+		desc = mcpegr.23.d_arbitrary
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = dismissal
+	}
+
+	option = {
+		name = mcpegr.23.confirm_arbitrary
+		custom_tooltip = child_personality.keeps_arbitrary_tt
+	}
+
+	option = {
+		name = mcpegr.23.trusting_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = arbitrary
+			add_trait_force_tooltip = trusting
+		}
+	}
+
+	option = {
+		name = mcpegr.23.stubborn_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = arbitrary
+			add_trait_force_tooltip = stubborn
+		}
+	}
+}
+
+
+
+mcpegr.241 = {
+	type = character_event
+	title = mcpe.24.t
+	desc = {
+		desc = mcpegr.24.d
+		desc = mcpegr.24.d_ambitious
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = happiness
+	}
+
+	option = {
+		name = mcpegr.24.confirm_ambitious
+		custom_tooltip = child_personality.keeps_ambitious_tt
+	}
+
+	option = {
+		name = mcpegr.24.greedy_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = ambitious
+			add_trait_force_tooltip = greedy
+		}
+	}
+
+	option = {
+		name = mcpegr.24.compassionate_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = ambitious
+			add_trait_force_tooltip = compassionate
+		}
+	}
+}
+
+mcpegr.242 = {
+	type = character_event
+	title = mcpe.24.t
+	desc = {
+		desc = mcpegr.24.d
+		desc = mcpegr.24.d_greedy
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_greedy
+	}
+
+	option = {
+		name = mcpegr.24.confirm_greedy
+		custom_tooltip = child_personality.keeps_greedy_tt
+	}
+
+	option = {
+		name = mcpegr.24.ambitious_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = greedy
+			add_trait_force_tooltip = ambitious
+		}
+	}
+
+	option = {
+		name = mcpegr.24.compassionate_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = greedy
+			add_trait_force_tooltip = compassionate
+		}
+	}
+}
+
+mcpegr.243 = {
+	type = character_event
+	title = mcpe.24.t
+	desc = {
+		desc = mcpegr.24.d
+		desc = mcpegr.24.d_compassionate
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_compassionate
+	}
+
+	option = {
+		name = mcpegr.24.confirm_compassionate
+		custom_tooltip = child_personality.keeps_compassionate_tt
+	}
+
+	option = {
+		name = mcpegr.24.ambitious_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = compassionate
+			add_trait_force_tooltip = ambitious
+		}
+	}
+
+	option = {
+		name = mcpegr.24.greedy_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = compassionate
+			add_trait_force_tooltip = greedy
+		}
+	}
+}
+
+
+
+mcpegr.251 = {
+	type = character_event
+	title = mcpe.25.t
+	desc = {
+		desc = mcpegr.25.d
+		desc = mcpegr.25.d_lustful
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = flirtation_left
+	}
+
+	option = {
+		name = mcpegr.25.confirm_lustful
+		custom_tooltip = child_personality.keeps_lustful_tt
+	}
+
+	option = {
+		name = mcpegr.25.chaste_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = lustful
+			add_trait_force_tooltip = chaste
+		}
+	}
+
+	option = {
+		name = mcpegr.25.paranoid_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = lustful
+			add_trait_force_tooltip = paranoid
+		}
+	}
+}
+
+mcpegr.252 = {
+	type = character_event
+	title = mcpe.25.t
+	desc = {
+		desc = mcpegr.25.d
+		desc = mcpegr.25.d_chaste
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = worry
+	}
+
+	option = {
+		name = mcpegr.25.confirm_chaste
+		custom_tooltip = child_personality.keeps_chaste_tt
+	}
+
+	option = {
+		name = mcpegr.25.lustful_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = chaste
+			add_trait_force_tooltip = lustful
+		}
+	}
+
+	option = {
+		name = mcpegr.25.paranoid_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = chaste
+			add_trait_force_tooltip = paranoid
+		}
+	}
+}
+
+mcpegr.253 = {
+	type = character_event
+	title = mcpe.25.t
+	desc = {
+		desc = mcpegr.25.d
+		desc = mcpegr.25.d_paranoid
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = paranoia
+	}
+
+	option = {
+		name = mcpegr.25.confirm_paranoid
+		custom_tooltip = child_personality.keeps_paranoid_tt
+	}
+
+	option = {
+		name = mcpegr.25.lustful_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = paranoid
+			add_trait_force_tooltip = lustful
+		}
+	}
+
+	option = {
+		name = mcpegr.25.chaste_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = paranoid
+			add_trait_force_tooltip = chaste
+		}
+	}
+}
+
+
+
+mcpegr.261 = {
+	type = character_event
+	title = mcpe.26.t
+	desc = {
+		desc = mcpegr.26.d
+		desc = mcpegr.26.d_brave
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_bold
+	}
+	override_background = {
+		reference = garden
+	}
+
+	option = {
+		name = mcpegr.26.confirm_brave
+		custom_tooltip = child_personality.keeps_brave_tt
+	}
+
+	option = {
+		name = mcpegr.26.craven_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = brave
+			add_trait_force_tooltip = craven
+		}
+	}
+
+	option = {
+		name = mcpegr.26.deceitful_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = brave
+			add_trait_force_tooltip = deceitful
+		}
+	}
+}
+
+mcpegr.262 = {
+	type = character_event
+	title = mcpe.26.t
+	desc = {
+		desc = mcpegr.26.d
+		desc = mcpegr.26.d_craven
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_coward
+	}
+	override_background = {
+		reference = garden
+	}
+
+	option = {
+		name = mcpegr.26.confirm_craven
+		custom_tooltip = child_personality.keeps_craven_tt
+	}
+
+	option = {
+		name = mcpegr.26.brave_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = craven
+			add_trait_force_tooltip = brave
+		}
+	}
+
+	option = {
+		name = mcpegr.26.deceitful_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = craven
+			add_trait_force_tooltip = deceitful
+		}
+	}
+}
+
+mcpegr.263 = {
+	type = character_event
+	title = mcpe.26.t
+	desc = {
+		desc = mcpegr.26.d
+		desc = mcpegr.26.d_deceitful
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_dishonorable
+	}
+	override_background = {
+		reference = garden
+	}
+
+	option = {
+		name = mcpegr.26.confirm_deceitful
+		custom_tooltip = child_personality.keeps_deceitful_tt
+	}
+
+	option = {
+		name = mcpegr.26.brave_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = deceitful
+			add_trait_force_tooltip = brave
+		}
+	}
+
+	option = {
+		name = mcpegr.26.craven_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = deceitful
+			add_trait_force_tooltip = craven
+		}
+	}
+}
+
+
+
+mcpegr.271 = {
+	type = character_event
+	title = mcpe.27.t
+	desc = {
+		desc = mcpegr.27.d
+		desc = mcpegr.27.d_zealous
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_zealous
+	}
+	override_background = {
+		reference = temple
+	}
+
+	option = {
+		name = mcpegr.27.confirm_zealous
+		custom_tooltip = child_personality.keeps_zealous_tt
+	}
+
+	option = {
+		name = mcpegr.27.content_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = zealous
+			add_trait_force_tooltip = content
+		}
+	}
+
+	option = {
+		name = mcpegr.27.callous_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = zealous
+			add_trait_force_tooltip = callous
+		}
+	}
+}
+
+mcpegr.272 = {
+	type = character_event
+	title = mcpe.27.t
+	desc = {
+		desc = mcpegr.27.d
+		desc = mcpegr.27.d_content
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_content
+	}
+	override_background = {
+		reference = temple
+	}
+
+	option = {
+		name = mcpegr.27.confirm_content
+		custom_tooltip = child_personality.keeps_content_tt
+	}
+
+	option = {
+		name = mcpegr.27.zealous_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = content
+			add_trait_force_tooltip = zealous
+		}
+	}
+
+	option = {
+		name = mcpegr.27.callous_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = content
+			add_trait_force_tooltip = callous
+		}
+	}
+}
+
+mcpegr.273 = {
+	type = character_event
+	title = mcpe.27.t
+	desc = {
+		desc = mcpegr.27.d
+		desc = mcpegr.27.d_callous
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_callous
+	}
+	override_background = {
+		reference = temple
+	}
+
+	option = {
+		name = mcpegr.27.confirm_callous
+		custom_tooltip = child_personality.keeps_callous_tt
+	}
+
+	option = {
+		name = mcpegr.27.zealous_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = callous
+			add_trait_force_tooltip = zealous
+		}
+	}
+
+	option = {
+		name = mcpegr.27.content_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = callous
+			add_trait_force_tooltip = content
+		}
+	}
+}
+
+
+
+mcpegr.281 = {
+	type = character_event
+	title = mcpe.28.t
+	desc = {
+		desc = mcpegr.28.d
+		desc = mcpegr.28.d_gluttonous
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_content
+	}
+	override_background = {
+		reference = courtyard
+	}
+
+	option = {
+		name = mcpegr.28.confirm_gluttonous
+		custom_tooltip = child_personality.keeps_gluttonous_tt
+	}
+
+	option = {
+		name = mcpegr.28.trusting_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = gluttonous
+			add_trait_force_tooltip = trusting
+		}
+	}
+
+	option = {
+		name = mcpegr.28.cynical_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = gluttonous
+			add_trait_force_tooltip = cynical
+		}
+	}
+}
+
+mcpegr.282 = {
+	type = character_event
+	title = mcpe.28.t
+	desc = {
+		desc = mcpegr.28.d
+		desc = mcpegr.28.d_trusting
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_content
+	}
+	override_background = {
+		reference = courtyard
+	}
+
+	option = {
+		name = mcpegr.28.confirm_trusting
+		custom_tooltip = child_personality.keeps_trusting_tt
+	}
+
+	option = {
+		name = mcpegr.28.gluttonous_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = trusting
+			add_trait_force_tooltip = gluttonous
+		}
+	}
+
+	option = {
+		name = mcpegr.28.cynical_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = trusting
+			add_trait_force_tooltip = cynical
+		}
+	}
+}
+
+mcpegr.283 = {
+	type = character_event
+	title = mcpe.28.t
+	desc = {
+		desc = mcpegr.28.d
+		desc = mcpegr.28.d_cynical
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_cynical
+	}
+	override_background = {
+		reference = courtyard
+	}
+
+	option = {
+		name = mcpegr.28.confirm_cynical
+		custom_tooltip = child_personality.keeps_cynical_tt
+	}
+
+	option = {
+		name = mcpegr.28.gluttonous_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = cynical
+			add_trait_force_tooltip = gluttonous
+		}
+	}
+
+	option = {
+		name = mcpegr.28.trusting_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = cynical
+			add_trait_force_tooltip = trusting
+		}
+	}
+}
+
+
+
+mcpegr.291 = {
+	type = character_event
+	title = mcpe.29.t
+	desc = {
+		desc = mcpegr.29.d
+		desc = mcpegr.29.d_just
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_honorable
+	}
+	override_background = {
+		reference = garden
+	}
+
+	option = {
+		name = mcpegr.29.confirm_just
+		custom_tooltip = child_personality.keeps_just_tt
+	}
+
+	option = {
+		name = mcpegr.29.lazy_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = just
+			add_trait_force_tooltip = lazy
+		}
+	}
+
+	option = {
+		name = mcpegr.29.shy_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = just
+			add_trait_force_tooltip = shy
+		}
+	}
+}
+
+mcpegr.292 = {
+	type = character_event
+	title = mcpe.29.t
+	desc = {
+		desc = mcpegr.29.d
+		desc = mcpegr.29.d_lazy
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_content
+	}
+	override_background = {
+		reference = garden
+	}
+
+	option = {
+		name = mcpegr.29.confirm_lazy
+		custom_tooltip = child_personality.keeps_lazy_tt
+	}
+
+	option = {
+		name = mcpegr.29.just_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = lazy
+			add_trait_force_tooltip = just
+		}
+	}
+
+	option = {
+		name = mcpegr.29.shy_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = lazy
+			add_trait_force_tooltip = shy
+		}
+	}
+}
+
+mcpegr.293 = {
+	type = character_event
+	title = mcpe.29.t
+	desc = {
+		desc = mcpegr.29.d
+		desc = mcpegr.29.d_shy
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = worry
+	}
+	override_background = {
+		reference = garden
+	}
+
+	option = {
+		name = mcpegr.29.confirm_shy
+		custom_tooltip = child_personality.keeps_shy_tt
+	}
+
+	option = {
+		name = mcpegr.29.just_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = shy
+			add_trait_force_tooltip = just
+		}
+	}
+
+	option = {
+		name = mcpegr.29.lazy_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = shy
+			add_trait_force_tooltip = lazy
+		}
+	}
+}
+
+
+
+mcpegr.301 = {
+	type = character_event
+	title = mcpe.30.t
+	desc = {
+		desc = mcpegr.30.d
+		desc = mcpegr.30.d_arbitrary
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = dismissal
+	}
+
+	option = {
+		name = mcpegr.30.confirm_arbitrary
+		custom_tooltip = child_personality.keeps_arbitrary_tt
+	}
+
+	option = {
+		name = mcpegr.30.diligent_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = arbitrary
+			add_trait_force_tooltip = diligent
+		}
+	}
+
+	option = {
+		name = mcpegr.30.wrathful_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = arbitrary
+			add_trait_force_tooltip = wrathful
+		}
+	}
+}
+
+mcpegr.302 = {
+	type = character_event
+	title = mcpe.30.t
+	desc = {
+		desc = mcpegr.30.d
+		desc = mcpegr.30.d_diligent
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_honorable
+	}
+
+	option = {
+		name = mcpegr.30.confirm_diligent
+		custom_tooltip = child_personality.keeps_diligent_tt
+	}
+
+	option = {
+		name = mcpegr.30.arbitrary_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = diligent
+			add_trait_force_tooltip = arbitrary
+		}
+	}
+
+	option = {
+		name = mcpegr.30.wrathful_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = diligent
+			add_trait_force_tooltip = wrathful
+		}
+	}
+}
+
+mcpegr.303 = {
+	type = character_event
+	title = mcpe.30.t
+	desc = {
+		desc = mcpegr.30.d
+		desc = mcpegr.30.d_wrathful
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = rage
+	}
+
+	option = {
+		name = mcpegr.30.confirm_wrathful
+		custom_tooltip = child_personality.keeps_wrathful_tt
+	}
+
+	option = {
+		name = mcpegr.30.arbitrary_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = wrathful
+			add_trait_force_tooltip = arbitrary
+		}
+	}
+
+	option = {
+		name = mcpegr.30.diligent_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = wrathful
+			add_trait_force_tooltip = diligent
+		}
+	}
+}
+
+
+
+mcpegr.311 = {
+	type = character_event
+	title = mcpe.31.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { exists = scope:bully }
+				desc = mcpegr.31.d.bully
+			}
+			desc = mcpegr.31.d.no_bully_fallback
+		}
+		desc = mcpegr.31.d_forgiving
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = sadness
+	}
+	override_background = {
+		reference = courtyard
+	}
+	right_portrait = {
+		character = scope:bully
+		animation = sadness
+	}
+
+	option = {
+		name = mcpegr.31.confirm_forgiving
+		custom_tooltip = child_personality.keeps_forgiving_tt
+	}
+
+	option = {
+		name = mcpegr.31.vengeful_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = forgiving
+			add_trait_force_tooltip = vengeful
+		}
+	}
+
+	option = {
+		name = mcpegr.31.arrogant_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = forgiving
+			add_trait_force_tooltip = arrogant
+		}
+	}
+}
+
+mcpegr.312 = {
+	type = character_event
+	title = mcpe.31.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { exists = scope:bully }
+				desc = mcpegr.31.d.bully
+			}
+			desc = mcpegr.31.d.no_bully_fallback
+		}
+		desc = mcpegr.31.d_vengeful
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_vengeful
+	}
+	override_background = {
+		reference = courtyard
+	}
+	right_portrait = {
+		character = scope:bully
+		animation = sadness
+	}
+
+	option = {
+		name = mcpegr.31.confirm_vengeful
+		custom_tooltip = child_personality.keeps_vengeful_tt
+	}
+
+	option = {
+		name = mcpegr.31.forgiving_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = vengeful
+			add_trait_force_tooltip = forgiving
+		}
+	}
+
+	option = {
+		name = mcpegr.31.arrogant_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = vengeful
+			add_trait_force_tooltip = arrogant
+		}
+	}
+}
+
+mcpegr.313 = {
+	type = character_event
+	title = mcpe.31.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { exists = scope:bully }
+				desc = mcpegr.31.d.bully
+			}
+			desc = mcpegr.31.d.no_bully_fallback
+		}
+		desc = mcpegr.31.d_arrogant
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = dismissal
+	}
+	override_background = {
+		reference = courtyard
+	}
+	right_portrait = {
+		character = scope:bully
+		animation = sadness
+	}
+
+	option = {
+		name = mcpegr.31.confirm_arrogant
+		custom_tooltip = child_personality.keeps_arrogant_tt
+	}
+
+	option = {
+		name = mcpegr.31.forgiving_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = arrogant
+			add_trait_force_tooltip = forgiving
+		}
+	}
+
+	option = {
+		name = mcpegr.31.vengeful_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = arrogant
+			add_trait_force_tooltip = vengeful
+		}
+	}
+}
+
+
+
+mcpegr.321 = {
+	type = character_event
+	title = mcpe.32.t
+	desc = {
+		desc = mcpegr.32.d
+		desc = mcpegr.32.d_honest
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_honorable
+	}
+	override_background = {
+		reference = market
+	}
+
+	option = {
+		name = mcpegr.32.confirm_honest
+		custom_tooltip = child_personality.keeps_honest_tt
+	}
+
+	option = {
+		name = mcpegr.32.ambitious_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = honest
+			add_trait_force_tooltip = ambitious
+		}
+	}
+
+	option = {
+		name = mcpegr.32.generous_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = honest
+			add_trait_force_tooltip = generous
+		}
+	}
+}
+
+mcpegr.322 = {
+	type = character_event
+	title = mcpe.32.t
+	desc = {
+		desc = mcpegr.32.d
+		desc = mcpegr.32.d_ambitious
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_rational
+	}
+	override_background = {
+		reference = market
+	}
+
+	option = {
+		name = mcpegr.32.confirm_ambitious
+		custom_tooltip = child_personality.keeps_ambitious_tt
+	}
+
+	option = {
+		name = mcpegr.32.honest_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = ambitious
+			add_trait_force_tooltip = honest
+		}
+	}
+
+	option = {
+		name = mcpegr.32.generous_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = ambitious
+			add_trait_force_tooltip = generous
+		}
+	}
+}
+
+mcpegr.323 = {
+	type = character_event
+	title = mcpe.32.t
+	desc = {
+		desc = mcpegr.32.d
+		desc = mcpegr.32.d_generous
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_compassionate
+	}
+	override_background = {
+		reference = market
+	}
+
+	option = {
+		name = mcpegr.32.confirm_generous
+		custom_tooltip = child_personality.keeps_generous_tt
+	}
+
+	option = {
+		name = mcpegr.32.honest_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = generous
+			add_trait_force_tooltip = honest
+		}
+	}
+
+	option = {
+		name = mcpegr.32.ambitious_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = generous
+			add_trait_force_tooltip = ambitious
+		}
+	}
+}
+
+
+
+mcpegr.331 = {
+	type = character_event
+	title = mcpe.33.t
+	desc = {
+		desc = mcpegr.33.d
+		desc = mcpegr.33.d_impatient
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = boredom
+	}
+	override_background = {
+		reference = garden
+	}
+
+	option = {
+		name = mcpegr.33.confirm_impatient
+		custom_tooltip = child_personality.keeps_impatient_tt
+	}
+
+	option = {
+		name = mcpegr.33.calm_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = impatient
+			add_trait_force_tooltip = calm
+		}
+	}
+
+	option = {
+		name = mcpegr.33.content_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = impatient
+			add_trait_force_tooltip = content
+		}
+	}
+}
+
+mcpegr.332 = {
+	type = character_event
+	title = mcpe.33.t
+	desc = {
+		desc = mcpegr.33.d
+		desc = mcpegr.33.d_calm
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_rational
+	}
+	override_background = {
+		reference = garden
+	}
+
+	option = {
+		name = mcpegr.33.confirm_calm
+		custom_tooltip = child_personality.keeps_calm_tt
+	}
+
+	option = {
+		name = mcpegr.33.impatient_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = calm
+			add_trait_force_tooltip = impatient
+		}
+	}
+
+	option = {
+		name = mcpegr.33.content_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = calm
+			add_trait_force_tooltip = content
+		}
+	}
+}
+
+mcpegr.333 = {
+	type = character_event
+	title = mcpe.33.t
+	desc = {
+		desc = mcpegr.33.d
+		desc = mcpegr.33.d_content
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_content
+	}
+	override_background = {
+		reference = garden
+	}
+
+	option = {
+		name = mcpegr.33.confirm_content
+		custom_tooltip = child_personality.keeps_content_tt
+	}
+
+	option = {
+		name = mcpegr.33.impatient_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = content
+			add_trait_force_tooltip = impatient
+		}
+	}
+
+	option = {
+		name = mcpegr.33.calm_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = content
+			add_trait_force_tooltip = calm
+		}
+	}
+}
+
+
+
+mcpegr.341 = {
+	type = character_event
+	title = mcpe.34.t
+	desc = {
+		desc = mcpegr.34.d
+		desc = mcpegr.34.d_gregarious
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = happiness
+	}
+	override_background = {
+		reference = courtyard
+	}
+
+	option = {
+		name = mcpegr.34.confirm_gregarious
+		custom_tooltip = child_personality.keeps_gregarious_tt
+	}
+
+	option = {
+		name = mcpegr.34.humble_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = gregarious
+			add_trait_force_tooltip = humble
+		}
+	}
+
+	option = {
+		name = mcpegr.34.sadistic_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = gregarious
+			add_trait_force_tooltip = sadistic
+		}
+	}
+}
+
+mcpegr.342 = {
+	type = character_event
+	title = mcpe.34.t
+	desc = {
+		desc = mcpegr.34.d
+		desc = mcpegr.34.d_humble
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = admiration
+	}
+	override_background = {
+		reference = courtyard
+	}
+
+	option = {
+		name = mcpegr.34.confirm_humble
+		custom_tooltip = child_personality.keeps_humble_tt
+	}
+
+	option = {
+		name = mcpegr.34.gregarious_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = humble
+			add_trait_force_tooltip = gregarious
+		}
+	}
+
+	option = {
+		name = mcpegr.34.sadistic_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = humble
+			add_trait_force_tooltip = sadistic
+		}
+	}
+}
+
+mcpegr.343 = {
+	type = character_event
+	title = mcpe.34.t
+	desc = {
+		desc = mcpegr.34.d
+		desc = mcpegr.34.d_sadistic
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = schadenfreude
+	}
+	override_background = {
+		reference = courtyard
+	}
+
+	option = {
+		name = mcpegr.34.confirm_sadistic
+		custom_tooltip = child_personality.keeps_sadistic_tt
+	}
+
+	option = {
+		name = mcpegr.34.gregarious_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = sadistic
+			add_trait_force_tooltip = gregarious
+		}
+	}
+
+	option = {
+		name = mcpegr.34.humble_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = sadistic
+			add_trait_force_tooltip = humble
+		}
+	}
+}
+
+
+
+mcpegr.351 = {
+	type = character_event
+	title = mcpe.35.t
+	desc = {
+		desc = mcpegr.35.d
+		desc = mcpegr.35.d_temperate
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_content
+	}
+
+	option = {
+		name = mcpegr.35.confirm_temperate
+		custom_tooltip = child_personality.keeps_temperate_tt
+	}
+
+	option = {
+		name = mcpegr.35.stubborn_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = temperate
+			add_trait_force_tooltip = stubborn
+		}
+	}
+
+	option = {
+		name = mcpegr.35.patient_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = temperate
+			add_trait_force_tooltip = patient
+		}
+	}
+}
+
+mcpegr.352 = {
+	type = character_event
+	title = mcpe.35.t
+	desc = {
+		desc = mcpegr.35.d
+		desc = mcpegr.35.d_stubborn
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = disapproval
+	}
+
+	option = {
+		name = mcpegr.35.confirm_stubborn
+		custom_tooltip = child_personality.keeps_stubborn_tt
+	}
+
+	option = {
+		name = mcpegr.35.temperate_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = stubborn
+			add_trait_force_tooltip = temperate
+		}
+	}
+
+	option = {
+		name = mcpegr.35.patient_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = stubborn
+			add_trait_force_tooltip = patient
+		}
+	}
+}
+
+mcpegr.353 = {
+	type = character_event
+	title = mcpe.35.t
+	desc = {
+		desc = mcpegr.35.d
+		desc = mcpegr.35.d_patient
+	}
+	theme = education
+	left_portrait = {
+		character = scope:child
+		animation = personality_content
+	}
+
+	option = {
+		name = mcpegr.35.confirm_patient
+		custom_tooltip = child_personality.keeps_patient_tt
+	}
+
+	option = {
+		name = mcpegr.35.temperate_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = patient
+			add_trait_force_tooltip = temperate
+		}
+	}
+
+	option = {
+		name = mcpegr.35.stubborn_change
+		ai_chance = { base = 0 }
+		stress_impact = { base = child_trait_change_stress_penalty }
+		scope:child = {
+			remove_trait = patient
+			add_trait_force_tooltip = stubborn
+		}
+	}
+}
+
+
+

@@ -1,0 +1,17 @@
+# 波才：184 年颍川黄巾军首领。
+bo_cai = {
+	name = "hd_bo_cai_name"
+	dynasty_house = "house_hd_bo"
+	culture = "yuzhou"
+	faith = "taipingdao"
+	diplomacy = 6
+	martial = 7
+	stewardship = 7
+	intrigue = 7
+	learning = 6
+	prowess = 7
+	health = 5.5
+	disallow_random_traits = no
+	trait = education_martial_3
+	145.7.1 = { birth = yes }
+}

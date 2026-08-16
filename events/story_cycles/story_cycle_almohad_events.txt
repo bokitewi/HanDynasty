@@ -1,0 +1,11 @@
+# Unsupported vanilla regional event chain retained only as inert public shells.
+namespace = almohad
+
+almohad.0001 = { type = character_event hidden = yes trigger = { always = no } }
+almohad.0002 = { type = character_event hidden = yes trigger = { always = no } }
+almohad.0003 = { type = character_event hidden = yes trigger = { always = no } }
+almohad.0004 = { type = character_event hidden = yes trigger = { always = no } }
+almohad.1001 = { type = character_event hidden = yes trigger = { always = no } }
+almohad.1002 = { type = character_event hidden = yes trigger = { always = no } }
+almohad.1003 = { type = character_event hidden = yes trigger = { always = no } }
+almohad.1004 = { type = character_event hidden = yes trigger = { always = no } }

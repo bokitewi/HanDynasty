@@ -1,0 +1,170 @@
+﻿#############################################
+# HanDyansty - Quixotic Scheme Integration
+# CK3 1.19-compatible additions only.
+#############################################
+
+# The old mod used a murder_setup on_action. Keep that name project-local so
+# its hidden method-selection events can still feed the 20 setup scenes.
+murder_setup = {
+	first_valid = {
+		quix_murder_outcome.1001
+		quix_murder_outcome.1002
+		quix_murder_outcome.1003
+		quix_murder_outcome.1004
+		quix_murder_outcome.1005
+		quix_murder_outcome.1006
+		quix_murder_outcome.1007
+		quix_murder_outcome.1008
+		quix_murder_outcome.1009
+		quix_murder_outcome.1010
+		quix_murder_outcome.1011
+		quix_murder_outcome.1012
+		quix_murder_outcome.1013
+		quix_murder_outcome.1014
+		quix_murder_outcome.1015
+		quix_murder_outcome.1016
+		quix_murder_outcome.1017
+		quix_murder_outcome.1018
+		quix_murder_outcome.1019
+		quix_murder_outcome.1020
+	}
+}
+
+# The imported setup events keep the selected method in scope:murder_method.
+# Resolve the matching success/failure scene after the player confirms the
+# preparation scene, preserving the source mod's two-stage flow.
+hd_quix_murder_success_resolution = {
+	first_valid = {
+		quix_murder_outcome.2001
+		quix_murder_outcome.2002
+		quix_murder_outcome.2003
+		quix_murder_outcome.2004
+		quix_murder_outcome.2005
+		quix_murder_outcome.2006
+		quix_murder_outcome.2007
+		quix_murder_outcome.2008
+		quix_murder_outcome.2009
+		quix_murder_outcome.2010
+		quix_murder_outcome.2011
+		quix_murder_outcome.2012
+		quix_murder_outcome.2013
+		quix_murder_outcome.2014
+		quix_murder_outcome.2015
+		quix_murder_outcome.2016
+		quix_murder_outcome.2017
+		quix_murder_outcome.2018
+		quix_murder_outcome.2019
+		quix_murder_outcome.2020
+	}
+}
+
+hd_quix_murder_failure_resolution = {
+	first_valid = {
+		quix_murder_outcome.4001
+		quix_murder_outcome.4002
+		quix_murder_outcome.4003
+		quix_murder_outcome.4004
+		quix_murder_outcome.4005
+		quix_murder_outcome.4006
+		quix_murder_outcome.4007
+		quix_murder_outcome.4008
+		quix_murder_outcome.4009
+		quix_murder_outcome.4010
+		quix_murder_outcome.4011
+		quix_murder_outcome.4012
+		quix_murder_outcome.4013
+		quix_murder_outcome.4014
+		quix_murder_outcome.4015
+		quix_murder_outcome.4016
+		quix_murder_outcome.4017
+		quix_murder_outcome.4018
+		quix_murder_outcome.4019
+		quix_murder_outcome.4020
+	}
+}
+
+# Standard adult murder successes. The source mod used weight 50; 38 is the
+# requested 75% frequency after integer rounding.
+murder_success_standard_event_list_on_action = {
+	random_events = {
+		38 = quix_murder_outcome.0101
+		38 = quix_murder_outcome.0102
+		38 = quix_murder_outcome.0103
+		38 = quix_murder_outcome.0104
+		38 = quix_murder_outcome.0105
+		38 = quix_murder_outcome.0106
+		38 = quix_murder_outcome.0107
+		38 = quix_murder_outcome.0108
+		38 = quix_murder_outcome.0109
+		38 = quix_murder_outcome.0110
+		38 = quix_murder_outcome.0111
+		38 = quix_murder_outcome.0112
+		38 = quix_murder_outcome.0113
+		38 = quix_murder_outcome.0114
+		38 = quix_murder_outcome.0115
+		38 = quix_murder_outcome.0116
+		38 = quix_murder_outcome.0117
+		38 = quix_murder_outcome.0118
+		38 = quix_murder_outcome.0119
+		38 = quix_murder_outcome.0120
+	}
+}
+
+# Failure wrappers are separate because the old hidden method-selection events
+# now need to remember whether the 1.19 scheme result was success or failure.
+murder_failure_standard_event_list_on_action = {
+	random_events = {
+		38 = quix_murder_outcome.0301
+		38 = quix_murder_outcome.0302
+		38 = quix_murder_outcome.0303
+		38 = quix_murder_outcome.0304
+		38 = quix_murder_outcome.0305
+		38 = quix_murder_outcome.0306
+		38 = quix_murder_outcome.0307
+		38 = quix_murder_outcome.0308
+		38 = quix_murder_outcome.0309
+		38 = quix_murder_outcome.0310
+		38 = quix_murder_outcome.0311
+		38 = quix_murder_outcome.0312
+		38 = quix_murder_outcome.0313
+		38 = quix_murder_outcome.0314
+		38 = quix_murder_outcome.0315
+		38 = quix_murder_outcome.0316
+		38 = quix_murder_outcome.0317
+		38 = quix_murder_outcome.0318
+		38 = quix_murder_outcome.0319
+		38 = quix_murder_outcome.0320
+	}
+}
+
+# Add the custom seduction scenes to the current 1.19 pools. Existing vanilla
+# entries remain loaded; these blocks are append-only on_actions.
+seduce_success = {
+	first_valid = {
+		quix_seduce_outcome.2000
+		quix_seduce_outcome.2303
+	}
+}
+
+seduce_generic_success = {
+	random_events = {
+		113 = quix_seduce_outcome.2010
+		75 = quix_seduce_outcome.2020
+		75 = quix_seduce_outcome.2021
+		75 = quix_seduce_outcome.2022
+		75 = quix_seduce_outcome.2023
+		75 = quix_seduce_outcome.2024
+		75 = quix_seduce_outcome.2025
+		75 = quix_seduce_outcome.2026
+		75 = quix_seduce_outcome.2027
+		75 = quix_seduce_outcome.2028
+		75 = quix_seduce_outcome.2029
+		113 = quix_seduce_outcome.2030
+		75 = quix_seduce_outcome.2031
+		75 = quix_seduce_outcome.2301
+		75 = quix_seduce_outcome.2302
+		75 = quix_seduce_outcome.2303
+		75 = quix_seduce_outcome.2304
+		75 = quix_seduce_outcome.2305
+	}
+}

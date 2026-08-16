@@ -1,0 +1,149 @@
+﻿# Ordered effects for participant maintenance and situation progress.
+
+saas_clear_participant_stance_effect = {
+	if = {
+		limit = { has_trait = character_involve_supporters_of_zhou_dynasty }
+		remove_trait = character_involve_supporters_of_zhou_dynasty
+	}
+	if = {
+		limit = { has_trait = character_involve_opponents_of_zhou_dynasty }
+		remove_trait = character_involve_opponents_of_zhou_dynasty
+	}
+	if = {
+		limit = { has_trait = character_involve_neutral_of_zhou_dynasty }
+		remove_trait = character_involve_neutral_of_zhou_dynasty
+	}
+	if = {
+		limit = { has_trait = character_interloper_of_zhou_dynasty }
+		remove_trait = character_interloper_of_zhou_dynasty
+	}
+}
+
+saas_assign_ai_lijiao_stance_effect = {
+	random_list = {
+		40 = {
+			modifier = { add = 40 has_trait = just }
+			modifier = { add = 30 has_trait = humble }
+			modifier = { add = 25 has_trait = compassionate }
+			add_trait = character_involve_supporters_of_zhou_dynasty
+		}
+		35 = {
+			modifier = { add = 50 has_trait = ambitious }
+			modifier = { add = 35 has_trait = arrogant }
+			modifier = { add = 25 has_trait = deceitful }
+			add_trait = character_involve_opponents_of_zhou_dynasty
+		}
+		25 = {
+			modifier = { add = 40 has_trait = content }
+			modifier = { add = 30 has_trait = calm }
+			modifier = { add = 25 has_trait = patient }
+			add_trait = character_involve_neutral_of_zhou_dynasty
+		}
+	}
+}
+
+saas_refresh_participant_effect = {
+	if = {
+		limit = { exists = situation:dynastic_cycle }
+		recalculate_participant_group = situation:dynastic_cycle
+	}
+}
+
+saas_trigger_catalyst_effect = {
+	situation:dynastic_cycle ?= {
+		# Some compatibility hooks still pass catalysts from retired content.
+		# The situation-scoped trigger safely
+		# ignores keys that are not declared by the current Dynastic Cycle.
+		if = {
+			limit = {
+				situation_top_has_catalyst = $CATALYST$
+			}
+			trigger_situation_catalyst = {
+				catalyst = $CATALYST$
+				character = $CHARACTER$
+			}
+		}
+	}
+}
+
+saas_establish_tributary_effect = {
+	$TRIBUTARY$ = {
+		break_subject_contract_and_establish_tributary_effect = {
+			SUZERAIN = $SUZERAIN$
+			TRIBUTARY = $TRIBUTARY$
+		}
+	}
+}
+
+# Root is the character receiving h_huaxia. The hegemony is created when
+# necessary and otherwise transferred through the engine's title-change chain.
+saas_take_huaxia_hegemony_effect = {
+	if = {
+		limit = { title:h_china = { is_title_created = no } }
+		create_title_and_vassal_change = {
+			type = created
+			save_scope_as = saas_hegemony_change
+			add_claim_on_loss = no
+		}
+		title:h_china = {
+			change_title_holder = {
+				holder = root
+				change = scope:saas_hegemony_change
+				take_baronies = no
+			}
+		}
+		resolve_title_and_vassal_change = scope:saas_hegemony_change
+	}
+	else_if = {
+		limit = { title:h_china = { NOT = { holder = root } } }
+		create_title_and_vassal_change = {
+			type = usurped
+			save_scope_as = saas_hegemony_change
+			add_claim_on_loss = no
+		}
+		title:h_china = {
+			change_title_holder = {
+				holder = root
+				change = scope:saas_hegemony_change
+				take_baronies = no
+			}
+		}
+		resolve_title_and_vassal_change = scope:saas_hegemony_change
+	}
+}
+
+# Root is the decision taker. RECIPIENT is the character receiving h_huaxia.
+saas_grant_huaxia_hegemony_effect = {
+	if = {
+		limit = { title:h_china = { is_title_created = no } }
+		create_title_and_vassal_change = {
+			type = created
+			save_scope_as = saas_hegemony_change
+			add_claim_on_loss = no
+		}
+		title:h_china = {
+			change_title_holder = {
+				holder = $RECIPIENT$
+				change = scope:saas_hegemony_change
+				take_baronies = no
+			}
+		}
+		resolve_title_and_vassal_change = scope:saas_hegemony_change
+	}
+	else_if = {
+		limit = { title:h_china = { NOT = { holder = $RECIPIENT$ } } }
+		create_title_and_vassal_change = {
+			type = usurped
+			save_scope_as = saas_hegemony_change
+			add_claim_on_loss = no
+		}
+		title:h_china = {
+			change_title_holder = {
+				holder = $RECIPIENT$
+				change = scope:saas_hegemony_change
+				take_baronies = no
+			}
+		}
+		resolve_title_and_vassal_change = scope:saas_hegemony_change
+	}
+}

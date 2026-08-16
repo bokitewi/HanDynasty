@@ -1,0 +1,9 @@
+# Unsupported vanilla regional event chain retained only as inert public shells.
+namespace = ep3_roman_restoration
+
+ep3_roman_restoration.0001 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_roman_restoration.0100 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_roman_restoration.0101 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_roman_restoration.0300 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_roman_restoration.0500 = { type = character_event hidden = yes trigger = { always = no } }
+ep3_roman_restoration.0520 = { type = character_event hidden = yes trigger = { always = no } }

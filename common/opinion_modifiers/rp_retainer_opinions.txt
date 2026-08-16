@@ -1,0 +1,44 @@
+﻿rp_retainer_recruited_opinion = {
+	opinion = 30
+	years = 10
+}
+
+rp_retainer_recruited_high_opinion = {
+	opinion = 50
+	years = 15
+}
+
+rp_retainer_cautious_review_opinion = {
+	opinion = 5
+	years = 5
+}
+
+rp_retainer_road_recruited_opinion = {
+	opinion = 40
+	years = 12
+}
+
+rp_retainer_generous_stranger_opinion = {
+	opinion = 20
+	years = 8
+}
+
+rp_idiom_ally_grateful_opinion = {
+	opinion = 50
+	years = 12
+}
+
+rp_idiom_neighbor_abandoned_opinion = {
+	opinion = -30
+	years = 10
+}
+
+rp_idiom_supported_claimant_opinion = {
+	opinion = 60
+	years = 20
+}
+
+rp_idiom_rebuffed_power_opinion = {
+	opinion = -20
+	years = 5
+}

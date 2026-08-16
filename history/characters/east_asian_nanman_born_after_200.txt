@@ -1,0 +1,27 @@
+﻿# Generated from 華陽國志、三國志、三國演義、後漢書 and 漢晉春秋.
+# Culture: nanman
+# Time partition: born_after_200 (birth > 200).
+# No title history is assigned. Dates marked in the evidence audit may be estimates.
+
+##### 【李郃】
+li_he={
+	name="uuii_book_li_he_name" #郃
+	dynasty_house="house_112020042001013"
+	culture="nanman"
+	faith="guiwu"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="5"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	trait=education_diplomacy_3
+	798.7.1={
+		birth=yes
+	}
+	842.7.1={
+		death=yes
+	}
+}

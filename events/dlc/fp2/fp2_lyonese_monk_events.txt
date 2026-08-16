@@ -1,0 +1,58 @@
+# Unsupported vanilla regional event chain retained only as inert public shells.
+namespace = fp2_lyonese_monk
+
+fp2_lyonese_monk.0001 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_lyonese_monk.0002 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_lyonese_monk.0011 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_lyonese_monk.0021 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_lyonese_monk.0031 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_lyonese_monk.0041 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_lyonese_monk.0051 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_lyonese_monk.0201 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_lyonese_monk.0211 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_lyonese_monk.0221 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_lyonese_monk.0231 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_lyonese_monk.0241 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_lyonese_monk.0401 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_lyonese_monk.0411 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_lyonese_monk.0421 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_lyonese_monk.0431 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_lyonese_monk.0441 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_lyonese_monk.0601 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_lyonese_monk.0611 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_lyonese_monk.0621 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_lyonese_monk.0631 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_lyonese_monk.0641 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_lyonese_monk.0801 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_lyonese_monk.0811 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_lyonese_monk.0821 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_lyonese_monk.0831 = { type = character_event hidden = yes trigger = { always = no } }
+fp2_lyonese_monk.0841 = { type = character_event hidden = yes trigger = { always = no } }
+
+scripted_trigger fp2_lyonese_monk_0211_suitable_baron_trigger = { always = no }
+scripted_trigger fp2_lyonese_monk_0221_suitable_courtier_trigger = { always = no }
+scripted_trigger fp2_lyonese_monk_0411_county_to_give_trigger = { always = no }
+scripted_trigger fp2_lyonese_monk_0621_suitable_vassal_trigger = { always = no }
+scripted_trigger fp2_lyonese_monk_0631_valid_neighbour_trigger = { always = no }
+scripted_trigger fp2_lyonese_monk_has_suitable_annoyed_theocrat_trigger = { always = no }
+scripted_trigger fp2_lyonese_monk_suitable_annoyed_theocrat_landed_vassal_trigger = { always = no }
+scripted_trigger fp2_lyonese_monk_suitable_annoyed_theocrat_landless_monk_trigger = { always = no }
+scripted_trigger fp2_suitable_base_convert_trigger = { always = no }
+scripted_trigger fp2_suitable_semi_strict_convert_trigger = { always = no }
+scripted_trigger fp2_suitable_strict_convert_trigger = { always = no }
+
+scripted_effect fp2_add_random_characters_to_converts_list_effect = { }
+scripted_effect fp2_add_random_vassals_to_converts_list_effect = { }
+scripted_effect fp2_lyonese_monk_0611_diplomatic_defusal_effect = { }
+scripted_effect fp2_lyonese_monk_0811_elipandic_school_effect = { }
+scripted_effect fp2_lyonese_monk_0811_felicitous_school_effect = { }
+scripted_effect fp2_lyonese_monk_0811_radical_school_effect = { }
+scripted_effect fp2_lyonese_monk_0821_elipandic_school_effect = { }
+scripted_effect fp2_lyonese_monk_0821_felicitous_school_effect = { }
+scripted_effect fp2_lyonese_monk_0821_radical_school_effect = { }
+scripted_effect fp2_lyonese_monk_0831_elipandic_school_effect = { }
+scripted_effect fp2_lyonese_monk_0831_felicitous_school_effect = { }
+scripted_effect fp2_lyonese_monk_0831_radical_school_effect = { }
+scripted_effect fp2_lyonese_monk_grab_and_update_pope_effect = { }
+scripted_effect fp2_lyonese_monk_make_acolyte_and_irate_theocrat_rivals_effect = { }
+scripted_effect fp2_lyonese_monk_select_suitable_annoyed_theocrat_effect = { }

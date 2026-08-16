@@ -1,0 +1,27 @@
+﻿# Run after the vanilla title-history and TGP ministry startup has completed.
+on_game_start_after_lobby = {
+	on_actions = {
+		hd_han_court_after_lobby
+	}
+}
+
+hd_han_court_after_lobby = {
+	effect = {
+		if = {
+			limit = {
+				has_tgp_dlc_trigger = yes
+				game_start_date = 184.1.1
+				current_date = 184.1.1
+				NOT = { exists = global_var:hd_han_court_184_initialized }
+				exists = title:h_china.holder
+				title:h_china.holder = {
+					tgp_has_access_to_ministry_trigger = yes
+				}
+			}
+			title:h_china.holder = {
+				hd_han_setup_184_court_effect = yes
+			}
+			set_global_variable = hd_han_court_184_initialized
+		}
+	}
+}

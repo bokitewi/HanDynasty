@@ -1,0 +1,40 @@
+﻿namespace = hd_uprising_war
+
+# A character-rooted scheduler is used because delayed on_actions do not retain
+# a live war scope reliably. Each pulse rediscovers the attacker's current wars.
+hd_uprising_war.0001 = {
+	type = character_event
+	hidden = yes
+
+	immediate = {
+		# Clear before scanning so a newly-started war can always schedule a future pulse.
+		remove_character_flag = hd_uprising_war_scan_scheduled
+
+		every_character_war = {
+			limit = {
+				hd_uprising_war_for_primary_attacker_trigger = {
+					ATTACKER = root
+				}
+			}
+			hd_uprising_half_year_scan_effect = {
+				WAR = this
+			}
+		}
+
+		# Keep exactly one queued pulse while this character leads an uprising war.
+		if = {
+			limit = {
+				any_character_war = {
+					hd_uprising_war_for_primary_attacker_trigger = {
+						ATTACKER = root
+					}
+				}
+			}
+			add_character_flag = hd_uprising_war_scan_scheduled
+			trigger_event = {
+				id = hd_uprising_war.0001
+				months = 6
+			}
+		}
+	}
+}

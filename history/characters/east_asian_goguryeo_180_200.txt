@@ -1,0 +1,163 @@
+﻿# Generated from 華陽國志、三國志、三國演義、後漢書 and 漢晉春秋.
+# Culture: goguryeo
+# Time partition: 180_200 (death >= 180 and birth <= 200).
+# No title history is assigned. Dates marked in the evidence audit may be estimates.
+
+##### 【高拔奇】
+gao_ba_qi={
+	name="uuii_book_gao_ba_qi_name" #拔奇
+	dynasty_house="house_123020001001013"
+	father="gao_bo_gu"
+	culture="goguryeo"
+	faith="yemaek_shamanism"
+	diplomacy="6"
+	martial="8"
+	stewardship="6"
+	intrigue="5"
+	learning="8"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	135.7.1={
+		birth=yes
+	}
+	225.7.1={
+		death=yes
+	}
+}
+
+##### 【高男武】
+gao_nan_wu={
+	name="uuii_book_gao_nan_wu_name" #男武
+	dynasty_house="house_123020001001013"
+	father="gao_bo_gu"
+	culture="goguryeo"
+	faith="yemaek_shamanism"
+	diplomacy="6"
+	martial="5"
+	stewardship="8"
+	intrigue="7"
+	learning="8"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	145.7.1={
+		birth=yes
+	}
+	197.7.1={
+		death=yes
+	}
+}
+
+##### 【高延优】
+gao_yan_you={
+	name="uuii_book_gao_yan_you_name" #延优
+	dynasty_house="house_123020001001013"
+	father="gao_bo_gu"
+	culture="goguryeo"
+	faith="yemaek_shamanism"
+	diplomacy="6"
+	martial="6"
+	stewardship="9"
+	intrigue="7"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	153.7.1={
+		birth=yes
+	}
+	227.7.1={
+		death=yes
+	}
+}
+
+##### 【于素】
+yu_su={
+	name="uuii_book_yu_su_name" #素
+	dynasty_house="house_123020025001013"
+	culture="goguryeo"
+	faith="yemaek_shamanism"
+	diplomacy="8"
+	martial="5"
+	stewardship="5"
+	intrigue="9"
+	learning="9"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=no
+	125.7.1={
+		birth=yes
+	}
+	203.7.1={
+		death=yes
+	}
+}
+
+##### 【于茉莉】
+yu_mo_li={
+	name="uuii_book_yu_mo_li_name" #茉莉
+	dynasty_house="house_123020025001013"
+	female=yes
+	father="yu_su"
+	culture="goguryeo"
+	faith="yemaek_shamanism"
+	diplomacy="4"
+	martial="5"
+	stewardship="8"
+	intrigue="9"
+	learning="8"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	155.7.1={
+		birth=yes
+	}
+	203.7.1={
+		death=yes
+	}
+}
+
+##### 【乙巴素】
+yi_ba_su={
+	name="uuii_book_yi_ba_su_name" #巴素
+	dynasty_house="house_123020027001013"
+	culture="goguryeo"
+	faith="yemaek_shamanism"
+	diplomacy="7"
+	martial="7"
+	stewardship="6"
+	intrigue="9"
+	learning="6"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	155.7.1={
+		birth=yes
+	}
+	203.7.1={
+		death=yes
+	}
+}
+
+##### 【晏留】
+yan_liu={
+	name="uuii_book_yan_liu_name" #留
+	dynasty_house="house_123020050001013"
+	culture="goguryeo"
+	faith="yemaek_shamanism"
+	diplomacy="4"
+	martial="7"
+	stewardship="6"
+	intrigue="7"
+	learning="8"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	150.7.1={
+		birth=yes
+	}
+	213.7.1={
+		death=yes
+	}
+}

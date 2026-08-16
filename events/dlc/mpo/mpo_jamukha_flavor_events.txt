@@ -1,0 +1,10 @@
+# Unsupported vanilla regional event chain retained only as inert public shells.
+namespace = mpo_jamukha_flavor
+
+mpo_jamukha_flavor.0001 = { type = character_event hidden = yes trigger = { always = no } }
+mpo_jamukha_flavor.0010 = { type = character_event hidden = yes trigger = { always = no } }
+mpo_jamukha_flavor.0020 = { type = character_event hidden = yes trigger = { always = no } }
+
+scripted_trigger mpo_jamukha_flavor_0010_togrul_trigger = { always = no }
+
+scripted_effect mpo_jamukha_flavor_0010_jamukha_leaving_effect = { }

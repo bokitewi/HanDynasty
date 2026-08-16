@@ -1,0 +1,7 @@
+﻿saas_recruit_talent_edict_modifier = {
+}
+
+saas_retainer_defense_reform_modifier = {
+	levy_size = 0.10
+	garrison_size = 0.20
+}

@@ -1,0 +1,663 @@
+# Generated from 華陽國志、三國志、三國演義、後漢書 and 漢晉春秋.
+# Culture: yangzhou
+# Time partition: dead_before_180 (death < 180).
+# No title history is assigned. Dates marked in the evidence audit may be estimates.
+
+##### 【周昌】
+zhou_chang={
+	name="uuii_book_zhou_chang_name" #昌
+	dynasty_house="house_111010005001013"
+	culture="yangzhou"
+	faith="jingxue"
+	diplomacy="8"
+	martial="7"
+	stewardship="4"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	120.7.1={
+		birth=yes
+	}
+	179.7.1={
+		death=yes
+	}
+}
+
+##### 【周兴】
+zhou_xing={
+	name="uuii_book_zhou_xing_name" #兴
+	dynasty_house="house_111010005002013"
+	culture="yangzhou"
+	faith="jingxue"
+	diplomacy="7"
+	martial="5"
+	stewardship="9"
+	intrigue="5"
+	learning="9"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	95.7.1={
+		birth=yes
+	}
+	157.7.1={
+		death=yes
+	}
+}
+
+##### 【周景】
+zhou_jing={
+	name="uuii_book_zhou_jing_name" #景
+	dynasty_house="house_111010005002013"
+	father="zhou_xing"
+	culture="yangzhou"
+	faith="jingxue"
+	diplomacy="4"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	115.7.1={
+		birth=yes
+	}
+	168.7.1={
+		death=yes
+	}
+}
+
+##### 【周崇】
+zhou_chong={
+	name="uuii_book_zhou_chong_name" #崇
+	dynasty_house="house_111010005002013"
+	father="zhou_jing"
+	culture="yangzhou"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="6"
+	intrigue="9"
+	learning="5"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	135.7.1={
+		birth=yes
+	}
+	165.7.1={
+		death=yes
+	}
+}
+
+##### 【蔡昭】
+cai_zhao={
+	name="uuii_book_cai_zhao_name" #昭
+	dynasty_house="house_111010153003013"
+	culture="yangzhou"
+	faith="jingxue"
+	diplomacy="8"
+	martial="5"
+	stewardship="6"
+	intrigue="5"
+	learning="8"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	110.7.1={
+		birth=yes
+	}
+	176.7.1={
+		death=yes
+	}
+}
+
+##### 【陆褒】
+lu_bao={
+	name="uuii_book_lu_bao_name" #褒
+	dynasty_house="house_111010196001013"
+	culture="yangzhou"
+	faith="jingxue"
+	diplomacy="8"
+	martial="6"
+	stewardship="5"
+	intrigue="8"
+	learning="6"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	105.7.1={
+		birth=yes
+	}
+	168.7.1={
+		death=yes
+	}
+}
+
+##### 【陆骏】
+lu_jun={
+	name="uuii_book_lu_jun_name" #骏
+	dynasty_house="house_111010196001013"
+	father="lu_yu_2"
+	culture="yangzhou"
+	faith="jingxue"
+	diplomacy="5"
+	martial="9"
+	stewardship="7"
+	intrigue="5"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	150.7.1={
+		birth=yes
+	}
+	173.7.1={
+		death=yes
+	}
+}
+
+##### 【周荣】
+zhou_rong={
+	name="uuii_book_zhou_rong_name" #荣
+	culture="yangzhou"
+	faith="jingxue"
+	diplomacy="4"
+	martial="8"
+	stewardship="8"
+	intrigue="8"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	trait=education_martial_3
+	110.7.1={
+		birth=yes
+	}
+	175.7.1={
+		death=yes
+	}
+}
+
+##### 【唐檀】
+tang_tan={
+	name="uuii_book_tang_tan_name" #檀
+	culture="yangzhou"
+	faith="jingxue"
+	diplomacy="6"
+	martial="7"
+	stewardship="7"
+	intrigue="6"
+	learning="8"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	trait=education_learning_2
+	90.7.1={
+		birth=yes
+	}
+	155.7.1={
+		death=yes
+	}
+}
+
+##### 【彭修】
+peng_xiu={
+	name="uuii_book_peng_xiu_name" #修
+	culture="yangzhou"
+	faith="jingxue"
+	diplomacy="7"
+	martial="5"
+	stewardship="5"
+	intrigue="7"
+	learning="9"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	trait=education_learning_1
+	110.7.1={
+		birth=yes
+	}
+	175.7.1={
+		death=yes
+	}
+}
+
+##### 【徐穉】
+xu_zhi_3={
+	name="uuii_book_xu_zhi_3_name" #穉
+	culture="yangzhou"
+	faith="jingxue"
+	diplomacy="5"
+	martial="8"
+	stewardship="7"
+	intrigue="5"
+	learning="8"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	trait=education_learning_2
+	110.7.1={
+		birth=yes
+	}
+	175.7.1={
+		death=yes
+	}
+}
+
+##### 【戴就】
+dai_jiu={
+	name="uuii_book_dai_jiu_name" #就
+	culture="yangzhou"
+	faith="jingxue"
+	diplomacy="5"
+	martial="8"
+	stewardship="8"
+	intrigue="7"
+	learning="4"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	trait=education_stewardship_3
+	110.7.1={
+		birth=yes
+	}
+	175.7.1={
+		death=yes
+	}
+}
+
+##### 【朱俊】
+zhu_jun_2={
+	name="uuii_book_zhu_jun_2_name" #俊
+	culture="yangzhou"
+	faith="jingxue"
+	diplomacy="8"
+	martial="5"
+	stewardship="7"
+	intrigue="5"
+	learning="7"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	trait=education_diplomacy_1
+	110.7.1={
+		birth=yes
+	}
+	175.7.1={
+		death=yes
+	}
+}
+
+##### 【李南】
+li_nan_2={
+	name="uuii_book_li_nan_2_name" #南
+	culture="yangzhou"
+	faith="jingxue"
+	diplomacy="7"
+	martial="4"
+	stewardship="8"
+	intrigue="5"
+	learning="8"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	trait=education_stewardship_2
+	110.7.1={
+		birth=yes
+	}
+	175.7.1={
+		death=yes
+	}
+}
+
+##### 【王充】
+wang_chong_3={
+	name="uuii_book_wang_chong_3_name" #充
+	culture="yangzhou"
+	faith="jingxue"
+	diplomacy="8"
+	martial="7"
+	stewardship="6"
+	intrigue="7"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	trait=education_diplomacy_1
+	27.7.1={
+		birth=yes
+	}
+	97.7.1={
+		death=yes
+	}
+}
+
+##### 【程曾】
+cheng_ceng={
+	name="uuii_book_cheng_ceng_name" #曾
+	culture="yangzhou"
+	faith="jingxue"
+	diplomacy="5"
+	martial="5"
+	stewardship="6"
+	intrigue="9"
+	learning="9"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	trait=education_learning_1
+	70.7.1={
+		birth=yes
+	}
+	135.7.1={
+		death=yes
+	}
+}
+
+##### 【谢夷吾】
+xie_yi_wu_2={
+	name="uuii_book_xie_yi_wu_2_name" #夷吾
+	culture="yangzhou"
+	faith="jingxue"
+	diplomacy="6"
+	martial="9"
+	stewardship="8"
+	intrigue="6"
+	learning="4"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	trait=education_stewardship_2
+	110.7.1={
+		birth=yes
+	}
+	175.7.1={
+		death=yes
+	}
+}
+
+##### 【赵晔】
+zhao_ye={
+	name="uuii_book_zhao_ye_name" #晔
+	culture="yangzhou"
+	faith="jingxue"
+	diplomacy="8"
+	martial="5"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	trait=education_stewardship_3
+	110.7.1={
+		birth=yes
+	}
+	175.7.1={
+		death=yes
+	}
+}
+
+##### 【郑弘】
+zheng_hong_2={
+	name="uuii_book_zheng_hong_2_name" #弘
+	culture="yangzhou"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	trait=education_martial_3
+	110.7.1={
+		birth=yes
+	}
+	175.7.1={
+		death=yes
+	}
+}
+
+##### 【钟离意】
+zhong_li_yi_2={
+	name="uuii_book_zhong_li_yi_2_name" #意
+	culture="yangzhou"
+	faith="jingxue"
+	diplomacy="7"
+	martial="5"
+	stewardship="8"
+	intrigue="5"
+	learning="7"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	trait=education_stewardship_3
+	110.7.1={
+		birth=yes
+	}
+	175.7.1={
+		death=yes
+	}
+}
+
+##### 【陆续】
+lu_xu={
+	name="uuii_book_lu_xu_name" #续
+	culture="yangzhou"
+	faith="jingxue"
+	diplomacy="6"
+	martial="7"
+	stewardship="9"
+	intrigue="6"
+	learning="5"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	trait=education_stewardship_2
+	110.7.1={
+		birth=yes
+	}
+	175.7.1={
+		death=yes
+	}
+}
+
+##### 【陈重】
+chen_zhong_3={
+	name="uuii_book_chen_zhong_3_name" #重
+	culture="yangzhou"
+	faith="jingxue"
+	diplomacy="6"
+	martial="5"
+	stewardship="8"
+	intrigue="8"
+	learning="6"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	trait=education_stewardship_3
+	110.7.1={
+		birth=yes
+	}
+	175.7.1={
+		death=yes
+	}
+}
+
+##### 【雷义】
+lei_yi_2={
+	name="uuii_book_lei_yi_2_name" #义
+	culture="yangzhou"
+	faith="jingxue"
+	diplomacy="4"
+	martial="7"
+	stewardship="9"
+	intrigue="7"
+	learning="6"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	trait=education_stewardship_3
+	110.7.1={
+		birth=yes
+	}
+	175.7.1={
+		death=yes
+	}
+}
+
+##### 【高彪】
+gao_biao={
+	name="uuii_book_gao_biao_name" #彪
+	culture="yangzhou"
+	faith="jingxue"
+	diplomacy="8"
+	martial="7"
+	stewardship="7"
+	intrigue="8"
+	learning="5"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	trait=education_diplomacy_1
+	110.7.1={
+		birth=yes
+	}
+	175.7.1={
+		death=yes
+	}
+}
+
+##### 【魏朗】
+wei_lang_3={
+	name="uuii_book_wei_lang_3_name" #朗
+	culture="yangzhou"
+	faith="jingxue"
+	diplomacy="6"
+	martial="9"
+	stewardship="7"
+	intrigue="7"
+	learning="5"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	trait=education_martial_1
+	110.7.1={
+		birth=yes
+	}
+	175.7.1={
+		death=yes
+	}
+}
+
+##### 【黄昌】
+huang_chang={
+	name="uuii_book_huang_chang_name" #昌
+	culture="yangzhou"
+	faith="jingxue"
+	diplomacy="8"
+	martial="5"
+	stewardship="5"
+	intrigue="8"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	trait=education_diplomacy_1
+	110.7.1={
+		birth=yes
+	}
+	175.7.1={
+		death=yes
+	}
+}
+
+##### 【何汤】
+he_tang={
+	name="uuii_book_he_tang_name" #汤
+	culture="yangzhou"
+	faith="jingxue"
+	diplomacy="6"
+	martial="6"
+	stewardship="7"
+	intrigue="5"
+	learning="8"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	110.7.1={
+		birth=yes
+	}
+	175.7.1={
+		death=yes
+	}
+}
+
+##### 【伯徐】
+bo_xu={
+	name="uuii_book_bo_xu_name" #伯徐
+	culture="yangzhou"
+	faith="jingxue"
+	diplomacy="9"
+	martial="8"
+	stewardship="6"
+	intrigue="4"
+	learning="5"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	110.7.1={
+		birth=yes
+	}
+	175.7.1={
+		death=yes
+	}
+}
+
+##### 【子良】
+zi_liang={
+	name="uuii_book_zi_liang_name" #子良
+	culture="yangzhou"
+	faith="jingxue"
+	diplomacy="4"
+	martial="7"
+	stewardship="8"
+	intrigue="8"
+	learning="8"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	5.7.1={
+		birth=yes
+	}
+	70.7.1={
+		death=yes
+	}
+}
+
+##### 【少张】
+shao_zhang={
+	name="uuii_book_shao_zhang_name" #少张
+	culture="yangzhou"
+	faith="jingxue"
+	diplomacy="5"
+	martial="6"
+	stewardship="8"
+	intrigue="5"
+	learning="8"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	110.7.1={
+		birth=yes
+	}
+	175.7.1={
+		death=yes
+	}
+}

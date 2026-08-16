@@ -1,0 +1,8269 @@
+﻿# Generated from 華陽國志、三國志、三國演義、後漢書 and 漢晉春秋.
+# Culture: han
+# Time partition: born_after_200 (birth > 200).
+# No title history is assigned. Dates marked in the evidence audit may be estimates.
+
+##### 【李胤】
+li_yin={
+	name="uuii_book_li_yin_name" #胤
+	dynasty_house="house_111010004008013"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="8"
+	intrigue="6"
+	learning="4"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	250.7.1={
+		birth=yes
+	}
+	273.7.1={
+		death=yes
+	}
+}
+
+##### 【王玉灵】
+wang_yu_ling={
+	name="uuii_book_wang_yu_ling_name" #玉灵
+	dynasty_house="house_111010008017013"
+	female=yes
+	father="wang_lu_jiu"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="5"
+	stewardship="6"
+	intrigue="7"
+	learning="8"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	202.7.1={
+		birth=yes
+	}
+	240.7.1={
+		death=yes
+	}
+}
+
+##### 【王乂】
+wang_yi_2={
+	name="uuii_book_wang_yi_2_name" #乂
+	dynasty_house="house_111010008019013"
+	father="wang_xiong"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="5"
+	stewardship="7"
+	intrigue="9"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	204.7.1={
+		birth=yes
+	}
+	258.7.1={
+		death=yes
+	}
+}
+
+##### 【王戎】
+wang_rong_2={
+	name="uuii_book_wang_rong_2_name" #戎
+	dynasty_house="house_111010008019013"
+	father="wang_hun"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="5"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	234.7.1={
+		birth=yes
+	}
+	305.7.1={
+		death=yes
+	}
+}
+
+##### 【王训】
+wang_xun={
+	name="uuii_book_wang_xun_name" #训
+	dynasty_house="house_111010008026013"
+	father="wang_ping"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="8"
+	stewardship="4"
+	intrigue="5"
+	learning="8"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	210.7.1={
+		birth=yes
+	}
+	289.7.1={
+		death=yes
+	}
+}
+
+##### 【冯紞】
+feng_dan={
+	name="uuii_book_feng_dan_name" #紞
+	dynasty_house="house_111010009001013"
+	father="feng_guang"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="8"
+	intrigue="7"
+	learning="7"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=no
+	214.7.1={
+		birth=yes
+	}
+	286.7.1={
+		death=yes
+	}
+}
+
+##### 【卫瓘】
+wei_guan={
+	name="uuii_book_wei_guan_name" #瓘
+	dynasty_house="house_111010012001013"
+	father="wei_kai"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	220.7.1={
+		birth=yes
+	}
+	291.7.1={
+		death=yes
+	}
+}
+
+##### 【许仪】
+xu_yi={
+	name="uuii_book_xu_yi_name" #仪
+	dynasty_house="house_111010020006013"
+	father="xu_chu"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="7"
+	stewardship="7"
+	intrigue="4"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	250.7.1={
+		birth=yes
+	}
+	263.7.1={
+		death=yes
+	}
+}
+
+##### 【何桢】
+he_zhen={
+	name="uuii_book_he_zhen_name" #桢
+	dynasty_house="house_111010021001013"
+	father="he_jing"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="5"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	215.7.1={
+		birth=yes
+	}
+	286.7.1={
+		death=yes
+	}
+}
+
+##### 【曹彦】
+cao_yan_2={
+	name="uuii_book_cao_yan_2_name" #彦
+	dynasty_house="uuii_book_house_a640b218f7f8"
+	father="cao_zhen"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="8"
+	stewardship="8"
+	intrigue="7"
+	learning="7"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=no
+	203.7.1={
+		birth=yes
+	}
+	249.7.1={
+		death=yes
+	}
+}
+
+##### 【曹皑】
+cao_ai={
+	name="uuii_book_cao_ai_name" #皑
+	dynasty_house="uuii_book_house_a640b218f7f8"
+	father="cao_zhen"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="6"
+	stewardship="9"
+	intrigue="6"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	205.7.1={
+		birth=yes
+	}
+	245.7.1={
+		death=yes
+	}
+}
+
+##### 【潘安】
+pan_an={
+	name="uuii_book_pan_an_name" #安
+	dynasty_house="house_111010043003013"
+	father="pan_bi"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="5"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	247.7.1={
+		birth=yes
+	}
+	300.7.1={
+		death=yes
+	}
+}
+
+##### 【鲁淑】
+lu_shu={
+	name="uuii_book_lu_shu_name" #淑
+	dynasty_house="house_111010049001013"
+	father="lu_su"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="5"
+	stewardship="9"
+	intrigue="6"
+	learning="7"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	217.7.1={
+		birth=yes
+	}
+	274.7.1={
+		death=yes
+	}
+}
+
+##### 【唐台】
+tang_tai={
+	name="uuii_book_tang_tai_name" #台
+	dynasty_house="house_111010064002013"
+	father="tang_guang"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="7"
+	stewardship="4"
+	intrigue="8"
+	learning="7"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	208.7.1={
+		birth=yes
+	}
+	256.7.1={
+		death=yes
+	}
+}
+
+##### 【罗宪】
+luo_xian={
+	name="uuii_book_luo_xian_name" #宪
+	dynasty_house="house_111010074001013"
+	father="luo_meng"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	218.7.1={
+		birth=yes
+	}
+	270.7.1={
+		death=yes
+	}
+}
+
+##### 【毛敏】
+mao_min={
+	name="uuii_book_mao_min_name" #敏
+	dynasty_house="house_111010104002013"
+	female=yes
+	father="mao_jia"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="6"
+	intrigue="6"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	204.7.1={
+		birth=yes
+	}
+	237.7.1={
+		death=yes
+	}
+}
+
+##### 【杜佑】
+du_you={
+	name="uuii_book_du_you_name" #佑
+	dynasty_house="house_111010127004013"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="8"
+	stewardship="8"
+	intrigue="6"
+	learning="6"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	735.7.1={
+		birth=yes
+	}
+	812.7.1={
+		death=yes
+	}
+}
+
+##### 【贾充】
+jia_chong={
+	name="uuii_book_jia_chong_name" #充
+	dynasty_house="house_111010135001013"
+	father="jia_kui"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="1"
+	stewardship="3"
+	intrigue="5"
+	learning="15"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	217.7.1={
+		birth=yes
+	}
+	282.7.1={
+		death=yes
+	}
+}
+
+##### 【羊发】
+yang_fa={
+	name="uuii_book_yang_fa_name" #发
+	dynasty_house="house_111010200002013"
+	father="yang_dao"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="6"
+	stewardship="9"
+	intrigue="6"
+	learning="6"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	205.7.1={
+		birth=yes
+	}
+	278.7.1={
+		death=yes
+	}
+}
+
+##### 【羊徽瑜】
+yang_hui_yu={
+	name="uuii_book_yang_hui_yu_name" #徽瑜
+	dynasty_house="house_111010200002013"
+	female=yes
+	father="yang_dao"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="6"
+	stewardship="8"
+	intrigue="7"
+	learning="5"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	214.7.1={
+		birth=yes
+	}
+	278.7.1={
+		death=yes
+	}
+}
+
+##### 【羊祜】
+yang_hu={
+	name="uuii_book_yang_hu_name" #祜
+	dynasty_house="house_111010200002013"
+	father="yang_dao"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="6"
+	health=4.7
+	disallow_random_traits=no
+	221.7.1={
+		birth=yes
+	}
+	278.7.1={
+		death=yes
+	}
+}
+
+##### 【羊琇】
+yang_xiu_2={
+	name="uuii_book_yang_xiu_2_name" #琇
+	dynasty_house="house_111010200002013"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="6"
+	stewardship="7"
+	intrigue="8"
+	learning="5"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	236.7.1={
+		birth=yes
+	}
+	282.7.1={
+		death=yes
+	}
+}
+
+##### 【山涛】
+shan_tao={
+	name="uuii_book_shan_tao_name" #涛
+	dynasty_house="house_111010225001013"
+	father="shan_yan"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="8"
+	stewardship="8"
+	intrigue="8"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	205.7.1={
+		birth=yes
+	}
+	283.7.1={
+		death=yes
+	}
+}
+
+##### 【刘阜】
+liu_fu_3={
+	name="uuii_book_liu_fu_3_name" #阜
+	dynasty_house="house_111010250027013"
+	father="liu_gao"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="7"
+	stewardship="8"
+	intrigue="6"
+	learning="8"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	215.7.1={
+		birth=yes
+	}
+	277.7.1={
+		death=yes
+	}
+}
+
+##### 【刘乔】
+liu_qiao={
+	name="uuii_book_liu_qiao_name" #乔
+	dynasty_house="house_111010250027013"
+	father="liu_fu_3"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="7"
+	stewardship="6"
+	intrigue="9"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	249.7.1={
+		birth=yes
+	}
+	311.7.1={
+		death=yes
+	}
+}
+
+##### 【刘熙】
+liu_xi_3={
+	name="uuii_book_liu_xi_3_name" #熙
+	dynasty_house="house_111010250032013"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="6"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	315.7.1={
+		birth=yes
+	}
+	329.7.1={
+		death=yes
+	}
+}
+
+##### 【索靖】
+suo_jing={
+	name="uuii_book_suo_jing_name" #靖
+	dynasty_house="house_111010271001013"
+	father="suo_zhan"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="7"
+	stewardship="8"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	239.7.1={
+		birth=yes
+	}
+	303.7.1={
+		death=yes
+	}
+}
+
+##### 【郤正】
+xi_zheng={
+	name="uuii_book_xi_zheng_name" #正
+	dynasty_house="house_111010303001013"
+	father="xi_yi"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="8"
+	stewardship="8"
+	intrigue="8"
+	learning="8"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=no
+	223.7.1={
+		birth=yes
+	}
+	278.7.1={
+		death=yes
+	}
+}
+
+##### 【夏侯荣】
+xia_hou_rong={
+	name="uuii_book_xia_hou_rong_name" #荣
+	dynasty_house="uuii_book_house_52d26348c960"
+	father="xia_hou_yuan"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="5"
+	stewardship="6"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	207.7.1={
+		birth=yes
+	}
+	219.7.1={
+		death=yes
+	}
+}
+
+##### 【夏侯和】
+xia_hou_he={
+	name="uuii_book_xia_hou_he_name" #和
+	dynasty_house="uuii_book_house_52d26348c960"
+	father="xia_hou_yuan"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	215.7.1={
+		birth=yes
+	}
+	278.7.1={
+		death=yes
+	}
+}
+
+##### 【杜预】
+du_yu={
+	name="uuii_book_du_yu_name" #预
+	dynasty_house="uuii_book_house_f8bdf3d26e54"
+	culture="han"
+	faith="shamanism"
+	diplomacy="15"
+	martial="11"
+	stewardship="7"
+	intrigue="5"
+	learning="11"
+	prowess="1"
+	health=5.5
+	disallow_random_traits=no
+	222.7.1={
+		birth=yes
+	}
+	285.7.1={
+		death=yes
+	}
+}
+
+##### 【司马昭】
+si_ma_zhao={
+	name="uuii_book_si_ma_zhao_name" #昭
+	dynasty_house="uuii_book_house_d427aff4baeb"
+	culture="han"
+	faith="jingxue"
+	diplomacy="10"
+	martial="15"
+	stewardship="4"
+	intrigue="4"
+	learning="7"
+	prowess="0"
+	health=5.5
+	disallow_random_traits=no
+	211.7.1={
+		birth=yes
+	}
+	265.7.1={
+		death=yes
+	}
+}
+
+##### 【马忠】
+ma_zhong_2={
+	name="uuii_book_ma_zhong_2_name" #忠
+	dynasty_house="uuii_book_house_609fbf481dca"
+	culture="han"
+	faith="shamanism"
+	diplomacy="2"
+	martial="4"
+	stewardship="10"
+	intrigue="6"
+	learning="8"
+	prowess="15"
+	health=5.5
+	disallow_random_traits=no
+	210.7.1={
+		birth=yes
+	}
+	275.7.1={
+		death=yes
+	}
+}
+
+##### 【孙盛】
+sun_sheng={
+	name="uuii_book_sun_sheng_name" #盛
+	dynasty_house="uuii_book_house_91c82316d735"
+	culture="han"
+	faith="jingxue"
+	diplomacy="15"
+	martial="3"
+	stewardship="8"
+	intrigue="11"
+	learning="2"
+	prowess="9"
+	health=4.7
+	disallow_random_traits=no
+	213.7.1={
+		birth=yes
+	}
+	278.7.1={
+		death=yes
+	}
+}
+
+##### 【丁奉】
+ding_feng={
+	name="uuii_book_ding_feng_name" #奉
+	dynasty_house="uuii_book_house_841f862663b0"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="5"
+	stewardship="15"
+	intrigue="9"
+	learning="9"
+	prowess="0"
+	health=5.5
+	disallow_random_traits=no
+	236.7.1={
+		birth=yes
+	}
+	301.7.1={
+		death=yes
+	}
+}
+
+##### 【司马师】
+si_ma_shi={
+	name="uuii_book_si_ma_shi_name" #师
+	dynasty_house="uuii_book_house_352060cc0e11"
+	culture="han"
+	faith="jingxue"
+	diplomacy="9"
+	martial="15"
+	stewardship="2"
+	intrigue="8"
+	learning="12"
+	prowess="9"
+	health=5.5
+	disallow_random_traits=no
+	224.7.1={
+		birth=yes
+	}
+	289.7.1={
+		death=yes
+	}
+}
+
+##### 【孙皓】
+sun_hao={
+	name="uuii_book_sun_hao_name" #皓
+	dynasty_house="uuii_book_house_03f63c631e91"
+	culture="han"
+	faith="jingxue"
+	diplomacy="15"
+	martial="3"
+	stewardship="1"
+	intrigue="4"
+	learning="11"
+	prowess="10"
+	health=5.5
+	disallow_random_traits=no
+	243.7.1={
+		birth=yes
+	}
+	284.7.1={
+		death=yes
+	}
+}
+
+##### 【文钦】
+wen_qin={
+	name="uuii_book_wen_qin_name" #钦
+	dynasty_house="uuii_book_house_5d08a8beb34f"
+	culture="han"
+	faith="shamanism"
+	diplomacy="3"
+	martial="11"
+	stewardship="15"
+	intrigue="0"
+	learning="1"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	218.7.1={
+		birth=yes
+	}
+	283.7.1={
+		death=yes
+	}
+}
+
+##### 【曹睿】
+cao_rui={
+	name="uuii_book_cao_rui_name" #睿
+	dynasty_house="uuii_book_house_c6b557ce52b3"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="5"
+	prowess="7"
+	health=4.7
+	disallow_random_traits=no
+	208.7.1={
+		birth=yes
+	}
+	273.7.1={
+		death=yes
+	}
+}
+
+##### 【王经】
+wang_jing_2={
+	name="uuii_book_wang_jing_2_name" #经
+	dynasty_house="uuii_book_house_3be3db78f1d4"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="4"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	225.7.1={
+		birth=yes
+	}
+	290.7.1={
+		death=yes
+	}
+}
+
+##### 【黄皓】
+huang_hao={
+	name="uuii_book_huang_hao_name" #皓
+	dynasty_house="uuii_book_house_42b052f2e929"
+	culture="han"
+	faith="shamanism"
+	diplomacy="8"
+	martial="8"
+	stewardship="2"
+	intrigue="8"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	228.7.1={
+		birth=yes
+	}
+	293.7.1={
+		death=yes
+	}
+}
+
+##### 【毌丘俭】
+guan_qiu_jian={
+	name="uuii_book_guan_qiu_jian_name" #俭
+	dynasty_house="uuii_book_house_1cdd03787801"
+	father="guan_qiu_xing"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	216.7.1={
+		birth=yes
+	}
+	281.7.1={
+		death=yes
+	}
+}
+
+##### 【孙峻】
+sun_jun={
+	name="uuii_book_sun_jun_name" #峻
+	dynasty_house="uuii_book_house_3038f05a9ef3"
+	culture="han"
+	faith="shamanism"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	208.7.1={
+		birth=yes
+	}
+	273.7.1={
+		death=yes
+	}
+}
+
+##### 【刘禅】
+liu_chan={
+	name="uuii_book_liu_chan_name" #禅
+	dynasty_house="uuii_book_house_f9362e43465a"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	207.7.1={
+		birth=yes
+	}
+	271.7.1={
+		death=yes
+	}
+}
+
+##### 【孙休】
+sun_xiu={
+	name="uuii_book_sun_xiu_name" #休
+	dynasty_house="uuii_book_house_f4aa44b3de51"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	221.7.1={
+		birth=yes
+	}
+	286.7.1={
+		death=yes
+	}
+}
+
+##### 【习凿齿】
+xi_zao_chi={
+	name="uuii_book_xi_zao_chi_name" #凿齿
+	dynasty_house="uuii_book_house_e7e87682e209"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	225.7.1={
+		birth=yes
+	}
+	290.7.1={
+		death=yes
+	}
+}
+
+##### 【郭璞】
+guo_pu={
+	name="uuii_book_guo_pu_name" #璞
+	dynasty_house="uuii_book_house_1f3d1b1b02a2"
+	culture="han"
+	faith="shamanism"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="5"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	276.7.1={
+		birth=yes
+	}
+	324.7.1={
+		death=yes
+	}
+}
+
+##### 【唐咨】
+tang_zi={
+	name="uuii_book_tang_zi_name" #咨
+	dynasty_house="uuii_book_house_9143638259f7"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	232.7.1={
+		birth=yes
+	}
+	297.7.1={
+		death=yes
+	}
+}
+
+##### 【夏侯玄】
+xia_hou_xuan={
+	name="uuii_book_xia_hou_xuan_name" #玄
+	dynasty_house="uuii_book_house_53211d8e537d"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="8"
+	stewardship="8"
+	intrigue="8"
+	learning="1"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	209.7.1={
+		birth=yes
+	}
+	254.7.1={
+		death=yes
+	}
+}
+
+##### 【孙亮】
+sun_liang={
+	name="uuii_book_sun_liang_name" #亮
+	dynasty_house="uuii_book_house_633c422afc8e"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	216.7.1={
+		birth=yes
+	}
+	281.7.1={
+		death=yes
+	}
+}
+
+##### 【阚泽】
+han_ze={
+	name="uuii_book_han_ze_name" #泽
+	dynasty_house="uuii_book_house_0001ff66f145"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	212.7.1={
+		birth=yes
+	}
+	243.7.1={
+		death=yes
+	}
+}
+
+##### 【高翔】
+gao_xiang={
+	name="uuii_book_gao_xiang_name" #翔
+	dynasty_house="uuii_book_house_3be66bf9f973"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	208.7.1={
+		birth=yes
+	}
+	273.7.1={
+		death=yes
+	}
+}
+
+##### 【魏主】
+wei_zhu_2={
+	name="uuii_book_wei_zhu_2_name" #主
+	dynasty_house="uuii_book_house_87b0217d36f8"
+	culture="han"
+	faith="shamanism"
+	diplomacy="4"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	219.7.1={
+		birth=yes
+	}
+	284.7.1={
+		death=yes
+	}
+}
+
+##### 【毋丘俭】
+wu_qiu_jian={
+	name="uuii_book_wu_qiu_jian_name" #丘俭
+	dynasty_house="uuii_book_house_9af2224b9601"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="5"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	225.7.1={
+		birth=yes
+	}
+	290.7.1={
+		death=yes
+	}
+}
+
+##### 【常璩】
+chang_qu={
+	name="uuii_book_chang_qu_name" #璩
+	dynasty_house="uuii_book_house_b17edea917fe"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="7"
+	stewardship="6"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	291.7.1={
+		birth=yes
+	}
+	361.7.1={
+		death=yes
+	}
+}
+
+##### 【陆抗】
+lu_kang_2={
+	name="uuii_book_lu_kang_2_name" #抗
+	dynasty_house="uuii_book_house_24f78720cbff"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	240.7.1={
+		birth=yes
+	}
+	305.7.1={
+		death=yes
+	}
+}
+
+##### 【陈寿】
+chen_shou={
+	name="uuii_book_chen_shou_name" #寿
+	dynasty_house="uuii_book_house_15582d92e0ab"
+	culture="han"
+	faith="shamanism"
+	diplomacy="6"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	233.7.1={
+		birth=yes
+	}
+	297.7.1={
+		death=yes
+	}
+}
+
+##### 【陈震】
+chen_zhen_2={
+	name="uuii_book_chen_zhen_2_name" #震
+	dynasty_house="uuii_book_house_de1f8e2deb89"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	217.7.1={
+		birth=yes
+	}
+	282.7.1={
+		death=yes
+	}
+}
+
+##### 【张布】
+zhang_bu_2={
+	name="uuii_book_zhang_bu_2_name" #布
+	dynasty_house="uuii_book_house_6e1fd574ec4c"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	234.7.1={
+		birth=yes
+	}
+	264.7.1={
+		death=yes
+	}
+}
+
+##### 【邓忠】
+deng_zhong={
+	name="uuii_book_deng_zhong_name" #忠
+	dynasty_house="uuii_book_house_2bf929c4f1d8"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="8"
+	stewardship="8"
+	intrigue="8"
+	learning="4"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	226.7.1={
+		birth=yes
+	}
+	291.7.1={
+		death=yes
+	}
+}
+
+##### 【傅佥】
+fu_qian={
+	name="uuii_book_fu_qian_name" #佥
+	dynasty_house="uuii_book_house_d50a858146f9"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	216.7.1={
+		birth=yes
+	}
+	263.7.1={
+		death=yes
+	}
+}
+
+##### 【全端】
+quan_duan={
+	name="uuii_book_quan_duan_name" #端
+	dynasty_house="uuii_book_house_159da461b2c2"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="4"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	228.7.1={
+		birth=yes
+	}
+	293.7.1={
+		death=yes
+	}
+}
+
+##### 【曹芳】
+cao_fang={
+	name="uuii_book_cao_fang_name" #芳
+	dynasty_house="uuii_book_house_375ea8a070bb"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="5"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	232.7.1={
+		birth=yes
+	}
+	274.7.1={
+		death=yes
+	}
+}
+
+##### 【李胜】
+li_sheng={
+	name="uuii_book_li_sheng_name" #胜
+	dynasty_house="uuii_book_house_97a159888ecf"
+	father="li_xiu"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	219.7.1={
+		birth=yes
+	}
+	284.7.1={
+		death=yes
+	}
+}
+
+##### 【董厥】
+dong_jue={
+	name="uuii_book_dong_jue_name" #厥
+	dynasty_house="uuii_book_house_45395781286a"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	204.7.1={
+		birth=yes
+	}
+	272.7.1={
+		death=yes
+	}
+}
+
+##### 【诸葛绪】
+zhu_ge_xu={
+	name="uuii_book_zhu_ge_xu_name" #绪
+	dynasty_house="uuii_book_house_2cd11163e9c0"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	232.7.1={
+		birth=yes
+	}
+	297.7.1={
+		death=yes
+	}
+}
+
+##### 【徐质】
+xu_zhi={
+	name="uuii_book_xu_zhi_name" #质
+	dynasty_house="uuii_book_house_41f2c70a9fd0"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="5"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	224.7.1={
+		birth=yes
+	}
+	289.7.1={
+		death=yes
+	}
+}
+
+##### 【薛综】
+xue_zong={
+	name="uuii_book_xue_zong_name" #综
+	dynasty_house="uuii_book_house_5bfa5dbdc9a8"
+	culture="han"
+	faith="mahayana"
+	diplomacy="4"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	212.7.1={
+		birth=yes
+	}
+	277.7.1={
+		death=yes
+	}
+}
+
+##### 【费帏】
+fei_wei_2={
+	name="uuii_book_fei_wei_2_name" #帏
+	dynasty_house="uuii_book_house_9cd4077d4b9e"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="0"
+	stewardship="9"
+	intrigue="8"
+	learning="8"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	219.7.1={
+		birth=yes
+	}
+	284.7.1={
+		death=yes
+	}
+}
+
+##### 【司马望】
+si_ma_wang={
+	name="uuii_book_si_ma_wang_name" #望
+	dynasty_house="uuii_book_house_ea23aa29098d"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	228.7.1={
+		birth=yes
+	}
+	293.7.1={
+		death=yes
+	}
+}
+
+##### 【孙资】
+sun_zi={
+	name="uuii_book_sun_zi_name" #资
+	dynasty_house="uuii_book_house_b4538ccefa5d"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="8"
+	stewardship="8"
+	intrigue="7"
+	learning="7"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	210.7.1={
+		birth=yes
+	}
+	275.7.1={
+		death=yes
+	}
+}
+
+##### 【皇甫谧】
+huang_fu_mi={
+	name="uuii_book_huang_fu_mi_name" #谧
+	dynasty_house="uuii_book_house_d12b56fe0a21"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	215.7.1={
+		birth=yes
+	}
+	282.7.1={
+		death=yes
+	}
+}
+
+##### 【邓飏】
+deng_yang={
+	name="uuii_book_deng_yang_name" #飏
+	dynasty_house="uuii_book_house_9fcd67504197"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	218.7.1={
+		birth=yes
+	}
+	283.7.1={
+		death=yes
+	}
+}
+
+##### 【司马炎】
+si_ma_yan={
+	name="uuii_book_si_ma_yan_name" #炎
+	dynasty_house="uuii_book_house_a8f227b171c6"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	230.7.1={
+		birth=yes
+	}
+	295.7.1={
+		death=yes
+	}
+}
+
+##### 【胡烈】
+hu_lie={
+	name="uuii_book_hu_lie_name" #烈
+	dynasty_house="uuii_book_house_29c7ab86a072"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	220.7.1={
+		birth=yes
+	}
+	270.7.1={
+		death=yes
+	}
+}
+
+##### 【蒋舒】
+jiang_shu={
+	name="uuii_book_jiang_shu_name" #舒
+	dynasty_house="uuii_book_house_9496ef7be9dd"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	228.7.1={
+		birth=yes
+	}
+	293.7.1={
+		death=yes
+	}
+}
+
+##### 【吕壹】
+lv_yi_2={
+	name="uuii_book_lv_yi_2_name" #壹
+	dynasty_house="uuii_book_house_764de36d8f43"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	216.7.1={
+		birth=yes
+	}
+	281.7.1={
+		death=yes
+	}
+}
+
+##### 【曹髦】
+cao_mao={
+	name="uuii_book_cao_mao_name" #髦
+	dynasty_house="uuii_book_house_8d867e1364f9"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	241.7.1={
+		birth=yes
+	}
+	260.7.1={
+		death=yes
+	}
+}
+
+##### 【王沈】
+wang_shen={
+	name="uuii_book_wang_shen_name" #沈
+	dynasty_house="uuii_book_house_c76b08c4f162"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	230.7.1={
+		birth=yes
+	}
+	295.7.1={
+		death=yes
+	}
+}
+
+##### 【陆机】
+lu_ji_2={
+	name="uuii_book_lu_ji_2_name" #机
+	dynasty_house="uuii_book_house_6ffa114675c1"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="8"
+	stewardship="8"
+	intrigue="4"
+	learning="8"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=no
+	261.7.1={
+		birth=yes
+	}
+	303.7.1={
+		death=yes
+	}
+}
+
+##### 【宗预】
+zong_yu={
+	name="uuii_book_zong_yu_name" #预
+	dynasty_house="uuii_book_house_c30d66d163b3"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="8"
+	stewardship="8"
+	intrigue="4"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	234.7.1={
+		birth=yes
+	}
+	299.7.1={
+		death=yes
+	}
+}
+
+##### 【施绩】
+shi_ji={
+	name="uuii_book_shi_ji_name" #绩
+	dynasty_house="uuii_book_house_d1bb9ea6f1b0"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	219.7.1={
+		birth=yes
+	}
+	284.7.1={
+		death=yes
+	}
+}
+
+##### 【李特】
+li_te={
+	name="uuii_book_li_te_name" #特
+	dynasty_house="uuii_book_house_dff60692ebbd"
+	culture="han"
+	faith="shamanism"
+	diplomacy="5"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	250.7.1={
+		birth=yes
+	}
+	303.7.1={
+		death=yes
+	}
+}
+
+##### 【胡济】
+hu_ji={
+	name="uuii_book_hu_ji_name" #济
+	dynasty_house="uuii_book_house_61e6872313f3"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	226.7.1={
+		birth=yes
+	}
+	291.7.1={
+		death=yes
+	}
+}
+
+##### 【薛莹】
+xue_ying={
+	name="uuii_book_xue_ying_name" #莹
+	dynasty_house="uuii_book_house_eda101b5fe11"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="8"
+	stewardship="8"
+	intrigue="7"
+	learning="6"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	245.7.1={
+		birth=yes
+	}
+	310.7.1={
+		death=yes
+	}
+}
+
+##### 【裴秀】
+pei_xiu={
+	name="uuii_book_pei_xiu_name" #秀
+	dynasty_house="uuii_book_house_301b7086795d"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	224.7.1={
+		birth=yes
+	}
+	271.7.1={
+		death=yes
+	}
+}
+
+##### 【诸葛靓】
+zhu_ge_jing={
+	name="uuii_book_zhu_ge_jing_name" #靓
+	dynasty_house="uuii_book_house_78df52b71c1d"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	238.7.1={
+		birth=yes
+	}
+	303.7.1={
+		death=yes
+	}
+}
+
+##### 【陆凯】
+lu_kai={
+	name="uuii_book_lu_kai_name" #凯
+	dynasty_house="uuii_book_house_04f44b7c55e6"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	243.7.1={
+		birth=yes
+	}
+	308.7.1={
+		death=yes
+	}
+}
+
+##### 【陶璜】
+tao_huang={
+	name="uuii_book_tao_huang_name" #璜
+	dynasty_house="uuii_book_house_7881ac7cdc6b"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="5"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	234.7.1={
+		birth=yes
+	}
+	290.7.1={
+		death=yes
+	}
+}
+
+##### 【万彧】
+wan_yu={
+	name="uuii_book_wan_yu_name" #彧
+	dynasty_house="uuii_book_house_60210b071a5f"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=no
+	238.7.1={
+		birth=yes
+	}
+	303.7.1={
+		death=yes
+	}
+}
+
+##### 【范晔】
+fan_ye={
+	name="uuii_book_fan_ye_name" #晔
+	dynasty_house="uuii_book_house_85754c414881"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	398.7.1={
+		birth=yes
+	}
+	445.7.1={
+		death=yes
+	}
+}
+
+##### 【何攀】
+he_pan={
+	name="uuii_book_he_pan_name" #攀
+	dynasty_house="uuii_book_house_d0ddc216c0b4"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	244.7.1={
+		birth=yes
+	}
+	301.7.1={
+		death=yes
+	}
+}
+
+##### 【句安】
+ju_an={
+	name="uuii_book_ju_an_name" #安
+	dynasty_house="uuii_book_house_a4e9a508c922"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="8"
+	stewardship="8"
+	intrigue="8"
+	learning="7"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=no
+	221.7.1={
+		birth=yes
+	}
+	286.7.1={
+		death=yes
+	}
+}
+
+##### 【李歆】
+li_xin_3={
+	name="uuii_book_li_xin_3_name" #歆
+	dynasty_house="uuii_book_house_2de2e1e47a62"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="8"
+	stewardship="8"
+	intrigue="7"
+	learning="4"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	350.7.1={
+		birth=yes
+	}
+	420.7.1={
+		death=yes
+	}
+}
+
+##### 【华核】
+hua_he={
+	name="uuii_book_hua_he_name" #核
+	dynasty_house="uuii_book_house_789bc21bc360"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	234.7.1={
+		birth=yes
+	}
+	299.7.1={
+		death=yes
+	}
+}
+
+##### 【文立】
+wen_li={
+	name="uuii_book_wen_li_name" #立
+	dynasty_house="uuii_book_house_d5df7364da80"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	235.7.1={
+		birth=yes
+	}
+	279.7.1={
+		death=yes
+	}
+}
+
+##### 【李郃】
+li_he_4={
+	name="uuii_book_li_he_4_name" #郃
+	dynasty_house="uuii_book_house_570cd7c331b4"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="8"
+	stewardship="8"
+	intrigue="8"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	trait=education_intrigue_3
+	798.7.1={
+		birth=yes
+	}
+	842.7.1={
+		death=yes
+	}
+}
+
+##### 【王含】
+wang_han={
+	name="uuii_book_wang_han_name" #含
+	dynasty_house="uuii_book_house_85629340e6d5"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	250.7.1={
+		birth=yes
+	}
+	324.7.1={
+		death=yes
+	}
+}
+
+##### 【蒋斌】
+jiang_bin={
+	name="uuii_book_jiang_bin_name" #斌
+	dynasty_house="uuii_book_house_bfb16a820995"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	228.7.1={
+		birth=yes
+	}
+	293.7.1={
+		death=yes
+	}
+}
+
+##### 【蒋班】
+jiang_ban={
+	name="uuii_book_jiang_ban_name" #班
+	dynasty_house="uuii_book_house_621416fc293d"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	227.7.1={
+		birth=yes
+	}
+	292.7.1={
+		death=yes
+	}
+}
+
+##### 【何平】
+he_ping={
+	name="uuii_book_he_ping_name" #平
+	dynasty_house="uuii_book_house_7cb797695764"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="8"
+	stewardship="8"
+	intrigue="8"
+	learning="4"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	201.7.1={
+		birth=yes
+	}
+	266.7.1={
+		death=yes
+	}
+}
+
+##### 【全怿】
+quan_yi={
+	name="uuii_book_quan_yi_name" #怿
+	dynasty_house="uuii_book_house_ac8d8572a406"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="5"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	228.7.1={
+		birth=yes
+	}
+	293.7.1={
+		death=yes
+	}
+}
+
+##### 【刘琰】
+liu_yan_6={
+	name="uuii_book_liu_yan_6_name" #琰
+	dynasty_house="uuii_book_house_fc096ca699db"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	203.7.1={
+		birth=yes
+	}
+	268.7.1={
+		death=yes
+	}
+}
+
+##### 【孟康】
+meng_kang={
+	name="uuii_book_meng_kang_name" #康
+	dynasty_house="uuii_book_house_148ff28abef5"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="7"
+	stewardship="7"
+	intrigue="4"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	207.7.1={
+		birth=yes
+	}
+	272.7.1={
+		death=yes
+	}
+}
+
+##### 【嵇康】
+ji_kang={
+	name="uuii_book_ji_kang_name" #康
+	dynasty_house="uuii_book_house_50ec966aa926"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="7"
+	stewardship="6"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	223.7.1={
+		birth=yes
+	}
+	262.7.1={
+		death=yes
+	}
+}
+
+##### 【李冰】
+li_bing_2={
+	name="uuii_book_li_bing_2_name" #冰
+	dynasty_house="uuii_book_house_cb7e9efc1d80"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="4"
+	stewardship="6"
+	intrigue="9"
+	learning="8"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	206.7.1={
+		birth=yes
+	}
+	271.7.1={
+		death=yes
+	}
+}
+
+##### 【李寿】
+li_shou={
+	name="uuii_book_li_shou_name" #寿
+	dynasty_house="uuii_book_house_52c10ffbd4e7"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="4"
+	stewardship="8"
+	intrigue="8"
+	learning="8"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	300.7.1={
+		birth=yes
+	}
+	343.7.1={
+		death=yes
+	}
+}
+
+##### 【濮阳兴】
+pu_yang_xing={
+	name="uuii_book_pu_yang_xing_name" #阳兴
+	dynasty_house="uuii_book_house_a64c28f639c0"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	238.7.1={
+		birth=yes
+	}
+	303.7.1={
+		death=yes
+	}
+}
+
+##### 【胡综】
+hu_zong={
+	name="uuii_book_hu_zong_name" #综
+	dynasty_house="uuii_book_house_a1194e46b5ac"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="8"
+	stewardship="8"
+	intrigue="8"
+	learning="4"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	213.7.1={
+		birth=yes
+	}
+	278.7.1={
+		death=yes
+	}
+}
+
+##### 【谢景】
+xie_jing={
+	name="uuii_book_xie_jing_name" #景
+	dynasty_house="uuii_book_house_b5f203c7da4a"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	211.7.1={
+		birth=yes
+	}
+	276.7.1={
+		death=yes
+	}
+}
+
+##### 【丁固】
+ding_gu={
+	name="uuii_book_ding_gu_name" #固
+	dynasty_house="uuii_book_house_9fbce64306a0"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="8"
+	stewardship="7"
+	intrigue="8"
+	learning="5"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	236.7.1={
+		birth=yes
+	}
+	301.7.1={
+		death=yes
+	}
+}
+
+##### 【何定】
+he_ding={
+	name="uuii_book_he_ding_name" #定
+	dynasty_house="uuii_book_house_62bb35e9b2bd"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="8"
+	stewardship="8"
+	intrigue="8"
+	learning="4"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	239.7.1={
+		birth=yes
+	}
+	272.7.1={
+		death=yes
+	}
+}
+
+##### 【杨骏】
+yang_jun_2={
+	name="uuii_book_yang_jun_2_name" #骏
+	dynasty_house="uuii_book_house_0614a85f9f47"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	250.7.1={
+		birth=yes
+	}
+	291.7.1={
+		death=yes
+	}
+}
+
+##### 【王弼】
+wang_bi={
+	name="uuii_book_wang_bi_name" #弼
+	dynasty_house="uuii_book_house_14d0dc55647c"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="7"
+	stewardship="7"
+	intrigue="6"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	226.7.1={
+		birth=yes
+	}
+	249.7.1={
+		death=yes
+	}
+}
+
+##### 【王敦】
+wang_dun_2={
+	name="uuii_book_wang_dun_2_name" #敦
+	dynasty_house="uuii_book_house_9b2e87406638"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	266.7.1={
+		birth=yes
+	}
+	324.7.1={
+		death=yes
+	}
+}
+
+##### 【王濬】
+wang_jun={
+	name="uuii_book_wang_jun_name" #濬
+	dynasty_house="uuii_book_house_724a95093beb"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	206.7.1={
+		birth=yes
+	}
+	286.7.1={
+		death=yes
+	}
+}
+
+##### 【范慎】
+fan_shen={
+	name="uuii_book_fan_shen_name" #慎
+	dynasty_house="uuii_book_house_0998ea4524eb"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="8"
+	stewardship="8"
+	intrigue="4"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	206.7.1={
+		birth=yes
+	}
+	260.7.1={
+		death=yes
+	}
+}
+
+##### 【裴松之】
+pei_song_zhi={
+	name="uuii_book_pei_song_zhi_name" #松之
+	dynasty_house="uuii_book_house_8f51b735dff1"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	372.7.1={
+		birth=yes
+	}
+	451.7.1={
+		death=yes
+	}
+}
+
+##### 【陈宠】
+chen_chong={
+	name="uuii_book_chen_chong_name" #宠
+	dynasty_house="uuii_book_house_acf504e37111"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="8"
+	stewardship="8"
+	intrigue="8"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	trait=education_learning_2
+	234.7.1={
+		birth=yes
+	}
+	299.7.1={
+		death=yes
+	}
+}
+
+##### 【刘纂】
+liu_zuan={
+	name="uuii_book_liu_zuan_name" #纂
+	dynasty_house="uuii_book_house_2d0826222569"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="8"
+	stewardship="8"
+	intrigue="8"
+	learning="4"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	204.7.1={
+		birth=yes
+	}
+	269.7.1={
+		death=yes
+	}
+}
+
+##### 【孙弘】
+sun_hong={
+	name="uuii_book_sun_hong_name" #弘
+	dynasty_house="uuii_book_house_dfe66b95f6cc"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="8"
+	stewardship="8"
+	intrigue="8"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	216.7.1={
+		birth=yes
+	}
+	281.7.1={
+		death=yes
+	}
+}
+
+##### 【张颢】
+zhang_hao_2={
+	name="uuii_book_zhang_hao_2_name" #颢
+	dynasty_house="uuii_book_house_fddc1344e337"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="9"
+	stewardship="8"
+	intrigue="8"
+	learning="5"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=no
+	801.7.1={
+		birth=yes
+	}
+	908.7.1={
+		death=yes
+	}
+}
+
+##### 【徐详】
+xu_xiang_2={
+	name="uuii_book_xu_xiang_2_name" #详
+	dynasty_house="uuii_book_house_e420043791fa"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="8"
+	stewardship="8"
+	intrigue="8"
+	learning="5"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	213.7.1={
+		birth=yes
+	}
+	278.7.1={
+		death=yes
+	}
+}
+
+##### 【曹奂】
+cao_huan={
+	name="uuii_book_cao_huan_name" #奂
+	dynasty_house="uuii_book_house_cf835eb527fd"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="8"
+	stewardship="8"
+	intrigue="8"
+	learning="6"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	246.7.1={
+		birth=yes
+	}
+	303.7.1={
+		death=yes
+	}
+}
+
+##### 【李奕】
+li_yi_10={
+	name="uuii_book_li_yi_10_name" #奕
+	dynasty_house="uuii_book_house_1f269f190953"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	281.7.1={
+		birth=yes
+	}
+	346.7.1={
+		death=yes
+	}
+}
+
+##### 【桓温】
+huan_wen_2={
+	name="uuii_book_huan_wen_2_name" #温
+	dynasty_house="uuii_book_house_f3460ca6c917"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="9"
+	stewardship="4"
+	intrigue="8"
+	learning="8"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	312.7.1={
+		birth=yes
+	}
+	373.7.1={
+		death=yes
+	}
+}
+
+##### 【沈约】
+shen_yue={
+	name="uuii_book_shen_yue_name" #约
+	dynasty_house="uuii_book_house_3b7d89c7315b"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="6"
+	stewardship="9"
+	intrigue="8"
+	learning="8"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=no
+	441.7.1={
+		birth=yes
+	}
+	513.7.1={
+		death=yes
+	}
+}
+
+##### 【王蕃】
+wang_fan={
+	name="uuii_book_wang_fan_name" #蕃
+	dynasty_house="uuii_book_house_f29e56fe6d42"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	228.7.1={
+		birth=yes
+	}
+	266.7.1={
+		death=yes
+	}
+}
+
+##### 【阎式】
+yan_shi_23={
+	name="uuii_book_yan_shi_23_name" #式
+	dynasty_house="uuii_book_house_0f75d1e04322"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="9"
+	stewardship="8"
+	intrigue="4"
+	learning="8"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	250.7.1={
+		birth=yes
+	}
+	275.7.1={
+		death=yes
+	}
+}
+
+##### 【傅玄】
+fu_xuan={
+	name="uuii_book_fu_xuan_name" #玄
+	dynasty_house="uuii_book_house_7e9932cce5f2"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="7"
+	stewardship="5"
+	intrigue="7"
+	learning="6"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	217.7.1={
+		birth=yes
+	}
+	278.7.1={
+		death=yes
+	}
+}
+
+##### 【卢敖】
+lu_ao={
+	name="uuii_book_lu_ao_name" #敖
+	dynasty_house="uuii_book_house_0b38fd2076a7"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="5"
+	stewardship="9"
+	intrigue="8"
+	learning="5"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	233.7.1={
+		birth=yes
+	}
+	298.7.1={
+		death=yes
+	}
+}
+
+##### 【向宠】
+xiang_chong={
+	name="uuii_book_xiang_chong_name" #宠
+	dynasty_house="uuii_book_house_924351aced96"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="8"
+	stewardship="6"
+	intrigue="7"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	217.7.1={
+		birth=yes
+	}
+	282.7.1={
+		death=yes
+	}
+}
+
+##### 【吕兴】
+lv_xing={
+	name="uuii_book_lv_xing_name" #兴
+	dynasty_house="uuii_book_house_2155658551de"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="8"
+	stewardship="8"
+	intrigue="8"
+	learning="6"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	234.7.1={
+		birth=yes
+	}
+	299.7.1={
+		death=yes
+	}
+}
+
+##### 【孙和】
+sun_he={
+	name="uuii_book_sun_he_name" #和
+	dynasty_house="uuii_book_house_6b7e93b4a240"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="8"
+	stewardship="4"
+	intrigue="8"
+	learning="8"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	222.7.1={
+		birth=yes
+	}
+	287.7.1={
+		death=yes
+	}
+}
+
+##### 【杨竺】
+yang_zhu_2={
+	name="uuii_book_yang_zhu_2_name" #竺
+	dynasty_house="uuii_book_house_1af0cff2d5c6"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="5"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	250.7.1={
+		birth=yes
+	}
+	282.7.1={
+		death=yes
+	}
+}
+
+##### 【毛炅】
+mao_jiong={
+	name="uuii_book_mao_jiong_name" #炅
+	dynasty_house="uuii_book_house_de68b0fd9e3b"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="4"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	239.7.1={
+		birth=yes
+	}
+	271.7.1={
+		death=yes
+	}
+}
+
+##### 【焦彝】
+jiao_yi={
+	name="uuii_book_jiao_yi_name" #彝
+	dynasty_house="uuii_book_house_3371e286815f"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="8"
+	stewardship="4"
+	intrigue="8"
+	learning="6"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	227.7.1={
+		birth=yes
+	}
+	292.7.1={
+		death=yes
+	}
+}
+
+##### 【董朝】
+dong_chao={
+	name="uuii_book_dong_chao_name" #朝
+	dynasty_house="uuii_book_house_77d962b5dc17"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	243.7.1={
+		birth=yes
+	}
+	308.7.1={
+		death=yes
+	}
+}
+
+##### 【许慈】
+xu_ci={
+	name="uuii_book_xu_ci_name" #慈
+	dynasty_house="uuii_book_house_7700425c1c35"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	203.7.1={
+		birth=yes
+	}
+	268.7.1={
+		death=yes
+	}
+}
+
+##### 【谷梁】
+gu_liang={
+	name="uuii_book_gu_liang_name" #梁
+	dynasty_house="uuii_book_house_f49fbcff4f90"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="7"
+	stewardship="8"
+	intrigue="7"
+	learning="8"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=no
+	228.7.1={
+		birth=yes
+	}
+	293.7.1={
+		death=yes
+	}
+}
+
+##### 【费贻】
+fei_yi_3={
+	name="uuii_book_fei_yi_3_name" #贻
+	dynasty_house="uuii_book_house_9a1494c5d5c9"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	228.7.1={
+		birth=yes
+	}
+	293.7.1={
+		death=yes
+	}
+}
+
+##### 【辛冉】
+xin_ran={
+	name="uuii_book_xin_ran_name" #冉
+	dynasty_house="uuii_book_house_db6d526407ad"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="6"
+	stewardship="8"
+	intrigue="8"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	250.7.1={
+		birth=yes
+	}
+	275.7.1={
+		death=yes
+	}
+}
+
+##### 【陈衹】
+chen_zhi_2={
+	name="uuii_book_chen_zhi_2_name" #衹
+	dynasty_house="uuii_book_house_15abfc071b53"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="8"
+	stewardship="8"
+	intrigue="7"
+	learning="8"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=no
+	217.7.1={
+		birth=yes
+	}
+	282.7.1={
+		death=yes
+	}
+}
+
+##### 【韩曁】
+han_ji_2={
+	name="uuii_book_han_ji_2_name" #曁
+	dynasty_house="uuii_book_house_89346daae4ab"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	208.7.1={
+		birth=yes
+	}
+	273.7.1={
+		death=yes
+	}
+}
+
+##### 【令狐愚】
+ling_hu_yu={
+	name="uuii_book_ling_hu_yu_name" #愚
+	dynasty_house="uuii_book_house_61b39c542d58"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="4"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	209.7.1={
+		birth=yes
+	}
+	249.7.1={
+		death=yes
+	}
+}
+
+##### 【司马越】
+si_ma_yue={
+	name="uuii_book_si_ma_yue_name" #越
+	dynasty_house="uuii_book_house_43d4ed42f0f1"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="7"
+	stewardship="6"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	250.7.1={
+		birth=yes
+	}
+	311.7.1={
+		death=yes
+	}
+}
+
+##### 【唐彬】
+tang_bin={
+	name="uuii_book_tang_bin_name" #彬
+	dynasty_house="uuii_book_house_73b88fd9394a"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="9"
+	stewardship="9"
+	intrigue="4"
+	learning="4"
+	prowess="9"
+	health=5.5
+	disallow_random_traits=no
+	235.7.1={
+		birth=yes
+	}
+	294.7.1={
+		death=yes
+	}
+}
+
+##### 【李衡】
+li_heng={
+	name="uuii_book_li_heng_name" #衡
+	dynasty_house="uuii_book_house_cf8c3c8dfb80"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="9"
+	stewardship="3"
+	intrigue="9"
+	learning="4"
+	prowess="9"
+	health=5.5
+	disallow_random_traits=no
+	223.7.1={
+		birth=yes
+	}
+	288.7.1={
+		death=yes
+	}
+}
+
+##### 【杜祺】
+du_qi={
+	name="uuii_book_du_qi_name" #祺
+	dynasty_house="uuii_book_house_6761f87a4faa"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="5"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	207.7.1={
+		birth=yes
+	}
+	272.7.1={
+		death=yes
+	}
+}
+
+##### 【王长文】
+wang_zhang_wen={
+	name="uuii_book_wang_zhang_wen_name" #长文
+	dynasty_house="uuii_book_house_cfe6714a5352"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="9"
+	stewardship="9"
+	intrigue="5"
+	learning="8"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=no
+	250.7.1={
+		birth=yes
+	}
+	275.7.1={
+		death=yes
+	}
+}
+
+##### 【石崇】
+shi_chong={
+	name="uuii_book_shi_chong_name" #崇
+	dynasty_house="uuii_book_house_769fec19bee1"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="8"
+	stewardship="8"
+	intrigue="4"
+	learning="5"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	249.7.1={
+		birth=yes
+	}
+	300.7.1={
+		death=yes
+	}
+}
+
+##### 【荀勗】
+xun_xu={
+	name="uuii_book_xun_xu_name" #勗
+	dynasty_house="uuii_book_house_25cacc082b8e"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="8"
+	stewardship="8"
+	intrigue="8"
+	learning="4"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	201.7.1={
+		birth=yes
+	}
+	289.7.1={
+		death=yes
+	}
+}
+
+##### 【虞松】
+yu_song={
+	name="uuii_book_yu_song_name" #松
+	dynasty_house="uuii_book_house_cb11b57e1a45"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="8"
+	stewardship="8"
+	intrigue="7"
+	learning="5"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=no
+	215.7.1={
+		birth=yes
+	}
+	260.7.1={
+		death=yes
+	}
+}
+
+##### 【陈祗】
+chen_zhi={
+	name="uuii_book_chen_zhi_name" #祗
+	dynasty_house="uuii_book_house_8f46ebd17064"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="8"
+	stewardship="8"
+	intrigue="7"
+	learning="6"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	213.7.1={
+		birth=yes
+	}
+	278.7.1={
+		death=yes
+	}
+}
+
+##### 【陶濬】
+tao_jun={
+	name="uuii_book_tao_jun_name" #濬
+	dynasty_house="uuii_book_house_662af5aa7ae6"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="8"
+	stewardship="8"
+	intrigue="6"
+	learning="4"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	238.7.1={
+		birth=yes
+	}
+	263.7.1={
+		death=yes
+	}
+}
+
+##### 【韩约】
+han_yue_2={
+	name="uuii_book_han_yue_2_name" #约
+	dynasty_house="uuii_book_house_2a83c0d2a534"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="6"
+	stewardship="8"
+	intrigue="8"
+	learning="4"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	770.7.1={
+		birth=yes
+	}
+	835.7.1={
+		death=yes
+	}
+}
+
+##### 【颜师古】
+yan_shi_gu={
+	name="uuii_book_yan_shi_gu_name" #师古
+	dynasty_house="uuii_book_house_aef84368acbb"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="4"
+	stewardship="8"
+	intrigue="7"
+	learning="8"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	206.7.1={
+		birth=yes
+	}
+	271.7.1={
+		death=yes
+	}
+}
+
+##### 【黄公衡】
+huang_gong_heng={
+	name="uuii_book_huang_gong_heng_name" #公衡
+	dynasty_house="uuii_book_house_091659a38db7"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="6"
+	learning="7"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	209.7.1={
+		birth=yes
+	}
+	274.7.1={
+		death=yes
+	}
+}
+
+##### 【丁忠】
+ding_zhong={
+	name="uuii_book_ding_zhong_name" #忠
+	dynasty_house="uuii_book_house_2eb8523a9c7d"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="8"
+	stewardship="6"
+	intrigue="6"
+	learning="4"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	236.7.1={
+		birth=yes
+	}
+	301.7.1={
+		death=yes
+	}
+}
+
+##### 【任永】
+ren_yong={
+	name="uuii_book_ren_yong_name" #永
+	dynasty_house="uuii_book_house_9f1553140e3a"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="8"
+	stewardship="5"
+	intrigue="8"
+	learning="7"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=no
+	228.7.1={
+		birth=yes
+	}
+	293.7.1={
+		death=yes
+	}
+}
+
+##### 【周贺】
+zhou_he={
+	name="uuii_book_zhou_he_name" #贺
+	dynasty_house="uuii_book_house_33bea69e76a1"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="4"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	202.7.1={
+		birth=yes
+	}
+	267.7.1={
+		death=yes
+	}
+}
+
+##### 【夏侯献】
+xia_hou_xian={
+	name="uuii_book_xia_hou_xian_name" #献
+	dynasty_house="uuii_book_house_536996f44061"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="4"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	208.7.1={
+		birth=yes
+	}
+	273.7.1={
+		death=yes
+	}
+}
+
+##### 【姚信】
+yao_xin={
+	name="uuii_book_yao_xin_name" #信
+	dynasty_house="uuii_book_house_845ad9f5130f"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="7"
+	stewardship="8"
+	intrigue="5"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	237.7.1={
+		birth=yes
+	}
+	302.7.1={
+		death=yes
+	}
+}
+
+##### 【孙河】
+sun_he_2={
+	name="uuii_book_sun_he_2_name" #河
+	dynasty_house="uuii_book_house_d5c1f8eb7ea6"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="8"
+	stewardship="8"
+	intrigue="8"
+	learning="4"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	209.7.1={
+		birth=yes
+	}
+	274.7.1={
+		death=yes
+	}
+}
+
+##### 【安平】
+an_ping={
+	name="uuii_book_an_ping_name" #平
+	dynasty_house="uuii_book_house_ebeb32b0b7e9"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="8"
+	stewardship="8"
+	intrigue="5"
+	learning="7"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=no
+	234.7.1={
+		birth=yes
+	}
+	299.7.1={
+		death=yes
+	}
+}
+
+##### 【张俨】
+zhang_yan_5={
+	name="uuii_book_zhang_yan_5_name" #俨
+	dynasty_house="uuii_book_house_344396b04aac"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="8"
+	stewardship="7"
+	intrigue="4"
+	learning="8"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	236.7.1={
+		birth=yes
+	}
+	301.7.1={
+		death=yes
+	}
+}
+
+##### 【张昌】
+zhang_chang_3={
+	name="uuii_book_zhang_chang_3_name" #昌
+	dynasty_house="uuii_book_house_e900930a18fe"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="9"
+	stewardship="9"
+	intrigue="4"
+	learning="9"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	250.7.1={
+		birth=yes
+	}
+	304.7.1={
+		death=yes
+	}
+}
+
+##### 【李含】
+li_han={
+	name="uuii_book_li_han_name" #含
+	dynasty_house="uuii_book_house_9359385edba8"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	238.7.1={
+		birth=yes
+	}
+	303.7.1={
+		death=yes
+	}
+}
+
+##### 【李简】
+li_jian_2={
+	name="uuii_book_li_jian_2_name" #简
+	dynasty_house="uuii_book_house_6398c6c4fbb1"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="5"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	224.7.1={
+		birth=yes
+	}
+	289.7.1={
+		death=yes
+	}
+}
+
+##### 【梁丘贺】
+liang_qiu_he={
+	name="uuii_book_liang_qiu_he_name" #丘贺
+	dynasty_house="uuii_book_house_768825a080b1"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="6"
+	stewardship="8"
+	intrigue="6"
+	learning="8"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=no
+	228.7.1={
+		birth=yes
+	}
+	293.7.1={
+		death=yes
+	}
+}
+
+##### 【王观】
+wang_guan={
+	name="uuii_book_wang_guan_name" #观
+	dynasty_house="uuii_book_house_0b177479e47c"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="5"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	226.7.1={
+		birth=yes
+	}
+	291.7.1={
+		death=yes
+	}
+}
+
+##### 【虞喜】
+yu_xi={
+	name="uuii_book_yu_xi_name" #喜
+	dynasty_house="uuii_book_house_1fb865d085cb"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="4"
+	stewardship="8"
+	intrigue="8"
+	learning="8"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	281.7.1={
+		birth=yes
+	}
+	356.7.1={
+		death=yes
+	}
+}
+
+##### 【袁邵】
+yuan_shao_2={
+	name="uuii_book_yuan_shao_2_name" #邵
+	dynasty_house="uuii_book_house_50b8a93910f6"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="8"
+	stewardship="9"
+	intrigue="6"
+	learning="5"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	234.7.1={
+		birth=yes
+	}
+	299.7.1={
+		death=yes
+	}
+}
+
+##### 【诸葛尚】
+zhu_ge_shang={
+	name="uuii_book_zhu_ge_shang_name" #尚
+	dynasty_house="uuii_book_house_6770defab407"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="8"
+	stewardship="8"
+	intrigue="8"
+	learning="4"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	245.7.1={
+		birth=yes
+	}
+	263.7.1={
+		death=yes
+	}
+}
+
+##### 【贺邵】
+he_shao={
+	name="uuii_book_he_shao_name" #邵
+	dynasty_house="uuii_book_house_0d2405e129ff"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="8"
+	stewardship="8"
+	intrigue="5"
+	learning="6"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	245.7.1={
+		birth=yes
+	}
+	310.7.1={
+		death=yes
+	}
+}
+
+##### 【钟士季】
+zhong_shi_ji={
+	name="uuii_book_zhong_shi_ji_name" #士季
+	dynasty_house="uuii_book_house_9b19c2f31fae"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="8"
+	stewardship="7"
+	intrigue="8"
+	learning="4"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	234.7.1={
+		birth=yes
+	}
+	299.7.1={
+		death=yes
+	}
+}
+
+##### 【韦玄成】
+wei_xuan_cheng={
+	name="uuii_book_wei_xuan_cheng_name" #玄成
+	dynasty_house="uuii_book_house_36ab63ae63f6"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="4"
+	stewardship="9"
+	intrigue="6"
+	learning="9"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	228.7.1={
+		birth=yes
+	}
+	293.7.1={
+		death=yes
+	}
+}
+
+##### 【龚壮】
+gong_zhuang={
+	name="uuii_book_gong_zhuang_name" #壮
+	dynasty_house="uuii_book_house_fd99338954ff"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="7"
+	stewardship="8"
+	intrigue="8"
+	learning="4"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	250.7.1={
+		birth=yes
+	}
+	275.7.1={
+		death=yes
+	}
+}
+
+##### 【全寄】
+quan_ji={
+	name="uuii_book_quan_ji_name" #寄
+	dynasty_house="uuii_book_house_05f66f6a00f8"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	250.7.1={
+		birth=yes
+	}
+	283.7.1={
+		death=yes
+	}
+}
+
+##### 【全熙】
+quan_xi={
+	name="uuii_book_quan_xi_name" #熙
+	dynasty_house="uuii_book_house_6d3874046c63"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="8"
+	stewardship="8"
+	intrigue="8"
+	learning="4"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	208.7.1={
+		birth=yes
+	}
+	273.7.1={
+		death=yes
+	}
+}
+
+##### 【刘琨】
+liu_kun_3={
+	name="uuii_book_liu_kun_3_name" #琨
+	dynasty_house="uuii_book_house_77d372096a38"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="5"
+	stewardship="6"
+	intrigue="8"
+	learning="8"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	271.7.1={
+		birth=yes
+	}
+	318.7.1={
+		death=yes
+	}
+}
+
+##### 【吕子衡】
+lv_zi_heng={
+	name="uuii_book_lv_zi_heng_name" #子衡
+	dynasty_house="uuii_book_house_96253ed53860"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="6"
+	stewardship="6"
+	intrigue="9"
+	learning="5"
+	prowess="9"
+	health=5.5
+	disallow_random_traits=no
+	240.7.1={
+		birth=yes
+	}
+	305.7.1={
+		death=yes
+	}
+}
+
+##### 【吕安】
+lv_an={
+	name="uuii_book_lv_an_name" #安
+	dynasty_house="uuii_book_house_7487707fca56"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="4"
+	intrigue="8"
+	learning="8"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	229.7.1={
+		birth=yes
+	}
+	294.7.1={
+		death=yes
+	}
+}
+
+##### 【吴顺】
+wu_shun={
+	name="uuii_book_wu_shun_name" #顺
+	dynasty_house="uuii_book_house_cab19a2740be"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="8"
+	stewardship="8"
+	intrigue="8"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	228.7.1={
+		birth=yes
+	}
+	293.7.1={
+		death=yes
+	}
+}
+
+##### 【娄敦】
+lou_dun={
+	name="uuii_book_lou_dun_name" #敦
+	dynasty_house="uuii_book_house_01cc0d049a86"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="9"
+	stewardship="5"
+	intrigue="9"
+	learning="6"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=no
+	207.7.1={
+		birth=yes
+	}
+	272.7.1={
+		death=yes
+	}
+}
+
+##### 【孙雨单】
+sun_yu_dan={
+	name="uuii_book_sun_yu_dan_name" #雨单
+	dynasty_house="uuii_book_house_9cccfba6ad8c"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="8"
+	stewardship="8"
+	intrigue="7"
+	learning="8"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	230.7.1={
+		birth=yes
+	}
+	295.7.1={
+		death=yes
+	}
+}
+
+##### 【孟仁】
+meng_ren={
+	name="uuii_book_meng_ren_name" #仁
+	dynasty_house="uuii_book_house_b4225b67e136"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="9"
+	stewardship="9"
+	intrigue="8"
+	learning="4"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	237.7.1={
+		birth=yes
+	}
+	302.7.1={
+		death=yes
+	}
+}
+
+##### 【徐陵】
+xu_ling={
+	name="uuii_book_xu_ling_name" #陵
+	dynasty_house="uuii_book_house_297117cb3265"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="7"
+	stewardship="7"
+	intrigue="6"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	507.7.1={
+		birth=yes
+	}
+	583.7.1={
+		death=yes
+	}
+}
+
+##### 【施雠】
+shi_chou={
+	name="uuii_book_shi_chou_name" #雠
+	dynasty_house="uuii_book_house_5b46e0569203"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="6"
+	stewardship="8"
+	intrigue="7"
+	learning="8"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	227.7.1={
+		birth=yes
+	}
+	292.7.1={
+		death=yes
+	}
+}
+
+##### 【李始】
+li_shi_19={
+	name="uuii_book_li_shi_19_name" #始
+	dynasty_house="uuii_book_house_bf0babd2530b"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="7"
+	stewardship="7"
+	intrigue="8"
+	learning="5"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	250.7.1={
+		birth=yes
+	}
+	275.7.1={
+		death=yes
+	}
+}
+
+##### 【杨褒】
+yang_bao_2={
+	name="uuii_book_yang_bao_2_name" #褒
+	dynasty_house="uuii_book_house_755621464879"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="8"
+	stewardship="7"
+	intrigue="6"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	243.7.1={
+		birth=yes
+	}
+	308.7.1={
+		death=yes
+	}
+}
+
+##### 【滕牧】
+teng_mu={
+	name="uuii_book_teng_mu_name" #牧
+	dynasty_house="uuii_book_house_02bc288151f2"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="8"
+	stewardship="8"
+	intrigue="8"
+	learning="4"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	250.7.1={
+		birth=yes
+	}
+	275.7.1={
+		death=yes
+	}
+}
+
+##### 【王贵人】
+wang_gui_ren={
+	name="uuii_book_wang_gui_ren_name" #贵人
+	dynasty_house="uuii_book_house_5c31fe4342ac"
+	female=yes
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="6"
+	stewardship="8"
+	intrigue="8"
+	learning="4"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	234.7.1={
+		birth=yes
+	}
+	299.7.1={
+		death=yes
+	}
+}
+
+##### 【程季然】
+cheng_ji_ran={
+	name="uuii_book_cheng_ji_ran_name" #季然
+	dynasty_house="uuii_book_house_a06b1a3afdb8"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="8"
+	stewardship="8"
+	intrigue="8"
+	learning="4"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	233.7.1={
+		birth=yes
+	}
+	298.7.1={
+		death=yes
+	}
+}
+
+##### 【罗厉】
+luo_li={
+	name="uuii_book_luo_li_name" #厉
+	dynasty_house="uuii_book_house_e201ade8c908"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="8"
+	stewardship="8"
+	intrigue="7"
+	learning="5"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	204.7.1={
+		birth=yes
+	}
+	236.7.1={
+		death=yes
+	}
+}
+
+##### 【胡烈】
+hu_lie_2={
+	name="uuii_book_hu_lie_2_name" #烈
+	dynasty_house="uuii_book_house_e42b311bae1b"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="5"
+	stewardship="9"
+	intrigue="8"
+	learning="4"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	220.7.1={
+		birth=yes
+	}
+	270.7.1={
+		death=yes
+	}
+}
+
+##### 【蔡颖】
+cai_ying_2={
+	name="uuii_book_cai_ying_2_name" #颖
+	dynasty_house="uuii_book_house_a84ee8a20357"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="4"
+	stewardship="8"
+	intrigue="8"
+	learning="8"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	228.7.1={
+		birth=yes
+	}
+	293.7.1={
+		death=yes
+	}
+}
+
+##### 【薛珝】
+xue_xu={
+	name="uuii_book_xue_xu_name" #珝
+	dynasty_house="uuii_book_house_85c7f488f505"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="8"
+	stewardship="8"
+	intrigue="4"
+	learning="7"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	238.7.1={
+		birth=yes
+	}
+	278.7.1={
+		death=yes
+	}
+}
+
+##### 【虞溥】
+yu_pu={
+	name="uuii_book_yu_pu_name" #溥
+	dynasty_house="uuii_book_house_64c93499c53d"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="8"
+	stewardship="8"
+	intrigue="4"
+	learning="8"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	250.7.1={
+		birth=yes
+	}
+	400.7.1={
+		death=yes
+	}
+}
+
+##### 【谢安】
+xie_an={
+	name="uuii_book_xie_an_name" #安
+	dynasty_house="uuii_book_house_21e61b9f36ac"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="5"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	320.7.1={
+		birth=yes
+	}
+	385.7.1={
+		death=yes
+	}
+}
+
+##### 【辛佐治】
+xin_zuo_zhi={
+	name="uuii_book_xin_zuo_zhi_name" #佐治
+	dynasty_house="uuii_book_house_1b503f69809c"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="9"
+	stewardship="8"
+	intrigue="8"
+	learning="5"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	204.7.1={
+		birth=yes
+	}
+	269.7.1={
+		death=yes
+	}
+}
+
+##### 【郑觿】
+zheng_xi={
+	name="uuii_book_zheng_xi_name" #觿
+	dynasty_house="uuii_book_house_ea64973f688c"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	226.7.1={
+		birth=yes
+	}
+	291.7.1={
+		death=yes
+	}
+}
+
+##### 【郭循】
+guo_xun_2={
+	name="uuii_book_guo_xun_2_name" #循
+	dynasty_house="uuii_book_house_47001d15d42b"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="5"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	222.7.1={
+		birth=yes
+	}
+	287.7.1={
+		death=yes
+	}
+}
+
+##### 【郭马】
+guo_ma={
+	name="uuii_book_guo_ma_name" #马
+	dynasty_house="uuii_book_house_aec2306a1b7c"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="6"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	249.7.1={
+		birth=yes
+	}
+	314.7.1={
+		death=yes
+	}
+}
+
+##### 【阮籍】
+ruan_ji={
+	name="uuii_book_ruan_ji_name" #籍
+	dynasty_house="uuii_book_house_0af701b2ce9f"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="9"
+	stewardship="8"
+	intrigue="4"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	210.7.1={
+		birth=yes
+	}
+	263.7.1={
+		death=yes
+	}
+}
+
+##### 【韩哀】
+han_ai={
+	name="uuii_book_han_ai_name" #哀
+	dynasty_house="uuii_book_house_03a7b5169839"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="5"
+	stewardship="8"
+	intrigue="8"
+	learning="5"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	233.7.1={
+		birth=yes
+	}
+	298.7.1={
+		death=yes
+	}
+}
+
+##### 【骆武】
+luo_wu={
+	name="uuii_book_luo_wu_name" #武
+	dynasty_house="uuii_book_house_c3d44d6fccf4"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="4"
+	stewardship="8"
+	intrigue="4"
+	learning="8"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	209.7.1={
+		birth=yes
+	}
+	274.7.1={
+		death=yes
+	}
+}
+
+##### 【何劭】
+he_shao_2={
+	name="uuii_book_he_shao_2_name" #劭
+	dynasty_house="uuii_book_house_3b6e2fcb7ab1"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="5"
+	stewardship="7"
+	intrigue="6"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	236.7.1={
+		birth=yes
+	}
+	261.7.1={
+		death=yes
+	}
+}
+
+##### 【刘氏】
+liu_shi_5={
+	name="uuii_book_liu_shi_5_name" #氏
+	dynasty_house="uuii_book_house_c37a05ff4589"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="5"
+	stewardship="9"
+	intrigue="7"
+	learning="8"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	240.7.1={
+		birth=yes
+	}
+	305.7.1={
+		death=yes
+	}
+}
+
+##### 【刘邕】
+liu_yong_2={
+	name="uuii_book_liu_yong_2_name" #邕
+	dynasty_house="uuii_book_house_193f44acee64"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	208.7.1={
+		birth=yes
+	}
+	273.7.1={
+		death=yes
+	}
+}
+
+##### 【刘长卿】
+liu_zhang_qing={
+	name="uuii_book_liu_zhang_qing_name" #长卿
+	dynasty_house="uuii_book_house_5e2605e8c906"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="7"
+	stewardship="6"
+	intrigue="8"
+	learning="9"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	710.7.1={
+		birth=yes
+	}
+	785.7.1={
+		death=yes
+	}
+}
+
+##### 【向雄】
+xiang_xiong={
+	name="uuii_book_xiang_xiong_name" #雄
+	dynasty_house="uuii_book_house_26242e51a3f5"
+	culture="han"
+	faith="jingxue"
+	diplomacy="9"
+	martial="8"
+	stewardship="8"
+	intrigue="6"
+	learning="4"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	250.7.1={
+		birth=yes
+	}
+	299.7.1={
+		death=yes
+	}
+}
+
+##### 【吕大防】
+lv_da_fang={
+	name="uuii_book_lv_da_fang_name" #大防
+	dynasty_house="uuii_book_house_54402fadbb08"
+	culture="han"
+	faith="jingxue"
+	diplomacy="9"
+	martial="4"
+	stewardship="4"
+	intrigue="9"
+	learning="9"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	209.7.1={
+		birth=yes
+	}
+	274.7.1={
+		death=yes
+	}
+}
+
+##### 【周浚】
+zhou_jun={
+	name="uuii_book_zhou_jun_name" #浚
+	dynasty_house="uuii_book_house_d21c57ff2514"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="9"
+	stewardship="5"
+	intrigue="6"
+	learning="9"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	250.7.1={
+		birth=yes
+	}
+	275.7.1={
+		death=yes
+	}
+}
+
+##### 【夏侯咸】
+xia_hou_xian_2={
+	name="uuii_book_xia_hou_xian_2_name" #咸
+	dynasty_house="uuii_book_house_41468548e97e"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="9"
+	stewardship="9"
+	intrigue="5"
+	learning="4"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	250.7.1={
+		birth=yes
+	}
+	275.7.1={
+		death=yes
+	}
+}
+
+##### 【夏侯湛】
+xia_hou_zhan={
+	name="uuii_book_xia_hou_zhan_name" #湛
+	dynasty_house="uuii_book_house_04e608712c4d"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="5"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	243.7.1={
+		birth=yes
+	}
+	291.7.1={
+		death=yes
+	}
+}
+
+##### 【姚崇】
+yao_chong={
+	name="uuii_book_yao_chong_name" #崇
+	dynasty_house="uuii_book_house_71e034781032"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="5"
+	stewardship="8"
+	intrigue="5"
+	learning="8"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	650.7.1={
+		birth=yes
+	}
+	721.7.1={
+		death=yes
+	}
+}
+
+##### 【孙琳】
+sun_lin_2={
+	name="uuii_book_sun_lin_2_name" #琳
+	dynasty_house="uuii_book_house_a06465c99e6f"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="9"
+	stewardship="5"
+	intrigue="9"
+	learning="5"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	228.7.1={
+		birth=yes
+	}
+	293.7.1={
+		death=yes
+	}
+}
+
+##### 【孟武】
+meng_wu={
+	name="uuii_book_meng_wu_name" #武
+	dynasty_house="uuii_book_house_c62ca89687fe"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="8"
+	stewardship="7"
+	intrigue="5"
+	learning="8"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	205.7.1={
+		birth=yes
+	}
+	270.7.1={
+		death=yes
+	}
+}
+
+##### 【左思】
+zuo_si={
+	name="uuii_book_zuo_si_name" #思
+	dynasty_house="uuii_book_house_7d95e623c775"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="8"
+	stewardship="8"
+	intrigue="5"
+	learning="7"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=no
+	250.7.1={
+		birth=yes
+	}
+	305.7.1={
+		death=yes
+	}
+}
+
+##### 【庾峻】
+yu_jun={
+	name="uuii_book_yu_jun_name" #峻
+	dynasty_house="uuii_book_house_69ee10567c9f"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="6"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	250.7.1={
+		birth=yes
+	}
+	275.7.1={
+		death=yes
+	}
+}
+
+##### 【张吴】
+zhang_wu_2={
+	name="uuii_book_zhang_wu_2_name" #吴
+	dynasty_house="uuii_book_house_4a794c4ed5dd"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	231.7.1={
+		birth=yes
+	}
+	296.7.1={
+		death=yes
+	}
+}
+
+##### 【张种】
+zhang_zhong_3={
+	name="uuii_book_zhang_zhong_3_name" #种
+	dynasty_house="uuii_book_house_ee47b03b444b"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="5"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	504.7.1={
+		birth=yes
+	}
+	573.7.1={
+		death=yes
+	}
+}
+
+##### 【曹宇】
+cao_yu_2={
+	name="uuii_book_cao_yu_2_name" #宇
+	dynasty_house="uuii_book_house_24d7b17d81b9"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="9"
+	stewardship="6"
+	intrigue="6"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	230.7.1={
+		birth=yes
+	}
+	295.7.1={
+		death=yes
+	}
+}
+
+##### 【李势】
+li_shi_3={
+	name="uuii_book_li_shi_3_name" #势
+	dynasty_house="uuii_book_house_f50fd944f103"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="5"
+	stewardship="6"
+	intrigue="7"
+	learning="9"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	350.7.1={
+		birth=yes
+	}
+	361.7.1={
+		death=yes
+	}
+}
+
+##### 【李暠】
+li_gao={
+	name="uuii_book_li_gao_name" #暠
+	dynasty_house="uuii_book_house_4be120e5b686"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	351.7.1={
+		birth=yes
+	}
+	417.7.1={
+		death=yes
+	}
+}
+
+##### 【李流】
+li_liu={
+	name="uuii_book_li_liu_name" #流
+	dynasty_house="uuii_book_house_dfcf67603cb1"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="5"
+	stewardship="9"
+	intrigue="5"
+	learning="9"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	248.7.1={
+		birth=yes
+	}
+	303.7.1={
+		death=yes
+	}
+}
+
+##### 【李虎】
+li_hu={
+	name="uuii_book_li_hu_name" #虎
+	dynasty_house="uuii_book_house_ff929af28972"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="5"
+	stewardship="9"
+	intrigue="9"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	486.7.1={
+		birth=yes
+	}
+	551.7.1={
+		death=yes
+	}
+}
+
+##### 【李误】
+li_wu={
+	name="uuii_book_li_wu_name" #误
+	dynasty_house="uuii_book_house_c00cf7cea358"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="8"
+	stewardship="8"
+	intrigue="6"
+	learning="8"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=no
+	208.7.1={
+		birth=yes
+	}
+	273.7.1={
+		death=yes
+	}
+}
+
+##### 【李韶】
+li_shao_3={
+	name="uuii_book_li_shao_3_name" #韶
+	dynasty_house="uuii_book_house_f63b0df5514d"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="8"
+	stewardship="8"
+	intrigue="8"
+	learning="5"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	219.7.1={
+		birth=yes
+	}
+	284.7.1={
+		death=yes
+	}
+}
+
+##### 【杨准】
+yang_zhun={
+	name="uuii_book_yang_zhun_name" #准
+	dynasty_house="uuii_book_house_73cc49469afb"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="8"
+	stewardship="8"
+	intrigue="5"
+	learning="8"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	250.7.1={
+		birth=yes
+	}
+	275.7.1={
+		death=yes
+	}
+}
+
+##### 【滕修】
+teng_xiu={
+	name="uuii_book_teng_xiu_name" #修
+	dynasty_house="uuii_book_house_d08d4bdcbf68"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="7"
+	stewardship="8"
+	intrigue="9"
+	learning="5"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	250.7.1={
+		birth=yes
+	}
+	288.7.1={
+		death=yes
+	}
+}
+
+##### 【潘岳】
+pan_yue={
+	name="uuii_book_pan_yue_name" #岳
+	dynasty_house="uuii_book_house_b5f8493addd0"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="4"
+	stewardship="8"
+	intrigue="7"
+	learning="8"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	247.7.1={
+		birth=yes
+	}
+	300.7.1={
+		death=yes
+	}
+}
+
+##### 【王弘直】
+wang_hong_zhi={
+	name="uuii_book_wang_hong_zhi_name" #弘直
+	dynasty_house="uuii_book_house_da831db03c5e"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="6"
+	stewardship="9"
+	intrigue="9"
+	learning="5"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	570.7.1={
+		birth=yes
+	}
+	635.7.1={
+		death=yes
+	}
+}
+
+##### 【王浚】
+wang_jun_3={
+	name="uuii_book_wang_jun_3_name" #浚
+	dynasty_house="uuii_book_house_94991f2332b2"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="8"
+	stewardship="5"
+	intrigue="5"
+	learning="8"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	252.7.1={
+		birth=yes
+	}
+	314.7.1={
+		death=yes
+	}
+}
+
+##### 【王裒】
+wang_pou={
+	name="uuii_book_wang_pou_name" #裒
+	dynasty_house="uuii_book_house_deb0151de518"
+	culture="han"
+	faith="jingxue"
+	diplomacy="9"
+	martial="6"
+	stewardship="8"
+	intrigue="8"
+	learning="4"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	250.7.1={
+		birth=yes
+	}
+	311.7.1={
+		death=yes
+	}
+}
+
+##### 【王遂】
+wang_sui_2={
+	name="uuii_book_wang_sui_2_name" #遂
+	dynasty_house="uuii_book_house_2dd002651f75"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="8"
+	stewardship="5"
+	intrigue="8"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	216.7.1={
+		birth=yes
+	}
+	281.7.1={
+		death=yes
+	}
+}
+
+##### 【秦穆候】
+qin_mu_hou={
+	name="uuii_book_qin_mu_hou_name" #穆候
+	dynasty_house="uuii_book_house_2a7f8d95d306"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="7"
+	stewardship="7"
+	intrigue="5"
+	learning="8"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	226.7.1={
+		birth=yes
+	}
+	291.7.1={
+		death=yes
+	}
+}
+
+##### 【耿寿昌】
+geng_shou_chang={
+	name="uuii_book_geng_shou_chang_name" #寿昌
+	dynasty_house="uuii_book_house_513ed510b7be"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="5"
+	stewardship="8"
+	intrigue="5"
+	learning="8"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	227.7.1={
+		birth=yes
+	}
+	292.7.1={
+		death=yes
+	}
+}
+
+##### 【荀吴】
+xun_wu={
+	name="uuii_book_xun_wu_name" #吴
+	dynasty_house="uuii_book_house_8f64070de315"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="7"
+	stewardship="8"
+	intrigue="6"
+	learning="6"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	454.7.1={
+		birth=yes
+	}
+	519.7.1={
+		death=yes
+	}
+}
+
+##### 【荀融】
+xun_rong={
+	name="uuii_book_xun_rong_name" #融
+	dynasty_house="uuii_book_house_fc34b04463bb"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="5"
+	intrigue="7"
+	learning="9"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	250.7.1={
+		birth=yes
+	}
+	284.7.1={
+		death=yes
+	}
+}
+
+##### 【虞汜】
+yu_si={
+	name="uuii_book_yu_si_name" #汜
+	dynasty_house="uuii_book_house_98fbfed610b0"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="8"
+	stewardship="8"
+	intrigue="5"
+	learning="6"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	218.7.1={
+		birth=yes
+	}
+	304.7.1={
+		death=yes
+	}
+}
+
+##### 【袁绀】
+yuan_gan_2={
+	name="uuii_book_yuan_gan_2_name" #绀
+	dynasty_house="uuii_book_house_fae1bb9bbf11"
+	culture="han"
+	faith="jingxue"
+	diplomacy="9"
+	martial="8"
+	stewardship="4"
+	intrigue="4"
+	learning="8"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	208.7.1={
+		birth=yes
+	}
+	273.7.1={
+		death=yes
+	}
+}
+
+##### 【裴楷】
+pei_kai={
+	name="uuii_book_pei_kai_name" #楷
+	dynasty_house="uuii_book_house_59ab0d1889a1"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="8"
+	stewardship="8"
+	intrigue="4"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	237.7.1={
+		birth=yes
+	}
+	274.7.1={
+		death=yes
+	}
+}
+
+##### 【解思明】
+jie_si_ming={
+	name="uuii_book_jie_si_ming_name" #思明
+	dynasty_house="uuii_book_house_91b84ae1a440"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="8"
+	stewardship="5"
+	intrigue="8"
+	learning="8"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	280.7.1={
+		birth=yes
+	}
+	345.7.1={
+		death=yes
+	}
+}
+
+##### 【赵芬】
+zhao_fen={
+	name="uuii_book_zhao_fen_name" #芬
+	dynasty_house="uuii_book_house_868226a2a759"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="5"
+	stewardship="8"
+	intrigue="8"
+	learning="8"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	517.7.1={
+		birth=yes
+	}
+	594.7.1={
+		death=yes
+	}
+}
+
+##### 【邓由】
+deng_you={
+	name="uuii_book_deng_you_name" #由
+	dynasty_house="uuii_book_house_ffbd1e24e22d"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="8"
+	stewardship="8"
+	intrigue="7"
+	learning="7"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	231.7.1={
+		birth=yes
+	}
+	296.7.1={
+		death=yes
+	}
+}
+
+##### 【郭逴】
+guo_chuo={
+	name="uuii_book_guo_chuo_name" #逴
+	dynasty_house="uuii_book_house_c2945c7a78c7"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="5"
+	stewardship="8"
+	intrigue="4"
+	learning="8"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	250.7.1={
+		birth=yes
+	}
+	275.7.1={
+		death=yes
+	}
+}
+
+##### 【陆云】
+lu_yun={
+	name="uuii_book_lu_yun_name" #云
+	dynasty_house="uuii_book_house_5e3c532bb5d1"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="5"
+	stewardship="9"
+	intrigue="5"
+	learning="5"
+	prowess="9"
+	health=5.5
+	disallow_random_traits=no
+	262.7.1={
+		birth=yes
+	}
+	303.7.1={
+		death=yes
+	}
+}
+
+##### 【韩扁】
+han_bian={
+	name="uuii_book_han_bian_name" #扁
+	dynasty_house="uuii_book_house_6f67d59856cc"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="6"
+	stewardship="8"
+	intrigue="8"
+	learning="5"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	206.7.1={
+		birth=yes
+	}
+	271.7.1={
+		death=yes
+	}
+}
+
+##### 【上官临】
+shang_guan_lin={
+	name="uuii_book_shang_guan_lin_name" #临
+	dynasty_house="uuii_book_house_c5f7dfb75d87"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="9"
+	stewardship="5"
+	intrigue="8"
+	learning="8"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	207.7.1={
+		birth=yes
+	}
+	272.7.1={
+		death=yes
+	}
+}
+
+##### 【严维】
+yan_wei_2={
+	name="uuii_book_yan_wei_2_name" #维
+	dynasty_house="uuii_book_house_eab3385e6ffe"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="7"
+	stewardship="8"
+	intrigue="7"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	715.7.1={
+		birth=yes
+	}
+	780.7.1={
+		death=yes
+	}
+}
+
+##### 【何姬】
+he_ji={
+	name="uuii_book_he_ji_name" #姬
+	dynasty_house="uuii_book_house_130d5ec55155"
+	female=yes
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="7"
+	stewardship="7"
+	intrigue="6"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	250.7.1={
+		birth=yes
+	}
+	275.7.1={
+		death=yes
+	}
+}
+
+##### 【何定谮】
+he_ding_zen={
+	name="uuii_book_he_ding_zen_name" #定谮
+	dynasty_house="uuii_book_house_aeacc9cfdcf8"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="8"
+	stewardship="4"
+	intrigue="9"
+	learning="6"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	236.7.1={
+		birth=yes
+	}
+	301.7.1={
+		death=yes
+	}
+}
+
+##### 【何氏】
+he_shi_24={
+	name="uuii_book_he_shi_24_name" #氏
+	dynasty_house="uuii_book_house_e87603f6eab1"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="9"
+	stewardship="5"
+	intrigue="6"
+	learning="8"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	230.7.1={
+		birth=yes
+	}
+	295.7.1={
+		death=yes
+	}
+}
+
+##### 【侯景】
+hou_jing={
+	name="uuii_book_hou_jing_name" #景
+	dynasty_house="uuii_book_house_d124fa39b392"
+	culture="han"
+	faith="jingxue"
+	diplomacy="9"
+	martial="9"
+	stewardship="4"
+	intrigue="8"
+	learning="4"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	503.7.1={
+		birth=yes
+	}
+	552.7.1={
+		death=yes
+	}
+}
+
+##### 【傅咸】
+fu_xian={
+	name="uuii_book_fu_xian_name" #咸
+	dynasty_house="uuii_book_house_7fe78e84bb91"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="7"
+	stewardship="6"
+	intrigue="8"
+	learning="6"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	239.7.1={
+		birth=yes
+	}
+	294.7.1={
+		death=yes
+	}
+}
+
+##### 【傅祗】
+fu_zhi={
+	name="uuii_book_fu_zhi_name" #祗
+	dynasty_house="uuii_book_house_ac8acdfd9d1d"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="8"
+	stewardship="5"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	245.7.1={
+		birth=yes
+	}
+	270.7.1={
+		death=yes
+	}
+}
+
+##### 【全氏】
+quan_shi={
+	name="uuii_book_quan_shi_name" #氏
+	dynasty_house="uuii_book_house_978ed81aa348"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="9"
+	stewardship="9"
+	intrigue="4"
+	learning="8"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	220.7.1={
+		birth=yes
+	}
+	285.7.1={
+		death=yes
+	}
+}
+
+##### 【冯熙】
+feng_xi_2={
+	name="uuii_book_feng_xi_2_name" #熙
+	dynasty_house="uuii_book_house_5e8bbe19911d"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="6"
+	stewardship="6"
+	intrigue="6"
+	learning="9"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	438.7.1={
+		birth=yes
+	}
+	495.7.1={
+		death=yes
+	}
+}
+
+##### 【刘】
+liu_3={
+	name="uuii_book_liu_3_name" #刘
+	dynasty_house="uuii_book_house_c7172adea4e6"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="8"
+	stewardship="5"
+	intrigue="10"
+	learning="5"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	235.7.1={
+		birth=yes
+	}
+	300.7.1={
+		death=yes
+	}
+}
+
+##### 【刘伶】
+liu_ling={
+	name="uuii_book_liu_ling_name" #伶
+	dynasty_house="uuii_book_house_a67e5786ddf1"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="8"
+	stewardship="6"
+	intrigue="5"
+	learning="6"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	221.7.1={
+		birth=yes
+	}
+	300.7.1={
+		death=yes
+	}
+}
+
+##### 【刘俊】
+liu_jun_3={
+	name="uuii_book_liu_jun_3_name" #俊
+	dynasty_house="uuii_book_house_082282b9f457"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="7"
+	stewardship="8"
+	intrigue="6"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	239.7.1={
+		birth=yes
+	}
+	304.7.1={
+		death=yes
+	}
+}
+
+##### 【刘助】
+liu_zhu_2={
+	name="uuii_book_liu_zhu_2_name" #助
+	dynasty_house="uuii_book_house_74729ee67a90"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="8"
+	stewardship="8"
+	intrigue="8"
+	learning="5"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	216.7.1={
+		birth=yes
+	}
+	281.7.1={
+		death=yes
+	}
+}
+
+##### 【刘干臣】
+liu_gan_chen={
+	name="uuii_book_liu_gan_chen_name" #干臣
+	dynasty_house="uuii_book_house_f01797c564e5"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="8"
+	stewardship="8"
+	intrigue="6"
+	learning="8"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	201.7.1={
+		birth=yes
+	}
+	266.7.1={
+		death=yes
+	}
+}
+
+##### 【刘悛】
+liu_quan_3={
+	name="uuii_book_liu_quan_3_name" #悛
+	dynasty_house="uuii_book_house_12802a4b8b2b"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="4"
+	stewardship="8"
+	intrigue="6"
+	learning="8"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	438.7.1={
+		birth=yes
+	}
+	463.7.1={
+		death=yes
+	}
+}
+
+##### 【刘沈】
+liu_shen_2={
+	name="uuii_book_liu_shen_2_name" #沈
+	dynasty_house="uuii_book_house_8402e16aa52e"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="4"
+	stewardship="8"
+	intrigue="8"
+	learning="7"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	250.7.1={
+		birth=yes
+	}
+	304.7.1={
+		death=yes
+	}
+}
+
+##### 【刘瞻】
+liu_zhan_2={
+	name="uuii_book_liu_zhan_2_name" #瞻
+	dynasty_house="uuii_book_house_3517f1febe8f"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="5"
+	intrigue="8"
+	learning="8"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	809.7.1={
+		birth=yes
+	}
+	874.7.1={
+		death=yes
+	}
+}
+
+##### 【刘粲】
+liu_can={
+	name="uuii_book_liu_can_name" #粲
+	dynasty_house="uuii_book_house_b6a47cfced24"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="7"
+	stewardship="7"
+	intrigue="6"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	250.7.1={
+		birth=yes
+	}
+	318.7.1={
+		death=yes
+	}
+}
+
+##### 【刘隐】
+liu_yin={
+	name="uuii_book_liu_yin_name" #隐
+	dynasty_house="uuii_book_house_0a1829ea65dd"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	874.7.1={
+		birth=yes
+	}
+	911.7.1={
+		death=yes
+	}
+}
+
+##### 【卢循】
+lu_xun_2={
+	name="uuii_book_lu_xun_2_name" #循
+	dynasty_house="uuii_book_house_d7c880fc2756"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="8"
+	stewardship="5"
+	intrigue="7"
+	learning="7"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	346.7.1={
+		birth=yes
+	}
+	411.7.1={
+		death=yes
+	}
+}
+
+##### 【司马由】
+si_ma_you={
+	name="uuii_book_si_ma_you_name" #由
+	dynasty_house="uuii_book_house_441cfe3c421c"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="8"
+	stewardship="6"
+	intrigue="5"
+	learning="8"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	250.7.1={
+		birth=yes
+	}
+	315.7.1={
+		death=yes
+	}
+}
+
+##### 【向秀】
+xiang_xiu={
+	name="uuii_book_xiang_xiu_name" #秀
+	dynasty_house="uuii_book_house_dfb2cca3d1eb"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="9"
+	stewardship="4"
+	intrigue="8"
+	learning="8"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=no
+	250.7.1={
+		birth=yes
+	}
+	275.7.1={
+		death=yes
+	}
+}
+
+##### 【向雄】
+xiang_xiong_2={
+	name="uuii_book_xiang_xiong_2_name" #雄
+	dynasty_house="uuii_book_house_2d2fde9d6870"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="8"
+	stewardship="5"
+	intrigue="8"
+	learning="5"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	250.7.1={
+		birth=yes
+	}
+	275.7.1={
+		death=yes
+	}
+}
+
+##### 【吕习】
+lv_xi={
+	name="uuii_book_lv_xi_name" #习
+	dynasty_house="uuii_book_house_e3b406163db3"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="8"
+	stewardship="8"
+	intrigue="8"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	203.7.1={
+		birth=yes
+	}
+	268.7.1={
+		death=yes
+	}
+}
+
+##### 【吕氏】
+lv_shi_8={
+	name="uuii_book_lv_shi_8_name" #氏
+	dynasty_house="uuii_book_house_012b2888d8b6"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="8"
+	stewardship="5"
+	intrigue="4"
+	learning="9"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	209.7.1={
+		birth=yes
+	}
+	274.7.1={
+		death=yes
+	}
+}
+
+##### 【吕氏】
+lv_shi={
+	name="uuii_book_lv_shi_name" #氏
+	dynasty_house="uuii_book_house_4e17676bd2db"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="6"
+	stewardship="9"
+	intrigue="6"
+	learning="6"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	207.7.1={
+		birth=yes
+	}
+	272.7.1={
+		death=yes
+	}
+}
+
+##### 【周处】
+zhou_chu={
+	name="uuii_book_zhou_chu_name" #处
+	dynasty_house="uuii_book_house_72ee81bb35cd"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="8"
+	stewardship="4"
+	intrigue="7"
+	learning="6"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	236.7.1={
+		birth=yes
+	}
+	297.7.1={
+		death=yes
+	}
+}
+
+##### 【和子】
+he_zi={
+	name="uuii_book_he_zi_name" #子
+	dynasty_house="uuii_book_house_94d75fe8bfb6"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="5"
+	stewardship="7"
+	intrigue="6"
+	learning="10"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	220.7.1={
+		birth=yes
+	}
+	285.7.1={
+		death=yes
+	}
+}
+
+##### 【唐谘】
+tang_zi_2={
+	name="uuii_book_tang_zi_2_name" #谘
+	dynasty_house="uuii_book_house_43c2440fe94b"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="9"
+	stewardship="5"
+	intrigue="5"
+	learning="6"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	228.7.1={
+		birth=yes
+	}
+	293.7.1={
+		death=yes
+	}
+}
+
+##### 【姚察】
+yao_cha={
+	name="uuii_book_yao_cha_name" #察
+	dynasty_house="uuii_book_house_2de3f8fdecc2"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="9"
+	stewardship="5"
+	intrigue="5"
+	learning="9"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	533.7.1={
+		birth=yes
+	}
+	606.7.1={
+		death=yes
+	}
+}
+
+##### 【孔仲尼】
+kong_zhong_ni={
+	name="uuii_book_kong_zhong_ni_name" #仲尼
+	dynasty_house="uuii_book_house_5737a8ee4726"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="5"
+	intrigue="7"
+	learning="6"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	224.7.1={
+		birth=yes
+	}
+	289.7.1={
+		death=yes
+	}
+}
+
+##### 【孙休子】
+sun_xiu_zi={
+	name="uuii_book_sun_xiu_zi_name" #休子
+	dynasty_house="uuii_book_house_367e18ada7db"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="8"
+	stewardship="5"
+	intrigue="8"
+	learning="8"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	236.7.1={
+		birth=yes
+	}
+	301.7.1={
+		death=yes
+	}
+}
+
+##### 【孙冀】
+sun_ji={
+	name="uuii_book_sun_ji_name" #冀
+	dynasty_house="uuii_book_house_55c05bdfc3b6"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	242.7.1={
+		birth=yes
+	}
+	307.7.1={
+		death=yes
+	}
+}
+
+##### 【孙德果】
+sun_de_guo={
+	name="uuii_book_sun_de_guo_name" #德果
+	dynasty_house="uuii_book_house_0d86e95fad93"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="8"
+	stewardship="8"
+	intrigue="4"
+	learning="8"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=no
+	201.7.1={
+		birth=yes
+	}
+	266.7.1={
+		death=yes
+	}
+}
+
+##### 【孙慎】
+sun_shen={
+	name="uuii_book_sun_shen_name" #慎
+	dynasty_house="uuii_book_house_864e1b8a38fd"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="8"
+	intrigue="7"
+	learning="4"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	247.7.1={
+		birth=yes
+	}
+	312.7.1={
+		death=yes
+	}
+}
+
+##### 【孙绰】
+sun_chuo={
+	name="uuii_book_sun_chuo_name" #绰
+	dynasty_house="uuii_book_house_8bb735aab1bf"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="4"
+	stewardship="8"
+	intrigue="8"
+	learning="8"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	320.7.1={
+		birth=yes
+	}
+	377.7.1={
+		death=yes
+	}
+}
+
+##### 【孙虑】
+sun_lv={
+	name="uuii_book_sun_lv_name" #虑
+	dynasty_house="uuii_book_house_410a2d24c64d"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="8"
+	stewardship="6"
+	intrigue="8"
+	learning="8"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=no
+	209.7.1={
+		birth=yes
+	}
+	274.7.1={
+		death=yes
+	}
+}
+
+##### 【孙靖】
+sun_jing_2={
+	name="uuii_book_sun_jing_2_name" #靖
+	dynasty_house="uuii_book_house_3d5a79fd76ca"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="8"
+	stewardship="8"
+	intrigue="5"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	234.7.1={
+		birth=yes
+	}
+	299.7.1={
+		death=yes
+	}
+}
+
+##### 【宗修】
+zong_xiu={
+	name="uuii_book_zong_xiu_name" #修
+	dynasty_house="uuii_book_house_09e66f1d7b16"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="6"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	209.7.1={
+		birth=yes
+	}
+	274.7.1={
+		death=yes
+	}
+}
+
+##### 【封俌】
+feng_fu_3={
+	name="uuii_book_feng_fu_3_name" #俌
+	dynasty_house="uuii_book_house_2c50fcf7ee28"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="4"
+	stewardship="9"
+	intrigue="7"
+	learning="4"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	212.7.1={
+		birth=yes
+	}
+	277.7.1={
+		death=yes
+	}
+}
+
+##### 【崔浩】
+cui_hao={
+	name="uuii_book_cui_hao_name" #浩
+	dynasty_house="uuii_book_house_34b24e22a515"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="8"
+	stewardship="4"
+	intrigue="7"
+	learning="8"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	301.7.1={
+		birth=yes
+	}
+	450.7.1={
+		death=yes
+	}
+}
+
+##### 【庾阐】
+yu_chan={
+	name="uuii_book_yu_chan_name" #阐
+	dynasty_house="uuii_book_house_544c23ef0f2d"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="7"
+	stewardship="6"
+	intrigue="8"
+	learning="8"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	250.7.1={
+		birth=yes
+	}
+	275.7.1={
+		death=yes
+	}
+}
+
+##### 【张俶】
+zhang_chu={
+	name="uuii_book_zhang_chu_name" #俶
+	dynasty_house="uuii_book_house_6f996f5d34d9"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="6"
+	stewardship="5"
+	intrigue="9"
+	learning="5"
+	prowess="9"
+	health=5.5
+	disallow_random_traits=no
+	247.7.1={
+		birth=yes
+	}
+	312.7.1={
+		death=yes
+	}
+}
+
+##### 【张充】
+zhang_chong={
+	name="uuii_book_zhang_chong_name" #充
+	dynasty_house="uuii_book_house_bcd3e97d40ba"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="5"
+	stewardship="10"
+	intrigue="5"
+	learning="5"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	449.7.1={
+		birth=yes
+	}
+	474.7.1={
+		death=yes
+	}
+}
+
+##### 【张承谓】
+zhang_cheng_wei={
+	name="uuii_book_zhang_cheng_wei_name" #承谓
+	dynasty_house="uuii_book_house_78154120600d"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="9"
+	stewardship="5"
+	intrigue="8"
+	learning="6"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	244.7.1={
+		birth=yes
+	}
+	309.7.1={
+		death=yes
+	}
+}
+
+##### 【张氏】
+zhang_shi_18={
+	name="uuii_book_zhang_shi_18_name" #氏
+	dynasty_house="uuii_book_house_bf08ab2bee3a"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="8"
+	stewardship="8"
+	intrigue="7"
+	learning="5"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	207.7.1={
+		birth=yes
+	}
+	272.7.1={
+		death=yes
+	}
+}
+
+##### 【张氏】
+zhang_shi_19={
+	name="uuii_book_zhang_shi_19_name" #氏
+	dynasty_house="uuii_book_house_3b6004e92a54"
+	female=yes
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="8"
+	stewardship="7"
+	intrigue="6"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	208.7.1={
+		birth=yes
+	}
+	273.7.1={
+		death=yes
+	}
+}
+
+##### 【张表伯达】
+zhang_biao_bo_da={
+	name="uuii_book_zhang_biao_bo_da_name" #表伯达
+	dynasty_house="uuii_book_house_1cdf040b0425"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="5"
+	stewardship="6"
+	intrigue="9"
+	learning="9"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	234.7.1={
+		birth=yes
+	}
+	299.7.1={
+		death=yes
+	}
+}
+
+##### 【徐傿】
+xu_yan_2={
+	name="uuii_book_xu_yan_2_name" #傿
+	dynasty_house="uuii_book_house_227f6570216d"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="9"
+	stewardship="9"
+	intrigue="9"
+	learning="4"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=no
+	234.7.1={
+		birth=yes
+	}
+	299.7.1={
+		death=yes
+	}
+}
+
+##### 【徐巨】
+xu_ju_2={
+	name="uuii_book_xu_ju_2_name" #巨
+	dynasty_house="uuii_book_house_654a0637d0f6"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="9"
+	stewardship="4"
+	intrigue="6"
+	learning="8"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	220.7.1={
+		birth=yes
+	}
+	285.7.1={
+		death=yes
+	}
+}
+
+##### 【徐湛之】
+xu_zhan_zhi={
+	name="uuii_book_xu_zhan_zhi_name" #湛之
+	dynasty_house="uuii_book_house_0e5c07c13cd2"
+	culture="han"
+	faith="jingxue"
+	diplomacy="9"
+	martial="5"
+	stewardship="9"
+	intrigue="5"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	410.7.1={
+		birth=yes
+	}
+	453.7.1={
+		death=yes
+	}
+}
+
+##### 【施】
+shi_2={
+	name="uuii_book_shi_2_name" #施
+	dynasty_house="uuii_book_house_023bc5893424"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="9"
+	stewardship="6"
+	intrigue="5"
+	learning="5"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	240.7.1={
+		birth=yes
+	}
+	305.7.1={
+		death=yes
+	}
+}
+
+##### 【曹免】
+cao_mian={
+	name="uuii_book_cao_mian_name" #免
+	dynasty_house="uuii_book_house_224097c88b34"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="4"
+	stewardship="9"
+	intrigue="6"
+	learning="6"
+	prowess="9"
+	health=5.5
+	disallow_random_traits=no
+	230.7.1={
+		birth=yes
+	}
+	295.7.1={
+		death=yes
+	}
+}
+
+##### 【曹氏】
+cao_shi_42={
+	name="uuii_book_cao_shi_42_name" #氏
+	dynasty_house="uuii_book_house_922a96b5e768"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="8"
+	stewardship="6"
+	intrigue="4"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	222.7.1={
+		birth=yes
+	}
+	287.7.1={
+		death=yes
+	}
+}
+
+##### 【曹氏】
+cao_shi_67={
+	name="uuii_book_cao_shi_67_name" #氏
+	dynasty_house="uuii_book_house_c95e0d9bb12a"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="6"
+	stewardship="8"
+	intrigue="8"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	211.7.1={
+		birth=yes
+	}
+	276.7.1={
+		death=yes
+	}
+}
+
+##### 【曹氏】
+cao_shi_68={
+	name="uuii_book_cao_shi_68_name" #氏
+	dynasty_house="uuii_book_house_111e3e39374e"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="7"
+	stewardship="7"
+	intrigue="9"
+	learning="4"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	221.7.1={
+		birth=yes
+	}
+	286.7.1={
+		death=yes
+	}
+}
+
+##### 【曹璜】
+cao_huang={
+	name="uuii_book_cao_huang_name" #璜
+	dynasty_house="uuii_book_house_982999f9403b"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="6"
+	stewardship="5"
+	intrigue="7"
+	learning="9"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	230.7.1={
+		birth=yes
+	}
+	295.7.1={
+		death=yes
+	}
+}
+
+##### 【朱巽】
+zhu_xun={
+	name="uuii_book_zhu_xun_name" #巽
+	dynasty_house="uuii_book_house_e193e345b0ed"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="8"
+	stewardship="8"
+	intrigue="4"
+	learning="7"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	227.7.1={
+		birth=yes
+	}
+	292.7.1={
+		death=yes
+	}
+}
+
+##### 【朱照日】
+zhu_zhao_ri={
+	name="uuii_book_zhu_zhao_ri_name" #照日
+	dynasty_house="uuii_book_house_ebdea02fc325"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="8"
+	stewardship="8"
+	intrigue="7"
+	learning="4"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	233.7.1={
+		birth=yes
+	}
+	298.7.1={
+		death=yes
+	}
+}
+
+##### 【李光】
+li_guang={
+	name="uuii_book_li_guang_name" #光
+	dynasty_house="uuii_book_house_bc99239858f5"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="8"
+	stewardship="8"
+	intrigue="8"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	231.7.1={
+		birth=yes
+	}
+	296.7.1={
+		death=yes
+	}
+}
+
+##### 【李嶷】
+li_yi_14={
+	name="uuii_book_li_yi_14_name" #嶷
+	dynasty_house="uuii_book_house_53796e806a96"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="4"
+	stewardship="6"
+	intrigue="9"
+	learning="8"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	704.7.1={
+		birth=yes
+	}
+	769.7.1={
+		death=yes
+	}
+}
+
+##### 【李庠】
+li_xiang_3={
+	name="uuii_book_li_xiang_3_name" #庠
+	dynasty_house="uuii_book_house_39882e368c3f"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	247.7.1={
+		birth=yes
+	}
+	301.7.1={
+		death=yes
+	}
+}
+
+##### 【李特】
+li_te_2={
+	name="uuii_book_li_te_2_name" #特
+	dynasty_house="uuii_book_house_cba431af513e"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="5"
+	stewardship="8"
+	intrigue="9"
+	learning="4"
+	prowess="9"
+	health=5.5
+	disallow_random_traits=no
+	250.7.1={
+		birth=yes
+	}
+	303.7.1={
+		death=yes
+	}
+}
+
+##### 【李越】
+li_yue_2={
+	name="uuii_book_li_yue_2_name" #越
+	dynasty_house="uuii_book_house_8f82eb805ec6"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="6"
+	stewardship="8"
+	intrigue="8"
+	learning="5"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	250.7.1={
+		birth=yes
+	}
+	275.7.1={
+		death=yes
+	}
+}
+
+##### 【李鼎祚】
+li_ding_zuo={
+	name="uuii_book_li_ding_zuo_name" #鼎祚
+	dynasty_house="uuii_book_house_bc54ab41485b"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="6"
+	stewardship="8"
+	intrigue="5"
+	learning="8"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	500.7.1={
+		birth=yes
+	}
+	525.7.1={
+		death=yes
+	}
+}
+
+##### 【杨佺期】
+yang_quan_qi={
+	name="uuii_book_yang_quan_qi_name" #佺期
+	dynasty_house="uuii_book_house_c0f6a8629afe"
+	culture="han"
+	faith="shamanism"
+	diplomacy="7"
+	martial="8"
+	stewardship="6"
+	intrigue="5"
+	learning="8"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	334.7.1={
+		birth=yes
+	}
+	399.7.1={
+		death=yes
+	}
+}
+
+##### 【杨异】
+yang_yi_4={
+	name="uuii_book_yang_yi_4_name" #异
+	dynasty_house="uuii_book_house_7854ef05bc15"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	533.7.1={
+		birth=yes
+	}
+	600.7.1={
+		death=yes
+	}
+}
+
+##### 【杨汰季儒】
+yang_tai_ji_ru={
+	name="uuii_book_yang_tai_ji_ru_name" #汰季儒
+	dynasty_house="uuii_book_house_5eda7f6a3bd6"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="6"
+	stewardship="6"
+	intrigue="5"
+	learning="9"
+	prowess="9"
+	health=5.5
+	disallow_random_traits=no
+	234.7.1={
+		birth=yes
+	}
+	299.7.1={
+		death=yes
+	}
+}
+
+##### 【杨说】
+yang_shuo={
+	name="uuii_book_yang_shuo_name" #说
+	dynasty_house="uuii_book_house_70fdad8d450a"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="6"
+	stewardship="9"
+	intrigue="5"
+	learning="7"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	743.7.1={
+		birth=yes
+	}
+	808.7.1={
+		death=yes
+	}
+}
+
+##### 【柳远】
+liu_yuan_2={
+	name="uuii_book_liu_yuan_2_name" #远
+	dynasty_house="uuii_book_house_da53dddd13eb"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="7"
+	stewardship="9"
+	intrigue="8"
+	learning="6"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=no
+	450.7.1={
+		birth=yes
+	}
+	475.7.1={
+		death=yes
+	}
+}
+
+##### 【段末波】
+duan_mo_bo={
+	name="uuii_book_duan_mo_bo_name" #末波
+	dynasty_house="uuii_book_house_404694d34622"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="6"
+	stewardship="5"
+	intrigue="7"
+	learning="8"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	260.7.1={
+		birth=yes
+	}
+	325.7.1={
+		death=yes
+	}
+}
+
+##### 【毋丘甸】
+wu_qiu_dian={
+	name="uuii_book_wu_qiu_dian_name" #丘甸
+	dynasty_house="uuii_book_house_2a52961ea098"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="10"
+	stewardship="6"
+	intrigue="5"
+	learning="6"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	225.7.1={
+		birth=yes
+	}
+	290.7.1={
+		death=yes
+	}
+}
+
+##### 【毌丘俭年】
+guan_qiu_jian_nian={
+	name="uuii_book_guan_qiu_jian_nian_name" #俭年
+	dynasty_house="uuii_book_house_cd3548169511"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="5"
+	stewardship="5"
+	intrigue="5"
+	learning="7"
+	prowess="10"
+	health=5.5
+	disallow_random_traits=no
+	233.7.1={
+		birth=yes
+	}
+	298.7.1={
+		death=yes
+	}
+}
+
+##### 【温峤】
+wen_jiao={
+	name="uuii_book_wen_jiao_name" #峤
+	dynasty_house="uuii_book_house_84ab85435037"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="5"
+	stewardship="7"
+	intrigue="5"
+	learning="9"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	288.7.1={
+		birth=yes
+	}
+	329.7.1={
+		death=yes
+	}
+}
+
+##### 【潘承明】
+pan_cheng_ming={
+	name="uuii_book_pan_cheng_ming_name" #承明
+	dynasty_house="uuii_book_house_3bc42477aeee"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="8"
+	stewardship="6"
+	intrigue="8"
+	learning="4"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	219.7.1={
+		birth=yes
+	}
+	284.7.1={
+		death=yes
+	}
+}
+
+##### 【潘氏】
+pan_shi_3={
+	name="uuii_book_pan_shi_3_name" #氏
+	dynasty_house="uuii_book_house_d77429136367"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="8"
+	stewardship="8"
+	intrigue="7"
+	learning="4"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	220.7.1={
+		birth=yes
+	}
+	285.7.1={
+		death=yes
+	}
+}
+
+##### 【爨谷】
+cuan_gu={
+	name="uuii_book_cuan_gu_name" #谷
+	dynasty_house="uuii_book_house_f4420d2b7d2d"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="8"
+	stewardship="8"
+	intrigue="4"
+	learning="8"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	234.7.1={
+		birth=yes
+	}
+	299.7.1={
+		death=yes
+	}
+}
+
+##### 【王如】
+wang_ru={
+	name="uuii_book_wang_ru_name" #如
+	dynasty_house="uuii_book_house_45d7fc26014d"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="9"
+	stewardship="8"
+	intrigue="8"
+	learning="5"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=no
+	250.7.1={
+		birth=yes
+	}
+	315.7.1={
+		death=yes
+	}
+}
+
+##### 【王彪之】
+wang_biao_zhi={
+	name="uuii_book_wang_biao_zhi_name" #彪之
+	dynasty_house="uuii_book_house_cab5b8312dcd"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="6"
+	stewardship="9"
+	intrigue="6"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	305.7.1={
+		birth=yes
+	}
+	330.7.1={
+		death=yes
+	}
+}
+
+##### 【王恬】
+wang_tian={
+	name="uuii_book_wang_tian_name" #恬
+	dynasty_house="uuii_book_house_fe8e06b0fae4"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="9"
+	stewardship="4"
+	intrigue="8"
+	learning="4"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	314.7.1={
+		birth=yes
+	}
+	339.7.1={
+		death=yes
+	}
+}
+
+##### 【王氏】
+wang_shi_21={
+	name="uuii_book_wang_shi_21_name" #氏
+	dynasty_house="uuii_book_house_d584f3f40edb"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="7"
+	stewardship="8"
+	intrigue="8"
+	learning="5"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	240.7.1={
+		birth=yes
+	}
+	305.7.1={
+		death=yes
+	}
+}
+
+##### 【王氵麦】
+wang_shui_mai={
+	name="uuii_book_wang_shui_mai_name" #氵麦
+	dynasty_house="uuii_book_house_f252e977fad1"
+	culture="han"
+	faith="jingxue"
+	diplomacy="9"
+	martial="8"
+	stewardship="8"
+	intrigue="9"
+	learning="0"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	221.7.1={
+		birth=yes
+	}
+	286.7.1={
+		death=yes
+	}
+}
+
+##### 【王猛】
+wang_meng_3={
+	name="uuii_book_wang_meng_3_name" #猛
+	dynasty_house="uuii_book_house_4feb9ae0dd04"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="8"
+	stewardship="5"
+	intrigue="6"
+	learning="8"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	325.7.1={
+		birth=yes
+	}
+	375.7.1={
+		death=yes
+	}
+}
+
+##### 【王球】
+wang_qiu={
+	name="uuii_book_wang_qiu_name" #球
+	dynasty_house="uuii_book_house_8fda056ebccf"
+	culture="han"
+	faith="mahayana"
+	diplomacy="5"
+	martial="7"
+	stewardship="10"
+	intrigue="8"
+	learning="5"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	393.7.1={
+		birth=yes
+	}
+	441.7.1={
+		death=yes
+	}
+}
+
+##### 【王羲之】
+wang_xi_zhi={
+	name="uuii_book_wang_xi_zhi_name" #羲之
+	dynasty_house="uuii_book_house_272f2d0885de"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="8"
+	stewardship="7"
+	intrigue="6"
+	learning="9"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	321.7.1={
+		birth=yes
+	}
+	361.7.1={
+		death=yes
+	}
+}
+
+##### 【王黎】
+wang_li_3={
+	name="uuii_book_wang_li_3_name" #黎
+	dynasty_house="uuii_book_house_c8a9ced992f3"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="5"
+	stewardship="8"
+	intrigue="7"
+	learning="8"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	219.7.1={
+		birth=yes
+	}
+	284.7.1={
+		death=yes
+	}
+}
+
+##### 【甄氏】
+zhen_shi_6={
+	name="uuii_book_zhen_shi_6_name" #氏
+	dynasty_house="uuii_book_house_9eceb397b2fa"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="9"
+	stewardship="7"
+	intrigue="5"
+	learning="5"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	202.7.1={
+		birth=yes
+	}
+	267.7.1={
+		death=yes
+	}
+}
+
+##### 【石冰】
+shi_bing={
+	name="uuii_book_shi_bing_name" #冰
+	dynasty_house="uuii_book_house_30aec6afa155"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="8"
+	stewardship="7"
+	intrigue="5"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	250.7.1={
+		birth=yes
+	}
+	304.7.1={
+		death=yes
+	}
+}
+
+##### 【石文】
+shi_wen={
+	name="uuii_book_shi_wen_name" #文
+	dynasty_house="uuii_book_house_bb0a68e38b37"
+	culture="han"
+	faith="jingxue"
+	diplomacy="9"
+	martial="6"
+	stewardship="7"
+	intrigue="8"
+	learning="5"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	247.7.1={
+		birth=yes
+	}
+	312.7.1={
+		death=yes
+	}
+}
+
+##### 【石生】
+shi_sheng={
+	name="uuii_book_shi_sheng_name" #生
+	dynasty_house="uuii_book_house_40940b0ec319"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="8"
+	stewardship="7"
+	intrigue="6"
+	learning="6"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	268.7.1={
+		birth=yes
+	}
+	333.7.1={
+		death=yes
+	}
+}
+
+##### 【程祁公弘】
+cheng_qi_gong_hong={
+	name="uuii_book_cheng_qi_gong_hong_name" #祁公弘
+	dynasty_house="uuii_book_house_79600ada92f5"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="5"
+	stewardship="5"
+	intrigue="9"
+	learning="9"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	234.7.1={
+		birth=yes
+	}
+	299.7.1={
+		death=yes
+	}
+}
+
+##### 【范泰】
+fan_tai={
+	name="uuii_book_fan_tai_name" #泰
+	dynasty_house="uuii_book_house_8487b4747323"
+	father="fan_ning"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="6"
+	stewardship="7"
+	intrigue="6"
+	learning="8"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	355.7.1={
+		birth=yes
+	}
+	428.7.1={
+		death=yes
+	}
+}
+
+##### 【董荣】
+dong_rong={
+	name="uuii_book_dong_rong_name" #荣
+	dynasty_house="uuii_book_house_4814fdae671f"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="5"
+	stewardship="7"
+	intrigue="7"
+	learning="9"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=no
+	292.7.1={
+		birth=yes
+	}
+	357.7.1={
+		death=yes
+	}
+}
+
+##### 【诸葛氏】
+zhu_ge_shi_3={
+	name="uuii_book_zhu_ge_shi_3_name" #氏
+	dynasty_house="uuii_book_house_439a400b19bf"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="8"
+	stewardship="8"
+	intrigue="6"
+	learning="8"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=no
+	214.7.1={
+		birth=yes
+	}
+	279.7.1={
+		death=yes
+	}
+}
+
+##### 【谢慈】
+xie_ci={
+	name="uuii_book_xie_ci_name" #慈
+	dynasty_house="uuii_book_house_eb60cf3eb2a6"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="5"
+	intrigue="9"
+	learning="5"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	240.7.1={
+		birth=yes
+	}
+	305.7.1={
+		death=yes
+	}
+}
+
+##### 【谢鲲】
+xie_kun={
+	name="uuii_book_xie_kun_name" #鲲
+	dynasty_house="uuii_book_house_5957cb9b8c90"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="8"
+	stewardship="8"
+	intrigue="7"
+	learning="7"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	281.7.1={
+		birth=yes
+	}
+	306.7.1={
+		death=yes
+	}
+}
+
+##### 【费文伟】
+fei_wen_wei={
+	name="uuii_book_fei_wen_wei_name" #文伟
+	dynasty_house="uuii_book_house_24adbd61efa3"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="6"
+	stewardship="9"
+	intrigue="6"
+	learning="5"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	204.7.1={
+		birth=yes
+	}
+	269.7.1={
+		death=yes
+	}
+}
+
+##### 【费韦】
+fei_wei={
+	name="uuii_book_fei_wei_name" #韦
+	dynasty_house="uuii_book_house_cf08c2f9dc3e"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="8"
+	stewardship="7"
+	intrigue="6"
+	learning="8"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=no
+	212.7.1={
+		birth=yes
+	}
+	277.7.1={
+		death=yes
+	}
+}
+
+##### 【赵泉】
+zhao_quan={
+	name="uuii_book_zhao_quan_name" #泉
+	dynasty_house="uuii_book_house_d4d0c87aee5d"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="7"
+	stewardship="8"
+	intrigue="8"
+	learning="8"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	213.7.1={
+		birth=yes
+	}
+	278.7.1={
+		death=yes
+	}
+}
+
+##### 【赵蕤】
+zhao_rui_3={
+	name="uuii_book_zhao_rui_3_name" #蕤
+	dynasty_house="uuii_book_house_cb22ea3e8777"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="9"
+	stewardship="8"
+	intrigue="6"
+	learning="5"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	700.7.1={
+		birth=yes
+	}
+	725.7.1={
+		death=yes
+	}
+}
+
+##### 【邓氏】
+deng_shi_8={
+	name="uuii_book_deng_shi_8_name" #氏
+	dynasty_house="uuii_book_house_53153c7b27a9"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="8"
+	stewardship="8"
+	intrigue="7"
+	learning="4"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	234.7.1={
+		birth=yes
+	}
+	299.7.1={
+		death=yes
+	}
+}
+
+##### 【邓生】
+deng_sheng_3={
+	name="uuii_book_deng_sheng_3_name" #生
+	dynasty_house="uuii_book_house_9efc7ca11ba4"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="8"
+	stewardship="8"
+	intrigue="7"
+	learning="4"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	231.7.1={
+		birth=yes
+	}
+	296.7.1={
+		death=yes
+	}
+}
+
+##### 【郭氏】
+guo_shi_12={
+	name="uuii_book_guo_shi_12_name" #氏
+	dynasty_house="uuii_book_house_4884a5ee1e6a"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="8"
+	stewardship="8"
+	intrigue="4"
+	learning="8"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	202.7.1={
+		birth=yes
+	}
+	267.7.1={
+		death=yes
+	}
+}
+
+##### 【阎续伯】
+yan_xu_bo={
+	name="uuii_book_yan_xu_bo_name" #续伯
+	dynasty_house="uuii_book_house_e2f04d649449"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="6"
+	stewardship="6"
+	intrigue="8"
+	learning="5"
+	prowess="9"
+	health=5.5
+	disallow_random_traits=no
+	218.7.1={
+		birth=yes
+	}
+	283.7.1={
+		death=yes
+	}
+}
+
+##### 【陈思文】
+chen_si_wen={
+	name="uuii_book_chen_si_wen_name" #思文
+	dynasty_house="uuii_book_house_6ee9f3d723d2"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="4"
+	stewardship="8"
+	intrigue="7"
+	learning="5"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	204.7.1={
+		birth=yes
+	}
+	269.7.1={
+		death=yes
+	}
+}
+
+##### 【雍门】
+yong_men={
+	name="uuii_book_yong_men_name" #门
+	dynasty_house="uuii_book_house_70ea0514df8f"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="8"
+	stewardship="7"
+	intrigue="6"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	233.7.1={
+		birth=yes
+	}
+	298.7.1={
+		death=yes
+	}
+}
+
+##### 【韦皋】
+wei_gao={
+	name="uuii_book_wei_gao_name" #皋
+	dynasty_house="uuii_book_house_23ffc9c4866c"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="5"
+	stewardship="6"
+	intrigue="5"
+	learning="9"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	745.7.1={
+		birth=yes
+	}
+	805.7.1={
+		death=yes
+	}
+}
+
+##### 【韩俨】
+han_yan_3={
+	name="uuii_book_han_yan_3_name" #俨
+	dynasty_house="uuii_book_house_3c4beb554396"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="8"
+	intrigue="6"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	231.7.1={
+		birth=yes
+	}
+	296.7.1={
+		death=yes
+	}
+}
+
+##### 【顾恺之】
+gu_kai_zhi={
+	name="uuii_book_gu_kai_zhi_name" #恺之
+	dynasty_house="uuii_book_house_267eb8496170"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="5"
+	stewardship="8"
+	intrigue="9"
+	learning="9"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	345.7.1={
+		birth=yes
+	}
+	406.7.1={
+		death=yes
+	}
+}
+
+##### 【魏氏】
+wei_shi_5={
+	name="uuii_book_wei_shi_5_name" #氏
+	dynasty_house="uuii_book_house_dda5243ed549"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="5"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	207.7.1={
+		birth=yes
+	}
+	272.7.1={
+		death=yes
+	}
+}
+
+##### 【黄吴】
+huang_wu={
+	name="uuii_book_huang_wu_name" #吴
+	dynasty_house="uuii_book_house_35bb67f2e59e"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="8"
+	stewardship="7"
+	intrigue="6"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	218.7.1={
+		birth=yes
+	}
+	283.7.1={
+		death=yes
+	}
+}
+
+##### 【黎韬】
+li_tao={
+	name="uuii_book_li_tao_name" #韬
+	dynasty_house="uuii_book_house_5a9cf982c55f"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="5"
+	learning="8"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	231.7.1={
+		birth=yes
+	}
+	296.7.1={
+		death=yes
+	}
+}
+
+##### 【仓舒】
+cang_shu={
+	name="uuii_book_cang_shu_name" #仓舒
+	dynasty_house="uuii_book_house_5dac3d667fc1"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="8"
+	stewardship="6"
+	intrigue="7"
+	learning="5"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	225.7.1={
+		birth=yes
+	}
+	290.7.1={
+		death=yes
+	}
+}
+
+##### 【公理】
+gong_li_2={
+	name="uuii_book_gong_li_2_name" #公理
+	dynasty_house="uuii_book_house_3473878c4971"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="5"
+	stewardship="6"
+	intrigue="6"
+	learning="5"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	215.7.1={
+		birth=yes
+	}
+	280.7.1={
+		death=yes
+	}
+}
+
+##### 【孔怿】
+kong_yi_4={
+	name="uuii_book_kong_yi_4_name" #孔怿
+	dynasty_house="uuii_book_house_aaafafe075f2"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="5"
+	stewardship="6"
+	intrigue="6"
+	learning="9"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	215.7.1={
+		birth=yes
+	}
+	280.7.1={
+		death=yes
+	}
+}
+
+##### 【季文】
+ji_wen_2={
+	name="uuii_book_ji_wen_2_name" #季文
+	dynasty_house="uuii_book_house_a032918e1f15"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	209.7.1={
+		birth=yes
+	}
+	274.7.1={
+		death=yes
+	}
+}
+
+##### 【德鲁】
+de_lu={
+	name="uuii_book_de_lu_name" #德鲁
+	dynasty_house="uuii_book_house_179b4389c84d"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="6"
+	stewardship="7"
+	intrigue="8"
+	learning="7"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=no
+	231.7.1={
+		birth=yes
+	}
+	296.7.1={
+		death=yes
+	}
+}
+
+##### 【思和】
+si_he={
+	name="uuii_book_si_he_name" #思和
+	dynasty_house="uuii_book_house_e827d6bbf9aa"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="5"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	234.7.1={
+		birth=yes
+	}
+	299.7.1={
+		death=yes
+	}
+}
+
+##### 【文衡】
+wen_heng={
+	name="uuii_book_wen_heng_name" #文衡
+	dynasty_house="uuii_book_house_8447ba494923"
+	culture="han"
+	faith="jingxue"
+	diplomacy="8"
+	martial="5"
+	stewardship="7"
+	intrigue="6"
+	learning="9"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	234.7.1={
+		birth=yes
+	}
+	299.7.1={
+		death=yes
+	}
+}
+
+##### 【文豹】
+wen_bao={
+	name="uuii_book_wen_bao_name" #文豹
+	dynasty_house="uuii_book_house_71dcce0cb525"
+	culture="han"
+	faith="jingxue"
+	diplomacy="4"
+	martial="8"
+	stewardship="8"
+	intrigue="8"
+	learning="8"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=no
+	234.7.1={
+		birth=yes
+	}
+	299.7.1={
+		death=yes
+	}
+}
+
+##### 【显世】
+xian_shi={
+	name="uuii_book_xian_shi_name" #显世
+	dynasty_house="uuii_book_house_66e204547afd"
+	culture="han"
+	faith="jingxue"
+	diplomacy="7"
+	martial="8"
+	stewardship="6"
+	intrigue="6"
+	learning="5"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	220.7.1={
+		birth=yes
+	}
+	285.7.1={
+		death=yes
+	}
+}
+
+##### 【熈伯】
+xi_bo={
+	name="uuii_book_xi_bo_name" #熈伯
+	dynasty_house="uuii_book_house_53407d1fd0a3"
+	culture="han"
+	faith="jingxue"
+	diplomacy="6"
+	martial="6"
+	stewardship="8"
+	intrigue="6"
+	learning="8"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	215.7.1={
+		birth=yes
+	}
+	280.7.1={
+		death=yes
+	}
+}
+
+##### 【道言】
+dao_yan={
+	name="uuii_book_dao_yan_name" #道言
+	dynasty_house="uuii_book_house_f0452f7c185a"
+	culture="han"
+	faith="jingxue"
+	diplomacy="5"
+	martial="9"
+	stewardship="5"
+	intrigue="7"
+	learning="9"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	241.7.1={
+		birth=yes
+	}
+	306.7.1={
+		death=yes
+	}
+}

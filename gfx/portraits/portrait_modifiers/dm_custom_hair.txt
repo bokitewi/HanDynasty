@@ -1,0 +1,23 @@
+﻿# Make sure the weights here match up best as possible with the hairstyles set
+chinese_hair = {
+	usage = customization
+	interface_position = 0
+	priority = 5
+
+	### TGP - Asia ###
+
+	add_accessory_modifiers = {
+		gene = hairstyles
+		template = tgp_chinese_hairstyles
+		is_valid_custom = {
+			has_tgp_dlc_trigger = yes
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+		        portrait_chinese_clothing_trigger = yes
+			}
+		}
+	}
+}

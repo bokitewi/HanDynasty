@@ -1,0 +1,9 @@
+house_hd_bo = {
+	name = "house_hd_bo_name"
+	dynasty = "dynasty_hd_bo"
+}
+
+house_hd_zhang_mancheng = {
+	name = "house_hd_zhang_mancheng_name"
+	dynasty = "dynasty_hd_zhang_mancheng"
+}

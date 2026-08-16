@@ -1,0 +1,338 @@
+﻿silk_road_situation = {
+	illustration = "gfx/interface/illustrations/decisions/tgp_silk_road.dds"
+	situation_group_type = minor
+	gui_tooltip_group_focused = yes
+	is_unique = yes
+	map_mode = silk_road
+	window = silk_road
+	gui_window_name = "window_silk_road"
+
+	sub_regions = {
+		region_silk_road_eastern_section = {
+			geographical_regions = { uuii_silk_road_subregion_eastern }
+			capital_province = 867
+			map_color = { 0 168 107 }
+		}
+		region_silk_road_middle_northern_route = {
+			geographical_regions = { uuii_silk_road_subregion_middle_north }
+			capital_province = 6454
+			map_color = { 57 105 168 }
+		}
+		region_silk_road_middle_southern_route = {
+			geographical_regions = { uuii_silk_road_subregion_middle_south }
+			capital_province = 6152
+			map_color = { 239 208 40 }
+		}
+		region_silk_road_western_section = {
+			geographical_regions = { uuii_silk_road_subregion_western }
+			capital_province = 5024
+			map_color = { 164 72 138 }
+		}
+	}
+
+	# The vanilla neutral_situation event chain is hard-coded to six regions and
+	# enters through a character-only trigger_event effect. The four-section map
+	# performs its maintenance directly from the verified situation yearly scope.
+	on_start = {
+		set_variable = {
+			name = innovation_travel_countdown
+			value = define:NSilkRoad|INNOVATION_TRAVEL_DURATION
+		}
+		if = {
+			limit = { has_tgp_dlc_trigger = yes }
+			# The project overrides vanilla common/on_action/game_start.txt, so run
+			# the original TGP culture-innovation registration here before selecting
+			# the four starting innovations.
+			tgp_silk_road_innovation_setup_effect = yes
+			tgp_silk_road_starting_innovations_effect = yes
+		}
+	}
+
+	on_yearly = {
+		situation_sub_region:region_silk_road_eastern_section ?= {
+			tgp_silk_road_downstream_effect = yes
+		}
+		situation_sub_region:region_silk_road_middle_northern_route ?= {
+			tgp_silk_road_downstream_effect = yes
+		}
+		situation_sub_region:region_silk_road_middle_southern_route ?= {
+			tgp_silk_road_downstream_effect = yes
+		}
+		situation_sub_region:region_silk_road_western_section ?= {
+			tgp_silk_road_downstream_effect = yes
+		}
+		change_variable = {
+			name = innovation_travel_countdown
+			add = -1
+		}
+		if = {
+			limit = { var:innovation_travel_countdown ?= 0 }
+			# Resolve downstream first so each innovation advances exactly one section.
+			tgp_silk_road_movement_stream_effect = {
+				SUB_REGION = situation_sub_region:region_silk_road_western_section
+				UPSTREAM_SUB_REGION = situation_sub_region:region_silk_road_middle_northern_route
+			}
+			tgp_silk_road_movement_stream_effect = {
+				SUB_REGION = situation_sub_region:region_silk_road_middle_northern_route
+				UPSTREAM_SUB_REGION = situation_sub_region:region_silk_road_eastern_section
+			}
+			tgp_silk_road_movement_stream_effect = {
+				SUB_REGION = situation_sub_region:region_silk_road_middle_southern_route
+				UPSTREAM_SUB_REGION = situation_sub_region:region_silk_road_eastern_section
+			}
+			tgp_silk_road_movement_china_effect = yes
+			change_variable = {
+				name = innovation_travel_countdown
+				add = define:NSilkRoad|INNOVATION_TRAVEL_DURATION
+			}
+		}
+	}
+
+	participant_groups = {
+		china_realm = {
+			icon = "gfx/interface/icons/silk_road_group_types/icon_silk_road_lands_under_heaven.dds"
+			require_capital_in_sub_region = yes
+			is_character_valid = {
+				is_landed = yes
+				is_independent_ruler = yes
+				highest_held_title_tier >= tier_county
+				OR = {
+					capital_province = { geographical_region = uuii_silk_road_subregion_eastern }
+					any_held_title = {
+						tier = tier_county
+						title_province = { geographical_region = uuii_silk_road_subregion_eastern }
+					}
+				}
+				NOT = { has_government = nomad_government }
+			}
+			map_color = hsv{ 0.1 1 1 }
+		}
+		silk_road_domain = {
+			icon = "gfx/interface/icons/silk_road_group_types/icon_silk_road_domain.dds"
+			require_capital_in_sub_region = yes
+			is_character_valid = {
+				is_landed = yes
+				highest_held_title_tier >= tier_county
+				OR = {
+					capital_province = { geographical_region = dlc_tgp_silk_road_route_region }
+					any_held_title = {
+						tier = tier_county
+						title_province = { geographical_region = dlc_tgp_silk_road_route_region }
+					}
+				}
+				NOT = { has_government = nomad_government }
+			}
+			map_color = hsv{ 0.22 0.5 1 }
+		}
+		silk_road_realm = {
+			icon = "gfx/interface/icons/silk_road_group_types/icon_silk_road_realm.dds"
+			require_capital_in_sub_region = yes
+			is_character_valid = {
+				is_landed = yes
+				highest_held_title_tier >= tier_county
+				any_sub_realm_county = {
+					title_province = { geographical_region = dlc_tgp_silk_road_route_region }
+				}
+				NOT = { has_government = nomad_government }
+			}
+			map_color = hsv{ 0.15 0.75 1 }
+		}
+		silk_road_periphery = {
+			icon = "gfx/interface/icons/silk_road_group_types/icon_silk_road_peripheral_ruler.dds"
+			require_capital_in_sub_region = yes
+			is_character_valid = {
+				is_landed = yes
+				highest_held_title_tier >= tier_county
+				NOT = { has_government = nomad_government }
+			}
+			map_color = hsv{ 0.66 0.33 0.50 }
+		}
+		silk_road_nomad = {
+			icon = "gfx/interface/icons/silk_road_group_types/icon_silk_road_steppe_nomads.dds"
+			require_realm_in_sub_region = yes
+			is_character_valid = {
+				is_ruler = yes
+				highest_held_title_tier >= tier_county
+				has_government = nomad_government
+			}
+			map_color = hsv{ 0.55 0.22 1 }
+		}
+	}
+
+	start_phase = phase_steady_trading
+	use_situation_phase_flat_icons = no
+
+	phases = {
+		phase_exceptional_bounty = {
+			icon = "gfx/interface/icons/situations/debug_situation/flood.dds"
+			max_duration = { years = 8 }
+			parameters = { good_phase = yes }
+			future_phases = {
+				phase_steady_trading = {
+					takeover_type = points
+					takeover_points = 500
+					catalysts = {
+						catalyst_silk_road_region_war = silk_road_downstream_primary_value
+						catalyst_silk_road_adjacent_upstream_region_war = silk_road_downstream_secondary_value
+						catalyst_silk_road_distant_upstream_region_war = silk_road_downstream_tertiary_value
+						catalyst_silk_road_china_consolidation = silk_road_steppe_china_consolidation_value
+						catalyst_silk_road_mongol_devastation = silk_road_mongol_devastation_value
+						catalyst_silk_road_raided = silk_road_raid_value
+					}
+				}
+			}
+			modifier_sets = {
+				silk_road_phase_effects = {
+					icon = "gfx/interface/icons/modifiers/goods_positive.dds"
+					all = {
+						character_modifier = { cultural_head_fascination_mult = 0.05 }
+						county_modifier = { development_growth_factor = 0.02 epidemic_resistance = -10 }
+					}
+					china_realm = { character_modifier = { domain_tax_mult = 0.02 } }
+					silk_road_domain = {
+						character_modifier = { domain_tax_mult = 0.02 }
+						county_modifier = { development_growth = 0.01 }
+					}
+					silk_road_realm = { character_modifier = { domain_tax_mult = 0.02 } }
+					silk_road_periphery = { character_modifier = { domain_tax_mult = 0.01 } }
+					silk_road_nomad = {
+						character_modifier = { domicile_travel_speed = 0.1 herd_conversion = 0.007 }
+						county_modifier = { county_fertility_growth_mult = -0.02 }
+					}
+				}
+			}
+			on_start = {
+				tgp_silk_road_phase_message_effect = yes
+				scope:situation_sub_region = {
+					every_situation_sub_region_county = {
+						limit = { title_province = { geographical_region = dlc_tgp_silk_road_route_region } }
+						add_county_modifier = { modifier = silk_road_exceptional_bounty_province_modifier }
+					}
+				}
+			}
+			on_end = {
+				scope:situation_sub_region = {
+					every_situation_sub_region_county = {
+						limit = { title_province = { geographical_region = dlc_tgp_silk_road_route_region } }
+						remove_county_modifier = silk_road_exceptional_bounty_province_modifier
+					}
+				}
+			}
+		}
+
+		phase_steady_trading = {
+			icon = "gfx/interface/icons/situations/debug_situation/plentiful_harvest.dds"
+			future_phases = {
+				phase_exceptional_bounty = {
+					takeover_type = points
+					takeover_points = 500
+					catalysts = {
+						catalyst_silk_road_region_peace = silk_road_downstream_primary_value
+						catalyst_silk_road_adjacent_upstream_region_peace = silk_road_downstream_secondary_value
+						catalyst_silk_road_distant_upstream_region_peace = silk_road_downstream_tertiary_value
+						catalyst_silk_road_china_stability = silk_road_steppe_china_stability_value
+						catalyst_silk_road_china_grand_canal_expanded = silk_road_steppe_canal_built_primary_value
+						catalyst_silk_road_china_grand_canal_expanded_secondary = silk_road_steppe_canal_built_secondary_value
+						catalyst_silk_road_china_grand_canal_expanded_tertiary = silk_road_steppe_canal_built_tertiary_value
+						catalyst_silk_road_mpo_region_resettled = silk_road_steppe_resettlement_value
+						catalyst_silk_road_famous_market_built = silk_road_steppe_market_built_value
+					}
+				}
+				phase_hardship = {
+					takeover_type = points
+					takeover_points = -500
+					catalysts = {
+						catalyst_silk_road_region_war = silk_road_downstream_primary_negative_value
+						catalyst_silk_road_adjacent_upstream_region_war = silk_road_downstream_secondary_negative_value
+						catalyst_silk_road_distant_upstream_region_war = silk_road_downstream_tertiary_negative_value
+						catalyst_silk_road_china_consolidation = silk_road_steppe_china_consolidation_negative_value
+						catalyst_silk_road_mongol_devastation = silk_road_mongol_devastation_negative_value
+						catalyst_silk_road_raided = silk_road_raid_negative_value
+					}
+				}
+			}
+			modifier_sets = {
+				silk_road_phase_effects = {
+					icon = "gfx/interface/icons/modifiers/goods_mixed.dds"
+					all = {
+						character_modifier = { cultural_head_fascination_mult = 0.02 }
+						county_modifier = { development_growth = 0.01 epidemic_resistance = -5 }
+					}
+					china_realm = { character_modifier = { domain_tax_mult = 0.01 } }
+					silk_road_domain = { character_modifier = { domain_tax_mult = 0.01 } }
+					silk_road_nomad = { character_modifier = { herd_conversion = 0.005 } }
+				}
+			}
+			on_start = {
+				tgp_silk_road_phase_message_effect = yes
+				scope:situation_sub_region = {
+					every_situation_sub_region_county = {
+						limit = { title_province = { geographical_region = dlc_tgp_silk_road_route_region } }
+						add_county_modifier = { modifier = silk_road_steady_trading_province_modifier }
+					}
+				}
+			}
+			on_end = {
+				scope:situation_sub_region = {
+					every_situation_sub_region_county = {
+						limit = { title_province = { geographical_region = dlc_tgp_silk_road_route_region } }
+						remove_county_modifier = silk_road_steady_trading_province_modifier
+					}
+				}
+			}
+		}
+
+		phase_hardship = {
+			icon = "gfx/interface/icons/situations/debug_situation/flood.dds"
+			max_duration = { years = 8 }
+			future_phases = {
+				phase_steady_trading = {
+					takeover_type = points
+					takeover_points = 500
+					catalysts = {
+						catalyst_silk_road_region_peace = silk_road_downstream_primary_value
+						catalyst_silk_road_adjacent_upstream_region_peace = silk_road_downstream_secondary_value
+						catalyst_silk_road_distant_upstream_region_peace = silk_road_downstream_tertiary_value
+						catalyst_silk_road_china_stability = silk_road_steppe_china_stability_value
+						catalyst_silk_road_china_grand_canal_expanded = silk_road_steppe_canal_built_primary_value
+						catalyst_silk_road_china_grand_canal_expanded_secondary = silk_road_steppe_canal_built_secondary_value
+						catalyst_silk_road_china_grand_canal_expanded_tertiary = silk_road_steppe_canal_built_tertiary_value
+						catalyst_silk_road_mpo_region_resettled = silk_road_steppe_resettlement_value
+						catalyst_silk_road_famous_market_built = silk_road_steppe_market_built_value
+					}
+				}
+			}
+			modifier_sets = {
+				silk_road_phase_effects = {
+					icon = "gfx/interface/icons/modifiers/goods_negative.dds"
+					all = { county_modifier = { development_growth_factor = -0.02 } }
+					china_realm = { character_modifier = { legitimacy_loss_mult = 0.1 } }
+					silk_road_domain = { character_modifier = { domain_tax_mult = -0.02 } }
+					silk_road_realm = { character_modifier = { domain_tax_mult = -0.01 } }
+					silk_road_periphery = { character_modifier = { domain_tax_mult = -0.01 } }
+					silk_road_nomad = {
+						character_modifier = { herd_gain_mult = -0.005 }
+						county_modifier = { county_fertility_growth_mult = 0.02 }
+					}
+				}
+			}
+			on_start = {
+				tgp_silk_road_phase_message_effect = yes
+				scope:situation_sub_region = {
+					every_situation_sub_region_county = {
+						limit = { title_province = { geographical_region = dlc_tgp_silk_road_route_region } }
+						add_county_modifier = { modifier = silk_road_hardship_province_modifier }
+					}
+				}
+			}
+			on_end = {
+				scope:situation_sub_region = {
+					every_situation_sub_region_county = {
+						limit = { title_province = { geographical_region = dlc_tgp_silk_road_route_region } }
+						remove_county_modifier = silk_road_hardship_province_modifier
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,19 @@
+# Unsupported regional triggers disabled; public keys remain stable.
+
+gok_desirable_vassal_trigger = { always = no }
+gok_gov_switch_valid_vassal_trigger = { always = no }
+gok_willing_new_admin_vassal_trigger = { always = no }
+mpo_gok_auto_cultural_maa_trigger = { always = no }
+mpo_gok_coalition_member_trigger = { always = no }
+mpo_gok_submitting_coward_trigger = { always = no }
+mpo_greatest_of_khans_0030_dominated_nomad_vassal = { always = no }
+mpo_greatest_of_khans_0030_dominated_sedentary_vassal = { always = no }
+mpo_greatest_of_khans_0030_willing_nomad_vassal = { always = no }
+mpo_greatest_of_khans_0030_willing_sedentary_vassal = { always = no }
+mpo_has_gok_mongol_empire_trigger = { always = no }
+mpo_has_greatest_of_khans_nickname_trigger = { always = no }
+mpo_offer_submission_or_ruin_shown_actor_trigger = { always = no }
+mpo_offer_submission_or_ruin_shown_recipient_trigger = { always = no }
+mpo_offer_submission_or_ruin_valid_actor_trigger = { always = no }
+mpo_offer_submission_or_ruin_valid_recipient_trigger = { always = no }
+mpo_war_of_defiance_notified_player_trigger = { always = no }

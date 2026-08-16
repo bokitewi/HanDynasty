@@ -1,0 +1,11 @@
+﻿hd_sworn_brotherhood_declined = {
+	opinion = -25
+}
+
+opinion_betrayed_me = {
+	opinion = -50
+}
+
+opinion_expected_betrayal = {
+	opinion = -10
+}

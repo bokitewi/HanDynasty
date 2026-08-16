@@ -1,0 +1,47 @@
+﻿rp_rebuild_merit_roster_ui_list_effect = {
+	clear_variable_list = rp_merit_roster_ui_list
+	clear_variable_list = rp_merit_roster_ui_temp
+
+	rp_collect_merit_candidates_effect = yes
+	every_in_list = {
+		list = rp_merit_candidates
+		limit = { has_variable = rp_merit_score }
+		if = {
+			limit = { NOT = { has_variable = rp_merit_battles } }
+			set_variable = { name = rp_merit_battles value = 0 }
+		}
+		if = {
+			limit = { NOT = { has_variable = rp_merit_sieges } }
+			set_variable = { name = rp_merit_sieges value = 0 }
+		}
+		if = {
+			limit = { NOT = { has_variable = rp_merit_captures } }
+			set_variable = { name = rp_merit_captures value = 0 }
+		}
+		if = {
+			limit = {
+				has_character_flag = rp_founding_follower
+				NOT = { has_variable = rp_founding_seniority }
+			}
+			set_variable = { name = rp_founding_seniority value = 0 }
+		}
+	}
+	ordered_in_list = {
+		list = rp_merit_candidates
+		order_by = { value = var:rp_merit_score }
+		max = 100
+		check_range_bounds = no
+		root = {
+			add_to_variable_list = {
+				name = rp_merit_roster_ui_list
+				target = prev
+			}
+		}
+	}
+}
+
+rp_clear_merit_roster_ui_list_effect = {
+	clear_variable_list = rp_merit_roster_ui_list
+	clear_variable_list = rp_merit_roster_ui_temp
+}
+

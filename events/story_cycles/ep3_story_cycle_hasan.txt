@@ -1,0 +1,11 @@
+# Unsupported vanilla regional event chain retained only as inert public shells.
+namespace = hasan_sabbah
+
+hasan_sabbah.1000 = { type = character_event hidden = yes trigger = { always = no } }
+hasan_sabbah.1010 = { type = character_event hidden = yes trigger = { always = no } }
+hasan_sabbah.1020 = { type = character_event hidden = yes trigger = { always = no } }
+hasan_sabbah.1022 = { type = character_event hidden = yes trigger = { always = no } }
+hasan_sabbah.1030 = { type = character_event hidden = yes trigger = { always = no } }
+hasan_sabbah.1031 = { type = character_event hidden = yes trigger = { always = no } }
+hasan_sabbah.1040 = { type = character_event hidden = yes trigger = { always = no } }
+hasan_sabbah.1050 = { type = character_event hidden = yes trigger = { always = no } }

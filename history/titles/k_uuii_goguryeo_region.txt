@@ -1,0 +1,5 @@
+﻿d_gaojuli = {
+	184.1.1 = {
+		government = celestial_government
+	}
+}

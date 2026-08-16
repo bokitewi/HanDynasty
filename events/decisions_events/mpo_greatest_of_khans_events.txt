@@ -1,0 +1,24 @@
+# Unsupported vanilla regional event chain retained only as inert public shells.
+namespace = mpo_greatest_of_khans
+
+mpo_greatest_of_khans.0001 = { type = character_event hidden = yes trigger = { always = no } }
+mpo_greatest_of_khans.0002 = { type = character_event hidden = yes trigger = { always = no } }
+mpo_greatest_of_khans.0003 = { type = character_event hidden = yes trigger = { always = no } }
+mpo_greatest_of_khans.0020 = { type = character_event hidden = yes trigger = { always = no } }
+mpo_greatest_of_khans.0021 = { type = character_event hidden = yes trigger = { always = no } }
+mpo_greatest_of_khans.0022 = { type = character_event hidden = yes trigger = { always = no } }
+mpo_greatest_of_khans.0030 = { type = character_event hidden = yes trigger = { always = no } }
+mpo_greatest_of_khans.0040 = { type = character_event hidden = yes trigger = { always = no } }
+mpo_greatest_of_khans.0041 = { type = character_event hidden = yes trigger = { always = no } }
+mpo_greatest_of_khans.0050 = { type = character_event hidden = yes trigger = { always = no } }
+mpo_greatest_of_khans.0051 = { type = character_event hidden = yes trigger = { always = no } }
+mpo_greatest_of_khans.0100 = { type = character_event hidden = yes trigger = { always = no } }
+mpo_greatest_of_khans.0101 = { type = character_event hidden = yes trigger = { always = no } }
+mpo_greatest_of_khans.0102 = { type = character_event hidden = yes trigger = { always = no } }
+mpo_greatest_of_khans.0103 = { type = character_event hidden = yes trigger = { always = no } }
+mpo_greatest_of_khans.1001 = { type = character_event hidden = yes trigger = { always = no } }
+mpo_greatest_of_khans.1010 = { type = character_event hidden = yes trigger = { always = no } }
+
+scripted_trigger mpo_greatest_of_khans_0002_confederation_trigger = { always = no }
+scripted_trigger mpo_greatest_of_khans_0101_ideal_vassal_trigger = { always = no }
+scripted_trigger mpo_greatest_of_khans_0101_uninvolved_vassal_trigger = { always = no }

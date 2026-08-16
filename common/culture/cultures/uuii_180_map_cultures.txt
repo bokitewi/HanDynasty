@@ -1,0 +1,1400 @@
+
+dayuan = {
+	color = { 79 142 67 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_courtly
+	heritage = heritage_ancient_greek
+	language = language_ancient_greek
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_horse_breeder
+		tradition_city_keepers
+		tradition_philosopher_culture
+	}
+
+	name_list = name_list_greek
+
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+banshun = {
+	color = { 134 88 126 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_bellicose
+	heritage = heritage_uuii_nanman
+	language = language_hmongic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_forest_wardens
+		tradition_hill_dwellers
+		tradition_warrior_culture
+	}
+
+	name_list = name_list_han
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+byeonhan = {
+	color = { 112 78 68 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_communal
+	heritage = heritage_samhan
+	language = language_korean
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_agrarian
+		tradition_strong_kinship
+		tradition_martial_admiration
+	}
+
+	name_list = name_list_korean
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { korean_clothing_gfx chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+cheshi = {
+	color = { 106 207 132 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_egalitarian
+	heritage = heritage_uuii_cheshi
+	language = language_tocharian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_caravaneers
+		tradition_dryland_dwellers
+		tradition_city_keepers
+	}
+
+	name_list = name_list_tocharian
+
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+daner = {
+	color = { 66 86 97 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_communal
+	heritage = heritage_baiyue
+	language = language_baiyue
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_seafaring
+		tradition_fishermen
+		tradition_jungle_dwellers
+	}
+
+	name_list = name_list_han
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+dian = {
+	color = { 80 132 54 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_communal
+	heritage = heritage_uuii_xinanman
+	language = language_baipu
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_hill_dwellers
+		tradition_agrarian
+		tradition_religion_blending
+	}
+
+	name_list = name_list_han
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+gufu = {
+	color = { 141 124 116 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_communal
+	heritage = heritage_uuii_xinanman
+	language = language_baipu
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_hill_dwellers
+		tradition_agrarian
+		tradition_religion_blending
+	}
+
+	name_list = name_list_han
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+jiangxia_man = {
+	color = { 108 51 99 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_bellicose
+	heritage = heritage_uuii_nanman
+	language = language_hmongic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_forest_wardens
+		tradition_hill_dwellers
+		tradition_warrior_culture
+	}
+
+	name_list = name_list_han
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+luoyue = {
+	color = { 50 98 100 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_communal
+	heritage = heritage_baiyue
+	language = language_baiyue
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_seafaring
+		tradition_fishermen
+		tradition_jungle_dwellers
+	}
+
+	name_list = name_list_han
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+jinhan = {
+	color = { 142 159 118 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_communal
+	heritage = heritage_samhan
+	language = language_korean
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_agrarian
+		tradition_strong_kinship
+		tradition_martial_admiration
+	}
+
+	name_list = name_list_korean
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { korean_clothing_gfx chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+jiuzhenyue = {
+	color = { 125 205 194 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_communal
+	heritage = heritage_baiyue
+	language = language_baiyue
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_seafaring
+		tradition_fishermen
+		tradition_jungle_dwellers
+	}
+
+	name_list = name_list_han
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+juandu = {
+	color = { 67 55 92 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_egalitarian
+	heritage = heritage_uuii_juandu
+	language = language_iranian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_caravaneers
+		tradition_dryland_dwellers
+		tradition_city_keepers
+	}
+
+	name_list = name_list_sogdian
+
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+kangju = {
+	color = { 51 201 108 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_egalitarian
+	heritage = heritage_uuii_kangju
+	language = language_iranian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_caravaneers
+		tradition_dryland_dwellers
+		tradition_city_keepers
+	}
+
+	name_list = name_list_sogdian
+
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+khotan = {
+	color = { 109 206 140 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_egalitarian
+	heritage = heritage_uuii_khotan
+	language = language_iranian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_caravaneers
+		tradition_dryland_dwellers
+		tradition_city_keepers
+	}
+
+	name_list = name_list_sogdian
+
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+kucha = {
+	color = { 72 156 107 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_egalitarian
+	heritage = heritage_uuii_kucha
+	language = language_tocharian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_caravaneers
+		tradition_dryland_dwellers
+		tradition_city_keepers
+	}
+
+	name_list = name_list_tocharian
+
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+kunming = {
+	color = { 68 132 194 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_communal
+	heritage = heritage_uuii_xinanman
+	language = language_baipu
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_hill_dwellers
+		tradition_agrarian
+		tradition_religion_blending
+	}
+
+	name_list = name_list_han
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+kunu = {
+	color = { 128 78 132 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_communal
+	heritage = heritage_wa
+	language = language_japonic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_seafaring
+		tradition_mystical_ancestors
+		tradition_isolationist
+	}
+
+	name_list = name_list_yamato
+
+	coa_gfx = { japanese_coa_gfx }
+	building_gfx = { japanese_building_gfx }
+	clothing_gfx = { japanese_clothing_gfx }
+	unit_gfx = { japanese_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+lushuihu = {
+	color = { 177 119 67 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_bellicose
+	heritage = heritage_uuii_xiongnu
+	language = language_turkic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_horse_breeder
+		tradition_pastoralists
+		tradition_steppe_tolerance
+	}
+
+	name_list = name_list_xiongnu
+
+	coa_gfx = { mongol_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+mahan = {
+	color = { 130 69 55 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_communal
+	heritage = heritage_samhan
+	language = language_korean
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_agrarian
+		tradition_strong_kinship
+		tradition_martial_admiration
+	}
+
+	name_list = name_list_korean
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { korean_clothing_gfx chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+nanyue = {
+	color = { 207 109 142 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_communal
+	heritage = heritage_baiyue
+	language = language_baiyue
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_seafaring
+		tradition_fishermen
+		tradition_jungle_dwellers
+	}
+
+	name_list = name_list_han
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+pishan = {
+	color = { 189 94 153 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_egalitarian
+	heritage = heritage_uuii_pishan
+	language = language_iranian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_caravaneers
+		tradition_dryland_dwellers
+		tradition_city_keepers
+	}
+
+	name_list = name_list_sogdian
+
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+pulei = {
+	color = { 97 124 103 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_egalitarian
+	heritage = heritage_uuii_pulei
+	language = language_tocharian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_caravaneers
+		tradition_dryland_dwellers
+		tradition_city_keepers
+	}
+
+	name_list = name_list_tocharian
+
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+qiemo = {
+	color = { 63 48 148 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_egalitarian
+	heritage = heritage_uuii_qiemo
+	language = language_iranian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_caravaneers
+		tradition_dryland_dwellers
+		tradition_city_keepers
+	}
+
+	name_list = name_list_sogdian
+
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+qiongdu = {
+	color = { 48 130 98 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_communal
+	heritage = heritage_uuii_xinanman
+	language = language_baipu
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_hill_dwellers
+		tradition_agrarian
+		tradition_religion_blending
+	}
+
+	name_list = name_list_han
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+qule = {
+	color = { 92 121 115 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_egalitarian
+	heritage = heritage_uuii_qule
+	language = language_iranian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_caravaneers
+		tradition_dryland_dwellers
+		tradition_city_keepers
+	}
+
+	name_list = name_list_sogdian
+
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+qumi = {
+	color = { 113 104 142 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_egalitarian
+	heritage = heritage_uuii_qumi
+	language = language_iranian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_caravaneers
+		tradition_dryland_dwellers
+		tradition_city_keepers
+	}
+
+	name_list = name_list_sogdian
+
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+ranpang = {
+	color = { 131 205 130 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_communal
+	heritage = heritage_uuii_xinanman
+	language = language_baipu
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_hill_dwellers
+		tradition_agrarian
+		tradition_religion_blending
+	}
+
+	name_list = name_list_han
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+ruoqiang = {
+	color = { 205 188 185 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_bellicose
+	heritage = heritage_qiang
+	language = language_qiangic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_mountaineers
+		tradition_pastoralists
+		tradition_caravaneers
+	}
+
+	name_list = name_list_diren
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+shache = {
+	color = { 99 109 200 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_egalitarian
+	heritage = heritage_uuii_shache
+	language = language_iranian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_caravaneers
+		tradition_dryland_dwellers
+		tradition_city_keepers
+	}
+
+	name_list = name_list_sogdian
+
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+shanguo = {
+	color = { 183 137 159 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_egalitarian
+	heritage = heritage_uuii_shanguo
+	language = language_iranian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_caravaneers
+		tradition_dryland_dwellers
+		tradition_city_keepers
+	}
+
+	name_list = name_list_sogdian
+
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+shanshan = {
+	color = { 196 80 49 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_egalitarian
+	heritage = heritage_uuii_shanshan
+	language = language_iranian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_caravaneers
+		tradition_dryland_dwellers
+		tradition_city_keepers
+	}
+
+	name_list = name_list_sogdian
+
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+shanyue = {
+	color = { 136 110 73 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_communal
+	heritage = heritage_baiyue
+	language = language_baiyue
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_seafaring
+		tradition_fishermen
+		tradition_jungle_dwellers
+	}
+
+	name_list = name_list_han
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+shaodang = {
+	color = { 64 56 190 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_bellicose
+	heritage = heritage_qiang
+	language = language_qiangic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_mountaineers
+		tradition_pastoralists
+		tradition_caravaneers
+	}
+
+	name_list = name_list_diren
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+shule = {
+	color = { 136 107 166 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_egalitarian
+	heritage = heritage_uuii_shule
+	language = language_iranian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_caravaneers
+		tradition_dryland_dwellers
+		tradition_city_keepers
+	}
+
+	name_list = name_list_sogdian
+
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+wa = {
+	color = { 52 114 85 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_communal
+	heritage = heritage_wa
+	language = language_japonic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_seafaring
+		tradition_mystical_ancestors
+		tradition_isolationist
+	}
+
+	name_list = name_list_yamato
+
+	coa_gfx = { japanese_coa_gfx }
+	building_gfx = { japanese_building_gfx }
+	clothing_gfx = { japanese_clothing_gfx }
+	unit_gfx = { japanese_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+weixu = {
+	color = { 69 95 101 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_egalitarian
+	heritage = heritage_uuii_weixu
+	language = language_tocharian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_caravaneers
+		tradition_dryland_dwellers
+		tradition_city_keepers
+	}
+
+	name_list = name_list_tocharian
+
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+wuhu = {
+	color = { 169 185 124 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_communal
+	heritage = heritage_baiyue
+	language = language_baiyue
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_seafaring
+		tradition_fishermen
+		tradition_jungle_dwellers
+	}
+
+	name_list = name_list_han
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+wuling = {
+	color = { 139 100 89 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_bellicose
+	heritage = heritage_uuii_nanman
+	language = language_hmongic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_forest_wardens
+		tradition_hill_dwellers
+		tradition_warrior_culture
+	}
+
+	name_list = name_list_han
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+wusun = {
+	color = { 95 77 112 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_egalitarian
+	heritage = heritage_uuii_wusun
+	language = language_iranian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_caravaneers
+		tradition_dryland_dwellers
+		tradition_city_keepers
+	}
+
+	name_list = name_list_sogdian
+
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+xianling = {
+	color = { 151 193 151 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_bellicose
+	heritage = heritage_qiang
+	language = language_qiangic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_mountaineers
+		tradition_pastoralists
+		tradition_caravaneers
+	}
+
+	name_list = name_list_diren
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+xiaowan = {
+	color = { 110 202 148 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_egalitarian
+	heritage = heritage_uuii_xiaowan
+	language = language_iranian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_caravaneers
+		tradition_dryland_dwellers
+		tradition_city_keepers
+	}
+
+	name_list = name_list_sogdian
+
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+xiutu = {
+	color = { 77 134 85 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_bellicose
+	heritage = heritage_uuii_xiongnu
+	language = language_turkic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_horse_breeder
+		tradition_pastoralists
+		tradition_steppe_tolerance
+	}
+
+	name_list = name_list_xiongnu
+
+	coa_gfx = { mongol_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+xiuxun = {
+	color = { 100 171 92 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_egalitarian
+	heritage = heritage_uuii_xiuxun
+	language = language_iranian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_caravaneers
+		tradition_dryland_dwellers
+		tradition_city_keepers
+	}
+
+	name_list = name_list_sogdian
+
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+yamatai = {
+	color = { 190 88 187 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_communal
+	heritage = heritage_wa
+	language = language_japonic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_seafaring
+		tradition_mystical_ancestors
+		tradition_isolationist
+	}
+
+	name_list = name_list_yamato
+
+	coa_gfx = { japanese_coa_gfx }
+	building_gfx = { japanese_building_gfx }
+	clothing_gfx = { japanese_clothing_gfx }
+	unit_gfx = { japanese_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+ye = {
+	color = { 64 127 70 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_bellicose
+	heritage = heritage_goguryeo
+	language = language_korean
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_castle_keepers
+		tradition_horse_breeder
+		tradition_warriors_by_merit
+	}
+
+	name_list = name_list_korean
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { korean_clothing_gfx chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+yelang = {
+	color = { 176 121 105 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_communal
+	heritage = heritage_uuii_xinanman
+	language = language_baipu
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_hill_dwellers
+		tradition_agrarian
+		tradition_religion_blending
+	}
+
+	name_list = name_list_han
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+zhongqiang = {
+	color = { 205 135 107 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_bellicose
+	heritage = heritage_qiang
+	language = language_qiangic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_mountaineers
+		tradition_pastoralists
+		tradition_caravaneers
+	}
+
+	name_list = name_list_diren
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+zhouhu = {
+	color = { 63 68 73 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_communal
+	heritage = heritage_samhan
+	language = language_korean
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_agrarian
+		tradition_strong_kinship
+		tradition_martial_admiration
+	}
+
+	name_list = name_list_korean
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { korean_clothing_gfx chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+zhuyai = {
+	color = { 126 196 147 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_communal
+	heritage = heritage_baiyue
+	language = language_baiyue
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_seafaring
+		tradition_fishermen
+		tradition_jungle_dwellers
+	}
+
+	name_list = name_list_han
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}
+
+zuodu = {
+	color = { 185 55 145 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_communal
+	heritage = heritage_uuii_xinanman
+	language = language_baipu
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_hill_dwellers
+		tradition_agrarian
+		tradition_religion_blending
+	}
+
+	name_list = name_list_han
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+
+	ethnicities = {
+		100 = asian
+	}
+}

@@ -1,0 +1,256 @@
+# Generated from 華陽國志、三國志、三國演義、後漢書 and 漢晉春秋.
+# Culture: jiaozhou
+# Time partition: 180_200 (death >= 180 and birth <= 200).
+# No title history is assigned. Dates marked in the evidence audit may be estimates.
+
+##### 【士桓】
+shi_huan_2={
+	name="uuii_book_shi_huan_2_name" #桓
+	dynasty_house="house_111010483001013"
+	culture="jiaozhou"
+	faith="jingxue"
+	diplomacy="6"
+	martial="7"
+	stewardship="6"
+	intrigue="9"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	117.7.1={
+		birth=yes
+	}
+	184.7.1={
+		death=yes
+	}
+}
+
+##### 【士燮】
+shi_xie={
+	name="uuii_book_shi_xie_name" #燮
+	dynasty_house="house_111010483001013"
+	father="shi_huan_2"
+	culture="jiaozhou"
+	faith="jingxue"
+	diplomacy="5"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	137.7.1={
+		birth=yes
+	}
+	227.7.1={
+		death=yes
+	}
+}
+
+##### 【士壹】
+shi_yi={
+	name="uuii_book_shi_yi_name" #壹
+	dynasty_house="house_111010483001013"
+	father="shi_huan_2"
+	culture="jiaozhou"
+	faith="jingxue"
+	diplomacy="8"
+	martial="8"
+	stewardship="8"
+	intrigue="7"
+	learning="5"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=no
+	150.7.1={
+		birth=yes
+	}
+	230.7.1={
+		death=yes
+	}
+}
+
+##### 【士黄有】
+shi_huang_you={
+	name="uuii_book_shi_huang_you_name" #黄有
+	dynasty_house="house_111010483001013"
+	father="shi_huan_2"
+	culture="jiaozhou"
+	faith="jingxue"
+	diplomacy="6"
+	martial="9"
+	stewardship="6"
+	intrigue="9"
+	learning="5"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	148.7.1={
+		birth=yes
+	}
+	230.7.1={
+		death=yes
+	}
+}
+
+##### 【士武】
+shi_wu={
+	name="uuii_book_shi_wu_name" #武
+	dynasty_house="house_111010483001013"
+	father="shi_huan_2"
+	culture="jiaozhou"
+	faith="jingxue"
+	diplomacy="7"
+	martial="5"
+	stewardship="9"
+	intrigue="7"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	160.7.1={
+		birth=yes
+	}
+	210.7.1={
+		death=yes
+	}
+}
+
+##### 【士廞】
+shi_xin={
+	name="uuii_book_shi_xin_name" #廞
+	dynasty_house="house_111010483001013"
+	father="shi_xie"
+	culture="jiaozhou"
+	faith="jingxue"
+	diplomacy="4"
+	martial="7"
+	stewardship="5"
+	intrigue="8"
+	learning="8"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	162.7.1={
+		birth=yes
+	}
+	234.7.1={
+		death=yes
+	}
+}
+
+##### 【士祗】
+shi_zhi={
+	name="uuii_book_shi_zhi_name" #祗
+	dynasty_house="house_111010483001013"
+	father="shi_xie"
+	culture="jiaozhou"
+	faith="jingxue"
+	diplomacy="8"
+	martial="8"
+	stewardship="9"
+	intrigue="5"
+	learning="5"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	162.7.1={
+		birth=yes
+	}
+	226.7.1={
+		death=yes
+	}
+}
+
+##### 【士徽】
+shi_hui={
+	name="uuii_book_shi_hui_name" #徽
+	dynasty_house="house_111010483001013"
+	father="shi_xie"
+	culture="jiaozhou"
+	faith="jingxue"
+	diplomacy="5"
+	martial="9"
+	stewardship="7"
+	intrigue="5"
+	learning="8"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	162.7.1={
+		birth=yes
+	}
+	226.7.1={
+		death=yes
+	}
+}
+
+##### 【士干】
+shi_gan={
+	name="uuii_book_shi_gan_name" #干
+	dynasty_house="house_111010483001013"
+	father="shi_xie"
+	culture="jiaozhou"
+	faith="jingxue"
+	diplomacy="7"
+	martial="6"
+	stewardship="7"
+	intrigue="8"
+	learning="8"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=no
+	164.7.1={
+		birth=yes
+	}
+	226.7.1={
+		death=yes
+	}
+}
+
+##### 【士颂】
+shi_song={
+	name="uuii_book_shi_song_name" #颂
+	dynasty_house="house_111010483001013"
+	father="shi_xie"
+	culture="jiaozhou"
+	faith="jingxue"
+	diplomacy="7"
+	martial="5"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	166.7.1={
+		birth=yes
+	}
+	226.7.1={
+		death=yes
+	}
+}
+
+##### 【士匡】
+shi_kuang={
+	name="uuii_book_shi_kuang_name" #匡
+	dynasty_house="house_111010483001013"
+	father="shi_yi"
+	culture="jiaozhou"
+	faith="jingxue"
+	diplomacy="5"
+	martial="4"
+	stewardship="9"
+	intrigue="6"
+	learning="8"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	175.7.1={
+		birth=yes
+	}
+	235.7.1={
+		death=yes
+	}
+}

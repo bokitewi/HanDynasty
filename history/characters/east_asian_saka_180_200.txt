@@ -1,0 +1,498 @@
+﻿# Generated from 華陽國志、三國志、三國演義、後漢書 and 漢晉春秋.
+# Culture: saka
+# Time partition: 180_200 (death >= 180 and birth <= 200).
+# No title history is assigned. Dates marked in the evidence audit may be estimates.
+
+##### 【尤朗】
+you_lang={
+	name="uuii_book_you_lang_name" #朗
+	dynasty_house="house_152070026001013"
+	culture="saka"
+	faith="theravada"
+	diplomacy="7"
+	martial="7"
+	stewardship="5"
+	intrigue="8"
+	learning="5"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	165.7.1={
+		birth=yes
+	}
+	218.7.1={
+		death=yes
+	}
+}
+
+##### 【蒲昌宽】
+pu_chang_kuan={
+	name="uuii_book_pu_chang_kuan_name" #昌宽
+	dynasty_house="house_152070028001013"
+	culture="saka"
+	faith="theravada"
+	diplomacy="6"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="5"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	170.7.1={
+		birth=yes
+	}
+	245.7.1={
+		death=yes
+	}
+}
+
+##### 【蒲昌帕里黛】
+pu_chang_pa_li_dai={
+	name="uuii_book_pu_chang_pa_li_dai_name" #昌帕里黛
+	dynasty_house="house_152070028001013"
+	female=yes
+	father="pu_chang_kuan"
+	culture="saka"
+	faith="theravada"
+	diplomacy="6"
+	martial="8"
+	stewardship="8"
+	intrigue="6"
+	learning="4"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	188.7.1={
+		birth=yes
+	}
+	238.7.1={
+		death=yes
+	}
+}
+
+##### 【允尤还】
+yun_you_hai={
+	name="uuii_book_yun_you_hai_name" #尤还
+	dynasty_house="house_152070029001013"
+	culture="saka"
+	faith="theravada"
+	diplomacy="9"
+	martial="6"
+	stewardship="6"
+	intrigue="5"
+	learning="6"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	110.7.1={
+		birth=yes
+	}
+	200.7.1={
+		death=yes
+	}
+}
+
+##### 【允童格罗迦】
+yun_tong_ge_luo_jia={
+	name="uuii_book_yun_tong_ge_luo_jia_name" #童格罗迦
+	dynasty_house="house_152070029001013"
+	father="yun_you_hai"
+	culture="saka"
+	faith="theravada"
+	diplomacy="6"
+	martial="5"
+	stewardship="9"
+	intrigue="6"
+	learning="5"
+	prowess="9"
+	health=5.5
+	disallow_random_traits=no
+	156.7.1={
+		birth=yes
+	}
+	236.7.1={
+		death=yes
+	}
+}
+
+##### 【允月牙儿】
+yun_yue_ya_er={
+	name="uuii_book_yun_yue_ya_er_name" #月牙儿
+	dynasty_house="house_152070029001013"
+	female=yes
+	father="yun_tong_ge_luo_jia"
+	culture="saka"
+	faith="theravada"
+	diplomacy="8"
+	martial="7"
+	stewardship="6"
+	intrigue="8"
+	learning="4"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	176.7.1={
+		birth=yes
+	}
+	235.7.1={
+		death=yes
+	}
+}
+
+##### 【允陀阇迦】
+yun_tuo_du_jia={
+	name="uuii_book_yun_tuo_du_jia_name" #陀阇迦
+	dynasty_house="house_152070029001013"
+	father="yun_tong_ge_luo_jia"
+	culture="saka"
+	faith="theravada"
+	diplomacy="9"
+	martial="7"
+	stewardship="8"
+	intrigue="5"
+	learning="5"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	180.7.1={
+		birth=yes
+	}
+	244.7.1={
+		death=yes
+	}
+}
+
+##### 【山国庄德多】
+shan_guo_zhuang_de_duo={
+	name="uuii_book_shan_guo_zhuang_de_duo_name" #国庄德多
+	dynasty_house="house_152070030001013"
+	culture="saka"
+	faith="mazdayasna"
+	diplomacy="8"
+	martial="5"
+	stewardship="5"
+	intrigue="9"
+	learning="6"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	160.7.1={
+		birth=yes
+	}
+	248.7.1={
+		death=yes
+	}
+}
+
+##### 【尉头柯力铎】
+wei_tou_ke_li_duo={
+	name="uuii_book_wei_tou_ke_li_duo_name" #头柯力铎
+	dynasty_house="house_152070031001013"
+	culture="saka"
+	faith="mazdayasna"
+	diplomacy="6"
+	martial="7"
+	stewardship="9"
+	intrigue="7"
+	learning="6"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	166.7.1={
+		birth=yes
+	}
+	251.7.1={
+		death=yes
+	}
+}
+
+##### 【小宛旁注】
+xiao_wan_pang_zhu={
+	name="uuii_book_xiao_wan_pang_zhu_name" #宛旁注
+	dynasty_house="house_152070032001013"
+	culture="saka"
+	faith="mazdayasna"
+	diplomacy="4"
+	martial="5"
+	stewardship="8"
+	intrigue="8"
+	learning="8"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	164.7.1={
+		birth=yes
+	}
+	258.7.1={
+		death=yes
+	}
+}
+
+##### 【戎卢得禄】
+rong_lu_de_lu={
+	name="uuii_book_rong_lu_de_lu_name" #卢得禄
+	dynasty_house="house_152070033001013"
+	culture="saka"
+	faith="mazdayasna"
+	diplomacy="5"
+	martial="6"
+	stewardship="7"
+	intrigue="10"
+	learning="5"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	158.7.1={
+		birth=yes
+	}
+	239.7.1={
+		death=yes
+	}
+}
+
+##### 【姑墨闻亦著温】
+gu_mo_wen_yi_zhu_wen={
+	name="uuii_book_gu_mo_wen_yi_zhu_wen_name" #墨闻亦著温
+	dynasty_house="house_152070034001013"
+	culture="saka"
+	faith="mazdayasna"
+	diplomacy="7"
+	martial="9"
+	stewardship="7"
+	intrigue="5"
+	learning="4"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	157.7.1={
+		birth=yes
+	}
+	242.7.1={
+		death=yes
+	}
+}
+
+##### 【温宿干达】
+wen_su_gan_da={
+	name="uuii_book_wen_su_gan_da_name" #宿干达
+	dynasty_house="house_152070035001013"
+	culture="saka"
+	faith="mazdayasna"
+	diplomacy="9"
+	martial="5"
+	stewardship="5"
+	intrigue="6"
+	learning="9"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	159.7.1={
+		birth=yes
+	}
+	242.7.1={
+		death=yes
+	}
+}
+
+##### 【尉犁查里斯】
+yu_li_cha_li_si={
+	name="uuii_book_yu_li_cha_li_si_name" #犁查里斯
+	dynasty_house="house_152070037001013"
+	culture="saka"
+	faith="mazdayasna"
+	diplomacy="8"
+	martial="8"
+	stewardship="4"
+	intrigue="7"
+	learning="7"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	162.7.1={
+		birth=yes
+	}
+	238.7.1={
+		death=yes
+	}
+}
+
+##### 【渠犁阔野先】
+qu_li_kuo_ye_xian={
+	name="uuii_book_qu_li_kuo_ye_xian_name" #犁阔野先
+	dynasty_house="house_152070038001013"
+	culture="saka"
+	faith="mazdayasna"
+	diplomacy="9"
+	martial="8"
+	stewardship="7"
+	intrigue="8"
+	learning="4"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=no
+	160.7.1={
+		birth=yes
+	}
+	237.7.1={
+		death=yes
+	}
+}
+
+##### 【宛昧蔡】
+wan_mei_cai={
+	name="uuii_book_wan_mei_cai_name" #昧蔡
+	dynasty_house="house_152070039001013"
+	culture="saka"
+	faith="mazdayasna"
+	diplomacy="5"
+	martial="9"
+	stewardship="6"
+	intrigue="6"
+	learning="5"
+	prowess="9"
+	health=5.5
+	disallow_random_traits=no
+	166.7.1={
+		birth=yes
+	}
+	241.7.1={
+		death=yes
+	}
+}
+
+##### 【且末戒托】
+qie_mo_jie_tuo={
+	name="uuii_book_qie_mo_jie_tuo_name" #末戒托
+	dynasty_house="house_152070040001013"
+	culture="saka"
+	faith="theravada"
+	diplomacy="5"
+	martial="8"
+	stewardship="7"
+	intrigue="8"
+	learning="4"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	165.7.1={
+		birth=yes
+	}
+	241.7.1={
+		death=yes
+	}
+}
+
+##### 【昆莫大珲建】
+kun_mo_da_hui_jian={
+	name="uuii_book_kun_mo_da_hui_jian_name" #莫大珲建
+	dynasty_house="house_152070041001013"
+	culture="saka"
+	faith="mazdayasna"
+	diplomacy="8"
+	martial="7"
+	stewardship="7"
+	intrigue="6"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	121.7.1={
+		birth=yes
+	}
+	181.7.1={
+		death=yes
+	}
+}
+
+##### 【昆莫军须靡】
+kun_mo_jun_xu_mi={
+	name="uuii_book_kun_mo_jun_xu_mi_name" #莫军须靡
+	dynasty_house="house_152070041001013"
+	father="kun_mo_da_hui_jian"
+	culture="saka"
+	faith="mazdayasna"
+	diplomacy="6"
+	martial="6"
+	stewardship="9"
+	intrigue="9"
+	learning="5"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	165.7.1={
+		birth=yes
+	}
+	241.7.1={
+		death=yes
+	}
+}
+
+##### 【昆莫细君】
+kun_mo_xi_jun={
+	name="uuii_book_kun_mo_xi_jun_name" #莫细君
+	dynasty_house="house_152070041001013"
+	female=yes
+	father="kun_mo_da_hui_jian"
+	culture="saka"
+	faith="mazdayasna"
+	diplomacy="8"
+	martial="8"
+	stewardship="6"
+	intrigue="6"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	166.7.1={
+		birth=yes
+	}
+	245.7.1={
+		death=yes
+	}
+}
+
+##### 【昆莫岑陬】
+kun_mo_cen_zou={
+	name="uuii_book_kun_mo_cen_zou_name" #莫岑陬
+	dynasty_house="house_152070041001013"
+	father="kun_mo_da_hui_jian"
+	culture="saka"
+	faith="mazdayasna"
+	diplomacy="7"
+	martial="6"
+	stewardship="7"
+	intrigue="4"
+	learning="8"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	167.7.1={
+		birth=yes
+	}
+	247.7.1={
+		death=yes
+	}
+}
+
+##### 【毋蝉封】
+wu_chan_feng={
+	name="uuii_book_wu_chan_feng_name" #蝉封
+	dynasty_house="house_152070042001013"
+	culture="saka"
+	faith="mazdayasna"
+	diplomacy="9"
+	martial="6"
+	stewardship="7"
+	intrigue="6"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	164.7.1={
+		birth=yes
+	}
+	232.7.1={
+		death=yes
+	}
+}

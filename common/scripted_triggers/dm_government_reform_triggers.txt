@@ -1,0 +1,77 @@
+dm_can_change_government_reform_law_group_trigger = {
+	is_landed = yes
+	is_independent_ruler = yes
+	highest_held_title_tier >= tier_kingdom
+	NOT = { has_character_flag = dm_government_reform_cooldown }
+}
+
+dm_government_reform_supported_government_trigger = {
+	OR = {
+		has_government = feudal_government
+		has_government = republic_government
+		has_government = theocracy_government
+		has_government = clan_government
+		has_government = tribal_government
+		has_government = wanua_government
+		has_government = administrative_government
+		has_government = celestial_government
+		has_government = mandala_government
+		has_government = meritocratic_government
+		has_government = japan_administrative_government
+		has_government = japan_feudal_government
+		has_government = nomad_government
+		has_government = steppe_admin_government
+	}
+}
+
+# Character scope. These nine governments are the only public reform targets.
+dm_government_reform_selectable_government_trigger = {
+	OR = {
+		has_government = nomad_government
+		has_government = tribal_government
+		has_government = wanua_government
+		has_government = clan_government
+		has_government = feudal_government
+		has_government = celestial_government
+		has_government = meritocratic_government
+		has_government = mandala_government
+		has_government = republic_government
+	}
+}
+
+dm_government_reform_excluded_source_trigger = {
+	OR = {
+		has_government = theocracy_government
+		has_government = administrative_government
+		has_government = japan_administrative_government
+		has_government = japan_feudal_government
+		has_government = steppe_admin_government
+	}
+}
+
+dm_government_reform_can_target_primitive_trigger = {
+	OR = {
+		has_government = nomad_government
+		has_government = tribal_government
+		has_government = wanua_government
+	}
+}
+
+dm_government_reform_can_target_feudal_trigger = {
+	dm_government_reform_selectable_government_trigger = yes
+}
+
+dm_government_reform_can_target_administrative_trigger = {
+	OR = {
+		has_government = clan_government
+		has_government = feudal_government
+		has_government = celestial_government
+		has_government = meritocratic_government
+		has_government = mandala_government
+		has_government = republic_government
+	}
+}
+
+dm_government_reform_can_target_special_trigger = {
+	dm_government_reform_can_target_administrative_trigger = yes
+}

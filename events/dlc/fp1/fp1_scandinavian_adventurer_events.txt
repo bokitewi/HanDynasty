@@ -1,0 +1,21 @@
+# Unsupported vanilla regional event chain retained only as inert public shells.
+namespace = fp1_scandinavian_adventurers
+
+fp1_scandinavian_adventurers.0001 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_scandinavian_adventurers.0002 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_scandinavian_adventurers.0003 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_scandinavian_adventurers.0004 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_scandinavian_adventurers.0005 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_scandinavian_adventurers.0011 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_scandinavian_adventurers.0012 = { type = character_event hidden = yes trigger = { always = no } }
+fp1_scandinavian_adventurers.0021 = { type = character_event hidden = yes trigger = { always = no } }
+
+scripted_trigger scattered_north_germanic_presence_trigger = { always = no }
+scripted_trigger significant_north_germanic_presence_trigger = { always = no }
+scripted_trigger valid_adventurer_target_trigger = { always = no }
+scripted_trigger valid_scandinavian_adventurer = { always = no }
+scripted_trigger valid_scandinavian_county_for_embark_trigger = { always = no }
+scripted_trigger valid_scandinavian_county_trigger = { always = no }
+
+scripted_effect scandi_adventurers_grab_famous_character_effect = { }
+scripted_effect scandinavian_adventurer_start_war_effect = { }

@@ -1,0 +1,88 @@
+namespace = hd_yellow_turban
+
+hd_yellow_turban.0001 = {
+	type = character_event
+	title = hd_yellow_turban.0001.t
+	desc = hd_yellow_turban.0001.desc
+	theme = war
+	override_background = { reference = army_camp }
+
+	left_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+
+	right_portrait = {
+		character = scope:tang_zhou
+		animation = personality_cynical
+	}
+
+	lower_center_portrait = {
+		character = scope:ma_yuan_yi
+		animation = personality_zealous
+	}
+
+	trigger = {
+		this = character:zhang_jiao
+		is_alive = yes
+		game_start_date = 184.1.1
+		primary_title = title:d_hd_yellow_turbans
+		has_government = landless_adventurer_government
+		NOT = { has_character_flag = hd_yellow_turban_rebellion_started }
+		character:tang_zhou ?= { is_alive = yes }
+		character:ma_yuan_yi ?= { is_alive = yes }
+		character:zhang_man_cheng ?= { is_alive = yes }
+		character:bo_cai ?= { is_alive = yes }
+		title:e_han.holder ?= { is_alive = yes }
+	}
+
+	immediate = {
+		character:tang_zhou ?= { save_scope_as = tang_zhou }
+		character:ma_yuan_yi ?= {
+			save_scope_as = ma_yuan_yi
+			death = {
+				death_reason = death_execution
+			}
+		}
+	}
+
+	option = {
+		name = hd_yellow_turban.0001.a
+		hd_yellow_turban_rebellion_effect = yes
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+hd_yellow_turban.0002 = {
+	type = character_event
+	title = hd_yellow_turban.0002.t
+	desc = hd_yellow_turban.0002.desc
+	theme = war
+
+	trigger = {
+		exists = global_var:hd_yellow_turban_outcome_resolved
+	}
+
+	option = {
+		name = hd_yellow_turban.0002.a
+		ai_chance = { base = 100 }
+	}
+}
+
+hd_yellow_turban.0003 = {
+	type = character_event
+	title = hd_yellow_turban.0003.t
+	desc = hd_yellow_turban.0003.desc
+	theme = war
+
+	trigger = {
+		exists = global_var:hd_yellow_turban_outcome_resolved
+	}
+
+	option = {
+		name = hd_yellow_turban.0003.a
+		ai_chance = { base = 100 }
+	}
+}

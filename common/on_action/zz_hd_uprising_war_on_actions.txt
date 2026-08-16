@@ -1,0 +1,50 @@
+﻿# Start one character-rooted six-month occupation scheduler per uprising attacker.
+
+on_war_started = {
+	on_actions = {
+		hd_uprising_war_started
+	}
+}
+
+hd_uprising_war_started = {
+	trigger = {
+		scope:war = {
+			hd_uprising_war_for_primary_attacker_trigger = {
+				ATTACKER = scope:attacker
+			}
+		}
+	}
+	effect = {
+		scope:attacker = {
+			if = {
+				limit = {
+					NOT = { has_character_flag = hd_uprising_war_scan_scheduled }
+				}
+				add_character_flag = hd_uprising_war_scan_scheduled
+				trigger_event = {
+					id = hd_uprising_war.0001
+					months = 6
+				}
+			}
+		}
+	}
+}
+
+# Compatibility for saves that already queued the former war-scoped pulse.
+# The attacker scope is stable; the obsolete war scope is deliberately ignored.
+hd_uprising_war_half_year_pulse = {
+	effect = {
+		scope:attacker ?= {
+			if = {
+				limit = {
+					NOT = { has_character_flag = hd_uprising_war_scan_scheduled }
+				}
+				add_character_flag = hd_uprising_war_scan_scheduled
+				trigger_event = {
+					id = hd_uprising_war.0001
+					days = 1
+				}
+			}
+		}
+	}
+}

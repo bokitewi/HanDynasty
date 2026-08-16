@@ -1,0 +1,23 @@
+# Unsupported European/Varangian event chain retained only as inert public shells.
+namespace = varangian
+
+varangian.0001 = { type = character_event hidden = yes trigger = { always = no } }
+varangian.0002 = { type = character_event hidden = yes trigger = { always = no } }
+varangian.0003 = { type = character_event hidden = yes trigger = { always = no } }
+varangian.1001 = { type = character_event hidden = yes trigger = { always = no } }
+varangian.1002 = { type = character_event hidden = yes trigger = { always = no } }
+varangian.2001 = { type = character_event hidden = yes trigger = { always = no } }
+varangian.2002 = { type = character_event hidden = yes trigger = { always = no } }
+varangian.2003 = { type = character_event hidden = yes trigger = { always = no } }
+varangian.2004 = { type = character_event hidden = yes trigger = { always = no } }
+varangian.2005 = { type = character_event hidden = yes trigger = { always = no } }
+varangian.2008 = { type = character_event hidden = yes trigger = { always = no } }
+varangian.2011 = { type = character_event hidden = yes trigger = { always = no } }
+varangian.2012 = { type = character_event hidden = yes trigger = { always = no } }
+varangian.2013 = { type = character_event hidden = yes trigger = { always = no } }
+varangian.2014 = { type = character_event hidden = yes trigger = { always = no } }
+varangian.2015 = { type = character_event hidden = yes trigger = { always = no } }
+varangian.2016 = { type = character_event hidden = yes trigger = { always = no } }
+varangian.2017 = { type = character_event hidden = yes trigger = { always = no } }
+varangian.2018 = { type = character_event hidden = yes trigger = { always = no } }
+varangian.3001 = { type = character_event hidden = yes trigger = { always = no } }

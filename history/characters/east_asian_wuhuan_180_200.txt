@@ -1,0 +1,273 @@
+﻿# Generated from 華陽國志、三國志、三國演義、後漢書 and 漢晉春秋.
+# Culture: wuhuan
+# Time partition: 180_200 (death >= 180 and birth <= 200).
+# No title history is assigned. Dates marked in the evidence audit may be estimates.
+
+##### 【张奂】
+zhang_huan_2={
+	name="uuii_book_zhang_huan_2_name" #奂
+	dynasty_house="house_111010024047013"
+	father="zhang_dun"
+	culture="wuhuan"
+	faith="jingxue"
+	diplomacy="8"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="4"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	trait=education_martial_3
+	103.7.1={
+		birth=yes
+	}
+	181.7.1={
+		death=yes
+	}
+}
+
+##### 【丘力居】
+qiu_li_ju={
+	name="uuii_book_qiu_li_ju_name" #力居
+	dynasty_house="house_131090001001013"
+	culture="wuhuan"
+	faith="tengri_pagan"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	140.7.1={
+		birth=yes
+	}
+	192.7.1={
+		death=yes
+	}
+}
+
+##### 【丘楼班】
+qiu_lou_ban={
+	name="uuii_book_qiu_lou_ban_name" #楼班
+	dynasty_house="house_131090001001013"
+	father="qiu_li_ju"
+	culture="wuhuan"
+	faith="tengri_pagan"
+	diplomacy="6"
+	martial="5"
+	stewardship="8"
+	intrigue="8"
+	learning="5"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	182.7.1={
+		birth=yes
+	}
+	207.7.1={
+		death=yes
+	}
+}
+
+##### 【苏仆延】
+su_pu_yan={
+	name="uuii_book_su_pu_yan_name" #仆延
+	dynasty_house="house_131090002001013"
+	culture="wuhuan"
+	faith="tengri_pagan"
+	diplomacy="5"
+	martial="8"
+	stewardship="8"
+	intrigue="7"
+	learning="5"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	159.7.1={
+		birth=yes
+	}
+	207.7.1={
+		death=yes
+	}
+}
+
+##### 【鲁昔】
+lu_xi={
+	name="uuii_book_lu_xi_name" #昔
+	dynasty_house="house_131090019001013"
+	culture="wuhuan"
+	faith="tengri_pagan"
+	diplomacy="7"
+	martial="6"
+	stewardship="6"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	166.7.1={
+		birth=yes
+	}
+	217.7.1={
+		death=yes
+	}
+}
+
+##### 【乌延】
+wu_yan_2={
+	name="uuii_book_wu_yan_2_name" #延
+	dynasty_house="house_131090020001013"
+	culture="wuhuan"
+	faith="tengri_pagan"
+	diplomacy="5"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	154.7.1={
+		birth=yes
+	}
+	207.7.1={
+		death=yes
+	}
+}
+
+##### 【王卢罗】
+wang_lu_luo={
+	name="uuii_book_wang_lu_luo_name" #卢罗
+	dynasty_house="house_131090024001013"
+	culture="wuhuan"
+	faith="tengri_pagan"
+	diplomacy="7"
+	martial="5"
+	stewardship="6"
+	intrigue="7"
+	learning="9"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	132.7.1={
+		birth=yes
+	}
+	184.7.1={
+		death=yes
+	}
+}
+
+##### 【王寄】
+wang_ji_2={
+	name="uuii_book_wang_ji_2_name" #寄
+	dynasty_house="house_131090024001013"
+	father="wang_lu_luo"
+	culture="wuhuan"
+	faith="tengri_pagan"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	152.7.1={
+		birth=yes
+	}
+	207.7.1={
+		death=yes
+	}
+}
+
+##### 【王同】
+wang_tong={
+	name="uuii_book_wang_tong_name" #同
+	dynasty_house="house_131090024001013"
+	father="wang_lu_luo"
+	culture="wuhuan"
+	faith="tengri_pagan"
+	diplomacy="5"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	154.7.1={
+		birth=yes
+	}
+	207.7.1={
+		death=yes
+	}
+}
+
+##### 【难楼】
+nan_lou={
+	name="uuii_book_nan_lou_name" #楼
+	dynasty_house="house_131090025001013"
+	culture="wuhuan"
+	faith="tengri_pagan"
+	diplomacy="4"
+	martial="8"
+	stewardship="8"
+	intrigue="8"
+	learning="5"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	154.7.1={
+		birth=yes
+	}
+	192.7.1={
+		death=yes
+	}
+}
+
+##### 【张耽】
+zhang_dan={
+	name="uuii_book_zhang_dan_name" #耽
+	dynasty_house="uuii_book_house_02fc67e581e6"
+	culture="wuhuan"
+	faith="shamanism"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="5"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	123.7.1={
+		birth=yes
+	}
+	188.7.1={
+		death=yes
+	}
+}
+
+##### 【乌桓触】
+wu_huan_chu={
+	name="uuii_book_wu_huan_chu_name" #桓触
+	dynasty_house="uuii_book_house_91267b329340"
+	culture="wuhuan"
+	faith="shamanism"
+	diplomacy="6"
+	martial="8"
+	stewardship="8"
+	intrigue="7"
+	learning="4"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	190.7.1={
+		birth=yes
+	}
+	255.7.1={
+		death=yes
+	}
+}

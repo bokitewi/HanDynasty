@@ -1,0 +1,93 @@
+﻿# Generated from 華陽國志、三國志、三國演義、後漢書 and 漢晉春秋.
+# Culture: sogdian
+# Time partition: 180_200 (death >= 180 and birth <= 200).
+# No title history is assigned. Dates marked in the evidence audit may be estimates.
+
+##### 【车儿臣加葛】
+che_er_chen_jia_ge={
+	name="uuii_book_che_er_chen_jia_ge_name" #儿臣加葛
+	dynasty_house="house_152080001001013"
+	culture="sogdian"
+	faith="mazdayasna"
+	diplomacy="8"
+	martial="7"
+	stewardship="8"
+	intrigue="4"
+	learning="7"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	159.7.1={
+		birth=yes
+	}
+	247.7.1={
+		death=yes
+	}
+}
+
+##### 【精绝月昕】
+jing_jue_yue_xin={
+	name="uuii_book_jing_jue_yue_xin_name" #绝月昕
+	dynasty_house="house_152080002001013"
+	female=yes
+	culture="sogdian"
+	faith="theravada"
+	diplomacy="6"
+	martial="5"
+	stewardship="9"
+	intrigue="8"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	171.7.1={
+		birth=yes
+	}
+	251.7.1={
+		death=yes
+	}
+}
+
+##### 【安禄水】
+an_lu_shui={
+	name="uuii_book_an_lu_shui_name" #禄水
+	dynasty_house="house_152080003001013"
+	culture="sogdian"
+	faith="mazdayasna"
+	diplomacy="6"
+	martial="7"
+	stewardship="4"
+	intrigue="7"
+	learning="8"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	161.7.1={
+		birth=yes
+	}
+	247.7.1={
+		death=yes
+	}
+}
+
+##### 【史思元】
+shi_si_yuan={
+	name="uuii_book_shi_si_yuan_name" #思元
+	dynasty_house="house_152080004001013"
+	culture="sogdian"
+	faith="mazdayasna"
+	diplomacy="7"
+	martial="5"
+	stewardship="8"
+	intrigue="7"
+	learning="6"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	165.7.1={
+		birth=yes
+	}
+	247.7.1={
+		death=yes
+	}
+}

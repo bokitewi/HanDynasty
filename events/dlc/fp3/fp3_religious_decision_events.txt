@@ -1,0 +1,14 @@
+# Unsupported vanilla regional event chain retained only as inert public shells.
+namespace = fp3_decision
+
+fp3_decision.0001 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_decision.0002 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_decision.0003 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_decision.0004 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_decision.0011 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_decision.0012 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_decision.0013 = { type = character_event hidden = yes trigger = { always = no } }
+fp3_decision.0014 = { type = character_event hidden = yes trigger = { always = no } }
+
+scripted_effect fp3_decision_0015_apply_rebellious_stress_effect = { }
+scripted_effect fp3_decision_0015_apply_seditious_intent_effect = { }

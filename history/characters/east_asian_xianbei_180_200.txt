@@ -1,0 +1,840 @@
+﻿# Generated from 華陽國志、三國志、三國演義、後漢書 and 漢晉春秋.
+# Culture: xianbei
+# Time partition: 180_200 (death >= 180 and birth <= 200).
+# No title history is assigned. Dates marked in the evidence audit may be estimates.
+
+##### 【封梁】
+feng_liang={
+	name="uuii_book_feng_liang_name" #梁
+	dynasty_house="house_111010206001013"
+	culture="xianbei"
+	faith="xianbei_polytheism"
+	diplomacy="8"
+	martial="4"
+	stewardship="4"
+	intrigue="8"
+	learning="7"
+	prowess="9"
+	health=5.5
+	disallow_random_traits=no
+	152.7.1={
+		birth=yes
+	}
+	216.7.1={
+		death=yes
+	}
+}
+
+##### 【慕容莫护跋】
+mu_rong_mo_hu_ba={
+	name="uuii_book_mu_rong_mo_hu_ba_name" #莫护跋
+	dynasty_house="house_131100001001013"
+	father="ke_zui_que"
+	culture="xianbei"
+	faith="xianbei_polytheism"
+	diplomacy="6"
+	martial="6"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	186.7.1={
+		birth=yes
+	}
+	247.7.1={
+		death=yes
+	}
+}
+
+##### 【拓拔檀石槐】
+tuo_ba_tan_shi_huai={
+	name="uuii_book_tuo_ba_tan_shi_huai_name" #拔檀石槐
+	dynasty_house="house_131100002001013"
+	culture="xianbei"
+	faith="xianbei_polytheism"
+	diplomacy="4"
+	martial="8"
+	stewardship="5"
+	intrigue="8"
+	learning="8"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	137.7.1={
+		birth=yes
+	}
+	181.7.1={
+		death=yes
+	}
+}
+
+##### 【拓拔和连】
+tuo_ba_he_lian={
+	name="uuii_book_tuo_ba_he_lian_name" #拔和连
+	dynasty_house="house_131100002001013"
+	father="tuo_ba_tan_shi_huai"
+	culture="xianbei"
+	faith="xianbei_polytheism"
+	diplomacy="6"
+	martial="8"
+	stewardship="9"
+	intrigue="5"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	157.7.1={
+		birth=yes
+	}
+	189.7.1={
+		death=yes
+	}
+}
+
+##### 【拓拔蒲头】
+tuo_ba_pu_tou={
+	name="uuii_book_tuo_ba_pu_tou_name" #拔蒲头
+	dynasty_house="house_131100002001013"
+	father="tuo_ba_zhe_ju"
+	culture="xianbei"
+	faith="xianbei_polytheism"
+	diplomacy="7"
+	martial="6"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	171.7.1={
+		birth=yes
+	}
+	201.7.1={
+		death=yes
+	}
+}
+
+##### 【拓拔扶罗韩】
+tuo_ba_fu_luo_han={
+	name="uuii_book_tuo_ba_fu_luo_han_name" #拔扶罗韩
+	dynasty_house="house_131100002001013"
+	father="tuo_ba_zhe_ju"
+	culture="xianbei"
+	faith="xianbei_polytheism"
+	diplomacy="6"
+	martial="5"
+	stewardship="6"
+	intrigue="8"
+	learning="7"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	172.7.1={
+		birth=yes
+	}
+	215.7.1={
+		death=yes
+	}
+}
+
+##### 【拓拔步度根】
+tuo_ba_bu_du_gen={
+	name="uuii_book_tuo_ba_bu_du_gen_name" #拔步度根
+	dynasty_house="house_131100002001013"
+	father="tuo_ba_zhe_ju"
+	culture="xianbei"
+	faith="xianbei_polytheism"
+	diplomacy="8"
+	martial="5"
+	stewardship="8"
+	intrigue="5"
+	learning="6"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	173.7.1={
+		birth=yes
+	}
+	233.7.1={
+		death=yes
+	}
+}
+
+##### 【拓拔骞曼】
+tuo_ba_qian_man={
+	name="uuii_book_tuo_ba_qian_man_name" #拔骞曼
+	dynasty_house="house_131100002001013"
+	father="tuo_ba_he_lian"
+	culture="xianbei"
+	faith="xianbei_polytheism"
+	diplomacy="5"
+	martial="9"
+	stewardship="6"
+	intrigue="8"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	180.7.1={
+		birth=yes
+	}
+	216.7.1={
+		death=yes
+	}
+}
+
+##### 【亥锁奴】
+hai_suo_nu={
+	name="uuii_book_hai_suo_nu_name" #锁奴
+	dynasty_house="house_131100015001013"
+	culture="xianbei"
+	faith="xianbei_polytheism"
+	diplomacy="7"
+	martial="6"
+	stewardship="5"
+	intrigue="6"
+	learning="8"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	172.7.1={
+		birth=yes
+	}
+	235.7.1={
+		death=yes
+	}
+}
+
+##### 【段日陆眷】
+duan_ri_lu_juan={
+	name="uuii_book_duan_ri_lu_juan_name" #日陆眷
+	dynasty_house="house_131100032001013"
+	father="que_ji"
+	culture="xianbei"
+	faith="xianbei_polytheism"
+	diplomacy="5"
+	martial="7"
+	stewardship="8"
+	intrigue="6"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	188.7.1={
+		birth=yes
+	}
+	256.7.1={
+		death=yes
+	}
+}
+
+##### 【宇文普回】
+yu_wen_pu_hui={
+	name="uuii_book_yu_wen_pu_hui_name" #普回
+	dynasty_house="house_131100034001013"
+	father="huai_tou"
+	culture="xianbei"
+	faith="xianbei_polytheism"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="5"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	185.7.1={
+		birth=yes
+	}
+	246.7.1={
+		death=yes
+	}
+}
+
+##### 【轲浑栾倍】
+ke_hun_luan_bei={
+	name="uuii_book_ke_hun_luan_bei_name" #浑栾倍
+	dynasty_house="house_131100036001013"
+	culture="xianbei"
+	faith="xianbei_polytheism"
+	diplomacy="5"
+	martial="9"
+	stewardship="6"
+	intrigue="5"
+	learning="5"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	140.7.1={
+		birth=yes
+	}
+	181.7.1={
+		death=yes
+	}
+}
+
+##### 【轲比能】
+ke_bi_neng={
+	name="uuii_book_ke_bi_neng_name" #比能
+	dynasty_house="house_131100036001013"
+	father="ke_hun_luan_bei"
+	culture="xianbei"
+	faith="xianbei_polytheism"
+	diplomacy="7"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="6"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	160.7.1={
+		birth=yes
+	}
+	235.7.1={
+		death=yes
+	}
+}
+
+##### 【轲熊滚】
+ke_xiong_gun={
+	name="uuii_book_ke_xiong_gun_name" #熊滚
+	dynasty_house="house_131100036001013"
+	father="ke_hun_luan_bei"
+	culture="xianbei"
+	faith="xianbei_polytheism"
+	diplomacy="7"
+	martial="6"
+	stewardship="5"
+	intrigue="9"
+	learning="8"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	165.7.1={
+		birth=yes
+	}
+	245.7.1={
+		death=yes
+	}
+}
+
+##### 【轲苴罗侯】
+ke_ju_luo_hou={
+	name="uuii_book_ke_ju_luo_hou_name" #苴罗侯
+	dynasty_house="house_131100036001013"
+	father="ke_hun_luan_bei"
+	culture="xianbei"
+	faith="xianbei_polytheism"
+	diplomacy="6"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	170.7.1={
+		birth=yes
+	}
+	210.7.1={
+		death=yes
+	}
+}
+
+##### 【轲刚牷】
+ke_gang_quan={
+	name="uuii_book_ke_gang_quan_name" #刚牷
+	dynasty_house="house_131100036001013"
+	father="ke_bi_neng"
+	culture="xianbei"
+	faith="xianbei_polytheism"
+	diplomacy="8"
+	martial="7"
+	stewardship="7"
+	intrigue="8"
+	learning="5"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	173.7.1={
+		birth=yes
+	}
+	232.7.1={
+		death=yes
+	}
+}
+
+##### 【轲貂儿】
+ke_diao_er={
+	name="uuii_book_ke_diao_er_name" #貂儿
+	dynasty_house="house_131100036001013"
+	female=yes
+	father="ke_bi_neng"
+	culture="xianbei"
+	faith="xianbei_polytheism"
+	diplomacy="7"
+	martial="6"
+	stewardship="7"
+	intrigue="6"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	177.7.1={
+		birth=yes
+	}
+	228.7.1={
+		death=yes
+	}
+}
+
+##### 【轲裘儿】
+ke_qiu_er={
+	name="uuii_book_ke_qiu_er_name" #裘儿
+	dynasty_house="house_131100036001013"
+	female=yes
+	father="ke_bi_neng"
+	culture="xianbei"
+	faith="xianbei_polytheism"
+	diplomacy="8"
+	martial="6"
+	stewardship="6"
+	intrigue="6"
+	learning="8"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	185.7.1={
+		birth=yes
+	}
+	241.7.1={
+		death=yes
+	}
+}
+
+##### 【郁筑鞬】
+yu_zhu_jian={
+	name="uuii_book_yu_zhu_jian_name" #筑鞬
+	dynasty_house="house_131100037001013"
+	culture="xianbei"
+	faith="xianbei_polytheism"
+	diplomacy="6"
+	martial="6"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	173.7.1={
+		birth=yes
+	}
+	228.7.1={
+		death=yes
+	}
+}
+
+##### 【育延】
+yu_yan={
+	name="uuii_book_yu_yan_name" #延
+	dynasty_house="house_131100038001013"
+	culture="xianbei"
+	faith="xianbei_polytheism"
+	diplomacy="6"
+	martial="8"
+	stewardship="7"
+	intrigue="8"
+	learning="7"
+	prowess="4"
+	health=5.5
+	disallow_random_traits=no
+	166.7.1={
+		birth=yes
+	}
+	215.7.1={
+		death=yes
+	}
+}
+
+##### 【秃发诘汾】
+tu_fa_ji_fen={
+	name="uuii_book_tu_fa_ji_fen_name" #发诘汾
+	dynasty_house="house_131100039001013"
+	culture="xianbei"
+	faith="xianbei_polytheism"
+	diplomacy="6"
+	martial="9"
+	stewardship="5"
+	intrigue="5"
+	learning="8"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	148.7.1={
+		birth=yes
+	}
+	220.7.1={
+		death=yes
+	}
+}
+
+##### 【秃发匹孤】
+tu_fa_pi_gu={
+	name="uuii_book_tu_fa_pi_gu_name" #发匹孤
+	dynasty_house="house_131100039001013"
+	father="tu_fa_ji_fen"
+	culture="xianbei"
+	faith="xianbei_polytheism"
+	diplomacy="9"
+	martial="8"
+	stewardship="4"
+	intrigue="4"
+	learning="7"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	168.7.1={
+		birth=yes
+	}
+	235.7.1={
+		death=yes
+	}
+}
+
+##### 【秃发力微】
+tu_fa_li_wei={
+	name="uuii_book_tu_fa_li_wei_name" #发力微
+	dynasty_house="house_131100039001013"
+	father="tu_fa_ji_fen"
+	culture="xianbei"
+	faith="xianbei_polytheism"
+	diplomacy="7"
+	martial="7"
+	stewardship="6"
+	intrigue="5"
+	learning="6"
+	prowess="9"
+	health=5.5
+	disallow_random_traits=no
+	174.7.1={
+		birth=yes
+	}
+	235.7.1={
+		death=yes
+	}
+}
+
+##### 【胡掖脱托】
+hu_ye_tuo_tuo={
+	name="uuii_book_hu_ye_tuo_tuo_name" #掖脱托
+	dynasty_house="house_131100040001013"
+	culture="xianbei"
+	faith="xianbei_polytheism"
+	diplomacy="10"
+	martial="5"
+	stewardship="5"
+	intrigue="6"
+	learning="7"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	148.7.1={
+		birth=yes
+	}
+	235.7.1={
+		death=yes
+	}
+}
+
+##### 【胡掖敏敏】
+hu_ye_min_min={
+	name="uuii_book_hu_ye_min_min_name" #掖敏敏
+	dynasty_house="house_131100040001013"
+	female=yes
+	father="hu_ye_tuo_tuo"
+	culture="xianbei"
+	faith="xianbei_polytheism"
+	diplomacy="7"
+	martial="5"
+	stewardship="6"
+	intrigue="8"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	170.7.1={
+		birth=yes
+	}
+	235.7.1={
+		death=yes
+	}
+}
+
+##### 【素罗玄】
+su_luo_xuan={
+	name="uuii_book_su_luo_xuan_name" #罗玄
+	dynasty_house="house_131100042001013"
+	culture="xianbei"
+	faith="xianbei_polytheism"
+	diplomacy="6"
+	martial="8"
+	stewardship="8"
+	intrigue="6"
+	learning="5"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	135.7.1={
+		birth=yes
+	}
+	186.7.1={
+		death=yes
+	}
+}
+
+##### 【素利】
+su_li={
+	name="uuii_book_su_li_name" #利
+	dynasty_house="house_131100042001013"
+	father="su_luo_xuan"
+	culture="xianbei"
+	faith="xianbei_polytheism"
+	diplomacy="4"
+	martial="8"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	156.7.1={
+		birth=yes
+	}
+	228.7.1={
+		death=yes
+	}
+}
+
+##### 【素成律归】
+su_cheng_lv_gui={
+	name="uuii_book_su_cheng_lv_gui_name" #成律归
+	dynasty_house="house_131100042001013"
+	father="su_luo_xuan"
+	culture="xianbei"
+	faith="xianbei_polytheism"
+	diplomacy="7"
+	martial="6"
+	stewardship="8"
+	intrigue="9"
+	learning="5"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	172.7.1={
+		birth=yes
+	}
+	248.7.1={
+		death=yes
+	}
+}
+
+##### 【弥加】
+mi_jia={
+	name="uuii_book_mi_jia_name" #加
+	dynasty_house="house_131100043001013"
+	culture="xianbei"
+	faith="xianbei_polytheism"
+	diplomacy="4"
+	martial="9"
+	stewardship="9"
+	intrigue="4"
+	learning="5"
+	prowess="9"
+	health=5.5
+	disallow_random_traits=no
+	165.7.1={
+		birth=yes
+	}
+	237.7.1={
+		death=yes
+	}
+}
+
+##### 【柯最阙】
+ke_zui_que={
+	name="uuii_book_ke_zui_que_name" #最阙
+	dynasty_house="house_131100044001013"
+	culture="xianbei"
+	faith="xianbei_polytheism"
+	diplomacy="5"
+	martial="8"
+	stewardship="4"
+	intrigue="8"
+	learning="6"
+	prowess="9"
+	health=5.5
+	disallow_random_traits=no
+	164.7.1={
+		birth=yes
+	}
+	233.7.1={
+		death=yes
+	}
+}
+
+##### 【阙机】
+que_ji={
+	name="uuii_book_que_ji_name" #机
+	dynasty_house="house_131100045001013"
+	culture="xianbei"
+	faith="xianbei_polytheism"
+	diplomacy="9"
+	martial="8"
+	stewardship="6"
+	intrigue="5"
+	learning="7"
+	prowess="5"
+	health=5.5
+	disallow_random_traits=no
+	168.7.1={
+		birth=yes
+	}
+	238.7.1={
+		death=yes
+	}
+}
+
+##### 【宴荔游】
+yan_li_you={
+	name="uuii_book_yan_li_you_name" #荔游
+	dynasty_house="house_131100046001013"
+	culture="xianbei"
+	faith="xianbei_polytheism"
+	diplomacy="7"
+	martial="6"
+	stewardship="8"
+	intrigue="7"
+	learning="5"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	158.7.1={
+		birth=yes
+	}
+	234.7.1={
+		death=yes
+	}
+}
+
+##### 【日律推演】
+ri_lv_tui_yan={
+	name="uuii_book_ri_lv_tui_yan_name" #律推演
+	dynasty_house="house_131100047001013"
+	culture="xianbei"
+	faith="xianbei_polytheism"
+	diplomacy="8"
+	martial="7"
+	stewardship="6"
+	intrigue="7"
+	learning="5"
+	prowess="7"
+	health=5.5
+	disallow_random_traits=no
+	156.7.1={
+		birth=yes
+	}
+	232.7.1={
+		death=yes
+	}
+}
+
+##### 【置踺落罗】
+zhi_jian_luo_luo={
+	name="uuii_book_zhi_jian_luo_luo_name" #踺落罗
+	dynasty_house="house_131100048001013"
+	culture="xianbei"
+	faith="xianbei_polytheism"
+	diplomacy="6"
+	martial="5"
+	stewardship="5"
+	intrigue="5"
+	learning="8"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	159.7.1={
+		birth=yes
+	}
+	238.7.1={
+		death=yes
+	}
+}
+
+##### 【槐头】
+huai_tou={
+	name="uuii_book_huai_tou_name" #头
+	dynasty_house="house_131100049001013"
+	culture="xianbei"
+	faith="xianbei_polytheism"
+	diplomacy="6"
+	martial="8"
+	stewardship="6"
+	intrigue="7"
+	learning="7"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	164.7.1={
+		birth=yes
+	}
+	220.7.1={
+		death=yes
+	}
+}
+
+##### 【步度根】
+bu_du_gen={
+	name="uuii_book_bu_du_gen_name" #度根
+	dynasty_house="uuii_book_house_cdecadb62717"
+	culture="xianbei"
+	faith="xianbei_polytheism"
+	diplomacy="6"
+	martial="7"
+	stewardship="7"
+	intrigue="7"
+	learning="7"
+	prowess="6"
+	health=5.5
+	disallow_random_traits=no
+	194.7.1={
+		birth=yes
+	}
+	233.7.1={
+		death=yes
+	}
+}
+
+##### 【史毕轨】
+shi_bi_gui={
+	name="uuii_book_shi_bi_gui_name" #毕轨
+	dynasty_house="uuii_book_house_23f82dbddd52"
+	culture="xianbei"
+	faith="xianbei_polytheism"
+	diplomacy="7"
+	martial="8"
+	stewardship="6"
+	intrigue="6"
+	learning="5"
+	prowess="8"
+	health=5.5
+	disallow_random_traits=no
+	195.7.1={
+		birth=yes
+	}
+	260.7.1={
+		death=yes
+	}
+}

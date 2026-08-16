@@ -1,0 +1,122 @@
+saas_eligible_courtier_count_value = {
+	value = 0
+	every_courtier = {
+		limit = { is_imprisoned = no }
+		add = 1
+	}
+}
+
+saas_courtier_amenity_surcharge_value = {
+	value = saas_eligible_courtier_count_value
+	multiply = 0.005
+}
+
+saas_retainer_stewardship_success_value = {
+	value = 20
+	add = {
+		value = scope:retainer.stewardship
+		multiply = 3
+	}
+	if = {
+		limit = {
+			scope:retainer = {
+				OR = {
+					has_trait = diligent
+					has_trait = ambitious
+				}
+			}
+		}
+		add = 10
+	}
+	min = 20
+	max = 95
+}
+
+saas_retainer_diplomacy_success_value = {
+	value = 20
+	add = {
+		value = scope:retainer.diplomacy
+		multiply = 3
+	}
+	if = {
+		limit = {
+			scope:retainer = {
+				OR = {
+					has_trait = diligent
+					has_trait = ambitious
+					has_trait = gregarious
+				}
+			}
+		}
+		add = 10
+	}
+	min = 20
+	max = 95
+}
+
+saas_retainer_martial_success_value = {
+	value = 20
+	add = {
+		value = scope:retainer.martial
+		multiply = 3
+	}
+	if = {
+		limit = {
+			scope:retainer = {
+				OR = {
+					has_trait = diligent
+					has_trait = ambitious
+					has_trait = brave
+				}
+			}
+		}
+		add = 10
+	}
+	min = 20
+	max = 95
+}
+
+saas_retainer_intrigue_success_value = {
+	value = 20
+	add = {
+		value = scope:retainer.intrigue
+		multiply = 3
+	}
+	if = {
+		limit = {
+			scope:retainer = {
+				OR = {
+					has_trait = diligent
+					has_trait = ambitious
+					has_trait = deceitful
+				}
+			}
+		}
+		add = 10
+	}
+	min = 20
+	max = 95
+}
+
+saas_retainer_learning_success_value = {
+	value = 20
+	add = {
+		value = scope:retainer.learning
+		multiply = 3
+	}
+	if = {
+		limit = {
+			scope:retainer = {
+				OR = {
+					has_trait = diligent
+					has_trait = ambitious
+					has_trait = zealous
+					has_trait = scholar
+				}
+			}
+		}
+		add = 10
+	}
+	min = 20
+	max = 95
+}

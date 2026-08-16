@@ -1,0 +1,9 @@
+dynasty_hd_bo = {
+	name = "dynasty_hd_bo_name"
+	culture = "yuzhou"
+}
+
+dynasty_hd_zhang_mancheng = {
+	name = "dynasty_hd_zhang_mancheng_name"
+	culture = "han"
+}

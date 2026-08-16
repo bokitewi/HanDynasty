@@ -1,0 +1,157 @@
+﻿rp_clear_retainer_role_traits_effect = {
+	if = { limit = { has_trait = rp_retainer_warrior } remove_trait = rp_retainer_warrior }
+	if = { limit = { has_trait = rp_retainer_diplomat } remove_trait = rp_retainer_diplomat }
+	if = { limit = { has_trait = rp_retainer_strategist } remove_trait = rp_retainer_strategist }
+	if = { limit = { has_trait = rp_retainer_steward } remove_trait = rp_retainer_steward }
+	if = { limit = { has_trait = rp_retainer_spymaster } remove_trait = rp_retainer_spymaster }
+	if = { limit = { has_trait = rp_retainer_prodigy } remove_trait = rp_retainer_prodigy }
+}
+
+rp_mark_new_retainer_effect = {
+	add_character_flag = rp_retainer
+	add_character_flag = {
+		flag = blocked_from_leaving
+		years = 10
+	}
+	rp_mark_founding_follower_effect = { LIEGE = root INITIAL_MERIT = $MERIT$ }
+}
+
+rp_create_general_retainer_effect = {
+	create_character = {
+		employer = root
+		gender = male
+		culture = root.culture
+		faith = root.faith
+		age = 30
+		save_scope_as = rp_retainer
+	}
+	scope:rp_retainer = {
+		rp_clear_retainer_role_traits_effect = yes
+		random_list = {
+			34 = { add_trait = rp_retainer_warrior }
+			33 = { add_trait = rp_retainer_diplomat }
+			33 = { add_trait = rp_retainer_strategist }
+		}
+		add_opinion = { target = root modifier = rp_retainer_recruited_opinion }
+		rp_mark_new_retainer_effect = { MERIT = 5 }
+	}
+}
+
+rp_create_good_retainer_effect = {
+	create_character = {
+		employer = root
+		gender = male
+		culture = root.culture
+		faith = root.faith
+		age = 30
+		save_scope_as = rp_retainer
+	}
+	scope:rp_retainer = {
+		rp_clear_retainer_role_traits_effect = yes
+		random_list = {
+			25 = { add_trait = rp_retainer_warrior }
+			20 = { add_trait = rp_retainer_diplomat }
+			25 = { add_trait = rp_retainer_strategist }
+			20 = { add_trait = rp_retainer_steward }
+			10 = { add_trait = rp_retainer_spymaster }
+		}
+		add_opinion = { target = root modifier = rp_retainer_recruited_opinion }
+		rp_mark_new_retainer_effect = { MERIT = 10 }
+	}
+}
+
+rp_create_excellent_retainer_effect = {
+	create_character = {
+		employer = root
+		gender = male
+		culture = root.culture
+		faith = root.faith
+		age = 30
+		save_scope_as = rp_retainer
+	}
+	scope:rp_retainer = {
+		rp_clear_retainer_role_traits_effect = yes
+		random_list = {
+			20 = { add_trait = rp_retainer_warrior }
+			20 = { add_trait = rp_retainer_diplomat }
+			20 = { add_trait = rp_retainer_strategist }
+			20 = { add_trait = rp_retainer_steward }
+			20 = { add_trait = rp_retainer_spymaster }
+		}
+		add_opinion = { target = root modifier = rp_retainer_recruited_high_opinion }
+		rp_mark_new_retainer_effect = { MERIT = 15 }
+	}
+}
+
+rp_create_prodigy_retainer_effect = {
+	create_character = {
+		employer = root
+		gender = male
+		culture = root.culture
+		faith = root.faith
+		age = 30
+		save_scope_as = rp_retainer
+	}
+	scope:rp_retainer = {
+		rp_clear_retainer_role_traits_effect = yes
+		add_trait = rp_retainer_prodigy
+		add_opinion = { target = root modifier = rp_retainer_recruited_high_opinion }
+		rp_mark_new_retainer_effect = { MERIT = 25 }
+	}
+}
+
+rp_create_travel_retainer_effect = {
+	create_character = {
+		employer = root
+		gender = male
+		culture = root.culture
+		faith = root.faith
+		age = 30
+		save_scope_as = rp_retainer
+	}
+	scope:rp_retainer = {
+		rp_clear_retainer_role_traits_effect = yes
+		random_list = {
+			35 = { add_trait = rp_retainer_warrior }
+			25 = { add_trait = rp_retainer_diplomat }
+			25 = { add_trait = rp_retainer_strategist }
+			10 = { add_trait = rp_retainer_spymaster }
+			5 = { add_trait = rp_retainer_prodigy }
+		}
+		add_opinion = { target = root modifier = rp_retainer_road_recruited_opinion }
+		rp_mark_new_retainer_effect = { MERIT = 12 }
+	}
+}
+
+rp_dismiss_candidate_retainer_effect = {
+	scope:rp_retainer = {
+		rp_clear_merit_effect = yes
+		remove_character_flag = rp_retainer
+		remove_character_flag = blocked_from_leaving
+		move_to_pool = yes
+	}
+}
+
+rp_ai_retainer_recruitment_effect = {
+	if = {
+		limit = {
+			is_ai = yes
+			is_ruler = yes
+			rp_ai_has_retainer_capacity_trigger = yes
+			NOT = { has_character_flag = rp_ai_retainer_cooldown }
+		}
+		add_character_flag = {
+			flag = rp_ai_retainer_cooldown
+			days = 1095
+		}
+		random = {
+			chance = 25
+			random_list = {
+				50 = { rp_create_general_retainer_effect = yes }
+				30 = { rp_create_good_retainer_effect = yes }
+				15 = { rp_create_excellent_retainer_effect = yes }
+				5 = { rp_create_prodigy_retainer_effect = yes }
+			}
+		}
+	}
+}

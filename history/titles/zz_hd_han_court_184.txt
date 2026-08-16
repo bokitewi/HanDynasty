@@ -1,0 +1,95 @@
+﻿e_minister_censor = {
+	184.1.1 = {
+		holder = zhang_ji
+		liege = h_china
+		government = celestial_government
+		effect = {
+			set_title_name = hd_han_sikong_title
+		}
+	}
+	184.4.1 = {
+		holder = zhang_wen_2
+	}
+}
+e_minister_chancellor = {
+	184.1.1 = {
+		holder = yuan_kui
+		liege = h_china
+		government = celestial_government
+		effect = {
+			set_title_name = hd_han_situ_title
+		}
+	}
+}
+e_minister_grand_marshal = {
+	184.1.1 = {
+		holder = yang_ci
+		liege = h_china
+		government = celestial_government
+		effect = {
+			set_title_name = hd_han_taiwei_title
+		}
+	}
+	184.4.1 = {
+		holder = deng_sheng_2
+	}
+}
+e_minister_of_justice = {
+	184.1.1 = {
+		effect = {
+			set_title_name = hd_han_tingwei_title
+		}
+	}
+}
+e_minister_of_personnel = {
+	184.1.1 = {
+		effect = {
+			set_title_name = hd_han_shangshuling_title
+		}
+	}
+}
+e_minister_of_revenue = {
+	184.1.1 = {
+		holder = zhang_wen_2
+		liege = h_china
+		government = celestial_government
+		effect = {
+			set_title_name = hd_han_dasinong_title
+		}
+	}
+	184.4.1 = {
+		holder = 0
+	}
+}
+e_minister_of_rites = {
+	184.1.1 = {
+		effect = {
+			set_title_name = hd_han_taichang_title
+		}
+	}
+}
+e_minister_of_war = {
+	184.1.1 = {
+		effect = {
+			set_title_name = hd_han_general_in_chief_title
+		}
+	}
+	184.3.1 = {
+		holder = he_jin
+		liege = h_china
+		government = celestial_government
+	}
+}
+e_minister_of_works = {
+	184.1.1 = {
+		holder = deng_sheng_2
+		liege = h_china
+		government = celestial_government
+		effect = {
+			set_title_name = hd_han_taipu_title
+		}
+	}
+	184.4.1 = {
+		holder = 0
+	}
+}
