@@ -103,11 +103,11 @@ hd_palace_crisis.0004 = {
 		}
 		else = { death = { death_reason = death_murder } }
 		if = {
-			limit = { character:yuan_shao ?= { is_alive = yes is_local_player = yes } }
+			limit = { character:yuan_shao ?= { is_alive = yes is_ai = no } }
 			character:yuan_shao = { trigger_event = { id = hd_palace_crisis.0005 days = { 20 50 } } }
 		}
 		else_if = {
-			limit = { character:cao_cao ?= { is_alive = yes is_local_player = yes } }
+			limit = { character:cao_cao ?= { is_alive = yes is_ai = no } }
 			character:cao_cao = { trigger_event = { id = hd_palace_crisis.0005 days = { 20 50 } } }
 		}
 		else_if = {
@@ -154,7 +154,15 @@ hd_palace_crisis.0005 = {
 			}
 			else = { title:k_uuii_liangzhou.holder ?= { trigger_event = { id = hd_palace_crisis.0006 months = 1 } } }
 		}
-		else = { trigger_event = { id = hd_palace_crisis.0007 days = { 20 50 } } }
+		else = {
+			# The stable branch is historically Yuan Shao's seizure of Sili even
+			# when the player is observing the chain through Cao Cao.
+			if = {
+				limit = { character:yuan_shao ?= { is_alive = yes } }
+				character:yuan_shao = { trigger_event = { id = hd_palace_crisis.0007 days = { 20 50 } } }
+			}
+			else = { trigger_event = { id = hd_palace_crisis.0007 days = { 20 50 } } }
+		}
 		ai_chance = { base = 100 }
 	}
 }
@@ -220,7 +228,17 @@ hd_palace_crisis.0007 = {
 hd_palace_crisis.0008 = {
 	type = character_event
 	title = hd_palace_crisis.0008.t
-	desc = hd_palace_crisis.0008.desc
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					OR = { this = character:dong_zhuo this = character:dong_zhuo_2 }
+				}
+				desc = hd_palace_crisis.0008.desc.dong
+			}
+			desc = hd_palace_crisis.0008.desc
+		}
+	}
 	theme = crown
 	left_portrait = { character = root animation = personality_bold }
 	trigger = { is_alive = yes has_character_flag = hd_current_han_regent }

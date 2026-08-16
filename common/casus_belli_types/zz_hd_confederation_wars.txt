@@ -30,7 +30,7 @@ hd_confederation_subjugation_cb = {
 		scope:attacker = {
 			add_prestige = 100
 			set_variable = { name = hd_subjugated_league_target value = scope:defender }
-			trigger_event = { id = hd_confederation.0600 days = 1 }
+			trigger_event = { id = hd_anti_regent.0600 days = 1 }
 		}
 		add_truce_attacker_victory_effect = yes
 	}
@@ -40,6 +40,8 @@ hd_confederation_subjugation_cb = {
 		scope:attacker = { add_prestige = -50 }
 		add_truce_white_peace_effect = yes
 	}
+	on_invalidated_desc = { desc = hd_confederation_subjugation_invalidated_desc }
+	on_invalidated = { }
 
 	on_defeat_desc = { desc = hd_confederation_subjugation_defeat_desc }
 	on_defeat = {
@@ -51,6 +53,8 @@ hd_confederation_subjugation_cb = {
 	on_primary_defender_death = inherit
 	attacker_allies_inherit = yes
 	defender_allies_inherit = yes
+	war_name = "hd_confederation_subjugation_war_name"
+	cb_name = "hd_confederation_subjugation_cb_name"
 	interface_priority = 60
 }
 
@@ -79,7 +83,6 @@ hd_anti_regent_punitive_cb = {
 	on_victory = {
 		scope:attacker = {
 			set_variable = { name = hd_anti_regent_target value = scope:defender }
-			set_variable = { name = hd_anti_regent_first_war_result value = victory }
 			trigger_event = { id = hd_anti_regent.0100 days = 1 }
 		}
 		add_truce_attacker_victory_effect = yes
@@ -88,7 +91,6 @@ hd_anti_regent_punitive_cb = {
 	on_white_peace = {
 		scope:attacker = {
 			set_variable = { name = hd_anti_regent_target value = scope:defender }
-			set_variable = { name = hd_anti_regent_first_war_result value = white_peace }
 			trigger_event = { id = hd_anti_regent.0100 days = 1 }
 		}
 		add_truce_white_peace_effect = yes
@@ -98,10 +100,14 @@ hd_anti_regent_punitive_cb = {
 		scope:attacker = { trigger_event = { id = hd_anti_regent.0101 days = 1 } }
 		add_truce_attacker_defeat_effect = yes
 	}
+	on_invalidated_desc = { desc = hd_anti_regent_punitive_invalidated_desc }
+	on_invalidated = { }
 	on_primary_attacker_death = inherit
 	on_primary_defender_death = inherit
 	attacker_allies_inherit = yes
 	defender_allies_inherit = yes
+	war_name = "hd_anti_regent_punitive_war_name"
+	cb_name = "hd_anti_regent_punitive_cb_name"
 }
 
 # Second war in the chain.  The on_victory event handles all title packages;
@@ -127,6 +133,7 @@ hd_enter_the_passes_cb = {
 	on_victory = {
 		scope:attacker = {
 			set_variable = { name = hd_anti_regent_target value = scope:defender }
+			hd_record_anti_regent_contributions_effect = yes
 			trigger_event = { id = hd_anti_regent.0200 days = 1 }
 		}
 		add_truce_attacker_victory_effect = yes
@@ -147,8 +154,12 @@ hd_enter_the_passes_cb = {
 		}
 		add_truce_attacker_defeat_effect = yes
 	}
+	on_invalidated_desc = { desc = hd_enter_the_passes_invalidated_desc }
+	on_invalidated = { }
 	on_primary_attacker_death = inherit
 	on_primary_defender_death = inherit
 	attacker_allies_inherit = yes
 	defender_allies_inherit = yes
+	war_name = "hd_enter_the_passes_war_name"
+	cb_name = "hd_enter_the_passes_cb_name"
 }

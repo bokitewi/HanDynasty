@@ -296,7 +296,7 @@ hd_yellow_turban_war_failed_effect = {
 		# He Jin is preferred, then Yuan Shao, then Cao Cao; if all three are AI,
 		# the historical He Jin viewpoint is used.
 		if = {
-			limit = { character:he_jin ?= { is_alive = yes is_local_player = yes } }
+			limit = { character:he_jin ?= { is_alive = yes is_ai = no } }
 			set_global_variable = hd_palace_crisis_started
 			character:he_jin = {
 				trigger_event = {
@@ -306,7 +306,7 @@ hd_yellow_turban_war_failed_effect = {
 			}
 		}
 		else_if = {
-			limit = { character:yuan_shao ?= { is_alive = yes is_local_player = yes } }
+			limit = { character:yuan_shao ?= { is_alive = yes is_ai = no } }
 			set_global_variable = hd_palace_crisis_started
 			character:yuan_shao = {
 				trigger_event = {
@@ -316,7 +316,7 @@ hd_yellow_turban_war_failed_effect = {
 			}
 		}
 		else_if = {
-			limit = { character:cao_cao ?= { is_alive = yes is_local_player = yes } }
+			limit = { character:cao_cao ?= { is_alive = yes is_ai = no } }
 			set_global_variable = hd_palace_crisis_started
 			character:cao_cao = {
 				trigger_event = {

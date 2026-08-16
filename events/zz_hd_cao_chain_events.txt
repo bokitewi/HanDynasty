@@ -54,7 +54,7 @@ hd_cao_chain.0003 = {
 		# compatibility hook already created it for Wang Yun, transfer that unique
 		# artifact instead of creating a duplicate.
 		character:wang_yun ?= {
-			any_character_artifact = {
+			random_character_artifact = {
 				limit = { has_variable = hd_qixing_baodao }
 				save_scope_as = hd_existing_qixing_baodao
 			}
@@ -166,6 +166,8 @@ hd_cao_chain.0007 = {
 				if = { limit = { can_set_relation_nemesis_trigger = { CHARACTER = root } } set_relation_nemesis = root }
 			}
 		}
+		remove_trait = honest
+		add_trait = callous
 		domicile ?= { move_domicile = title:d_chenliu.capital_province }
 	}
 	option = {

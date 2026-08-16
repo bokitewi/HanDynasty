@@ -1,541 +1,462 @@
-# Independent fictional nomad county titles for the 184 start.
-# These counties intentionally have no de facto liege; de jure hierarchy remains unchanged.
-
-c_BAL_changchun = {
+﻿c_BAL_changchun = {
 	184.1.1 = {
 		holder = hd_nomad_holder_c_BAL_changchun
 		government = nomad_government
 	}
 }
-
 c_BAL_xinzhou = {
 	184.1.1 = {
 		holder = hd_nomad_holder_c_BAL_xinzhou
 		government = nomad_government
 	}
 }
-
 c_BAL_yizhou = {
 	184.1.1 = {
 		holder = hd_nomad_holder_c_BAL_yizhou
 		government = nomad_government
 	}
 }
-
-c_em_akhulun = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_em_akhulun
-		government = nomad_government
-	}
-}
-
-c_em_hepung = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_em_hepung
-		government = nomad_government
-	}
-}
-
-c_em_karakopi = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_em_karakopi
-		government = nomad_government
-	}
-}
-
-c_em_khartereg = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_em_khartereg
-		government = nomad_government
-	}
-}
-
-c_em_kherulendada = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_em_kherulendada
-		government = nomad_government
-	}
-}
-
-c_gobi_abakhai = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_gobi_abakhai
-		government = nomad_government
-	}
-}
-
-c_gobi_abga = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_gobi_abga
-		government = nomad_government
-	}
-}
-
-c_gobi_dorngovi = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_gobi_dorngovi
-		government = nomad_government
-	}
-}
-
-c_gobi_maominggan = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_gobi_maominggan
-		government = nomad_government
-	}
-}
-
-c_gobi_ongi_gol = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_gobi_ongi_gol
-		government = nomad_government
-	}
-}
-
-c_gobi_sonkhot = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_gobi_sonkhot
-		government = nomad_government
-	}
-}
-
-c_gobi_ulaan_govi = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_gobi_ulaan_govi
-		government = nomad_government
-	}
-}
-
-c_gobi_ulaan_nuur = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_gobi_ulaan_nuur
-		government = nomad_government
-	}
-}
-
-c_gobi_ulaantatar = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_gobi_ulaantatar
-		government = nomad_government
-	}
-}
-
-c_kkhuoer = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_kkhuoer
-		government = nomad_government
-	}
-}
-
-c_LIAO_changchun = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_LIAO_changchun
-		government = nomad_government
-	}
-}
-
-c_LIAO_heicaoan = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_LIAO_heicaoan
-		government = nomad_government
-	}
-}
-
-c_LIAO_horqinan = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_LIAO_horqinan
-		government = nomad_government
-	}
-}
-
-c_LIAO_linhuang = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_LIAO_linhuang
-		government = nomad_government
-	}
-}
-
-c_LIAO_raozhou = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_LIAO_raozhou
-		government = nomad_government
-	}
-}
-
-c_LIAO_ulagaian = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_LIAO_ulagaian
-		government = nomad_government
-	}
-}
-
-c_shifen = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_shifen
-		government = nomad_government
-	}
-}
-
-c_SW_dongcheziguo = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_SW_dongcheziguo
-		government = nomad_government
-	}
-}
-
-c_SW_ergunia = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_SW_ergunia
-		government = nomad_government
-	}
-}
-
-c_SW_hailar = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_SW_hailar
-		government = nomad_government
-	}
-}
-
-c_SW_hongxingan = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_SW_hongxingan
-		government = nomad_government
-	}
-}
-
-c_SW_hulunbuir = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_SW_hulunbuir
-		government = nomad_government
-	}
-}
-
-c_SW_pibeihe = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_SW_pibeihe
-		government = nomad_government
-	}
-}
-
-c_SW_zhongcheziguo = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_SW_zhongcheziguo
-		government = nomad_government
-	}
-}
-
-c_wlhld = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_wlhld
-		government = nomad_government
-	}
-}
-
-c_bahantu = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_bahantu
-		government = nomad_government
-	}
-}
-
-c_bombogor = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_bombogor
-		government = nomad_government
-	}
-}
-
-c_chamil = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_chamil
-		government = nomad_government
-	}
-}
-
-c_em_dadaels = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_em_dadaels
-		government = nomad_government
-	}
-}
-
-c_em_dutulun = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_em_dutulun
-		government = nomad_government
-	}
-}
-
-c_em_gobidada = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_em_gobidada
-		government = nomad_government
-	}
-}
-
 c_EM_jiangbian = {
 	184.1.1 = {
 		holder = hd_nomad_holder_c_EM_jiangbian
 		government = nomad_government
 	}
 }
-
 c_EM_khaldun = {
 	184.1.1 = {
 		holder = hd_nomad_holder_c_EM_khaldun
 		government = nomad_government
 	}
 }
-
 c_EM_ononum = {
 	184.1.1 = {
 		holder = hd_nomad_holder_c_EM_ononum
 		government = nomad_government
 	}
 }
-
 c_EM_tsetsen = {
 	184.1.1 = {
 		holder = hd_nomad_holder_c_EM_tsetsen
 		government = nomad_government
 	}
 }
-
 c_EM_yujuelu = {
 	184.1.1 = {
 		holder = hd_nomad_holder_c_EM_yujuelu
 		government = nomad_government
 	}
 }
-
-c_em_zhen = {
+c_LIAO_changchun = {
 	184.1.1 = {
-		holder = hd_nomad_holder_c_em_zhen
+		holder = hd_nomad_holder_c_LIAO_changchun
 		government = nomad_government
 	}
 }
-
-c_gobi_gurvan_saikhan = {
+c_LIAO_heicaoan = {
 	184.1.1 = {
-		holder = hd_nomad_holder_c_gobi_gurvan_saikhan
+		holder = hd_nomad_holder_c_LIAO_heicaoan
 		government = nomad_government
 	}
 }
-
-c_hanhai = {
+c_LIAO_horqinan = {
 	184.1.1 = {
-		holder = hd_nomad_holder_c_hanhai
+		holder = hd_nomad_holder_c_LIAO_horqinan
 		government = nomad_government
 	}
 }
-
-c_husutai = {
+c_LIAO_linhuang = {
 	184.1.1 = {
-		holder = hd_nomad_holder_c_husutai
+		holder = hd_nomad_holder_c_LIAO_linhuang
 		government = nomad_government
 	}
 }
-
-c_ikh_bogd = {
+c_LIAO_raozhou = {
 	184.1.1 = {
-		holder = hd_nomad_holder_c_ikh_bogd
+		holder = hd_nomad_holder_c_LIAO_raozhou
 		government = nomad_government
 	}
 }
-
-c_karabalgasun = {
+c_LIAO_ulagaian = {
 	184.1.1 = {
-		holder = hd_nomad_holder_c_karabalgasun
+		holder = hd_nomad_holder_c_LIAO_ulagaian
 		government = nomad_government
 	}
 }
-
-c_karakorum = {
+c_SW_dongcheziguo = {
 	184.1.1 = {
-		holder = hd_nomad_holder_c_karakorum
+		holder = hd_nomad_holder_c_SW_dongcheziguo
 		government = nomad_government
 	}
 }
-
-c_karepuri = {
+c_SW_ergunia = {
 	184.1.1 = {
-		holder = hd_nomad_holder_c_karepuri
+		holder = hd_nomad_holder_c_SW_ergunia
 		government = nomad_government
 	}
 }
-
-c_khanjargalant = {
+c_SW_hailar = {
 	184.1.1 = {
-		holder = hd_nomad_holder_c_khanjargalant
+		holder = hd_nomad_holder_c_SW_hailar
 		government = nomad_government
 	}
 }
-
-c_khar_us = {
+c_SW_hongxingan = {
 	184.1.1 = {
-		holder = hd_nomad_holder_c_khar_us
+		holder = hd_nomad_holder_c_SW_hongxingan
 		government = nomad_government
 	}
 }
-
-c_khasagt_khairkhan = {
+c_SW_hulunbuir = {
 	184.1.1 = {
-		holder = hd_nomad_holder_c_khasagt_khairkhan
+		holder = hd_nomad_holder_c_SW_hulunbuir
 		government = nomad_government
 	}
 }
-
-c_khentii = {
+c_SW_pibeihe = {
 	184.1.1 = {
-		holder = hd_nomad_holder_c_khentii
+		holder = hd_nomad_holder_c_SW_pibeihe
 		government = nomad_government
 	}
 }
-
-c_longcheng = {
+c_SW_zhongcheziguo = {
 	184.1.1 = {
-		holder = hd_nomad_holder_c_longcheng
+		holder = hd_nomad_holder_c_SW_zhongcheziguo
 		government = nomad_government
 	}
 }
-
-c_mazongshan = {
+c_bahantu = {
 	184.1.1 = {
-		holder = hd_nomad_holder_c_mazongshan
+		holder = hd_nomad_holder_c_bahantu
 		government = nomad_government
 	}
 }
-
-c_mumo = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_mumo
-		government = nomad_government
-	}
-}
-
-c_naushki = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_naushki
-		government = nomad_government
-	}
-}
-
-c_ongi = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_ongi
-		government = nomad_government
-	}
-}
-
-c_sharga = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_sharga
-		government = nomad_government
-	}
-}
-
-c_tarhanalin = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_tarhanalin
-		government = nomad_government
-	}
-}
-
-c_tovkhon = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_tovkhon
-		government = nomad_government
-	}
-}
-
-c_tsambagarau = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_tsambagarau
-		government = nomad_government
-	}
-}
-
-c_tseel = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_tseel
-		government = nomad_government
-	}
-}
-
-c_ulaanbaatar = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_ulaanbaatar
-		government = nomad_government
-	}
-}
-
-c_ulaangom = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_ulaangom
-		government = nomad_government
-	}
-}
-
-c_uliastai = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_uliastai
-		government = nomad_government
-	}
-}
-
-c_urgamal = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_urgamal
-		government = nomad_government
-	}
-}
-
-c_zarman = {
-	184.1.1 = {
-		holder = hd_nomad_holder_c_zarman
-		government = nomad_government
-	}
-}
-
 c_balgun = {
 	184.1.1 = {
 		holder = hd_nomad_holder_c_balgun
 		government = nomad_government
 	}
 }
-
 c_barkul = {
 	184.1.1 = {
 		holder = hd_nomad_holder_c_barkul
 		government = nomad_government
 	}
 }
-
 c_beshbalik = {
 	184.1.1 = {
 		holder = hd_nomad_holder_c_beshbalik
 		government = nomad_government
 	}
 }
-
+c_bombogor = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_bombogor
+		government = nomad_government
+	}
+}
 c_boro_burgasu = {
 	184.1.1 = {
 		holder = hd_nomad_holder_c_boro_burgasu
 		government = nomad_government
 	}
 }
-
+c_chamil = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_chamil
+		government = nomad_government
+	}
+}
+c_em_akhulun = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_em_akhulun
+		government = nomad_government
+	}
+}
+c_em_dadaels = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_em_dadaels
+		government = nomad_government
+	}
+}
+c_em_dutulun = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_em_dutulun
+		government = nomad_government
+	}
+}
+c_em_gobidada = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_em_gobidada
+		government = nomad_government
+	}
+}
+c_em_hepung = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_em_hepung
+		government = nomad_government
+	}
+}
+c_em_karakopi = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_em_karakopi
+		government = nomad_government
+	}
+}
+c_em_khartereg = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_em_khartereg
+		government = nomad_government
+	}
+}
+c_em_kherulendada = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_em_kherulendada
+		government = nomad_government
+	}
+}
+c_em_zhen = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_em_zhen
+		government = nomad_government
+	}
+}
+c_gobi_abakhai = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_gobi_abakhai
+		government = nomad_government
+	}
+}
+c_gobi_abga = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_gobi_abga
+		government = nomad_government
+	}
+}
+c_gobi_dorngovi = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_gobi_dorngovi
+		government = nomad_government
+	}
+}
+c_gobi_gurvan_saikhan = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_gobi_gurvan_saikhan
+		government = nomad_government
+	}
+}
+c_gobi_maominggan = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_gobi_maominggan
+		government = nomad_government
+	}
+}
+c_gobi_ongi_gol = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_gobi_ongi_gol
+		government = nomad_government
+	}
+}
+c_gobi_sonkhot = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_gobi_sonkhot
+		government = nomad_government
+	}
+}
+c_gobi_ulaan_govi = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_gobi_ulaan_govi
+		government = nomad_government
+	}
+}
+c_gobi_ulaan_nuur = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_gobi_ulaan_nuur
+		government = nomad_government
+	}
+}
+c_gobi_ulaantatar = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_gobi_ulaantatar
+		government = nomad_government
+	}
+}
+c_hanhai = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_hanhai
+		government = nomad_government
+	}
+}
+c_husutai = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_husutai
+		government = nomad_government
+	}
+}
+c_ikh_bogd = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_ikh_bogd
+		government = nomad_government
+	}
+}
 c_jimsar = {
 	184.1.1 = {
 		holder = hd_nomad_holder_c_jimsar
 		government = nomad_government
 	}
 }
-
 c_kara_asirgan = {
 	184.1.1 = {
 		holder = hd_nomad_holder_c_kara_asirgan
+		government = nomad_government
+	}
+}
+c_karabalgasun = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_karabalgasun
+		government = nomad_government
+	}
+}
+c_karakorum = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_karakorum
+		government = nomad_government
+	}
+}
+c_karepuri = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_karepuri
+		government = nomad_government
+	}
+}
+c_khanjargalant = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_khanjargalant
+		government = nomad_government
+	}
+}
+c_khar_us = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_khar_us
+		government = nomad_government
+	}
+}
+c_khasagt_khairkhan = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_khasagt_khairkhan
+		government = nomad_government
+	}
+}
+c_khentii = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_khentii
+		government = nomad_government
+	}
+}
+c_kkhuoer = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_kkhuoer
+		government = nomad_government
+	}
+}
+c_longcheng = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_longcheng
+		government = nomad_government
+	}
+}
+c_mazongshan = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_mazongshan
+		government = nomad_government
+	}
+}
+c_mumo = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_mumo
+		government = nomad_government
+	}
+}
+c_naushki = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_naushki
+		government = nomad_government
+	}
+}
+c_ongi = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_ongi
+		government = nomad_government
+	}
+}
+c_sharga = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_sharga
+		government = nomad_government
+	}
+}
+c_shifen = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_shifen
+		government = nomad_government
+	}
+}
+c_tarhanalin = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_tarhanalin
+		government = nomad_government
+	}
+}
+c_tovkhon = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_tovkhon
+		government = nomad_government
+	}
+}
+c_tsambagarau = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_tsambagarau
+		government = nomad_government
+	}
+}
+c_tseel = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_tseel
+		government = nomad_government
+	}
+}
+c_ulaanbaatar = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_ulaanbaatar
+		government = nomad_government
+	}
+}
+c_ulaangom = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_ulaangom
+		government = nomad_government
+	}
+}
+c_uliastai = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_uliastai
+		government = nomad_government
+	}
+}
+c_urgamal = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_urgamal
+		government = nomad_government
+	}
+}
+c_wlhld = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_wlhld
+		government = nomad_government
+	}
+}
+c_zarman = {
+	184.1.1 = {
+		holder = hd_nomad_holder_c_zarman
 		government = nomad_government
 	}
 }

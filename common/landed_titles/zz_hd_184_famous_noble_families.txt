@@ -36,7 +36,7 @@ c_hd_nf_famous_h_house_111010004025013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_1528
+	capital = c_uuii_p_1531
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -52,7 +52,7 @@ c_hd_nf_famous_h_house_111010005002013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_2112
+	capital = c_uuii_p_2105
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -68,7 +68,7 @@ c_hd_nf_famous_h_house_111010005003013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_2112
+	capital = c_uuii_p_2125
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -132,7 +132,7 @@ c_hd_nf_famous_h_house_111010008012013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_5041
+	capital = c_jiangling
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -148,7 +148,7 @@ c_hd_nf_famous_h_house_111010008014013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_351
+	capital = c_uuii_p_1055
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -180,7 +180,7 @@ c_hd_nf_famous_h_house_111010008023013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_1091
+	capital = c_uuii_p_1068
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -196,7 +196,7 @@ c_hd_nf_famous_h_house_111010008026013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_4401
+	capital = c_uuii_p_2824
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -292,7 +292,7 @@ c_hd_nf_famous_h_house_111010015004013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_1091
+	capital = c_uuii_p_1070
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -356,7 +356,7 @@ c_hd_nf_famous_h_house_111010016007013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_843
+	capital = c_uuii_p_3758
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -372,7 +372,7 @@ c_hd_nf_famous_h_house_111010020001013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_1733
+	capital = c_uuii_p_1642
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -388,7 +388,7 @@ c_hd_nf_famous_h_house_111010020006013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_6895
+	capital = c_uuii_p_2345
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -404,7 +404,7 @@ c_hd_nf_famous_h_house_111010022002013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_1690
+	capital = c_uuii_p_1435
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -436,7 +436,7 @@ c_hd_nf_famous_h_house_111010022006013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_1690
+	capital = c_uuii_p_1620
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -468,7 +468,7 @@ c_hd_nf_famous_h_house_111010024007013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_1197
+	capital = c_uuii_p_1170
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -484,7 +484,7 @@ c_hd_nf_famous_h_house_111010024012013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_2112
+	capital = c_uuii_p_2142
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -500,7 +500,7 @@ c_hd_nf_famous_h_house_111010024016013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_4349
+	capital = c_uuii_p_2292
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -532,7 +532,7 @@ c_hd_nf_famous_h_house_111010024023013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_579
+	capital = c_uuii_p_2323
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -548,7 +548,7 @@ c_hd_nf_famous_h_house_111010024024013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_843
+	capital = c_uuii_p_800
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -564,7 +564,7 @@ c_hd_nf_famous_h_house_111010024025013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_1410
+	capital = c_uuii_p_1402
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -580,7 +580,7 @@ c_hd_nf_famous_h_house_111010024029013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_2112
+	capital = c_uuii_p_2147
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -628,7 +628,7 @@ c_hd_nf_famous_h_house_111010024042013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_3279
+	capital = c_uuii_p_3269
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -692,7 +692,7 @@ c_hd_nf_famous_h_house_111010027005013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_4401
+	capital = c_uuii_p_3102
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -708,7 +708,7 @@ c_hd_nf_famous_h_house_111010028001013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_5041
+	capital = c_uuii_p_2188
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -724,7 +724,7 @@ c_hd_nf_famous_h_house_111010030004013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_1733
+	capital = c_uuii_p_1644
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -772,7 +772,7 @@ c_hd_nf_famous_h_house_111010043002013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_1194
+	capital = c_uuii_p_1191
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -820,7 +820,7 @@ c_hd_nf_famous_h_house_111010052003013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_3279
+	capital = c_uuii_p_3277
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -852,7 +852,7 @@ c_hd_nf_famous_h_house_111010080004013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_518
+	capital = c_uuii_p_3926
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -868,7 +868,7 @@ c_hd_nf_famous_h_house_111010094001013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_1733
+	capital = c_uuii_p_1706
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -884,7 +884,7 @@ c_hd_nf_famous_h_house_111010094002013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_6053
+	capital = c_uuii_p_4917
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -900,7 +900,7 @@ c_hd_nf_famous_h_house_111010094008013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_1733
+	capital = c_uuii_p_1707
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -916,7 +916,7 @@ c_hd_nf_famous_h_house_111010094009013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_4401
+	capital = c_uuii_p_3207
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -932,7 +932,7 @@ c_hd_nf_famous_h_house_111010118002013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_1788
+	capital = c_uuii_p_1786
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -948,7 +948,7 @@ c_hd_nf_famous_h_house_111010118006013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_1528
+	capital = c_uuii_p_1536
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -964,7 +964,7 @@ c_hd_nf_famous_h_house_111010125002013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_1091
+	capital = c_uuii_p_1071
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -980,7 +980,7 @@ c_hd_nf_famous_h_house_111010135001013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_1091
+	capital = c_uuii_p_1072
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -996,7 +996,7 @@ c_hd_nf_famous_h_house_111010135002013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_1564
+	capital = c_uuii_p_1560
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1012,7 +1012,7 @@ c_hd_nf_famous_h_house_111010141001013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_1191
+	capital = c_uuii_p_1192
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1028,7 +1028,7 @@ c_hd_nf_famous_h_house_111010142004013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_351
+	capital = c_uuii_p_1057
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1044,7 +1044,7 @@ c_hd_nf_famous_h_house_111010142006013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_745
+	capital = c_uuii_p_1613
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1060,7 +1060,7 @@ c_hd_nf_famous_h_house_111010142006023 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_745
+	capital = c_uuii_p_4300
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1076,7 +1076,7 @@ c_hd_nf_famous_h_house_111010142009013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_1528
+	capital = c_uuii_p_1542
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1092,7 +1092,7 @@ c_hd_nf_famous_h_house_111010147001013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_745
+	capital = c_uuii_p_4318
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1108,7 +1108,7 @@ c_hd_nf_famous_h_house_111010148002013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_4442
+	capital = c_uuii_p_197
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1140,7 +1140,7 @@ c_hd_nf_famous_h_house_111010148009013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_745
+	capital = c_uuii_p_732
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1156,7 +1156,7 @@ c_hd_nf_famous_h_house_111010151002013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_351
+	capital = c_uuii_p_1058
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1172,7 +1172,7 @@ c_hd_nf_famous_h_house_111010151003013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_351
+	capital = c_uuii_p_1059
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1188,7 +1188,7 @@ c_hd_nf_famous_h_house_111010153002013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_579
+	capital = c_uuii_p_548
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1204,7 +1204,7 @@ c_hd_nf_famous_h_house_111010153003013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_1788
+	capital = c_uuii_p_1789
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1220,7 +1220,7 @@ c_hd_nf_famous_h_house_111010154001013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_1197
+	capital = c_uuii_p_1193
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1236,7 +1236,7 @@ c_hd_nf_famous_h_house_111010155003013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_1528
+	capital = c_uuii_p_3051
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1252,7 +1252,7 @@ c_hd_nf_famous_h_house_111010157001013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_2112
+	capital = c_uuii_p_2148
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1284,7 +1284,7 @@ c_hd_nf_famous_h_house_111010173001013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_1690
+	capital = c_uuii_p_1623
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1300,7 +1300,7 @@ c_hd_nf_famous_h_house_111010178005013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_1733
+	capital = c_uuii_p_1709
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1316,7 +1316,7 @@ c_hd_nf_famous_h_house_111010185001013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_1197
+	capital = c_uuii_p_1201
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1332,7 +1332,7 @@ c_hd_nf_famous_h_house_111010191003013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_3488
+	capital = c_uuii_p_2558
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1348,7 +1348,7 @@ c_hd_nf_famous_h_house_111010191004013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_1194
+	capital = c_uuii_p_2535
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1364,7 +1364,7 @@ c_hd_nf_famous_h_house_111010196001013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_2112
+	capital = c_uuii_p_2154
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1380,7 +1380,7 @@ c_hd_nf_famous_h_house_111010199001013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_745
+	capital = c_uuii_p_737
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1396,7 +1396,7 @@ c_hd_nf_famous_h_house_111010231001013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_2112
+	capital = c_uuii_p_2155
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1412,7 +1412,7 @@ c_hd_nf_famous_h_house_111010243002013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_4401
+	capital = c_uuii_p_3701
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1428,7 +1428,7 @@ c_hd_nf_famous_h_house_111010250024013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_579
+	capital = c_uuii_p_553
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1444,7 +1444,7 @@ c_hd_nf_famous_h_house_111010250025013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_4349
+	capital = c_uuii_p_2314
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1492,7 +1492,7 @@ c_hd_nf_famous_h_house_111010250025053 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_5041
+	capital = c_uuii_p_2977
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1508,7 +1508,7 @@ c_hd_nf_famous_h_house_111010250025063 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_1733
+	capital = c_uuii_p_1712
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1540,7 +1540,7 @@ c_hd_nf_famous_h_house_111010340001013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_1788
+	capital = c_uuii_p_1794
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1556,7 +1556,7 @@ c_hd_nf_famous_h_house_111010349001013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_579
+	capital = c_uuii_p_572
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1572,7 +1572,7 @@ c_hd_nf_famous_h_house_111010353001013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_1191
+	capital = c_uuii_p_2867
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1588,7 +1588,7 @@ c_hd_nf_famous_h_house_111010377001013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_745
+	capital = c_uuii_p_738
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1604,7 +1604,7 @@ c_hd_nf_famous_h_house_111010380001013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_3562
+	capital = c_uuii_p_1233
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1620,7 +1620,7 @@ c_hd_nf_famous_h_house_111010412001013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_901
+	capital = c_uuii_p_1507
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1636,7 +1636,7 @@ c_hd_nf_famous_h_house_111010435001013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_4401
+	capital = c_uuii_p_4440
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1652,7 +1652,7 @@ c_hd_nf_famous_h_house_111010469001013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_1191
+	capital = c_uuii_p_2986
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1668,7 +1668,7 @@ c_hd_nf_famous_h_house_111010470001013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_1191
+	capital = c_uuii_p_4344
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1684,7 +1684,7 @@ c_hd_nf_famous_h_house_111010473001013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_579
+	capital = c_uuii_p_577
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1700,7 +1700,7 @@ c_hd_nf_famous_h_house_111010474001013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_4990
+	capital = c_uuii_p_1859
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1732,7 +1732,7 @@ c_hd_nf_famous_h_house_111010575001013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_3488
+	capital = c_uuii_p_2561
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1764,7 +1764,7 @@ c_hd_nf_famous_h_house_111010766001013 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_5041
+	capital = c_uuii_p_4043
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1780,7 +1780,7 @@ c_hd_nf_famous_h_uuii_book_house_065492fcef27 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_745
+	capital = c_uuii_p_740
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1796,7 +1796,7 @@ c_hd_nf_famous_h_uuii_book_house_1cdd03787801 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_1091
+	capital = c_uuii_p_1080
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1812,7 +1812,7 @@ c_hd_nf_famous_h_uuii_book_house_3407087037c1 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_2112
+	capital = c_uuii_p_2156
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1828,7 +1828,7 @@ c_hd_nf_famous_h_uuii_book_house_3be3db78f1d4 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_351
+	capital = c_uuii_p_1346
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1844,7 +1844,7 @@ c_hd_nf_famous_h_uuii_book_house_42b052f2e929 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_3279
+	capital = c_uuii_p_3278
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1860,7 +1860,7 @@ c_hd_nf_famous_h_uuii_book_house_52d26348c960 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_6895
+	capital = c_uuii_p_2847
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1876,7 +1876,7 @@ c_hd_nf_famous_h_uuii_book_house_548814db6ff4 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_6895
+	capital = c_uuii_p_4658
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1892,7 +1892,7 @@ c_hd_nf_famous_h_uuii_book_house_5c0048d2f4d3 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_3562
+	capital = c_uuii_p_1234
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1908,7 +1908,7 @@ c_hd_nf_famous_h_uuii_book_house_5d08a8beb34f = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_579
+	capital = c_uuii_p_644
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1924,7 +1924,7 @@ c_hd_nf_famous_h_uuii_book_house_6029f12e01f7 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_4349
+	capital = c_uuii_p_4304
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1940,7 +1940,7 @@ c_hd_nf_famous_h_uuii_book_house_609fbf481dca = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_3279
+	capital = c_uuii_p_4282
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1956,7 +1956,7 @@ c_hd_nf_famous_h_uuii_book_house_69dbe6f0a144 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_3533
+	capital = c_uuii_p_2098
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1972,7 +1972,7 @@ c_hd_nf_famous_h_uuii_book_house_6ea1bef3ce73 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_6895
+	capital = c_uuii_p_599
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -1988,7 +1988,7 @@ c_hd_nf_famous_h_uuii_book_house_731e61a87a1a = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_4401
+	capital = c_uuii_p_7006
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -2004,7 +2004,7 @@ c_hd_nf_famous_h_uuii_book_house_770645027e64 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_1022
+	capital = c_uuii_p_1000
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -2020,7 +2020,7 @@ c_hd_nf_famous_h_uuii_book_house_841f862663b0 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_2112
+	capital = c_uuii_p_4144
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -2036,7 +2036,7 @@ c_hd_nf_famous_h_uuii_book_house_8bd49871d3da = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_745
+	capital = c_uuii_p_746
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -2052,7 +2052,7 @@ c_hd_nf_famous_h_uuii_book_house_a79cbb257375 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_1788
+	capital = c_uuii_p_1795
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -2068,7 +2068,7 @@ c_hd_nf_famous_h_uuii_book_house_ad9daa477502 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_3279
+	capital = c_uuii_p_6876
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -2084,7 +2084,7 @@ c_hd_nf_famous_h_uuii_book_house_cd7e1781065a = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_6413
+	capital = c_uuii_p_4838
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -2100,7 +2100,7 @@ c_hd_nf_famous_h_uuii_book_house_d8c5b5c5ec35 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_6895
+	capital = c_uuii_p_601
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -2116,7 +2116,7 @@ c_hd_nf_famous_h_uuii_book_house_ebb9ac992bef = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_901
+	capital = c_uuii_p_5114
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -2132,7 +2132,7 @@ c_hd_nf_famous_h_uuii_book_house_f8bdf3d26e54 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_1022
+	capital = c_uuii_p_1001
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -2148,7 +2148,7 @@ c_hd_nf_famous_h_uuii_book_house_f9362e43465a = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_3279
+	capital = c_uuii_p_3928
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -2164,7 +2164,7 @@ c_hd_nf_famous_h_uuii_book_house_ffc18f9bef2b = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_1733
+	capital = c_uuii_p_1713
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -2180,7 +2180,7 @@ c_hd_nf_famous_p_cai_zhi = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_579
+	capital = c_uuii_p_645
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -2196,7 +2196,7 @@ c_hd_nf_famous_p_chen_fan = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_1690
+	capital = c_uuii_p_1624
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -2212,7 +2212,7 @@ c_hd_nf_famous_p_deng_yu = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_1733
+	capital = c_uuii_p_1719
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -2228,7 +2228,7 @@ c_hd_nf_famous_p_geng_yan = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_543
+	capital = c_uuii_p_2936
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -2244,7 +2244,7 @@ c_hd_nf_famous_p_gong_sun_shu = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_901
+	capital = c_uuii_p_6294
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -2260,7 +2260,7 @@ c_hd_nf_famous_p_li_gu = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_745
+	capital = c_uuii_p_747
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -2276,7 +2276,7 @@ c_hd_nf_famous_p_li_ying_2 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_745
+	capital = c_uuii_p_1619
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -2292,7 +2292,7 @@ c_hd_nf_famous_p_liang_ji = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_1445
+	capital = c_uuii_p_1432
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -2308,7 +2308,7 @@ c_hd_nf_famous_p_liu_xin_2 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_4349
+	capital = c_uuii_p_2393
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -2324,7 +2324,7 @@ c_hd_nf_famous_p_wang_lang_2 = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_257
+	capital = c_uuii_p_2245
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -2340,7 +2340,7 @@ c_hd_nf_famous_p_wang_mang = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_1191
+	capital = c_uuii_p_4351
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -2356,7 +2356,7 @@ c_hd_nf_famous_p_xie_cheng = {
 	color = { 100 100 100 }
 	landless = yes
 
-	capital = c_uuii_p_6413
+	capital = c_uuii_p_4843
 	definite_form = yes
 	ruler_uses_title_name = no
 	always_follows_primary_heir = yes
@@ -2367,4 +2367,3 @@ c_hd_nf_famous_p_xie_cheng = {
 		add = @hd_never_primary_score
 	}
 }
-

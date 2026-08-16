@@ -64,6 +64,8 @@ hd_anti_regent_league_type = {
 		save_scope_as = hd_joined_league
 		scope:character = {
 			add_character_flag = hd_anti_regent_league_member
+			set_variable = { name = hd_anti_regent_league_ui value = yes }
+			set_variable = { name = hd_enter_contribution value = 0 }
 		}
 		every_player = {
 			limit = { confederation = scope:hd_joined_league }
@@ -80,8 +82,10 @@ hd_anti_regent_league_type = {
 		save_scope_as = hd_left_league
 		scope:character = {
 			remove_character_flag = hd_anti_regent_league_member
+			remove_variable = hd_anti_regent_league_ui
 			remove_variable = hd_anti_regent_league_vote
 			remove_variable = hd_anti_regent_league_leader
+			remove_variable = hd_enter_contribution
 		}
 	}
 }

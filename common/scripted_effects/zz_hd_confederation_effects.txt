@@ -197,13 +197,26 @@ hd_disband_league_effect = {
 	if = {
 		limit = { exists = confederation }
 		confederation = {
+			remove_variable = hd_total_enter_contribution
 			every_confederation_member = {
 				remove_variable = hd_league_leader
 				remove_variable = hd_anti_regent_league_target
-				remove_variable = hd_league_vote
-				remove_variable = hd_league_forced_vote
-				if = { limit = { has_character_modifier = hd_league_leader_modifier } remove_character_modifier = hd_league_leader_modifier }
-				if = { limit = { has_character_modifier = hd_league_disorganized_modifier } remove_character_modifier = hd_league_disorganized_modifier }
+					remove_variable = hd_league_vote
+					remove_variable = hd_league_forced_vote
+					remove_variable = hd_enter_contribution
+					remove_variable = hd_received_spoils_weight
+				remove_variable = hd_spoils_quota
+				remove_variable = hd_spoils_need
+				remove_variable = hd_anti_regent_league_ui
+				remove_character_flag = hd_anti_regent_league_member
+				if = {
+					limit = { has_character_modifier = hd_league_leader_modifier }
+					remove_character_modifier = hd_league_leader_modifier
+				}
+				if = {
+					limit = { has_character_modifier = hd_league_disorganized_modifier }
+					remove_character_modifier = hd_league_disorganized_modifier
+				}
 			}
 		}
 		disband_confederation = yes
@@ -223,13 +236,31 @@ hd_call_league_members_to_all_offensive_wars_effect = {
 				}
 				save_temporary_scope_as = hd_calling_member
 				scope:hd_calling_leader = {
-					every_character_war = {
-						limit = {
-							primary_attacker = scope:hd_calling_leader
-							NOT = { is_attacker_in_war = scope:hd_calling_member }
-						}
-						add_attacker = scope:hd_calling_member
+						every_character_war = {
+							limit = {
+								primary_attacker = scope:hd_calling_leader
+							}
+							add_attacker = scope:hd_calling_member
 					}
+				}
+			}
+		}
+	}
+}
+
+# Save the engine's actual war-contribution values before the second-war
+# distribution event runs.  The effect is called from a CB result, where
+# scope:war is the just-resolved war object.
+hd_record_anti_regent_contributions_effect = {
+	scope:war = {
+		save_scope_as = hd_contribution_war
+		every_war_participant = {
+			save_temporary_scope_as = hd_contributor
+			if = {
+				limit = { hd_is_anti_regent_league_member = yes }
+				set_variable = {
+					name = hd_enter_contribution
+					value = "scope:hd_contribution_war.war_contribution(scope:hd_contributor)"
 				}
 			}
 		}
@@ -245,7 +276,7 @@ hd_enter_dynastic_chaos_effect = {
 			}
 		}
 		situation:dynastic_cycle = {
-			change_phase = { phase = situation_dynastic_cycle_phase_chaos }
+			change_phase = situation_dynastic_cycle_phase_chaos
 		}
 	}
 }
