@@ -1,4 +1,4 @@
-##### k_amdo ############################
+﻿##### k_amdo ############################
 
 ### d_tuyuhun
 ## c_fuqi
@@ -12,7 +12,7 @@
 ## c_xining
 # Rusar
 7342 = {
-	culture = xianling
+	culture = shaodang
 	religion = tengri_pagan
 	holding = castle_holding
 }
@@ -688,7 +688,7 @@
 ## c_em_dadaels
 # FIC_Mong_Ichar_Ekin
 7374 = {
-	culture = zhongqiang
+	culture = xianbei
 	religion = jingxue
 	holding = nomad_holding
 }
@@ -701,7 +701,7 @@
 ## c_karepuri
 # FIC_Mong_Karepuri
 7376 = {
-	culture = zhongqiang
+	culture = xianbei
 	religion = jingxue
 	holding = nomad_holding
 }
@@ -802,7 +802,7 @@
 ## c_EM_jiangbian
 # Mong_Jiangbian
 7399 = {
-	culture = xiongnu
+	culture = xianbei
 	religion = tengri_pagan
 	holding = nomad_holding
 }
@@ -817,7 +817,7 @@
 ## c_bahantu
 # Batkhaan
 7274 = {
-	culture = zhongqiang
+	culture = xiongnu
 	religion = jingxue
 	holding = nomad_holding
 }
@@ -825,7 +825,7 @@
 ## c_longcheng
 # Longcheng
 7272 = {
-	culture = zhongqiang
+	culture = xiongnu
 	religion = jingxue
 	holding = nomad_holding
 }
@@ -930,7 +930,7 @@
 ## c_husutai
 # Hustai
 7285 = {
-	culture = zhongqiang
+	culture = xiongnu
 	religion = jingxue
 	holding = nomad_holding
 }
@@ -1031,7 +1031,7 @@
 ## c_hanhai
 # Hanhai
 7276 = {
-	culture = zhongqiang
+	culture = xiongnu
 	religion = jingxue
 	holding = nomad_holding
 }
@@ -1070,14 +1070,14 @@
 ## c_kkhuoer
 # FIC_Mong_Kukuchol
 7378 = {
-	culture = xiongnu
+	culture = xianbei
 	religion = tengri_pagan
 	holding = nomad_holding
 }
 ## c_em_kherulendada
 # FIC_Mong_Hinkanalin
 7379 = {
-	culture = zhongqiang
+	culture = xianbei
 	religion = jingxue
 	holding = nomad_holding
 }
@@ -1111,7 +1111,7 @@
 ## c_em_karakopi
 # FIC_Mong_Tapsunuur
 7382 = {
-	culture = zhongqiang
+	culture = xianbei
 	religion = jingxue
 	holding = nomad_holding
 }

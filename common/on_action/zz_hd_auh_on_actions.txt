@@ -1,4 +1,4 @@
-# AUH integration hooks. Root on_actions only append project-owned children.
+﻿# AUH integration hooks. Root on_actions only append project-owned children.
 yearly_global_pulse = {
 	on_actions = {
 		hd_auh_dynastic_cycle_yearly_on_action

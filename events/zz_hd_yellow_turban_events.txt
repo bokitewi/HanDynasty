@@ -1,4 +1,4 @@
-namespace = hd_yellow_turban
+﻿namespace = hd_yellow_turban
 
 hd_yellow_turban.0001 = {
 	type = character_event

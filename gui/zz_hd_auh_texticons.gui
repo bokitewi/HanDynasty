@@ -1,4 +1,4 @@
-texticon = {
+﻿texticon = {
 	icon = government_type_kuzhu_warlord
 	iconsize = {
 		texture = "gfx/interface/icons/government_types/kuzhu_warlord_government.dds"

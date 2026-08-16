@@ -1,4 +1,4 @@
-##################################################
+﻿##################################################
 # Laamps
 ##################################################
 
@@ -45,12 +45,12 @@ create_landless_adventurer_title_effect = {
 					save_scope_as = new_title
 				}
 			}
-			1000 = {
-				trigger = {
-					scope:warrior_youth ?= scope:new_landless_adventurer
-					age <= 20
-					exists = scope:host.house
-				}
+		1000 = {
+			trigger = {
+				scope:warrior_youth ?= scope:new_landless_adventurer
+				age <= 20
+				scope:host ?= { exists = house }
+			}
 				create_adventurer_title = {
 					name = adventurer_name_youths
 					holder = scope:new_landless_adventurer

@@ -565,6 +565,7 @@ NGovernment = {
 		"wanua_government"
 		"meritocratic_government"
 		"steppe_admin_government"
+		"kuzhu_warlord_government"
 	}
 }
 

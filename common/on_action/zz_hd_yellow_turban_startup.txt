@@ -1,4 +1,4 @@
-# Start the historical Yellow Turban rebellion on the 184 bookmark after lobby setup.
+﻿# Start the historical Yellow Turban rebellion on the 184 bookmark after lobby setup.
 on_game_start_after_lobby = {
 	on_actions = {
 		hd_yellow_turban_after_lobby

@@ -3059,11 +3059,12 @@ on_title_lost = {
 			limit = {
 				is_landed = no
 				tgp_is_any_minister = no
-				any_character_situation = { this = situation:dynastic_cycle }
+				has_variable = hd_dynastic_cycle_manual_participant
 			}
 			situation:dynastic_cycle ?= {
 				remove_manual_participant = prev
 			}
+			remove_variable = hd_dynastic_cycle_manual_participant
 		}
 
 		# Move or destroy estates without a liege

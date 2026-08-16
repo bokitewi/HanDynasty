@@ -1,7 +1,6 @@
 ﻿kuzhu_ai_want_be_warlord_modifier = {
 	#性格
 	ai_value_modifier = { # Personality
-		desc = "KUZHU_PERSONALITY"	
 		ai_boldness = 0.25
 		ai_honor = -0.25
 	}

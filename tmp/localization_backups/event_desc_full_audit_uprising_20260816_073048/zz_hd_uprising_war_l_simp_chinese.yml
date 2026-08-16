@@ -1,9 +1,0 @@
-﻿l_simp_chinese:
- HD_UPRISING_WAR_NAME:0 "起义战争"
- hd_uprising_war_victory_desc:0 "起义军赢得了战争，进攻方现在脱离原领主独立。"
- hd_yellow_turban_war_victory_desc:0 "黄巾军赢得战争并强制执行诉求。汉廷治下所有直属诸侯各自独立，[GetTitleByKey('h_china').GetNameNoTier]随之解体，但[GetTitleByKey('e_han').GetNameNoTier]仍由原皇帝统治。"
- hd_uprising_war_white_peace_desc:0 "双方停战；战争期间已经转让的领地维持现状。"
- hd_uprising_war_defeat_desc:0 "起义失败，进攻方领袖当前拥有的全部领地被防守方吞并。"
- hd_yellow_turban.0001.t:0 "苍天已死"
- hd_yellow_turban.0001.desc:0 "夜色未褪，一骑便闯入营中。来人从鞍上滚落，顾不得喘息，只将一封沾满尘土的急书塞到我的手中。\n\n“大贤良师，雒阳事泄了。”\n\n我的门徒[tang_zhou.GetName]已向朝廷上书告密。三十六方的布置、荆扬信众的集结、邺城之会，乃至原定三月五日内外俱起之约，皆已落入官府耳中。[ma_yuan_yi.GetName]在雒阳被捕，受车裂而死；三公与司隶正按籍搜捕宫中宿卫与城内百姓，凡曾奉太平道、受符水、传经文者，皆可能被缚入狱。死者已逾千人。\n\n更坏的消息还在后面。追捕我的诏书已经送往冀州，各郡县很快便会关闭道路，搜查往来行人。若仍等待原定之日，三十六方只会被朝廷逐一击破；那些将全部身家托付于黄天的信众，也会在举事之前便死于狱中。\n\n帐外，尚未得知消息的人们仍在低声诵念。火盆中的符纸卷曲发黑，最后一点火星倏然熄灭。三月五日尚远，朝廷的刀却已在路上。\n\n已经没有等待的余地了。"
- hd_yellow_turban.0001.a:0 "苍天已死，黄天当立！"

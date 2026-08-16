@@ -41,6 +41,7 @@ kuzhu_convert_to_warlord_from_admin_effect = {
 				faith = prev.capital_county.holder.faith
 				dynasty = generate
 				location = prev.capital_province
+				gender_female_chance = 0
 				after_creation = {
 					save_scope_as = kuzhu_new_warlord
 				}

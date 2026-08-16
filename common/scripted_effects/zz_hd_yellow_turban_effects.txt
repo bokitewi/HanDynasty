@@ -1,4 +1,4 @@
-# Effects for the 184 Yellow Turban historical uprising.
+﻿# Effects for the 184 Yellow Turban historical uprising.
 
 hd_yellow_turban_rebellion_effect = {
 	character:zhang_jiao ?= { save_scope_as = hd_yellow_turban_attacker }
@@ -32,7 +32,12 @@ hd_yellow_turban_rebellion_effect = {
 	}
 
 	if = {
-		limit = { exists = scope:hd_yellow_turban_war }
+		limit = {
+			exists = scope:hd_yellow_turban_war
+			scope:hd_yellow_turban_attacker = {
+				NOT = { has_character_flag = hd_yellow_turban_rebel_leaders_created }
+			}
+		}
 
 		scope:hd_yellow_turban_war = {
 			if = {
@@ -55,14 +60,136 @@ hd_yellow_turban_rebellion_effect = {
 			}
 		}
 
+		# Build a pool of Han duchies and counties before creating new leaders.
+		# The duchy pool is consumed one title at a time so the thirteen leaders
+		# start in different parts of the Han realm whenever enough duchies exist.
+		scope:hd_yellow_turban_defender = {
+			every_realm_county = {
+				add_to_list = hd_yellow_turban_county_pool
+			}
+			every_held_title = {
+				limit = {
+					tier = tier_duchy
+					is_landless_type_title = no
+				}
+				add_to_list = hd_yellow_turban_duchy_pool
+			}
+			every_vassal_or_below = {
+				every_held_title = {
+					limit = {
+						tier = tier_duchy
+						is_landless_type_title = no
+					}
+					add_to_list = hd_yellow_turban_duchy_pool
+				}
+			}
+		}
+
+		# Create thirteen independent Yellow Turban co-belligerents. Each
+		# receives a vanilla adventurer camp before joining the war, which keeps
+		# the participant valid even though Zhang Jiao is landless.
+		scope:hd_yellow_turban_attacker = {
+			add_character_flag = hd_yellow_turban_rebel_leaders_created
+			while = {
+				count = 13
+				if = {
+					limit = { list_size:hd_yellow_turban_duchy_pool >= 1 }
+					random_in_list = {
+						list = hd_yellow_turban_duchy_pool
+						save_temporary_scope_as = hd_yellow_turban_rebel_duchy
+					}
+					scope:hd_yellow_turban_rebel_duchy = {
+						remove_from_list = hd_yellow_turban_duchy_pool
+						random_de_jure_county = {
+							save_temporary_scope_as = hd_yellow_turban_rebel_county
+						}
+					}
+				}
+				else = {
+					# There are normally many more than thirteen Han duchies;
+					# this fallback still fulfills the fixed count on a reduced map.
+					random_in_list = {
+						list = hd_yellow_turban_county_pool
+						save_temporary_scope_as = hd_yellow_turban_rebel_county
+					}
+				}
+
+				create_character = {
+					location = scope:hd_yellow_turban_rebel_county.title_province
+					template = populist_faction_leader_template
+					faith = faith:taipingdao
+					culture = scope:hd_yellow_turban_rebel_county.culture
+					dynasty = generate
+					gender_female_chance = 50
+					trait = populist_leader
+					save_temporary_scope_as = hd_yellow_turban_rebel_leader
+				}
+
+				scope:hd_yellow_turban_rebel_leader = {
+					create_landless_adventurer_title_effect = {
+						REASON = flag:conquest
+						FLAVOR_CHAR = scope:hd_yellow_turban_rebel_leader
+					}
+					# The vanilla effect defaults the camp-purpose law to wanderers.
+					# Keep an explicit guard so this remains true if another start-up
+					# effect changes the character's law before this chain runs.
+					if = {
+						limit = { NOT = { has_realm_law = camp_purpose_wanderers } }
+						add_realm_law = camp_purpose_wanderers
+					}
+				}
+
+				scope:hd_yellow_turban_war = {
+					add_attacker = scope:hd_yellow_turban_rebel_leader
+				}
+				scope:hd_yellow_turban_rebel_leader = {
+					spawn_army = {
+						name = peasant_faction_event_troops
+						levies = 5000
+						location = scope:hd_yellow_turban_rebel_county.title_province
+						origin = scope:hd_yellow_turban_rebel_county.title_province
+						inheritable = yes
+						save_temporary_scope_as = hd_yellow_turban_rebel_army
+					}
+				}
+				scope:hd_yellow_turban_rebel_army = {
+					assign_commander = scope:hd_yellow_turban_rebel_leader
+				}
+			}
+		}
+
+		# Add twenty random Taipingdao commanders to Zhang Jiao's camp.
+		# They are available commanders, not additional war participants.
+		scope:hd_yellow_turban_attacker = {
+			while = {
+				count = 20
+				random_in_list = {
+					list = hd_yellow_turban_county_pool
+					save_temporary_scope_as = hd_yellow_turban_commander_county
+				}
+				create_character = {
+					location = scope:hd_yellow_turban_commander_county.title_province
+					template = new_commander_character
+					faith = faith:taipingdao
+					culture = scope:hd_yellow_turban_commander_county.culture
+					dynasty = none
+					gender_female_chance = 50
+					save_temporary_scope_as = hd_yellow_turban_commander
+				}
+				scope:hd_yellow_turban_commander = {
+					set_employer = scope:hd_yellow_turban_attacker
+					set_knight_status = force
+				}
+			}
+		}
+
 		scope:hd_yellow_turban_attacker = {
 			spawn_army = {
 				name = peasant_faction_event_troops
 				levies = 10000
 				location = scope:hd_yellow_turban_attacker.location
 				origin = scope:hd_yellow_turban_attacker.location
-				war = scope:hd_yellow_turban_war
-				inheritable = no
+				inheritable = yes
 			}
 		}
 
@@ -72,8 +199,7 @@ hd_yellow_turban_rebellion_effect = {
 				levies = 8000
 				location = scope:hd_yellow_turban_nanyang_leader.location
 				origin = scope:hd_yellow_turban_nanyang_leader.location
-				war = scope:hd_yellow_turban_war
-				inheritable = no
+				inheritable = yes
 			}
 		}
 
@@ -83,8 +209,7 @@ hd_yellow_turban_rebellion_effect = {
 				levies = 9000
 				location = scope:hd_yellow_turban_yingchuan_leader.location
 				origin = scope:hd_yellow_turban_yingchuan_leader.location
-				war = scope:hd_yellow_turban_war
-				inheritable = no
+				inheritable = yes
 			}
 		}
 

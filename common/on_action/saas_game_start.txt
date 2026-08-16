@@ -4,6 +4,13 @@
 
 saas_start_dynastic_cycle = {
 	effect = {
+		# The total-conversion startup replaces vanilla game_start.txt, so restore
+		# the one-day marker expected by vanilla and AUH phase on_start guards.
+		set_global_variable = {
+			name = is_game_start_date
+			days = 1
+		}
+
 		if = {
 			limit = {
 				has_tgp_dlc_trigger = yes

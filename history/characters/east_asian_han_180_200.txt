@@ -43441,7 +43441,7 @@ tang_zhou={
 	trait=arbitrary
 	trait=honest
 	trait=sadistic
-	190.7.1={
+	150.7.1={
 		birth=yes
 	}
 	255.7.1={

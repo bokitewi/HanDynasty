@@ -1,0 +1,57 @@
+on_game_start_after_lobby = {
+	on_actions = {
+		hd_legendary_weapons_after_lobby
+	}
+}
+
+hd_legendary_weapons_after_lobby = {
+	effect = {
+		if = {
+			limit = {
+				NOT = { exists = global_var:hd_cixiong_shuanggujian_initialized }
+				exists = character:liu_bei
+				character:liu_bei = { is_alive = yes }
+			}
+			character:liu_bei = {
+				hd_create_cixiong_shuanggujian_effect = { OWNER = this }
+			}
+			set_global_variable = hd_cixiong_shuanggujian_initialized
+		}
+
+		if = {
+			limit = {
+				NOT = { exists = global_var:hd_zhangba_shemao_initialized }
+				exists = character:zhang_fei
+				character:zhang_fei = { is_alive = yes }
+			}
+			character:zhang_fei = {
+				hd_create_zhangba_shemao_effect = { OWNER = this }
+			}
+			set_global_variable = hd_zhangba_shemao_initialized
+		}
+
+		if = {
+			limit = {
+				NOT = { exists = global_var:hd_liangyin_qiang_initialized }
+				exists = character:zhao_yun
+				character:zhao_yun = { is_alive = yes }
+			}
+			character:zhao_yun = {
+				hd_create_liangyin_qiang_effect = { OWNER = this }
+			}
+			set_global_variable = hd_liangyin_qiang_initialized
+		}
+
+		if = {
+			limit = {
+				NOT = { exists = global_var:hd_wushuang_fangtian_huaji_initialized }
+				exists = character:lv_bu
+				character:lv_bu = { is_alive = yes }
+			}
+			character:lv_bu = {
+				hd_create_wushuang_fangtian_huaji_effect = { OWNER = this }
+			}
+			set_global_variable = hd_wushuang_fangtian_huaji_initialized
+		}
+	}
+}

@@ -1,4 +1,4 @@
-# AUH enhancement of the vanilla Han Art of War tradition.
+﻿# AUH enhancement of the vanilla Han Art of War tradition.
 tradition_tgp_art_of_war = {
 	category = combat
 

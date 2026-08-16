@@ -1,0 +1,143 @@
+hd_create_cixiong_shuanggujian_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = hd_cixiong_shuanggujian_name
+		description = hd_cixiong_shuanggujian_description
+		type = sword
+		template = hd_legendary_weapon_template
+		visuals = hd_cixiong_shuanggujian
+		wealth = scope:wealth
+		quality = scope:quality
+		max_durability = 100
+		history = { type = created_before_history }
+		modifier = hd_cixiong_shuanggujian_weapon_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = hd_cixiong_shuanggujian
+		equip_artifact_to_owner_replace = yes
+	}
+}
+
+hd_create_zhangba_shemao_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = hd_zhangba_shemao_name
+		description = hd_zhangba_shemao_description
+		type = spear
+		template = hd_legendary_weapon_template
+		visuals = hd_zhangba_shemao
+		wealth = scope:wealth
+		quality = scope:quality
+		max_durability = 100
+		history = { type = created_before_history }
+		modifier = hd_zhangba_shemao_weapon_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = hd_zhangba_shemao
+		equip_artifact_to_owner_replace = yes
+	}
+}
+
+hd_create_liangyin_qiang_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = hd_liangyin_qiang_name
+		description = hd_liangyin_qiang_description
+		type = spear
+		template = hd_legendary_weapon_template
+		visuals = hd_liangyin_qiang
+		wealth = scope:wealth
+		quality = scope:quality
+		max_durability = 100
+		history = { type = created_before_history }
+		modifier = hd_liangyin_qiang_weapon_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = hd_liangyin_qiang
+		equip_artifact_to_owner_replace = yes
+	}
+}
+
+hd_create_shenwei_longdan_qiang_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = hd_shenwei_longdan_qiang_name
+		description = hd_shenwei_longdan_qiang_description
+		type = spear
+		template = hd_legendary_weapon_template
+		visuals = hd_shenwei_longdan_qiang
+		wealth = scope:wealth
+		quality = scope:quality
+		max_durability = 100
+		history = { type = created_before_history }
+		modifier = hd_shenwei_longdan_qiang_weapon_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = hd_shenwei_longdan_qiang
+		equip_artifact_to_owner_replace = yes
+	}
+}
+
+hd_create_hao_longdan_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = hd_hao_longdan_name
+		description = hd_hao_longdan_description
+		type = spear
+		template = hd_legendary_weapon_template
+		visuals = hd_hao_longdan
+		wealth = scope:wealth
+		quality = scope:quality
+		max_durability = 100
+		history = { type = created_before_history }
+		modifier = hd_hao_longdan_weapon_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = hd_hao_longdan
+		equip_artifact_to_owner_replace = yes
+	}
+}
+
+hd_create_wushuang_fangtian_huaji_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = hd_wushuang_fangtian_huaji_name
+		description = hd_wushuang_fangtian_huaji_description
+		type = spear
+		template = hd_legendary_weapon_template
+		visuals = hd_wushuang_fangtian_huaji
+		wealth = scope:wealth
+		quality = scope:quality
+		max_durability = 100
+		history = { type = created_before_history }
+		modifier = hd_wushuang_fangtian_huaji_weapon_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = hd_wushuang_fangtian_huaji
+		equip_artifact_to_owner_replace = yes
+	}
+}

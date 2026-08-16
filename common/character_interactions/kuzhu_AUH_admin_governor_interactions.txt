@@ -1,4 +1,4 @@
-# Demand that a vassal switches to admin
+﻿# Demand that a vassal switches to admin
 # 苦竹：使下级封臣转为行政制
 kuzhu_demand_follow_vassal_admin_interaction = {
 	category = interaction_category_vassal
@@ -35,19 +35,15 @@ kuzhu_demand_follow_vassal_admin_interaction = {
 			if = {	
 				limit = {
 					scope:actor = { has_treasury = no }
-					if = {
-						limit = {
-							scope:recipient = {
-								any_held_title = {
-									title_province = {
-										has_holding_type = nomad_holding
-									}
-								}
-							}							
+					scope:recipient = {
+						any_held_title = {
+							title_province = {
+								has_holding_type = nomad_holding
+							}
 						}
-						add = 500	
 					}
 				}
+				add = 500
 			}
 		}
 		treasury = {
@@ -117,12 +113,15 @@ kuzhu_demand_follow_vassal_admin_interaction = {
 		}
 		scope:actor = { 
 			is_at_war = no 		
-			OR = {
-				has_realm_law = kuzhu_medium_government_size
-				has_realm_law = kuzhu_admin_recruit_balanced
-				has_realm_law = kuzhu_large_government_size
-				has_realm_law = kuzhu_admin_recruit_theme
-				has_realm_law = kuzhu_admin_recruit_legion				
+			custom_tooltip = {
+				text = kuzhu_admin_law_allows_conversion_demand
+				OR = {
+					has_realm_law = kuzhu_medium_government_size
+					has_realm_law = kuzhu_admin_recruit_balanced
+					has_realm_law = kuzhu_large_government_size
+					has_realm_law = kuzhu_admin_recruit_theme
+					has_realm_law = kuzhu_admin_recruit_legion
+				}
 			}		
 		}
 		custom_tooltip = {
@@ -269,7 +268,11 @@ kuzhu_demand_follow_vassal_admin_interaction = {
 
 	ai_accept = {
 		base = 0
-		japan_demand_admin_acceptance_modifier = yes
+		ai_military_threat_modifier = {
+			SENDER = scope:actor
+			RECEIVER = scope:recipient
+			MULTIPLIER = -1
+		}
 		
 		#苦竹：展开以便修改
 		opinion_modifier = { # Opinion Factor
@@ -416,7 +419,7 @@ kuzhu_demand_follow_vassal_admin_interaction = {
 		modifier = {
 			add = 30
 			scope:actor = {
-				government_has_flag = government_is_administrative
+				government_allows = administrative
 			}
 			scope:recipient = {
 				culture = {

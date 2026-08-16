@@ -10,7 +10,7 @@ kuzhu_admin_recruit_laws = {
 		can_keep = {
 			is_independent_ruler = yes
 			highest_held_title_tier >= tier_kingdom
-			government_has_flag = government_is_administrative
+			government_allows = administrative
 		}
 
 		on_pass = {
@@ -79,7 +79,7 @@ kuzhu_admin_recruit_laws = {
 		can_keep = {
 			is_independent_ruler = yes
 			highest_held_title_tier >= tier_kingdom
-			government_has_flag = government_is_administrative
+			government_allows = administrative
 			OR = {
 				monthly_character_treasury_income > 0
 				treasury > 0 
@@ -146,7 +146,7 @@ kuzhu_admin_recruit_laws = {
 		can_keep = {
 			is_independent_ruler = yes
 			highest_held_title_tier >= tier_kingdom
-			government_has_flag = government_is_administrative
+			government_allows = administrative
 			OR = {
 				monthly_character_treasury_income > 0
 				treasury > 0 
@@ -222,7 +222,7 @@ kuzhu_admin_recruit_laws = {
 		can_keep = {
 			is_independent_ruler = yes
 			highest_held_title_tier >= tier_kingdom
-			government_has_flag = government_is_administrative
+			government_allows = administrative
 			OR = {
 				monthly_character_treasury_income > 0
 				treasury > 0 
@@ -457,7 +457,7 @@ kuzhu_admin_recruit_vassal_laws = {
 		}
 	}			
 	
-	#军团制法案
+	#禁军制法案
 	kuzhu_admin_recruit_vassal_legion = {
 		#根据领主法律来
 		can_keep = {

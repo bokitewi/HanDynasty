@@ -1,4 +1,4 @@
-namespace = kuzhu_admin_governor
+﻿namespace = kuzhu_admin_governor
 
 # demand administration Recipient Player event
 kuzhu_admin_governor.0001 = {

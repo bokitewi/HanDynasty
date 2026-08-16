@@ -44,69 +44,63 @@ kuzhu_governor_political_power = {
 		#影响力和威望取平均值，默认两边最大值都是5		
 		add = {
 			desc = kuzhu_prestige_level
-			switch = {
-				trigger = culture.kuzhu_culture_era_value
-				4 = { 
-					add = prestige_level		
-					multiply = 8
+			culture = {
+				if = {
+					limit = { has_cultural_era_or_later = culture_era_late_medieval }
+					add = { value = root.prestige_level multiply = 8 }
 				}
-				3 = { 
-					add = prestige_level		
-					multiply = 7
+				else_if = {
+					limit = { has_cultural_era_or_later = culture_era_high_medieval }
+					add = { value = root.prestige_level multiply = 7 }
 				}
-				2 = { 
-					add = prestige_level		
-					multiply = 6
+				else_if = {
+					limit = { has_cultural_era_or_later = culture_era_early_medieval }
+					add = { value = root.prestige_level multiply = 6 }
 				}
-				1 = { 
-					add = prestige_level		
-					multiply = 5
+				else = {
+					add = { value = root.prestige_level multiply = 5 }
 				}
 			}
 		}
 		add = {
 			desc = kuzhu_influence_level
-			switch = {
-				trigger = culture.kuzhu_culture_era_value
-				4 = { 
-					add = influence_level		
-					multiply = 8
+			culture = {
+				if = {
+					limit = { has_cultural_era_or_later = culture_era_late_medieval }
+					add = { value = root.influence_level multiply = 8 }
 				}
-				3 = { 
-					add = influence_level		
-					multiply = 7
+				else_if = {
+					limit = { has_cultural_era_or_later = culture_era_high_medieval }
+					add = { value = root.influence_level multiply = 7 }
 				}
-				2 = { 
-					add = influence_level		
-					multiply = 6
+				else_if = {
+					limit = { has_cultural_era_or_later = culture_era_early_medieval }
+					add = { value = root.influence_level multiply = 6 }
 				}
-				1 = { 
-					add = influence_level		
-					multiply = 5
+				else = {
+					add = { value = root.influence_level multiply = 5 }
 				}
 			}
 		}
 		#私兵数量
 		add = {
 			desc = kuzhu_maa_num
-			switch = {
-				trigger = culture.kuzhu_culture_era_value
-				4 = { 
-					add = maa_regiments_count
-					multiply = 2				
+			culture = {
+				if = {
+					limit = { has_cultural_era_or_later = culture_era_late_medieval }
+					add = { value = root.maa_regiments_count multiply = 2 }
 				}
-				3 = { 
-					add = maa_regiments_count		
-					multiply = 3				
+				else_if = {
+					limit = { has_cultural_era_or_later = culture_era_high_medieval }
+					add = { value = root.maa_regiments_count multiply = 3 }
 				}
-				2 = { 
-					add = maa_regiments_count		
-					multiply = 4					
+				else_if = {
+					limit = { has_cultural_era_or_later = culture_era_early_medieval }
+					add = { value = root.maa_regiments_count multiply = 4 }
 				}
-				1 = { 
-					add = maa_regiments_count		
-					multiply = 5
-				}				
+				else = {
+					add = { value = root.maa_regiments_count multiply = 5 }
+				}
 			}
 		}
 		

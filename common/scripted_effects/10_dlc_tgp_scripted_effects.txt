@@ -1732,8 +1732,14 @@ destroy_held_ministry_titles_effect = {
 			scope:minister_should_lose_ministry_title = { destroy_title = prev }
 		}
 
-		situation:dynastic_cycle ?= {
-			remove_manual_participant = prev
+		if = {
+			limit = {
+				has_variable = hd_dynastic_cycle_manual_participant
+			}
+			situation:dynastic_cycle ?= {
+				remove_manual_participant = prev
+			}
+			remove_variable = hd_dynastic_cycle_manual_participant
 		}
 	}
 }

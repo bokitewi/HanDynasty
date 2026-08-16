@@ -78,7 +78,7 @@ kuzhu_demand_feudalize_interaction = {
 				}
 			}
 			custom_tooltip = {
-				#text = demand_admin_hereditary_exists_tt
+				text = demand_admin_hereditary_exists_tt
 				NOT = { exists = scope:recipient.primary_title.var:petition_house_rights }
 			}
 		}
@@ -333,19 +333,18 @@ kuzhu_demand_feudalize_interaction = {
 				min = 5
 			}
 		}
-		# HISTORICALLY ADMIN PEOPLES WANT TO BE ADMIN
+		# Chinese administrative cultures are reluctant to abandon the bureaucracy.
 		modifier = {
 			add = -20
 			scope:actor = {
-				government_has_flag = government_is_administrative
+				government_allows = administrative
 			}
 			scope:recipient = {
 				culture = {
 					OR = {
 						this = culture:han
 						any_parent_culture_or_above = { this = culture:han }
-						this = culture:greek
-						any_parent_culture_or_above = { this = culture:greek }
+						has_cultural_tradition = tradition_kuzhu_minor_china
 					}
 				}
 			}
@@ -611,4 +610,3 @@ kuzhu_call_warlord_to_war_interaction = {
 		}
 	}
 }
-

@@ -12,7 +12,7 @@ kuzhu_admin_to_warlord_decision = {
 		is_independent_ruler = no
 		NOT = { has_character_flag = flag_kuzhu_new_governor }
 		OR = {
-			government_has_flag = government_is_administrative
+			government_allows = administrative
 			government_has_flag = government_is_celestial
 			government_has_flag = government_is_meritocratic
 			government_has_flag = government_is_steppe_admin
@@ -249,14 +249,16 @@ kuzhu_warlord_to_administrative_decision = {
 			}
 			custom_tooltip = {
 				text = all_powerful_vassals_required_tt
-				every_powerful_vassal = {
-					limit = {
+				NOT = {
+					any_powerful_vassal = {
 						NOT = { government_has_flag = government_is_kuzhu_warlord }
+						NOT = {
+							opinion = {
+								target = root
+								value >= 50
+							}
+						}	
 					}
-					opinion = {
-						target = root
-						value >= 50
-					}	
 				}
 			}
 		}
@@ -273,21 +275,22 @@ kuzhu_warlord_to_administrative_decision = {
 				faith = { has_doctrine = tenet_legalism }
 				dynasty = { has_dynasty_perk = erudition_legacy_5 }
 				dynasty = { has_dynasty_perk = law_legacy_5 }
-				#持有罗马或中华帝国
-				OR = {						
-					primary_title = { 
-						tier >= tier_empire
-						hegemony = title:h_china
-					}
-				}				
+				#中华帝国
+				primary_title = { 
+					tier >= tier_empire
+					hegemony = title:h_china
+				}
 			}
 		}
 	}
 	
 	is_valid_showing_failures_only = {
-		OR = {
-			has_ep3_dlc_trigger = yes
-			tgp_should_become_meritocratic_trigger = yes
+		custom_tooltip = {
+			text = kuzhu_warlord_to_administrative_eligibility_tt
+			OR = {
+				has_ep3_dlc_trigger = yes
+				tgp_should_become_meritocratic_trigger = yes
+			}
 		}
 		is_at_war = no
 	}
@@ -298,11 +301,9 @@ kuzhu_warlord_to_administrative_decision = {
 			#罗马和中华转行政制减费
 			if = {
 				limit = {
-					OR = {						
-						primary_title = { 
-							tier >= tier_empire
-							hegemony = title:h_china
-						}
+					primary_title = { 
+						tier >= tier_empire
+						hegemony = title:h_china
 					}
 				}
 				multiply = 0.1
@@ -394,11 +395,9 @@ kuzhu_warlord_to_administrative_decision = {
 			#罗马和中华转行政制减费
 			if = {
 				limit = {
-					OR = {						
-						primary_title = { 
-							tier >= tier_empire
-							hegemony = title:h_china
-						}
+					primary_title = { 
+						tier >= tier_empire
+						hegemony = title:h_china
 					}
 				}
 				multiply = 0.1
@@ -612,11 +611,9 @@ kuzhu_warlord_to_administrative_decision = {
 		
 		#头衔因素
 		modifier = {
-			OR = {
-				primary_title = {
-					tier >= tier_empire
-					hegemony = title:h_china
-				}
+			primary_title = {
+				tier >= tier_empire
+				hegemony = title:h_china
 			}
 			add = 200
 		}

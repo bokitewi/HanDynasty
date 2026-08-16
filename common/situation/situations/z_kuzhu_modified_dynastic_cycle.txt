@@ -403,7 +403,7 @@ dynastic_cycle = {
 					}
 				}
 				trigger_else = {
-					var:movement_member = flag:undecided
+					var:movement_member ?= flag:undecided
 				}
 			}
 			on_join = {
@@ -481,6 +481,8 @@ dynastic_cycle = {
 					root = {
 						add_manual_participant = prev
 					}
+					# Track only participants added by this minister bootstrap.
+					set_variable = hd_dynastic_cycle_manual_participant
 				}
 				# Give them modifier for extra scheme slots
 				add_character_modifier = minister_scheme_slots_modifier
@@ -1453,9 +1455,6 @@ dynastic_cycle = {
 						}
 					}
 					other_rulers = {
-						parameters = {
-							dynastic_cycle_unlocks_cb_for_outsiders = no # for loc purposes only, to let players know they can be invaded
-						}
 					}
 				}
 

@@ -1,4 +1,4 @@
-##### k_balhae ############################
+﻿##### k_balhae ############################
 
 ### d_fuyu
 ## c_uuii_p_3837
@@ -521,7 +521,7 @@
 ## c_uuii_p_1372
 # NANQU1
 1372 = {
-	culture = zhongqiang
+	culture = dongqiang
 	religion = jingxue
 	holding = castle_holding
 }
@@ -601,7 +601,7 @@
 ## c_uuii_p_2800
 # XIENA
 2800 = {
-	culture = zhongqiang
+	culture = dongqiang
 	religion = jingxue
 	holding = castle_holding
 }
@@ -703,7 +703,7 @@
 }
 # TANGMAO
 2789 = {
-	culture = zhongqiang
+	culture = dongqiang
 	religion = jingxue
 	holding = castle_holding
 }
@@ -728,7 +728,7 @@
 }
 # FANG6
 2785 = {
-	culture = zhongqiang
+	culture = dongqiang
 	religion = jingxue
 	holding = castle_holding
 }
@@ -765,7 +765,7 @@
 ## c_uuii_p_1374
 # BEIQU
 1374 = {
-	culture = zhongqiang
+	culture = dongqiang
 	religion = jingxue
 	holding = castle_holding
 }
@@ -792,7 +792,7 @@
 ## c_uuii_p_1378
 # DAJI1
 1378 = {
-	culture = zhongqiang
+	culture = dongqiang
 	religion = jingxue
 	holding = castle_holding
 }
@@ -857,7 +857,7 @@
 ## c_uuii_p_2772
 # LONG3
 2772 = {
-	culture = zhongqiang
+	culture = dongqiang
 	religion = jingxue
 	holding = castle_holding
 }
@@ -957,7 +957,7 @@
 ## c_uuii_p_2742
 # JIN5
 2742 = {
-	culture = zhongqiang
+	culture = dongqiang
 	religion = jingxue
 	holding = castle_holding
 }
@@ -1009,7 +1009,7 @@
 ## c_uuii_p_1384
 # PU2
 1384 = {
-	culture = zhongqiang
+	culture = dongqiang
 	religion = jingxue
 	holding = castle_holding
 }
@@ -1040,7 +1040,7 @@
 ## c_uuii_p_1385
 # XICHENG1
 1385 = {
-	culture = zhongqiang
+	culture = dongqiang
 	religion = jingxue
 	holding = castle_holding
 }
@@ -1082,7 +1082,7 @@
 ## c_uuii_p_1389
 # GAOLANG
 1389 = {
-	culture = zhongqiang
+	culture = dongqiang
 	religion = jingxue
 	holding = castle_holding
 }
@@ -1164,7 +1164,7 @@
 ## c_uuii_p_1394
 # ZHENGHE
 1394 = {
-	culture = zhongqiang
+	culture = dongqiang
 	religion = jingxue
 	holding = castle_holding
 }
@@ -2357,7 +2357,7 @@
 ## c_uuii_p_1466
 # LUODU
 1466 = {
-	culture = zhongqiang
+	culture = dongqiang
 	religion = jingxue
 	holding = castle_holding
 }
@@ -2677,7 +2677,7 @@
 ## c_uuii_p_1460
 # DIAOYIN
 1460 = {
-	culture = zhongqiang
+	culture = dongqiang
 	religion = jingxue
 	holding = castle_holding
 }
@@ -2737,14 +2737,14 @@
 ## c_uuii_p_1455
 # DINGYANG
 1455 = {
-	culture = zhongqiang
+	culture = dongqiang
 	religion = jingxue
 	holding = castle_holding
 }
 ## c_uuii_p_1441
 # YUNYAN
 1454 = {
-	culture = zhongqiang
+	culture = dongqiang
 	religion = jingxue
 	holding = castle_holding
 }
@@ -2767,7 +2767,7 @@
 ## c_uuii_p_1453
 # SANCHENG
 1453 = {
-	culture = zhongqiang
+	culture = dongqiang
 	religion = jingxue
 	holding = castle_holding
 }
@@ -2782,7 +2782,7 @@
 ## c_uuii_p_1452
 # MENSHAN
 1451 = {
-	culture = zhongqiang
+	culture = dongqiang
 	religion = jingxue
 	holding = castle_holding
 }
@@ -2840,14 +2840,14 @@
 ## c_uuii_p_1445
 # BAJIAO
 1445 = {
-	culture = zhongqiang
+	culture = dongqiang
 	religion = jingxue
 	holding = castle_holding
 }
 ## c_uuii_p_1444
 # GUANGLUO
 1444 = {
-	culture = zhongqiang
+	culture = dongqiang
 	religion = jingxue
 	holding = castle_holding
 }
@@ -2885,7 +2885,7 @@
 ## c_uuii_p_2457
 # JI19
 2457 = {
-	culture = zhongqiang
+	culture = dongqiang
 	religion = jingxue
 	holding = castle_holding
 }
@@ -2907,7 +2907,7 @@
 ## c_uuii_p_1440
 # YANSHUI
 1440 = {
-	culture = zhongqiang
+	culture = dongqiang
 	religion = jingxue
 	holding = castle_holding
 }
@@ -3325,7 +3325,7 @@
 ## c_uuii_p_3941
 # GAOQIU
 3941 = {
-	culture = byeonhan
+	culture = jinhan
 	religion = yemaek_shamanism
 	holding = castle_holding
 }
@@ -3532,7 +3532,7 @@
 ## c_uuii_p_3935
 # LANSHAN
 3935 = {
-	culture = ye
+	culture = jinhan
 	religion = yemaek_shamanism
 	holding = castle_holding
 }
@@ -3540,7 +3540,7 @@
 ## c_uuii_p_3381
 # QINSHE
 3381 = {
-	culture = goguryeo
+	culture = jinhan
 	religion = yemaek_shamanism
 	holding = castle_holding
 }
@@ -3827,7 +3827,7 @@
 ## c_uuii_p_3896
 # FUSIDA
 3896 = {
-	culture = goguryeo
+	culture = fuyu
 	religion = yemaek_shamanism
 	holding = castle_holding
 }
@@ -3848,7 +3848,7 @@
 }
 # QICHENG
 3437 = {
-	culture = goguryeo
+	culture = ye
 	religion = yemaek_shamanism
 	holding = castle_holding
 }
@@ -3908,7 +3908,7 @@
 }
 # YANGLU
 3440 = {
-	culture = goguryeo
+	culture = ye
 	religion = yemaek_shamanism
 	holding = castle_holding
 }
@@ -3939,7 +3939,7 @@
 ## c_uuii_p_3496
 # NANJIANG
 3496 = {
-	culture = goguryeo
+	culture = fuyu
 	religion = yemaek_shamanism
 	holding = castle_holding
 }
@@ -3991,7 +3991,7 @@
 ## c_uuii_p_3435
 # DIAOLING
 3435 = {
-	culture = goguryeo
+	culture = fuyu
 	religion = yemaek_shamanism
 	holding = castle_holding
 }
@@ -4020,7 +4020,7 @@
 ## c_uuii_p_3429
 # XIETOUWEI
 3429 = {
-	culture = goguryeo
+	culture = fuyu
 	religion = yemaek_shamanism
 	holding = castle_holding
 }
@@ -4152,7 +4152,7 @@
 ## c_uuii_p_5302
 # YONGCONG
 5302 = {
-	culture = wuhu
+	culture = liaoren
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -4173,7 +4173,7 @@
 ## c_uuii_p_5283
 # CHONGSHAN
 5283 = {
-	culture = luoyue
+	culture = xiou
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -4339,7 +4339,7 @@
 ## c_uuii_p_5265
 # ANDING_MASHAN
 5265 = {
-	culture = wuhu
+	culture = xiou
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -4393,7 +4393,7 @@
 ## c_uuii_p_5496
 # PROVINCE_5529
 5496 = {
-	culture = wuhu
+	culture = xiou
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -4439,7 +4439,7 @@
 }
 # SIEN
 5257 = {
-	culture = wuhu
+	culture = liaoren
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -4453,7 +4453,7 @@
 ## c_uuii_p_5255
 # HECHI
 5255 = {
-	culture = wuhu
+	culture = xiou
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -4585,7 +4585,7 @@
 ## c_uuii_p_5513
 # PROVINCE_5546
 5513 = {
-	culture = wuhu
+	culture = nanyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -4739,7 +4739,7 @@
 }
 # LUCHUAN_RONGZHOU
 5217 = {
-	culture = zhuyai
+	culture = xiou
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -4801,7 +4801,7 @@
 ## c_uuii_p_5210
 # FENGCHENG
 5210 = {
-	culture = wuhu
+	culture = nanyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -4814,7 +4814,7 @@
 }
 # LINHE
 5208 = {
-	culture = wuhu
+	culture = nanyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -4990,7 +4990,7 @@
 ## c_uuii_p_5650
 # PROVINCE_5692
 5650 = {
-	culture = wuhu
+	culture = xiou
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -5107,7 +5107,7 @@
 ## c_uuii_p_5761
 # PROVINCE_5806
 5761 = {
-	culture = jiaozhou
+	culture = nanyue
 	religion = jingxue
 	holding = castle_holding
 }
@@ -5224,7 +5224,7 @@
 ## c_uuii_p_5849
 # PROVINCE_5897
 5849 = {
-	culture = luoyue
+	culture = xiou
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -5305,7 +5305,7 @@
 }
 # LEHUI
 5196 = {
-	culture = zhuyai
+	culture = daner
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -5326,7 +5326,7 @@
 ## c_uuii_p_5193
 # YILUN
 5193 = {
-	culture = zhuyai
+	culture = daner
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -5564,7 +5564,7 @@
 ## c_uuii_p_6120
 # PROVINCE_6177
 6120 = {
-	culture = wuhu
+	culture = xiou
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -5580,7 +5580,7 @@
 ## c_uuii_p_6104
 # PROVINCE_6161
 6104 = {
-	culture = wuhu
+	culture = xiou
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -5801,7 +5801,7 @@
 ## c_uuii_p_6318
 # PROVINCE_6382
 6318 = {
-	culture = luoyue
+	culture = xiou
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -6052,7 +6052,7 @@
 }
 # LIANZHOU
 5119 = {
-	culture = wuhu
+	culture = nanyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -6072,7 +6072,7 @@
 ## c_uuii_p_5122
 # RENHUA
 5122 = {
-	culture = wuhu
+	culture = nanyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -6208,7 +6208,7 @@
 ## c_uuii_p_5133
 # MENGLI
 5133 = {
-	culture = wuhu
+	culture = nanyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -6307,7 +6307,7 @@
 ## c_uuii_p_6444
 # PROVINCE_6514
 6444 = {
-	culture = wuhu
+	culture = xiou
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -6516,7 +6516,7 @@
 ## c_uuii_p_6549
 # PROVINCE_6622
 6549 = {
-	culture = wuhu
+	culture = xiou
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -6593,7 +6593,7 @@
 ## c_uuii_p_6163
 # PROVINCE_6221
 6163 = {
-	culture = wuhu
+	culture = xiou
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -6601,7 +6601,7 @@
 ## c_uuii_p_6587
 # PROVINCE_6662
 6587 = {
-	culture = luoyue
+	culture = xiou
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -6714,7 +6714,7 @@
 ## c_uuii_p_6628
 # PROVINCE_6706
 6628 = {
-	culture = wuhu
+	culture = liaoren
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -6898,7 +6898,7 @@
 ## c_uuii_p_5784
 # PROVINCE_5968
 5918 = {
-	culture = wuhu
+	culture = xiou
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -6976,7 +6976,7 @@
 ## c_uuii_p_5178
 # ANYUAN_LIANZHOU
 5178 = {
-	culture = luoyue
+	culture = xiou
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -6984,7 +6984,7 @@
 ## c_uuii_p_5907
 # PROVINCE_5957
 5907 = {
-	culture = wuhu
+	culture = xiou
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -7122,7 +7122,7 @@
 }
 # WEIMO
 5319 = {
-	culture = wuhu
+	culture = xiou
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -7170,7 +7170,7 @@
 ## c_uuii_p_6507
 # PROVINCE_6579
 6507 = {
-	culture = luoyue
+	culture = liaoren
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -7866,7 +7866,7 @@
 ## c_uuii_p_6043
 # PROVINCE_6099
 6043 = {
-	culture = luoyue
+	culture = liaoren
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -7910,7 +7910,7 @@
 ## c_uuii_p_4777
 # BINH_LAM
 4777 = {
-	culture = wuhu
+	culture = xiou
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -8028,7 +8028,7 @@
 ## c_uuii_p_5460
 # PROVINCE_5491
 5460 = {
-	culture = wuling
+	culture = baipu
 	religion = jingxue
 	holding = castle_holding
 }
@@ -8043,7 +8043,7 @@
 ## c_uuii_p_5457
 # PROVINCE_5488
 5457 = {
-	culture = shanyue
+	culture = ganyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -8127,7 +8127,7 @@
 ## c_uuii_p_5299
 # TAIPENGRUODONG
 5300 = {
-	culture = yelang
+	culture = baipu
 	religion = jingxue
 	holding = castle_holding
 }
@@ -8211,7 +8211,7 @@
 ## c_uuii_p_5248
 # XINGAN
 5248 = {
-	culture = wuhu
+	culture = nanyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -8541,7 +8541,7 @@
 ## c_uuii_p_5039
 # BAIMA
 5039 = {
-	culture = shanyue
+	culture = nanyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -8555,7 +8555,7 @@
 ## c_uuii_p_5037
 # BAICANG
 5037 = {
-	culture = shanyue
+	culture = nanyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -8600,7 +8600,7 @@
 ## c_uuii_p_5031
 # SHIXI
 5031 = {
-	culture = wuling
+	culture = baipu
 	religion = jingxue
 	holding = castle_holding
 }
@@ -8647,7 +8647,7 @@
 ## c_uuii_p_5017
 # CHANGSHOU_PINGJIANG
 5017 = {
-	culture = shanyue
+	culture = ganyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -8670,7 +8670,7 @@
 ## c_uuii_p_5436
 # LUYANG
 5013 = {
-	culture = wuling
+	culture = baipu
 	religion = jingxue
 	holding = castle_holding
 }
@@ -8684,7 +8684,7 @@
 ## c_uuii_p_5010
 # MAYANG
 5010 = {
-	culture = wuling
+	culture = baipu
 	religion = jingxue
 	holding = castle_holding
 }
@@ -8698,7 +8698,7 @@
 ## c_uuii_p_5005
 # WUZHAI
 5005 = {
-	culture = wuling
+	culture = baipu
 	religion = jingxue
 	holding = castle_holding
 }
@@ -9253,7 +9253,7 @@
 }
 # SHAQU
 3742 = {
-	culture = wuling
+	culture = baipu
 	religion = jingxue
 	holding = castle_holding
 }
@@ -11047,7 +11047,7 @@
 ## c_uuii_p_6845
 # PROVINCE_6939
 6845 = {
-	culture = wuling
+	culture = baipu
 	religion = jingxue
 	holding = castle_holding
 }
@@ -11293,7 +11293,7 @@
 ## c_uuii_p_5593
 # PROVINCE_6828
 6744 = {
-	culture = shanyue
+	culture = nanyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -11378,7 +11378,7 @@
 ## c_uuii_p_4987
 # PROVINCE_6770
 6691 = {
-	culture = yangzhou
+	culture = ganyue
 	religion = jingxue
 	holding = castle_holding
 }
@@ -11740,7 +11740,7 @@
 ## c_uuii_p_6470
 # PROVINCE_6541
 6470 = {
-	culture = shanyue
+	culture = nanyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -11756,7 +11756,7 @@
 ## c_uuii_p_6466
 # PROVINCE_6537
 6466 = {
-	culture = shanyue
+	culture = nanyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -11828,7 +11828,7 @@
 ## c_uuii_p_6424
 # PROVINCE_6494
 6424 = {
-	culture = wuling
+	culture = baipu
 	religion = jingxue
 	holding = castle_holding
 }
@@ -11836,7 +11836,7 @@
 ## c_uuii_p_6412
 # PROVINCE_6480
 6412 = {
-	culture = shanyue
+	culture = nanyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -11945,7 +11945,7 @@
 ## c_uuii_p_6359
 # PROVINCE_6427
 6359 = {
-	culture = shanyue
+	culture = baipu
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -12067,7 +12067,7 @@
 ## c_uuii_p_6291
 # PROVINCE_6352
 6291 = {
-	culture = shanyue
+	culture = nanyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -12075,7 +12075,7 @@
 ## c_uuii_p_6281
 # PROVINCE_6341
 6281 = {
-	culture = wuling
+	culture = baipu
 	religion = jingxue
 	holding = castle_holding
 }
@@ -12304,7 +12304,7 @@
 ## c_uuii_p_6048
 # PROVINCE_6104
 6048 = {
-	culture = shanyue
+	culture = nanyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -12570,7 +12570,7 @@
 ## c_uuii_p_5032
 # PROVINCE_5952
 5902 = {
-	culture = wuling
+	culture = baipu
 	religion = jingxue
 	holding = castle_holding
 }
@@ -12752,7 +12752,7 @@
 ## c_uuii_p_5072
 # PROVINCE_5874
 5826 = {
-	culture = shanyue
+	culture = nanyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -12760,7 +12760,7 @@
 ## c_uuii_p_5808
 # PROVINCE_5855
 5808 = {
-	culture = shanyue
+	culture = nanyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -12768,7 +12768,7 @@
 ## c_uuii_p_5807
 # PROVINCE_5854
 5807 = {
-	culture = shanyue
+	culture = nanyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -12878,7 +12878,7 @@
 ## c_uuii_p_5624
 # PROVINCE_5664
 5624 = {
-	culture = shanyue
+	culture = nanyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -12894,7 +12894,7 @@
 ## c_uuii_p_5616
 # PROVINCE_5655
 5616 = {
-	culture = shanyue
+	culture = nanyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -12932,7 +12932,7 @@
 ## c_uuii_p_5898
 # PROVINCE_5631
 5593 = {
-	culture = shanyue
+	culture = nanyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -13028,7 +13028,7 @@
 ## c_uuii_p_6439
 # PROVINCE_5570
 5536 = {
-	culture = jingzhou
+	culture = baipu
 	religion = jingxue
 	holding = castle_holding
 }
@@ -13052,7 +13052,7 @@
 ## c_uuii_p_6521
 # PROVINCE_5541
 5508 = {
-	culture = jingzhou
+	culture = baipu
 	religion = jingxue
 	holding = castle_holding
 }
@@ -13108,7 +13108,7 @@
 ## c_uuii_p_5484
 # PROVINCE_5517
 5484 = {
-	culture = wuling
+	culture = baipu
 	religion = jingxue
 	holding = castle_holding
 }
@@ -16578,7 +16578,7 @@
 ## c_uuii_p_5097
 # JIULINGSHAN
 5097 = {
-	culture = liangzhou
+	culture = ruoqiang
 	religion = jingxue
 	holding = castle_holding
 }
@@ -16726,7 +16726,7 @@
 ## c_uuii_p_3609
 # MUMEN
 3609 = {
-	culture = diren
+	culture = baima
 	religion = jingxue
 	holding = castle_holding
 }
@@ -16912,7 +16912,7 @@
 ## c_uuii_p_1429
 # SANSHUI1
 1429 = {
-	culture = zhongqiang
+	culture = baima
 	religion = jingxue
 	holding = castle_holding
 }
@@ -17002,7 +17002,7 @@
 ## c_uuii_p_3076
 # WEIMING
 3076 = {
-	culture = zhongqiang
+	culture = baima
 	religion = jingxue
 	holding = castle_holding
 }
@@ -17031,7 +17031,7 @@
 ## c_uuii_p_3073
 # NAER
 3073 = {
-	culture = zhongqiang
+	culture = baima
 	religion = jingxue
 	holding = castle_holding
 }
@@ -17121,7 +17121,7 @@
 ## c_uuii_p_3061
 # LANCHUAN
 3061 = {
-	culture = zhongqiang
+	culture = shaodang
 	religion = jingxue
 	holding = castle_holding
 }
@@ -17182,14 +17182,14 @@
 ## c_uuii_p_3058
 # HONGHE
 3058 = {
-	culture = zhongqiang
+	culture = shaodang
 	religion = jingxue
 	holding = castle_holding
 }
 ## c_uuii_p_3057
 # ZHUONI
 3057 = {
-	culture = zhongqiang
+	culture = shaodang
 	religion = jingxue
 	holding = castle_holding
 }
@@ -17237,7 +17237,7 @@
 }
 # LINTAO1
 3051 = {
-	culture = zhongqiang
+	culture = shaodang
 	religion = jingxue
 	holding = castle_holding
 }
@@ -17269,14 +17269,14 @@
 ## c_uuii_p_3049
 # FANGDANG
 3049 = {
-	culture = zhongqiang
+	culture = shaodang
 	religion = jingxue
 	holding = castle_holding
 }
 ## c_uuii_p_3048
 # YONGSHI2
 3048 = {
-	culture = zhongqiang
+	culture = shaodang
 	religion = jingxue
 	holding = castle_holding
 }
@@ -17352,7 +17352,7 @@
 ## c_uuii_p_3040
 # AYANG1
 3040 = {
-	culture = zhongqiang
+	culture = shaodang
 	religion = jingxue
 	holding = castle_holding
 }
@@ -17392,7 +17392,7 @@
 ## c_uuii_p_3038
 # YUEQIN
 3038 = {
-	culture = zhongqiang
+	culture = baima
 	religion = jingxue
 	holding = castle_holding
 }
@@ -17440,7 +17440,7 @@
 ## c_uuii_p_3067
 # JIENIAO
 3035 = {
-	culture = zhongqiang
+	culture = baima
 	religion = jingxue
 	holding = castle_holding
 }
@@ -17832,7 +17832,7 @@
 ## c_uuii_p_1472
 # CHUDAO
 1472 = {
-	culture = zhongqiang
+	culture = dongqiang
 	religion = jingxue
 	holding = castle_holding
 }
@@ -18379,7 +18379,7 @@
 ## c_uuii_p_5744
 # PROVINCE_7125
 7031 = {
-	culture = liangzhou
+	culture = baima
 	religion = jingxue
 	holding = castle_holding
 }
@@ -18447,7 +18447,7 @@
 ## c_uuii_p_1512
 # MIANZHU
 1512 = {
-	culture = diren
+	culture = baima
 	religion = jingxue
 	holding = castle_holding
 }
@@ -18500,7 +18500,7 @@
 ## c_uuii_p_1516
 # HANKAI
 1516 = {
-	culture = diren
+	culture = baima
 	religion = jingxue
 	holding = castle_holding
 }
@@ -18522,14 +18522,14 @@
 ## c_uuii_p_1519
 # WANGYUAN1
 1519 = {
-	culture = diren
+	culture = baima
 	religion = jingxue
 	holding = castle_holding
 }
 ## c_uuii_p_1520
 # JI13
 1520 = {
-	culture = diren
+	culture = baima
 	religion = jingxue
 	holding = castle_holding
 }
@@ -18559,7 +18559,7 @@
 ## c_uuii_p_1522
 # HUANDAO
 1522 = {
-	culture = diren
+	culture = baima
 	religion = jingxue
 	holding = castle_holding
 }
@@ -18671,7 +18671,7 @@
 ## c_uuii_p_1528
 # XIANGWU
 1528 = {
-	culture = diren
+	culture = shaodang
 	religion = jingxue
 	holding = castle_holding
 }
@@ -18813,7 +18813,7 @@
 ## c_uuii_p_1531
 # WUXI
 1531 = {
-	culture = diren
+	culture = shaodang
 	religion = jingxue
 	holding = castle_holding
 }
@@ -18876,7 +18876,7 @@
 ## c_uuii_p_1536
 # DIDAO1
 1536 = {
-	culture = zhongqiang
+	culture = shaodang
 	religion = jingxue
 	holding = castle_holding
 }
@@ -18954,7 +18954,7 @@
 ## c_uuii_p_1542
 # HEGUAN
 1542 = {
-	culture = xianling
+	culture = shaodang
 	religion = jingxue
 	holding = castle_holding
 }
@@ -18989,7 +18989,7 @@
 ## c_uuii_p_1546
 # YUNWU
 1546 = {
-	culture = xianling
+	culture = shaodang
 	religion = jingxue
 	holding = castle_holding
 }
@@ -19313,7 +19313,7 @@
 ## c_uuii_p_1562
 # XIUTU
 1562 = {
-	culture = liangzhou
+	culture = baima
 	religion = jingxue
 	holding = castle_holding
 }
@@ -19329,7 +19329,7 @@
 ## c_uuii_p_1564
 # GUZANG
 1564 = {
-	culture = liangzhou
+	culture = baima
 	religion = jingxue
 	holding = castle_holding
 }
@@ -19350,7 +19350,7 @@
 ## c_uuii_p_1567
 # CANGSONG
 1567 = {
-	culture = liangzhou
+	culture = baima
 	religion = jingxue
 	holding = castle_holding
 }
@@ -19395,7 +19395,7 @@
 ## c_uuii_p_1570
 # JUCI
 1570 = {
-	culture = liangzhou
+	culture = baima
 	religion = jingxue
 	holding = castle_holding
 }
@@ -19590,7 +19590,7 @@
 ## c_uuii_p_3353
 # GUDANZHE
 3353 = {
-	culture = goguryeo
+	culture = ye
 	religion = yemaek_shamanism
 	holding = castle_holding
 }
@@ -19644,7 +19644,7 @@
 ## c_uuii_p_3912
 # RENDAINU
 3912 = {
-	culture = goguryeo
+	culture = mahan
 	religion = yemaek_shamanism
 	holding = castle_holding
 }
@@ -19734,7 +19734,7 @@
 ## c_uuii_p_3913
 # FASHOUZHI
 3913 = {
-	culture = goguryeo
+	culture = mahan
 	religion = yemaek_shamanism
 	holding = castle_holding
 }
@@ -19880,7 +19880,7 @@
 ## c_uuii_p_3904
 # SHAREYI
 3904 = {
-	culture = goguryeo
+	culture = jinhan
 	religion = yemaek_shamanism
 	holding = castle_holding
 }
@@ -19888,7 +19888,7 @@
 ## c_uuii_p_3911
 # SHESHAN
 3911 = {
-	culture = goguryeo
+	culture = mahan
 	religion = yemaek_shamanism
 	holding = castle_holding
 }
@@ -19904,7 +19904,7 @@
 ## c_uuii_p_3373
 # BEIMI
 3373 = {
-	culture = goguryeo
+	culture = mahan
 	religion = yemaek_shamanism
 	holding = castle_holding
 }
@@ -19919,7 +19919,7 @@
 ## c_uuii_p_3887
 # PINGSHI1
 3887 = {
-	culture = goguryeo
+	culture = ye
 	religion = yemaek_shamanism
 	holding = castle_holding
 }
@@ -19957,7 +19957,7 @@
 ## c_uuii_p_3325
 # BUSIFENXIE
 3325 = {
-	culture = mahan
+	culture = zhouhu
 	religion = yemaek_shamanism
 	holding = castle_holding
 }
@@ -20039,7 +20039,7 @@
 ## c_uuii_p_3922
 # KANJIN
 3922 = {
-	culture = mahan
+	culture = zhouhu
 	religion = yemaek_shamanism
 	holding = castle_holding
 }
@@ -20081,7 +20081,7 @@
 ## c_uuii_p_6525
 # PROVINCE_6597
 6525 = {
-	culture = yelang
+	culture = boren
 	religion = wugui
 	holding = castle_holding
 }
@@ -20143,7 +20143,7 @@
 ## c_uuii_p_6658
 # PROVINCE_6736
 6658 = {
-	culture = kunming
+	culture = baipu
 	religion = wugui
 	holding = castle_holding
 }
@@ -20241,7 +20241,7 @@
 ## c_uuii_p_4788
 # SUAMPRABON
 4788 = {
-	culture = nanman
+	culture = boren
 	religion = wugui
 	holding = castle_holding
 }
@@ -20249,14 +20249,14 @@
 ## c_uuii_p_5290
 # WUCHUAN_SINAN
 5290 = {
-	culture = nanman
+	culture = boren
 	religion = wugui
 	holding = castle_holding
 }
 ## c_uuii_p_5291
 # DEJIANG
 5291 = {
-	culture = yelang
+	culture = liaoren
 	religion = wugui
 	holding = castle_holding
 }
@@ -20270,7 +20270,7 @@
 }
 # YANHE
 5294 = {
-	culture = nanman
+	culture = boren
 	religion = wugui
 	holding = castle_holding
 }
@@ -20278,14 +20278,14 @@
 ## c_uuii_p_5295
 # SHUITEJIANG
 5295 = {
-	culture = yelang
+	culture = boren
 	religion = wugui
 	holding = castle_holding
 }
 ## c_uuii_p_5297
 # PANQIAO
 5297 = {
-	culture = yelang
+	culture = baipu
 	religion = wugui
 	holding = castle_holding
 }
@@ -20333,7 +20333,7 @@
 ## c_uuii_p_5314
 # GUANGXI
 5314 = {
-	culture = nanman
+	culture = liaoren
 	religion = wugui
 	holding = castle_holding
 }
@@ -20482,7 +20482,7 @@
 ## c_uuii_p_5340
 # ZHIZILUO
 5340 = {
-	culture = yelang
+	culture = liaoren
 	religion = wugui
 	holding = castle_holding
 }
@@ -20555,7 +20555,7 @@
 }
 # RONGSHAN
 5364 = {
-	culture = yelang
+	culture = liaoren
 	religion = wugui
 	holding = castle_holding
 }
@@ -20597,7 +20597,7 @@
 ## c_uuii_p_5372
 # SUIYANG
 5372 = {
-	culture = nanman
+	culture = boren
 	religion = wugui
 	holding = castle_holding
 }
@@ -20612,14 +20612,14 @@
 ## c_uuii_p_5380
 # HUILI
 5380 = {
-	culture = dian
+	culture = baipu
 	religion = wugui
 	holding = castle_holding
 }
 ## c_uuii_p_5381
 # KUOZHOU
 5381 = {
-	culture = zuodu
+	culture = souyi
 	religion = wugui
 	holding = castle_holding
 }
@@ -20728,7 +20728,7 @@
 ## c_uuii_p_5655
 # PROVINCE_5697
 5655 = {
-	culture = zuodu
+	culture = souyi
 	religion = wugui
 	holding = castle_holding
 }
@@ -20736,7 +20736,7 @@
 ## c_uuii_p_5667
 # PROVINCE_5709
 5667 = {
-	culture = yelang
+	culture = baipu
 	religion = wugui
 	holding = castle_holding
 }
@@ -20775,7 +20775,7 @@
 ## c_uuii_p_5699
 # PROVINCE_5744
 5699 = {
-	culture = kunming
+	culture = souyi
 	religion = wugui
 	holding = castle_holding
 }
@@ -20791,7 +20791,7 @@
 ## c_uuii_p_5711
 # PROVINCE_5756
 5711 = {
-	culture = nanman
+	culture = baipu
 	religion = wugui
 	holding = castle_holding
 }
@@ -20899,7 +20899,7 @@
 ## c_uuii_p_5910
 # PROVINCE_5960
 5910 = {
-	culture = yelang
+	culture = boren
 	religion = wugui
 	holding = castle_holding
 }
@@ -20955,7 +20955,7 @@
 ## c_uuii_p_5980
 # PROVINCE_6033
 5980 = {
-	culture = zuodu
+	culture = souyi
 	religion = wugui
 	holding = castle_holding
 }
@@ -21017,7 +21017,7 @@
 ## c_uuii_p_6088
 # PROVINCE_6145
 6088 = {
-	culture = yelang
+	culture = liaoren
 	religion = wugui
 	holding = castle_holding
 }
@@ -21065,14 +21065,14 @@
 ## c_uuii_p_6177
 # PROVINCE_6235
 6177 = {
-	culture = yelang
+	culture = boren
 	religion = wugui
 	holding = castle_holding
 }
 ## c_uuii_p_6185
 # PROVINCE_6243
 6185 = {
-	culture = yelang
+	culture = boren
 	religion = wugui
 	holding = castle_holding
 }
@@ -23868,7 +23868,7 @@
 }
 # FAN3
 969 = {
-	culture = han
+	culture = dongqiang
 	religion = jingxue
 	holding = castle_holding
 }
@@ -25049,7 +25049,7 @@
 }
 # XINLI
 964 = {
-	culture = zhongqiang
+	culture = dongqiang
 	religion = jingxue
 	holding = castle_holding
 }
@@ -25132,7 +25132,7 @@
 ## c_uuii_p_937
 # HUAYUAN
 937 = {
-	culture = han
+	culture = dongqiang
 	religion = jingxue
 	holding = castle_holding
 }
@@ -25238,7 +25238,7 @@
 }
 # FENGHUANGGU
 929 = {
-	culture = han
+	culture = dongqiang
 	religion = jingxue
 	holding = castle_holding
 }
@@ -25793,7 +25793,7 @@
 ## c_uuii_p_5028
 # LIYANG_LIZHOU
 5028 = {
-	culture = pulei
+	culture = xiongnu
 	religion = tengri_pagan
 	holding = castle_holding
 }
@@ -26258,7 +26258,7 @@
 ## c_uuii_p_6454
 # PROVINCE_6524
 6454 = {
-	culture = shanshan
+	culture = ruoqiang
 	religion = mahayana
 	holding = castle_holding
 }
@@ -26700,7 +26700,7 @@
 ## c_uuii_p_4976
 # FENNING
 4976 = {
-	culture = xianbei
+	culture = ruoqiang
 	religion = xianbei_polytheism
 	holding = castle_holding
 }
@@ -27135,14 +27135,14 @@
 ## c_uuii_p_2855
 # CHANGLU
 2855 = {
-	culture = wa
+	culture = emishi
 	religion = fusang_pagan
 	holding = castle_holding
 }
 ## c_uuii_p_4352
 # QINYUAN
 4352 = {
-	culture = wa
+	culture = emishi
 	religion = fusang_pagan
 	holding = castle_holding
 }
@@ -27162,14 +27162,14 @@
 }
 # WUDAI
 4436 = {
-	culture = wa
+	culture = emishi
 	religion = fusang_pagan
 	holding = castle_holding
 }
 ## c_uuii_p_2849
 # SHANGZONG
 2849 = {
-	culture = wa
+	culture = emishi
 	religion = fusang_pagan
 	holding = castle_holding
 }
@@ -27197,7 +27197,7 @@
 ## c_uuii_p_4342
 # YUJIN
 4342 = {
-	culture = wa
+	culture = emishi
 	religion = fusang_pagan
 	holding = castle_holding
 }
@@ -27232,7 +27232,7 @@
 ## c_uuii_p_2829
 # FEIYI
 2829 = {
-	culture = wa
+	culture = emishi
 	religion = fusang_pagan
 	holding = castle_holding
 }
@@ -27240,7 +27240,7 @@
 ## c_uuii_p_3561
 # PANJING
 3561 = {
-	culture = wa
+	culture = emishi
 	religion = fusang_pagan
 	holding = castle_holding
 }
@@ -27295,7 +27295,7 @@
 }
 # YUYE
 4314 = {
-	culture = wa
+	culture = emishi
 	religion = fusang_pagan
 	holding = castle_holding
 }
@@ -27334,14 +27334,14 @@
 }
 # XINTIAN1
 4402 = {
-	culture = wa
+	culture = emishi
 	religion = fusang_pagan
 	holding = castle_holding
 }
 ## c_uuii_p_2880
 # NENGDENG
 2880 = {
-	culture = wa
+	culture = emishi
 	religion = fusang_pagan
 	holding = castle_holding
 }
@@ -27393,7 +27393,7 @@
 ## c_uuii_p_4372
 # ZUOJIU
 4372 = {
-	culture = wa
+	culture = emishi
 	religion = fusang_pagan
 	holding = castle_holding
 }
@@ -30798,7 +30798,7 @@
 ## c_uuii_p_4953
 # DEXING
 4953 = {
-	culture = shanyue
+	culture = ganyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -30830,7 +30830,7 @@
 ## c_uuii_p_4957
 # FULIANG
 4957 = {
-	culture = shanyue
+	culture = ganyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -30883,7 +30883,7 @@
 ## c_uuii_p_4974
 # XINJIAN
 4974 = {
-	culture = yangzhou
+	culture = ganyue
 	religion = jingxue
 	holding = castle_holding
 }
@@ -30942,7 +30942,7 @@
 ## c_uuii_p_5085
 # BASAI
 5085 = {
-	culture = nanyue
+	culture = minyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -30973,7 +30973,7 @@
 }
 # BABUZA
 5090 = {
-	culture = nanyue
+	culture = minyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -31006,7 +31006,7 @@
 }
 # MAKATAO
 5095 = {
-	culture = nanyue
+	culture = minyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -31020,7 +31020,7 @@
 ## c_uuii_p_5127
 # CHANGLE_XUNZHOU
 5127 = {
-	culture = nanyue
+	culture = minyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -31088,7 +31088,7 @@
 }
 # HEPING
 5153 = {
-	culture = nanyue
+	culture = minyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -31223,7 +31223,7 @@
 ## c_uuii_p_5395
 # PROVINCE_5415
 5395 = {
-	culture = shanyue
+	culture = dongou
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -31247,7 +31247,7 @@
 ## c_uuii_p_5538
 # PROVINCE_5425
 5403 = {
-	culture = nanyue
+	culture = minyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -31263,7 +31263,7 @@
 ## c_uuii_p_5622
 # PROVINCE_5428
 5406 = {
-	culture = yangzhou
+	culture = ganyue
 	religion = jingxue
 	holding = castle_holding
 }
@@ -31349,7 +31349,7 @@
 ## c_uuii_p_5429
 # PROVINCE_5457
 5429 = {
-	culture = shanyue
+	culture = ganyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -31450,7 +31450,7 @@
 ## c_uuii_p_5467
 # PROVINCE_5498
 5467 = {
-	culture = shanyue
+	culture = ganyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -31474,7 +31474,7 @@
 ## c_uuii_p_6299
 # PROVINCE_5509
 5477 = {
-	culture = shanyue
+	culture = ganyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -31489,7 +31489,7 @@
 ## c_uuii_p_5479
 # PROVINCE_5511
 5479 = {
-	culture = shanyue
+	culture = dongou
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -31591,7 +31591,7 @@
 ## c_uuii_p_5531
 # PROVINCE_5565
 5531 = {
-	culture = shanyue
+	culture = minyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -31662,7 +31662,7 @@
 ## c_uuii_p_5551
 # PROVINCE_5585
 5551 = {
-	culture = shanyue
+	culture = minyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -31678,7 +31678,7 @@
 ## c_uuii_p_5561
 # PROVINCE_5597
 5561 = {
-	culture = shanyue
+	culture = ganyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -31718,7 +31718,7 @@
 ## c_uuii_p_5570
 # PROVINCE_5607
 5570 = {
-	culture = shanyue
+	culture = ganyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -31742,7 +31742,7 @@
 ## c_uuii_p_6713
 # PROVINCE_5615
 5578 = {
-	culture = nanyue
+	culture = minyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -31827,7 +31827,7 @@
 ## c_uuii_p_6336
 # PROVINCE_5659
 5619 = {
-	culture = shanyue
+	culture = ganyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -31883,7 +31883,7 @@
 ## c_uuii_p_5641
 # PROVINCE_5683
 5641 = {
-	culture = nanyue
+	culture = minyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -31995,7 +31995,7 @@
 ## c_uuii_p_5691
 # PROVINCE_5736
 5691 = {
-	culture = yangzhou
+	culture = ganyue
 	religion = jingxue
 	holding = castle_holding
 }
@@ -32043,7 +32043,7 @@
 ## c_uuii_p_5700
 # PROVINCE_5745
 5700 = {
-	culture = shanyue
+	culture = ganyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -32139,7 +32139,7 @@
 ## c_uuii_p_5725
 # PROVINCE_5770
 5725 = {
-	culture = shanyue
+	culture = dongou
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -32155,7 +32155,7 @@
 ## c_uuii_p_5727
 # PROVINCE_5772
 5727 = {
-	culture = nanyue
+	culture = minyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -32259,7 +32259,7 @@
 ## c_uuii_p_5752
 # PROVINCE_5797
 5752 = {
-	culture = shanyue
+	culture = ganyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -32290,7 +32290,7 @@
 ## c_uuii_p_6742
 # PROVINCE_5803
 5758 = {
-	culture = shanyue
+	culture = ganyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -32322,7 +32322,7 @@
 ## c_uuii_p_5768
 # PROVINCE_5813
 5768 = {
-	culture = yangzhou
+	culture = ganyue
 	religion = jingxue
 	holding = castle_holding
 }
@@ -32370,7 +32370,7 @@
 ## c_uuii_p_5778
 # PROVINCE_5824
 5778 = {
-	culture = shanyue
+	culture = dongou
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -32553,7 +32553,7 @@
 ## c_uuii_p_5851
 # PROVINCE_5899
 5851 = {
-	culture = yangzhou
+	culture = ganyue
 	religion = jingxue
 	holding = castle_holding
 }
@@ -32561,7 +32561,7 @@
 ## c_uuii_p_5855
 # PROVINCE_5903
 5855 = {
-	culture = yangzhou
+	culture = dongou
 	religion = jingxue
 	holding = castle_holding
 }
@@ -32665,7 +32665,7 @@
 ## c_uuii_p_5908
 # PROVINCE_5958
 5908 = {
-	culture = yangzhou
+	culture = dongou
 	religion = jingxue
 	holding = castle_holding
 }
@@ -32761,7 +32761,7 @@
 ## c_uuii_p_5960
 # PROVINCE_6012
 5960 = {
-	culture = shanyue
+	culture = dongou
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -32849,7 +32849,7 @@
 ## c_uuii_p_5995
 # PROVINCE_6048
 5995 = {
-	culture = shanyue
+	culture = minyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -32857,7 +32857,7 @@
 ## c_uuii_p_5996
 # PROVINCE_6049
 5996 = {
-	culture = yangzhou
+	culture = ganyue
 	religion = jingxue
 	holding = castle_holding
 }
@@ -32881,7 +32881,7 @@
 ## c_uuii_p_6016
 # PROVINCE_6071
 6016 = {
-	culture = nanyue
+	culture = minyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -32904,7 +32904,7 @@
 ## c_uuii_p_6021
 # PROVINCE_6076
 6021 = {
-	culture = nanyue
+	culture = minyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -32919,7 +32919,7 @@
 ## c_uuii_p_6024
 # PROVINCE_6079
 6024 = {
-	culture = nanyue
+	culture = ganyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -32966,7 +32966,7 @@
 ## c_uuii_p_6039
 # PROVINCE_6095
 6039 = {
-	culture = shanyue
+	culture = dongou
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -33006,7 +33006,7 @@
 ## c_uuii_p_6053
 # PROVINCE_6109
 6053 = {
-	culture = yangzhou
+	culture = shanyue
 	religion = jingxue
 	holding = castle_holding
 }
@@ -33014,7 +33014,7 @@
 ## c_uuii_p_6060
 # PROVINCE_6116
 6060 = {
-	culture = shanyue
+	culture = ganyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -33022,7 +33022,7 @@
 ## c_uuii_p_6065
 # PROVINCE_6122
 6065 = {
-	culture = nanyue
+	culture = minyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -33116,7 +33116,7 @@
 ## c_uuii_p_6091
 # PROVINCE_6148
 6091 = {
-	culture = shanyue
+	culture = ganyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -33180,7 +33180,7 @@
 ## c_uuii_p_6105
 # PROVINCE_6162
 6105 = {
-	culture = shanyue
+	culture = dongou
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -33196,14 +33196,14 @@
 ## c_uuii_p_6110
 # PROVINCE_6167
 6110 = {
-	culture = shanyue
+	culture = ganyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
 ## c_uuii_p_6111
 # PROVINCE_6168
 6111 = {
-	culture = shanyue
+	culture = ganyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -33227,7 +33227,7 @@
 ## c_uuii_p_6116
 # PROVINCE_6173
 6116 = {
-	culture = shanyue
+	culture = ganyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -33373,7 +33373,7 @@
 ## c_uuii_p_6173
 # PROVINCE_6231
 6173 = {
-	culture = shanyue
+	culture = minyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -33493,7 +33493,7 @@
 ## c_uuii_p_6212
 # PROVINCE_6271
 6212 = {
-	culture = nanyue
+	culture = minyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -33532,7 +33532,7 @@
 ## c_uuii_p_6235
 # PROVINCE_6295
 6235 = {
-	culture = yangzhou
+	culture = shanyue
 	religion = jingxue
 	holding = castle_holding
 }
@@ -33627,7 +33627,7 @@
 ## c_uuii_p_6269
 # PROVINCE_6329
 6269 = {
-	culture = yangzhou
+	culture = ganyue
 	religion = jingxue
 	holding = castle_holding
 }
@@ -33657,7 +33657,7 @@
 ## c_uuii_p_6277
 # PROVINCE_6337
 6277 = {
-	culture = shanyue
+	culture = ganyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -33721,7 +33721,7 @@
 ## c_uuii_p_6310
 # PROVINCE_6374
 6310 = {
-	culture = shanyue
+	culture = ganyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -33729,7 +33729,7 @@
 ## c_uuii_p_6311
 # PROVINCE_6375
 6311 = {
-	culture = shanyue
+	culture = dongou
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -33745,7 +33745,7 @@
 ## c_uuii_p_6315
 # PROVINCE_6379
 6315 = {
-	culture = shanyue
+	culture = dongou
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -33919,7 +33919,7 @@
 ## c_uuii_p_6388
 # PROVINCE_6456
 6388 = {
-	culture = shanyue
+	culture = ganyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -33927,7 +33927,7 @@
 ## c_uuii_p_6393
 # PROVINCE_6461
 6393 = {
-	culture = shanyue
+	culture = dongou
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -33996,7 +33996,7 @@
 ## c_uuii_p_6428
 # PROVINCE_6498
 6428 = {
-	culture = shanyue
+	culture = ganyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -34027,7 +34027,7 @@
 ## c_uuii_p_6737
 # PROVINCE_6522
 6452 = {
-	culture = shanyue
+	culture = ganyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -34114,7 +34114,7 @@
 ## c_uuii_p_6487
 # PROVINCE_6559
 6487 = {
-	culture = nanyue
+	culture = minyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -34122,7 +34122,7 @@
 ## c_uuii_p_6489
 # PROVINCE_6561
 6489 = {
-	culture = nanyue
+	culture = minyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -34307,7 +34307,7 @@
 ## c_uuii_p_6516
 # PROVINCE_6588
 6516 = {
-	culture = shanyue
+	culture = ganyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -34564,7 +34564,7 @@
 ## c_uuii_p_6552
 # PROVINCE_6625
 6552 = {
-	culture = nanyue
+	culture = shanyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -34667,7 +34667,7 @@
 ## c_uuii_p_6564
 # PROVINCE_6637
 6564 = {
-	culture = nanyue
+	culture = minyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -35144,7 +35144,7 @@
 ## c_uuii_p_6643
 # PROVINCE_6721
 6643 = {
-	culture = shanyue
+	culture = minyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -35212,7 +35212,7 @@
 ## c_uuii_p_6657
 # PROVINCE_6735
 6657 = {
-	culture = nanyue
+	culture = shanyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -35244,7 +35244,7 @@
 ## c_uuii_p_6661
 # PROVINCE_6739
 6661 = {
-	culture = nanyue
+	culture = ganyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -35350,7 +35350,7 @@
 ## c_uuii_p_2066
 # 
 2066 = {
-	culture = yangzhou
+	culture = ganyue
 	religion = jingxue
 	holding = castle_holding
 }
@@ -35441,7 +35441,7 @@
 }
 # 
 2059 = {
-	culture = yangzhou
+	culture = ganyue
 	religion = jingxue
 	holding = castle_holding
 }
@@ -35919,7 +35919,7 @@
 ## c_uuii_p_6779
 # PROVINCE_6866
 6779 = {
-	culture = shanyue
+	culture = dongou
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -35963,7 +35963,7 @@
 ## c_uuii_p_6787
 # PROVINCE_6875
 6787 = {
-	culture = shanyue
+	culture = ganyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -36141,7 +36141,7 @@
 ## c_uuii_p_6812
 # PROVINCE_6904
 6812 = {
-	culture = yangzhou
+	culture = ganyue
 	religion = jingxue
 	holding = castle_holding
 }
@@ -36247,7 +36247,7 @@
 ## c_uuii_p_6827
 # PROVINCE_6921
 6827 = {
-	culture = shanyue
+	culture = ganyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -36708,7 +36708,7 @@
 ## c_uuii_p_4790
 # TAIPING_NINGGUO
 4790 = {
-	culture = shanyue
+	culture = ganyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -36795,7 +36795,7 @@
 ## c_uuii_p_4803
 # QINGYANG
 4803 = {
-	culture = shanyue
+	culture = ganyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -37024,7 +37024,7 @@
 ## c_uuii_p_4838
 # JINHUA
 4838 = {
-	culture = yangzhou
+	culture = shanyue
 	religion = jingxue
 	holding = castle_holding
 }
@@ -37038,7 +37038,7 @@
 ## c_uuii_p_5613
 # YUYAO
 4840 = {
-	culture = shanyue
+	culture = dongou
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -37058,7 +37058,7 @@
 ## c_uuii_p_4843
 # XINCHANG
 4843 = {
-	culture = shanyue
+	culture = dongou
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -37202,7 +37202,7 @@
 }
 # JIANYANG
 4863 = {
-	culture = shanyue
+	culture = minyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -37215,7 +37215,7 @@
 }
 # SONGXI
 4865 = {
-	culture = shanyue
+	culture = minyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -37250,7 +37250,7 @@
 ## c_uuii_p_4870
 # CHANGLE_FUJIAN
 4870 = {
-	culture = nanyue
+	culture = minyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -37277,21 +37277,21 @@
 }
 # LUOYUAN
 4874 = {
-	culture = shanyue
+	culture = minyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
 ## c_uuii_p_4875
 # MINQING
 4875 = {
-	culture = yangzhou
+	culture = minyue
 	religion = jingxue
 	holding = castle_holding
 }
 ## c_uuii_p_4876
 # CHANGSHI
 4876 = {
-	culture = shanyue
+	culture = minyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -37325,14 +37325,14 @@
 ## c_uuii_p_5659
 # XIANYOU
 4881 = {
-	culture = nanyue
+	culture = minyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
 ## c_uuii_p_4882
 # PUTIAN
 4882 = {
-	culture = nanyue
+	culture = minyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -37367,14 +37367,14 @@
 ## c_uuii_p_4887
 # SHAXIAN
 4887 = {
-	culture = nanyue
+	culture = minyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
 ## c_uuii_p_4888
 # YOUXI
 4888 = {
-	culture = yangzhou
+	culture = minyue
 	religion = jingxue
 	holding = castle_holding
 }
@@ -37394,7 +37394,7 @@
 ## c_uuii_p_4891
 # NINGHUA_TINGZHOU
 4891 = {
-	culture = nanyue
+	culture = minyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -37431,7 +37431,7 @@
 ## c_uuii_p_4896
 # SHANGHANG
 4896 = {
-	culture = nanyue
+	culture = minyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -37445,14 +37445,14 @@
 ## c_uuii_p_4898
 # NANAN_QUANZHOU
 4898 = {
-	culture = nanyue
+	culture = minyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
 ## c_uuii_p_4899
 # HUIAN
 4899 = {
-	culture = nanyue
+	culture = minyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -37531,7 +37531,7 @@
 ## c_uuii_p_4912
 # ZHANGPING
 4912 = {
-	culture = nanyue
+	culture = minyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -37609,7 +37609,7 @@
 ## c_uuii_p_4922
 # GANXIAN
 4922 = {
-	culture = nanyue
+	culture = ganyue
 	religion = baiyuefanlin
 	holding = castle_holding
 }
@@ -40198,7 +40198,7 @@
 ## c_uuii_p_3207
 # FENGDU
 3207 = {
-	culture = banshun
+	culture = liaoren
 	religion = guiwu
 	holding = castle_holding
 }
@@ -40214,7 +40214,7 @@
 ## c_uuii_p_3254
 # SUISHAN
 3254 = {
-	culture = ranpang
+	culture = qingyi
 	religion = guiwu
 	holding = castle_holding
 }
@@ -40350,7 +40350,7 @@
 ## c_uuii_p_3141
 # MOTIANLING
 3141 = {
-	culture = diren
+	culture = baima
 	religion = guiwu
 	holding = castle_holding
 }
@@ -40372,7 +40372,7 @@
 }
 # PSHAN
 3256 = {
-	culture = ranpang
+	culture = qingyi
 	religion = guiwu
 	holding = castle_holding
 }
@@ -40388,7 +40388,7 @@
 ## c_uuii_p_7006
 # PROVINCE_7100
 7006 = {
-	culture = nanman
+	culture = liaoren
 	religion = guiwu
 	holding = castle_holding
 }
@@ -40396,7 +40396,7 @@
 ## c_uuii_p_3104
 # PINGQIANG
 3728 = {
-	culture = ranpang
+	culture = qingyi
 	religion = guiwu
 	holding = castle_holding
 }
@@ -40460,14 +40460,14 @@
 ## c_uuii_p_3259
 # LUSHAN
 3259 = {
-	culture = qiongdu
+	culture = souyi
 	religion = guiwu
 	holding = castle_holding
 }
 ## c_uuii_p_3260
 # RONGJING
 3260 = {
-	culture = qiongdu
+	culture = souyi
 	religion = guiwu
 	holding = castle_holding
 }
@@ -40567,7 +40567,7 @@
 ## c_uuii_p_3726
 # TONGYI
 3726 = {
-	culture = ranpang
+	culture = qingyi
 	religion = guiwu
 	holding = castle_holding
 }
@@ -40606,7 +40606,7 @@
 ## c_uuii_p_3218
 # HEJIANG
 3218 = {
-	culture = nanman
+	culture = qingyi
 	religion = guiwu
 	holding = castle_holding
 }
@@ -40717,7 +40717,7 @@
 ## c_uuii_p_3724
 # JIDONGGUAN
 3724 = {
-	culture = ranpang
+	culture = souyi
 	religion = guiwu
 	holding = castle_holding
 }
@@ -40959,7 +40959,7 @@
 ## c_uuii_p_3731
 # ZHIGEZHEN
 3731 = {
-	culture = ranpang
+	culture = souyi
 	religion = guiwu
 	holding = castle_holding
 }
@@ -41144,7 +41144,7 @@
 ## c_uuii_p_3222
 # MIANSHUI
 3222 = {
-	culture = nanman
+	culture = qingyi
 	religion = guiwu
 	holding = castle_holding
 }
@@ -41263,7 +41263,7 @@
 ## c_uuii_p_3226
 # KAIBIAN
 3226 = {
-	culture = nanman
+	culture = qingyi
 	religion = guiwu
 	holding = castle_holding
 }
@@ -41355,7 +41355,7 @@
 ## c_uuii_p_3229
 # NANXI
 3229 = {
-	culture = banshun
+	culture = qingyi
 	religion = guiwu
 	holding = castle_holding
 }
@@ -41489,7 +41489,7 @@
 ## c_uuii_p_3096
 # LUZHOU
 3096 = {
-	culture = banshun
+	culture = qingyi
 	religion = guiwu
 	holding = castle_holding
 }
@@ -41711,7 +41711,7 @@
 }
 # PROVINCE_4729
 4719 = {
-	culture = banshun
+	culture = liaoren
 	religion = guiwu
 	holding = castle_holding
 }
@@ -41885,7 +41885,7 @@
 ## c_uuii_p_3122
 # BAISHUI1
 3122 = {
-	culture = diren
+	culture = baima
 	religion = guiwu
 	holding = castle_holding
 }
@@ -41908,7 +41908,7 @@
 ## c_uuii_p_2824
 # PROVINCE_2827
 2824 = {
-	culture = banshun
+	culture = liaoren
 	religion = guiwu
 	holding = castle_holding
 }
@@ -42023,7 +42023,7 @@
 ## c_uuii_p_3159
 # SUINING
 3159 = {
-	culture = banshun
+	culture = liaoren
 	religion = guiwu
 	holding = castle_holding
 }
@@ -42047,7 +42047,7 @@
 ## c_uuii_p_3236
 # ZIYANG
 3236 = {
-	culture = ranpang
+	culture = liaoren
 	religion = guiwu
 	holding = castle_holding
 }
@@ -42134,7 +42134,7 @@
 ## c_uuii_p_3238
 # LONGSHUI
 3238 = {
-	culture = banshun
+	culture = liaoren
 	religion = guiwu
 	holding = castle_holding
 }
@@ -42338,7 +42338,7 @@
 ## c_uuii_p_5354
 # RONGXIAN
 5354 = {
-	culture = nanman
+	culture = boren
 	religion = guiwu
 	holding = castle_holding
 }
@@ -42369,7 +42369,7 @@
 ## c_uuii_p_3243
 # SHIJIAN1
 3243 = {
-	culture = banshun
+	culture = qingyi
 	religion = guiwu
 	holding = castle_holding
 }
@@ -42595,7 +42595,7 @@
 ## c_uuii_p_5379
 # DANLENG
 5382 = {
-	culture = qiongdu
+	culture = souyi
 	religion = guiwu
 	holding = castle_holding
 }
@@ -42807,7 +42807,7 @@
 ## c_uuii_p_3249
 # QIANWEI
 3249 = {
-	culture = ranpang
+	culture = qingyi
 	religion = guiwu
 	holding = castle_holding
 }
@@ -43329,7 +43329,7 @@
 ## c_uuii_p_3422
 # SIWANG
 3422 = {
-	culture = goguryeo
+	culture = fuyu
 	religion = jingxue
 	holding = castle_holding
 }

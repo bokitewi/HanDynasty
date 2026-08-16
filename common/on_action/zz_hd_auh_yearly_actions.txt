@@ -1,4 +1,4 @@
-hd_auh_dynastic_cycle_yearly_on_action = {
+﻿hd_auh_dynastic_cycle_yearly_on_action = {
 	effect = {
 		# A missing Son of Heaven always means that China has entered Chaos.
 		if = {
@@ -29,14 +29,12 @@ hd_auh_dynastic_cycle_yearly_on_action = {
 					}
 					every_tributary = {
 						limit = { subject_standing >= 1 }
-						add_subject_standing = {
-							value = {
-								value = -2
-								min = {
-									value = subject_standing
-									multiply = -1
-								}
-							}
+						if = {
+							limit = { subject_standing >= 2 }
+							add_subject_standing = -2
+						}
+						else = {
+							add_subject_standing = -1
 						}
 					}
 				}

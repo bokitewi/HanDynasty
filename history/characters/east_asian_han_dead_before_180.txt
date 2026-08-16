@@ -14310,7 +14310,7 @@ zhang_man_cheng={
 	110.7.1={
 		birth=yes
 	}
-	175.7.1={
+	184.7.1={
 		death=yes
 	}
 }

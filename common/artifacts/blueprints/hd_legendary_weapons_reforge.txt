@@ -1,0 +1,188 @@
+hd_cixiong_shuanggujian_to_court = {
+	in_type = sword
+	in_visuals = hd_cixiong_shuanggujian
+	out_type = pedestal
+	out_visuals = hd_cixiong_shuanggujian_court
+	template = hd_legendary_weapon_template
+	disallowed_modifiers = {
+		prowess
+		diplomacy
+		vassal_opinion
+		knight_effectiveness_mult
+	}
+	replacement_modifiers = {
+		illustrious = { hd_cixiong_shuanggujian_court_modifier }
+	}
+}
+
+hd_cixiong_shuanggujian_to_weapon = {
+	in_type = pedestal
+	in_visuals = hd_cixiong_shuanggujian_court
+	out_type = sword
+	out_visuals = hd_cixiong_shuanggujian
+	template = hd_legendary_weapon_template
+	disallowed_modifiers = {
+		court_grandeur_baseline_add
+		monthly_dynasty_prestige
+	}
+	replacement_modifiers = {
+		illustrious = { hd_cixiong_shuanggujian_weapon_modifier }
+	}
+}
+
+hd_zhangba_shemao_to_court = {
+	in_type = spear
+	in_visuals = hd_zhangba_shemao
+	out_type = pedestal
+	out_visuals = hd_zhangba_shemao_court
+	template = hd_legendary_weapon_template
+	disallowed_modifiers = {
+		prowess
+		martial
+		knight_effectiveness_mult
+		enemy_hard_casualty_modifier
+	}
+	replacement_modifiers = {
+		illustrious = { hd_zhangba_shemao_court_modifier }
+	}
+}
+
+hd_zhangba_shemao_to_weapon = {
+	in_type = pedestal
+	in_visuals = hd_zhangba_shemao_court
+	out_type = spear
+	out_visuals = hd_zhangba_shemao
+	template = hd_legendary_weapon_template
+	disallowed_modifiers = {
+		court_grandeur_baseline_add
+	}
+	replacement_modifiers = {
+		illustrious = { hd_zhangba_shemao_weapon_modifier }
+	}
+}
+
+hd_liangyin_qiang_to_court = {
+	in_type = spear
+	in_visuals = hd_liangyin_qiang
+	out_type = pedestal
+	out_visuals = hd_liangyin_qiang_court
+	template = hd_legendary_weapon_template
+	disallowed_modifiers = {
+		prowess
+		martial
+		knight_effectiveness_mult
+		hard_casualty_modifier
+	}
+	replacement_modifiers = {
+		illustrious = { hd_liangyin_qiang_court_modifier }
+	}
+}
+
+hd_liangyin_qiang_to_weapon = {
+	in_type = pedestal
+	in_visuals = hd_liangyin_qiang_court
+	out_type = spear
+	out_visuals = hd_liangyin_qiang
+	template = hd_legendary_weapon_template
+	disallowed_modifiers = {
+		court_grandeur_baseline_add
+		monthly_dynasty_prestige
+	}
+	replacement_modifiers = {
+		illustrious = { hd_liangyin_qiang_weapon_modifier }
+	}
+}
+
+hd_shenwei_longdan_qiang_to_court = {
+	in_type = spear
+	in_visuals = hd_shenwei_longdan_qiang
+	out_type = pedestal
+	out_visuals = hd_shenwei_longdan_qiang_court
+	template = hd_legendary_weapon_template
+	disallowed_modifiers = {
+		prowess
+		martial
+		knight_effectiveness_mult
+		hard_casualty_modifier
+	}
+	replacement_modifiers = {
+		illustrious = { hd_shenwei_longdan_qiang_court_modifier }
+	}
+}
+
+hd_shenwei_longdan_qiang_to_weapon = {
+	in_type = pedestal
+	in_visuals = hd_shenwei_longdan_qiang_court
+	out_type = spear
+	out_visuals = hd_shenwei_longdan_qiang
+	template = hd_legendary_weapon_template
+	disallowed_modifiers = {
+		court_grandeur_baseline_add
+		monthly_dynasty_prestige
+	}
+	replacement_modifiers = {
+		illustrious = { hd_shenwei_longdan_qiang_weapon_modifier }
+	}
+}
+
+hd_hao_longdan_to_court = {
+	in_type = spear
+	in_visuals = hd_hao_longdan
+	out_type = pedestal
+	out_visuals = hd_hao_longdan_court
+	template = hd_legendary_weapon_template
+	disallowed_modifiers = {
+		prowess
+		martial
+		knight_effectiveness_mult
+		enemy_hard_casualty_modifier
+	}
+	replacement_modifiers = {
+		illustrious = { hd_hao_longdan_court_modifier }
+	}
+}
+
+hd_hao_longdan_to_weapon = {
+	in_type = pedestal
+	in_visuals = hd_hao_longdan_court
+	out_type = spear
+	out_visuals = hd_hao_longdan
+	template = hd_legendary_weapon_template
+	disallowed_modifiers = {
+		court_grandeur_baseline_add
+	}
+	replacement_modifiers = {
+		illustrious = { hd_hao_longdan_weapon_modifier }
+	}
+}
+
+hd_wushuang_fangtian_huaji_to_court = {
+	in_type = spear
+	in_visuals = hd_wushuang_fangtian_huaji
+	out_type = pedestal
+	out_visuals = hd_wushuang_fangtian_huaji_court
+	template = hd_legendary_weapon_template
+	disallowed_modifiers = {
+		prowess
+		martial
+		knight_effectiveness_mult
+		enemy_hard_casualty_modifier
+	}
+	replacement_modifiers = {
+		illustrious = { hd_wushuang_fangtian_huaji_court_modifier }
+	}
+}
+
+hd_wushuang_fangtian_huaji_to_weapon = {
+	in_type = pedestal
+	in_visuals = hd_wushuang_fangtian_huaji_court
+	out_type = spear
+	out_visuals = hd_wushuang_fangtian_huaji
+	template = hd_legendary_weapon_template
+	disallowed_modifiers = {
+		court_grandeur_baseline_add
+	}
+	replacement_modifiers = {
+		illustrious = { hd_wushuang_fangtian_huaji_weapon_modifier }
+	}
+}

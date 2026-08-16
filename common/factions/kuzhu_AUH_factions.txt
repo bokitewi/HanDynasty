@@ -146,7 +146,7 @@ kuzhu_install_warlord_faction = {
 	    	desc = "EP3_GRAND_AMBITIONS_STORY"
 	    	any_owned_story = {
 	    		type = grand_ambitions_story_cycle
-	    		var:target_char ?= top_liege
+	    		var:target_char ?= root.top_liege
 	    	}
 	    	factor = 1.5
 	    }
@@ -286,7 +286,7 @@ kuzhu_install_warlord_faction = {
 		base_faction_trigger = { FACTION_TYPE = kuzhu_install_warlord_faction }
 
 		common_can_character_create_trigger = {
-			FACTION_TARGET = top_liege
+			FACTION_TARGET = scope:target
 		}
 
 		#辖区掌控力
@@ -326,7 +326,7 @@ kuzhu_install_warlord_faction = {
 		#苦竹：转为军阀的条件
 		NOT = { has_character_flag = flag_kuzhu_new_governor }		
 		OR = {
-			government_has_flag = government_is_administrative
+			government_allows = administrative
 			government_has_flag = government_is_celestial
 			government_has_flag = government_is_meritocratic
 			government_has_flag = government_is_steppe_admin
@@ -344,7 +344,7 @@ kuzhu_install_warlord_faction = {
 
 	can_character_create = {
 		common_can_character_create_trigger = {
-			FACTION_TARGET = top_liege
+			FACTION_TARGET = scope:target
 		}
 		
 		#辖区掌控力
@@ -383,7 +383,7 @@ kuzhu_install_warlord_faction = {
 		#苦竹：转为军阀的条件
 		NOT = { has_character_flag = flag_kuzhu_new_governor }
 		OR = {
-			government_has_flag = government_is_administrative
+			government_allows = administrative
 			government_has_flag = government_is_celestial
 			government_has_flag = government_is_meritocratic
 			government_has_flag = government_is_steppe_admin
@@ -440,7 +440,7 @@ kuzhu_install_warlord_faction = {
 		#苦竹：转为军阀的条件
 		NOT = { has_character_flag = flag_kuzhu_new_governor }
 		OR = {
-			government_has_flag = government_is_administrative
+			government_allows = administrative
 			government_has_flag = government_is_celestial
 			government_has_flag = government_is_meritocratic
 			government_has_flag = government_is_steppe_admin
@@ -827,7 +827,7 @@ kuzhu_install_puppet_faction = {
 		base_faction_trigger = { FACTION_TYPE = kuzhu_install_puppet_faction }
 
 		common_can_character_create_trigger = {
-			FACTION_TARGET = top_liege
+			FACTION_TARGET = scope:target
 		}
 		# Bloc Cohesion requirement
 		japan_faction_cohesion_trigger = yes
@@ -881,7 +881,7 @@ kuzhu_install_puppet_faction = {
 	#2.可创建
 	can_character_create = {
 		common_can_character_create_trigger = {
-			FACTION_TARGET = top_liege
+			FACTION_TARGET = scope:target
 		}
 		# Bloc Cohesion requirement
 		japan_faction_cohesion_trigger = yes

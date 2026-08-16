@@ -34,6 +34,7 @@ kuzhu_entering_instability_effect = {
 		every_vassal = {
 			limit = {
 				is_ai = yes
+				is_landed = yes
 				NOT = { has_character_flag = flag_kuzhu_new_governor }
 				#忠诚相关
 				OR = { 
